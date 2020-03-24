@@ -10,5 +10,9 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v1
     - uses: yaananth/run-notebook@v1
+      env:
+        RUNNER: ${{ toJson(runner) }}
+        SECRETS: ${{ toJson(secrets) }}
+        GITHUB: ${{ toJson(github) }}
       with:
         notebook: lecture_0.ipynb
