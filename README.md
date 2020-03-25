@@ -6,6 +6,12 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
 
 ## Resources
 
+- [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
+  - Tutoring
+  - Math Review
+- [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
+  - Consultation
+  - Classes
 - [Stack Overflow](https://stackoverflow.com/)
 - Pandas
   - [Documentation](https://pandas.pydata.org/pandas-docs/stable/)

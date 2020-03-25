@@ -97,17 +97,6 @@ All submissions must be made using a Google Colab Notebook file that has to be u
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
-### Student Resources
-
-Wagner offers many quantitative and writing resources as well as skills workshops. The library also offers a variety of data services to students. Here is a short list of the resources most relevant to learning Python.
-
-- [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
-  - Tutoring
-  - Math Review
-- [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
-  - Consultation
-  - Classes
-
 ### Academic Integrity
 
 Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by Wagner's Academic Code. All Wagner students have already read and signed the Wagner Academic Oath. Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
