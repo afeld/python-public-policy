@@ -1,23 +1,23 @@
-# PADM-GP 4506 - Python Coding for Public Policy - Fall 2019
+# PADM-GP 4506 - Python Coding for Public Policy - Spring 2020
 
 ## Instructor Information
 
-- Hannah Kates
-- Email: hbk254@nyu.edu
+- Aidan Feldman
+- Email: alf9@nyu.edu
 - Office Hours: By appointment
 
-## Course Information:
+## Course Information
 
-- Class Meeting Times: Thurs, 10/ 24 - 12/ 12 6:45 - 8:25pm
-- Class Location: 194 Mercer Street, Room 305
+- Class Meeting Times: Thurs, 4/2-5/15 6:45-8:25pm
+- Class Location: Online (Zoom)
 
 ## Course Prerequisites
 
-- Statistics (CORE-GP 1011) or prior knowledge of statistics or programming
+- [Statistical Methods (CORE-GP 1011)](https://wagner.nyu.edu/education/courses/statistical-methods) or prior knowledge of statistics or programming
 
 ## Course Description
 
-This 7-week mini course exposes the students to the application and use of Python for data analytics in setting public policy. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the New York City 311 Service Requests dataset. It’s a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
+This 7-week mini course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
 
 The class period will be split into two parts in order to maximize hands-on learning time:
 
@@ -35,14 +35,14 @@ Students will learn how to use Python in the Google Colaboratory Notebook enviro
 
 #### What You Will Take Away
 
-Upon completion of the course, students will be able to
+Upon completion of the course, students will be able to:
 
 1. Use Python in the Google Colaboratory Notebook environment to understand data objects and how they relate to common analysis of public policy objectives and goals
 1. Use Python and popular Python libraries to read in, index, and manipulate data objects
 1. Conduct summary statistics on data to explore and understand its content
 1. Conduct linear regressions on data and interpret the outputs
 1. Produce plots and charts in order to better visualize and present insights from the data
-1. Use GitHub to share code which will serve as a portfolio for the students’ work
+1. Use GitHub to share code which will serve as a portfolio for the students' work
 
 ### Learning Resources
 
@@ -71,7 +71,7 @@ All announcements, resources, and assignments will be delivered through the NYU 
 
 ### Assignments and Evaluation
 
-There will be a total of 8 assignments, 7 of which will count towards the final grade. Students are encouraged to look at problem sets in advance of the class that’s relevant to the material being tested. This makes the classes more interactive and eases the completion of the assignments.
+There will be a total of 8 assignments, 7 of which will count towards the final grade. Students are encouraged to look at problem sets in advance of the class that's relevant to the material being tested. This makes the classes more interactive and eases the completion of the assignments.
 
 The Course Grade is based on the following:
 
@@ -98,27 +98,24 @@ Attendance is mandatory but most importantly, important. Learning programming re
 
 Wagner offers many quantitative and writing resources as well as skills workshops. The library also offers a variety of data services to students. Here is a short list of the resources most relevant to learning Python.
 
-Wagner Quantitative Resources:
-
-- Tutoring Schedule
-- Math Review: Resources and In-Person Session
-
-NYU Library Data Services:
-
-- Consultation
-- Classes
+- [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
+  - Tutoring
+  - Math Review
+- [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
+  - Consultation
+  - Classes
 
 ### Academic Integrity
 
-Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by Wagner’s Academic Code. All Wagner students have already read and signed the Wagner Academic Oath. Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
+Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by Wagner's Academic Code. All Wagner students have already read and signed the Wagner Academic Oath. Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
 
 ### Henry and Lucy Moses Center for Students with Disabilities at NYU
 
-Academic accommodations are available for students with disabilities. Please visit the Moses Center for Students with Disabilities (CSD) website and click on the Reasonable Accommodations and How to Register tab or call or email CSD at (212-998-4980 or mosescsd@nyu.edu) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
+Academic accommodations are available for students with disabilities. Please visit the [Moses Center for Students with Disabilities (CSD)](https://www.nyu.edu/about/leadership-university-administration/office-of-the-president/office-of-the-provost/university-life/office-of-studentaffairs/student-health-center/moses-center-for-students-with-disabilities.html) website and click on the Reasonable Accommodations and How to Register tab or call or email CSD at (212-998-4980 or mosescsd@nyu.edu) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
 
-### NYU’s Calendar Policy on Religious Holidays
+### NYU's Calendar Policy on Religious Holidays
 
-NYU’s Calendar Policy on Religious Holidays states that members of any religious group may, without penalty, absent themselves from classes when required in compliance with their religious obligations. Please notify me in advance of religious holidays that might coincide with exams to schedule mutually acceptable alternatives.
+NYU's [Calendar Policy on Religious Holidays](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/university-calendar-policy-on-religious-holidays.html) states that members of any religious group may, without penalty, absent themselves from classes when required in compliance with their religious obligations. Please notify me in advance of religious holidays that might coincide with exams to schedule mutually acceptable alternatives.
 
 ### Letter Grades
 
@@ -142,6 +139,6 @@ Student grades will be assigned according to the following criteria:
 - (A-) Very good: Very strong work for a graduate student. Work at this level shows signs of creativity, is thorough and well-reasoned, indicates strong understanding of appropriate methodological or analytical approaches, and meets professional standards.
 - (B+) Good: Sound work for a graduate student; well-reasoned and thorough, methodologically sound. This is the graduate student grade that indicates the student has fully accomplished the basic objectives of the course.
 - (B) Adequate: Competent work for a graduate student even though some weaknesses are evident. Demonstrates competency in the key course objectives but shows some indication that understanding of some important issues is less than complete. Methodological or analytical approaches used are adequate but student has not been thorough or has shown other weaknesses or limitations.
-- (B-) Borderline: Weak work for a graduate student; meets the minimal expectations for a graduate student in the course. Understanding of salient issues is somewhat incomplete. Methodological or analytical work performed in the course is minimally adequate. Overall performance, if consistent in graduate courses, would not suffice to sustain graduate status in “good standing.”
+- (B-) Borderline: Weak work for a graduate student; meets the minimal expectations for a graduate student in the course. Understanding of salient issues is somewhat incomplete. Methodological or analytical work performed in the course is minimally adequate. Overall performance, if consistent in graduate courses, would not suffice to sustain graduate status in "good standing."
 - (C/-/+) Deficient: Inadequate work for a graduate student; does not meet the minimal expectations for a graduate student in the course. Work is inadequately developed or flawed by numerous errors and misunderstanding of important issues. Methodological or analytical work performed is weak and fails to demonstrate knowledge or technical competence expected of graduate students.
 - (F) Fail: Work fails to meet even minimal expectations for course credit for a graduate student. Performance has been consistently weak in methodology and understanding, with serious limits in many areas. Weaknesses or limits are pervasive.
