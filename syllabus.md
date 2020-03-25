@@ -1,4 +1,8 @@
-# PADM-GP 4506 - Python Coding for Public Policy - Spring 2020
+<!-- convert to PDF using https://md2pdf.netlify.com/ -->
+
+[![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
+
+# Python Coding for Public Policy - Spring 2020
 
 ## Instructor Information
 
@@ -8,6 +12,7 @@
 
 ## Course Information
 
+- Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - Class Meeting Times: Thurs, 4/2-5/15 6:45-8:25pm
 - Class Location: Online (Zoom)
 
