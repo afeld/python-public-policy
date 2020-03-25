@@ -63,15 +63,15 @@ All announcements, resources, and assignments will be delivered through the NYU 
 
 ## Course Schedule
 
-| Lecture                                                                            | Date | Topics                                                                                           | Homework                                                 |
-| ---------------------------------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
-| [0](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Introduction to Python, Google Colab Notebook & GitHub. Opening data and exploring the contents  | HW0 due (survey & GitHub account creation), HW1 assigned |
-| [1](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Python data structures and Pandas. Data cleanup, iterating with "for" loops, basic summary stats | HW1 due, HW2 assigned                                    |
-| [2](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining Pandas DataFrames, writing functions                                  | HW2 due, HW3 assigned                                    |
-| [3](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                                                                               | HW3 due, HW4 assigned                                    |
-| [4](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Linear regression and inferential statistics                                                     | HW4 due, HW5 assigned                                    |
-| [5](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Working with dates and time series analysis                                                      | HW5 due, HW6 assigned                                    |
-| [6](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review course content and topics of student choice                                               | HW6 due, HW7 assigned - Due 12/19                        |
+| Lecture                                                                            | Date | Topics                                                                                           | Homework                                           |
+| ---------------------------------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
+| [0](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Introduction to Python, Google Colab Notebook & GitHub. Opening data and exploring the contents  | Survey & GitHub account creation due, HW1 assigned |
+| [1](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Python data structures and Pandas. Data cleanup, iterating with "for" loops, basic summary stats | HW1 due, HW2 assigned                              |
+| [2](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining Pandas DataFrames, writing functions                                  | HW2 due, HW3 assigned                              |
+| [3](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                                                                               | HW3 due, HW4 assigned                              |
+| [4](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Linear regression and inferential statistics                                                     | HW4 due, HW5 assigned                              |
+| [5](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Working with dates and time series analysis                                                      | HW5 due, HW6 assigned                              |
+| [6](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review course content and topics of student choice                                               | HW6 due, HW7 assigned - Due 12/19                  |
 
 ### Assignments and Evaluation
 
@@ -80,8 +80,7 @@ There will be a total of 8 assignments, 7 of which will count towards the final 
 The Course Grade is based on the following:
 
 - Participation: 10%
-- 8 Assignments: 90%
-  - HW0: 0%
+- 7 Assignments: 90%
   - HW1: 12.5%
   - HW2: 12.5%
   - HW3: 12.5%
