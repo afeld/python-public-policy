@@ -26,8 +26,8 @@ This 7-week mini course exposes the students to the application and use of Pytho
 
 The class period will be split into two parts in order to maximize hands-on learning time:
 
-- Lecture: For the first ~40 minutes of class, the professor will work through examples using Python and useful Python packages to analyze data focused on public policy questions. Each lecture will introduce new functionality and skills, building off of concepts covered in previous classes.
-- Lab: For the remainder of the class period, students will work on their coding homework assignments, either individually or in groups, allowing them to get hands-on practice while the professor and peers are available to answer questions and clarify concepts.
+- Lecture: For the first ~40 minutes of class, the instructor will work through examples using Python and useful Python packages to analyze data focused on public policy questions. Each lecture will introduce new functionality and skills, building off of concepts covered in previous classes.
+- Lab: For the remainder of the class period, students will work on their coding homework assignments, either individually or in groups, allowing them to get hands-on practice while the instructor and peers are available to answer questions and clarify concepts.
 
 Homework assignments will consist of two different formats:
 
@@ -74,7 +74,7 @@ Upon completion of the course, students will be able to:
 | [3](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                                                                               | HW2 due, HW3 assigned                              |
 | [4](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Linear regression and inferential statistics                                                     | HW3 due, HW4 assigned                              |
 | [5](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Working with dates and time series analysis                                                      | HW4 due, HW5 assigned                              |
-| [6](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review course content and topics of student choice                                               | HW5 due, HW6 assigned - Due 12/19                  |
+| [6](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review course content and topics of student choice                                               | HW5 due, HW6 assigned - due 5/21                   |
 
 ### Assignments and Evaluation
 
