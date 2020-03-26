@@ -49,17 +49,20 @@ Upon completion of the course, students will be able to:
 1. Produce plots and charts in order to better visualize and present insights from the data
 1. Use GitHub to share code which will serve as a portfolio for the students' work
 
-### Learning Resources
-
 #### Applications and Software
 
 - [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
 - [Python](https://www.python.org)
+  - [Pandas](https://pandas.pydata.org/)
 - [GitHub](https://github.com)
 
-## NYU Classes
+## Communications
 
-All announcements, resources, and assignments will be delivered through the NYU Classes site. I may modify assignments, due dates, and other aspects of the course as we go through the term with advance notice provided as soon as possible through the course website.
+- All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee) site.
+- Assignments, due dates, and other aspects of the course may be modified mid-course; as much advance notice will be given as possible.
+- Troubleshooting and other communications between class sessions will be done over Zoom chat, in the `wagner-python-spring-2020` channel.
+  - Email is also an option.
+- The instructor will try to respond within 24 hours, 48 hours max.
 
 ## Course Schedule
 
