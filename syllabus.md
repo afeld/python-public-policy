@@ -49,13 +49,6 @@ Upon completion of the course, students will be able to:
 1. Produce plots and charts in order to better visualize and present insights from the data
 1. Use GitHub to share code which will serve as a portfolio for the students' work
 
-#### Applications and Software
-
-- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
-- [Python](https://www.python.org)
-  - [Pandas](https://pandas.pydata.org/)
-- [GitHub](https://github.com)
-
 ## Communications
 
 - All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee) site.
