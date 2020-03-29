@@ -42,6 +42,10 @@ Students will learn how to:
 
 - Use the [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) environment
 - Have an understanding of Python fundamentals
+  - Common data types
+  - Functions
+  - How to read documentation
+  - How to troubleshoot
 - Know how to use several Python packages for different kinds of data analysis, manipulation, and visualization
 
 ## Communications
