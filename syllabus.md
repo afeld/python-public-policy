@@ -8,7 +8,9 @@
 
 - [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman)
 - Email: alf9@nyu.edu
-- Office Hours: By appointment
+- Office Hours:
+  - By appointment
+  - At Sunday [Hacker Hours](https://www.meetup.com/hackerhours/events/calendar/)
 
 ## Course Information
 
@@ -55,7 +57,7 @@ Students will learn how to:
 
 | Lecture                                                                            | Date | Topics                                      | Homework                                           |
 | ---------------------------------------------------------------------------------- | ---- | ------------------------------------------- | -------------------------------------------------- |
-| [0](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding and Python                  | Survey & GitHub account creation due, HW0 assigned |
+| [0](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding                             | Survey & GitHub account creation due, HW0 assigned |
 | [1](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                              |
 | [2](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                              |
 | [3](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                          | HW2 due, HW3 assigned                              |
