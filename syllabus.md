@@ -18,7 +18,7 @@
 
 ## Course Prerequisites
 
-- [Statistical Methods (CORE-GP 1011)](https://wagner.nyu.edu/education/courses/statistical-methods) or prior knowledge of statistics or programming
+- [Statistical Methods (CORE-GP 1011)](https://wagner.nyu.edu/education/courses/statistical-methods) or prior knowledge of programming
 
 ## Course Description
 
@@ -36,23 +36,17 @@ Homework assignments will consist of two different formats:
 
 ### Course and Learning Objectives
 
-Students will learn how to use Python in the [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) environment, allowing them to explore and analyze data objects and become familiar with base Python and several Python packages for data manipulation, statistical, and graphing. The course will also teach students to develop their own functions in Python, which they can use to modify or clean datasets. By the end of the course, students will have a framework for exploring data and conducting analyses using Python.
+Students will learn how to:
 
-#### What You Will Take Away
-
-Upon completion of the course, students will be able to:
-
-1. Use Python in the Google Colaboratory Notebook environment to understand data objects and how they relate to common analysis of public policy objectives and goals
-1. Use Python and popular Python libraries to read in, index, and manipulate data objects
-1. Conduct summary statistics on data to explore and understand its content
-1. Conduct linear regressions on data and interpret the outputs
-1. Produce plots and charts in order to better visualize and present insights from the data
-1. Use GitHub to share code which will serve as a portfolio for the students' work
+- Use the [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) environment
+- Have an understanding of Python fundamentals
+- Know how to use several Python packages for different kinds of data analysis, manipulation, and visualization
 
 ## Communications
 
 - All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee) site.
-- Assignments, due dates, and other aspects of the course may be modified mid-course; as much advance notice will be given as possible.
+- Assignments, due dates, and other aspects of the course may be modified mid-course.
+  - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be done over Zoom chat, in the `wagner-python-spring-2020` channel.
   - Email is also an option.
 - The instructor will try to respond within 24 hours, 48 hours max.
