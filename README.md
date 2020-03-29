@@ -9,7 +9,7 @@ This repository contains Jupyter notebooks for [NYU Wagner's Python Coding for P
   - Viewing grades
   - Viewing class recordings
 
-Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
+Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
 
 ## Zoom setup
 

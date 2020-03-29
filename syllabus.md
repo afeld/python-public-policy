@@ -59,15 +59,15 @@ Students will learn how to:
 
 ## Course Schedule
 
-| Lecture                                                                            | Date | Topics                                      | Homework                                           |
-| ---------------------------------------------------------------------------------- | ---- | ------------------------------------------- | -------------------------------------------------- |
-| [0](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding                             | Survey & GitHub account creation due, HW0 assigned |
-| [1](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                              |
-| [2](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                              |
-| [3](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                          | HW2 due, HW3 assigned                              |
-| [4](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                              |
-| [5](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                              |
-| [6](https://github.com/afeld/nyu-python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                   |
+| Lecture                                                                        | Date | Topics                                      | Homework                                           |
+| ------------------------------------------------------------------------------ | ---- | ------------------------------------------- | -------------------------------------------------- |
+| [0](https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding                             | Survey & GitHub account creation due, HW0 assigned |
+| [1](https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                              |
+| [2](https://github.com/afeld/python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                              |
+| [3](https://github.com/afeld/python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                          | HW2 due, HW3 assigned                              |
+| [4](https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                              |
+| [5](https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                              |
+| [6](https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                   |
 
 ### Assignments and Evaluation
 
