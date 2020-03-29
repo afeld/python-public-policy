@@ -50,22 +50,13 @@ In the Zoom meeting chat, share the following:
   - Subject to change
   - Ask for your patience
 
-## Spreadsheets vs. Python vs. Pandas
-
-| Task                        | Spreadsheets      | Python               | Pandas |
-| --------------------------- | ----------------- | -------------------- | ------ |
-| Loading data                | Just click!       |                      |
-| Viewing data                | File->Open/Import | <code>print()</code> |
-| Filtering data              |                   |                      |
-| Manipulating data           |                   |                      |
-| Joining data                |                   |                      |
-| Automation                  |                   |                      |
-| Working with large datasets |                   |                      |
-| Making reusable             |                   |                      |
+## Spreadsheets vs. Python
 
 ### Why spreadsheets
 
+- The easy stuff is easy
 - Lots of people know how to use them
+- Mostly just have to point, click, and scroll
 - The data and the logic live together as one
 
 ### Why Python
@@ -73,11 +64,27 @@ In the Zoom meeting chat, share the following:
 - The data and the logic _don't_ live together
   - Why might this matter?
 - More powerful, flexible, and expressive than spreadsheet formulas
-  - Don't have to cram into a single line!
+  - Don't have to cram into a single line
+  - Can have more descriptive data references than `Sheet1!A:A`
 - Better at working with large data
   - Google Sheets and Excel have hard limits at 1-5 million rows, but get slow long before that
 - Reusable code (packages)
 - Automation
+
+### Side-by-side
+
+|                  Task | Spreadsheets | Python |
+| --------------------: | :----------: | :----: |
+|      **Loading data** |     Easy     | Medium |
+|      **Viewing data** |     Easy     | Medium |
+|    **Filtering data** |     Easy     | Medium |
+| **Manipulating data** |    Medium    | Medium |
+|      **Joining data** |     Hard     | Medium |
+|        **Automation** |  Impossible  | Medium |
+|   **Making reusable** |  Impossible  | Medium |
+|    **Large datasets** |  Impossible  |  Hard  |
+
+_\*Ratings are obviously somewhat subjective._
 
 ## Python vs. other languages
 
