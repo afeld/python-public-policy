@@ -50,41 +50,51 @@ In the Zoom meeting chat, share the following:
   - Subject to change
   - Ask for your patience
 
-## Spreadsheets vs. Python
+## Spreadsheets vs. programming languages
 
 ### Why spreadsheets
 
 - The easy stuff is easy
 - Lots of people know how to use them
 - Mostly just have to point, click, and scroll
-- The data and the logic live together as one
+- Data and logic live together as one
 
-### Why Python
+### Why programming languages
 
-- The data and the logic _don't_ live together
+- Data and logic _don't_ live together
   - Why might this matter?
 - More powerful, flexible, and expressive than spreadsheet formulas
+
   - Don't have to cram into a single line
+
+    ```
+    =SUM(INDEX(C3:E9,MATCH(B13,C3:C9,0),MATCH(B14,C3:E3,0)))
+    ```
+
   - Can have more descriptive data references than `Sheet1!A:A`
+
 - Better at working with large data
   - Google Sheets and Excel have hard limits at 1-5 million rows, but get slow long before that
 - Reusable code (packages)
 - Automation
 
-### Side-by-side
+### Side-by-side\*
 
-|                  Task | Spreadsheets | Python |
-| --------------------: | :----------: | :----: |
-|      **Loading data** |     Easy     | Medium |
-|      **Viewing data** |     Easy     | Medium |
-|    **Filtering data** |     Easy     | Medium |
-| **Manipulating data** |    Medium    | Medium |
-|      **Joining data** |     Hard     | Medium |
-|        **Automation** |  Impossible  | Medium |
-|   **Making reusable** |  Impossible  | Medium |
-|    **Large datasets** |  Impossible  |  Hard  |
+|                       Task |  Spreadsheets  | Programming languages |
+| -------------------------: | :------------: | :-------------------: |
+|           **Loading data** |      Easy      |        Medium         |
+|           **Viewing data** |      Easy      |        Medium         |
+|         **Filtering data** |      Easy      |        Medium         |
+|      **Manipulating data** |     Medium     |        Medium         |
+|           **Joining data** |      Hard      |        Medium         |
+| **Complicated transforms** | Impossible\*\* |        Medium         |
+|             **Automation** | Impossible\*\* |        Medium         |
+|        **Making reusable** | Impossible\*\* |        Medium         |
+|         **Large datasets** |   Impossible   |         Hard          |
 
 _\*Ratings are obviously somewhat subjective._
+
+_\*\*Not including scripting._
 
 ## Python vs. other languages
 
