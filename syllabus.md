@@ -36,7 +36,7 @@ Homework assignments will consist of two different formats:
 
 ### Course and Learning Objectives
 
-Students will learn how to use Python in the Google Colaboratory Notebook environment, allowing them to explore and analyze data objects and become familiar with base Python and several Python packages for data manipulation, statistical, and graphing. The course will also teach students to develop their own functions in Python, which they can use to modify or clean datasets. By the end of the course, students will have a framework for exploring data and conducting analyses using Python.
+Students will learn how to use Python in the [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) environment, allowing them to explore and analyze data objects and become familiar with base Python and several Python packages for data manipulation, statistical, and graphing. The course will also teach students to develop their own functions in Python, which they can use to modify or clean datasets. By the end of the course, students will have a framework for exploring data and conducting analyses using Python.
 
 #### What You Will Take Away
 
