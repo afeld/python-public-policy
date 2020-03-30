@@ -9,7 +9,7 @@
 - [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman)
 - Email: alf9@nyu.edu
 - Office Hours:
-  - By appointment
+  - To be determined
   - At Sunday [Hacker Hours](https://www.meetup.com/hackerhours/events/calendar/)
 
 ## Course Information
@@ -63,15 +63,18 @@ Students will learn how to:
 
 ## Course Schedule
 
-| Lecture                                                                        | Date | Topics                                      | Homework                                           |
-| ------------------------------------------------------------------------------ | ---- | ------------------------------------------- | -------------------------------------------------- |
-| [0](https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding                             | Survey & GitHub account creation due, HW0 assigned |
-| [1](https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                              |
-| [2](https://github.com/afeld/python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                              |
-| [3](https://github.com/afeld/python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                          | HW2 due, HW3 assigned                              |
-| [4](https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                              |
-| [5](https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                              |
-| [6](https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                   |
+| Lecture                                                                        | Date | Topics                                      | Homework                                                      |
+| ------------------------------------------------------------------------------ | ---- | ------------------------------------------- | ------------------------------------------------------------- |
+| [0](https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, HW0 assigned |
+| [1](https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                                         |
+| [2](https://github.com/afeld/python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                                         |
+| [3](https://github.com/afeld/python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                          | HW2 due, HW3 assigned                                         |
+| [4](https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                                         |
+| [5](https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                                         |
+| [6](https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                              |
+
+[survey]: https://docs.google.com/forms/d/e/1FAIpQLSeeL2wbRKCBbum_dXRCTj1Xhxw__CQB4pBHcGOemDG2Rpjnzw/viewform
+[zoom-setup]: https://github.com/afeld/python-public-policy#zoom-setup
 
 ### Assignments and Evaluation
 
@@ -95,7 +98,7 @@ Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5
 
 A student may work with other students. However, each student should submit their assignment separately. In addition, students need to indicate with whom they have worked in the comments of their submission.
 
-All submissions must be made using a Google Colab Notebook file that has to be uploaded to GitHub. All submissions should follow the style guide that will be provided during the first class.
+All submissions must be made using a Google Colab Notebook file following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments). All submissions should follow the style guide that will be provided during the first class.
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
