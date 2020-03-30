@@ -63,16 +63,23 @@ Students will learn how to:
 
 ## Course Schedule
 
-| Lecture                                                                        | Date | Topics                                      | Homework                                                      |
-| ------------------------------------------------------------------------------ | ---- | ------------------------------------------- | ------------------------------------------------------------- |
-| [0](https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb) | 4/2  | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, HW0 assigned |
-| [1](https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb) | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                                         |
-| [2](https://github.com/afeld/python-public-policy/blob/master/lecture_2.ipynb) | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                                         |
-| [3](https://github.com/afeld/python-public-policy/blob/master/lecture_3.ipynb) | 4/23 | Data visualization                          | HW2 due, HW3 assigned                                         |
-| [4](https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb) | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                                         |
-| [5](https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb) | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                                         |
-| [6](https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb) | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                              |
+| Lecture | Date | Topics                                      | Homework                                                      |
+| ------- | ---- | ------------------------------------------- | ------------------------------------------------------------- |
+| [0][l0] | 4/2  | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, HW0 assigned |
+| [1][l1] | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                                         |
+| [2][l2] | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                                         |
+| [3][l3] | 4/23 | Data visualization                          | HW2 due, HW3 assigned                                         |
+| [4][l4] | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                                         |
+| [5][l5] | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                                         |
+| [6][l6] | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                              |
 
+[l0]: https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb
+[l1]: https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb
+[l2]: https://github.com/afeld/python-public-policy/blob/master/lecture_2.ipynb
+[l3]: https://github.com/afeld/python-public-policy/blob/master/lecture_3.ipynb
+[l4]: https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb
+[l5]: https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb
+[l6]: https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb
 [survey]: https://docs.google.com/forms/d/e/1FAIpQLSeeL2wbRKCBbum_dXRCTj1Xhxw__CQB4pBHcGOemDG2Rpjnzw/viewform
 [zoom-setup]: https://github.com/afeld/python-public-policy#zoom-setup
 
