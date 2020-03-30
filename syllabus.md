@@ -26,10 +26,14 @@
 
 This 7-week mini course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
 
-The class period will be split into two parts in order to maximize hands-on learning time:
+Class will be split between:
 
-- Lecture: For the first ~40 minutes of class, the instructor will work through examples using Python and useful Python packages to analyze data focused on public policy questions. Each lecture will introduce new functionality and skills, building off of concepts covered in previous classes.
-- Lab: For the remainder of the class period, students will work on their coding homework assignments, either individually or in groups, allowing them to get hands-on practice while the instructor and peers are available to answer questions and clarify concepts.
+- Lecture
+- Demonstration
+- Hands-on time to:
+  - Play with the code from lectures
+  - Start on the homework
+  - Ask questions
 
 Homework assignments will consist of two different formats:
 
