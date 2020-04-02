@@ -8,6 +8,7 @@ This repository contains Jupyter notebooks for [NYU Wagner's Python Coding for P
   - Submitting Assignments
   - Viewing grades
   - Viewing class recordings
+- [Shared notes](https://docs.google.com/document/d/1umb8kbKZuKR05K7Bvl2WD4N_EfGHW2WsOQpqFAlLQXU/edit#)
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
 
