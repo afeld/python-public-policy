@@ -9,7 +9,7 @@
 - [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman)
 - Email: alf9@nyu.edu
 - Office Hours:
-  - To be determined
+  - Wednesdays at [6pm Eastern Time (US)](https://everytimezone.com/s/bcf2d037)
   - At Sunday [Hacker Hours](https://www.meetup.com/hackerhours/events/calendar/)
 
 ## Course Information
