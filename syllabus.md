@@ -35,6 +35,8 @@ Class will be split between:
   - Start on the homework
   - Ask questions
 
+## Homework
+
 Homework assignments will consist of two different formats:
 
 1. Online tutorials: In advance of classes, online tutorials will be assigned as homework. These online tutorials will introduce students to critical Python concepts. The following lecture will then focus on applying those concepts to real public policy data questions.

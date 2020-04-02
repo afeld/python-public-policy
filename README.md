@@ -49,3 +49,8 @@ After completing the above,
     - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
     - [DataCamp](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
     - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
+
+## See also
+
+- [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
+- [Blog post about GitHub for non-developers](https://medium.com/nyc-planning-digital/git-what-extolling-githubs-virtues-to-non-coders-6cc11f1a5fd2)
