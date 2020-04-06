@@ -14,7 +14,7 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
 
 ## Zoom setup
 
-1. [`Install` and `Login to the Zoom app`](https://nyu.service-now.com/servicelink/kb_search.do?id=KB0017503)
+1. Go through the NYU [`Zoom: Getting started`](https://nyu.service-now.com/servicelink/kb_search.do?id=KB0017503) guide
 1. [Join](https://support.zoom.us/hc/en-us/articles/200912909-Getting-Started-With-Channels-Group-Messaging-) the `wagner-python-spring-2020` channel
    - Say hello!
 1. [Enable code snippets](https://support.zoom.us/hc/en-us/articles/360000489103-Send-Code-Snippet#h_0ab63944-9b0d-44a5-a5b7-6c6191c1e317)
