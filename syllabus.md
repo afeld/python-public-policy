@@ -101,7 +101,7 @@ The Course Grade is based on the following:
   - HW5: 12.5%
   - HW6: 15%
 
-Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above.
+Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above. Late work will lose a half point every day it is late.
 
 ### Class Policies
 
