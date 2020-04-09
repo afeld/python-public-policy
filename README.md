@@ -19,17 +19,13 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
    - Say hello!
 1. [Enable code snippets](https://support.zoom.us/hc/en-us/articles/360000489103-Send-Code-Snippet#h_0ab63944-9b0d-44a5-a5b7-6c6191c1e317)
 
-## Sharing notebooks
-
-1. In the top right of your Colab notebook, click `Share`
-1. Click `Get shareable link`
-1. Change to `Anyone at New York University with the link can comment`
-1. Click `Copy link`
-
 ### Turning in assignments
 
-After completing the above,
-
+1. Share the notebook
+   1. In the top right of your Colab notebook, click `Share`
+   1. Click `Get shareable link`
+   1. Change to `Anyone at New York University with the link can comment`
+   1. Click `Copy link`
 1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee/tool/03a85694-beaf-4776-8b45-ee8944282c3c)
 1. Click that assignment
 1. Paste the link
