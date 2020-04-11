@@ -15,7 +15,7 @@
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thurs, 4/2-5/15 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b)
+- Class Meeting Times: Thurs, 4/2-5/14 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b)
 - Class Location: Online (Zoom)
 
 ## Course Prerequisites
