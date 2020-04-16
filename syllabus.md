@@ -87,7 +87,12 @@ Students will learn how to:
 
 ### Assignments and Evaluation
 
-There will be a total of 8 assignments, 7 of which will count towards the final grade. Students are encouraged to look at problem sets in advance of the class that's relevant to the material being tested. This makes the classes more interactive and eases the completion of the assignments.
+Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above.
+
+- Late work: -0.5 points per day
+- Syntax errors: -0.5 points
+
+If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score.
 
 The Course Grade is based on the following:
 
@@ -100,8 +105,6 @@ The Course Grade is based on the following:
   - HW4: 12.5%
   - HW5: 12.5%
   - HW6: 15%
-
-Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above. Late work will lose a half point every day it is late.
 
 ### Class Policies
 
