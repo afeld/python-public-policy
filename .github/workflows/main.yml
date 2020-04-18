@@ -8,14 +8,25 @@ jobs:
     strategy:
       matrix:
         notebook:
+          - hw_0.ipynb
+          - hw_1.ipynb
+          - hw_2.ipynb
+          - hw_3.ipynb
+          - hw_6.ipynb
           - lecture_0.ipynb
+          - lecture_1.ipynb
+          - lecture_2.ipynb
+          - lecture_3.ipynb
+          - lecture_4.ipynb
+          - lecture_5.ipynb
+          - lecture_6.ipynb
     steps:
       - uses: actions/checkout@v1
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
           python-version: "3.x"
-      - name: Install Jupyter
+      - name: Install dependencies
         run: pip install ipykernel nbconvert notebook
       - name: Run notebook
         run: |
