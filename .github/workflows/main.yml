@@ -6,6 +6,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         notebook:
           # - hw_0.ipynb # uses input()s
@@ -31,3 +32,10 @@ jobs:
         run: pip install -r .github/workflows/requirements.txt
       - name: Run notebook
         run: .github/workflows/update.sh ${{ matrix.notebook }}
+      - name: Confirm notebook hasn't changed
+        # live feed, so the output changes
+        if: matrix.notebook != 'lecture_6.ipynb'
+        run: |
+          DIFF=$(nbdiff -M ${{ matrix.notebook }})
+          echo $DIFF
+          [ -z "$DIFF" ] || exit 1

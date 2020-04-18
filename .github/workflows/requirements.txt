@@ -3,6 +3,7 @@ geopandas
 ipykernel
 matplotlib
 nbconvert
+nbdime
 notebook
 pandas
 plotly
