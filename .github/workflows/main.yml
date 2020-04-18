@@ -27,10 +27,10 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install dependencies
-        run: pip install ipykernel nbconvert notebook
+        run: pip install -r requirements.txt
       - name: Run notebook
         run: |
           jupyter nbconvert \
-            --to notebook --inplace --execute \
+            --to notebook --inplace --execute --no-prompt \
             --ExecutePreprocessor.kernel_name=python3 \
             ${{ matrix.notebook }}
