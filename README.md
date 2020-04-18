@@ -1,5 +1,7 @@
 # Python for Public Policy
 
+[![Execute notebooks](https://github.com/afeld/python-public-policy/workflows/Execute%20notebooks/badge.svg)](https://github.com/afeld/python-public-policy/actions?query=workflow%3A%22Execute+notebooks%22+branch%3Amaster)
+
 This repository contains Jupyter notebooks for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506). Provided here are lecture examples and homework solutions.
 
 - [Syllabus](syllabus.md)
