@@ -6,6 +6,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         notebook:
           # - hw_0.ipynb # uses input()s
