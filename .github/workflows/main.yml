@@ -5,6 +5,10 @@ on: [push]
 jobs:
   run:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        notebook:
+          - lecture_0.ipynb
     steps:
       - uses: actions/checkout@v1
       - name: Set up Python
@@ -14,4 +18,4 @@ jobs:
       - name: Install Jupyter
         run: pip install notebook nbconvert
       - name: Run notebook
-        run: jupyter nbconvert --execute --to notebook --execute lecture_0.ipynb
+        run: jupyter nbconvert --execute --to notebook --inplace --execute ${{ matrix.notebook }}
