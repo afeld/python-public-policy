@@ -1,0 +1,38 @@
+name: Execute notebooks
+
+on: [push]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        notebook:
+          # - hw_0.ipynb # uses input()s
+          - hw_1.ipynb
+          - hw_2.ipynb
+          # - hw_3.ipynb # uses google.colab
+          - hw_6.ipynb
+          - lecture_0.ipynb
+          - lecture_1.ipynb
+          - lecture_2.ipynb
+          # use google.colab
+          # - lecture_3.ipynb
+          # - lecture_4.ipynb
+          # - lecture_5.ipynb
+          - lecture_6.ipynb
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run notebook
+        run: |
+          jupyter nbconvert \
+            --to notebook --inplace --execute --no-prompt \
+            --ExecutePreprocessor.kernel_name=python3 \
+            --ExecutePreprocessor.timeout=120 \
+            ${{ matrix.notebook }}

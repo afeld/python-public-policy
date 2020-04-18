@@ -1,0 +1,11 @@
+beautifulsoup4
+geopandas
+ipykernel
+matplotlib
+nbconvert
+notebook
+pandas
+plotly
+requests
+seaborn
+statsmodels
