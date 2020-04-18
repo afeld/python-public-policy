@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install Papermill
-        run: pip install papermill
+        run: pip install nbconvert
       - name: Run notebook
-        run: papermill --progress-bar --log-level DEBUG lecture_0.ipynb /dev/null
+        run: jupyter nbconvert --execute --to notebook --execute lecture_0.ipynb
