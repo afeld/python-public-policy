@@ -1,4 +1,4 @@
-name: Execute notebook
+name: Execute notebooks
 
 on: [push]
 
@@ -34,5 +34,5 @@ jobs:
           jupyter nbconvert \
             --to notebook --inplace --execute --no-prompt \
             --ExecutePreprocessor.kernel_name=python3 \
-            --ExecutePreprocessor.timeout=60 \
+            --ExecutePreprocessor.timeout=120 \
             ${{ matrix.notebook }}
