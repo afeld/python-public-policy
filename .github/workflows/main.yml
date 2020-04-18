@@ -18,4 +18,8 @@ jobs:
       - name: Install Jupyter
         run: pip install ipykernel nbconvert notebook
       - name: Run notebook
-        run: jupyter nbconvert --execute --to notebook --inplace --execute ${{ matrix.notebook }}
+        run: |
+          jupyter nbconvert \
+            --to notebook --inplace --execute \
+            --ExecutePreprocessor.kernel_name=python3 \
+            ${{ matrix.notebook }}
