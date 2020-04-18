@@ -30,9 +30,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
       - name: Run notebook
-        run: |
-          jupyter nbconvert \
-            --to notebook --inplace --execute --no-prompt \
-            --ExecutePreprocessor.kernel_name=python3 \
-            --ExecutePreprocessor.timeout=120 \
-            ${{ matrix.notebook }}
+        run: .github/workflows/update.sh ${{ matrix.notebook }}

@@ -53,7 +53,3 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
 - [Blog post about GitHub for non-developers](https://medium.com/nyc-planning-digital/git-what-extolling-githubs-virtues-to-non-coders-6cc11f1a5fd2)
-
-## Slides
-
-While the lecture notes can be viewed as a plain notebook, they are also visible as slides. Viewing using [RISE](https://rise.readthedocs.io/) is recommended.
