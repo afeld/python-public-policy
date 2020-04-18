@@ -16,6 +16,6 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install Jupyter
-        run: pip install notebook nbconvert
+        run: pip install ipykernel nbconvert notebook
       - name: Run notebook
         run: jupyter nbconvert --execute --to notebook --inplace --execute ${{ matrix.notebook }}
