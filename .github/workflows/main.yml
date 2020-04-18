@@ -34,4 +34,5 @@ jobs:
           jupyter nbconvert \
             --to notebook --inplace --execute --no-prompt \
             --ExecutePreprocessor.kernel_name=python3 \
+            --ExecutePreprocessor.timeout=60 \
             ${{ matrix.notebook }}
