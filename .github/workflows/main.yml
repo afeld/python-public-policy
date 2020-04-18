@@ -31,3 +31,8 @@ jobs:
         run: pip install -r .github/workflows/requirements.txt
       - name: Run notebook
         run: .github/workflows/update.sh ${{ matrix.notebook }}
+      - name: Confirm notebook hasn't changed
+        run: |
+          DIFF=$(nbdiff -M ${{ matrix.notebook }})
+          echo $DIFF
+          [ -z "$DIFF" ] || exit 1
