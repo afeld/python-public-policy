@@ -1,5 +1,4 @@
 beautifulsoup4
-geopandas
 ipykernel
 matplotlib
 nbconvert
@@ -10,3 +9,4 @@ plotly
 requests
 seaborn
 statsmodels
+
