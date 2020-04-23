@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
       - name: Run notebook
-        run: .github/workflows/update.sh ${{ matrix.notebook }}
+        run: ./scripts/update.sh ${{ matrix.notebook }}
       - name: Confirm notebook hasn't changed
         # live feed, so the output changes
         if: matrix.notebook != 'lecture_6.ipynb'
