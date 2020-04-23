@@ -12,7 +12,7 @@ jobs:
           # - hw_0.ipynb # uses input()s
           - hw_1.ipynb
           - hw_2.ipynb
-          # - hw_3.ipynb # uses google.colab
+          - hw_3.ipynb
           - hw_4.ipynb
           - hw_6.ipynb
           - lecture_0.ipynb
