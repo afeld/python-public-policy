@@ -17,8 +17,8 @@ jobs:
           - lecture_0.ipynb
           # - lecture_1.ipynb # uses sample()
           - lecture_2.ipynb
+          # - lecture_3.ipynb # uses plotly
           # use google.colab
-          # - lecture_3.ipynb
           # - lecture_4.ipynb
           # - lecture_5.ipynb
           - lecture_6.ipynb
