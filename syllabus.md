@@ -87,13 +87,6 @@ Students will learn how to:
 
 ### Assignments and Evaluation
 
-Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above.
-
-- Late work: -0.5 points per day
-- Syntax errors: -0.5 points
-
-If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score.
-
 The Course Grade is based on the following:
 
 - Participation: 10%
@@ -105,6 +98,29 @@ The Course Grade is based on the following:
   - HW4: 12.5%
   - HW5: 12.5%
   - HW6: 15%
+
+#### Assignments
+
+Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above.
+
+- Late work: -0.5 points per day
+- Syntax errors: -0.5 points
+
+If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score.
+
+#### Participation
+
+Participation means:
+
+- Asking a question
+- Answering a question
+- Posting a useful/interesting resource
+
+in one of the following:
+
+- Class
+- Office hours
+- The Zoom channel
 
 ### Class Policies
 
