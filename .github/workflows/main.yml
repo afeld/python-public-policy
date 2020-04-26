@@ -15,7 +15,7 @@ jobs:
           # - hw_3.ipynb # has incomplete code
           - hw_6.ipynb
           - lecture_0.ipynb
-          - lecture_1.ipynb
+          # - lecture_1.ipynb # uses sample()
           - lecture_2.ipynb
           # use google.colab
           # - lecture_3.ipynb
