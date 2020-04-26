@@ -114,6 +114,7 @@ Participation means:
 
 - Asking a question
 - Answering a question
+- Volunteering to demonstrate
 - Posting a useful/interesting resource
 
 in one of the following:
@@ -121,6 +122,8 @@ in one of the following:
 - Class
 - Office hours
 - The Zoom channel
+
+The overall participation score will be based on how often the student does the above throughout the course.
 
 ### Class Policies
 
