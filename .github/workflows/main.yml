@@ -13,6 +13,7 @@ jobs:
           - hw_1.ipynb
           - hw_2.ipynb
           # - hw_3.ipynb # has incomplete code
+          - hw_4.ipynb
           - hw_6.ipynb
           - lecture_0.ipynb
           # - lecture_1.ipynb # uses sample()
