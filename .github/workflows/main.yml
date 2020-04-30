@@ -3,7 +3,18 @@ name: Execute notebooks
 on: [push]
 
 jobs:
-  run:
+  static_analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.x"
+      - name: Run static analysis
+        run: python scripts/validate.py
+
+  run_notebook:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
