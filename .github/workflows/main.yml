@@ -32,7 +32,7 @@ jobs:
           # use plotly
           # - lecture_3.ipynb
           # - lecture_4.ipynb
-          # - lecture_5.ipynb
+          - lecture_5.ipynb
           - lecture_6.ipynb
     steps:
       - uses: actions/checkout@v1
