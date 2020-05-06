@@ -1,10 +1,24 @@
 import csv
 import itertools
 import requests
+import sys
 
-# https://beta.regulations.gov/document/DOT-OST-2018-0068-12959/comment
-DOCKET_ID = "DOT-OST-2018-0068-12959"
-FILENAME = "service_animals.csv"
+if len(sys.argv) != 2:
+    print(
+        """Usage:
+
+    python service_animals.py <DocketID>
+
+Example:
+
+    python service_animals.py DOT-OST-2018-0068-12959
+
+Writes to <DocketID>.csv."""
+    )
+    exit(1)
+
+DOCKET_ID = sys.argv[1]
+FILENAME = f"{DOCKET_ID}.csv"
 
 
 # curl 'https://beta.regulations.gov/api/comments?filter%5BcommentOnId%5D=090000648432b7e1&page%5Bnumber%5D=1'
@@ -27,6 +41,10 @@ def get_document(id):
 
     return attrs
 
+
+print(
+    f"Reading comments from https://beta.regulations.gov/document/{DOCKET_ID}/comment ..."
+)
 
 docket = get_document(DOCKET_ID)
 docket_obj_id = docket["objectId"]
@@ -52,3 +70,5 @@ with open(FILENAME, "w") as csvfile:
 
         if response["meta"]["lastPage"]:
             break
+
+print("COMPLETE")
