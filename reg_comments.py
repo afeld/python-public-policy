@@ -7,11 +7,11 @@ if len(sys.argv) != 2:
     print(
         """Usage:
 
-    python service_animals.py <DocketID>
+    python reg_comments.py <DocketID>
 
 Example:
 
-    python service_animals.py DOT-OST-2018-0068-12959
+    python reg_comments.py DOT-OST-2018-0068-12959
 
 Writes to <DocketID>.csv."""
     )
