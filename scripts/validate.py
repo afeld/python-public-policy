@@ -19,6 +19,7 @@ def test_badge(notebook, file):
 
 
 for file in glob.glob("*.ipynb"):
+    print(f"Checking {file}...")
     notebook = json.load(open(file))
     test_colab_metadata(notebook, file)
     test_badge(notebook, file)
