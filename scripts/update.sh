@@ -1,8 +1,8 @@
 #!/bin/bash
 
 set -e
-set -x
 
+echo "Executing notebook..."
 jupyter nbconvert \
   --to notebook --inplace --execute --no-prompt \
   --ExecutePreprocessor.kernel_name=python3 \
