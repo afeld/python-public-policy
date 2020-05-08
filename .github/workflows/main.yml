@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
       - name: Install TextBlob corpora
-        if: matrix.notebook != 'lecture_5.ipynb'
+        if: matrix.notebook == 'lecture_5.ipynb'
         run: python -m textblob.download_corpora
       - name: Run notebook
         run: ./scripts/update.sh ${{ matrix.notebook }}
