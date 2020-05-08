@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Re-running notebook..."
+echo "Executing notebook..."
 jupyter nbconvert \
   --to notebook --inplace --execute --no-prompt \
   --ExecutePreprocessor.kernel_name=python3 \

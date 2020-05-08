@@ -10,7 +10,7 @@ for cell in notebook["cells"]:
         continue
 
     for output in cell["outputs"]:
-        # clear HTML output, since it often has generated IDs that change with each execution
+        # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
         if "data" in output and "text/html" in output["data"]:
             cell["outputs"] = []
             # go to next cell
