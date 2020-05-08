@@ -6,6 +6,10 @@ input_str = sys.stdin.read()
 notebook = json.loads(input_str)
 
 for cell in notebook["cells"]:
+    if "execution_count" in cell:
+        # ignore all the execution count numbers
+        cell["execution_count"] = None
+
     if cell["cell_type"] != "code":
         continue
 
