@@ -29,10 +29,10 @@ jobs:
           - lecture_0.ipynb
           # - lecture_1.ipynb # uses sample()
           - lecture_2.ipynb
-          # use plotly
-          # - lecture_3.ipynb
-          # - lecture_4.ipynb
+          - lecture_3.ipynb
+          - lecture_4.ipynb
           - lecture_5.ipynb
+          # - lecture_5_exercise.ipynb # has incomplete code
           - lecture_6.ipynb
     steps:
       - uses: actions/checkout@v1
@@ -45,12 +45,7 @@ jobs:
       - name: Install TextBlob corpora
         if: matrix.notebook == 'lecture_5.ipynb'
         run: python -m textblob.download_corpora
-      - name: Run notebook
-        run: ./scripts/update.sh ${{ matrix.notebook }}
       - name: Confirm notebook hasn't changed
         # live feed, so the output changes
         if: matrix.notebook != 'lecture_6.ipynb'
-        run: |
-          DIFF=$(nbdiff -M ${{ matrix.notebook }})
-          echo $DIFF
-          [ -z "$DIFF" ] || exit 1
+        run: ./scripts/update.sh ${{ matrix.notebook }}
