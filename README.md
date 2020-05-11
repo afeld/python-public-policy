@@ -24,9 +24,8 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
 ### Turning in assignments
 
 1. Share the notebook
-   1. In the top right of your Colab notebook, click `Share`
-   1. Click `Get shareable link`
-   1. Change to `Anyone at New York University with the link can comment`
+   1. Follow the instructions to [share a link to the file](https://support.google.com/drive/answer/2494822) with NYU
+   1. Enable commenting
    1. Click `Copy link`
 1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee/tool/03a85694-beaf-4776-8b45-ee8944282c3c)
 1. Click that assignment
