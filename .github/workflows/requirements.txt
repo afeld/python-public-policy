@@ -1,6 +1,4 @@
-beautifulsoup4
 ipykernel
-matplotlib
 nbconvert
 nbdime
 notebook

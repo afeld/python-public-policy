@@ -46,6 +46,4 @@ jobs:
         if: matrix.notebook == 'lecture_5.ipynb'
         run: python -m textblob.download_corpora
       - name: Confirm notebook hasn't changed
-        # live feed, so the output changes
-        if: matrix.notebook != 'lecture_6.ipynb'
         run: ./scripts/update.sh ${{ matrix.notebook }}
