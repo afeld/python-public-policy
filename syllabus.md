@@ -127,7 +127,7 @@ The overall participation score will be based on how often the student does the 
 
 ### Class Policies
 
-A student may work with other students. However, solutions should not be copied-and-pasted from one another, and each student should submit their assignment separately. In addition, students need to indicate with whom they have worked in the comments of their submission.
+A student may work with other students. However, solutions should not be identical to / copied-and-pasted from one another, and each student should submit their assignment separately. In addition, students need to indicate who they worked with with each submission.
 
 All submissions must be made using a Google Colab Notebook file following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments). All submissions should follow the style guide that will be provided during the first class.
 
