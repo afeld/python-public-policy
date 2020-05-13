@@ -2,7 +2,9 @@
 
 [![Execute notebooks](https://github.com/afeld/python-public-policy/workflows/Execute%20notebooks/badge.svg)](https://github.com/afeld/python-public-policy/actions?query=workflow%3A%22Execute+notebooks%22+branch%3Amaster)
 
-This repository contains Jupyter notebooks for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506). Provided here are lecture examples and homework solutions.
+**Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
+
+This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
 - [Syllabus](syllabus.md)
 - [NYU Classes site](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee), which students will use for:
