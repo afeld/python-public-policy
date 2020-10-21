@@ -39,21 +39,20 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          # https://github.com/explosion/spaCy/issues/6228
           python-version: "3.8"
+
+      - uses: dschep/install-pipenv-action@v1
       # https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-python#caching-dependencies
-      - name: Cache pip
+      - name: Cache Pipenv
         uses: actions/cache@v2
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/requirements.txt') }}
+          path: ~/.cache/pipenv
+          key: ${{ runner.os }}-pipenv-${{ hashFiles('Pipfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-pipenv-
             ${{ runner.os }}-
-      # required for spacy
-      - name: Install Cython
-        run: pip install Cython
       - name: Install dependencies
-        run: pip install -r .github/workflows/requirements.txt
+        run: pipenv install
+
       - name: Confirm notebook hasn't changed
-        run: ./scripts/update.sh ${{ matrix.notebook }}
+        run: pipenv run ./scripts/update.sh ${{ matrix.notebook }}
