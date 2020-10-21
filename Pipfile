@@ -24,4 +24,5 @@ textblob = "*"
 requests = "*"
 
 [requires]
-python_version = "3"
+# https://github.com/explosion/spaCy/issues/6228
+python_version = "3.8"
