@@ -40,7 +40,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: "3.x"
+      - name: Install Pipenv
+        run: pip install --user pipenv
       - name: Install dependencies
-        run: pip install -r .github/workflows/requirements.txt
+        run: pipenv install
       - name: Confirm notebook hasn't changed
-        run: ./scripts/update.sh ${{ matrix.notebook }}
+        run: pipenv run ./scripts/update.sh ${{ matrix.notebook }}
