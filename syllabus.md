@@ -2,7 +2,7 @@
 
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Spring 2020
+# Python Coding for Public Policy - Fall 2020
 
 ## Instructor Information
 
@@ -15,7 +15,7 @@
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thurs, 4/2-5/14 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b)
+- Class Meeting Times: Thurs, 10/22-12/13 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/?t=5f90cb80,-4b)
 - Class Location: Online (Zoom)
 
 ## Course Prerequisites
@@ -59,21 +59,21 @@ Students will learn how to:
 - All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/08599039-1e6b-4c40-98f4-1a862293dbee) site.
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be done over Zoom chat, in the `wagner-python-spring-2020` channel.
+- Troubleshooting and other communications between class sessions will be done over Zoom chat.
   - Email is also an option.
 - The instructor will try to respond within 24 hours, 48 hours max.
 
 ## Course Schedule
 
-| Lecture | Date | Topics                                      | Homework                                                      |
-| ------- | ---- | ------------------------------------------- | ------------------------------------------------------------- |
-| [0][l0] | 4/2  | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, HW0 assigned |
-| [1][l1] | 4/9  | Intro to Pandas                             | HW0 due, HW1 assigned                                         |
-| [2][l2] | 4/16 | Manipulating and combining data             | HW1 due, HW2 assigned                                         |
-| [3][l3] | 4/23 | Data visualization                          | HW2 due, HW3 assigned                                         |
-| [4][l4] | 4/30 | Working with dates and time series analysis | HW3 due, HW4 assigned                                         |
-| [5][l5] | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                                         |
-| [6][l6] | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                              |
+| Lecture | Date  | Topics                                      | Homework                                                      |
+| ------- | ----- | ------------------------------------------- | ------------------------------------------------------------- |
+| [0][l0] | 10/22 | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, HW0 assigned |
+| [1][l1] | 10/29 | Intro to Pandas                             | HW0 due, HW1 assigned                                         |
+| [2][l2] | 11/5  | Manipulating and combining data             | HW1 due, HW2 assigned                                         |
+| [3][l3] | 11/12 | Data visualization                          | HW2 due, HW3 assigned                                         |
+| [4][l4] | 11/19 | Working with dates and time series analysis | HW3 due, HW4 assigned                                         |
+| [5][l5] | 12/3  | Natural language processing                 | HW4 due, HW5 assigned                                         |
+| [6][l6] | 12/10 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 12/17                             |
 
 [l0]: https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb
 [l1]: https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb
