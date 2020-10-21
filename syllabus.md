@@ -75,13 +75,13 @@ Students will learn how to:
 | [5][l5] | 5/7  | Natural language processing                 | HW4 due, HW5 assigned                                         |
 | [6][l6] | 5/14 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 5/21                              |
 
-[l0]: https://github.com/afeld/python-public-policy/blob/master/lecture_0.ipynb
-[l1]: https://github.com/afeld/python-public-policy/blob/master/lecture_1.ipynb
-[l2]: https://github.com/afeld/python-public-policy/blob/master/lecture_2.ipynb
-[l3]: https://github.com/afeld/python-public-policy/blob/master/lecture_3.ipynb
-[l4]: https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb
-[l5]: https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb
-[l6]: https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb
+[l0]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_0.ipynb
+[l1]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_1.ipynb
+[l2]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_2.ipynb
+[l3]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_3.ipynb
+[l4]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_4.ipynb
+[l5]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_5.ipynb
+[l6]: https://github.com/afeld/python-public-policy/blob/master/lectures/lecture_6.ipynb
 [survey]: https://docs.google.com/forms/d/e/1FAIpQLSeeL2wbRKCBbum_dXRCTj1Xhxw__CQB4pBHcGOemDG2Rpjnzw/viewform
 [zoom-setup]: https://github.com/afeld/python-public-policy#zoom-setup
 
