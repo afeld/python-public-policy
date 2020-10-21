@@ -82,7 +82,7 @@ Students will learn how to:
 [l4]: https://github.com/afeld/python-public-policy/blob/master/lecture_4.ipynb
 [l5]: https://github.com/afeld/python-public-policy/blob/master/lecture_5.ipynb
 [l6]: https://github.com/afeld/python-public-policy/blob/master/lecture_6.ipynb
-[survey]: https://docs.google.com/forms/d/e/1FAIpQLSeeL2wbRKCBbum_dXRCTj1Xhxw__CQB4pBHcGOemDG2Rpjnzw/viewform
+[survey]: https://docs.google.com/forms/d/e/1FAIpQLScO_YXC04UOo9kuVxFDq4uol9wmHUJ-Xr6MNn5HreOKRL2FHA/viewform?usp=sf_link
 [zoom-setup]: https://github.com/afeld/python-public-policy#zoom-setup
 
 ### Assignments and Evaluation
