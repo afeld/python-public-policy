@@ -40,8 +40,7 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: "3.x"
-      - name: Install Pipenv
-        run: pip install --user pipenv
+      - uses: dschep/install-pipenv-action@v1
       - name: Install dependencies
         run: pipenv install
       - name: Confirm notebook hasn't changed
