@@ -39,7 +39,20 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          python-version: "3.x"
+          # https://github.com/explosion/spaCy/issues/6228
+          python-version: "3.8"
+      # https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-python#caching-dependencies
+      - name: Cache pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+      # required for spacy
+      - name: Install Cython
+        run: pip install Cython
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
       - name: Confirm notebook hasn't changed
