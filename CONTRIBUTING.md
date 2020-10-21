@@ -7,5 +7,5 @@ While the lecture notes can be viewed as a plain notebook, they are also visible
 To ensure that notebooks have the correct execution order and output, run them non-interactively.
 
 ```sh
-./.github/workflows/update.sh <file>.ipynb
+./scripts/update.sh <file>.ipynb
 ```
