@@ -1,6 +1,22 @@
+# Contributing
+
+1. Install Python 3.8.
+1. [Install Pipenv.](https://pipenv.pypa.io/en/latest/#install-pipenv-today)
+1. Set up the environment:
+
+   ```sh
+   pipenv install
+   ```
+
+1. Start the Jupyter server:
+
+   ```sh
+   pipenv run jupyter notebook
+   ```
+
 ## Slides
 
-While the lecture notes can be viewed as a plain notebook, they are also visible as slides. Viewing using [RISE](https://rise.readthedocs.io/) is recommended.
+While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/stable/usage.html#running-a-slideshow).
 
 ## Notebook cleanup
 
