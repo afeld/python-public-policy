@@ -49,6 +49,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
             ${{ runner.os }}-
+      # required for spacy
+      - name: Install Cython
+        run: pip install Cython
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
       - name: Confirm notebook hasn't changed
