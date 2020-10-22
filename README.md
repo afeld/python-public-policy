@@ -28,7 +28,7 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
    1. [Share the file](https://support.google.com/drive/answer/2494822) with alf9@nyu.edu
    1. Change the permissions to `Commenter`
    1. Click `Copy link`
-1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/03a85694-beaf-4776-8b45-ee8944282c3c)
+1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/692a49c8-c85f-43f0-b21f-6a7e1f98bb5a)
 1. Click that assignment
 1. Paste the link
 1. Click `Submit`
