@@ -59,7 +59,7 @@ Students will learn how to:
 - All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0) site.
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be done over Zoom chat.
+- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums).
   - Email is also an option.
 - The instructor will try to respond within 24 hours, 48 hours max.
 
@@ -121,7 +121,7 @@ in one of the following:
 
 - Class
 - Office hours
-- The Zoom channel
+- [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums)
 
 The overall participation score will be based on how often the student does the above throughout the course.
 
