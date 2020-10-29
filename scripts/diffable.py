@@ -24,6 +24,10 @@ for cell in notebook["cells"]:
     ]
 
     for output in cell["outputs"]:
+        if "execution_count" in output:
+            # ignore all the execution count numbers
+            output["execution_count"] = 1
+
         # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
         if "data" in output and "text/html" in output["data"]:
             cell["outputs"] = []
