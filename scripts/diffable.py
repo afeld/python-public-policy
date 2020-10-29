@@ -16,6 +16,10 @@ for cell in notebook["cells"]:
     if cell["cell_type"] != "code":
         continue
 
+    # ignore any system command output
+    if cell["source"][0].startswith("!"):
+        cell["outputs"] = []
+
     # filter out pip upgrade warnings
     cell["outputs"] = [
         line
