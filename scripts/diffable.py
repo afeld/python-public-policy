@@ -2,6 +2,9 @@ import json
 import re
 import sys
 
+def is_pip_upgrade_msg(line):
+    return isinstance(line, str) and re.match(r"WARNING.+pip version|upgrade pip", line)
+
 input_str = sys.stdin.read()
 notebook = json.loads(input_str)
 
@@ -17,7 +20,7 @@ for cell in notebook["cells"]:
     cell["outputs"] = [
         line
         for line in cell["outputs"]
-        if not re.match(r"WARNING: You are using pip version|--upgrade pip", line)
+        if not is_pip_upgrade_msg(line)
     ]
 
     for output in cell["outputs"]:
