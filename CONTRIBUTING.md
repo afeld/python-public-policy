@@ -25,3 +25,10 @@ To ensure that notebooks have the correct execution order and output, run them n
 ```sh
 ./scripts/update.sh <file>.ipynb
 ```
+
+## Start of class checklist
+
+- Open [participation spreadsheet](https://docs.google.com/spreadsheets/d/19y3cXYYC-3KLGn6ay0GJ6Bt_LN_AXdxdhf4b3qPnUjE/edit#gid=773327)
+- Recording
+  1. Disclaimer
+  1. Start
