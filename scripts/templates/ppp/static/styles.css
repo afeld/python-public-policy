@@ -1,3 +1,3 @@
-nav ol {
-  list-style-type: none;
+nav a:hover {
+  text-decoration: underline;
 }
