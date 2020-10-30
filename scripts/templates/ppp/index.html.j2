@@ -12,8 +12,15 @@
 {{ super() }}
 <nav>
   <ul>
-    <li><a href="lecture_0.html">Lecture 0</a></li>
-    <li><a href="lecture_1.html">Lecture 1</a></li>
+    {% for week in range(7) %}
+    <li>
+      Week {{ week }}
+      <ul>
+        <li><a href="lecture_{{ week }}.html">Lecture</a></li>
+        <li><a href="hw_{{ week }}.html">Homework</a></li>
+      </ul>
+    </li>
+    {% endfor %}
   </ul>
 </nav>
 {% endblock body_header %}
