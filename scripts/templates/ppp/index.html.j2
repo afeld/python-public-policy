@@ -1,6 +1,15 @@
 {% extends 'lab/index.html.j2' %}
 
+{% block html_head_css %}
+<link href="static/styles.css" rel="stylesheet">
+{% endblock html_head_css %}
+
 {% block body_header %}
 {{ super() }}
-foo
+<nav>
+  <ol>
+    <li><a href="lecture_0.html">Lecture 0</a></li>
+    <li><a href="lecture_1.html">Lecture 1</a></li>
+  </ol>
+</nav>
 {% endblock body_header %}

@@ -8,6 +8,8 @@ DEST=public
 rm -r "$DEST"
 mkdir "$DEST"
 
+cp -r scripts/templates/ppp/static public
+
 for notebook in *.ipynb
 do
   jupyter nbconvert --to html \
