@@ -5,3 +5,8 @@ nav a:hover {
 video {
   max-width: 100%;
 }
+
+.dataframe,
+.jp-RenderedText {
+  max-height: 25rem;
+}
