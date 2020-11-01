@@ -7,11 +7,10 @@ TEMPLATE_DIR=scripts/templates
 TEMPLATE=ppp
 DEST=public
 
-rm -r "$DEST"
-mkdir "$DEST"
+mkdir -p "$DEST"
 
-cp -r "$TEMPLATE_DIR/$TEMPLATE/static" public
-cp -r img public
+rsync -avh --delete "$TEMPLATE_DIR/$TEMPLATE/static/" public/static/
+rsync -avh --delete img/ public/img/
 
 for notebook in *.ipynb
 do
