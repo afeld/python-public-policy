@@ -8,5 +8,13 @@ video {
 
 .dataframe,
 .jp-RenderedText {
-  max-height: 25rem;
+  max-height: 30rem;
+}
+
+.dataframe thead th {
+  /* make header sticky */
+  position: sticky;
+  top: 0;
+  /* copied from the <thead> so that the background shows up when scrolling */
+  background-color: var(--color);
 }
