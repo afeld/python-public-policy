@@ -55,4 +55,4 @@ jobs:
         run: pipenv install
 
       - name: Confirm notebook hasn't changed
-        run: pipenv run ./scripts/update.sh ${{ matrix.notebook }}
+        run: pipenv run ./scripts/update.sh docs/${{ matrix.notebook }}
