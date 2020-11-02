@@ -1,4 +1,4 @@
-site_name: Python Coding for Public Policy
+site_name: Python for Public Policy
 # https://github.com/danielfrg/mkdocs-jupyter/issues/14
 use_directory_urls: false
 plugins:

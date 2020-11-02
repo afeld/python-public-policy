@@ -1,13 +1,10 @@
-nav a:hover {
-  text-decoration: underline;
-}
-
 video {
   max-width: 100%;
 }
 
-.dataframe,
+.jp-RenderedHTML,
 .jp-RenderedText {
+  /* make long outputs scroll */
   max-height: 30rem;
 }
 
@@ -15,11 +12,17 @@ video {
   /* make header sticky */
   position: sticky;
   top: 0;
-  /* copied from the <thead> so that the background shows up when scrolling */
-  background-color: var(--color);
+  /* make it show up against the background when scrolling */
+  background-color: rgb(47, 164, 231);
+  color: white;
 }
 
 .CodeMirror {
   /* ensure code areas are visible on narrow screens */
   overflow-x: scroll;
+}
+
+.jp-RenderedHTMLCommon .dataframe {
+  /* fix columns being too narrow */
+  table-layout: inherit;
 }
