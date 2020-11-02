@@ -6,6 +6,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Syllabus: syllabus.md
   - Lecture 0: lecture_0.ipynb
   - Lecture 1: lecture_1.ipynb
   - Lecture 2: lecture_2.ipynb
