@@ -1,6 +1,18 @@
 site_name: Python Coding for Public Policy
+# https://github.com/danielfrg/mkdocs-jupyter/issues/14
+use_directory_urls: false
 plugins:
   - mkdocs-jupyter
 
 nav:
+  - Home: index.md
+  - Lecture 0: lecture_0.ipynb
   - Lecture 1: lecture_1.ipynb
+  - Lecture 2: lecture_2.ipynb
+  - Lecture 3: lecture_3.ipynb
+  - Lecture 4: lecture_4.ipynb
+  - Lecture 5: lecture_5.ipynb
+  - Lecture 6: lecture_6.ipynb
+
+extra_css:
+  - css/styles.css
