@@ -18,3 +18,8 @@ video {
   /* copied from the <thead> so that the background shows up when scrolling */
   background-color: var(--color);
 }
+
+.CodeMirror {
+  /* ensure code areas are visible on narrow screens */
+  overflow-x: scroll;
+}
