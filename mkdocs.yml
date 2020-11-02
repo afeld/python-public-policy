@@ -1,0 +1,6 @@
+site_name: Python Coding for Public Policy
+plugins:
+  - mkdocs-jupyter
+
+nav:
+  - Lecture 1: lecture_1.ipynb

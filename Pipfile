@@ -22,6 +22,8 @@ spacy = "*"
 textblob = "*"
 # other
 requests = "*"
+mkdocs = "*"
+mkdocs-jupyter = "*"
 
 [requires]
 # https://github.com/explosion/spaCy/issues/6228
