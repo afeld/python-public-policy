@@ -7,12 +7,25 @@ plugins:
 nav:
   - Home: index.md
   - Syllabus: syllabus.md
-  - Lecture 0: lecture_0.ipynb
-  - Lecture 1: lecture_1.ipynb
-  - Lecture 2: lecture_2.ipynb
-  - Lecture 3: lecture_3.ipynb
-  - Lecture 4: lecture_4.ipynb
-  - Lecture 5: lecture_5.ipynb
+  - Week 0:
+      - Lecture: lecture_0.ipynb
+      - Homework: hw_0.ipynb
+  - Week 1:
+      - Lecture: lecture_1.ipynb
+      - Homework: hw_1.ipynb
+  - Week 2:
+      - Lecture: lecture_2.ipynb
+      - Homework: hw_2.ipynb
+  - Week 3:
+      - Lecture: lecture_3.ipynb
+      - Homework: hw_3.ipynb
+  - Week 4:
+      - Lecture: lecture_4.ipynb
+      - Homework: hw_4.ipynb
+  - Week 5:
+      - Lecture: lecture_5.ipynb
+      - Exercise: lecture_5_exercise.ipynb
+      - Homework: hw_5.ipynb
   - Lecture 6: lecture_6.ipynb
 
 extra_css:
