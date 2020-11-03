@@ -1,6 +1,5 @@
 # Contributing
 
-1. Install Python 3.8.
 1. [Install Pipenv.](https://pipenv.pypa.io/en/latest/#install-pipenv-today)
 1. Set up the environment:
 

@@ -26,5 +26,6 @@ mkdocs = "*"
 mkdocs-jupyter = "*"
 
 [requires]
-# https://github.com/explosion/spaCy/issues/6228
-python_version = "3.8"
+# to match Netlify build environment
+# https://github.com/netlify/build-image/blob/xenial/included_software.md#languages
+python_version = "3.7"
