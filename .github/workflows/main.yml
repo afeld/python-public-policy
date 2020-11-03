@@ -39,7 +39,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          python-version: "3.8"
+          python-version: "3.7"
 
       - uses: dschep/install-pipenv-action@v1
       # https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-python#caching-dependencies
@@ -55,4 +55,4 @@ jobs:
         run: pipenv install
 
       - name: Confirm notebook hasn't changed
-        run: pipenv run ./scripts/update.sh ${{ matrix.notebook }}
+        run: pipenv run ./scripts/update.sh docs/${{ matrix.notebook }}

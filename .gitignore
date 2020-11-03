@@ -1,5 +1,6 @@
 .ipynb_checkpoints/
 *.csv
-*.slides.html
+*.html
+site/
 tmp/
 Untitled.ipynb

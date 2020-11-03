@@ -1,0 +1,28 @@
+video {
+  max-width: 100%;
+}
+
+.jp-RenderedHTML,
+.jp-RenderedText {
+  /* make long outputs scroll */
+  max-height: 30rem;
+}
+
+.dataframe thead th {
+  /* make header sticky */
+  position: sticky;
+  top: 0;
+  /* make it show up against the background when scrolling */
+  background-color: rgb(47, 164, 231);
+  color: white;
+}
+
+.CodeMirror {
+  /* ensure code areas are visible on narrow screens */
+  overflow-x: scroll;
+}
+
+.jp-RenderedHTMLCommon .dataframe {
+  /* fix columns being too narrow */
+  table-layout: inherit;
+}

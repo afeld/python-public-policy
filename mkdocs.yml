@@ -1,0 +1,32 @@
+site_name: Python for Public Policy
+# https://github.com/danielfrg/mkdocs-jupyter/issues/14
+use_directory_urls: false
+plugins:
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - Syllabus: syllabus.md
+  - Week 0:
+      - Lecture 0: lecture_0.ipynb
+      - Homework 0: hw_0.ipynb
+  - Week 1:
+      - Lecture 1: lecture_1.ipynb
+      - Homework 1: hw_1.ipynb
+  - Week 2:
+      - Lecture 2: lecture_2.ipynb
+      - Homework 2: hw_2.ipynb
+  - Week 3:
+      - Lecture 3: lecture_3.ipynb
+      - Homework 3: hw_3.ipynb
+  - Week 4:
+      - Lecture 4: lecture_4.ipynb
+      - Homework 4: hw_4.ipynb
+  - Week 5:
+      - Lecture 5: lecture_5.ipynb
+      - Lecture 5 Exercise: lecture_5_exercise.ipynb
+      - Homework 5: hw_5.ipynb
+  - Lecture 6: lecture_6.ipynb
+
+extra_css:
+  - css/styles.css
