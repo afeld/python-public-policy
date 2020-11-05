@@ -106,7 +106,7 @@ Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
 
-If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score.
+If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score. Requests for extensions will only be considered if made before the deadline.
 
 #### Participation
 
