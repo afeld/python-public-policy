@@ -9,17 +9,17 @@ RISE = "*"
 ipykernel = "*"
 jupyter-contrib-nbextensions = "*"
 notebook = "*"
-# should match versions on Colab
+# should match versions on Colab, from
 # https://github.com/googlecolab/colabtools/blob/master/setup.py
+# or from `!pip show <package>`
 pandas = "~=1.1.0"
 plotly = "==4.4.1"
+spacy = "==2.2.4"
 statsmodels = "==0.10.2"
+textblob = "==0.15.3"
 # CI
 nbconvert = "*"
 nbdime = "*"
-# NLP
-spacy = "*"
-textblob = "*"
 # other
 requests = "*"
 
