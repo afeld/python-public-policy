@@ -16,6 +16,10 @@ def is_vid(cell):
     return text == "<IPython.core.display.Video object>"
 
 
+def has_html_output(output):
+    return "data" in output and "text/html" in output["data"]
+
+
 input_str = sys.stdin.read()
 notebook = json.loads(input_str)
 
@@ -42,8 +46,8 @@ for cell in notebook["cells"]:
             # ignore all the execution count numbers
             output["execution_count"] = 1
 
-        # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
-        if "data" in output and "text/html" in output["data"]:
+        if has_html_output(output):
+            # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
             cell["outputs"] = []
             # go to next cell
             break
