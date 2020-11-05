@@ -16,6 +16,13 @@ def is_vid(cell):
     return text == "<IPython.core.display.Video object>"
 
 
+def fix_sample(line):
+    """Ensure calls to .sample() are deterministic by passing in a seed value
+
+    https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html"""
+    return re.sub(r"\.sample\((\d+)\)", r".sample(\1, random_state=1)", line)
+
+
 def has_html_output(output):
     return "data" in output and "text/html" in output["data"]
 
@@ -37,6 +44,8 @@ for cell in notebook["cells"]:
     # ignore any system command output
     if cell["source"][0].startswith("!"):
         cell["outputs"] = []
+
+    cell["source"] = [fix_sample(line) for line in cell["source"]]
 
     # filter out pip upgrade warnings
     cell["outputs"] = [line for line in cell["outputs"] if not is_pip_upgrade_msg(line)]
