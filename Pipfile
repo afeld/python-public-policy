@@ -18,7 +18,6 @@ statsmodels = "==0.10.2"
 nbconvert = "*"
 nbdime = "*"
 # NLP
-en-core-web-md = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.5/en_core_web_md-2.2.5.tar.gz"}
 spacy = "*"
 textblob = "*"
 # other
