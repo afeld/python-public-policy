@@ -2,9 +2,8 @@
 name: new term
 about: How to switch over for a new semester
 title: prep for new term
-labels: ''
+labels: ""
 assignees: afeld
-
 ---
 
 - [ ] New Classes site
@@ -17,4 +16,5 @@ assignees: afeld
   - [ ] Link to Classes
 - [ ] Send calendar invite
   - [ ] Create google group
-- [ ] Participation spreadsheet
+- [ ] Create copy of participation spreadsheet
+- [ ] Find guest speaker
