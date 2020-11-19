@@ -9,7 +9,6 @@ DEST=public
 
 mkdir -p "$DEST"
 
-rsync -avh --delete "$TEMPLATE_DIR/$TEMPLATE/static/" public/static/
 rsync -avh --delete img/ public/img/
 
 for notebook in *.ipynb

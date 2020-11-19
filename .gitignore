@@ -1,6 +1,7 @@
 .ipynb_checkpoints/
 *.csv
 *.html
-public/
+public/*
+!public/static/
 tmp/
 Untitled.ipynb
