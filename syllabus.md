@@ -65,15 +65,15 @@ Students will learn how to:
 
 ## Course Schedule
 
-| Lecture | Date  | Topics                                      | Homework                                                      |
-| ------- | ----- | ------------------------------------------- | ------------------------------------------------------------- |
-| [0][l0] | 10/22 | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, HW0 assigned |
-| [1][l1] | 10/29 | Intro to Pandas                             | HW0 due, HW1 assigned                                         |
-| [2][l2] | 11/5  | Manipulating and combining data             | HW1 due, HW2 assigned                                         |
-| [3][l3] | 11/12 | Data visualization                          | HW2 due, HW3 assigned                                         |
-| [4][l4] | 11/19 | Working with dates and time series analysis | HW3 due, HW4 assigned                                         |
-| [5][l5] | 12/3  | Natural language processing                 | HW4 due, HW5 assigned                                         |
-| [6][l6] | 12/10 | Review and topic(s) of student choice       | HW5 due, HW6 assigned - due 12/17                             |
+| Lecture | Date  | Topics                                      | Homework                                                             |
+| ------- | ----- | ------------------------------------------- | -------------------------------------------------------------------- |
+| [0][l0] | 10/22 | Intro to coding                             | [Survey][survey] & [Zoom setup][zoom-setup] due, [HW0][hw0] assigned |
+| [1][l1] | 10/29 | Intro to Pandas                             | [HW0][hw0] due, [HW1][hw1] assigned                                  |
+| [2][l2] | 11/5  | Manipulating and combining data             | [HW1][hw1] due, [HW2][hw2] assigned                                  |
+| [3][l3] | 11/12 | Data visualization                          | [HW2][hw2] due, [HW3][hw3] assigned                                  |
+| [4][l4] | 11/19 | Working with dates and time series analysis | [HW3][hw3] due, [HW4][hw4] assigned                                  |
+| [5][l5] | 12/3  | Natural language processing                 | [HW4][hw4] due, [HW5][hw5] assigned                                  |
+| [6][l6] | 12/10 | Review and topic(s) of student choice       | [HW5][hw5] due, [HW6][hw6] assigned - due 12/17                      |
 
 [l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
 [l1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_1.ipynb
@@ -91,13 +91,21 @@ The Course Grade is based on the following:
 
 - Participation: 10%
 - 7 Assignments: 90%
-  - HW0: 12.5%
-  - HW1: 12.5%
-  - HW2: 12.5%
-  - HW3: 12.5%
-  - HW4: 12.5%
-  - HW5: 12.5%
-  - HW6: 15%
+  - [HW0][hw0]: 12.5%
+  - [HW1][hw1]: 12.5%
+  - [HW2][hw2]: 12.5%
+  - [HW3][hw3]: 12.5%
+  - [HW4][hw4]: 12.5%
+  - [HW5][hw5]: 12.5%
+  - [HW6][hw6]: 15%
+
+[hw0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_0.ipynb
+[hw1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_1.ipynb
+[hw2]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_2.ipynb
+[hw3]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_3.ipynb
+[hw4]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_4.ipynb
+[hw5]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_5.ipynb
+[hw6]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_6.ipynb
 
 #### Assignments
 
