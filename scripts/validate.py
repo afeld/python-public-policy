@@ -14,7 +14,7 @@ def test_colab_metadata(notebook, file):
 def test_badge(notebook, file):
     cell = notebook["cells"][0]
     source = cell["source"][0]
-    nb_url = f"https://colab.research.google.com/github/afeld/python-public-policy/blob/master/{file}"
+    nb_url = f"https://colab.research.google.com/github/afeld/python-public-policy/blob/main/{file}"
     assert nb_url in source, f"'Open in Colab' badge missing/incorrect for {file}."
 
 
