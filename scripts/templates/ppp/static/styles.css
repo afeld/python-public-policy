@@ -1,3 +1,7 @@
+nav {
+  margin-bottom: 3rem;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
