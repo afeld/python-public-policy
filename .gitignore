@@ -2,6 +2,7 @@
 *.csv
 *.html
 public/*
+!public/index.html
 !public/static/
 tmp/
 Untitled.ipynb
