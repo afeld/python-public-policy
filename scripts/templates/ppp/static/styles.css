@@ -2,6 +2,16 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav li ul::before {
+  /* fill gap above sub-menus to make mousing over them easier, using https://stackoverflow.com/a/48753914/358804 */
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -0.5rem;
+  height: 0.5rem;
+}
+
 video {
   max-width: 100%;
 }
