@@ -4,6 +4,13 @@ import json
 
 def test_colab_metadata(notebook, file):
     metadata = notebook["metadata"]
+
+    assert (
+        metadata["kernelspec"]["display_name"] == "Python 3"
+    ), f"Runtime name incorrect for {file}."
+
+    assert metadata["language_info"]["version"].startswith("3.")
+
     if "colab" in metadata:
         colab_name = metadata["colab"]["name"]
         assert (
