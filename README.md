@@ -22,9 +22,11 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
    1. Change the permissions to `Commenter`
    1. Click `Copy link`
 1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/692a49c8-c85f-43f0-b21f-6a7e1f98bb5a)
-1. Click that assignment
+1. Click that Assignment
 1. Paste the link
 1. Click `Submit`
+
+After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in NYU Classes under the Assignments.
 
 ## Resources
 
