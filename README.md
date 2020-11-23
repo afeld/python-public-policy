@@ -15,6 +15,16 @@ This repository contains content for [NYU Wagner's Python Coding for Public Poli
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
 
+## Assignments
+
+### Tips
+
+- **Copy to Drive** when you start with one of the homework templates. This ensures your changes are saved.
+- **Look at the Table of Contents** to get an overview. You can find the Table of Contents at the top of the sidebar.
+- **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
+- **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
+- **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
+
 ### Turning in assignments
 
 1. Share the notebook
