@@ -15,6 +15,24 @@ This repository contains content for [NYU Wagner's Python Coding for Public Poli
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
 
+## Why this class?
+
+There are countless resources out there to learn Python and pandas — books, videos, etc. — and many are free. Relative to other Python/pandas courses, this class:
+
+- Doesn't expect any prior technical experience
+- Has a specific emphasis on learning coding for data analysis rather than software engineering
+- Puts the data/code in a public policy context
+- Teaches you how to work with open data
+- Optimizes for minimal setup
+
+All the lectures and assignment templates are in this repository, so you _could_ go through them on your own. The benefits of enrolling are:
+
+- You get access to lectures (and their recordings), which includes commentary that isn't in this repository
+- The instructor is there to answer questions in a timely manner
+- You have peers you can work with
+- You get access to assignment solutions
+- You invest money and are expected to show up to class and turn in assignments on time, which increases completion rates
+
 ## Assignments
 
 ### Tips
