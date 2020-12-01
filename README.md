@@ -20,18 +20,20 @@ Produced and taught by Aidan Feldman. Largely based on [previous iteration by Ha
 There are countless resources out there to learn Python and pandas — books, videos, etc. — and many are free. Relative to other Python/pandas courses, this class:
 
 - Doesn't expect any prior technical experience
-- Has a specific emphasis on learning coding for data analysis rather than software engineering
 - Puts the data/code in a public policy context
+  - There's a specific emphasis on learning coding for data analysis rather than software engineering
 - Teaches you how to work with open data
 - Optimizes for minimal setup
 
 All the lectures and assignment templates are in this repository, so you _could_ go through them on your own. The benefits of enrolling are:
 
-- You get access to lectures (and their recordings), which includes commentary that isn't in this repository
-- The instructor is there to answer questions in a timely manner
-- You have peers you can work with
-- You get access to assignment solutions
-- You invest money and are expected to show up to class and turn in assignments on time, which increases completion rates
+- Additional content
+  - You get access to lectures (and their recordings), which includes commentary that isn't in this repository
+  - You get access to assignment solutions
+- Support
+  - There is an instructor to answer questions, both during and between lectures
+  - You have peers you can work with
+- You invest money and are expected to show up to class and turn in assignments on time, which [makes it far more likely you will complete it](https://mashable.com/2014/12/16/warning-college-may-be-a-waste-of-your-time-and-money/#8BFB_sdkMaqy)
 
 ## Assignments
 
