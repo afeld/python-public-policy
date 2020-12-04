@@ -60,6 +60,7 @@ After the resubmission deadline passes for each Assignment, you'll be able to fi
 
 ## Resources
 
+- [Office hours](syllabus.md#instructor-information)
 - [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
   - Tutoring
   - Math Review

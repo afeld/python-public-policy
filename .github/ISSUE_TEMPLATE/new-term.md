@@ -12,6 +12,7 @@ assignees: afeld
 - [ ] Survey
 - [ ] Update in repo
   - [ ] Dates
+  - [ ] Office hours
   - [ ] Link to survey
   - [ ] Link to Classes
 - [ ] Send calendar invite
