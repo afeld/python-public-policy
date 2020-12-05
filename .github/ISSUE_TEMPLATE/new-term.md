@@ -18,4 +18,6 @@ assignees: afeld
 - [ ] Send calendar invite
   - [ ] Create google group
 - [ ] Create copy of participation spreadsheet
-- [ ] Find guest speaker
+- [ ] Find guest(s)
+  - [ ] Get bio(s)
+  - [ ] Update lecture 6
