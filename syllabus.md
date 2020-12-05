@@ -132,6 +132,11 @@ in one of the following:
 - Office hours
 - [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums)
 
+The following don't count towards the participation score:
+
+- Homework revisions
+- Communications about grades or other administrivia
+
 The overall participation score is calculated based on how many classes / weeks between classes that the student does the above. In other words, getting a high participation score requires participation throughout the course.
 
 ### Class Policies
