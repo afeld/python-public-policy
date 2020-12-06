@@ -21,3 +21,4 @@ assignees: afeld
 - [ ] Find guest(s)
   - [ ] Get bio(s)
   - [ ] Update lecture 6
+- [ ] Update course evaluation link in Lecture 6
