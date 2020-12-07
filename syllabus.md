@@ -131,6 +131,7 @@ in one of the following:
 - Class
 - Office hours
 - [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums)
+  - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
 
 The following don't count towards the participation score:
 
