@@ -1,0 +1,17 @@
+.reveal blockquote {
+  margin: 0;
+  width: 100%;
+}
+
+.rise-enabled .reveal blockquote p {
+  padding: 2rem 6rem;
+}
+
+.rise-enabled .reveal a {
+  color: inherit;
+}
+
+.reveal .output_subarea {
+  max-height: 50rem;
+  overflow-y: scroll;
+}
