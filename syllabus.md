@@ -144,7 +144,7 @@ The overall participation score is calculated based on how many classes / weeks 
 
 A student may work with other students. However, solutions should not be identical to / copied-and-pasted from one another, and each student should submit their assignment separately. In addition, students need to indicate who they worked with with each submission.
 
-All submissions must be made using a Google Colab Notebook file following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments). All submissions should follow the style guide that will be provided during the first class.
+All submissions must be made using a Google Colab Notebook file following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
