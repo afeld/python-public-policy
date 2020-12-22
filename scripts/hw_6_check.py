@@ -70,6 +70,11 @@ def pass_fail(result):
     return f"{color}{result}{bcolors.ENDC}"
 
 
+def exit(results):
+    exit_code = 0 if results.all() else 1
+    sys.exit(exit_code)
+
+
 notebook_path = sys.argv[1]
 
 script_bytes = get_script(notebook_path)
@@ -81,7 +86,7 @@ uses_transform = code_contains(r"(groupby|merge|join|concat)\(", script)
 has_plotting = code_contains(r"plotly|matplotlib|altair", script)
 
 # use pandas for outputting a table
-series = pd.Series(
+results = pd.Series(
     {
         f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
         "Includes link": includes_link(notebook),
@@ -90,5 +95,6 @@ series = pd.Series(
     }
 )
 
-series = series.apply(lambda val: pass_fail(val))
-print(series.to_string())
+outputs = results.apply(lambda val: pass_fail(val))
+print(outputs.to_string())
+exit(results)
