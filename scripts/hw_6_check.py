@@ -39,13 +39,18 @@ def lines_of_code(code):
     return data["SUM"]["code"]
 
 
+def code_contains(pattern, code):
+    matches = re.search(pattern, code)
+    return bool(matches)
+
+
 def has_link(cell):
     pattern = r"https?://"
     if cell["cell_type"] == "code":
         # check for URL in comment
         pattern = r"^\s*#.*" + pattern
 
-    return any(re.match(pattern, line) for line in cell["source"])
+    return any(code_contains(pattern, line) for line in cell["source"])
 
 
 def includes_link(notebook):
@@ -60,7 +65,6 @@ class bcolors:
 
 
 def pass_fail(result):
-    result = bool(result)
     color = bcolors.OKGREEN if result else bcolors.FAIL
     return f"{color}{result}{bcolors.ENDC}"
 
@@ -72,8 +76,8 @@ script = str(script_bytes)
 notebook = json.load(open(notebook_path))
 
 num_lines = lines_of_code(script_bytes)
-uses_transform = re.match(r"(groupby|merge|join|concat)\(", script)
-has_plotting = re.match(r"plotly|matplotlib|altair", script)
+uses_transform = code_contains(r"(groupby|merge|join|concat)\(", script)
+has_plotting = code_contains(r"plotly|matplotlib|altair", script)
 
 # use pandas for outputting a table
 series = pd.Series(
