@@ -55,3 +55,6 @@ print("Lines of code:", num_lines)
 
 notebook = json.load(open(notebook_path))
 print("Includes link:", includes_link(notebook))
+
+uses_transform = re.match(r"(groupby|merge|join|concat)\(", str(script))
+print("Uses transform:", uses_transform)
