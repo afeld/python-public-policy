@@ -35,11 +35,10 @@ def lines_of_code(code):
 
 
 def has_link(cell):
+    pattern = r"https?://"
     if cell["cell_type"] == "code":
         # check for URL in comment
-        pattern = "^\s*#.*https?://"
-    else:
-        pattern = "https?://"
+        pattern = r"^\s*#.*" + pattern
 
     return any(re.match(pattern, line) for line in cell["source"])
 
