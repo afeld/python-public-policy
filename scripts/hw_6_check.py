@@ -1,6 +1,7 @@
 # requires cloc
 
 import json
+import pandas as pd
 import re
 import subprocess
 import sys
@@ -61,18 +62,24 @@ def pass_fail(result):
 
 
 notebook_path = sys.argv[1]
+
 script_bytes = get_script(notebook_path)
+script = str(script_bytes)
+notebook = json.load(open(notebook_path))
 
 num_lines = lines_of_code(script_bytes)
-print("Enough lines of code:", f"{pass_fail(num_lines >= 40)} ({num_lines})")
-
-notebook = json.load(open(notebook_path))
-print("Includes link:", pass_fail(includes_link(notebook)))
-
-script = str(script_bytes)
-
 uses_transform = re.match(r"(groupby|merge|join|concat)\(", script)
-print("Uses transform:", pass_fail(uses_transform))
-
 has_plotting = re.match(r"plotly|matplotlib|altair", script)
-print("Has plotting:", pass_fail(has_plotting))
+
+# use pandas for outputting a table
+series = pd.Series(
+    {
+        f"Enough lines of code ({num_lines})": num_lines >= 40,
+        "Includes link": includes_link(notebook),
+        "Uses transform": uses_transform,
+        "Has plotting": has_plotting,
+    }
+)
+
+series = series.apply(lambda val: pass_fail(val))
+print(series.to_string())
