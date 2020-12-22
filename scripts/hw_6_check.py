@@ -1,6 +1,7 @@
 # requires cloc
 
 import json
+import re
 import subprocess
 import sys
 
@@ -33,7 +34,25 @@ def lines_of_code(code):
     return data["SUM"]["code"]
 
 
-notebook = sys.argv[1]
-script = get_script(notebook)
+def has_link(cell):
+    if cell["cell_type"] == "code":
+        # check for URL in comment
+        pattern = "^\s*#.*https?://"
+    else:
+        pattern = "https?://"
+
+    return any(re.match(pattern, line) for line in cell["source"])
+
+
+def includes_link(notebook):
+    return any(has_link(cell) for cell in notebook["cells"])
+
+
+notebook_path = sys.argv[1]
+script = get_script(notebook_path)
+
 num_lines = lines_of_code(script)
 print("Lines of code:", num_lines)
+
+notebook = json.load(open(notebook_path))
+print("Includes link:", includes_link(notebook))
