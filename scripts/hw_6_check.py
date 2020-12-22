@@ -65,6 +65,7 @@ class bcolors:
 
 
 def pass_fail(result):
+    """Apply ANSI color escape codes"""
     color = bcolors.OKGREEN if result else bcolors.FAIL
     return f"{color}{result}{bcolors.ENDC}"
 
