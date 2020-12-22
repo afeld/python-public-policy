@@ -1,10 +1,14 @@
-# requires cloc
+# Requires cloc. Usage:
+#
+#   python ./scripts/hw_6_check.py <assignment>.ipynb
 
 import json
 import pandas as pd
 import re
 import subprocess
 import sys
+
+MIN_LINES = 40
 
 
 def get_cmd_output(cmd, input=None, shell=False):
@@ -74,7 +78,7 @@ has_plotting = re.match(r"plotly|matplotlib|altair", script)
 # use pandas for outputting a table
 series = pd.Series(
     {
-        f"Enough lines of code ({num_lines})": num_lines >= 40,
+        f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
         "Includes link": includes_link(notebook),
         "Uses transform": uses_transform,
         "Has plotting": has_plotting,
