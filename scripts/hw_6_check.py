@@ -1,4 +1,4 @@
-# Requires cloc. Usage:
+# Corresponds to the Requirements for homework 6. Requires cloc. Usage:
 #
 #   python ./scripts/hw_6_check.py <assignment>.ipynb
 
@@ -57,6 +57,16 @@ def includes_link(notebook):
     return any(has_link(cell) for cell in notebook["cells"])
 
 
+def uses_transform(script):
+    return code_contains(
+        r"\b(groupby|merge|join|concat|melt|pivot|(un)?stack)\(", script
+    )
+
+
+def has_plotting(script):
+    return code_contains(r"\b(plotly|matplotlib|altair|seaborn)\b", script)
+
+
 # https://stackoverflow.com/a/287944/358804
 class bcolors:
     OKGREEN = "\033[92m"
@@ -80,18 +90,15 @@ notebook_path = sys.argv[1]
 script_bytes = get_script(notebook_path)
 script = str(script_bytes)
 notebook = json.load(open(notebook_path))
-
 num_lines = lines_of_code(script_bytes)
-uses_transform = code_contains(r"(groupby|merge|join|concat)\(", script)
-has_plotting = code_contains(r"plotly|matplotlib|altair", script)
 
 # use pandas for outputting a table
 results = pd.Series(
     {
         f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
         "Includes link": includes_link(notebook),
-        "Uses transform": uses_transform,
-        "Has plotting": has_plotting,
+        "Uses transform": uses_transform(script),
+        "Has plotting": has_plotting(script),
     }
 )
 
