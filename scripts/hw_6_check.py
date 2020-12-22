@@ -61,16 +61,18 @@ def pass_fail(result):
 
 
 notebook_path = sys.argv[1]
-script = get_script(notebook_path)
+script_bytes = get_script(notebook_path)
 
-num_lines = lines_of_code(script)
+num_lines = lines_of_code(script_bytes)
 print("Enough lines of code:", f"{pass_fail(num_lines >= 40)} ({num_lines})")
 
 notebook = json.load(open(notebook_path))
 print("Includes link:", pass_fail(includes_link(notebook)))
 
-uses_transform = re.match(r"(groupby|merge|join|concat)\(", str(script))
+script = str(script_bytes)
+
+uses_transform = re.match(r"(groupby|merge|join|concat)\(", script)
 print("Uses transform:", pass_fail(uses_transform))
 
-has_plotting = re.match(r"(groupby|merge|join|concat)\(", str(script))
+has_plotting = re.match(r"plotly|matplotlib|altair", script)
 print("Has plotting:", pass_fail(has_plotting))
