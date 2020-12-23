@@ -16,8 +16,11 @@ def handle_process_err(cmd, err):
     if type(cmd) == list:
         cmd = shlex.join(cmd)
 
-    print("ERROR while running\n\n\t", cmd, "\n\n")
-    print(str(err.stderr, "utf-8"), file=sys.stderr)
+    output = err.stderr.decode("utf-8")
+    print(
+        f"{bcolors.FAIL}ERROR{bcolors.ENDC} while running\n\n\t{cmd}\n\n{output}",
+        file=sys.stderr,
+    )
     sys.exit(err.returncode)
 
 
@@ -75,7 +78,8 @@ def includes_link(notebook):
 
 def uses_transform(script):
     return code_contains(
-        r"\b(groupby|resample|merge|join|concat|melt|pivot|(un)?stack)\(", script
+        r"\b(groupby|resample|merge|join|concat|melt|pivot(_table)?|(un)?stack)\(",
+        script,
     )
 
 
