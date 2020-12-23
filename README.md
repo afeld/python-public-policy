@@ -75,6 +75,25 @@ After the resubmission deadline passes for each Assignment, you'll be able to fi
     - [DataCamp](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
     - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 
+## Learning more
+
+Want to keep going after this class?
+
+### Python fundamentals
+
+Recommended focusing on fundamentals of Python 3. Many "learn Python" resources will be web development-oriented (they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/)), so you might want to look for ones that focus on data science or Python 3 on its own. Some that are data-oriented:
+
+- DataCamp's [Python Fundamentals](https://www.datacamp.com/tracks/python-fundamentals) or [Python Programmer](https://www.datacamp.com/tracks/python-programmer) tracks
+- [Kaggle's Learn Python tutorials](https://www.kaggle.com/learn/python)
+
+Countless other "learn Python" resources/courses/videos/books out there; there isn't one right choice for everyone.
+
+### Machine learning
+
+- [Kaggle's Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
+- [Disco's machine learning content](https://www.heydisco.com/)
+- [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
+
 ## See also
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
