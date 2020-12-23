@@ -5,14 +5,30 @@
 import json
 import pandas as pd
 import re
+import shlex
 import subprocess
 import sys
 
 MIN_LINES = 40
 
 
+def handle_process_err(cmd, err):
+    if type(cmd) == list:
+        cmd = shlex.join(cmd)
+
+    print("ERROR while running\n\n\t", cmd, "\n\n")
+    print(str(err.stderr, "utf-8"), file=sys.stderr)
+    sys.exit(err.returncode)
+
+
 def get_cmd_output(cmd, input=None, shell=False):
-    process = subprocess.run(cmd, capture_output=True, input=input, shell=shell)
+    try:
+        process = subprocess.run(
+            cmd, capture_output=True, check=True, input=input, shell=shell
+        )
+    except subprocess.CalledProcessError as err:
+        handle_process_err(cmd, err)
+
     return process.stdout
 
 
@@ -59,7 +75,7 @@ def includes_link(notebook):
 
 def uses_transform(script):
     return code_contains(
-        r"\b(groupby|merge|join|concat|melt|pivot|(un)?stack)\(", script
+        r"\b(groupby|resample|merge|join|concat|melt|pivot|(un)?stack)\(", script
     )
 
 
