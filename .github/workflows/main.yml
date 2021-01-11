@@ -55,4 +55,6 @@ jobs:
           use-only-tar-bz2: true
 
       - name: Confirm notebook hasn't changed
-        run: ./scripts/check_change.sh ${{ matrix.notebook }}
+        run: |
+          conda activate python-public-policy
+          ./scripts/check_change.sh ${{ matrix.notebook }}
