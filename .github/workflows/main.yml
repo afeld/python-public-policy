@@ -16,6 +16,10 @@ jobs:
 
   run_notebook:
     runs-on: ubuntu-latest
+    # https://github.com/marketplace/actions/setup-miniconda#use-a-default-shell
+    defaults:
+      run:
+        shell: bash -l {0}
     strategy:
       fail-fast: false
       matrix:
@@ -37,23 +41,23 @@ jobs:
           - pandas_crash_course.ipynb
     steps:
       - uses: actions/checkout@v1
-      - name: Set up Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: "3.8"
 
-      - uses: dschep/install-pipenv-action@v1
-      # https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-python#caching-dependencies
-      - name: Cache Pipenv
-        uses: actions/cache@v2
+      # https://github.com/marketplace/actions/setup-miniconda#caching
+      - name: Cache conda
+        uses: actions/cache@v1
+        env:
+          # Increase this value to reset cache if environment.yml has not changed
+          CACHE_NUMBER: 0
         with:
-          path: ~/.cache/pipenv
-          key: ${{ runner.os }}-pipenv-${{ hashFiles('Pipfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-pipenv-
-            ${{ runner.os }}-
-      - name: Install dependencies
-        run: pipenv install
+          path: ~/conda_pkgs_dir
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
+      - name: Set up Miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: python-public-policy
+          channel-priority: strict
+          environment-file: environment.yml
+          use-only-tar-bz2: true
 
       - name: Confirm notebook hasn't changed
-        run: pipenv run ./scripts/check_change.sh ${{ matrix.notebook }}
+        run: ./scripts/check_change.sh ${{ matrix.notebook }}
