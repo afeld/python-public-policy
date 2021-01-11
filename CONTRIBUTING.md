@@ -1,17 +1,22 @@
 # Contributing
 
-1. Install Python 3.8.
-1. [Install Pipenv.](https://pipenv.pypa.io/en/latest/#install-pipenv-today)
-1. Set up the environment:
+1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+1. Create the environment:
 
    ```sh
-   pipenv install
+   conda env create -f environment.yml
+   ```
+
+1. Activate the environment:
+
+   ```sh
+   conda activate python-public-policy
    ```
 
 1. Start the Jupyter server:
 
    ```sh
-   pipenv run jupyter notebook
+   jupyter notebook
    ```
 
 ## Slides
