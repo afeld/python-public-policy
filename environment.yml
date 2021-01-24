@@ -8,6 +8,7 @@ dependencies:
   - ipykernel
   - jupyter_contrib_nbextensions
   - notebook
+  - nb_conda
   # should match versions on Colab, from
   # https://github.com/googlecolab/colabtools/blob/master/setup.py
   # or from `!pip show <package>`
