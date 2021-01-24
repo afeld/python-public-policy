@@ -5,8 +5,13 @@ import json
 def test_colab_metadata(notebook, file):
     metadata = notebook["metadata"]
 
+    if file == "pandas_crash_course.ipynb":
+        # run in Google Colab
+        expected_kernel = "Python 3"
+    else:
+        expected_kernel = "Python [conda env:python-public-policy]"
     assert (
-        metadata["kernelspec"]["display_name"] == "Python 3"
+        metadata["kernelspec"]["display_name"] == expected_kernel
     ), f"Runtime name incorrect for {file}."
 
     assert metadata["language_info"]["version"].startswith("3.")
