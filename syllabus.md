@@ -17,7 +17,7 @@
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - Class Meeting Times: Thurs, 10/22-12/13 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/?t=5f90cb80,-4b), skipping 11/26
-- Class Location: Online (Zoom)
+- Class Location: Online (Zoom) — see the links on [the Zoom tab in the NYU Classes site](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/page/b279982d-f765-4302-80fe-22ba34e01d90).
 
 ## Prerequisites
 
@@ -164,6 +164,12 @@ All submissions must be made using a Google Colab Notebook file following [these
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
+### Classroom Norms
+
+You are expected to participate in each class with your Zoom audio and video on. Please review Wagner's [Zoom in the Classroom](https://wagner.nyu.edu/portal/student/zoom) series about classroom etiquette, participation, and more. If you are unable to participate with video on, please contact me.
+
+Students may not share the Zoom classroom recordings. The recordings are kept within the NYU Classes site and are for students enrolled in this course only.
+
 ### Academic Integrity
 
 Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by Wagner's Academic Code. All Wagner students have already read and signed the Wagner Academic Oath. Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
@@ -175,3 +181,9 @@ NYU's [Calendar Policy on Religious Holidays](https://www.nyu.edu/about/policies
 ## Accessibility
 
 Academic accommodations are available for students with disabilities. Please visit the [Moses Center for Student Accessibility](https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html) website and click on the Reasonable Accommodations and How to Register tab or call or email CSD at (212-998-4980 or mosescsd@nyu.edu) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
+
+## Technology Support
+
+You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides (NYU Classes, Zoom, etc). Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance, or contact [Zoom's 24/7 technical support](https://support.zoom.us/hc/en-us/articles/201362003) (includes a chat function), or review [Zoom's support resources](https://support.zoom.us/hc/en-us/categories/200101697-Getting-Started). Your peers are another source of support, so you could ask a friend or classmate for help or tips.
+
+If you do not have the appropriate hardware technology nor financial resources to purchase the technology, consider applying for the NYU [Emergency Relief Grant](https://www.nyu.edu/admissions/financial-aid-and-scholarships/covid-relief-grant.html).
