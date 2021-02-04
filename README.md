@@ -44,6 +44,9 @@ All the lectures and assignment templates are in this repository, so you _could_
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
+- Kernel issues
+  - If your kernel crashes, let the instructor know.
+  - Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
 
 ### Turning in assignments
 
