@@ -94,6 +94,13 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 - [Disco's machine learning content](https://www.heydisco.com/)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
+### NYU classes
+
+- [Big Data Analytics for Public Policy](https://wagner.nyu.edu/education/courses/big-data-analytics-for-public-policy)
+- [Center for Urban Science + Progress](https://cusp.nyu.edu/masters-degree/curriculum/)
+  - Applied Data Science
+  - Machine Learning for Cities
+
 ## See also
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
