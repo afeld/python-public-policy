@@ -6,15 +6,18 @@ labels: ""
 assignees: afeld
 ---
 
-- [ ] New Classes site
-  - [ ] Import
-  - [ ] Change assignment dates and publish them
-- [ ] Survey
 - [ ] Update in repo
   - [ ] Dates
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] Link to Classes
+- [ ] Submit syllabus to Wagner
+  - [ ] [Convert to PDF](https://md2pdf.netlify.com/)
+  - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
+- [ ] New Classes site
+  - [ ] Import
+  - [ ] Change assignment dates and publish them
+- [ ] Survey
 - [ ] Send calendar invite
   - [ ] Create google group
 - [ ] Create copy of participation spreadsheet

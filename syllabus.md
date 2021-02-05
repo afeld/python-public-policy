@@ -1,5 +1,3 @@
-<!-- convert to PDF using https://md2pdf.netlify.com/ -->
-
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
 # Python Coding for Public Policy - Fall 2020
