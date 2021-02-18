@@ -1,0 +1,29 @@
+nav {
+  margin-bottom: 3rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+video {
+  max-width: 100%;
+}
+
+.dataframe,
+.jp-RenderedText {
+  max-height: 30rem;
+}
+
+.dataframe thead th {
+  /* make header sticky */
+  position: sticky;
+  top: 0;
+  /* copied from the <thead> so that the background shows up when scrolling */
+  background-color: var(--color);
+}
+
+.CodeMirror {
+  /* ensure code areas are visible on narrow screens */
+  overflow-x: scroll;
+}
