@@ -38,6 +38,10 @@ for cell in notebook["cells"]:
     if cell["source"][0].startswith("!"):
         cell["outputs"] = []
 
+    # ignore sample() output
+    if any(".sample(" in line for line in cell["source"]):
+        cell["outputs"] = []
+
     # filter out pip upgrade warnings
     cell["outputs"] = [line for line in cell["outputs"] if not is_pip_upgrade_msg(line)]
 

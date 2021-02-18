@@ -31,7 +31,7 @@ jobs:
           # - hw_4.ipynb # has incomplete code
           - hw_5.ipynb
           - lecture_0.ipynb
-          # - lecture_1.ipynb # uses sample()
+          - lecture_1.ipynb
           - lecture_2.ipynb
           - lecture_3.ipynb
           - lecture_4.ipynb
