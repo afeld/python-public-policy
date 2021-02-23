@@ -55,15 +55,15 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date  | Topics                                      | Homework                                        |
-| ------- | ----- | ------------------------------------------- | ----------------------------------------------- |
-| [0][l0] | 10/22 | Intro to coding                             | [Survey][survey] due, [HW0][hw0] assigned       |
-| [1][l1] | 10/29 | Intro to Pandas                             | [HW0][hw0] due, [HW1][hw1] assigned             |
-| [2][l2] | 11/5  | Manipulating and combining data             | [HW1][hw1] due, [HW2][hw2] assigned             |
-| [3][l3] | 11/12 | Data visualization                          | [HW2][hw2] due, [HW3][hw3] assigned             |
-| [4][l4] | 11/19 | Working with dates and time series analysis | [HW3][hw3] due, [HW4][hw4] assigned             |
-| [5][l5] | 12/3  | Natural language processing                 | [HW4][hw4] due, [HW5][hw5] assigned             |
-| [6][l6] | 12/10 | Review and topic(s) of student choice       | [HW5][hw5] due, [HW6][hw6] assigned - due 12/17 |
+| Lecture | Date  | Topics                                            | Homework                                        |
+| ------- | ----- | ------------------------------------------------- | ----------------------------------------------- |
+| [0][l0] | 10/22 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned       |
+| [1][l1] | 10/29 | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned             |
+| [2][l2] | 11/5  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned             |
+| [3][l3] | 11/12 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned             |
+| [4][l4] | 11/19 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned             |
+| [5][l5] | 12/3  | Natural language processing                       | [HW4][hw4] due, [HW5][hw5] assigned             |
+| [6][l6] | 12/10 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] due, [HW6][hw6] assigned - due 12/17 |
 
 [l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
 [l1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_1.ipynb
