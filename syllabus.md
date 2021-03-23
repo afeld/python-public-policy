@@ -58,7 +58,7 @@ Students will learn how to:
 | [2][l2] | 4/8  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned            |
 | [3][l3] | 4/15 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned            |
 | [4][l4] | 4/22 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned            |
-| [5][l5] | 4/29 | Natural language processing                       | [HW4][hw4] due, [HW5][hw5] assigned            |
+| [5][l5] | 4/29 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned            |
 | [6][l6] | 5/6  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] due, [HW6][hw6] assigned - due 5/13 |
 
 [l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
