@@ -14,7 +14,7 @@
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - Class Meeting Times: Thursdays, 3/25-5/6 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5)
-- Class Location: Online (Zoom) — see the links on [the Zoom tab in the NYU Classes site](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/page/b279982d-f765-4302-80fe-22ba34e01d90).
+- Class Location: Online (Zoom) — see the links on [the Zoom tab in the NYU Classes site](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/page/05c7357d-43b9-4f26-8cc5-7d7dc1765b80).
 - Prerequisites: None
 
 ## Description
@@ -72,10 +72,10 @@ Students will learn how to:
 
 ## Communications
 
-- All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0) site.
+- All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436) site.
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums).
+- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail).
   - Email is also an option.
 - The instructor will try to respond within 24 hours, 48 hours max.
 
@@ -123,9 +123,9 @@ in one of the following:
 
 - Class
 - Office hours
-- [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums)
+- [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest turning on [Watch Forums](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/area/dfWatchSettings) to get notifications
+  - Suggest turning on [Watch Forums](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/area/dfWatchSettings) to get notifications
 
 The following don't count towards the participation score:
 

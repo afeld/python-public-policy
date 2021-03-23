@@ -7,7 +7,7 @@
 This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
 - [Syllabus](syllabus.md#readme)
-- [NYU Classes site](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0), which students will use for:
+- [NYU Classes site](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
@@ -51,7 +51,7 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. [Share the file](https://support.google.com/drive/answer/2494822) with alf9@nyu.edu
    1. Change the permissions to `Commenter`
    1. Click `Copy link`
-1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/692a49c8-c85f-43f0-b21f-6a7e1f98bb5a)
+1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/24429dd2-0b4f-489e-8e7e-63549448e73e)
 1. Click that Assignment
 1. Paste the link
 1. Click `Submit`
