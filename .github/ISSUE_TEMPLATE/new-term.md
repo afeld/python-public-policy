@@ -17,7 +17,7 @@ assignees: afeld
 - [ ] New Classes site
   - [ ] Import
   - [ ] Change assignment dates and publish them
-- [ ] Survey
+- [ ] Send survey
 - [ ] Send calendar invite
   - [ ] Create google group
 - [ ] Create copy of participation spreadsheet

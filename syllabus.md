@@ -68,7 +68,7 @@ Students will learn how to:
 [l4]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_4.ipynb
 [l5]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_5.ipynb
 [l6]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_6.ipynb
-[survey]: https://docs.google.com/forms/d/e/1FAIpQLScO_YXC04UOo9kuVxFDq4uol9wmHUJ-Xr6MNn5HreOKRL2FHA/viewform?usp=sf_link
+[survey]: https://docs.google.com/forms/d/e/1FAIpQLSc_HOtF8A0sJtiy-X6Qq3tEc4l8G0WVcgKrC4KHgiXYPh7pbw/viewform?usp=sf_link
 
 ## Communications
 
