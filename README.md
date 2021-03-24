@@ -48,7 +48,7 @@ All the lectures and assignment templates are in this repository, so you _could_
 ### Turning in assignments
 
 1. Share the notebook
-   1. [Share the file](https://support.google.com/drive/answer/2494822) with alf9@nyu.edu
+   1. [Share the file](https://support.google.com/drive/answer/2494822) with alf9@nyu.edu and asu227@nyu.edu
    1. Change the permissions to `Commenter`
    1. Click `Copy link`
 1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/24429dd2-0b4f-489e-8e7e-63549448e73e)

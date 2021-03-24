@@ -4,8 +4,8 @@
 
 ## Instructor Information
 
-- [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman)
-- Email: alf9@nyu.edu
+- Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
+- Grader: Ahsan Saeed Usmani, asu227@nyu.edu
 - Office Hours:
   - Tuesdays at [5:30pm Eastern Time (US)](https://everytimezone.com/?t=60626a00,50a)
   - By appointment
@@ -75,9 +75,9 @@ Students will learn how to:
 - All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436) site.
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail).
-  - Email is also an option.
-- The instructor will try to respond within 24 hours, 48 hours max.
+- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail), so that other students can respond and/or benefit from the answers.
+  - Email is also an option, though please only use for questions that aren't appropriate for others to see.
+- We will try to respond within 24 hours, 48 hours max.
 
 ## Assignments and Evaluation
 
