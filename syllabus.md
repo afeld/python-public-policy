@@ -1,21 +1,20 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Fall 2020
+# Python Coding for Public Policy - Spring 2021
 
 ## Instructor Information
 
-- [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman)
-- Email: alf9@nyu.edu
+- Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
+- Grader: Ahsan Saeed Usmani, asu227@nyu.edu
 - Office Hours:
-  - Tuesdays at [6pm Eastern Time (US)](https://everytimezone.com/s/bcf2d037)
-  - At Sunday [Hacker Hours](https://www.meetup.com/hackerhours/events/calendar/)
+  - Tuesdays at [5:30pm Eastern Time (US)](https://everytimezone.com/?t=60626a00,50a)
   - By appointment
 
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thurs, 10/22-12/13 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/?t=5f90cb80,-4b), skipping 11/26
-- Class Location: Online (Zoom) — see the links on [the Zoom tab in the NYU Classes site](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/page/b279982d-f765-4302-80fe-22ba34e01d90).
+- Class Meeting Times: Thursdays, 3/25-5/6 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5)
+- Class Location: Online (Zoom) — see the links on [the Zoom tab in the NYU Classes site](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/page/05c7357d-43b9-4f26-8cc5-7d7dc1765b80).
 - Prerequisites: None
 
 ## Description
@@ -52,15 +51,15 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date  | Topics                                            | Homework                                        |
-| ------- | ----- | ------------------------------------------------- | ----------------------------------------------- |
-| [0][l0] | 10/22 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned       |
-| [1][l1] | 10/29 | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned             |
-| [2][l2] | 11/5  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned             |
-| [3][l3] | 11/12 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned             |
-| [4][l4] | 11/19 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned             |
-| [5][l5] | 12/3  | Natural language processing                       | [HW4][hw4] due, [HW5][hw5] assigned             |
-| [6][l6] | 12/10 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] due, [HW6][hw6] assigned - due 12/17 |
+| Lecture | Date | Topics                                            | Homework                                       |
+| ------- | ---- | ------------------------------------------------- | ---------------------------------------------- |
+| [0][l0] | 3/25 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned      |
+| [1][l1] | 4/1  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned            |
+| [2][l2] | 4/8  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned            |
+| [3][l3] | 4/15 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned            |
+| [4][l4] | 4/22 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned            |
+| [5][l5] | 4/29 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned            |
+| [6][l6] | 5/6  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] due, [HW6][hw6] assigned - due 5/13 |
 
 [l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
 [l1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_1.ipynb
@@ -69,16 +68,16 @@ Students will learn how to:
 [l4]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_4.ipynb
 [l5]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_5.ipynb
 [l6]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_6.ipynb
-[survey]: https://docs.google.com/forms/d/e/1FAIpQLScO_YXC04UOo9kuVxFDq4uol9wmHUJ-Xr6MNn5HreOKRL2FHA/viewform?usp=sf_link
+[survey]: https://docs.google.com/forms/d/e/1FAIpQLSc_HOtF8A0sJtiy-X6Qq3tEc4l8G0WVcgKrC4KHgiXYPh7pbw/viewform?usp=sf_link
 
 ## Communications
 
-- All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0) site.
+- All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436) site.
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums).
-  - Email is also an option.
-- The instructor will try to respond within 24 hours, 48 hours max.
+- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail), so that other students can respond and/or benefit from the answers.
+  - Email is also an option, though please only use for questions that aren't appropriate for others to see.
+- We will try to respond within 24 hours, 48 hours max.
 
 ## Assignments and Evaluation
 
@@ -104,7 +103,7 @@ The Course Grade is based on the following:
 
 ### Assignments
 
-Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/?t=5e852b00,-4b) (the start of class) on the day listed in the Schedule above.
+Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5) (the start of class) on the day listed in the Schedule above.
 
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
@@ -124,9 +123,9 @@ in one of the following:
 
 - Class
 - Office hours
-- [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/forumsOnly/dfForums)
+- [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest turning on [Watch Forums](https://newclasses.nyu.edu/portal/site/c07b0a52-cea7-453b-8198-4b59fdeb32f0/tool/4521fda4-a04b-471d-9042-426a7b9f218e/discussionForum/area/dfWatchSettings) to get notifications
+  - Suggest turning on [Watch Forums](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/area/dfWatchSettings) to get notifications
 
 The following don't count towards the participation score:
 
