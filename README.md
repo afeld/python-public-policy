@@ -58,6 +58,8 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in NYU Classes under the Assignments.
 
+Note: In-class exercises will not be graded.
+
 ## Resources
 
 - [Office hours](syllabus.md#instructor-information)
