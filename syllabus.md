@@ -7,7 +7,7 @@
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - Grader: Ahsan Saeed Usmani, asu227@nyu.edu
 - Office Hours:
-  - Tuesdays at [5:30pm Eastern Time (US)](https://everytimezone.com/?t=60626a00,50a)
+  - Tuesdays at [6pm Eastern Time (US)](https://everytimezone.com/s/86fb9eb2)
   - By appointment
 
 ## Course Information
