@@ -43,12 +43,17 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 The following should be true for each assignment:
 
-- `Open Date`s are Thursdays at 6:45pm ET, week by week
-- `Due Date`s should match the [schedule](syllabus.md#schedule): subsequent Thursdays 6:45pm, week by week
-- `Accept Until` date should be the Sundays at 6:45pm following the `Due Date`
-  - Exceptions is HW6, which can't be turned in late
-- `Allow Resubmissions` deadline should be the Thursday at 6:45pm following the `Due Date`
-  - Exception is HW6, which doesn't allow resubmission
-- `Honor Pledge` box for each is unchecked
-- Associated with the `Homework` Gradebook category
+- Links to:
+  - The [instructions to submit](README.md#turning-in-assignments)
+  - The template notebook on Colab
+    - Exception is HW6, which doesn't have a template
+- `Add honor Pledge` box for each is unchecked
+- Dates are correct:
+  - `Open Date`s are Thursdays at 6:45pm ET, week by week
+  - `Due Date`s should match the [schedule](syllabus.md#schedule): subsequent Thursdays 6:45pm, week by week
+  - `Accept Until` date should be the Sundays at 6:45pm following the `Due Date`
+    - Exceptions is HW6, which can't be turned in late
+  - `Resubmission Accept Until` should be the Thursday at 6:45pm following the `Due Date`
+    - Exception is HW6, which doesn't allow resubmission
+- Associated with the `Homework` `gradebook category`
 - Each Assignment has been Posted
