@@ -38,3 +38,17 @@ To ensure that notebooks have the correct execution order and output, run them n
 - Recording
   1. Disclaimer
   1. Start
+
+## Assignment checks
+
+The following should be true for each assignment:
+
+- `Open Date`s are Thursdays at 6:45pm ET, week by week
+- `Due Date`s should match the [schedule](syllabus.md#schedule): subsequent Thursdays 6:45pm, week by week
+- `Accept Until` date should be the Sundays at 6:45pm following the `Due Date`
+  - Exceptions is HW6, which can't be turned in late
+- `Allow Resubmissions` deadline should be the Thursday at 6:45pm following the `Due Date`
+  - Exception is HW6, which doesn't allow resubmission
+- `Honor Pledge` box for each is unchecked
+- Associated with the `Homework` Gradebook category
+- Each Assignment has been Posted

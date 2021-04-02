@@ -103,12 +103,16 @@ The Course Grade is based on the following:
 
 ### Assignments
 
-Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5) (the start of class) on the day listed in the Schedule above.
+Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5) (the start of class) on the day listed in the Schedule above. Scoring:
 
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
+- Incomplete Steps / Steps with logic errors: -0.1 to -0.2 points
+- Unattempted Steps: -0.4 points
 
-If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score. Requests for extensions will only be considered if made before the deadline.
+If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score; you'll have 48 hours minimum to do so.
+
+Requests for extensions will only be considered if made before the deadline.
 
 ### Participation
 
