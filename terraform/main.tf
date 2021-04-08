@@ -3,7 +3,7 @@ terraform {
 }
 
 provider "google" {
-  project = "python-public-policy"
+  project = "fresh-mason-303504"
   region  = "us-central1"
 }
 
@@ -16,9 +16,20 @@ resource "google_storage_bucket" "data" {
   }
 }
 
+locals {
+  data_dir = "data"
+}
+
 # make publicly readable
 resource "google_storage_bucket_access_control" "public_rule" {
   bucket = google_storage_bucket.data.name
   role   = "READER"
   entity = "allUsers"
+}
+
+data "google_project" "project" {
+}
+
+output "bucket_console" {
+  value = "https://console.cloud.google.com/storage/browser/${google_storage_bucket.data.name}/${local.data_dir}?authuser=1&project=${data.google_project.project.project_id}"
 }
