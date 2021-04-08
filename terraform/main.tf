@@ -6,6 +6,10 @@ provider "google" {
 resource "google_storage_bucket" "data" {
   name     = "python-public-policy"
   location = "US-CENTRAL1"
+
+  versioning {
+    enabled = true
+  }
 }
 
 # make publicly readable
