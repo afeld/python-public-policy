@@ -1,3 +1,7 @@
+terraform {
+  required_version = "~> 0.14.10"
+}
+
 provider "google" {
   project = "python-public-policy"
   region  = "us-central1"
