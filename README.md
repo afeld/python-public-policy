@@ -76,6 +76,7 @@ Note: In-class exercises will not be graded.
     - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
     - [DataCamp](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
     - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
+  - [Python for Data Analysis book](https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph003900267)
 
 ## Learning more
 
