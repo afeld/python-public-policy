@@ -70,6 +70,8 @@ Note: In-class exercises will not be graded.
   - Consultation
   - Classes
 - [Stack Overflow](https://stackoverflow.com/)
+- [GitHub Student Developer Pack](https://education.github.com/pack)
+  - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
 ### Pandas
 
