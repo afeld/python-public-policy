@@ -38,6 +38,7 @@ jobs:
           # - lecture_5.ipynb # gets a different .similarity() score locally vs. CI
           # - lecture_5_exercise.ipynb # has incomplete code
           - lecture_6.ipynb
+          - jupyter_use.ipynb
           - pandas_crash_course.ipynb
     steps:
       - uses: actions/checkout@v1
