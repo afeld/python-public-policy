@@ -18,6 +18,6 @@ cp "$PRE" "$POST"
 python scripts/diffable.py < "$POST" > "$FINAL"
 
 echo "Comparing output..."
-DIFF=$(nbdiff -M "$PRE" "$FINAL")
+DIFF=$(nbdiff --ignore-metadata "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1
