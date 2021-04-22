@@ -8,20 +8,11 @@ def is_pip_upgrade_msg(line):
 
 def remove_path(output):
     """Paths differ on different systems, so cut them out"""
-    if "name" in output and output["name"] == "stderr":
+    if output["output_type"] == "stream" and output["name"] == "stderr":
         output["text"] = [
             re.sub(r"/usr/.*/python.*\.py:\d+:", "", line) for line in output["text"]
         ]
     return output
-
-
-def is_vid(cell):
-    try:
-        text = cell["outputs"][0]["data"]["text/plain"][0]
-    except (IndexError, KeyError, TypeError):
-        return False
-
-    return text == "<IPython.core.display.Video object>"
 
 
 def has_html_output(output):
@@ -31,14 +22,6 @@ def has_html_output(output):
 # based off of
 # https://github.com/jupyter/nbconvert/blob/master/nbconvert/preprocessors/tagremove.py
 class Diffable(Preprocessor):
-    def preprocess(self, notebook, resources):
-        notebook, resources = super().preprocess(notebook, resources)
-
-        # nbconvert wants to embed videos, so skip them
-        notebook["cells"] = [cell for cell in notebook["cells"] if not is_vid(cell)]
-
-        return notebook, resources
-
     def preprocess_cell(self, cell, resources, cell_index):
         if cell["cell_type"] != "code":
             return cell, resources
