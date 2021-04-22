@@ -4,7 +4,8 @@
 1. Create the environment:
 
    ```sh
-   conda env create -f environment.yml
+   conda install -c conda-forge conda-lock
+   conda-lock install -n python-public-policy conda-osx-64.lock
    ```
 
 1. Activate the environment:
