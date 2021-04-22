@@ -11,12 +11,12 @@ POST=${PRE//\./.nbconvert.}
 FINAL=${PRE//\./.final.}
 
 mkdir -p tmp
-python scripts/diffable.py < "$SOURCE" > "$PRE"
+jupyter nbconvert --to notebook --Exporter.preprocessors=scripts.diffable.Diffable --stdout "$SOURCE" > "$PRE"
 
 cp "$PRE" "$POST"
 ./scripts/update.sh "$POST"
 
-python scripts/diffable.py < "$POST" > "$FINAL"
+jupyter nbconvert --to notebook --Exporter.preprocessors=scripts.diffable.Diffable --stdout "$POST" > "$FINAL"
 
 echo "Comparing output..."
 DIFF=$(nbdiff "$PRE" "$FINAL")

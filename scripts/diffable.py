@@ -1,6 +1,5 @@
-import json
 import re
-import sys
+from nbconvert.preprocessors import Preprocessor
 
 
 def is_pip_upgrade_msg(line):
@@ -29,31 +28,37 @@ def has_html_output(output):
     return "data" in output and "text/html" in output["data"]
 
 
-input_str = sys.stdin.read()
-notebook = json.loads(input_str)
+# based off of
+# https://github.com/jupyter/nbconvert/blob/master/nbconvert/preprocessors/tagremove.py
+class Diffable(Preprocessor):
+    def preprocess(self, notebook, resources):
+        notebook, resources = super().preprocess(notebook, resources)
 
-# nbconvert wants to embed videos, so skip them
-notebook["cells"] = [cell for cell in notebook["cells"] if not is_vid(cell)]
+        # nbconvert wants to embed videos, so skip them
+        notebook["cells"] = [cell for cell in notebook["cells"] if not is_vid(cell)]
 
-for cell in notebook["cells"]:
-    if cell["cell_type"] != "code":
-        continue
+        return notebook, resources
 
-    # ignore any system command output
-    if cell["source"][0].startswith("!"):
-        cell["outputs"] = []
+    def preprocess_cell(self, cell, resources, cell_index):
+        if cell["cell_type"] != "code":
+            return cell, resources
 
-    # filter out pip upgrade warnings and clean up paths
-    cell["outputs"] = [
-        remove_path(line) for line in cell["outputs"] if not is_pip_upgrade_msg(line)
-    ]
-
-    for output in cell["outputs"]:
-        if has_html_output(output):
-            # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
+        # ignore any system command output
+        if cell["source"][0].startswith("!"):
             cell["outputs"] = []
-            # go to next cell
-            break
 
+        # filter out pip upgrade warnings and clean up paths
+        cell["outputs"] = [
+            remove_path(line)
+            for line in cell["outputs"]
+            if not is_pip_upgrade_msg(line)
+        ]
 
-print(json.dumps(notebook, indent=2, sort_keys=True))
+        for output in cell["outputs"]:
+            if has_html_output(output):
+                # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
+                cell["outputs"] = []
+                # go to next cell
+                break
+
+        return cell, resources
