@@ -36,10 +36,6 @@ notebook = json.loads(input_str)
 notebook["cells"] = [cell for cell in notebook["cells"] if not is_vid(cell)]
 
 for cell in notebook["cells"]:
-    if "execution_count" in cell:
-        # ignore all the execution count numbers
-        cell["execution_count"] = None
-
     if cell["cell_type"] != "code":
         continue
 
@@ -53,10 +49,6 @@ for cell in notebook["cells"]:
     ]
 
     for output in cell["outputs"]:
-        if "execution_count" in output:
-            # ignore all the execution count numbers
-            output["execution_count"] = 1
-
         if has_html_output(output):
             # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
             cell["outputs"] = []

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 
 echo "Setting up..."
@@ -18,6 +19,6 @@ cp "$PRE" "$POST"
 python scripts/diffable.py < "$POST" > "$FINAL"
 
 echo "Comparing output..."
-DIFF=$(nbdiff --ignore-metadata "$PRE" "$FINAL")
+DIFF=$(nbdiff "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1

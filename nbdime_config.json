@@ -1,0 +1,9 @@
+{
+  "Diff": {
+    "Ignore": {
+      "/cells/*": ["execution_count"],
+      "/cells/*/metadata": ["execution"],
+      "/metadata": true
+    }
+  }
+}
