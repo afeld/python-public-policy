@@ -51,15 +51,15 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date | Topics                                            | Homework                                                               |
-| ------- | ---- | ------------------------------------------------- | ---------------------------------------------------------------------- |
-| [0][l0] | 3/25 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                              |
-| [1][l1] | 4/1  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                    |
-| [2][l2] | 4/8  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                    |
-| [3][l3] | 4/15 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                    |
-| [4][l4] | 4/22 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                    |
-| [5][l5] | 4/29 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
-| [6][l6] | 5/6  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw5] assigned - due 5/13 |
+| Lecture | Date | Topics                                            | Homework                                                                                       |
+| ------- | ---- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [0][l0] | 3/25 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                                                      |
+| [1][l1] | 4/1  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                                            |
+| [2][l2] | 4/8  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                                            |
+| [3][l3] | 4/15 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                                            |
+| [4][l4] | 4/22 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                                            |
+| [5][l5] | 4/29 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                                            |
+| [6][l6] | 5/6  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/13, peer feedback due 5/16 |
 
 [l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
 [l1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_1.ipynb
@@ -92,7 +92,7 @@ The Course Grade is based on the following:
   - [HW4][hw4]: 12%
   - [HW5][hw5]: 6%
   - [HW6 proposal][hw5]: 6%
-  - [HW6][hw5]: 18%
+  - [HW6][hw6]: 18%
 
 [hw0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_0.ipynb
 [hw1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_1.ipynb
@@ -100,6 +100,7 @@ The Course Grade is based on the following:
 [hw3]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_3.ipynb
 [hw4]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_4.ipynb
 [hw5]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_5.ipynb
+[hw6]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_5.ipynb
 
 ### Assignments
 
@@ -108,6 +109,7 @@ Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/s/92
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
 - Incomplete Steps / Steps with logic errors: -0.1 to -0.2 points
+- Visualizations incomplete, e.g. missing meaningful title/labels: -0.1 points
 - Unattempted Steps: -0.4 points
 
 If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score; you'll have 48 hours minimum to do so.
