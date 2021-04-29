@@ -43,8 +43,7 @@ jobs:
           - lecture_2.ipynb
           - lecture_3.ipynb
           - lecture_4.ipynb
-          # - lecture_5.ipynb # gets a different .similarity() score locally vs. CI
-          # - lecture_5_exercise.ipynb # has incomplete code
+          # - lecture_5.ipynb # calls APIs with data that could change
           - lecture_6.ipynb
           - pandas_crash_course.ipynb
     steps:
