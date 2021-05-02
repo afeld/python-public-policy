@@ -112,7 +112,7 @@ Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/s/92
 - Visualizations incomplete, e.g. missing meaningful title/labels: -0.1 points
 - Unattempted Steps: -0.4 points
 
-If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score; you'll have 48 hours minimum to do so.
+If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score; you'll have 48 hours minimum to do so. The deadline will be visible in the returned Assignment in Classes.
 
 Requests for extensions will only be considered if made before the deadline.
 
