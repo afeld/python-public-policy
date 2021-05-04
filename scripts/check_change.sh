@@ -17,10 +17,43 @@ function diffable() {
 mkdir -p tmp
 diffable "$SOURCE" "$PRE"
 
+case "$SOURCE" in
+
+  "hw_0.ipynb")
+    # uses input()s
+    exit
+    ;;
+
+  "hw_3.ipynb")
+    # has incomplete code
+    exit
+    ;;
+
+esac
+
 cp "$PRE" "$POST"
 ./scripts/update.sh "$POST"
 
 diffable "$POST" "$FINAL"
+
+case "$SOURCE" in
+
+  "lecture_1.ipynb")
+    # uses sample()
+    exit
+    ;;
+
+  "lecture_3.ipynb")
+    # https://github.com/jupyter/nbdime/issues/473#issuecomment-831682930
+    exit
+    ;;
+
+  "lecture_5.ipynb")
+    # calls APIs with data that could change
+    exit
+    ;;
+
+esac
 
 echo "Comparing output..."
 DIFF=$(nbdiff "$PRE" "$FINAL")

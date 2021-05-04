@@ -1,8 +1,8 @@
 from nbconvert.preprocessors import Preprocessor
 
 
-def has_html_output(output):
-    return "data" in output and "text/html" in output["data"]
+def has_html(output):
+    return "text/html" in output.get("data", {})
 
 
 # based off of
@@ -21,7 +21,7 @@ class Diffable(Preprocessor):
             output for output in cell["outputs"] if output.get("name", None) != "stderr"
         ]
 
-        if any(has_html_output(output) for output in cell["outputs"]):
+        if any(has_html(output) for output in cell["outputs"]):
             # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
             cell["outputs"] = []
 
