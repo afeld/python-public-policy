@@ -1,6 +1,6 @@
 # Python for Public Policy
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/workflows/Execute%20notebooks/badge.svg)](https://github.com/afeld/python-public-policy/actions?query=workflow%3A%22Execute+notebooks%22+branch%main)
+[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain)
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
