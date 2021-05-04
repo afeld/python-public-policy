@@ -1,18 +1,4 @@
-import re
 from nbconvert.preprocessors import Preprocessor
-
-
-def is_pip_upgrade_msg(line):
-    return isinstance(line, str) and re.match(r"WARNING.+pip version|upgrade pip", line)
-
-
-def remove_path(output):
-    """Paths differ on different systems, so cut them out"""
-    if output["output_type"] == "stream" and output["name"] == "stderr":
-        output["text"] = [
-            re.sub(r"/usr/.*/python.*\.py:\d+:", "", line) for line in output["text"]
-        ]
-    return output
 
 
 def has_html_output(output):
@@ -30,11 +16,9 @@ class Diffable(Preprocessor):
         if cell["source"][0].startswith("!"):
             cell["outputs"] = []
 
-        # filter out pip upgrade warnings and clean up paths
+        # filter out warnings
         cell["outputs"] = [
-            remove_path(line)
-            for line in cell["outputs"]
-            if not is_pip_upgrade_msg(line)
+            output for output in cell["outputs"] if output.get("name", None) != "stderr"
         ]
 
         for output in cell["outputs"]:
