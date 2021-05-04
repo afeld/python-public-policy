@@ -21,11 +21,8 @@ class Diffable(Preprocessor):
             output for output in cell["outputs"] if output.get("name", None) != "stderr"
         ]
 
-        for output in cell["outputs"]:
-            if has_html_output(output):
-                # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
-                cell["outputs"] = []
-                # go to next cell
-                break
+        if any(has_html_output(output) for output in cell["outputs"]):
+            # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
+            cell["outputs"] = []
 
         return cell, resources
