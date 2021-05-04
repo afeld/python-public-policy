@@ -1,67 +1,28 @@
-import json
-import re
-import sys
-
-
-def is_pip_upgrade_msg(line):
-    return isinstance(line, str) and re.match(r"WARNING.+pip version|upgrade pip", line)
-
-
-def remove_path(output):
-    """Paths differ on different systems, so cut them out"""
-    if "name" in output and output["name"] == "stderr":
-        output["text"] = [
-            re.sub(r"/usr/.*/python.*\.py:\d+:", "", line) for line in output["text"]
-        ]
-    return output
-
-
-def is_vid(cell):
-    try:
-        text = cell["outputs"][0]["data"]["text/plain"][0]
-    except (IndexError, KeyError, TypeError):
-        return False
-
-    return text == "<IPython.core.display.Video object>"
+from nbconvert.preprocessors import Preprocessor
 
 
 def has_html_output(output):
     return "data" in output and "text/html" in output["data"]
 
 
-input_str = sys.stdin.read()
-notebook = json.loads(input_str)
+# based off of
+# https://github.com/jupyter/nbconvert/blob/master/nbconvert/preprocessors/tagremove.py
+class Diffable(Preprocessor):
+    def preprocess_cell(self, cell, resources, cell_index):
+        if cell["cell_type"] != "code":
+            return cell, resources
 
-# nbconvert wants to embed videos, so skip them
-notebook["cells"] = [cell for cell in notebook["cells"] if not is_vid(cell)]
+        # ignore any system command output
+        if cell["source"][0].startswith("!"):
+            cell["outputs"] = []
 
-for cell in notebook["cells"]:
-    if "execution_count" in cell:
-        # ignore all the execution count numbers
-        cell["execution_count"] = None
+        # filter out warnings
+        cell["outputs"] = [
+            output for output in cell["outputs"] if output.get("name", None) != "stderr"
+        ]
 
-    if cell["cell_type"] != "code":
-        continue
-
-    # ignore any system command output
-    if cell["source"][0].startswith("!"):
-        cell["outputs"] = []
-
-    # filter out pip upgrade warnings and clean up paths
-    cell["outputs"] = [
-        remove_path(line) for line in cell["outputs"] if not is_pip_upgrade_msg(line)
-    ]
-
-    for output in cell["outputs"]:
-        if "execution_count" in output:
-            # ignore all the execution count numbers
-            output["execution_count"] = 1
-
-        if has_html_output(output):
+        if any(has_html_output(output) for output in cell["outputs"]):
             # clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
             cell["outputs"] = []
-            # go to next cell
-            break
 
-
-print(json.dumps(notebook, indent=2, sort_keys=True))
+        return cell, resources

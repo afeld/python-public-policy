@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 
 echo "Setting up..."
@@ -9,15 +10,19 @@ PRE="tmp/$SOURCE"
 POST=${PRE//\./.nbconvert.}
 FINAL=${PRE//\./.final.}
 
+function diffable() {
+  jupyter nbconvert --to notebook --Exporter.preprocessors=scripts.diffable.Diffable --stdout "$1" > "$2"
+}
+
 mkdir -p tmp
-python scripts/diffable.py < "$SOURCE" > "$PRE"
+diffable "$SOURCE" "$PRE"
 
 cp "$PRE" "$POST"
 ./scripts/update.sh "$POST"
 
-python scripts/diffable.py < "$POST" > "$FINAL"
+diffable "$POST" "$FINAL"
 
 echo "Comparing output..."
-DIFF=$(nbdiff --ignore-metadata "$PRE" "$FINAL")
+DIFF=$(nbdiff "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1
