@@ -3,6 +3,7 @@
     "Ignore": {
       "/cells/*": ["execution_count"],
       "/cells/*/metadata": ["execution"],
+      "/cells/*/outputs/*": ["execution_count"],
       "/metadata": true
     }
   }
