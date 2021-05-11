@@ -117,3 +117,19 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
 - [Blog post about GitHub for non-developers](https://medium.com/nyc-planning-digital/git-what-extolling-githubs-virtues-to-non-coders-6cc11f1a5fd2)
+
+## Testimonials
+
+> This class has been extremely helpful and my only regret is that I didn't take it sooner in my NYU career. … In fact, I've already put python to use for my final thesis. … In writing my thesis, I used python for descriptive statistics that would have otherwise taken much longer in excel … Writing code for these analysis probably saved me about a day or two of work.
+
+---
+
+> Thank you for an incredible semester. I truly took away a lot that I feel will help me dive deeper into a career in public service, while having unique skills that will help me deliver a much greater impact into the communities I'm serving.
+
+---
+
+> The in-class assignments and homework provided many opportunities to practice the Python concepts we learned in class. … Professor Feldman was able to present difficult concepts in a way that was easy to digest as someone who knew very little about Python prior to this course. This course achieved its goal of removing the uneasiness I felt towards Python and coding in general, and for a 7-week course, that is no easy feat!
+
+---
+
+> Everything controllable by the professor was fantastic. The objectives were straightforward and value-added. The professor helped make sure that we were coming away from assignments with real tangible understanding of the code rather than focusing on completion. I was challenged, but the professor was always around to answer questions.
