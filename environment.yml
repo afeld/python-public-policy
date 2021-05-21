@@ -19,5 +19,6 @@ dependencies:
   # CI
   - nbconvert
   - nbdime
+  - pytest
   # other
   - requests

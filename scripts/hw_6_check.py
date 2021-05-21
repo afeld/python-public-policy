@@ -59,7 +59,7 @@ def lines_of_code(code):
 
 
 def code_contains(pattern, code):
-    matches = re.search(pattern, code)
+    matches = re.search(re.compile(pattern, re.VERBOSE), code)
     return bool(matches)
 
 
@@ -78,13 +78,41 @@ def includes_link(notebook):
 
 def uses_transform(script):
     return code_contains(
-        r"\b(groupby|resample|merge|join|concat|melt|pivot(_table)?|(un)?stack)\(",
+        r"""\b(
+               concat|
+               groupby|
+               join|
+               melt|
+               merge|
+               pivot(_table)?|
+               resample|
+               (un)?stack
+            )\(""",
         script,
     )
 
 
 def has_plotting(script):
-    return code_contains(r"\b(plotly|matplotlib|altair|seaborn)\b", script)
+    return code_contains(
+        r"""\b(
+               # visualization packages
+               altair|
+               bokeh|
+               folium|
+               geoplotlib|
+               geoviews|
+               ipyleaflet|
+               keplergl|
+               matplotlib|
+               plotly|
+               plotnine|
+               pygal|
+               seaborn
+            )\b
+        |
+        \.plot[\(\.] # plot submodule/method""",
+        script,
+    )
 
 
 # https://stackoverflow.com/a/287944/358804
@@ -105,23 +133,24 @@ def exit(results):
     sys.exit(exit_code)
 
 
-notebook_path = sys.argv[1]
+if __name__ == "__main__":
+    notebook_path = sys.argv[1]
 
-script_bytes = get_script(notebook_path)
-script = str(script_bytes)
-notebook = json.load(open(notebook_path))
-num_lines = lines_of_code(script_bytes)
+    script_bytes = get_script(notebook_path)
+    script = str(script_bytes)
+    notebook = json.load(open(notebook_path))
+    num_lines = lines_of_code(script_bytes)
 
-# use pandas for outputting a table
-results = pd.Series(
-    {
-        f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
-        "Includes link": includes_link(notebook),
-        "Uses transform": uses_transform(script),
-        "Has plotting": has_plotting(script),
-    }
-)
+    # use pandas for outputting a table
+    results = pd.Series(
+        {
+            f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
+            "Includes link": includes_link(notebook),
+            "Uses transform": uses_transform(script),
+            "Has plotting": has_plotting(script),
+        }
+    )
 
-outputs = results.apply(lambda val: pass_fail(val))
-print(outputs.to_string())
-exit(results)
+    outputs = results.apply(lambda val: pass_fail(val))
+    print(outputs.to_string())
+    exit(results)
