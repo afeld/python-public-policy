@@ -7,3 +7,11 @@ def test_nothing():
 
 def test_plotly():
     assert has_plotting("import plotly.express as px")
+
+
+def test_plot_method():
+    assert has_plotting("df.plot()")
+
+
+def test_plot_submodule():
+    assert has_plotting("df.plot.scatter()")

@@ -59,7 +59,7 @@ def lines_of_code(code):
 
 
 def code_contains(pattern, code):
-    matches = re.search(pattern, code)
+    matches = re.search(re.compile(pattern, re.VERBOSE), code)
     return bool(matches)
 
 
@@ -78,13 +78,37 @@ def includes_link(notebook):
 
 def uses_transform(script):
     return code_contains(
-        r"\b(groupby|resample|merge|join|concat|melt|pivot(_table)?|(un)?stack)\(",
+        r"""\b(
+               concat|
+               groupby|
+               join|
+               melt|
+               merge|
+               pivot(_table)?|
+               resample|
+               (un)?stack
+            )\(""",
         script,
     )
 
 
 def has_plotting(script):
-    return code_contains(r"\b(plotly|matplotlib|altair|seaborn)\b", script)
+    return code_contains(
+        r"""\b(
+               # visualization packages
+               altair|
+               folium|
+               geoviews|
+               ipyleaflet|
+               keplergl|
+               matplotlib|
+               plotly|
+               seaborn
+            )\b
+        |
+        \.plot[\(\.] # plot submodule/method""",
+        script,
+    )
 
 
 # https://stackoverflow.com/a/287944/358804
