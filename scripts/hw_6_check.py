@@ -105,23 +105,24 @@ def exit(results):
     sys.exit(exit_code)
 
 
-notebook_path = sys.argv[1]
+if __name__ == "__main__":
+    notebook_path = sys.argv[1]
 
-script_bytes = get_script(notebook_path)
-script = str(script_bytes)
-notebook = json.load(open(notebook_path))
-num_lines = lines_of_code(script_bytes)
+    script_bytes = get_script(notebook_path)
+    script = str(script_bytes)
+    notebook = json.load(open(notebook_path))
+    num_lines = lines_of_code(script_bytes)
 
-# use pandas for outputting a table
-results = pd.Series(
-    {
-        f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
-        "Includes link": includes_link(notebook),
-        "Uses transform": uses_transform(script),
-        "Has plotting": has_plotting(script),
-    }
-)
+    # use pandas for outputting a table
+    results = pd.Series(
+        {
+            f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
+            "Includes link": includes_link(notebook),
+            "Uses transform": uses_transform(script),
+            "Has plotting": has_plotting(script),
+        }
+    )
 
-outputs = results.apply(lambda val: pass_fail(val))
-print(outputs.to_string())
-exit(results)
+    outputs = results.apply(lambda val: pass_fail(val))
+    print(outputs.to_string())
+    exit(results)
