@@ -97,12 +97,16 @@ def has_plotting(script):
         r"""\b(
                # visualization packages
                altair|
+               bokeh|
                folium|
+               geoplotlib|
                geoviews|
                ipyleaflet|
                keplergl|
                matplotlib|
                plotly|
+               plotnine|
+               pygal|
                seaborn
             )\b
         |
