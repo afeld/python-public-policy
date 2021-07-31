@@ -1,5 +1,7 @@
 # Contributing
 
+## Loading the notebooks locally
+
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 1. Create the environment:
 
@@ -57,3 +59,7 @@ The following should be true for each assignment:
     - Exception is HW6, which doesn't allow resubmission
 - Associated with the `Homework` `gradebook category`
 - Each Assignment has been Posted
+
+## See also
+
+- [Grader job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#)

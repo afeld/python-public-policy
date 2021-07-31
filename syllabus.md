@@ -1,21 +1,24 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Spring 2021
+# Python Coding for Public Policy - Fall 2021
 
 ## Instructor Information
 
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- Grader: Ahsan Saeed Usmani, asu227@nyu.edu
+- Grader: to be determined
 - Office Hours:
-  - Tuesdays at [6pm Eastern Time (US)](https://everytimezone.com/s/86fb9eb2)
+  - Regular times to be determined
   - By appointment
 
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thursdays, 3/25-5/6 [6:45-8:25pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5)
-- Class Location: Online (Zoom) — see the links on [the Zoom tab in the NYU Classes site](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/page/05c7357d-43b9-4f26-8cc5-7d7dc1765b80).
+- Class Meeting Times: Thursdays, 10/28-12/16 6:45-8:25pm
+  - No class on Thanksgiving, 11/25
+- Class Location: [194 Mercer St.](https://goo.gl/maps/AdXgktAY4WfwsFHJ8), room 208
 - Prerequisites: None
+- Students should bring a laptop to class
+  - A tablet without a full keyboard will be hard to use for in-class exercises
 
 ## Description
 
@@ -51,15 +54,15 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date | Topics                                            | Homework                                                                                       |
-| ------- | ---- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [0][l0] | 3/25 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                                                      |
-| [1][l1] | 4/1  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                                            |
-| [2][l2] | 4/8  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                                            |
-| [3][l3] | 4/15 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                                            |
-| [4][l4] | 4/22 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                                            |
-| [5][l5] | 4/29 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                                            |
-| [6][l6] | 5/6  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/13, peer feedback due 5/16 |
+| Lecture | Date  | Topics                                            | Homework                                                                                       |
+| ------- | ----- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [0][l0] | 10/28 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                                                      |
+| [1][l1] | 11/4  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                                            |
+| [2][l2] | 11/11 | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                                            |
+| [3][l3] | 11/18 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                                            |
+| [4][l4] | 12/2  | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                                            |
+| [5][l5] | 12/9  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                                            |
+| [6][l6] | 12/16 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/13, peer feedback due 5/16 |
 
 [l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
 [l1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_1.ipynb
@@ -104,7 +107,7 @@ The Course Grade is based on the following:
 
 ### Assignments
 
-Assignments are due at [6:45pm Eastern Time (US)](https://everytimezone.com/s/92d47eb5) (the start of class) on the day listed in the Schedule above. Scoring:
+Assignments are due at 6:45pm (the start of class) on the day listed in the Schedule above. Scoring:
 
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
