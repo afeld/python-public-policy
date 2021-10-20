@@ -7,7 +7,7 @@
 This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
 - [Syllabus](syllabus.md#readme)
-- [NYU Classes site](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436), which students will use for:
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/82428), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
@@ -53,12 +53,12 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. [Share the file](https://support.google.com/drive/answer/2494822) with alf9@nyu.edu and asu227@nyu.edu
    1. Change the permissions to `Commenter`
    1. Click `Copy link`
-1. Go to [the list of Assignments in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/24429dd2-0b4f-489e-8e7e-63549448e73e)
+1. Go to [the list of Assignments](https://brightspace.nyu.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=82428&isprv=0)
 1. Click that Assignment
 1. Paste the link
 1. Click `Submit`
 
-After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in NYU Classes under the Assignments.
+After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in Brightspace under the Assignments.
 
 Note: In-class exercises will not be graded.
 

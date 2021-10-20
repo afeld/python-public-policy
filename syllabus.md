@@ -5,7 +5,7 @@
 ## Instructor Information
 
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- Grader: to be determined
+- Grader: Jasmine Jeffers, jaj509@nyu.edu
 - Office Hours:
   - Regular times to be determined
   - By appointment
@@ -75,10 +75,10 @@ Students will learn how to:
 
 ## Communications
 
-- All announcements and assignments will be delivered through the [NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436) site.
+- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/82428).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/82428/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
@@ -115,7 +115,7 @@ Assignments are due at 6:45pm (the start of class) on the day listed in the Sche
 - Visualizations incomplete, e.g. missing meaningful title/labels: -0.1 points
 - Unattempted Steps: -0.4 points
 
-If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score; you'll have 48 hours minimum to do so. The deadline will be visible in the returned Assignment in Classes.
+If the submission showed effort, feedback will be given, and the assignment can be resubmitted to improve the score; you'll have 48 hours minimum to do so. The deadline will be visible in the returned Assignment in Brightspace.
 
 Requests for extensions will only be considered if made before the deadline.
 
@@ -132,9 +132,9 @@ in one of the following:
 
 - Class
 - Office hours
-- [The Forums in NYU Classes](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/forum/dfForumDetail)
+- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/82428/discussions/List)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest turning on [Watch Forums](https://newclasses.nyu.edu/portal/site/a1020c0b-d7ec-4306-b6cf-20ee94470436/tool/5643a2fb-9214-4ebf-bb98-c6fa0619cb6b/discussionForum/area/dfWatchSettings) to get notifications
+  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=82428) to make sure you see conversations that come through
 
 The following don't count towards the participation score:
 
