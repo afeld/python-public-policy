@@ -167,12 +167,6 @@ All submissions must be made using a Google Colab Notebook file following [these
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
-### Classroom Norms
-
-You are expected to participate in each class with your Zoom audio and video on. Please review Wagner's [Zoom in the Classroom](https://wagner.nyu.edu/portal/student/zoom) series about classroom etiquette, participation, and more. If you are unable to participate with video on, please contact me.
-
-Students may not share the Zoom classroom recordings. The recordings are kept within the NYU Classes site and are for students enrolled in this course only.
-
 ### Academic Integrity
 
 Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by Wagner's Academic Code. All Wagner students have already read and signed the Wagner Academic Oath. Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
@@ -187,6 +181,6 @@ Academic accommodations are available for students with disabilities. Please vis
 
 ## Technology Support
 
-You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides (NYU Classes, Zoom, etc). Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance, or contact [Zoom's 24/7 technical support](https://support.zoom.us/hc/en-us/articles/201362003) (includes a chat function), or review [Zoom's support resources](https://support.zoom.us/hc/en-us/categories/200101697-Getting-Started). Your peers are another source of support, so you could ask a friend or classmate for help or tips.
+You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides. Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance. Your peers are another source of support, so you could ask a friend or classmate for help or tips.
 
 If you do not have the appropriate hardware technology nor financial resources to purchase the technology, consider applying for the NYU [Emergency Relief Grant](https://www.nyu.edu/admissions/financial-aid-and-scholarships/covid-relief-grant.html).
