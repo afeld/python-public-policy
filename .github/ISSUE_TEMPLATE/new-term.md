@@ -13,16 +13,19 @@ assignees: afeld
   - [ ] Link to Brightspace site
 - [ ] Submit syllabus to Wagner
   - [ ] [Convert to PDF](https://md2pdf.netlify.com/)
+  - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
 - [ ] [Request JupyterHub environment](https://sites.google.com/a/nyu.edu/nyu-hpc/services/resources-for-classes/rc-jupyterhub/intake-form)
 - [ ] New Brightspace site
   - [ ] Import
+  - [ ] Clear Announcements
+  - [ ] Add grader to Classlist
   - [ ] Change assignment dates and publish them
 - [ ] Send survey
 - [ ] Send calendar invite
-  - [ ] Create google group
+  - [ ] [Create Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] Create copy of participation spreadsheet
 - [ ] Find guest(s)
   - [ ] Get bio(s)
