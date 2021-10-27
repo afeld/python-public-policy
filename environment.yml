@@ -9,12 +9,10 @@ dependencies:
   - jupyter_contrib_nbextensions
   - notebook
   - nb_conda
-  # should match versions on Colab, from
-  # https://github.com/googlecolab/colabtools/blob/master/setup.py
-  # or from `!pip show <package>`
-  - pandas=1.1.*
-  - plotly=4.4.1
-  - statsmodels=0.10.2
+  # packages used in notebooks
+  - pandas=1.*.*
+  - plotly=5.*.*
+  - statsmodels=0.*.*
   # CI
   - nbconvert
   - nbdime
