@@ -13,6 +13,8 @@ dependencies:
   - pandas=1.*.*
   - plotly=5.*.*
   - statsmodels=0.*.*
+  # https://plotly.com/python/static-image-export/
+  - python-kaleido
   # CI
   - nbconvert
   - nbdime
