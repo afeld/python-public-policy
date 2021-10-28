@@ -44,7 +44,7 @@ Homework assignments will consist of two different formats:
 
 Students will learn how to:
 
-- Use the [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) environment
+- Use [Jupyter](https://jupyter.org/)
 - Have an understanding of Python fundamentals
   - Common data types
   - Functions
@@ -163,7 +163,7 @@ Letter grades for the entire course will be assigned as follows:
 
 A student may work with other students. However, solutions should not be identical to / copied-and-pasted from one another, and each student should submit their assignment separately. In addition, students need to indicate who they worked with with each submission.
 
-All submissions must be made using a Google Colab Notebook file following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments).
+All submissions must be made from a Jupyter notebook file, following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 

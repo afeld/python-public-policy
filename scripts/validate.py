@@ -2,7 +2,7 @@ import glob
 import json
 
 
-def test_colab_metadata(notebook, file):
+def test_metadata(notebook, file):
     metadata = notebook["metadata"]
 
     if file == "pandas_crash_course.ipynb":
@@ -26,6 +26,6 @@ def test_colab_metadata(notebook, file):
 for file in glob.glob("*.ipynb"):
     print(f"Checking {file}...")
     notebook = json.load(open(file))
-    test_colab_metadata(notebook, file)
+    test_metadata(notebook, file)
 
 print("Passed!")
