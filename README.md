@@ -107,7 +107,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 ### NYU classes
 
-- [Big Data Analytics for Public Policy](https://wagner.nyu.edu/education/courses/big-data-analytics-for-public-policy)
+- [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building)
 - [Center for Urban Science + Progress](https://cusp.nyu.edu/masters-degree/curriculum/)
   - Applied Data Science
   - Machine Learning for Cities
