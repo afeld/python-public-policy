@@ -9,10 +9,12 @@ def test_metadata(notebook, file):
         # run in Google Colab
         expected_kernel = "Python 3"
     else:
-        expected_kernel = "Python [conda env:python-public-policy]"
+        expected_kernel = "Python [conda env:python-public-policy] *"
+
+    actual_kernel = metadata["kernelspec"]["display_name"]
     assert (
-        metadata["kernelspec"]["display_name"] == expected_kernel
-    ), f"Runtime name incorrect for {file}."
+        actual_kernel == expected_kernel
+    ), f"Runtime name (`{actual_kernel}`) incorrect for {file}."
 
     assert metadata["language_info"]["version"].startswith("3.")
 
