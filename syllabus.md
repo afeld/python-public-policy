@@ -46,7 +46,7 @@ Homework assignments will consist of two different formats:
 
 Students will learn how to:
 
-- Use the [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) environment
+- Use [Jupyter](https://jupyter.org/)
 - Have an understanding of Python fundamentals
   - Common data types
   - Functions
@@ -66,13 +66,13 @@ Students will learn how to:
 | [5][l5] | 12/9  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                                            |
 | [6][l6] | 12/16 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/13, peer feedback due 5/16 |
 
-[l0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_0.ipynb
-[l1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_1.ipynb
-[l2]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_2.ipynb
-[l3]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_3.ipynb
-[l4]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_4.ipynb
-[l5]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_5.ipynb
-[l6]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_6.ipynb
+[l0]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_0.ipynb&branch=main
+[l1]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_1.ipynb&branch=main
+[l2]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_2.ipynb&branch=main
+[l3]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_3.ipynb&branch=main
+[l4]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_4.ipynb&branch=main
+[l5]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_5.ipynb&branch=main
+[l6]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_6.ipynb&branch=main
 [survey]: https://docs.google.com/forms/d/e/1FAIpQLSeaOKE1dSB1sOSR47Uh_gxClHCxrpW96GPCn1WGH8cPtXjifQ/viewform?usp=sf_link
 
 ## Communications
@@ -99,13 +99,13 @@ The Course Grade is based on the following:
   - [HW6 proposal][hw5]: 6%
   - [HW6][hw6]: 18%
 
-[hw0]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_0.ipynb
-[hw1]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_1.ipynb
-[hw2]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_2.ipynb
-[hw3]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_3.ipynb
-[hw4]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_4.ipynb
-[hw5]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/hw_5.ipynb
-[hw6]: https://colab.research.google.com/github/afeld/python-public-policy/blob/main/lecture_5.ipynb#scrollTo=ypDlX5CrA8q5
+[hw0]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Fhw_0.ipynb&branch=main
+[hw1]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Fhw_1.ipynb&branch=main
+[hw2]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Fhw_2.ipynb&branch=main
+[hw3]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Fhw_3.ipynb&branch=main
+[hw4]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Fhw_4.ipynb&branch=main
+[hw5]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Fhw_5.ipynb&branch=main
+[hw6]: https://padmgp-4506001-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=lab%2Ftree%2Fpython-public-policy%2Flecture_5.ipynb&branch=main
 
 ### Assignments
 
@@ -165,7 +165,7 @@ Letter grades for the entire course will be assigned as follows:
 
 A student may work with other students. However, solutions should not be identical to / copied-and-pasted from one another, and each student should submit their assignment separately. In addition, students need to indicate who they worked with with each submission.
 
-All submissions must be made using a Google Colab Notebook file following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments).
+All submissions must be made from a Jupyter notebook file, following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 

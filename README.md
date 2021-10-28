@@ -38,24 +38,23 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 ### Tips
 
-- **Copy to Drive** when you start with one of the homework templates. This ensures your changes are saved.
-- **Look at the Table of Contents** to get an overview. You can find the Table of Contents button at the top of the sidebar.
+- **Look at the Table of Contents** to get an overview. You can find the Table of Contents button in the sidebar.
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
+- Kernel issues
+  - If your kernel crashes, let the instructor know.
+  - Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
 
 ### Turning in assignments
 
 1. Ensure all the outputs are visible and the notebook is cleaned up
    - What you see is what the instructors will see.
-1. Share the notebook
-   1. [Share the file](https://support.google.com/drive/answer/2494822) with alf9@nyu.edu and asu227@nyu.edu
-   1. Change the permissions to `Commenter`
-   1. Click `Copy link`
-1. Go to [the list of Assignments](https://brightspace.nyu.edu/d2l/lms/dropbox/user/folders_list.d2l?ou=82428&isprv=0)
-1. Click that Assignment
-1. Paste the link
-1. Click `Submit`
+1. Export the notebook as a PDF. From the Jupyter interface, go to:
+   1. `File`
+   1. `Download as`
+   1. `PDF via LaTeX (PDF)`
+1. Upload the PDF to the Brightspace Assignment
 
 After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in Brightspace under the Assignments.
 
