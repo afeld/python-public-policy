@@ -33,6 +33,8 @@ Class will be split between:
   - Start on the homework
   - Ask questions
 
+This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
+
 ## Homework
 
 Homework assignments will consist of two different formats:

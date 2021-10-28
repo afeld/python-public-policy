@@ -4,6 +4,7 @@ import json
 
 def test_metadata(notebook, file):
     metadata = notebook["metadata"]
+    runtime = metadata["kernelspec"]["display_name"]
 
     if file == "pandas_crash_course.ipynb":
         # run in Google Colab
@@ -11,10 +12,9 @@ def test_metadata(notebook, file):
     else:
         expected_kernel = "Python [conda env:python-public-policy] *"
 
-    actual_kernel = metadata["kernelspec"]["display_name"]
     assert (
-        actual_kernel == expected_kernel
-    ), f"Runtime name (`{actual_kernel}`) incorrect for {file}."
+        runtime == expected_kernel
+    ), f"Runtime name incorrect for {file}: it's `{runtime}`, but should be `{expected_kernel}`."
 
     assert metadata["language_info"]["version"].startswith("3.")
 
