@@ -46,10 +46,7 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 The following should be true for each assignment:
 
-- Links to:
-  - The [instructions to submit](README.md#turning-in-assignments)
-  - The template notebook on Colab
-    - Exception is HW6, which doesn't have a template
+- Links to the [instructions to submit](README.md#turning-in-assignments)
 - `Add honor Pledge` box for each is unchecked
 - Dates are correct:
   - `Open Date`s are Thursdays at 6:45pm ET, week by week
