@@ -10,7 +10,8 @@ assignees: afeld
   - [ ] Dates
   - [ ] Office hours
   - [ ] Link to survey
-  - [ ] Link to Brightspace site
+  - [ ] Links to Brightspace site
+  - [ ] Links to JupyterHub
 - [ ] Submit syllabus to Wagner
   - [ ] [Convert to PDF](https://md2pdf.netlify.com/)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
