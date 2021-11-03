@@ -83,7 +83,10 @@ Students will learn how to:
 - Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/82428/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
-- The classes will be streamed over Zoom and recorded on a best-effort basis. Under the [Zoom tab in Brightspace](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=82428&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), see `Cloud Recordings`. Office hours will not be recorded.
+- The classes will be streamed and recorded via Zoom on a best-effort basis.
+  - Find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=82428&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`.
+  - The instructor won't interact with any Zoom participants.
+  - Office hours will not be recorded.
 
 ## Assignments and Evaluation
 
