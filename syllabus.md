@@ -7,13 +7,13 @@
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - Grader: Jasmine Jeffers, jaj509@nyu.edu
 - Office Hours:
-  - Regular times to be determined
+  - Wednesdays 6-6:30pm ET
   - By appointment
 
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thursdays, 10/28-12/16 6:45-8:25pm
+- Class Meeting Times: Thursdays, 10/28-12/16 6:45-8:25pm ET
   - No class on Thanksgiving, 11/25
 - Class Location: [194 Mercer St.](https://goo.gl/maps/AdXgktAY4WfwsFHJ8), room 208
 - Prerequisites: None
@@ -83,6 +83,7 @@ Students will learn how to:
 - Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/82428/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
+- The classes will be streamed over Zoom and recorded on a best-effort basis. Under the [Zoom tab in Brightspace](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=82428&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), see `Cloud Recordings`. Office hours will not be recorded.
 
 ## Assignments and Evaluation
 
