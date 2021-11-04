@@ -7,6 +7,7 @@ dependencies:
   - RISE
   - ipykernel
   - jupyter_contrib_nbextensions
+  - jupyter-resource-usage
   - notebook
   - nb_conda
   # packages used in notebooks
