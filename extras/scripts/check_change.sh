@@ -11,10 +11,10 @@ POST=${PRE//\./.nbconvert.}
 FINAL=${PRE//\./.final.}
 
 function diffable() {
-  jupyter nbconvert --to notebook --Exporter.preprocessors=scripts.diffable.Diffable --stdout "$1" > "$2"
+  jupyter nbconvert --to notebook --Exporter.preprocessors=extras.scripts.diffable.Diffable --stdout "$1" > "$2"
 }
 
-mkdir -p tmp
+mkdir -p tmp/extras
 diffable "$SOURCE" "$PRE"
 
 case "$SOURCE" in
@@ -32,7 +32,7 @@ case "$SOURCE" in
 esac
 
 cp "$PRE" "$POST"
-./scripts/update.sh "$POST"
+./extras/scripts/update.sh "$POST"
 
 diffable "$POST" "$FINAL"
 

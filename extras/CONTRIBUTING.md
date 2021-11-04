@@ -10,7 +10,7 @@
 1. Create the environment:
 
    ```sh
-   conda env create -f environment.yml
+   conda env create -f extras/environment.yml
    ```
 
 1. Activate the environment:
@@ -34,7 +34,7 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 To ensure that notebooks have the correct execution order and output, run them non-interactively.
 
 ```sh
-./scripts/update.sh <file>.ipynb
+./extras/scripts/update.sh <file>.ipynb
 ```
 
 ## Start of class checklist

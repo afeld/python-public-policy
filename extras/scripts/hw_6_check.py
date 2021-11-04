@@ -1,6 +1,6 @@
 # Corresponds to the Requirements for homework 6. Requires cloc and nbconvert. Usage:
 #
-#   python3 ./scripts/hw_6_check.py <assignment>.ipynb
+#   python3 ./extras/scripts/hw_6_check.py <assignment>.ipynb
 
 import json
 import pandas as pd

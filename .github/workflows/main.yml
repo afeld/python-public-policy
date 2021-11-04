@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.x"
       - name: Run static analysis
-        run: python scripts/validate.py
+        run: python extras/scripts/validate.py
 
   test:
     runs-on: ubuntu-latest
@@ -41,13 +41,13 @@ jobs:
           CACHE_NUMBER: 0
         with:
           path: ~/conda_pkgs_dir
-          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('extras/environment.yml') }}
       - name: Set up Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: python-public-policy
           channel-priority: strict
-          environment-file: environment.yml
+          environment-file: extras/environment.yml
           use-only-tar-bz2: true
 
       - name: Run tests
@@ -76,7 +76,7 @@ jobs:
           - lecture_4.ipynb
           - lecture_5.ipynb
           - lecture_6.ipynb
-          - pandas_crash_course.ipynb
+          - extras/pandas_crash_course.ipynb
     steps:
       - uses: actions/checkout@v2
 
@@ -90,14 +90,14 @@ jobs:
           CACHE_NUMBER: 0
         with:
           path: ~/conda_pkgs_dir
-          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('extras/environment.yml') }}
       - name: Set up Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: python-public-policy
           channel-priority: strict
-          environment-file: environment.yml
+          environment-file: extras/environment.yml
           use-only-tar-bz2: true
 
       - name: Confirm notebook hasn't changed
-        run: ./scripts/check_change.sh ${{ matrix.notebook }}
+        run: ./extras/scripts/check_change.sh ${{ matrix.notebook }}
