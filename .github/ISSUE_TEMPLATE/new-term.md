@@ -18,7 +18,11 @@ assignees: afeld
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
-- [ ] [Request JupyterHub environment](https://sites.google.com/a/nyu.edu/nyu-hpc/services/resources-for-classes/rc-jupyterhub/intake-form)
+- [ ] JupyterHub
+  - [ ] [Request environment](https://sites.google.com/a/nyu.edu/nyu-hpc/services/resources-for-classes/rc-jupyterhub/intake-form)
+  - [ ] [Set up GitHub repositories synchronization](https://settings-fall.rcnyu.org/)
+  - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
+  - [ ] Add data
 - [ ] New Brightspace site
   - [ ] Import
   - [ ] Clear Announcements
