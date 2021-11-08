@@ -64,6 +64,14 @@ The following should be true for each assignment:
 - Associated with the `Homework` `gradebook category`
 - Each Assignment has been Posted
 
+## Homework extensions
+
+1. Go to [Assignments](https://brightspace.nyu.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=82428)
+1. Edit Assignment
+1. Expand "Availability Dates & Conditions"
+1. Click "Manage Special Access"
+1. Check "Has Due Date"
+
 ## Data sets
 
 - `311_Service_Requests_2018-19.csv`: [original data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
