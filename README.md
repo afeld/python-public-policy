@@ -50,13 +50,14 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 ### Turning in assignments
 
-1. Ensure all the outputs are visible and the notebook is cleaned up
+1. Ensure all the outputs are visible and the notebook is cleaned up.
    - What you see is what the instructors will see.
+1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
    1. `Download as`
    1. `PDF via LaTeX (PDF)`
-1. Upload the PDF to the Brightspace Assignment
+1. Upload the PDF to the Brightspace Assignment.
 
 After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in Brightspace under the Assignments.
 
