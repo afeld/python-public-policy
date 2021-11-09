@@ -8,8 +8,19 @@ locals {
     "311_community_districts.csv",
     "311_covid.csv",
     "311_mar_2019.csv",
+
+    # sample of `311_Service_Requests_2018-19.csv`, using following method with `n=500000` and `random_state=1`
+    # https://gist.github.com/afeld/a7a62271923c7a079d02f8f38efc0a78
     "311_requests_2018-19_sample.csv",
+
+    # `311_requests_2018-19_sample.csv` with junk filtered out. See lecture 1.
     "311_requests_2018-19_sample_clean.csv",
+
+    # Original data from
+    # https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
+    # Leaving out because it slows the terraform operations down too much.
+    # "311_Service_Requests_2018-19.csv",
+
     "cleaned_311_data_hw2.csv"
   ]
 }
