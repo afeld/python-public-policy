@@ -1,6 +1,9 @@
 locals {
   local_data_dir = "/Volumes/GoogleDrive/My Drive/wagner-python/data/"
 
+  # find all with
+  #
+  #   grep -oh -E "https://storage.googleapis.com/python-public-policy/data/.+\.csv(\.zip)?" *.ipynb | xargs basename | sort | uniq
   source_files = [
     "311_community_districts.csv",
     "311_covid.csv",
