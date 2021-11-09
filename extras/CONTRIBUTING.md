@@ -67,4 +67,7 @@ The following should be true for each assignment:
 ## Data sets
 
 - `311_Service_Requests_2018-19.csv`: [original data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
-- `311_Service_Requests_2018-19_clean.csv`: `311_Service_Requests_2018-19.csv` with junk filtered out (from [lecture 1](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb))
+- `311_requests_2018-19_sample.csv`: sample of `311_Service_Requests_2018-19.csv`, using [this method](https://gist.github.com/afeld/a7a62271923c7a079d02f8f38efc0a78) with `n=500000` and `random_state=1`
+- `311_requests_2018-19_sample_clean.csv`: `311_requests_2018-19_sample.csv` with junk filtered out (from [lecture 1](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb))
+
+Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then [compressed](scripts/compress.sh) and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data).
