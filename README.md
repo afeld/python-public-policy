@@ -59,7 +59,7 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. `PDF via LaTeX (PDF)`
 1. Upload the PDF to the Brightspace Assignment.
 
-After the resubmission deadline passes for each Assignment, you'll be able to find the Model Answer (a.k.a. the solution) in Brightspace under the Assignments.
+After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 
 Note: In-class exercises will not be graded.
 
