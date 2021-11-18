@@ -6,9 +6,7 @@
 
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - Grader: Jasmine Jeffers, jaj509@nyu.edu
-- Office Hours:
-  - Wednesdays 6-6:30pm ET
-  - By appointment
+- Office Hours: By appointment
 
 ## Course Information
 
