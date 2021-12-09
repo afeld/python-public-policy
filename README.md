@@ -43,10 +43,16 @@ All the lectures and assignment templates are in this repository, so you _could_
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
-- Kernel/memory issues
-  - If your kernel crashes, let the instructor know.
-  - Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
-  - Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page
+
+#### Kernel/memory issues
+
+- Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
+  - Shows in the top right of the notebook interface
+  - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`
+- Make sure you aren't loading data sets you don't need.
+- Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.
+
+If none of the above help, let the instructor know.
 
 ### Turning in assignments
 
