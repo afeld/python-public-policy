@@ -43,7 +43,8 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. Start meeting
   1. Sign into Zoom Classroom
   1. `Switch Camera` to `Logi Rally Camera`
-  1. Mute mic and speakers
+  1. Mute mic and speakers on computer
+  1. Unmute mic on Zoom Classroom
   1. Start recording
 - [Set placeholders](https://settings-fall.rcnyu.org/)
 - Open [participation spreadsheet](https://docs.google.com/spreadsheets/d/19y3cXYYC-3KLGn6ay0GJ6Bt_LN_AXdxdhf4b3qPnUjE/edit#gid=773327)
