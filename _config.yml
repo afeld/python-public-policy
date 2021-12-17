@@ -7,3 +7,12 @@ author: Aidan Feldman
 only_build_toc_files: true
 execute:
   execute_notebooks: "off"
+html:
+  use_repository_button: true
+  extra_navbar: ""
+  home_page_in_navbar: false
+launch_buttons:
+  binderhub_url: ""
+repository:
+  url: https://github.com/afeld/python-public-policy
+  branch: main
