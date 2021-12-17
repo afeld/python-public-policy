@@ -1,0 +1,4 @@
+title: Python Coding for Public Policy
+only_build_toc_files: true
+execute:
+  execute_notebooks: "off"

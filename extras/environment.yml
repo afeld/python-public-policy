@@ -21,6 +21,7 @@ dependencies:
   # https://plotly.com/python/static-image-export/
   - python-kaleido
   # CI
+  - jupyter-book
   - nbconvert
   - nbdime
   - pytest
