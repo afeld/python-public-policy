@@ -1,4 +1,9 @@
+# when modified, run:
+#
+#   jupyter-book config sphinx .
+#
 title: Python Coding for Public Policy
+author: Aidan Feldman
 only_build_toc_files: true
 execute:
   execute_notebooks: "off"
