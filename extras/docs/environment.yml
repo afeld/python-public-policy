@@ -1,0 +1,6 @@
+name: Jupyter Book
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter-book=0.12.1
