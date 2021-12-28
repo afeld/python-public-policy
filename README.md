@@ -43,6 +43,13 @@ All the lectures and assignment templates are in this repository, so you _could_
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
+- **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
+- **Include the boilerplate code for Plotly.**
+
+  ```python
+  import plotly.io as pio
+  pio.renderers.default = "notebook_connected+pdf"
+  ```
 
 #### Kernel/memory issues
 
@@ -63,6 +70,7 @@ If none of the above help, let the instructor know.
    1. `File`
    1. `Download as`
    1. `PDF via LaTeX (PDF)`
+1. Glance through the PDF to ensure everything is showing up as you intend.
 1. Upload the PDF to the Brightspace Assignment.
 
 If you get a 500 error when trying to export the PDF, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
