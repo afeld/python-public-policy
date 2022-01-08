@@ -67,7 +67,7 @@ def has_link(cell):
     pattern = r"https?://"
     if cell["cell_type"] == "code":
         # check for URL in comment
-        pattern = r"^\s*#.*" + pattern
+        pattern = r"^\s*\#.*" + pattern
 
     return any(code_contains(pattern, line) for line in cell["source"])
 

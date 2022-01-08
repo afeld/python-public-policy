@@ -1,4 +1,4 @@
-from .hw_6_check import has_plotting
+from .hw_6_check import has_plotting, includes_link
 
 
 def test_nothing():
@@ -15,3 +15,28 @@ def test_plot_method():
 
 def test_plot_submodule():
     assert has_plotting("df.plot.scatter()")
+
+
+def test_includes_link_base():
+    notebook = {"cells": []}
+    assert not includes_link(notebook)
+
+
+def test_includes_link_missing():
+    notebook = {"cells": [{"cell_type": "markdown", "source": [""]}]}
+    assert not includes_link(notebook)
+
+
+def test_includes_link_markdown():
+    notebook = {"cells": [{"cell_type": "markdown", "source": ["https://google.com"]}]}
+    assert includes_link(notebook)
+
+
+def test_includes_link_code_only():
+    notebook = {"cells": [{"cell_type": "code", "source": ["https://google.com"]}]}
+    assert not includes_link(notebook)
+
+
+def test_includes_link_code_comment():
+    notebook = {"cells": [{"cell_type": "code", "source": ["# https://google.com"]}]}
+    assert includes_link(notebook)
