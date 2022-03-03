@@ -19,7 +19,7 @@ assignees: afeld
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
 - [ ] JupyterHub
-  - [ ] [Request environment](https://sites.google.com/a/nyu.edu/nyu-hpc/services/resources-for-classes/rc-jupyterhub/intake-form)
+  - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] [Set up GitHub repositories synchronization](https://settings-fall.rcnyu.org/)
   - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
   - [ ] Add data
