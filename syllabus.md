@@ -1,6 +1,6 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Fall 2021
+# Python Coding for Public Policy - Spring 2022
 
 ## Instructor Information
 
@@ -11,9 +11,8 @@
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thursdays, 10/28-12/16 6:45-8:25pm ET
-  - No class on Thanksgiving, 11/25
-- Class Location: [194 Mercer St.](https://goo.gl/maps/AdXgktAY4WfwsFHJ8), room 208
+- Class Meeting Times: Thursdays, 3/24-5/5 6:45-8:25pm ET
+- Class Location: [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 379
 - Prerequisites: None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -56,13 +55,13 @@ Students will learn how to:
 
 | Lecture | Date  | Topics                                            | Homework                                                                |
 | ------- | ----- | ------------------------------------------------- | ----------------------------------------------------------------------- |
-| [0][l0] | 10/28 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                               |
-| [1][l1] | 11/4  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                     |
-| [2][l2] | 11/11 | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                     |
-| [3][l3] | 11/18 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                     |
-| [4][l4] | 12/2  | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                     |
-| [5][l5] | 12/9  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                     |
-| [6][l6] | 12/16 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 12/22 |
+| [0][l0] | 3/24 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                               |
+| [1][l1] | 3/31  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                     |
+| [2][l2] | 4/7 | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                     |
+| [3][l3] | 4/14 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                     |
+| [4][l4] | 4/21  | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                     |
+| [5][l5] | 4/28  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                     |
+| [6][l6] | 5/5 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/12 |
 
 [l0]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_0.ipynb
 [l1]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb
