@@ -7,7 +7,7 @@
 This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
 - [Syllabus](syllabus.md#readme)
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/82428), which students will use for:
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/156784), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades

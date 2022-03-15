@@ -75,14 +75,14 @@ Students will learn how to:
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/82428).
+- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/156784).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/82428/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/156784/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 - The classes will be streamed and recorded via Zoom on a best-effort basis.
-  - Find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=82428&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`.
+  - Find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`.
   - The instructor won't interact with any Zoom participants.
   - Office hours will not be recorded.
 
@@ -138,9 +138,9 @@ in one of the following:
 
 - Class
 - Office hours
-- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/82428/discussions/List)
+- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/156784/discussions/List)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=82428) to make sure you see conversations that come through
+  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
 
 The following don't count towards the participation score:
 
