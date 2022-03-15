@@ -5,7 +5,7 @@
 ## Instructor Information
 
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- Grader: Jasmine Jeffers, jaj509@nyu.edu
+- Grader: Yuzhen Wang, yw4891@nyu.edu
 - Office Hours: By appointment
 
 ## Course Information
