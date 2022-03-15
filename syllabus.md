@@ -70,7 +70,7 @@ Students will learn how to:
 [l4]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_4.ipynb
 [l5]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_5.ipynb
 [l6]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_6.ipynb
-[survey]: https://docs.google.com/forms/d/e/1FAIpQLSeaOKE1dSB1sOSR47Uh_gxClHCxrpW96GPCn1WGH8cPtXjifQ/viewform?usp=sf_link
+[survey]: https://docs.google.com/forms/d/e/1FAIpQLSer3OQfZoOp9hBlrf7PhWOf7xlnDOYcn0OwlsArcL0PDLRnKA/viewform?usp=sf_link
 
 ## Communications
 
