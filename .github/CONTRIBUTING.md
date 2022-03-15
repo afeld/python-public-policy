@@ -2,7 +2,7 @@
 
 - JupyterHub
   - [Settings](https://settings-fall.rcnyu.org/)
-  - [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
+  - [Instructor site](https://padmgp-4506-spring-instructor.rcnyu.org/)
 
 ## Loading the notebooks locally
 
@@ -68,7 +68,7 @@ The following should be true for each assignment:
 
 ## Homework extensions
 
-1. Go to [Assignments](https://brightspace.nyu.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=82428)
+1. Go to [Assignments](https://brightspace.nyu.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=156784)
 1. Edit Assignment
 1. Expand "Availability Dates & Conditions"
 1. Click "Manage Special Access"

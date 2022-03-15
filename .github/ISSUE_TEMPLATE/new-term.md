@@ -18,6 +18,7 @@ assignees: afeld
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
+  - [ ] Update in [syllabus](https://github.com/afeld/python-public-policy/blob/main/syllabus.md#instructor-information)
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] [Set up GitHub repositories synchronization](https://settings-fall.rcnyu.org/)
