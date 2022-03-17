@@ -10,7 +10,7 @@
 1. Create the environment:
 
    ```sh
-   conda env create -f extras/environment.yml
+   conda env create -f extras/environment.lock.yml
    ```
 
 1. Activate the environment:
