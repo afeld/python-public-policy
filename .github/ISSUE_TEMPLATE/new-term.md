@@ -28,8 +28,10 @@ assignees: afeld
   - [ ] Import
   - [ ] Clear Announcements
   - [ ] Add grader to Classlist
-  - [ ] Change assignment dates and publish them
-- [ ] Send survey
+  - [ ] Change Assignment dates and publish them
+  - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
+  - [ ] Send welcome Announcement
+    - [ ] In `pre-class TODOs` Assignment, link to new survey
 - [ ] Send calendar invite
   - [ ] [Create Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] Create copy of participation spreadsheet
