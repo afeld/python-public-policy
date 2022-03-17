@@ -21,8 +21,8 @@ assignees: afeld
   - [ ] Update in [syllabus](https://github.com/afeld/python-public-policy/blob/main/syllabus.md#instructor-information)
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
-  - [ ] [Set up GitHub repositories synchronization](https://settings-fall.rcnyu.org/)
-  - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
+  - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/)
+  - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] Add data
 - [ ] New Brightspace site
   - [ ] Import
