@@ -110,7 +110,7 @@ The Course Grade is based on the following:
 
 ### Assignments
 
-Assignments are due at 6:45pm (the start of class) on the day listed in the Schedule above. Scoring:
+In general, assignments are due Thursdays at 6:45pm (the start of class). Scoring:
 
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
@@ -118,9 +118,9 @@ Assignments are due at 6:45pm (the start of class) on the day listed in the Sche
 - Visualizations incomplete, e.g. missing meaningful title/labels: -0.1 points
 - Unattempted Steps: -0.4 points
 
-If the submission showed effort, feedback will be given.
+If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.vanderbilt.edu/brightspace/using-the-annotation-tool/).
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class, and can be resubmitted through Brightspace.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in Brightspace), and can be resubmitted through Brightspace.
 
 Requests for extensions will only be considered if made before the deadline.
 
