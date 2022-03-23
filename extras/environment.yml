@@ -1,5 +1,5 @@
-# locked to environment.lock.yml with
-# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment
+# locked with
+# https://conda-incubator.github.io/conda-lock/
 name: python-public-policy
 channels:
   - default
