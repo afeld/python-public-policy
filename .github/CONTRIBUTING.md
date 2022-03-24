@@ -29,30 +29,17 @@
 ## Adding/updating packages
 
 1. Modify [`environment.yml`](../extras/environment.yml)
-1. [Update the environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment)
+1. Run
 
    ```sh
-   cd extras
-   conda env update --file environment.yml --prune
-   ```
-
-1. Regenerate the lock files.
-
-   ```sh
-   conda-lock lock --kind explicit
-   ```
-
-1. Update the notebooks
-
-   ```sh
-   ./extras/scripts/update_all.sh
+   ./extras/scripts/update_packages.sh
    ```
 
 1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
 1. Update other environment(s) (e.g. JupyterHub)
 
    ```sh
-   conda env update --file extras/conda-linux-64.lock --prune
+   mamba install --name python-public-policy --file conda-linux-64.lock --prune
    ```
 
 ## Slides
