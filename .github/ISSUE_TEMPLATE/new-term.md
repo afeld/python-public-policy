@@ -35,7 +35,9 @@ assignees: afeld
     - [ ] In `pre-class TODOs` Assignment, link to new survey
 - [ ] Send calendar invite
   - [ ] [Create Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
-- [ ] Create copy of participation spreadsheet
+- [ ] Create copy of participation spreadsheet, and update links in:
+  - [ ] [`CONTRIBUTING.md`](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#start-of-class-checklist)
+  - [ ] `lecture_0.ipynb`
 - [ ] Find guest(s)
   - [ ] Get bio(s)
   - [ ] Update lecture 6

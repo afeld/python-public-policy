@@ -64,7 +64,7 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. Unmute mic on Zoom Classroom
   1. Start recording
 - [Set placeholders](https://settings-spring.rcnyu.org/)
-- Open [participation spreadsheet](https://docs.google.com/spreadsheets/d/19y3cXYYC-3KLGn6ay0GJ6Bt_LN_AXdxdhf4b3qPnUjE/edit#gid=773327)
+- Open [participation spreadsheet](https://docs.google.com/spreadsheets/d/1LH-e2swsveySt1RzHamAaSIfU1-xBseWt-ld7S7UQ4k/edit#gid=855364232)
   - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 
 ## Assignment checks
