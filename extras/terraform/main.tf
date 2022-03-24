@@ -4,12 +4,13 @@ terraform {
 
 provider "google" {
   project = "fresh-mason-303504"
-  region  = "us-central1"
+  region  = "us-east1"
 }
 
 resource "google_storage_bucket" "data" {
-  name     = "python-public-policy"
-  location = "US-CENTRAL1"
+  name          = "python-public-policy"
+  location      = "US-EAST1"
+  force_destroy = true
 
   versioning {
     enabled = true
