@@ -1,5 +1,10 @@
 FROM jupyter/minimal-notebook
 
+USER root
+RUN apt-get update && \
+  apt-get install -y cloc
+USER ${NB_UID}
+
 COPY environment.lock.yml "/home/${NB_USER}"
 # inspired by
 # https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#slideshows-with-jupyter-and-rise
