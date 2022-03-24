@@ -37,17 +37,17 @@ jobs:
       - name: Cache conda
         uses: actions/cache@v1
         env:
-          # Increase this value to reset cache if environment.yml has not changed
+          # Increase this value to reset cache if conda-linux-64.lock has not changed
           CACHE_NUMBER: 0
         with:
           path: ~/conda_pkgs_dir
-          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('extras/environment.yml') }}
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('extras/conda-linux-64.lock') }}
       - name: Set up Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: python-public-policy
           channel-priority: strict
-          environment-file: extras/environment.yml
+          environment-file: extras/conda-linux-64.lock
           use-only-tar-bz2: true
 
       - name: Run tests
@@ -86,17 +86,17 @@ jobs:
       - name: Cache conda
         uses: actions/cache@v1
         env:
-          # Increase this value to reset cache if environment.yml has not changed
+          # Increase this value to reset cache if conda-linux-64.lock has not changed
           CACHE_NUMBER: 0
         with:
           path: ~/conda_pkgs_dir
-          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('extras/environment.yml') }}
+          key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('extras/conda-linux-64.lock') }}
       - name: Set up Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: python-public-policy
           channel-priority: strict
-          environment-file: extras/environment.yml
+          environment-file: extras/conda-linux-64.lock
           use-only-tar-bz2: true
 
       - name: Confirm notebook hasn't changed
