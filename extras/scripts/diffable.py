@@ -12,7 +12,7 @@ class Diffable(Preprocessor):
         if cell["cell_type"] != "code":
             return cell, resources
 
-        # ignore any system command output
+        # ignore any system command output, since things like package paths shown in warnings/errors can change between different systems
         if cell["source"][0].startswith("!"):
             cell["outputs"] = []
 
