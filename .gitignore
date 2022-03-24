@@ -1,5 +1,9 @@
 __pycache__/
 .ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.venv/
 *.csv
 *.slides.html
 shared
