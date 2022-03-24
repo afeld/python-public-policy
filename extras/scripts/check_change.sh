@@ -17,19 +17,7 @@ function diffable() {
 mkdir -p tmp/extras
 diffable "$SOURCE" "$PRE"
 
-case "$SOURCE" in
-
-  "hw_0.ipynb")
-    # uses input()s
-    exit
-    ;;
-
-  "hw_3.ipynb")
-    # has incomplete code
-    exit
-    ;;
-
-esac
+./extras/scripts/interactive_check.sh "$SOURCE" || exit 0
 
 cp "$PRE" "$POST"
 ./extras/scripts/update.sh "$POST"
