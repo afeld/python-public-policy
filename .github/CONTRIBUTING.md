@@ -26,6 +26,28 @@
    jupyter notebook
    ```
 
+## Adding/updating packages
+
+1. Modify [`environment.yml`](../extras/environment.yml)
+1. [Update the environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment)
+
+   ```sh
+   cd extras
+   conda env update --file environment.yml --prune
+   ```
+
+1. Regenerate the lock files.
+
+   ```sh
+   conda-lock lock --kind explicit
+   ```
+
+1. Update other environment(s) (e.g. JupyterHub)
+
+   ```sh
+   conda env update --file extras/conda-linux-64.lock --prune
+   ```
+
 ## Slides
 
 While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/stable/usage.html#running-a-slideshow).
