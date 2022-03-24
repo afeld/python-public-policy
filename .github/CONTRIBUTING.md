@@ -42,6 +42,13 @@
    conda-lock lock --kind explicit
    ```
 
+1. Update the notebooks
+
+   ```sh
+   ./extras/scripts/update_all.sh
+   ```
+
+1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
 1. Update other environment(s) (e.g. JupyterHub)
 
    ```sh

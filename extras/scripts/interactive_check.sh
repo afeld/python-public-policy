@@ -1,4 +1,7 @@
 #!/bin/bash
+# Used to skip notebooks that are interactive when looping through them. Usage:
+#
+#   ./extras/scripts/interactive_check.sh [IPYBNB_FILE] || exit 0
 
 set -e
 set -x
