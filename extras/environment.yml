@@ -4,7 +4,7 @@
 #
 # After you update this file, run:
 #
-#   docker compose run jupyter sh -c "conda env export -n base > extras/environment.lock.yml"
+#   docker compose run jupyter sh -c "conda env export -n base > python-public-policy/extras/environment.lock.yml"
 #
 name: base
 channels:
@@ -13,10 +13,8 @@ channels:
 dependencies:
   # local development
   - RISE
-  - ipykernel
   - jupyter_contrib_nbextensions
   - jupyter-resource-usage
-  - notebook
   - nb_conda
   # packages used in notebooks
   - pandas=1.*.*
