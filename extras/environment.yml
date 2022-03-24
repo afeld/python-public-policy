@@ -1,6 +1,12 @@
-# locked to environment.lock.yml with
+# Locked to environment.lock.yml with:
+#
 # https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment
-name: python-public-policy
+#
+# After you update this file, run:
+#
+#   docker compose run jupyter sh -c "conda env export -n base > extras/environment.lock.yml"
+#
+name: base
 channels:
   - default
   - conda-forge
