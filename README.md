@@ -65,6 +65,7 @@ If none of the above help, let the instructor know.
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - What you see is what the instructors will see.
+   - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`)
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
