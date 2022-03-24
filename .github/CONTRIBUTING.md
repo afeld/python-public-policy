@@ -26,6 +26,22 @@
    jupyter notebook
    ```
 
+## Adding/updating packages
+
+1. Modify [`environment.yml`](../extras/environment.yml)
+1. Run
+
+   ```sh
+   ./extras/scripts/update_packages.sh
+   ```
+
+1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
+1. Update other environment(s) (e.g. JupyterHub)
+
+   ```sh
+   mamba install --name python-public-policy --file conda-linux-64.lock --prune
+   ```
+
 ## Slides
 
 While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/stable/usage.html#running-a-slideshow).
