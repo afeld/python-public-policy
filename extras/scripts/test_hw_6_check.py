@@ -6,6 +6,10 @@ def test_nothing():
     assert not has_plotting("")
 
 
+def test_seaborn():
+    assert has_plotting("import seaborn as sns")
+
+
 def test_plotly():
     assert has_plotting("import plotly.express as px")
 

@@ -2,16 +2,61 @@
 #
 #   python3 ./extras/scripts/hw_6_check.py <assignment>.ipynb
 
+import ast
 import json
-import nbformat
-import nbconvert
+import os
 import pandas as pd
 import re
 import shlex
 import subprocess
 import sys
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from nb_helper import read_notebook, notebook_to_script
+
 MIN_LINES = 40
+VIZ_PACKAGES = set(
+    [
+        "altair",
+        "bokeh",
+        "folium",
+        "geoplotlib",
+        "geoviews",
+        "ipyleaflet",
+        "keplergl",
+        "matplotlib",
+        "plotly",
+        "plotly.express",
+        "plotnine",
+        "pygal",
+        "seaborn",
+    ]
+)
+
+# https://sadh.life/post/ast/
+class ImportsChecker(ast.NodeVisitor):
+    def __init__(self):
+        self.packages = set()
+
+    def visit_Import(self, node):
+        for name in node.names:
+            self.packages.add(name.name)
+
+
+class MethodChecker(ast.NodeVisitor):
+    def __init__(self, method):
+        self.method = method
+        self.is_present = False
+
+    def visit_Call(self, node):
+        if isinstance(node.func, ast.Attribute) and (
+            node.func.attr == self.method
+            or (
+                isinstance(node.func.value, ast.Attribute)
+                and node.func.value.attr == self.method
+            )
+        ):
+            self.is_present = True
 
 
 def handle_process_err(cmd, err):
@@ -39,12 +84,6 @@ def get_cmd_output(cmd, input=None, shell=False):
         handle_process_err(cmd, err)
 
     return process.stdout
-
-
-def notebook_to_script(notebook):
-    exporter = nbconvert.exporters.PythonExporter
-    script, _ = nbconvert.exporters.export(exporter, notebook)
-    return script
 
 
 def lines_of_code(code):
@@ -89,26 +128,21 @@ def uses_transform(script):
     )
 
 
+def has_overlap(set1, set2):
+    return not set1.isdisjoint(set2)
+
+
 def has_plotting(script):
-    return code_contains(
-        r"""\b(
-               # visualization packages
-               altair|
-               bokeh|
-               folium|
-               geoplotlib|
-               geoviews|
-               ipyleaflet|
-               keplergl|
-               matplotlib|
-               plotly|
-               plotnine|
-               pygal|
-               seaborn
-            )\b
-        |
-        \.plot[\(\.] # plot submodule/method""",
-        script,
+    tree = ast.parse(script)
+
+    imports_checker = ImportsChecker()
+    imports_checker.visit(tree)
+
+    method_checker = MethodChecker("plot")
+    method_checker.visit(tree)
+
+    return (
+        has_overlap(VIZ_PACKAGES, imports_checker.packages) or method_checker.is_present
     )
 
 
@@ -133,7 +167,7 @@ def exit(results):
 if __name__ == "__main__":
     notebook_path = sys.argv[1]
 
-    notebook = nbformat.read(notebook_path, as_version=4)
+    notebook = read_notebook(notebook_path, as_version=4)
     script = notebook_to_script(notebook)
     num_lines = lines_of_code(script)
 
