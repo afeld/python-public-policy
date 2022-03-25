@@ -29,6 +29,8 @@ assignees: afeld
   - [ ] Import
   - [ ] Clear Announcements
   - [ ] Add grader to Classlist
+  - [ ] Create recurring Zoom
+    - [ ] Add to calendar invite
   - [ ] Change Assignment dates and publish them
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Send welcome Announcement
