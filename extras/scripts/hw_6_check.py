@@ -3,6 +3,8 @@
 #   python3 ./extras/scripts/hw_6_check.py <assignment>.ipynb
 
 import json
+import nbformat
+import nbconvert
 import pandas as pd
 import re
 import shlex
@@ -27,7 +29,11 @@ def handle_process_err(cmd, err):
 def get_cmd_output(cmd, input=None, shell=False):
     try:
         process = subprocess.run(
-            cmd, capture_output=True, check=True, input=input, shell=shell
+            cmd,
+            capture_output=True,
+            check=True,
+            input=bytes(input, "utf-8"),
+            shell=shell,
         )
     except subprocess.CalledProcessError as err:
         handle_process_err(cmd, err)
@@ -35,19 +41,10 @@ def get_cmd_output(cmd, input=None, shell=False):
     return process.stdout
 
 
-def get_script(notebook_path):
-    return get_cmd_output(
-        [
-            "jupyter",
-            "nbconvert",
-            "--to",
-            "script",
-            "--log-level",
-            "WARN",
-            "--stdout",
-            notebook_path,
-        ]
-    )
+def notebook_to_script(notebook):
+    exporter = nbconvert.exporters.PythonExporter
+    script, _ = nbconvert.exporters.export(exporter, notebook)
+    return script
 
 
 def lines_of_code(code):
@@ -65,15 +62,15 @@ def code_contains(pattern, code):
 
 def has_link(cell):
     pattern = r"https?://"
-    if cell["cell_type"] == "code":
+    if cell.cell_type == "code":
         # check for URL in comment
         pattern = r"^\s*\#.*" + pattern
 
-    return any(code_contains(pattern, line) for line in cell["source"])
+    return code_contains(pattern, cell.source)
 
 
-def includes_link(notebook):
-    return any(has_link(cell) for cell in notebook["cells"])
+def includes_link(cells):
+    return any(has_link(cell) for cell in cells)
 
 
 def uses_transform(script):
@@ -136,16 +133,15 @@ def exit(results):
 if __name__ == "__main__":
     notebook_path = sys.argv[1]
 
-    script_bytes = get_script(notebook_path)
-    script = str(script_bytes)
-    notebook = json.load(open(notebook_path))
-    num_lines = lines_of_code(script_bytes)
+    notebook = nbformat.read(notebook_path, as_version=4)
+    script = notebook_to_script(notebook)
+    num_lines = lines_of_code(script)
 
     # use pandas for outputting a table
     results = pd.Series(
         {
             f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
-            "Includes link": includes_link(notebook),
+            "Includes link": includes_link(notebook.cells),
             "Uses transform": uses_transform(script),
             "Has plotting": has_plotting(script),
         }

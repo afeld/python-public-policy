@@ -1,3 +1,4 @@
+import nbformat
 from .hw_6_check import has_plotting, includes_link
 
 
@@ -18,25 +19,30 @@ def test_plot_submodule():
 
 
 def test_includes_link_base():
-    notebook = {"cells": []}
-    assert not includes_link(notebook)
+    cells = []
+    assert not includes_link(cells)
 
 
 def test_includes_link_missing():
-    notebook = {"cells": [{"cell_type": "markdown", "source": [""]}]}
-    assert not includes_link(notebook)
+    cells = [nbformat.from_dict({"cell_type": "markdown", "source": ""})]
+    assert not includes_link(cells)
 
 
 def test_includes_link_markdown():
-    notebook = {"cells": [{"cell_type": "markdown", "source": ["https://google.com"]}]}
-    assert includes_link(notebook)
+    cells = [
+        nbformat.from_dict({"cell_type": "markdown", "source": "https://google.com"})
+    ]
+
+    assert includes_link(cells)
 
 
 def test_includes_link_code_only():
-    notebook = {"cells": [{"cell_type": "code", "source": ["https://google.com"]}]}
-    assert not includes_link(notebook)
+    cells = [nbformat.from_dict({"cell_type": "code", "source": "https://google.com"})]
+    assert not includes_link(cells)
 
 
 def test_includes_link_code_comment():
-    notebook = {"cells": [{"cell_type": "code", "source": ["# https://google.com"]}]}
-    assert includes_link(notebook)
+    cells = [
+        nbformat.from_dict({"cell_type": "code", "source": "# https://google.com"})
+    ]
+    assert includes_link(cells)
