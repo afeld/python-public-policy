@@ -4,13 +4,15 @@ import pytest
 from .nb_helper import *
 
 
-class InputChecker(ast.NodeVisitor):
-    def __init__(self):
-        self.num_inputs = 0
+# https://sadh.life/post/ast/
+class FuncCallChecker(ast.NodeVisitor):
+    def __init__(self, func: str):
+        self.func = func
+        self.num_calls = 0
 
     def visit_Call(self, node):
-        if isinstance(node.func, ast.Name) and node.func.id == "input":
-            self.num_inputs += 1
+        if isinstance(node.func, ast.Name) and node.func.id == self.func:
+            self.num_calls += 1
 
 
 @pytest.fixture()
