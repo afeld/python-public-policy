@@ -44,7 +44,7 @@ All the lectures and assignment templates are in this repository, so you _could_
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
-- **Include the boilerplate code for Plotly.**
+- **Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) code for Plotly.**
 
   ```python
   import plotly.io as pio
