@@ -167,7 +167,7 @@ def exit(results):
 if __name__ == "__main__":
     notebook_path = sys.argv[1]
 
-    notebook = read_notebook(notebook_path, as_version=4)
+    notebook = read_notebook(notebook_path)
     script = notebook_to_script(notebook)
     num_lines = lines_of_code(script)
 
