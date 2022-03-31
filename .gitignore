@@ -3,5 +3,6 @@ __pycache__/
 *.csv
 *.slides.html
 shared
+solutions
 tmp/
 Untitled.ipynb
