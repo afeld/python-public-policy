@@ -12,8 +12,9 @@ class Diffable(Preprocessor):
         if cell["cell_type"] != "code":
             return cell, resources
 
-        # ignore any system command output, since things like package paths shown in warnings/errors can change between different systems
-        if cell["source"][0].startswith("!"):
+        # ignore any system command and ipytest output, since things like package paths shown in warnings/errors can change between different systems
+        first_line = cell["source"][0]
+        if first_line.startswith("!") or first_line.startswith("%%ipytest"):
             cell["outputs"] = []
 
         # filter out warnings
