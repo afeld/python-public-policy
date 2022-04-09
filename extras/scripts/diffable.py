@@ -14,7 +14,7 @@ def has_html_output(cell):
 
 def should_clear_output(cell):
     """Ignore any system command and ipytest output, since things like package paths shown in warnings/errors can change between different systems. Also clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution."""
-    source = cell["source"][0]
+    source = cell["source"]
     return is_system_command(source) or is_ipytest(source) or has_html_output(cell)
 
 
