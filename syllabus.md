@@ -89,16 +89,16 @@ Students will learn how to:
 
 The Course Grade is based on the following:
 
-- 7 [Assignments](#assignments): 90%
-  - [HW0][hw0]: 12%
-  - [HW1][hw1]: 12%
-  - [HW2][hw2]: 12%
-  - [HW3][hw3]: 12%
-  - [HW4][hw4]: 12%
+- 7 [Assignments](#assignments): 95%
+  - [HW0][hw0]: 13%
+  - [HW1][hw1]: 13%
+  - [HW2][hw2]: 13%
+  - [HW3][hw3]: 13%
+  - [HW4][hw4]: 13%
   - [HW5][hw5]: 6%
   - [HW6 proposal][hw5]: 6%
   - [HW6][hw6]: 18%
-- [Between-Class Participation](#participation): 10%
+- [Between-Class Participation](#participation): 5%
 
 [hw0]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_0.ipynb
 [hw1]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_1.ipynb
