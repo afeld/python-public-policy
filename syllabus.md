@@ -89,8 +89,7 @@ Students will learn how to:
 
 The Course Grade is based on the following:
 
-- Participation: 10%
-- 7 Assignments: 90%
+- 7 [Assignments](#assignments): 90%
   - [HW0][hw0]: 12%
   - [HW1][hw1]: 12%
   - [HW2][hw2]: 12%
@@ -99,6 +98,7 @@ The Course Grade is based on the following:
   - [HW5][hw5]: 6%
   - [HW6 proposal][hw5]: 6%
   - [HW6][hw6]: 18%
+- [Between-Class Participation](#participation): 10%
 
 [hw0]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_0.ipynb
 [hw1]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_1.ipynb
@@ -133,20 +133,22 @@ Participation means:
 - Volunteering to demonstrate
 - Posting a useful/interesting resource
 
-in one of the following:
+in either:
 
-- Class
 - Office hours
 - [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/156784/discussions/List)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
 
-The following don't count towards the participation score:
+The following don't count towards the Between-Class Participation score:
 
+- In-class participation, due to:
+  - The difficuly of tracking participation live
+  - Some students being more shy
 - Homework revisions
 - Communications about grades or other administrivia
 
-The overall participation score is calculated based on how many classes / weeks between classes that the student does the above. In other words, getting a high participation score requires participation throughout the course.
+A student's overall Between-Class Participation score is calculated based on some form of participation every week.
 
 ### Letter Grades
 
