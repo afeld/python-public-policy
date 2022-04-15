@@ -58,14 +58,13 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 - Zoom
   1. Start meeting
-  1. Sign into Zoom Classroom
-  1. `Switch Camera` to `Logi Rally Camera`
+  1. From Zoom Classroom, `Join Meeting`
+  1. Ensure all the cameras are turned on
   1. Mute mic and speakers on computer
   1. Unmute mic on Zoom Classroom
   1. Start recording
 - [Set placeholders](https://settings-spring.rcnyu.org/)
-- Open [participation spreadsheet](https://docs.google.com/spreadsheets/d/1LH-e2swsveySt1RzHamAaSIfU1-xBseWt-ld7S7UQ4k/edit#gid=855364232)
-  - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
+- If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 
 ## Assignment checks
 
