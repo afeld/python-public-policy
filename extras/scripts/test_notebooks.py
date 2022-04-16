@@ -1,5 +1,6 @@
 import glob
 import json
+import pytest
 
 
 def check_metadata(notebook, file, expected_kernel):
@@ -22,9 +23,11 @@ def check_file(file, expected_kernel="Python [conda env:python-public-policy] *"
     check_metadata(notebook, file, expected_kernel)
 
 
-def test_class_notebooks():
-    for file in glob.glob("*.ipynb"):
-        check_file(file)
+notebooks = glob.glob("*.ipynb")
+@pytest.mark.parametrize("notebook", notebooks)
+def test_class_notebooks(notebook):
+    check_file(notebook)
+
 
 def test_colab():
     # run in Google Colab
