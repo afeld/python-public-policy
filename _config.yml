@@ -16,3 +16,7 @@ launch_buttons:
 repository:
   url: https://github.com/afeld/python-public-policy
   branch: main
+# https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
+sphinx:
+  config:
+    language: en
