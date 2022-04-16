@@ -1,14 +1,14 @@
 import glob
-import json
 import pytest
+from .nb_helper import read_notebook
 
 
 def check_metadata(notebook, file, expected_kernel):
-    metadata = notebook["metadata"]
-    runtime = metadata["kernelspec"]["display_name"]
+    metadata = notebook.metadata
+    runtime = metadata.kernelspec.display_name
 
     assert runtime == expected_kernel
-    assert metadata["language_info"]["version"].startswith("3.")
+    assert metadata.language_info.version.startswith("3.")
 
     if "colab" in metadata:
         colab_name = metadata["colab"]["name"]
@@ -18,8 +18,7 @@ def check_metadata(notebook, file, expected_kernel):
 
 
 def check_file(file, expected_kernel="Python [conda env:python-public-policy] *"):
-    print(f"Checking {file}...")
-    notebook = json.load(open(file))
+    notebook = read_notebook(file)
     check_metadata(notebook, file, expected_kernel)
 
 
