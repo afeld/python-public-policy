@@ -22,7 +22,13 @@ def check_file(file, expected_kernel="Python [conda env:python-public-policy] *"
     check_metadata(notebook, file, expected_kernel)
 
 
+def is_h1(cell):
+    return cell.cell_type == "markdown" and cell.source.startswith("# ")
+
+
 notebooks = glob.glob("*.ipynb")
+
+
 @pytest.mark.parametrize("notebook", notebooks)
 def test_class_notebooks(notebook):
     check_file(notebook)
@@ -31,3 +37,10 @@ def test_class_notebooks(notebook):
 def test_colab():
     # run in Google Colab
     check_file("extras/pandas_crash_course.ipynb", "Python 3")
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_one_h1(file):
+    notebook = read_notebook(file)
+    num_h1s = sum(is_h1(cell) for cell in notebook.cells)
+    assert num_h1s == 1
