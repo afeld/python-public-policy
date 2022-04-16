@@ -33,6 +33,7 @@ assignees: afeld
   - [ ] Create recurring Zoom
     - [ ] Add to calendar invite
   - [ ] Change Assignment dates and publish them
+  - [ ] Update participation dates
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Send welcome Announcement
     - [ ] In `pre-class TODOs` Assignment, link to new survey
