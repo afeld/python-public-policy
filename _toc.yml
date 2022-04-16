@@ -1,6 +1,7 @@
 format: jb-book
 root: README
 chapters:
+  - file: syllabus
   - file: lecture_0
   - file: hw_0
   - file: lecture_1
