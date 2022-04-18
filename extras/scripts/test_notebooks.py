@@ -27,6 +27,8 @@ def is_h1(cell):
 
 
 notebooks = glob.glob("*.ipynb")
+crash_course = "extras/pandas_crash_course.ipynb"
+all_notebooks = notebooks + [crash_course]
 
 
 @pytest.mark.parametrize("notebook", notebooks)
@@ -36,10 +38,10 @@ def test_class_notebooks(notebook):
 
 def test_colab():
     # run in Google Colab
-    check_file("extras/pandas_crash_course.ipynb", "Python 3")
+    check_file(crash_course, "Python 3")
 
 
-@pytest.mark.parametrize("file", notebooks)
+@pytest.mark.parametrize("file", all_notebooks)
 def test_one_h1(file):
     notebook = read_notebook(file)
     num_h1s = sum(is_h1(cell) for cell in notebook.cells)
