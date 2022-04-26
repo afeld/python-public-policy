@@ -76,7 +76,7 @@ The following should be true for each assignment:
   - `Open Date`s are Thursdays at 6:45pm ET, week by week
   - `Due Date`s should match the [schedule](syllabus.md#schedule): subsequent Thursdays 6:45pm, week by week
   - `Accept Until` date should be the Sundays at 6:45pm following the `Due Date`
-    - Exceptions is HW6, which can't be turned in late
+    - Exception is HW6, which can't be turned in late
   - `Resubmission Accept Until` should be the Thursday at 6:45pm following the `Due Date`
     - Exception is HW6, which doesn't allow resubmission
 - Associated with the `Homework` `gradebook category`
