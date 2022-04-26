@@ -1,18 +1,12 @@
-# Corresponds to the Requirements for homework 6. Requires cloc and nbconvert. Usage:
-#
-#   python3 ./extras/scripts/hw_6_check.py <assignment>.ipynb
+# Helper file for homework 6. The checks correspond to the Requirements for homework 6. Requires cloc and nbconvert.
 
 import ast
 import json
-import os
-import pandas as pd
 import re
 import shlex
 import subprocess
 import sys
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from nb_helper import read_notebook, notebook_to_script
 
 MIN_LINES = 40
 VIZ_PACKAGES = set(
@@ -99,19 +93,6 @@ def code_contains(pattern, code):
     return bool(matches)
 
 
-def has_link(cell):
-    pattern = r"https?://"
-    if cell.cell_type == "code":
-        # check for URL in comment
-        pattern = r"^\s*\#.*" + pattern
-
-    return code_contains(pattern, cell.source)
-
-
-def includes_link(cells):
-    return any(has_link(cell) for cell in cells)
-
-
 def uses_transform(script):
     return code_contains(
         r"""\b(
@@ -148,39 +129,5 @@ def has_plotting(script):
 
 # https://stackoverflow.com/a/287944/358804
 class bcolors:
-    OKGREEN = "\033[92m"
     FAIL = "\033[91m"
     ENDC = "\033[0m"
-
-
-def pass_fail(result):
-    """Apply ANSI color escape codes"""
-    color = bcolors.OKGREEN if result else bcolors.FAIL
-    return f"{color}{result}{bcolors.ENDC}"
-
-
-def exit(results):
-    exit_code = 0 if results.all() else 1
-    sys.exit(exit_code)
-
-
-if __name__ == "__main__":
-    notebook_path = sys.argv[1]
-
-    notebook = read_notebook(notebook_path)
-    script = notebook_to_script(notebook)
-    num_lines = lines_of_code(script)
-
-    # use pandas for outputting a table
-    results = pd.Series(
-        {
-            f"Enough lines of code ({num_lines})": num_lines >= MIN_LINES,
-            "Includes link": includes_link(notebook.cells),
-            "Uses transform": uses_transform(script),
-            "Has plotting": has_plotting(script),
-        }
-    )
-
-    outputs = results.apply(lambda val: pass_fail(val))
-    print(outputs.to_string())
-    exit(results)
