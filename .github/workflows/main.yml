@@ -58,6 +58,7 @@ jobs:
           - hw_3.ipynb
           - hw_4.ipynb
           - hw_5.ipynb
+          - hw_6.ipynb
           - lecture_0.ipynb
           - lecture_1.ipynb
           - lecture_2.ipynb

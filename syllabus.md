@@ -106,7 +106,7 @@ The Course Grade is based on the following:
 [hw3]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_3.ipynb
 [hw4]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_4.ipynb
 [hw5]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_5.ipynb
-[hw6]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_5.ipynb
+[hw6]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_6.ipynb
 
 ### Assignments
 
