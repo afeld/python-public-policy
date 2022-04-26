@@ -5,8 +5,13 @@ from .nb_helper import notebook_to_script, read_notebook
 
 
 @pytest.fixture()
-def notebook():
-    nb_full_path = os.path.join(os.getcwd(), "hw_6.ipynb")
+def nb_full_path():
+    print(os.getenv('PYTEST_CURRENT_TEST'))
+    return os.path.join(os.getcwd(), "hw_6.ipynb")
+
+
+@pytest.fixture()
+def notebook(nb_full_path):
     return read_notebook(nb_full_path)
 
 

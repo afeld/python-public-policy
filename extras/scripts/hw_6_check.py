@@ -1,11 +1,8 @@
-# Helper file for homework 6. The checks correspond to the Requirements for homework 6. Requires cloc and nbconvert.
+# Helper file for homework 6. The checks correspond to the Requirements for homework 6.
 
 import ast
-import json
+from pygount import SourceAnalysis
 import re
-import shlex
-import subprocess
-import sys
 
 
 MIN_LINES = 40
@@ -53,39 +50,10 @@ class MethodChecker(ast.NodeVisitor):
             self.is_present = True
 
 
-def handle_process_err(cmd, err):
-    if type(cmd) == list:
-        cmd = shlex.join(cmd)
-
-    output = err.stderr.decode("utf-8")
-    print(
-        f"{bcolors.FAIL}ERROR{bcolors.ENDC} while running\n\n\t{cmd}\n\n{output}",
-        file=sys.stderr,
-    )
-    sys.exit(err.returncode)
-
-
-def get_cmd_output(cmd, input=None, shell=False):
-    try:
-        process = subprocess.run(
-            cmd,
-            capture_output=True,
-            check=True,
-            input=bytes(input, "utf-8"),
-            shell=shell,
-        )
-    except subprocess.CalledProcessError as err:
-        handle_process_err(cmd, err)
-
-    return process.stdout
-
-
-def lines_of_code(code):
-    output = get_cmd_output(
-        "cloc --stdin-name=script.py --json -", input=code, shell=True
-    )
-    data = json.loads(output)
-    return data["SUM"]["code"]
+def lines_of_code(file_path):
+    # TODO needs the code as a script, not as the ipynb
+    results = SourceAnalysis.from_file(file_path, "pygount")
+    return results.code_count
 
 
 def code_contains(pattern, code):
@@ -125,9 +93,3 @@ def has_plotting(script):
     return (
         has_overlap(VIZ_PACKAGES, imports_checker.packages) or method_checker.is_present
     )
-
-
-# https://stackoverflow.com/a/287944/358804
-class bcolors:
-    FAIL = "\033[91m"
-    ENDC = "\033[0m"
