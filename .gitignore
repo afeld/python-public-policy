@@ -1,6 +1,7 @@
 __pycache__/
 .ipynb_checkpoints/
 *.csv
+!crash_course/data/*.csv
 *.slides.html
 shared
 solutions
