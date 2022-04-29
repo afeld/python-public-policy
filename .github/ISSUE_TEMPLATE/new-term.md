@@ -24,6 +24,7 @@ assignees: afeld
   - [ ] Update bookmarks in Chrome
   - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/)
   - [ ] Update links from Assignments in Brightspace
+  - [ ] Update links from Discussions in Brightspace
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#loading-the-notebooks-locally)
 - [ ] New Brightspace site
