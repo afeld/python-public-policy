@@ -109,6 +109,14 @@ There are countless other blog posts, videos, books, etc. out there. There is no
 
 Want to keep going after this class?
 
+### Running notebooks
+
+- Some options:
+  - [Google Colab](https://colab.research.google.com/)
+  - [Anaconda](https://www.anaconda.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+- May need to [install/update packages](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/) to match [those used in this class](extras/environment.yml)
+
 ### Python fundamentals
 
 Recommended focusing on fundamentals of Python 3. Many "learn Python" resources will be web development-oriented (they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/)), so you might want to look for ones that focus on data science or Python 3 on its own. Some that are data-oriented:
