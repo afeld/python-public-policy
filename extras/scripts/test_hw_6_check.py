@@ -1,5 +1,4 @@
-import nbformat
-from .hw_6_check import has_plotting, includes_link
+from .hw_6_check import has_plotting
 
 
 def test_nothing():
@@ -20,33 +19,3 @@ def test_plot_method():
 
 def test_plot_submodule():
     assert has_plotting("df.plot.scatter()")
-
-
-def test_includes_link_base():
-    cells = []
-    assert not includes_link(cells)
-
-
-def test_includes_link_missing():
-    cells = [nbformat.from_dict({"cell_type": "markdown", "source": ""})]
-    assert not includes_link(cells)
-
-
-def test_includes_link_markdown():
-    cells = [
-        nbformat.from_dict({"cell_type": "markdown", "source": "https://google.com"})
-    ]
-
-    assert includes_link(cells)
-
-
-def test_includes_link_code_only():
-    cells = [nbformat.from_dict({"cell_type": "code", "source": "https://google.com"})]
-    assert not includes_link(cells)
-
-
-def test_includes_link_code_comment():
-    cells = [
-        nbformat.from_dict({"cell_type": "code", "source": "# https://google.com"})
-    ]
-    assert includes_link(cells)
