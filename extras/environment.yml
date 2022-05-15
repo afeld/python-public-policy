@@ -17,6 +17,9 @@ dependencies:
   - ipytest=0.12.*
   - pandas=1.*.*
   - plotly=5.*.*
+  - pip
+  - pip:
+      - pygount~=1.4.0
   - statsmodels=0.*.*
   # https://plotly.com/python/static-image-export/
   - python-kaleido

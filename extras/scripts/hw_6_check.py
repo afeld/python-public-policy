@@ -1,14 +1,13 @@
-# Corresponds to the Requirements for homework 6. Requires cloc and nbconvert. Usage:
+# Corresponds to the Requirements for homework 6. Usage:
 #
 #   python3 ./extras/scripts/hw_6_check.py <assignment>.ipynb
 
 import ast
-import json
 import os
+import tempfile
 import pandas as pd
+from pygount import SourceAnalysis
 import re
-import shlex
-import subprocess
 import sys
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -59,39 +58,9 @@ class MethodChecker(ast.NodeVisitor):
             self.is_present = True
 
 
-def handle_process_err(cmd, err):
-    if type(cmd) == list:
-        cmd = shlex.join(cmd)
-
-    output = err.stderr.decode("utf-8")
-    print(
-        f"{bcolors.FAIL}ERROR{bcolors.ENDC} while running\n\n\t{cmd}\n\n{output}",
-        file=sys.stderr,
-    )
-    sys.exit(err.returncode)
-
-
-def get_cmd_output(cmd, input=None, shell=False):
-    try:
-        process = subprocess.run(
-            cmd,
-            capture_output=True,
-            check=True,
-            input=bytes(input, "utf-8"),
-            shell=shell,
-        )
-    except subprocess.CalledProcessError as err:
-        handle_process_err(cmd, err)
-
-    return process.stdout
-
-
-def lines_of_code(code):
-    output = get_cmd_output(
-        "cloc --stdin-name=script.py --json -", input=code, shell=True
-    )
-    data = json.loads(output)
-    return data["SUM"]["code"]
+def lines_of_code(file_path):
+    results = SourceAnalysis.from_file(file_path, "pygount")
+    return results.code_count
 
 
 def code_contains(pattern, code):
@@ -164,12 +133,20 @@ def exit(results):
     sys.exit(exit_code)
 
 
-if __name__ == "__main__":
+def write_to_tmp_file(content):
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".py") as temp:
+        temp.write(bytes(content, "utf-8"))
+        return temp.name
+
+
+def run():
     notebook_path = sys.argv[1]
 
     notebook = read_notebook(notebook_path)
     script = notebook_to_script(notebook)
-    num_lines = lines_of_code(script)
+
+    script_path = write_to_tmp_file(script)
+    num_lines = lines_of_code(script_path)
 
     # use pandas for outputting a table
     results = pd.Series(
@@ -184,3 +161,7 @@ if __name__ == "__main__":
     outputs = results.apply(lambda val: pass_fail(val))
     print(outputs.to_string())
     exit(results)
+
+
+if __name__ == "__main__":
+    run()
