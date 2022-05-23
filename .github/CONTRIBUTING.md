@@ -7,7 +7,7 @@
 ## Loading the notebooks locally
 
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-1. Create the environment, replacing `ENV` with `linux`, `osx`, or `win`:
+1. [Create the environment.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 
    ```sh
    mamba env create --file environment.yml
@@ -77,7 +77,7 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 The following should be true for each assignment:
 
-- Links to the [instructions to submit](README.md#turning-in-assignments)
+- Links to the [instructions to submit](../README.md#turning-in-assignments)
 - `Add honor Pledge` box for each is unchecked
 - Dates are correct:
   - `Open Date`s are Thursdays at 6:45pm ET, week by week

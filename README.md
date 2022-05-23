@@ -1,4 +1,4 @@
-# Python for Public Policy
+# Python Coding for Public Policy
 
 [![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain)
 
@@ -6,11 +6,16 @@
 
 This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
+The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](.github/CONTRIBUTING.md#loading-the-notebooks-locally).
+
+## Important links
+
 - [Syllabus](syllabus.md#readme)
 - [Brightspace site](https://brightspace.nyu.edu/d2l/home/156784), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
+- [JupyterHub](https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
 
