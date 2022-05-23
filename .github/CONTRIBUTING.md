@@ -4,27 +4,6 @@
   - [Settings](https://settings-spring.rcnyu.org/)
   - [Instructor site](https://padmgp-4506-spring-instructor.rcnyu.org/)
 
-## Loading the notebooks locally
-
-1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-1. [Create the environment.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-
-   ```sh
-   mamba env create --file environment.yml
-   ```
-
-1. Activate the environment:
-
-   ```sh
-   conda activate python-public-policy
-   ```
-
-1. Start the Jupyter server:
-
-   ```sh
-   jupyter notebook
-   ```
-
 ## Adding/updating packages
 
 1. Modify [`environment.yml`](../extras/environment.yml)

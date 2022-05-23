@@ -6,11 +6,11 @@
 
 This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
-The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](.github/CONTRIBUTING.md#loading-the-notebooks-locally).
+The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#running-the-notebooks-locally).
 
 ## Important links
 
-- [Syllabus](syllabus.md#readme)
+- [Syllabus](syllabus.md)
 - [Brightspace site](https://brightspace.nyu.edu/d2l/home/156784), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
@@ -165,3 +165,27 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 ---
 
 > Everything controllable by the professor was fantastic. The objectives were straightforward and value-added. The professor helped make sure that we were coming away from assignments with real tangible understanding of the code rather than focusing on completion. I was challenged, but the professor was always around to answer questions.
+
+## Running the notebooks locally
+
+Not recommended for people taking the class, unless looking for an extra challenge.
+
+1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy).
+1. [Create the environment.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
+
+   ```sh
+   mamba env create --file environment.yml
+   ```
+
+1. Activate the environment:
+
+   ```sh
+   conda activate python-public-policy
+   ```
+
+1. Start the Jupyter server:
+
+   ```sh
+   jupyter notebook
+   ```
