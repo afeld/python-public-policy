@@ -21,7 +21,7 @@ html_logo = ''
 html_show_copyright = False
 html_sourcelink_suffix = ''
 html_theme = 'sphinx_book_theme'
-html_theme_options = {'search_bar_text': 'Search this book...', 'launch_buttons': {'notebook_interface': 'classic', 'binderhub_url': 'https://mybinder.org', 'jupyterhub_url': '', 'thebe': False, 'colab_url': ''}, 'path_to_docs': '', 'repository_url': 'https://github.com/afeld/python-public-policy', 'repository_branch': 'main', 'google_analytics_id': '', 'extra_navbar': '', 'extra_footer': '<div>\n  <a href="http://creativecommons.org/publicdomain/zero/1.0/">\n    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="Creative Commons 0 1.0" />\n  </a>\n</div>\n', 'home_page_in_toc': False, 'use_repository_button': True, 'use_edit_page_button': False, 'use_issues_button': False}
+html_theme_options = {'search_bar_text': 'Search this book...', 'launch_buttons': {'notebook_interface': 'classic', 'binderhub_url': '', 'jupyterhub_url': 'https://padmgp-4506-spring.rcnyu.org', 'thebe': False, 'colab_url': ''}, 'path_to_docs': '', 'repository_url': 'https://github.com/afeld/python-public-policy', 'repository_branch': 'main', 'google_analytics_id': '', 'extra_navbar': '', 'extra_footer': '<div>\n  <a href="http://creativecommons.org/publicdomain/zero/1.0/">\n    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="Creative Commons 0 1.0" />\n  </a>\n</div>\n', 'home_page_in_toc': False, 'use_repository_button': True, 'use_edit_page_button': False, 'use_issues_button': False}
 html_title = 'Python Coding for Public Policy'
 jupyter_cache = ''
 jupyter_execute_notebooks = 'off'
