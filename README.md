@@ -1,6 +1,6 @@
 # Python Coding for Public Policy
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain)
+[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=latest)](https://python-public-policy.afeld.me/en/latest/?badge=latest)
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
