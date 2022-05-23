@@ -1,4 +1,5 @@
 __pycache__/
+_build/
 .ipynb_checkpoints/
 *.csv
 *.slides.html

@@ -45,6 +45,14 @@
 
 While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/stable/usage.html#running-a-slideshow).
 
+## Site
+
+The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Build locally with:
+
+```sh
+jupyter-book build .
+```
+
 ## Notebook cleanup
 
 To ensure that notebooks have the correct execution order and output, run them non-interactively.

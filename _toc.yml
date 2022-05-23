@@ -1,0 +1,19 @@
+format: jb-book
+root: README
+chapters:
+  - file: syllabus
+    title: Syllabus
+  - file: lecture_0
+  - file: hw_0
+  - file: lecture_1
+  - file: hw_1
+  - file: lecture_2
+  - file: hw_2
+  - file: lecture_3
+  - file: hw_3
+  - file: lecture_4
+  - file: hw_4
+  - file: lecture_5
+  - file: hw_5
+  - file: lecture_6
+  - file: hw_6
