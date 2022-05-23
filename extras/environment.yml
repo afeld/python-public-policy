@@ -1,5 +1,3 @@
-# locked with
-# https://conda-incubator.github.io/conda-lock/
 name: python-public-policy
 channels:
   - default

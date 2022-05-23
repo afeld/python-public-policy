@@ -7,11 +7,10 @@
 ## Loading the notebooks locally
 
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-1. [Install conda-lock.](https://conda-incubator.github.io/conda-lock/getting_started/)
 1. Create the environment, replacing `ENV` with `linux`, `osx`, or `win`:
 
    ```sh
-   conda create --name python-public-policy --file extras/conda-ENV-64.lock
+   mamba env create --file environment.yml
    ```
 
 1. Activate the environment:
@@ -39,7 +38,7 @@
 1. Update other environment(s) (e.g. JupyterHub)
 
    ```sh
-   mamba install --name python-public-policy --file conda-linux-64.lock --prune
+   mamba env update --file environment.yml --prune
    ```
 
 ## Slides
