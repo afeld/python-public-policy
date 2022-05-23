@@ -16,6 +16,7 @@ external_toc_exclude_missing = True
 external_toc_path = '_toc.yml'
 html_baseurl = ''
 html_favicon = ''
+html_js_files = ['https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js']
 html_logo = ''
 html_show_copyright = False
 html_sourcelink_suffix = ''
