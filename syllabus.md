@@ -6,7 +6,7 @@
 
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - Grader: Yuzhen Wang, yw4891@nyu.edu
-- Office Hours: Wednesdays 5:30-6pm ET [on Zoom](https://nyu.zoom.us/j/93290937941?pwd=OTNsSDg4bzFJYXZxV1kvWEFpM2Z4dz09), and by appointment
+- Office Hours: Wednesdays 5:30-6pm ET on Zoom, and by appointment
 
 ## Course Information
 
