@@ -3,3 +3,10 @@
   max-width: 100%;
   overflow-x: scroll;
 }
+
+.cell_output .output.stream,
+.cell_output .output.text_plain {
+  /* keep outputs from being too long */
+  max-height: 20rem;
+  overflow-y: scroll;
+}
