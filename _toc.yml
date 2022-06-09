@@ -4,20 +4,26 @@ chapters:
   - file: syllabus
     title: Syllabus
   - file: lecture_0
-  - file: hw_0
+    sections:
+      - file: hw_0
   - file: lecture_1
-  - file: hw_1
+    sections:
+      - file: hw_1
   - file: lecture_2
-  - file: hw_2
+    sections:
+      - file: hw_2
   - file: lecture_3
-  - file: hw_3
+    sections:
+      - file: hw_3
   - file: lecture_4
-  - file: hw_4
+    sections:
+      - file: hw_4
   - file: lecture_5
-  - file: hw_5
-  - file: lecture_6
+    sections:
+      - file: hw_5
   - file: hw_6
     sections:
       - file: hw_6/creepy_crawly.ipynb
       - file: hw_6/lead.ipynb
       - file: hw_6/universities.ipynb
+  - file: lecture_6
