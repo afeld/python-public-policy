@@ -17,3 +17,7 @@ chapters:
   - file: hw_5
   - file: lecture_6
   - file: hw_6
+    sections:
+      - file: hw_6/sara-jean_redfield.ipynb
+      - file: hw_6/sarina_noone.ipynb
+      - file: hw_6/tara_merigan.ipynb
