@@ -1,0 +1,5 @@
+.cell_output .output {
+  /* keep page from scrolling horizontally */
+  max-width: 100%;
+  overflow-x: scroll;
+}
