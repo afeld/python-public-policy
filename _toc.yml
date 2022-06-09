@@ -18,6 +18,6 @@ chapters:
   - file: lecture_6
   - file: hw_6
     sections:
-      - file: hw_6/sara-jean_redfield.ipynb
-      - file: hw_6/sarina_noone.ipynb
-      - file: hw_6/tara_merigan.ipynb
+      - file: hw_6/creepy_crawly.ipynb
+      - file: hw_6/lead.ipynb
+      - file: hw_6/universities.ipynb
