@@ -19,9 +19,10 @@ dependencies:
   # https://plotly.com/python/static-image-export/
   - python-kaleido
   # CI
-  - jupyter-book
   - nbconvert
   - nbdime
   - pytest
   # other
+  # this needs to stay in sync with docs/environment.yml
+  - jupyter-book=0.13.1
   - requests
