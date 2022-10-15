@@ -22,6 +22,7 @@ repository:
   branch: main
 launch_buttons:
   binderhub_url: ""
+  # this gets overridden; see _static/site.js
   jupyterhub_url: https://padmgp-4506-spring.rcnyu.org
 sphinx:
   config:
