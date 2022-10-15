@@ -63,13 +63,13 @@ Students will learn how to:
 | [5][l5] | 4/28 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
 | [6][l6] | 5/5  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/15 |
 
-[l0]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_0.ipynb
-[l1]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb
-[l2]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_2.ipynb
-[l3]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_3.ipynb
-[l4]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_4.ipynb
-[l5]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_5.ipynb
-[l6]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/lecture_6.ipynb
+[l0]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_0.ipynb
+[l1]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb
+[l2]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_2.ipynb
+[l3]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_3.ipynb
+[l4]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_4.ipynb
+[l5]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_5.ipynb
+[l6]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_6.ipynb
 [survey]: https://docs.google.com/forms/d/e/1FAIpQLSer3OQfZoOp9hBlrf7PhWOf7xlnDOYcn0OwlsArcL0PDLRnKA/viewform?usp=sf_link
 
 ## Communications
@@ -100,13 +100,13 @@ The Course Grade is based on the following:
   - [HW6][hw6]: 18%
 - [Between-Class Participation](#participation): 5%
 
-[hw0]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_0.ipynb
-[hw1]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_1.ipynb
-[hw2]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_2.ipynb
-[hw3]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_3.ipynb
-[hw4]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_4.ipynb
-[hw5]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_5.ipynb
-[hw6]: https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/hw_6.ipynb
+[hw0]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_0.ipynb
+[hw1]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_1.ipynb
+[hw2]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_2.ipynb
+[hw3]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_3.ipynb
+[hw4]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_4.ipynb
+[hw5]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_5.ipynb
+[hw6]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_6.ipynb
 
 ### Assignments
 

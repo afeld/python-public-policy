@@ -23,7 +23,7 @@ repository:
 launch_buttons:
   binderhub_url: ""
   # this gets overridden; see _static/site.js
-  jupyterhub_url: https://padmgp-4506-spring.rcnyu.org
+  jupyterhub_url: https://padmgp-4506001-fall.rcnyu.org
 sphinx:
   config:
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly

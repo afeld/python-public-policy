@@ -7,6 +7,6 @@ window.addEventListener("load", () => {
     // it's a page generated from a notebook
 
     const nbName = window.location.pathname.match(/\/(\w+)\.html/)[1];
-    launcher.href = `https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/${nbName}.ipynb`;
+    launcher.href = `https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/${nbName}.ipynb`;
   }
 });
