@@ -1,18 +1,19 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Spring 2022
+# Python Coding for Public Policy - Fall 2022
 
 ## Instructor Information
 
 - Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- Grader: Yuzhen Wang, yw4891@nyu.edu
-- Office Hours: Wednesdays 5:30-6pm ET on Zoom, and by appointment
+- Grader: Tara Merigan, tsm6919@nyu.edu
+- Office Hours: TBD on Zoom, and by appointment
 
 ## Course Information
 
 - Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Thursdays, 3/24-5/5 6:45-8:25pm ET
-- Class Location: [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 379
+- Class Meeting Times: Wednesdays, 10/26-12/14 6:45-8:25pm ET
+  - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
+- Class Location: [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
 - Prerequisites: None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -53,15 +54,15 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date | Topics                                            | Homework                                                               |
-| ------- | ---- | ------------------------------------------------- | ---------------------------------------------------------------------- |
-| [0][l0] | 3/24 | Intro to coding                                   | [Survey][survey] due, [HW0][hw0] assigned                              |
-| [1][l1] | 3/31 | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                    |
-| [2][l2] | 4/7  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                    |
-| [3][l3] | 4/14 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                    |
-| [4][l4] | 4/21 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                    |
-| [5][l5] | 4/28 | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
-| [6][l6] | 5/5  | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/15 |
+| Lecture | Date  | Topics                                            | Homework                                                               |
+| ------- | ----- | ------------------------------------------------- | ---------------------------------------------------------------------- |
+| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due, [HW0][hw0] assigned                               |
+| [1][l1] | 11/2  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                    |
+| [2][l2] | 11/9  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                    |
+| [3][l3] | 11/16 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                    |
+| [4][l4] | 11/30 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                    |
+| [5][l5] | 12/7  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
+| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/15 |
 
 [l0]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_0.ipynb
 [l1]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb
@@ -70,7 +71,6 @@ Students will learn how to:
 [l4]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_4.ipynb
 [l5]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_5.ipynb
 [l6]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_6.ipynb
-[survey]: https://docs.google.com/forms/d/e/1FAIpQLSer3OQfZoOp9hBlrf7PhWOf7xlnDOYcn0OwlsArcL0PDLRnKA/viewform?usp=sf_link
 
 ## Communications
 
