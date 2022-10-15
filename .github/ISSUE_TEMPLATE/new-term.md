@@ -22,13 +22,14 @@ assignees: afeld
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] Update bookmarks in Chrome
-  - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/)
+  - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/) using `ours` mode
   - [ ] Update links from Assignments in Brightspace
   - [ ] Update links from Discussions in Brightspace
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#loading-the-notebooks-locally)
 - [ ] New Brightspace site
   - [ ] Import
+  - [ ] Simplify name
   - [ ] Clear Announcements
   - [ ] Add grader to Classlist
   - [ ] Create recurring Zoom
@@ -38,8 +39,9 @@ assignees: afeld
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Send welcome Announcement
     - [ ] In `pre-class TODOs` Assignment, link to new survey
+- [ ] [Set up Course Reserves](https://ares.library.nyu.edu/aresauth/ares.dll)
 - [ ] Send calendar invite
-  - [ ] [Create Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
+  - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] Find guest(s)
   - [ ] Get bio(s)
   - [ ] Update lecture 6
