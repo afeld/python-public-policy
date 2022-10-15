@@ -11,7 +11,7 @@ The materials are also available for public consumption. If you are _not_ part o
 ## Important links
 
 - [Syllabus](syllabus.md)
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/156784), which students will use for:
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/206261), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades

@@ -74,10 +74,10 @@ Students will learn how to:
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/156784).
+- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/206261).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/156784/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 - The classes will be streamed and recorded via Zoom on a best-effort basis.
@@ -136,7 +136,7 @@ Participation means:
 in either:
 
 - Office hours
-- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/156784/discussions/List)
+- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
 
