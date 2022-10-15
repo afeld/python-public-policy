@@ -11,11 +11,11 @@ The materials are also available for public consumption. If you are _not_ part o
 ## Important links
 
 - [Syllabus](syllabus.md)
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/156784), which students will use for:
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/206261), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
-- [JupyterHub](https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
+- [JupyterHub](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
 
@@ -43,7 +43,7 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 ### Tips
 
-- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506-spring.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy), but should keep any changes you make.
+- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy), but should keep any changes you make.
 - **Look at the Table of Contents** to get an overview. You can find the Table of Contents button in the sidebar.
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
@@ -62,7 +62,7 @@ All the lectures and assignment templates are in this repository, so you _could_
   - Shows in the top right of the notebook interface
   - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`
 - Make sure you aren't loading data sets you don't need.
-- Close kernels you aren't using from the [Running](https://padmgp-4506-spring.rcnyu.org/user-redirect/tree#running) page.
+- Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.
 
 If none of the above help, let the instructor know.
 
@@ -82,7 +82,7 @@ If none of the above help, let the instructor know.
 
 If you get a 500 error when trying to export the PDF, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506-spring.rcnyu.org/user-redirect/tree/shared/solutions/).
+After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 
 Note: In-class exercises will not be graded.
 

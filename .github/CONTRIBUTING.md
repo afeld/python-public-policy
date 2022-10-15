@@ -2,7 +2,7 @@
 
 - JupyterHub
   - [Settings](https://settings-spring.rcnyu.org/)
-  - [Instructor site](https://padmgp-4506-spring-instructor.rcnyu.org/)
+  - [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
 
 ## Adding/updating packages
 
