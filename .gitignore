@@ -3,6 +3,7 @@ _build/
 .ipynb_checkpoints/
 *.csv
 *.slides.html
+conf.py
 shared
 solutions
 tmp/
