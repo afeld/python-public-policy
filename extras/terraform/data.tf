@@ -1,5 +1,5 @@
 locals {
-  local_data_dir = "/Volumes/GoogleDrive/My Drive/wagner-python/data/"
+  local_data_dir = "/Users/afeld/Library/CloudStorage/GoogleDrive-alf9@nyu.edu/My Drive/wagner-python/data"
 
   # find all with
   #
