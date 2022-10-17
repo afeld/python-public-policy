@@ -1,7 +1,7 @@
 # Contributing
 
 - JupyterHub
-  - [Settings](https://settings-spring.rcnyu.org/)
+  - [Settings](https://settings-fall.rcnyu.org/)
   - [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
 
 ## Adding/updating packages
@@ -49,7 +49,7 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. Mute mic and speakers on computer
   1. Unmute mic on Zoom Classroom
   1. Start recording
-- [Set placeholders](https://settings-spring.rcnyu.org/)
+- [Set placeholders](https://settings-fall.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 
 ## Assignment checks
