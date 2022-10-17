@@ -1,22 +1,4 @@
-[![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
-
-# Python Coding for Public Policy - Fall 2022
-
-## Instructor Information
-
-- Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- Grader: Tara Merigan, tsm6919@nyu.edu
-- Office Hours: TBD on Zoom, and by appointment
-
-## Course Information
-
-- Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Wednesdays, 10/26-12/14 6:45-8:25pm ET
-  - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
-- Class Location: [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
-- Prerequisites: None
-- Students should bring a laptop to class
-  - A tablet without a full keyboard will be hard to use for in-class exercises
+# Python Coding for Public Policy
 
 ## Description
 
@@ -30,8 +12,6 @@ Class will be split between:
   - Play with the code from lectures
   - Start on the homework
   - Ask questions
-
-This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
 
 ## Homework
 
@@ -54,34 +34,33 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date  | Topics                                            | Homework                                                               |
-| ------- | ----- | ------------------------------------------------- | ---------------------------------------------------------------------- |
-| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due, [HW0][hw0] assigned                               |
-| [1][l1] | 11/2  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                    |
-| [2][l2] | 11/9  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                    |
-| [3][l3] | 11/16 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                    |
-| [4][l4] | 11/30 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                    |
-| [5][l5] | 12/7  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
-| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/15 |
+| Lecture | Topics                                            | Homework                                                               |
+| ------- | ------------------------------------------------- | ---------------------------------------------------------------------- |
+| [0][l0] | Intro to coding                                   | pre-class TODOs due, [HW0][hw0] assigned                               |
+| [1][l1] | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                    |
+| [2][l2] | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                    |
+| [3][l3] | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                    |
+| [4][l4] | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                    |
+| [5][l5] | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
+| [6][l6] | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/15 |
 
-[l0]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_0.ipynb
-[l1]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_1.ipynb
-[l2]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_2.ipynb
-[l3]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_3.ipynb
-[l4]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_4.ipynb
-[l5]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_5.ipynb
-[l6]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/lecture_6.ipynb
+[l0]: https://python-public-policy.afeld.me/en/latest/lecture_0.html
+[l1]: https://python-public-policy.afeld.me/en/latest/lecture_1.html
+[l2]: https://python-public-policy.afeld.me/en/latest/lecture_2.html
+[l3]: https://python-public-policy.afeld.me/en/latest/lecture_3.html
+[l4]: https://python-public-policy.afeld.me/en/latest/lecture_4.html
+[l5]: https://python-public-policy.afeld.me/en/latest/lecture_5.html
+[l6]: https://python-public-policy.afeld.me/en/latest/lecture_6.html
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/206261).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through the Forum so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 - The classes will be streamed and recorded via Zoom on a best-effort basis.
-  - Find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`.
+  - Recordings will be made available.
   - The instructor won't interact with any Zoom participants.
   - Office hours will not be recorded.
 
@@ -100,13 +79,13 @@ The Course Grade is based on the following:
   - [HW6][hw6]: 18%
 - [Between-Class Participation](#participation): 5%
 
-[hw0]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_0.ipynb
-[hw1]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_1.ipynb
-[hw2]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_2.ipynb
-[hw3]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_3.ipynb
-[hw4]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_4.ipynb
-[hw5]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_5.ipynb
-[hw6]: https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/hw_6.ipynb
+[hw0]: https://python-public-policy.afeld.me/en/latest/hw_0.html
+[hw1]: https://python-public-policy.afeld.me/en/latest/hw_1.html
+[hw2]: https://python-public-policy.afeld.me/en/latest/hw_2.html
+[hw3]: https://python-public-policy.afeld.me/en/latest/hw_3.html
+[hw4]: https://python-public-policy.afeld.me/en/latest/hw_4.html
+[hw5]: https://python-public-policy.afeld.me/en/latest/hw_5.html
+[hw6]: https://python-public-policy.afeld.me/en/latest/hw_6.html
 
 ### Assignments
 
@@ -118,9 +97,7 @@ In general, assignments are due Wednesdays at 6:45pm (the start of class). Scori
 - Visualizations incomplete, e.g. missing meaningful title/labels: -0.1 points
 - Unattempted Steps: -0.4 points
 
-If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.vanderbilt.edu/brightspace/using-the-annotation-tool/).
-
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in Brightspace), and can be resubmitted through Brightspace.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments).
 
 Requests for extensions will only be considered if made before the deadline.
 
@@ -136,9 +113,8 @@ Participation means:
 in either:
 
 - Office hours
-- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
+- The Forum
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
 
 The following don't count towards the Between-Class Participation score:
 
@@ -173,21 +149,3 @@ A student may work with other students. However, solutions should not be identic
 All submissions must be made from a Jupyter notebook file, following [these instructions](https://github.com/afeld/python-public-policy#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
-
-### Academic Integrity
-
-Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by Wagner's Academic Code. All Wagner students have already read and signed the Wagner Academic Oath. Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
-
-### NYU's Calendar Policy on Religious Holidays
-
-NYU's [Calendar Policy on Religious Holidays](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/university-calendar-policy-on-religious-holidays.html) states that members of any religious group may, without penalty, absent themselves from classes when required in compliance with their religious obligations. Please notify me in advance of religious holidays that might coincide with exams to schedule mutually acceptable alternatives.
-
-## Accessibility
-
-Academic accommodations are available for students with disabilities. Please visit the [Moses Center for Student Accessibility](https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html) website and click on the Reasonable Accommodations and How to Register tab or call or email CSD at (212-998-4980 or mosescsd@nyu.edu) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
-
-## Technology Support
-
-You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides. Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance. Your peers are another source of support, so you could ask a friend or classmate for help or tips.
-
-If you do not have the appropriate hardware technology nor financial resources to purchase the technology, consider applying for the NYU [Emergency Relief Grant](https://www.nyu.edu/admissions/financial-aid-and-scholarships/covid-relief-grant.html).
