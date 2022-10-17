@@ -2,25 +2,26 @@
 
 # Python Coding for Public Policy - Fall 2022
 
-## Instructor Information
-
-- Professor: [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- Grader: Tara Merigan, tsm6919@nyu.edu
-- Office Hours: TBD on Zoom, and by appointment
-
 ## Course Information
 
-- Course Number: [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- Class Meeting Times: Wednesdays, 10/26-12/14 6:45-8:25pm ET
+- **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
+- **Course site:** [python-public-policy.afeld.me](https://python-public-policy.afeld.me/)
+- **Class Meeting Times:** Wednesdays, 10/26-12/14 6:45-8:25pm ET
   - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
-- Class Location: [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
-- Prerequisites: None
+- **Class Location:** [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
+- **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
 
+## Instructor Information
+
+- **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
+- **Grader:** Tara Merigan, tsm6919@nyu.edu
+- **Office Hours:** TBD on Zoom, and by appointment
+
 ## Description
 
-This 7-week mini course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
+This seven-week mini course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
 
 Class will be split between:
 
@@ -37,8 +38,8 @@ This class is a prerequisite for [Advanced Data Analytics and Evidence Building]
 
 Homework assignments will consist of two different formats:
 
-1. Online tutorials: In advance of classes, online tutorials will be assigned as homework. These online tutorials will introduce students to critical Python concepts. The following lecture will then focus on applying those concepts to real public policy data questions.
-1. Data exploration, analysis, and visualization: Students will complete Python coding exercises that apply new concepts they have learned in lecture. Coding assignments will build off of concepts covered in previous assignments.
+1. **Online tutorials:** In advance of classes, online tutorials will be assigned as homework. These online tutorials will introduce students to critical Python concepts. The following lecture will then focus on applying those concepts to real public policy data questions.
+1. **Data exploration, analysis, and visualization:** Students will complete Python coding exercises that apply new concepts they have learned in lecture. Coding assignments will build off of concepts covered in previous assignments.
 
 ## Learning Objectives
 
@@ -89,7 +90,7 @@ Students will learn how to:
 
 The Course Grade is based on the following:
 
-- 7 [Assignments](#assignments): 95%
+- Seven [Assignments](#assignments): 95%
   - [HW0][hw0]: 13%
   - [HW1][hw1]: 13%
   - [HW2][hw2]: 13%
@@ -112,11 +113,11 @@ The Course Grade is based on the following:
 
 In general, assignments are due Wednesdays at 6:45pm (the start of class). Scoring:
 
-- Late work: -0.5 points per day
-- Syntax errors: -0.5 points
-- Incomplete Steps / Steps with logic errors: -0.1 to -0.2 points
-- Visualizations incomplete, e.g. missing meaningful title/labels: -0.1 points
-- Unattempted Steps: -0.4 points
+- **Late work:** -0.5 points per day
+- **Syntax errors:** -0.5 points
+- **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
+- **Visualizations incomplete, e.g. missing meaningful title/labels:** -0.1 points
+- **Unattempted Steps:** -0.4 points
 
 If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.vanderbilt.edu/brightspace/using-the-annotation-tool/).
 
