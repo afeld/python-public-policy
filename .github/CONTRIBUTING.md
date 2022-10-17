@@ -57,16 +57,12 @@ To ensure that notebooks have the correct execution order and output, run them n
 The following should be true for each assignment:
 
 - Links to the [instructions to submit](../README.md#turning-in-assignments)
-- `Add honor Pledge` box for each is unchecked
 - Dates are correct:
-  - `Open Date`s are Thursdays at 6:45pm ET, week by week
-  - `Due Date`s should match the [schedule](syllabus.md#schedule): subsequent Thursdays 6:45pm, week by week
-  - `Accept Until` date should be the Sundays at 6:45pm following the `Due Date`
+  - `Due Date`s should match the [schedule](../syllabus.md#schedule): subsequent Wednesdays 6:45pm, week by week
+  - `End Date` should be the Sundays at 6:45pm following the `Due Date`
     - Exception is HW6, which can't be turned in late
-  - `Resubmission Accept Until` should be the Thursday at 6:45pm following the `Due Date`
-    - Exception is HW6, which doesn't allow resubmission
 - Associated with the `Homework` `gradebook category`
-- Each Assignment has been Posted
+- Each Assignment is Visible
 
 ## Homework extensions
 
@@ -78,4 +74,4 @@ The following should be true for each assignment:
 
 ## Data sets
 
-Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then compressed and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data) via [Terraform](terraform/). [Descriptions of the data sets.](terraform/data.tf)
+Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then compressed and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data) via [Terraform](../extras/terraform/). [Descriptions of the data sets.](../extras/terraform/data.tf)

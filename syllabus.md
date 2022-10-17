@@ -110,7 +110,7 @@ The Course Grade is based on the following:
 
 ### Assignments
 
-In general, assignments are due Thursdays at 6:45pm (the start of class). Scoring:
+In general, assignments are due Wednesdays at 6:45pm (the start of class). Scoring:
 
 - Late work: -0.5 points per day
 - Syntax errors: -0.5 points
