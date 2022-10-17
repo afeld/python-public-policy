@@ -3,6 +3,10 @@ root: README
 chapters:
   - file: syllabus
     title: Syllabus
+  - url: https://brightspace.nyu.edu/d2l/home/206261
+    title: Brightspace
+  - url: https://padmgp-4506001-fall.rcnyu.org/
+    title: JupyterHub
   - file: lecture_0
     sections:
       - file: hw_0
