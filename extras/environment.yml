@@ -26,3 +26,5 @@ dependencies:
   # this needs to stay in sync with docs/environment.yml
   - jupyter-book=0.13.1
   - requests
+  - pip:
+      - otter-grader
