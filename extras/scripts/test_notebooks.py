@@ -12,9 +12,7 @@ def check_metadata(notebook, file, expected_kernel):
 
     if "colab" in metadata:
         colab_name = metadata["colab"]["name"]
-        assert (
-            colab_name == file
-        ), f"Name in metadata doesn't match filename for {file}."
+        assert colab_name == file, f"Name in metadata doesn't match filename for {file}."
 
 
 def check_file(file, expected_kernel="Python [conda env:python-public-policy] *"):
@@ -59,10 +57,10 @@ def test_heading_levels(file):
     for cell in notebook.cells:
         meta = cell.metadata
         source = cell.source
-        if is_markdown(cell) and 'slideshow' in meta and source.startswith("#"):
+        if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
             # slide with a heading
-            slide_type = meta['slideshow']['slide_type']
-            if slide_type == 'slide':
+            slide_type = meta["slideshow"]["slide_type"]
+            if slide_type == "slide":
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"
-            elif slide_type == 'subslide':
+            elif slide_type == "subslide":
                 assert source.startswith("###"), "should be H3+"

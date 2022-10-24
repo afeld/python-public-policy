@@ -33,9 +33,7 @@ def test_includes_link_missing():
 
 
 def test_includes_link_markdown():
-    cells = [
-        nbformat.from_dict({"cell_type": "markdown", "source": "https://google.com"})
-    ]
+    cells = [nbformat.from_dict({"cell_type": "markdown", "source": "https://google.com"})]
 
     assert includes_link(cells)
 
@@ -46,7 +44,5 @@ def test_includes_link_code_only():
 
 
 def test_includes_link_code_comment():
-    cells = [
-        nbformat.from_dict({"cell_type": "code", "source": "# https://google.com"})
-    ]
+    cells = [nbformat.from_dict({"cell_type": "code", "source": "# https://google.com"})]
     assert includes_link(cells)

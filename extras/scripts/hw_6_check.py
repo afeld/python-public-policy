@@ -51,10 +51,7 @@ class MethodChecker(ast.NodeVisitor):
     def visit_Call(self, node):
         if isinstance(node.func, ast.Attribute) and (
             node.func.attr == self.method
-            or (
-                isinstance(node.func.value, ast.Attribute)
-                and node.func.value.attr == self.method
-            )
+            or (isinstance(node.func.value, ast.Attribute) and node.func.value.attr == self.method)
         ):
             self.is_present = True
 
@@ -87,9 +84,7 @@ def get_cmd_output(cmd, input=None, shell=False):
 
 
 def lines_of_code(code):
-    output = get_cmd_output(
-        "cloc --stdin-name=script.py --json -", input=code, shell=True
-    )
+    output = get_cmd_output("cloc --stdin-name=script.py --json -", input=code, shell=True)
     data = json.loads(output)
     return data["SUM"]["code"]
 
@@ -141,9 +136,7 @@ def has_plotting(script):
     method_checker = MethodChecker("plot")
     method_checker.visit(tree)
 
-    return (
-        has_overlap(VIZ_PACKAGES, imports_checker.packages) or method_checker.is_present
-    )
+    return has_overlap(VIZ_PACKAGES, imports_checker.packages) or method_checker.is_present
 
 
 # https://stackoverflow.com/a/287944/358804

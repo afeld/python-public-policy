@@ -42,9 +42,7 @@ def get_document(id):
     return attrs
 
 
-print(
-    f"Reading comments from https://beta.regulations.gov/document/{DOCKET_ID}/comment ..."
-)
+print(f"Reading comments from https://beta.regulations.gov/document/{DOCKET_ID}/comment ...")
 
 docket = get_document(DOCKET_ID)
 docket_obj_id = docket["objectId"]
