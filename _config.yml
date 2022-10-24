@@ -5,6 +5,8 @@
 title: Python Coding for Public Policy
 author: Aidan Feldman
 only_build_toc_files: true
+exclude_patterns:
+  - .github/*
 execute:
   execute_notebooks: "off"
 html:
