@@ -12,6 +12,7 @@
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
+  - [NYU offers loaners](https://library.nyu.edu/services/computing/on-campus/laptop-loans/)
 
 ## Instructor Information
 
