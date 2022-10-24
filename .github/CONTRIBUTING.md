@@ -26,7 +26,7 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 
 ## Site
 
-The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Build locally with:
+The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). The files and folders that start with an underscore (`_`) are related to JupyterBook. Build locally with:
 
 ```sh
 jupyter-book build .
