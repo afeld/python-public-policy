@@ -56,15 +56,15 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date  | Topics                                            | Homework                                                               |
-| ------- | ----- | ------------------------------------------------- | ---------------------------------------------------------------------- |
-| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due, [HW0][hw0] assigned                               |
-| [1][l1] | 11/2  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                    |
-| [2][l2] | 11/9  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                    |
-| [3][l3] | 11/16 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                    |
-| [4][l4] | 11/30 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                    |
-| [5][l5] | 12/7  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                    |
-| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 5/15 |
+| Lecture | Date  | Topics                                            | Homework                                                                |
+| ------- | ----- | ------------------------------------------------- | ----------------------------------------------------------------------- |
+| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due, [HW0][hw0] assigned                                |
+| [1][l1] | 11/2  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                     |
+| [2][l2] | 11/9  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                     |
+| [3][l3] | 11/16 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                     |
+| [4][l4] | 11/30 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                     |
+| [5][l5] | 12/7  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                     |
+| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 12/21 |
 
 [l0]: https://python-public-policy.afeld.me/en/latest/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/latest/lecture_1.html
