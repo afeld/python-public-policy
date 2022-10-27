@@ -18,7 +18,7 @@
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - **Grader:** Tara Merigan, tsm6919@nyu.edu
-- **Office Hours:** TBD on Zoom, and by appointment
+- **Office Hours:** Mondays at 5:30pm ET on Zoom, and by appointment
 
 ## Description
 
@@ -132,7 +132,6 @@ Participation means:
 
 - Asking a question
 - Answering a question
-- Volunteering to demonstrate
 - Posting a useful/interesting resource
 
 in either:
