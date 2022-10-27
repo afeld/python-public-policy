@@ -1,6 +1,8 @@
 format: jb-book
-root: README
+root: index
 chapters:
+  - file: README
+    title: Homepage
   - file: syllabus
     title: Syllabus
   - url: https://brightspace.nyu.edu/d2l/home/206261
