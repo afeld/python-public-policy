@@ -64,3 +64,28 @@ def test_heading_levels(file):
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"
             elif slide_type == "subslide":
                 assert source.startswith("###"), "should be H3+"
+
+
+def get_output_lines(cell):
+    if cell.cell_type == "code":
+        outputs = cell.outputs
+        if outputs:
+            output = outputs[0]
+            # TODO handle stream
+            if "data" in output:
+                lines = output["data"]["text/plain"]
+                return lines.splitlines()
+
+    return []
+
+
+@pytest.mark.parametrize("file", all_notebooks)
+def test_scroll_long_output(file):
+    notebook = read_notebook(file)
+    for cell in notebook.cells:
+        output_lines = get_output_lines(cell)
+        if len(output_lines) > 30:
+            meta = cell.metadata
+            msg = f"output is too long for input:\n\n{cell.source}\n"
+            assert "scrolled" in meta, msg
+            assert meta["scrolled"], msg
