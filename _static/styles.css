@@ -4,9 +4,12 @@
   overflow-x: scroll;
 }
 
-.cell_output .output.stream,
-.cell_output .output.text_plain {
-  /* keep outputs from being too long */
+/* keep outputs from being too long */
+.cell_output .output {
   max-height: 20rem;
   overflow-y: scroll;
+}
+/* for HTML outputs, go a bit longer, since this includes things like visualizations */
+.cell_output .output.text_html {
+  max-height: 35rem;
 }
