@@ -13,3 +13,12 @@
 .cell_output .output.text_html {
   max-height: 35rem;
 }
+
+#data-shortener-widget #download {
+  color: white;
+}
+
+#data-shortener-widget .warning {
+  /* hide by default */
+  display: none;
+}

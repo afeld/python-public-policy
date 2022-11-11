@@ -1,7 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("url").addEventListener("input", (event) => {
-    const inputText = event.target.value;
-    const outputEl = document.getElementById("url-result");
+$(() => {
+  const inputEl = $("#url");
+  const warningEl = $("#data-shortener-widget .warning");
+  const downloadEl = $("#download");
+
+  // https://getbootstrap.com/docs/4.0/components/buttons/#active-state
+  const activeClasses = "active btn-primary";
+  const disabledClasses = "disabled btn-secondary";
+
+  inputEl.on("input", () => {
+    const inputText = inputEl.val();
 
     // https://support.socrata.com/hc/en-us/articles/202950258-What-is-a-Dataset-UID-or-a-Dataset-4x4-
     const matches = inputText.match(
@@ -10,15 +17,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (matches) {
       // appears to be a Socrata URL
+
       const uid = matches[1];
       const inputUrl = new URL(inputText);
       const numRows = 10000;
       const newUrl = `https://${inputUrl.hostname}/resource/${uid}.csv?$limit=${numRows}`;
 
-      const msg = `Download first ${numRows.toLocaleString()} rows`;
-      outputEl.innerHTML = `<a href="${newUrl}" class="btn btn-primary active" target="_blank">${msg}</a>`;
+      downloadEl.attr("href", newUrl);
+      downloadEl
+        .addClass(activeClasses)
+        .removeClass(disabledClasses)
+        .removeAttr("aria-disabled");
+
+      warningEl.hide();
     } else {
-      outputEl.innerHTML = "<em>Doesn't appear to be a valid dataset URL</em>";
+      downloadEl.attr("href", "");
+      downloadEl
+        .addClass(disabledClasses)
+        .removeClass(activeClasses)
+        .attr("aria-disabled", "true");
+
+      warningEl.show();
     }
   });
 });

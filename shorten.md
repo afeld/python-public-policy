@@ -7,5 +7,13 @@ _It actually works with any dataset from open data portals built on [Socrata](ht
 <p>
   <input id="url" placeholder="https://data.cityofnewyork.us/..." style="width: 100%">
 </p>
-<p id="url-result"></p>
+
+```{warning}
+Doesn't appear to be a valid dataset URL
+```
+
+<p>
+  <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
+  <a href="" id="download" class="btn btn-secondary disabled" target="_blank" role="button" aria-disabled="true">Download first 10,000 rows</a>
+</p>
 <script src="_static/shorten.js"/>
