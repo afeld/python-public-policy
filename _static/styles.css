@@ -17,8 +17,3 @@
 #data-shortener-widget #download {
   color: white;
 }
-
-#data-shortener-widget .warning {
-  /* hide by default */
-  display: none;
-}

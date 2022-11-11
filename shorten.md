@@ -3,15 +3,16 @@
 Paste in the URL of [a tabular dataset from the NYC Open Data Portal](https://data.cityofnewyork.us/browse?limitTo=datasets).
 
 <p>
-  <input id="url" placeholder="https://data.cityofnewyork.us/..." style="width: 100%">
-  <label for="count">Max rows to download:</label>
-  <input type="number" name="count" value="10000" required>
+  <form>
+    <div class="form-group">
+      <input id="url" placeholder="https://data.cityofnewyork.us/..." pattern="https://.*/[A-Za-z0-9]{4}-[A-Za-z0-9]{4}\b" style="width: 100%">
+    </div>
+    <div class="form-group">
+      <label for="count">Max rows to download:</label>
+      <input type="number" name="count" value="10000" required>
+    </div>
+  </form>
 </p>
-
-```{warning}
-Doesn't appear to be a valid dataset URL
-```
-
 <p>
   <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
   <a href="" id="download" class="btn btn-secondary disabled" target="_blank" role="button" aria-disabled="true">Download</a>
