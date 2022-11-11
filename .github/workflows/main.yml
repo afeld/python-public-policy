@@ -11,20 +11,15 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
 
-  setup:
-    # https://docs.github.com/en/actions/using-workflows/reusing-workflows
-    uses: ./.github/workflows/setup.yml
+  # https://docs.github.com/en/actions/using-workflows/reusing-workflows
 
   test:
-    runs-on: ubuntu-latest
-    needs: setup
-    steps:
-      - name: Run tests
-        run: pytest
+    uses: ./.github/workflows/setup.yml
+    with:
+      message: Run tests
+      command: pytest
 
   run_notebook:
-    runs-on: ubuntu-latest
-    needs: setup
     strategy:
       fail-fast: false
       matrix:
@@ -44,6 +39,7 @@ jobs:
           - lecture_5.ipynb
           - lecture_6.ipynb
           - extras/pandas_crash_course.ipynb
-    steps:
-      - name: Confirm notebook hasn't changed
-        run: ./extras/scripts/check_change.sh ${{ matrix.notebook }}
+    uses: ./.github/workflows/setup.yml
+    with:
+      message:
+      command: ./extras/scripts/check_change.sh ${{ matrix.notebook }}
