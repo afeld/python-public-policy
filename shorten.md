@@ -5,7 +5,7 @@ Paste in the URL of [a tabular dataset from the NYC Open Data Portal](https://da
 <p>
   <form>
     <div class="form-group">
-      <input id="url" placeholder="https://data.cityofnewyork.us/..." pattern="https://.*/[A-Za-z0-9]{4}-[A-Za-z0-9]{4}\b" style="width: 100%">
+      <input id="url" placeholder="https://data.cityofnewyork.us/..." style="width: 100%">
     </div>
     <div class="form-group">
       <label for="count">Max rows to download:</label>
