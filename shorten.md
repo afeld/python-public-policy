@@ -8,4 +8,4 @@ _It actually works with any dataset from open data portals built on [Socrata](ht
   <input id="url" placeholder="https://data.cityofnewyork.us/..." style="width: 100%">
 </p>
 <p id="url-result"></p>
-<script src="shorten.js"/>
+<script src="_static/shorten.js"/>
