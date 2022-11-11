@@ -1,5 +1,6 @@
 $(() => {
   const inputEl = $("#url");
+  const countEl = $('input[name="count"]');
   const warningEl = $("#data-shortener-widget .warning");
   const downloadEl = $("#download");
 
@@ -7,7 +8,7 @@ $(() => {
   const activeClasses = "active btn-primary";
   const disabledClasses = "disabled btn-secondary";
 
-  inputEl.on("input", () => {
+  const updateDownload = () => {
     const inputText = inputEl.val();
 
     // https://support.socrata.com/hc/en-us/articles/202950258-What-is-a-Dataset-UID-or-a-Dataset-4x4-
@@ -20,7 +21,7 @@ $(() => {
 
       const uid = matches[1];
       const inputUrl = new URL(inputText);
-      const numRows = 10000;
+      const numRows = countEl.val();
       const newUrl = `https://${inputUrl.hostname}/resource/${uid}.csv?$limit=${numRows}`;
 
       downloadEl.attr("href", newUrl);
@@ -39,5 +40,9 @@ $(() => {
 
       warningEl.show();
     }
-  });
+  };
+
+  inputEl.on("input", updateDownload);
+  countEl.on("input", updateDownload);
+  updateDownload();
 });
