@@ -17,6 +17,7 @@ chapters:
       - file: hw_1
   - file: lecture_2
     sections:
+      - file: shorten
       - file: hw_2
   - file: lecture_3
     sections:
