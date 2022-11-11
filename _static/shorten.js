@@ -7,7 +7,9 @@ $(() => {
   const activeClasses = "active btn-primary";
   const disabledClasses = "disabled btn-secondary";
 
-  const urlPattern = RegExp("^https://.*/([A-Za-z0-9]{4}-[A-Za-z0-9]{4})\\b.*");
+  const urlPattern = RegExp(
+    "^https://.*/([A-Za-z0-9]{4}-[A-Za-z0-9]{4})([\\/\\?#].*)?"
+  );
 
   const enableDownload = (url) => {
     downloadEl
