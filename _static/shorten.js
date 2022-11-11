@@ -42,6 +42,8 @@ $(() => {
     }
   };
 
+  // remove escaping that's unnecessary for HTML
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source#description
   const htmlPattern = urlPattern.source.replace(/\\\//g, "/");
   inputEl.attr("pattern", htmlPattern);
 
