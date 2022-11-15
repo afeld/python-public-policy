@@ -1,17 +1,17 @@
 .cell_output .output {
   /* keep page from scrolling horizontally */
   max-width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 /* keep outputs from being too long */
 .cell_output .output {
   max-height: 20rem;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 /* for HTML outputs, go a bit longer, since this includes things like visualizations */
 .cell_output .output.text_html {
-  max-height: 35rem;
+  max-height: 40rem;
 }
 
 #data-shortener-widget #download {
