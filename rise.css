@@ -24,3 +24,8 @@
 .reveal table td {
   padding: 0.4em 0.5em;
 }
+
+/* make maps fit */
+.reveal .output_subarea.rendered_html {
+  max-height: 62rem;
+}
