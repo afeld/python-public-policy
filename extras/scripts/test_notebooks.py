@@ -64,3 +64,21 @@ def test_heading_levels(file):
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"
             elif slide_type == "subslide":
                 assert source.startswith("###"), "should be H3+"
+
+
+hw_notebooks = glob.glob("hw_*.ipynb")
+
+
+@pytest.mark.parametrize("file", hw_notebooks)
+def test_reminders(file):
+    notebook = read_notebook(file)
+
+    if file != "hw_6.ipynb":
+        assert any(
+            "#turning-in-assignments" in cell.source for cell in notebook.cells
+        ), "Missing assignment submission instructions"
+
+    if file not in ["hw_0.ipynb", "hw_6.ipynb"]:
+        assert any(
+            "participation" in cell.source for cell in notebook.cells
+        ), "Missing participation reminder"
