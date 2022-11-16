@@ -166,6 +166,12 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 > Everything controllable by the professor was fantastic. The objectives were straightforward and value-added. The professor helped make sure that we were coming away from assignments with real tangible understanding of the code rather than focusing on completion. I was challenged, but the professor was always around to answer questions.
 
+---
+
+From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
+
+> Though I've only been in Python class for less than a month, I've already learned so much that has empowered me beyond the classroom. Since I was an intern in 2017, the office of Congresswoman Kathleen Rice (formerly D4-NY) has contacted me annually to judge submissions for the "Congressional App Challenge". This challenge invites high school students to create apps and showcase their coding skills. Historically, I've graded these as an outsider with very little understanding for coding languages like Python (they knew that by the way!). However, this year is different. I am grading the submissions from a brand new perspective that is empowering and definitely making me a better judge. I'm so excited to be learning a skill that has already shown to be fruitful in such an unexpected way!
+
 ## Running the notebooks locally
 
 Not recommended for people taking the class, unless looking for an extra challenge.
