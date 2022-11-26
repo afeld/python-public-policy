@@ -138,10 +138,10 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 - [Disco's machine learning content](https://www.heydisco.com/)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
-### NYU classes
+### NYU
 
-- [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building)
-- [Center for Urban Science + Progress](https://cusp.nyu.edu/masters-degree/curriculum/)
+- [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
+- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/curriculum/)
   - Applied Data Science
   - Machine Learning for Cities
 
