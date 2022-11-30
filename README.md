@@ -64,6 +64,10 @@ All the lectures and assignment templates are in this repository, so you _could_
 - Make sure you aren't loading data sets you don't need.
 - Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.
 
+#### Map issues
+
+- See [`choropleth_mapbox()` troubleshooting suggestions](lecture_3.html#troubleshooting)
+
 If none of the above help, let the instructor know.
 
 ### Turning in assignments
