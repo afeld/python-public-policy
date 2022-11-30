@@ -4,7 +4,8 @@ _build/
 *.csv
 *.slides.html
 conf.py
+data
 shared
 solutions
-tmp/
+tmp
 Untitled.ipynb
