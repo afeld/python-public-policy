@@ -1,6 +1,4 @@
-[![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
-
-# Python Coding for Public Policy - Fall 2022
+# Python Coding for Public Policy - Spring 2022
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/latest/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -16,11 +14,12 @@
 
 ## Course Information
 
-- **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
+- **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
 - **Course site:** [python-public-policy.afeld.me](https://python-public-policy.afeld.me/)
-- **Class Meeting Times:** Wednesdays, 10/26-12/14 6:45-8:25pm ET
-  - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
-- **Class Location:** [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
+- **Class Meeting Times:** Tuesdays 1/17-2/28
+  - Section 1: 9-10:50am
+  - Section 2: 11-12:50pm
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -29,9 +28,9 @@
 
 ## Instructor Information
 
-- **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** Tara Merigan, tsm6919@nyu.edu
-- **Office Hours:** Mondays at 5:30pm ET on Zoom, and by appointment
+- **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
+- **Grader:** to be determined
+- **Office Hours:** fixed time to be determined, and by appointment
 
 ## Description
 
@@ -45,8 +44,6 @@ Class will be split between:
   - Play with the code from lectures
   - Start on the homework
   - Ask questions
-
-This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
 
 ## Homework
 
@@ -69,16 +66,16 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date  | Topics                                            | Homework                                                                              |
-| ------- | ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due                                                                   |
-| [1][l1] | 11/2  | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
-| [2][l2] | 11/9  | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
-| [3][l3] | 11/16 | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
-| [4][l4] | 11/30 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
-| [5][l5] | 12/7  | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
-| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
-| none    | 12/21 | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
+| Lecture | Date | Topics                                            | Homework                                                                              |
+| ------- | ---- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [0][l0] | 1/17 | Intro to coding                                   | pre-class TODOs due                                                                   |
+| [1][l1] | 1/24 | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
+| [2][l2] | 1/31 | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
+| [3][l3] | 2/7  | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
+| [4][l4] | 2/14 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
+| [5][l5] | 2/21 | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
+| [6][l6] | 2/28 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
+| none    | 3/7  | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
 
 [l0]: https://python-public-policy.afeld.me/en/latest/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/latest/lecture_1.html
@@ -90,16 +87,15 @@ Students will learn how to:
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/206261).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through the Discussions in [CourseWorks](https://courseworks2.columbia.edu/), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
 ### Zoom
 
-The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom). You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
+The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the recordings in CourseWorks under `Zoom Class Sessions`. Note that the course is designed for the in-room experience, and therefore:
 
 - The instructor won't interact with any Zoom participants.
 - Office hours will not be recorded.
@@ -137,9 +133,9 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/latest/lecture_3.html#chart-hygiene) -0.1 points
 - **Unattempted Steps:** -0.4 points
 
-If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
+If the submission showed effort, feedback will be given.
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in Brightspace), and can be resubmitted through Brightspace.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class.
 
 Requests for extensions will only be considered if made before the deadline.
 
@@ -154,9 +150,8 @@ Participation means:
 in either:
 
 - Office hours
-- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
-  - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
+- The Discussions in CourseWorks
+  - When starting a new Discussion, please use a descriptive Topic Title to make them easier to navigate
 
 The following don't count towards the Between-Class Participation score:
 
@@ -195,21 +190,3 @@ Students are more than welcome to share approaches and code snippets in the Disc
 All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/latest/README.html#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
-
-### Academic Integrity
-
-Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by [Wagner's Academic Code](https://wagner.nyu.edu/portal/students/policies/code). All Wagner students have already read and signed the [Wagner Academic Oath](https://wagner.nyu.edu/portal/students/policies/academic-oath). Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
-
-### NYU's Calendar Policy on Religious Holidays
-
-[NYU's Calendar Policy on Religious Holidays](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/university-calendar-policy-on-religious-holidays.html) states that members of any religious group may, without penalty, absent themselves from classes when required in compliance with their religious obligations. Please notify me in advance of religious holidays that might coincide with exams to schedule mutually acceptable alternatives.
-
-## Accessibility
-
-Academic accommodations are available for students with disabilities. Please visit the [Moses Center for Student Accessibility](https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html) website and click on the Reasonable Accommodations and How to Register tab or call or email CSD at (212-998-4980 or mosescsd@nyu.edu) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
-
-## Technology Support
-
-You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides. Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance. Your peers are another source of support, so you could ask a friend or classmate for help or tips.
-
-If you do not have the appropriate hardware technology nor financial resources to purchase the technology, consider applying for the NYU [Emergency Relief Grant](https://www.nyu.edu/admissions/financial-aid-and-scholarships/covid-relief-grant.html).
