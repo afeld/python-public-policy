@@ -22,7 +22,7 @@
 
 ## Description
 
-This seven-week mini course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
+This seven-week course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
 
 Class will be split between:
 
@@ -50,8 +50,8 @@ Students will learn how to:
 - Have an understanding of Python fundamentals
   - Common data types
   - Functions
-  - How to read documentation
-  - How to troubleshoot
+  - Reading technical documentation
+  - Troubleshooting
 - Know how to use several Python packages for different kinds of data analysis, manipulation, and visualization
 
 ## Schedule
@@ -82,10 +82,13 @@ Students will learn how to:
 - Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
-- The classes will be streamed and recorded via Zoom on a best-effort basis.
-  - Find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`.
-  - The instructor won't interact with any Zoom participants.
-  - Office hours will not be recorded.
+
+### Zoom
+
+The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`. Note that:
+
+- The instructor won't interact with any Zoom participants.
+- Office hours will not be recorded.
 
 ## Assignments and Evaluation
 
