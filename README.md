@@ -1,21 +1,20 @@
-# Python Coding for Public Policy
+# Python for Public Policy
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=latest)](https://python-public-policy.afeld.me/en/latest/?badge=latest)
+[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=columbia)](https://python-public-policy.afeld.me/en/columbia/?badge=columbia)
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
-This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
+This repository contains content for Columbia's Python for Public Policy class.
 
 The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#jupyter-beyond-jupyterhub).
 
 ## Important links
 
 - [Syllabus](syllabus.md)
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/206261), which students will use for:
+- CourseWorks site, which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
-- [JupyterHub](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
 
@@ -45,7 +44,6 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 ### Tips
 
-- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy), but should keep any changes you make.
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
@@ -91,21 +89,15 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. `PDF via LaTeX (PDF)`
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
-1. Upload the PDF to the Brightspace Assignment.
+1. Upload the PDF to the CourseWorks Assignment.
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
+After the resubmission deadline passes for each Assignment, the solutions will be posted.
 
 Note: In-class exercises will not be graded.
 
 ## Resources
 
 - [Office hours](syllabus.html#instructor-information)
-- [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
-  - Tutoring
-  - Math Review
-- [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
-  - Consultation
-  - Classes
 - [Stack Overflow](https://stackoverflow.com/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
@@ -117,8 +109,7 @@ Note: In-class exercises will not be graded.
   - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
   - [DataCamp](https://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
   - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
-- [Python for Data Analysis book](https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph003900267)
-- NYU's [Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
+- Python for Data Analysis book
 
 There are countless other blog posts, videos, books, etc. out there. There is no "best" resource, as individuals prefer different formats, come in with different experience, and learn at different speeds. Anything that comes up near the top of a Google search will likely be fine.
 
@@ -140,13 +131,6 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 - [Kaggle's Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
-### NYU
-
-- [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
-- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
-  - Applied Data Science
-  - Machine Learning for Cities
-
 ## See also
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
@@ -155,7 +139,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 ## Testimonials
 
-> This class has been extremely helpful and my only regret is that I didn't take it sooner in my NYU career. … In fact, I've already put python to use for my final thesis. … In writing my thesis, I used python for descriptive statistics that would have otherwise taken much longer in excel … Writing code for these analysis probably saved me about a day or two of work.
+> This class has been extremely helpful and my only regret is that I didn't take it sooner … In fact, I've already put python to use for my final thesis. … In writing my thesis, I used python for descriptive statistics that would have otherwise taken much longer in excel … Writing code for these analysis probably saved me about a day or two of work.
 
 ---
 
