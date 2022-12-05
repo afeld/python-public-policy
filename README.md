@@ -180,22 +180,18 @@ From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 Not recommended for people taking the class, unless looking for an extra challenge.
 
-1. [Install Mamba.](https://mamba.readthedocs.io/en/latest/installation.html)
+1. Install Python.
+1. [Install Poetry.](https://python-poetry.org/docs/#installation)
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy).
-1. [Create the environment.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
+1. Install dependencies:
 
    ```sh
-   mamba env create --file extras/environment.yml
-   ```
-
-1. Activate the environment:
-
-   ```sh
-   conda activate python-public-policy
+   poetry config virtualenvs.create false --local
+   poetry install
    ```
 
 1. Start the Jupyter server:
 
    ```sh
-   jupyter notebook
+   poetry run jupyter notebook
    ```

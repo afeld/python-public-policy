@@ -5,6 +5,7 @@ _build/
 *.slides.html
 conf.py
 data
+poetry.toml
 shared
 solutions
 tmp

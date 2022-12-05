@@ -1,30 +1,4 @@
 name: python-public-policy
-channels:
-  - default
-  - conda-forge
 dependencies:
-  # local development
-  - black
-  - nbqa
-  - notebook
-  - jupyter_contrib_nbextensions
-  # extensions
-  - ipykernel
-  - jupyter-resource-usage
-  - nb_conda
-  - RISE
-  # packages used in notebooks
-  - ipytest=0.12.*
-  - pandas=1.*.*
-  - plotly=5.*.*
-  - statsmodels=0.*.*
-  # https://plotly.com/python/static-image-export/
-  - python-kaleido
-  # CI
-  - nbconvert
-  - nbdime
-  - pytest
-  # other
-  # this needs to stay in sync with docs/environment.yml
-  - jupyter-book=0.13.1
-  - requests
+  - python
+  - poetry
