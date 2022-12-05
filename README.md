@@ -178,15 +178,14 @@ From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 ## Running the notebooks locally
 
-Not recommended for people taking the class, unless looking for an extra challenge.
+_Advanced_
 
 1. Install Python.
 1. [Install Poetry.](https://python-poetry.org/docs/#installation)
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy).
-1. Install dependencies:
+1. From this directory, install dependencies:
 
    ```sh
-   poetry config virtualenvs.create false --local
    poetry install
    ```
 

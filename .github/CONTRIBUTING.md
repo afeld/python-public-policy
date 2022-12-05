@@ -1,9 +1,5 @@
 # Contributing
 
-- JupyterHub
-  - [Settings](https://settings-fall.rcnyu.org/)
-  - [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
-
 ## Adding/updating packages
 
 1. Modify [`environment.yml`](../extras/environment.yml)
@@ -75,3 +71,18 @@ The following should be true for each assignment:
 ## Data sets
 
 Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then compressed and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data) via [Terraform](../extras/terraform/). [Descriptions of the data sets.](../extras/terraform/data.tf)
+
+## JupyterHub
+
+- [Settings](https://settings-fall.rcnyu.org/)
+- [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
+
+[NYU's JupyterHub makes packages available to students via `conda`.](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub?pli=1) Therefore, [Poetry](https://python-poetry.org/) is used to install packages within a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file). Do the following to install Python and Poetry, merged with [the other installation steps](../README.md#running-the-notebooks-locally):
+
+```sh
+conda env create --file extras/environment.yml
+conda activate python-public-policy
+
+poetry config virtualenvs.create false --local
+poetry install --no-dev
+```
