@@ -18,6 +18,7 @@ assignees: afeld
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
+  - [ ] Share the [guide](https://docs.google.com/document/d/1aVKsHHz0riU2eR6lDa6Gw1nfIYQ_MZ6d2sirQytT75s/edit#)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/latest/syllabus.html#instructor-information)
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
@@ -43,6 +44,9 @@ assignees: afeld
 - [ ] Send calendar invite
   - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] Find guest(s)
+  - [ ] Confirm order
   - [ ] Get bio(s)
+  - [ ] [Fill out access form](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/campus-visitors.html#sponsoring-visitors)
   - [ ] Update lecture 6
+- [ ] Subscribe to Homework 6 Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6
