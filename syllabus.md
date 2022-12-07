@@ -85,7 +85,7 @@ Students will learn how to:
 
 ### Zoom
 
-The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the recordings in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom), then `Cloud Recordings`. Note that:
+The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom). You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
 
 - The instructor won't interact with any Zoom participants.
 - Office hours will not be recorded.
