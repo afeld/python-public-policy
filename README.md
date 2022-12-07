@@ -182,6 +182,8 @@ After this class, however, you'll no longer have access to the class JupyterHub.
 
 _Advanced_
 
+Note these instructions won't work in Colab.
+
 1. [Install Mamba.](https://mamba.readthedocs.io/en/latest/installation.html)
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy).
 1. [Create the environment.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
