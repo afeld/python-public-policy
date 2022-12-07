@@ -170,8 +170,6 @@ From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 ## Jupyter beyond JupyterHub
 
-_Advanced_
-
 We use [a cloud-based JupyterHub environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported by the instructor/grader for course work.
 
 After this class, however, you'll no longer have access to the class JupyterHub. Some options for running Jupyter on your own:
@@ -180,7 +178,9 @@ After this class, however, you'll no longer have access to the class JupyterHub.
 - [Anaconda](https://www.anaconda.com/)
 - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
-To closely match the class environment, you'll need to:
+### Matching the class environment
+
+_Advanced_
 
 1. [Install Mamba.](https://mamba.readthedocs.io/en/latest/installation.html)
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy).
