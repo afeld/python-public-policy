@@ -29,3 +29,7 @@
 .reveal .output_subarea.rendered_html {
   max-height: 62rem;
 }
+
+.reveal .rendered_html img {
+  max-height: 70rem;
+}
