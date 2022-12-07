@@ -119,14 +119,6 @@ There are countless other blog posts, videos, books, etc. out there. There is no
 
 Want to keep going after this class?
 
-### Running notebooks
-
-- Some options:
-  - [Google Colab](https://colab.research.google.com/)
-  - [Anaconda](https://www.anaconda.com/)
-  - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
-- May need to [install/update packages](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/) to match [those used in this class](extras/environment.yml)
-
 ### Python fundamentals
 
 Recommended focusing on fundamentals of Python 3. Many "learn Python" resources will be web development-oriented (they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/)), so you might want to look for ones that focus on data science or Python 3 on its own. Some that are data-oriented:
@@ -176,9 +168,19 @@ From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 > Though I've only been in Python class for less than a month, I've already learned so much that has empowered me beyond the classroom. Since I was an intern in 2017, the office of Congresswoman Kathleen Rice (formerly D4-NY) has contacted me annually to judge submissions for the "Congressional App Challenge". This challenge invites high school students to create apps and showcase their coding skills. Historically, I've graded these as an outsider with very little understanding for coding languages like Python (they knew that by the way!). However, this year is different. I am grading the submissions from a brand new perspective that is empowering and definitely making me a better judge. I'm so excited to be learning a skill that has already shown to be fruitful in such an unexpected way!
 
-## Running the notebooks locally
+## Jupyter beyond JupyterHub
 
-Not recommended for people taking the class, unless looking for an extra challenge.
+_Advanced_
+
+We use [a cloud-based JupyterHub environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported by the instructor/grader for course work.
+
+After this class, however, you'll no longer have access to the class JupyterHub. Some options for running Jupyter on your own:
+
+- [Google Colab](https://colab.research.google.com/)
+- [Anaconda](https://www.anaconda.com/)
+- [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+To closely match the class environment, you'll need to:
 
 1. [Install Mamba.](https://mamba.readthedocs.io/en/latest/installation.html)
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy).
