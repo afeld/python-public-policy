@@ -56,15 +56,16 @@ Students will learn how to:
 
 ## Schedule
 
-| Lecture | Date  | Topics                                            | Homework                                                                |
-| ------- | ----- | ------------------------------------------------- | ----------------------------------------------------------------------- |
-| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due, [HW0][hw0] assigned                                |
-| [1][l1] | 11/2  | Intro to Pandas                                   | [HW0][hw0] due, [HW1][hw1] assigned                                     |
-| [2][l2] | 11/9  | Manipulating and combining data                   | [HW1][hw1] due, [HW2][hw2] assigned                                     |
-| [3][l3] | 11/16 | Data visualization                                | [HW2][hw2] due, [HW3][hw3] assigned                                     |
-| [4][l4] | 11/30 | Working with dates and time series analysis       | [HW3][hw3] due, [HW4][hw4] assigned                                     |
-| [5][l5] | 12/7  | APIs                                              | [HW4][hw4] due, [HW5][hw5] assigned                                     |
-| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [HW5][hw5] and [HW6 proposal][hw5] due, [HW6][hw6] assigned - due 12/21 |
+| Lecture | Date  | Topics                                            | Homework                                                                              |
+| ------- | ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due                                                                   |
+| [1][l1] | 11/2  | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
+| [2][l2] | 11/9  | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
+| [3][l3] | 11/16 | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
+| [4][l4] | 11/30 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
+| [5][l5] | 12/7  | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
+| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
+| none    | 12/21 | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
 
 [l0]: https://python-public-policy.afeld.me/en/latest/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/latest/lecture_1.html
@@ -95,14 +96,14 @@ The classes will be streamed and recorded via Zoom on a best-effort basis. You c
 The Course Grade is based on the following:
 
 - Seven [Assignments](#assignments): 95%
-  - [HW0][hw0]: 13%
-  - [HW1][hw1]: 13%
-  - [HW2][hw2]: 13%
-  - [HW3][hw3]: 13%
-  - [HW4][hw4]: 13%
-  - [HW5][hw5]: 6%
-  - [HW6 proposal][hw5]: 6%
-  - [HW6][hw6]: 18%
+  - [Homework 0][hw0]: 13%
+  - [Homework 1][hw1]: 13%
+  - [Homework 2][hw2]: 13%
+  - [Homework 3][hw3]: 13%
+  - [Homework 4][hw4]: 13%
+  - [Homework 5][hw5]: 6%
+  - [Homework 6 proposal][hw5]: 6%
+  - [Homework 6][hw6]: 18%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: https://python-public-policy.afeld.me/en/latest/hw_0.html
@@ -115,7 +116,7 @@ The Course Grade is based on the following:
 
 ### Assignments
 
-In general, assignments are due Wednesdays at 6:45pm (the start of class). Scoring:
+In general, assignments and resubmissions are due Wednesdays at 6:45pm (the start of class). Scoring:
 
 - **Late work:** -0.5 points per day
 - **Syntax errors:** -0.5 points
