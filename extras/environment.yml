@@ -5,6 +5,7 @@ channels:
 dependencies:
   # local development
   - black
+  - mdformat
   - nbqa
   - notebook
   - jupyter_contrib_nbextensions
