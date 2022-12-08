@@ -2,6 +2,18 @@
 
 # Python Coding for Public Policy - Fall 2022
 
+<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/latest/syllabus.html">python-public-policy.afeld.me</a>.</div>
+<style>
+  .print-only {
+    display: none;
+  }
+  @media print {
+    .print-only {
+      display: block;
+    }
+  }
+</style>
+
 ## Course Information
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
