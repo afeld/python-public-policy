@@ -1,5 +1,6 @@
 import glob
 import pytest
+import re
 from .nb_helper import read_notebook
 
 
@@ -64,6 +65,23 @@ def test_heading_levels(file):
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"
             elif slide_type == "subslide":
                 assert source.startswith("###"), "should be H3+"
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_nested_lists(file):
+    """JupyterBook's markdown parser doesn't support nested lists with two spaces."""
+
+    notebook = read_notebook(file)
+    for cell in notebook.cells:
+        source = cell.source
+        if is_markdown(cell):
+            for line in source.splitlines():
+                match = re.match(r"^( +)(-|\d\.)", line)
+                if match:
+                    num_spaces = len(match[1])
+                    assert (
+                        num_spaces % 3 == 0 or num_spaces % 4 == 0
+                    ), f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
 
 
 hw_notebooks = glob.glob("hw_*.ipynb")
