@@ -21,7 +21,7 @@ $(() => {
 
   const disableDownload = () => {
     downloadEl
-      .attr("href", "")
+      .removeAttr("href")
       .addClass(disabledClasses)
       .removeClass(activeClasses)
       .attr("aria-disabled", "true");

@@ -56,9 +56,9 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 The following should be true for each assignment:
 
-- Links to the [instructions to submit](../README.md#turning-in-assignments)
+- Links to the [instructions to submit](../README.html#turning-in-assignments)
 - Dates are correct:
-  - `Due Date`s should match the [schedule](../syllabus.md#schedule): subsequent Wednesdays 6:45pm, week by week
+  - `Due Date`s should match the [schedule](../syllabus.html#schedule): subsequent Wednesdays 6:45pm, week by week
   - `End Date` should be the Sundays at 6:45pm following the `Due Date`
     - Exception is HW6, which can't be turned in late
 - Associated with the `Homework` `gradebook category`

@@ -6,7 +6,7 @@
 
 This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
 
-The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#running-the-notebooks-locally).
+The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#jupyter-beyond-jupyterhub).
 
 ## Important links
 
@@ -17,7 +17,7 @@ The materials are also available for public consumption. If you are _not_ part o
   - Viewing grades
 - [JupyterHub](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
 
-Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/python-public-policy).
+Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
 
 ## Why this class?
 
@@ -37,7 +37,7 @@ All the lectures and assignment templates are in this repository, so you _could_
 - Support
   - There is an instructor to answer questions, both during and between lectures
   - You have peers you can work with
-- You invest money and are expected to show up to class and turn in assignments on time, which [makes it far more likely you will complete it](https://mashable.com/2014/12/16/warning-college-may-be-a-waste-of-your-time-and-money/#8BFB_sdkMaqy)
+- You invest money and are expected to show up to class and turn in assignments on time, which [makes it far more likely you will complete it](https://mashable.com/2014/12/16/warning-college-may-be-a-waste-of-your-time-and-money/)
 
 ## Assignments
 
@@ -75,7 +75,7 @@ If none of the above help, let the instructor know.
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - What you see is what the instructors will see.
    - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`).
-   - See [general scoring criteria](syllabus.md#assignments).
+   - See [general scoring criteria](syllabus.html#assignments).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
@@ -92,7 +92,7 @@ Note: In-class exercises will not be graded.
 
 ## Resources
 
-- [Office hours](syllabus.md#instructor-information)
+- [Office hours](syllabus.html#instructor-information)
 - [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
   - Tutoring
   - Math Review
@@ -108,7 +108,7 @@ Note: In-class exercises will not be graded.
 - [Documentation](https://pandas.pydata.org/pandas-docs/stable/)
 - Cheat sheets
   - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-  - [DataCamp](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
+  - [DataCamp](https://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
   - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 - [Python for Data Analysis book](https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph003900267)
 - NYU's [Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
@@ -131,13 +131,12 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 ### Machine learning
 
 - [Kaggle's Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
-- [Disco's machine learning content](https://www.heydisco.com/)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
 ### NYU
 
 - [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
-- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/curriculum/)
+- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
   - Applied Data Science
   - Machine Learning for Cities
 

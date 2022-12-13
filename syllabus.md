@@ -137,7 +137,7 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 - **Visualizations incomplete, e.g. missing meaningful title/labels:** -0.1 points
 - **Unattempted Steps:** -0.4 points
 
-If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.vanderbilt.edu/brightspace/using-the-annotation-tool/).
+If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
 
 For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in Brightspace), and can be resubmitted through Brightspace.
 
