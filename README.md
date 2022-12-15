@@ -84,7 +84,7 @@ If none of the above help, let the instructor know.
 1. Glance through the PDF to ensure everything is showing up as you intend.
 1. Upload the PDF to the Brightspace Assignment.
 
-If you get a 500 error when trying to export the PDF, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
+If you get a **500 error** when trying to export the PDF, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 
