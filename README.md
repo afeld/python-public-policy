@@ -131,6 +131,10 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 - [Kaggle's Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
+### Columbia
+
+- [Other Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext)
+
 ## See also
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
