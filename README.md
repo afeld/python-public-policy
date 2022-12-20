@@ -11,7 +11,7 @@ The materials are also available for public consumption. If you are _not_ part o
 ## Important links
 
 - [Syllabus](syllabus.md)
-- CourseWorks site, which students will use for:
+- [CourseWorks site](https://courseworks2.columbia.edu/courses/171519), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades

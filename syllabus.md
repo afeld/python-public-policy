@@ -89,7 +89,7 @@ Students will learn how to:
 
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through the Discussions in [CourseWorks](https://courseworks2.columbia.edu/), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through the [Discussions in CourseWorks](https://courseworks2.columbia.edu/courses/171519/discussion_topics), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
@@ -150,7 +150,7 @@ Participation means:
 in either:
 
 - Office hours
-- The Discussions in CourseWorks
+- [The Discussions in CourseWorks](https://courseworks2.columbia.edu/courses/171519/discussion_topics)
   - When starting a new Discussion, please use a descriptive Topic Title to make them easier to navigate
 
 The following don't count towards the Between-Class Participation score:
