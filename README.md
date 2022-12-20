@@ -144,6 +144,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 - [14 Principles of Open Government Data](https://opengovdata.io/2014/principles/)
 - [Blog post about GitHub for non-developers](https://medium.com/nyc-planning-digital/git-what-extolling-githubs-virtues-to-non-coders-6cc11f1a5fd2)
+- [DataJournalism.com](https://datajournalism.com/)
 
 ## Testimonials
 
