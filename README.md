@@ -64,9 +64,10 @@ All the lectures and assignment templates are in this repository, so you _could_
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
 - **`Disk is full` / `No space left on device`:** Your workspace in JupyterHub has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
-- **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure your `locations` and `featureidkey`:
-  - Correspond to the DataFrame column and GeoJSON property names, respectively
-  - Have values that match
+  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor, who will need to reach out to NYU JupyterHub support.
+- **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
+  - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
+  - The column and the GeoJSON properties have values that match
 
 #### Kernel/memory issues
 
