@@ -81,7 +81,6 @@ All the lectures and assignment templates are in this repository, so you _could_
 ### Turning in assignments
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
-   - What you see is what the instructors will see.
    - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`).
    - See [general scoring criteria](syllabus.html#assignments).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
@@ -90,6 +89,7 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. `Download as`
    1. `PDF via LaTeX (PDF)`
 1. Glance through the PDF to ensure everything is showing up as you intend.
+   - What you see is what the instructors will see.
 1. Upload the PDF to the Brightspace Assignment.
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
