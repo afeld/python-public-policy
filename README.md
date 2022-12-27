@@ -41,7 +41,7 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 ## Assignments
 
-[General assignment requirements](syllabus.html#assignments)
+[General requirements](syllabus.html#assignments)
 
 ### Tips
 
