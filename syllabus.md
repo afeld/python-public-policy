@@ -188,6 +188,8 @@ Letter grades for the entire course will be assigned as follows:
 
 A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
 
+Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
+
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
 All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/latest/README.html#turning-in-assignments).
