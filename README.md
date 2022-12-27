@@ -41,6 +41,8 @@ All the lectures and assignment templates are in this repository, so you _could_
 
 ## Assignments
 
+[General assignment requirements](syllabus.html#assignments)
+
 ### Tips
 
 - **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy), but should keep any changes you make.

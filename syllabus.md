@@ -134,7 +134,7 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 - **Late work:** -0.5 points per day
 - **Syntax errors:** -0.5 points
 - **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
-- **Visualizations incomplete, e.g. missing meaningful title/labels:** -0.1 points
+- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/latest/lecture_3.html#chart-hygiene) -0.1 points
 - **Unattempted Steps:** -0.4 points
 
 If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
