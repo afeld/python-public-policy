@@ -6,7 +6,7 @@
 
 This repository contains content for Columbia's Python for Public Policy class.
 
-The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#jupyter-beyond-jupyterhub).
+The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#jupyter-beyond-this-course).
 
 ## Important links
 
@@ -62,8 +62,8 @@ All the lectures and assignment templates are in this repository, so you _could_
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
-- **`Disk is full` / `No space left on device`:** Your workspace in JupyterHub has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
-  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor, who will need to reach out to NYU JupyterHub support.
+- **`Disk is full` / `No space left on device`:** Your workspace has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
+  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor.
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
   - The column and the GeoJSON properties have values that match
@@ -75,7 +75,7 @@ All the lectures and assignment templates are in this repository, so you _could_
   - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
-  - Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.
+  - Close kernels you aren't using from the Running page.
 
 ### Turning in assignments
 
@@ -163,11 +163,11 @@ From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 > Though I've only been in Python class for less than a month, I've already learned so much that has empowered me beyond the classroom. Since I was an intern in 2017, the office of Congresswoman Kathleen Rice (formerly D4-NY) has contacted me annually to judge submissions for the "Congressional App Challenge". This challenge invites high school students to create apps and showcase their coding skills. Historically, I've graded these as an outsider with very little understanding for coding languages like Python (they knew that by the way!). However, this year is different. I am grading the submissions from a brand new perspective that is empowering and definitely making me a better judge. I'm so excited to be learning a skill that has already shown to be fruitful in such an unexpected way!
 
-## Jupyter beyond JupyterHub
+## Jupyter beyond this course
 
-We use [a cloud-based JupyterHub environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported by the instructor/grader for course work.
+We use [a cloud-based Jupyter environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported by the instructor/grader for course work.
 
-After this class, however, you'll no longer have access to the class JupyterHub. Some options for running Jupyter on your own:
+After this class, however, you'll no longer have access to the class Jupyter. Some options for running Jupyter on your own:
 
 - [Google Colab](https://colab.research.google.com/)
 - [Anaconda](https://www.anaconda.com/)

@@ -1,6 +1,6 @@
-# Python Coding for Public Policy - Spring 2022
+# Python for Public Policy - Spring 2022
 
-<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/latest/syllabus.html">python-public-policy.afeld.me</a>.</div>
+<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/columbia/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
   .print-only {
     display: none;
@@ -23,7 +23,6 @@
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
-  - [NYU offers loaners](https://library.nyu.edu/services/computing/on-campus/laptop-loans/)
 - No textbooks required
 
 ## Instructor Information
@@ -130,7 +129,7 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 - **Late work:** -0.5 points per day
 - **Syntax errors:** -0.5 points
 - **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
-- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/latest/lecture_3.html#chart-hygiene) -0.1 points
+- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/columbia/lecture_3.html#chart-hygiene) -0.1 points
 - **Unattempted Steps:** -0.4 points
 
 If the submission showed effort, feedback will be given.
