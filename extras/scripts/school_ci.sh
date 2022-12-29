@@ -19,3 +19,8 @@ git switch -c "$TARGET_BRANCH"
 git add .
 git commit -am "CI: render for school"
 git push -f origin "$TARGET_BRANCH"
+
+# show diff from the target
+# https://github.com/afeld/python-public-policy/pull/71/files
+git fetch origin columbia
+git diff --color-words origin/columbia syllabus.md README.md
