@@ -12,7 +12,7 @@ import subprocess
 import sys
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from nb_helper import read_notebook, notebook_to_script
+from ..lib.nb_helper import read_notebook, notebook_to_script
 
 MIN_LINES = 40
 VIZ_PACKAGES = set(

@@ -1,5 +1,5 @@
 from nbformat import NotebookNode
-from scripts.diffable import should_clear_output
+from .diffable import should_clear_output
 
 
 def test_ignore_empty():
