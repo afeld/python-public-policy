@@ -1,7 +1,7 @@
 import glob
 import pytest
 import re
-from .nb_helper import read_notebook
+from .lib.nb_helper import read_notebook
 
 
 def check_metadata(notebook, file, expected_kernel):

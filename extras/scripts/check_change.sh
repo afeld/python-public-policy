@@ -11,7 +11,7 @@ POST=${PRE//\./.nbconvert.}
 FINAL=${PRE//\./.final.}
 
 function diffable() {
-  jupyter nbconvert --to notebook --Exporter.preprocessors=extras.scripts.diffable.Diffable --stdout "$1" > "$2"
+  jupyter nbconvert --to notebook --Exporter.preprocessors=extras.lib.diffable.Diffable --stdout "$1" > "$2"
 }
 
 mkdir -p tmp/extras
