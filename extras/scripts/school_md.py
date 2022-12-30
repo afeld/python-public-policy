@@ -17,6 +17,10 @@ with open(args.filename, mode) as f:
     source = f.read()
 
     result = render_template(source, args.school_slug)
+    # Jinja2 seems to strip the trailing newline
+    if not result.endswith("\n"):
+        result += "\n"
+
     if args.inplace:
         f.seek(0)
         f.write(result)
