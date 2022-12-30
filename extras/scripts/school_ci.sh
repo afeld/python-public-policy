@@ -30,5 +30,10 @@ else
     COMPARE_BRANCH=main
 fi
 
+# https://gist.github.com/labynocle/93b151672585b8511ecd
+# https://stackoverflow.com/questions/5326008/highlight-changed-lines-and-changed-bytes-in-each-changed-line/15149253#comment76619242_15149253
+wget https://raw.githubusercontent.com/git/git/fd99e2bda0ca6a361ef03c04d6d7fdc7a9c40b78/contrib/diff-highlight/diff-highlight
+chmod +x diff-highlight
+
 git fetch origin $COMPARE_BRANCH
-git diff --color-words origin/$COMPARE_BRANCH syllabus.md README.md
+git diff --color origin/$COMPARE_BRANCH syllabus.md README.md | ./diff-highlight
