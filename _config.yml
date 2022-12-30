@@ -1,4 +1,4 @@
-title: Python for Public Policy
+title: "{{course_name}}"
 author: Aidan Feldman
 only_build_toc_files: true
 exclude_patterns:

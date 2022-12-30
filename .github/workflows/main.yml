@@ -41,5 +41,5 @@ jobs:
           - extras/pandas_crash_course.ipynb
     uses: ./.github/workflows/setup.yml
     with:
-      message:
+      message: Check for changes
       command: ./extras/scripts/check_change.sh ${{ matrix.notebook }}

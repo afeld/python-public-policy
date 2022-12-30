@@ -1,0 +1,19 @@
+name: Publish school-specific branches / site versions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  schools:
+    strategy:
+      fail-fast: false
+      matrix:
+        school:
+          - columbia
+          - nyu
+    uses: ./.github/workflows/setup.yml
+    with:
+      message: Render for school
+      command: ./extras/scripts/school_ci.sh ${{ matrix.school }}

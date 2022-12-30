@@ -1,17 +1,17 @@
-# Python Coding for Public Policy
+# {{course_name}}
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=latest)](https://python-public-policy.afeld.me/en/latest/?badge=latest)
+[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version={{school_slug}})](https://python-public-policy.afeld.me/en/{{school_slug}}/?badge={{school_slug}})
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
-This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
+This repository contains content for [{{school_name}}'s {{course_name}}](syllabus.md) class.
 
-The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#jupyter-beyond-jupyterhub).
+The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks](#jupyter-beyond-jupyterhub).
 
 ## Important links
 
 - [Syllabus](syllabus.md)
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/206261), which students will use for:
+- [{{lms_name}} site]({{lms_url}}), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
@@ -65,7 +65,7 @@ All the lectures and assignment templates are in this repository, so you _could_
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
 - **`Disk is full` / `No space left on device`:** Your workspace in JupyterHub has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
-  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor, who will need to reach out to NYU JupyterHub support.
+  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor.
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
   - The column and the GeoJSON properties have values that match
@@ -91,7 +91,7 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. `PDF via LaTeX (PDF)`
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
-1. Upload the PDF to the Brightspace Assignment.
+1. Upload the PDF to the {{lms_name}} Assignment.
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 
@@ -100,15 +100,22 @@ Note: In-class exercises will not be graded.
 ## Resources
 
 - [Office hours](syllabus.html#instructor-information)
+- [Stack Overflow](https://stackoverflow.com/)
+- [GitHub Student Developer Pack](https://education.github.com/pack)
+  - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
+
+{% if id == "nyu" -%}
+
+### NYU
+
 - [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
   - Tutoring
   - Math Review
 - [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
   - Consultation
   - Classes
-- [Stack Overflow](https://stackoverflow.com/)
-- [GitHub Student Developer Pack](https://education.github.com/pack)
-  - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
+
+{% endif -%}
 
 ### Pandas
 
@@ -117,7 +124,7 @@ Note: In-class exercises will not be graded.
   - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
   - [DataCamp](https://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
   - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
-- [Python for Data Analysis book](https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph003900267)
+- [Python for Data Analysis book](https://wesmckinney.com/book/)
 - NYU's [Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
 
 There are countless other blog posts, videos, books, etc. out there. There is no "best" resource, as individuals prefer different formats, come in with different experience, and learn at different speeds. Anything that comes up near the top of a Google search will likely be fine.
@@ -140,12 +147,22 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 - [Kaggle's Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
+{% if school_slug == "columbia" -%}
+
+### Columbia
+
+- [Other Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext)
+
+{% else -%}
+
 ### NYU
 
 - [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
 - [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
   - Applied Data Science
   - Machine Learning for Cities
+
+{% endif -%}
 
 ## See also
 
@@ -155,7 +172,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 ## Testimonials
 
-> This class has been extremely helpful and my only regret is that I didn't take it sooner in my NYU career. … In fact, I've already put python to use for my final thesis. … In writing my thesis, I used python for descriptive statistics that would have otherwise taken much longer in excel … Writing code for these analysis probably saved me about a day or two of work.
+> This class has been extremely helpful and my only regret is that I didn't take it sooner … In fact, I've already put python to use for my final thesis. … In writing my thesis, I used python for descriptive statistics that would have otherwise taken much longer in excel … Writing code for these analysis probably saved me about a day or two of work.
 
 ---
 

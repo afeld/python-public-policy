@@ -1,8 +1,16 @@
+{% if id == "columbia" -%}
+[![Columbia SIPA banner](extras/img/sipa.svg)](https://www.sipa.columbia.edu/)
+
+---
+
+{% else -%}
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Fall 2022
+{% endif -%}
 
-<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/latest/syllabus.html">python-public-policy.afeld.me</a>.</div>
+# {{course_name}} - {% if school_slug == "columbia" %}Spring 2023{% else %}Fall 2022{% endif %}
+
+<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
   .print-only {
     display: none;
@@ -14,10 +22,33 @@
   }
 </style>
 
+{% if school_slug == "columbia" -%}
+
+## Course Information
+
+- **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
+- **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/README.html)
+- **Class Meeting Times:** Tuesdays 1/17-2/28
+  - Section 1: 9-10:50am
+  - Section 2: 11-12:50pm
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
+- **Prerequisites:** None
+- Students should bring a laptop to class
+  - A tablet without a full keyboard will be hard to use for in-class exercises
+- No textbooks required
+
+## Instructor Information
+
+- **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
+- **Grader:** to be determined
+- **Office Hours:** fixed time to be determined, and by appointment
+
+{% else -%}
+
 ## Course Information
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- **Course site:** [python-public-policy.afeld.me](https://python-public-policy.afeld.me/)
+- **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/README.html)
 - **Class Meeting Times:** Wednesdays, 10/26-12/14 6:45-8:25pm ET
   - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
 - **Class Location:** [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
@@ -33,6 +64,8 @@
 - **Grader:** Tara Merigan, tsm6919@nyu.edu
 - **Office Hours:** Mondays at 5:30pm ET on Zoom, and by appointment
 
+{% endif -%}
+
 ## Description
 
 This seven-week course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
@@ -46,7 +79,11 @@ Class will be split between:
   - Start on the homework
   - Ask questions
 
+{% if id == "nyu" -%}
+
 This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
+
+{% endif -%}
 
 ## Homework
 
@@ -69,6 +106,21 @@ Students will learn how to:
 
 ## Schedule
 
+{% if school_slug == "columbia" -%}
+
+| Lecture | Date | Topics                                            | Homework                                                                              |
+| ------- | ---- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [0][l0] | 1/17 | Intro to coding                                   | pre-class TODOs due                                                                   |
+| [1][l1] | 1/24 | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
+| [2][l2] | 1/31 | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
+| [3][l3] | 2/7  | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
+| [4][l4] | 2/14 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
+| [5][l5] | 2/21 | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
+| [6][l6] | 2/28 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
+| none    | 3/7  | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
+
+{% else -%}
+
 | Lecture | Date  | Topics                                            | Homework                                                                              |
 | ------- | ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due                                                                   |
@@ -80,26 +132,28 @@ Students will learn how to:
 | [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
 | none    | 12/21 | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
 
-[l0]: https://python-public-policy.afeld.me/en/latest/lecture_0.html
-[l1]: https://python-public-policy.afeld.me/en/latest/lecture_1.html
-[l2]: https://python-public-policy.afeld.me/en/latest/lecture_2.html
-[l3]: https://python-public-policy.afeld.me/en/latest/lecture_3.html
-[l4]: https://python-public-policy.afeld.me/en/latest/lecture_4.html
-[l5]: https://python-public-policy.afeld.me/en/latest/lecture_5.html
-[l6]: https://python-public-policy.afeld.me/en/latest/lecture_6.html
+{% endif -%}
+
+[l0]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html
+[l1]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_1.html
+[l2]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_2.html
+[l3]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html
+[l4]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_4.html
+[l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
+[l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/206261).
+- All announcements and assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [the Discussions in {{lms_name}}]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
 ### Zoom
 
-The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom). You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
+The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in [{{lms_name}}]({{lms_url}}) under the Zoom tab. You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
 
 - The instructor won't interact with any Zoom participants.
 - Office hours will not be recorded.
@@ -119,27 +173,27 @@ The Course Grade is based on the following:
   - [Homework 6][hw6]: 18%
 - [Between-Class Participation](#participation): 5%
 
-[hw0]: https://python-public-policy.afeld.me/en/latest/hw_0.html
-[hw1]: https://python-public-policy.afeld.me/en/latest/hw_1.html
-[hw2]: https://python-public-policy.afeld.me/en/latest/hw_2.html
-[hw3]: https://python-public-policy.afeld.me/en/latest/hw_3.html
-[hw4]: https://python-public-policy.afeld.me/en/latest/hw_4.html
-[hw5]: https://python-public-policy.afeld.me/en/latest/hw_5.html
-[hw6]: https://python-public-policy.afeld.me/en/latest/hw_6.html
+[hw0]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_0.html
+[hw1]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_1.html
+[hw2]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_2.html
+[hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
+[hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
+[hw5]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html
+[hw6]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_6.html
 
 ### Assignments
 
-In general, assignments and resubmissions are due Wednesdays at 6:45pm (the start of class). Scoring:
+In general, assignments and resubmissions are due before the start of the next class. Scoring:
 
 - **Late work:** -0.5 points per day
 - **Syntax errors:** -0.5 points
 - **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
-- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/latest/lecture_3.html#chart-hygiene) -0.1 points
+- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -0.1 points
 - **Unattempted Steps:** -0.4 points
 
-If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
+If the submission showed effort, feedback will be given through [annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in Brightspace), and can be resubmitted through Brightspace.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 
 Requests for extensions will only be considered if made before the deadline.
 
@@ -154,9 +208,9 @@ Participation means:
 in either:
 
 - Office hours
-- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
+- [The Discussions in {{lms_name}}]({{discussions_url}})
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
+  - Suggest checking your [notifications settings]({{lms_notification_settings_url}}) to make sure you see conversations that come through
 
 The following don't count towards the Between-Class Participation score:
 
@@ -192,9 +246,11 @@ Similarly, it is common practice to use code snippets found on the internet; the
 
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
-All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/latest/README.html#turning-in-assignments).
+All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/README.html#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
+
+{% if id == "nyu" -%}
 
 ### Academic Integrity
 
@@ -213,3 +269,5 @@ Academic accommodations are available for students with disabilities. Please vis
 You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides. Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance. Your peers are another source of support, so you could ask a friend or classmate for help or tips.
 
 If you do not have the appropriate hardware technology nor financial resources to purchase the technology, consider applying for the NYU [Emergency Relief Grant](https://www.nyu.edu/admissions/financial-aid-and-scholarships/covid-relief-grant.html).
+
+{% endif %}
