@@ -5,8 +5,16 @@ from traitlets import Unicode
 
 
 SCHOOL_TEXT = {
-    "columbia": {"course_name": "Python for Public Policy"},
-    "nyu": {"course_name": "Python Coding for Public Policy"},
+    "columbia": {
+        "course_name": "Python for Public Policy",
+        "lms_name": "CourseWorks",
+        "lms_url": "https://courseworks2.columbia.edu/courses/171519",
+    },
+    "nyu": {
+        "course_name": "Python Coding for Public Policy",
+        "lms_name": "Brightspace",
+        "lms_url": "https://brightspace.nyu.edu/d2l/home/206261",
+    },
 }
 env = Environment()
 

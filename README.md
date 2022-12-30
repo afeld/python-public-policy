@@ -1,6 +1,6 @@
 # {{course_name}}
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=latest)](https://python-public-policy.afeld.me/en/{{school_slug}}/?badge=latest)
+[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version={{school_slug}})](https://python-public-policy.afeld.me/en/{{school_slug}}/?badge=latest)
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
@@ -9,7 +9,7 @@ The materials are available for public consumption. If you are _not_ part of the
 ## Important links
 
 - [Syllabus](syllabus.md)
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/206261), which students will use for:
+- [{{lms_name}} site]({{lms_url}}), which students will use for:
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
@@ -89,7 +89,7 @@ All the lectures and assignment templates are in this repository, so you _could_
    1. `PDF via LaTeX (PDF)`
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
-1. Upload the PDF to the Brightspace Assignment.
+1. Upload the PDF to the {{lms_name}} Assignment.
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 

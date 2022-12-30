@@ -93,16 +93,16 @@ Students will learn how to:
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/206261).
+- All announcements and assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [the Discussions in {{lms_name}}](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
 ### Zoom
 
-The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in Brightspace under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom). You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
+The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in {{lms_name}} under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom). You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
 
 - The instructor won't interact with any Zoom participants.
 - Office hours will not be recorded.
@@ -140,9 +140,9 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -0.1 points
 - **Unattempted Steps:** -0.4 points
 
-If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
+If the submission showed effort, feedback will be given through [annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in Brightspace), and can be resubmitted through Brightspace.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in {{lms_name}}), and can be resubmitted through {{lms_name}}.
 
 Requests for extensions will only be considered if made before the deadline.
 
@@ -157,7 +157,7 @@ Participation means:
 in either:
 
 - Office hours
-- [The Discussions in Brightspace](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
+- [The Discussions in {{lms_name}}](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
 
