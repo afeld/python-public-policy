@@ -41,7 +41,7 @@ SCHOOLS = [
     SchoolText(
         id="nyu",
         school_name="NYU Wagner",
-        school_slug="latest",  # TODO change to nyu"
+        school_slug="nyu",
         course_name="Python Coding for Public Policy",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/206261",
