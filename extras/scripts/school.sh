@@ -24,7 +24,8 @@ case $SCHOOL in
 esac
 
 # render non-notebook files
-for f in ./*.{md,yml}; do
+NON_MD_FILES=$(git ls-files ./*.{md,yml} _static/styles.css)
+for f in $NON_MD_FILES; do
     python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
 done
 

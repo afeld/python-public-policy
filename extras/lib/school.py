@@ -12,6 +12,7 @@ class SchoolText:
     id: str
     school_name: str
     school_slug: str
+    color: str
     course_name: str
     lms_name: str
     lms_url: str
@@ -26,6 +27,7 @@ SCHOOLS = [
         id="columbia",
         school_name="Columbia University",
         school_slug="columbia",
+        color="#201D5D",
         course_name="Python for Public Policy",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/171519",
@@ -42,6 +44,7 @@ SCHOOLS = [
         id="nyu",
         school_name="NYU Wagner",
         school_slug="nyu",
+        color="#57058b",
         course_name="Python Coding for Public Policy",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/206261",

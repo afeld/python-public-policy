@@ -17,3 +17,11 @@
 #data-shortener-widget #download {
   color: white;
 }
+
+/* indicate the version in the selector by color */
+.bd-sidebar .rst-versions.rst-badge .rst-current-version,
+.bd-sidebar .rst-versions.rst-badge .rst-current-version:hover,
+.bd-sidebar .rst-versions.rst-badge .rst-current-version .fa {
+  background-color: {{color}};
+  color: white;
+}
