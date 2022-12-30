@@ -1,4 +1,4 @@
-{% if school_slug == "nyu" -%}
+{% if id == "nyu" -%}
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
 {% endif -%}
@@ -74,7 +74,7 @@ Class will be split between:
   - Start on the homework
   - Ask questions
 
-{% if school_slug == "nyu" -%}
+{% if id == "nyu" -%}
 
 This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
 
@@ -245,7 +245,7 @@ All submissions must be made from a Jupyter notebook file, following [these inst
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
-{% if school_slug == "nyu" -%}
+{% if id == "nyu" -%}
 
 ### Academic Integrity
 

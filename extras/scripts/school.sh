@@ -34,5 +34,5 @@ jupyter nbconvert \
     --TagRemovePreprocessor.enabled=True \
     --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG \
     --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
-    --SchoolTemplate.school_slug="$SCHOOL" \
+    --SchoolTemplate.school_id="$SCHOOL" \
     ./*.ipynb

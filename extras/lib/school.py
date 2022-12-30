@@ -7,8 +7,9 @@ from traitlets import Unicode
 
 @dataclasses.dataclass
 class SchoolText:
-    """Class to ensure each school has matching keys"""
+    """Class to ensure each school has the same configuration structure"""
 
+    id: str
     school_name: str
     school_slug: str
     course_name: str
@@ -20,9 +21,9 @@ class SchoolText:
 
 
 COURSE_HOSTNAME = "python-public-policy.afeld.me"
-# the keys are the slugs
-SCHOOL_TEXT = {
-    "columbia": SchoolText(
+SCHOOLS = [
+    SchoolText(
+        id="columbia",
         school_name="Columbia University",
         school_slug="columbia",
         course_name="Python for Public Policy",
@@ -37,9 +38,10 @@ SCHOOL_TEXT = {
             "sipa",
         ],
     ),
-    "nyu": SchoolText(
+    SchoolText(
+        id="nyu",
         school_name="NYU Wagner",
-        school_slug="nyu",
+        school_slug="latest",  # TODO change to nyu"
         course_name="Python Coding for Public Policy",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/206261",
@@ -54,7 +56,8 @@ SCHOOL_TEXT = {
             "wagner",
         ],
     ),
-}
+]
+SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 EXEMPT = [
     "hannahkates/nyu-python-public-policy",
     "rcnyu.org",  # TODO
@@ -63,21 +66,17 @@ EXEMPT = [
 env = Environment()
 
 
-def render_template(source: str, school_slug: str):
+def render_template(source: str, school_id: str):
     template = env.from_string(source)
 
-    school_text = SCHOOL_TEXT[school_slug]
+    school_text = SCHOOL_TEXT[school_id]
     local_vars = dataclasses.asdict(school_text)
 
     return template.render(**local_vars)
 
 
 def check_line(line: str, line_num: int, this_school: SchoolText):
-    other_schools = [
-        other_school
-        for other_school in SCHOOL_TEXT.values()
-        if other_school.school_slug != this_school.school_slug
-    ]
+    other_schools = [other_school for other_school in SCHOOLS if other_school.id != this_school.id]
     for other_school in other_schools:
         for word in other_school.words:
             for exemption in EXEMPT:
@@ -95,26 +94,26 @@ def check_line(line: str, line_num: int, this_school: SchoolText):
         ), f"Not properly linking to course site, line {line_num}:\n\n{line}"
 
 
-def confirm_other_schools_not_included(source: str, school_slug: str):
-    school_text = SCHOOL_TEXT[school_slug]
+def confirm_other_schools_not_included(source: str, school_id: str):
+    school_text = SCHOOL_TEXT[school_id]
     for i, line in enumerate(source.splitlines()):
         line_num = i + 1
         check_line(line, line_num, school_text)
 
 
-def render_cell(cell: NotebookNode, school_slug: str):
-    cell.source = render_template(cell.source, school_slug)
-    confirm_other_schools_not_included(cell.source, school_slug)
+def render_cell(cell: NotebookNode, school_id: str):
+    cell.source = render_template(cell.source, school_id)
+    confirm_other_schools_not_included(cell.source, school_id)
     return cell
 
 
 # https://nbconvert.readthedocs.io/en/latest/nbconvert_library.html#Custom-Preprocessors
 class SchoolTemplate(Preprocessor):
-    school_slug = Unicode().tag(config=True)
+    school_id = Unicode().tag(config=True)
 
     def preprocess_cell(self, cell: NotebookNode, resources, cell_index):
-        if not self.school_slug:
-            raise RuntimeError(f"{type(self).__name__}.school_slug must be set")
+        if not self.school_id:
+            raise RuntimeError(f"{type(self).__name__}.school_id must be set")
 
-        cell = render_cell(cell, self.school_slug)
+        cell = render_cell(cell, self.school_id)
         return cell, resources

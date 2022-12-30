@@ -7,7 +7,7 @@ parser = ArgumentParser(
     description="Render template with school data.",
 )
 parser.add_argument("filename")
-parser.add_argument("school_slug")
+parser.add_argument("school_id")
 parser.add_argument("--inplace", action="store_true")
 
 args = parser.parse_args()
@@ -16,7 +16,7 @@ mode = "r+" if args.inplace else "r"
 with open(args.filename, mode) as f:
     source = f.read()
 
-    result = render_template(source, args.school_slug)
+    result = render_template(source, args.school_id)
     # Jinja2 seems to strip the trailing newline
     if not result.endswith("\n"):
         result += "\n"

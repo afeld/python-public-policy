@@ -104,7 +104,7 @@ Note: In-class exercises will not be graded.
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
-{% if school_slug == "nyu" -%}
+{% if id == "nyu" -%}
 
 ### NYU
 

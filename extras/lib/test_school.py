@@ -3,24 +3,18 @@ from nbformat.v4 import new_markdown_cell
 import pytest
 
 
-@pytest.mark.parametrize("slug", [("columbia"), ("nyu")])
-def test_site_path_injection(slug):
+@pytest.mark.parametrize("id", [("columbia"), ("nyu")])
+def test_site_path_injection(id):
+    school = SCHOOL_TEXT[id]
     cell = new_markdown_cell("https://python-public-policy.afeld.me/en/{{school_slug}}/README.html")
-    updated_cell = render_cell(cell, slug)
-    assert updated_cell.source == f"https://python-public-policy.afeld.me/en/{slug}/README.html"
+
+    updated_cell = render_cell(cell, id)
+
+    expected = f"https://python-public-policy.afeld.me/en/{school.school_slug}/README.html"
+    assert updated_cell.source == expected
 
 
-def test_other_school_columbia():
-    school = SCHOOL_TEXT["columbia"]
-
-    confirm_other_schools_not_included("Something something Columbia", school.school_slug)
+def test_other_school():
+    confirm_other_schools_not_included("Something something Columbia", "columbia")
     with pytest.raises(AssertionError):
-        confirm_other_schools_not_included("Something something NYU", school.school_slug)
-
-
-def test_other_school_nyu():
-    school = SCHOOL_TEXT["nyu"]
-
-    confirm_other_schools_not_included("Something something NYU", school.school_slug)
-    with pytest.raises(AssertionError):
-        confirm_other_schools_not_included("Something something Columbia", school.school_slug)
+        confirm_other_schools_not_included("Something something NYU", "columbia")
