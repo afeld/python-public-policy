@@ -43,7 +43,7 @@
 ## Course Information
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- **Course site:** [python-public-policy.afeld.me](https://python-public-policy.afeld.me/)
+- **Course site:** [python-public-policy.afeld.me/en/nyu/](https://python-public-policy.afeld.me/en/nyu/README.html)
 - **Class Meeting Times:** Wednesdays, 10/26-12/14 6:45-8:25pm ET
   - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
 - **Class Location:** [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
