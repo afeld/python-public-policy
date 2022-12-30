@@ -1,12 +1,10 @@
-# Python Coding for Public Policy
+# {{course_name}}
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=latest)](https://python-public-policy.afeld.me/en/latest/?badge=latest)
+[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/main.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/main.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version=latest)](https://python-public-policy.afeld.me/en/{{school_slug}}/?badge=latest)
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
-This repository contains content for [NYU Wagner's Python Coding for Public Policy](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy) class (PADM-GP 4506).
-
-The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks locally](#jupyter-beyond-jupyterhub).
+The materials are available for public consumption. If you are _not_ part of the class, see information about [running the notebooks elsewhere](#jupyter-beyond-jupyterhub).
 
 ## Important links
 

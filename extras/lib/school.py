@@ -3,12 +3,21 @@ from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
 from traitlets import Unicode
 
+
+SCHOOL_TEXT = {
+    "columbia": {"course_name": "Python for Public Policy"},
+    "nyu": {"course_name": "Python Coding for Public Policy"},
+}
 env = Environment()
 
 
 def render_template(source: str, school_slug: str):
     template = env.from_string(source)
-    return template.render(school_slug=school_slug)
+
+    local_vars = SCHOOL_TEXT[school_slug].copy()
+    local_vars["school_slug"] = school_slug
+
+    return template.render(**local_vars)
 
 
 def render_cell(cell: NotebookNode, school_slug: str):

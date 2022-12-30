@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 # confirm there's exactly one argument
 if [ "$#" -ne 1 ]; then
@@ -22,6 +23,12 @@ case $SCHOOL in
         ;;
 esac
 
+# render markdown files
+for f in ./*.md; do
+    python -m extras.scripts.school_md --inplace "$f" "$SCHOOL"
+done
+
+# render notebooks
 jupyter nbconvert \
     --to notebook --inplace \
     --TagRemovePreprocessor.enabled=True \

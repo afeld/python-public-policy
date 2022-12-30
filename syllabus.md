@@ -1,8 +1,11 @@
+{% if school_slug == "nyu" -%}
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Fall 2022
+{% endif -%}
 
-<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/latest/syllabus.html">python-public-policy.afeld.me</a>.</div>
+# {{course_name}} - Fall 2022
+
+<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
   .print-only {
     display: none;
@@ -80,13 +83,13 @@ Students will learn how to:
 | [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
 | none    | 12/21 | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
 
-[l0]: https://python-public-policy.afeld.me/en/latest/lecture_0.html
-[l1]: https://python-public-policy.afeld.me/en/latest/lecture_1.html
-[l2]: https://python-public-policy.afeld.me/en/latest/lecture_2.html
-[l3]: https://python-public-policy.afeld.me/en/latest/lecture_3.html
-[l4]: https://python-public-policy.afeld.me/en/latest/lecture_4.html
-[l5]: https://python-public-policy.afeld.me/en/latest/lecture_5.html
-[l6]: https://python-public-policy.afeld.me/en/latest/lecture_6.html
+[l0]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html
+[l1]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_1.html
+[l2]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_2.html
+[l3]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html
+[l4]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_4.html
+[l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
+[l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
 ## Communications
 
@@ -119,13 +122,13 @@ The Course Grade is based on the following:
   - [Homework 6][hw6]: 18%
 - [Between-Class Participation](#participation): 5%
 
-[hw0]: https://python-public-policy.afeld.me/en/latest/hw_0.html
-[hw1]: https://python-public-policy.afeld.me/en/latest/hw_1.html
-[hw2]: https://python-public-policy.afeld.me/en/latest/hw_2.html
-[hw3]: https://python-public-policy.afeld.me/en/latest/hw_3.html
-[hw4]: https://python-public-policy.afeld.me/en/latest/hw_4.html
-[hw5]: https://python-public-policy.afeld.me/en/latest/hw_5.html
-[hw6]: https://python-public-policy.afeld.me/en/latest/hw_6.html
+[hw0]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_0.html
+[hw1]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_1.html
+[hw2]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_2.html
+[hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
+[hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
+[hw5]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html
+[hw6]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_6.html
 
 ### Assignments
 
@@ -134,7 +137,7 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 - **Late work:** -0.5 points per day
 - **Syntax errors:** -0.5 points
 - **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
-- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/latest/lecture_3.html#chart-hygiene) -0.1 points
+- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -0.1 points
 - **Unattempted Steps:** -0.4 points
 
 If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
@@ -192,7 +195,7 @@ Similarly, it is common practice to use code snippets found on the internet; the
 
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
-All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/latest/README.html#turning-in-assignments).
+All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/README.html#turning-in-assignments).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 

@@ -6,6 +6,7 @@ set -x
 
 SCHOOL=$1
 
+# render the files
 ./extras/scripts/school.sh "$SCHOOL"
 
 # https://lannonbr.com/blog/2019-12-09-git-commit-in-actions/
