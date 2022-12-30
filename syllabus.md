@@ -17,6 +17,29 @@
   }
 </style>
 
+{% if school_slug == "columbia" -%}
+
+## Course Information
+
+- **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
+- **Course site:** [python-public-policy.afeld.me/en/columbia/](https://python-public-policy.afeld.me/en/columbia/README.html)
+- **Class Meeting Times:** Tuesdays 1/17-2/28
+  - Section 1: 9-10:50am
+  - Section 2: 11-12:50pm
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
+- **Prerequisites:** None
+- Students should bring a laptop to class
+  - A tablet without a full keyboard will be hard to use for in-class exercises
+- No textbooks required
+
+## Instructor Information
+
+- **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
+- **Grader:** to be determined
+- **Office Hours:** fixed time to be determined, and by appointment
+
+{% else -%}
+
 ## Course Information
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
@@ -36,6 +59,8 @@
 - **Grader:** Tara Merigan, tsm6919@nyu.edu
 - **Office Hours:** Mondays at 5:30pm ET on Zoom, and by appointment
 
+{% endif -%}
+
 ## Description
 
 This seven-week course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
@@ -49,7 +74,11 @@ Class will be split between:
   - Start on the homework
   - Ask questions
 
+{% if school_slug == "nyu" -%}
+
 This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
+
+{% endif -%}
 
 ## Homework
 
@@ -72,6 +101,21 @@ Students will learn how to:
 
 ## Schedule
 
+{% if school_slug == "columbia" -%}
+
+| Lecture | Date | Topics                                            | Homework                                                                              |
+| ------- | ---- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [0][l0] | 1/17 | Intro to coding                                   | pre-class TODOs due                                                                   |
+| [1][l1] | 1/24 | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
+| [2][l2] | 1/31 | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
+| [3][l3] | 2/7  | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
+| [4][l4] | 2/14 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
+| [5][l5] | 2/21 | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
+| [6][l6] | 2/28 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
+| none    | 3/7  | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
+
+{% else -%}
+
 | Lecture | Date  | Topics                                            | Homework                                                                              |
 | ------- | ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due                                                                   |
@@ -82,6 +126,8 @@ Students will learn how to:
 | [5][l5] | 12/7  | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
 | [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
 | none    | 12/21 | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
+
+{% endif -%}
 
 [l0]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_1.html
@@ -199,6 +245,8 @@ All submissions must be made from a Jupyter notebook file, following [these inst
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
+{% if school_slug == "nyu" -%}
+
 ### Academic Integrity
 
 Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by [Wagner's Academic Code](https://wagner.nyu.edu/portal/students/policies/code). All Wagner students have already read and signed the [Wagner Academic Oath](https://wagner.nyu.edu/portal/students/policies/academic-oath). Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
@@ -216,3 +264,5 @@ Academic accommodations are available for students with disabilities. Please vis
 You have 24/7 support via NYU's IT services. Explore the [NYU servicelink knowledgebase](https://nyu.service-now.com/servicelink/search_results.do?sysparm_search=student+guides&x=0&y=0&sysparm_fa=&sysparm_sp=&sysparm_cat=&sysparm_serv=&sysparm_location=24e7c87598a074004c8c03063d84e2a6&sysparm_role=&sysparm_base=) for troubleshooting and student guides. Contact askIT@nyu.edu or 1-212-998-3333 (24/7) for technology assistance. Your peers are another source of support, so you could ask a friend or classmate for help or tips.
 
 If you do not have the appropriate hardware technology nor financial resources to purchase the technology, consider applying for the NYU [Emergency Relief Grant](https://www.nyu.edu/admissions/financial-aid-and-scholarships/covid-relief-grant.html).
+
+{% endif %}

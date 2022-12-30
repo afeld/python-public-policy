@@ -9,6 +9,7 @@ from traitlets import Unicode
 class SchoolText:
     """Class to ensure each school has matching keys"""
 
+    school_name: str
     course_name: str
     lms_name: str
     lms_url: str
@@ -18,6 +19,7 @@ class SchoolText:
 
 SCHOOL_TEXT = {
     "columbia": SchoolText(
+        school_name="Columbia University",
         course_name="Python for Public Policy",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/171519",
@@ -25,6 +27,7 @@ SCHOOL_TEXT = {
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
     ),
     "nyu": SchoolText(
+        school_name="NYU Wagner",
         course_name="Python Coding for Public Policy",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/206261",
