@@ -9,11 +9,15 @@ SCHOOL_TEXT = {
         "course_name": "Python for Public Policy",
         "lms_name": "CourseWorks",
         "lms_url": "https://courseworks2.columbia.edu/courses/171519",
+        "discussions_url": "https://courseworks2.columbia.edu/courses/171519/discussion_topics",
+        "lms_notification_settings_url": "https://courseworks2.columbia.edu/profile/communication",
     },
     "nyu": {
         "course_name": "Python Coding for Public Policy",
         "lms_name": "Brightspace",
         "lms_url": "https://brightspace.nyu.edu/d2l/home/206261",
+        "discussions_url": "https://brightspace.nyu.edu/d2l/le/206261/discussions/List",
+        "lms_notification_settings_url": "https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
     },
 }
 env = Environment()

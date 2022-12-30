@@ -96,13 +96,13 @@ Students will learn how to:
 - All announcements and assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions in {{lms_name}}](https://brightspace.nyu.edu/d2l/le/206261/discussions/List), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [the Discussions in {{lms_name}}]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
 ### Zoom
 
-The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in {{lms_name}} under the [Zoom tab](https://brightspace.nyu.edu/d2l/common/dialogs/quickLink/quickLink.d2l?ou=156784&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-240&srcou=6606&launchFramed=1&framedName=Zoom). You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
+The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in [{{lms_name}}]({{lms_url}}) under the Zoom tab. You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
 
 - The instructor won't interact with any Zoom participants.
 - Office hours will not be recorded.
@@ -157,9 +157,9 @@ Participation means:
 in either:
 
 - Office hours
-- [The Discussions in {{lms_name}}](https://brightspace.nyu.edu/d2l/le/206261/discussions/List)
+- [The Discussions in {{lms_name}}]({{discussions_url}})
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784) to make sure you see conversations that come through
+  - Suggest checking your [notifications settings]({{lms_notification_settings_url}}) to make sure you see conversations that come through
 
 The following don't count towards the Between-Class Participation score:
 
