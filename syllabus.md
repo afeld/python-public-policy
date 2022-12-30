@@ -22,7 +22,7 @@
 ## Course Information
 
 - **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
-- **Course site:** [python-public-policy.afeld.me/en/columbia/](https://python-public-policy.afeld.me/en/columbia/README.html)
+- **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/README.html)
 - **Class Meeting Times:** Tuesdays 1/17-2/28
   - Section 1: 9-10:50am
   - Section 2: 11-12:50pm
@@ -43,7 +43,7 @@
 ## Course Information
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
-- **Course site:** [python-public-policy.afeld.me/en/nyu/](https://python-public-policy.afeld.me/en/nyu/README.html)
+- **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/README.html)
 - **Class Meeting Times:** Wednesdays, 10/26-12/14 6:45-8:25pm ET
   - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
 - **Class Location:** [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
