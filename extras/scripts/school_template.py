@@ -4,7 +4,7 @@ from ..lib.school import render_template
 parser = ArgumentParser(
     # https://stackoverflow.com/a/8789689/358804
     prog=f"python -m {__loader__.name}",
-    description="Render template with school data.",
+    description="Render template with school data. This works on any type of file; see use of nbconvert for a Jupyter-specific implementation.",
 )
 parser.add_argument("filename")
 parser.add_argument("school_id")

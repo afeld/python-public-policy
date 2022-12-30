@@ -23,9 +23,9 @@ case $SCHOOL in
         ;;
 esac
 
-# render markdown files
-for f in ./*.md; do
-    python -m extras.scripts.school_md --inplace "$f" "$SCHOOL"
+# render non-notebook files
+for f in ./*.{md,yml}; do
+    python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
 done
 
 # render notebooks
