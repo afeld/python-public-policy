@@ -14,12 +14,11 @@ SCHOOL=$1
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-TARGET_BRANCH=$SCHOOL-auto
-# create a fresh branch
-git switch -c "$TARGET_BRANCH"
+# create a fresh branch locally
+git switch -c "$SCHOOL"
 git add .
 git commit -am "CI: render for school"
-git push -f origin "$TARGET_BRANCH"
+git push -f origin "$SCHOOL"
 
 # show diff from the target
 
