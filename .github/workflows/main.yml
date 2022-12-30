@@ -43,16 +43,3 @@ jobs:
     with:
       message: Check for changes
       command: ./extras/scripts/check_change.sh ${{ matrix.notebook }}
-
-  # TODO only run on main
-  schools:
-    strategy:
-      fail-fast: false
-      matrix:
-        school:
-          - columbia
-          - nyu
-    uses: ./.github/workflows/setup.yml
-    with:
-      message: Render for school
-      command: ./extras/scripts/school_ci.sh ${{ matrix.school }}
