@@ -3,7 +3,7 @@
 
 {% endif -%}
 
-# {{course_name}} - Fall 2022
+# {{course_name}} - {% if school_slug == "columbia" %}Spring 2023{% else %}Fall 2022{% endif %}
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -188,7 +188,7 @@ In general, assignments and resubmissions are due Wednesdays at 6:45pm (the star
 
 If the submission showed effort, feedback will be given through [annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class (the `End Date` on Assignments in {{lms_name}}), and can be resubmitted through {{lms_name}}.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 
 Requests for extensions will only be considered if made before the deadline.
 
