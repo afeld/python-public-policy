@@ -1,24 +1,36 @@
+import dataclasses
 from jinja2 import Environment
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
 from traitlets import Unicode
 
 
+@dataclasses.dataclass
+class SchoolText:
+    """Class to ensure each school has matching keys"""
+
+    course_name: str
+    lms_name: str
+    lms_url: str
+    discussions_url: str
+    lms_notification_settings_url: str
+
+
 SCHOOL_TEXT = {
-    "columbia": {
-        "course_name": "Python for Public Policy",
-        "lms_name": "CourseWorks",
-        "lms_url": "https://courseworks2.columbia.edu/courses/171519",
-        "discussions_url": "https://courseworks2.columbia.edu/courses/171519/discussion_topics",
-        "lms_notification_settings_url": "https://courseworks2.columbia.edu/profile/communication",
-    },
-    "nyu": {
-        "course_name": "Python Coding for Public Policy",
-        "lms_name": "Brightspace",
-        "lms_url": "https://brightspace.nyu.edu/d2l/home/206261",
-        "discussions_url": "https://brightspace.nyu.edu/d2l/le/206261/discussions/List",
-        "lms_notification_settings_url": "https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
-    },
+    "columbia": SchoolText(
+        course_name="Python for Public Policy",
+        lms_name="CourseWorks",
+        lms_url="https://courseworks2.columbia.edu/courses/171519",
+        discussions_url="https://courseworks2.columbia.edu/courses/171519/discussion_topics",
+        lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
+    ),
+    "nyu": SchoolText(
+        course_name="Python Coding for Public Policy",
+        lms_name="Brightspace",
+        lms_url="https://brightspace.nyu.edu/d2l/home/206261",
+        discussions_url="https://brightspace.nyu.edu/d2l/le/206261/discussions/List",
+        lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
+    ),
 }
 env = Environment()
 
@@ -26,7 +38,7 @@ env = Environment()
 def render_template(source: str, school_slug: str):
     template = env.from_string(source)
 
-    local_vars = SCHOOL_TEXT[school_slug].copy()
+    local_vars = dataclasses.asdict(SCHOOL_TEXT[school_slug])
     local_vars["school_slug"] = school_slug
 
     return template.render(**local_vars)
