@@ -23,5 +23,12 @@ git push -f origin "$TARGET_BRANCH"
 
 # show diff from the target
 # https://github.com/afeld/python-public-policy/pull/71/files
-git fetch origin columbia
-git diff --color-words origin/columbia syllabus.md README.md
+
+if [ "$SCHOOL" = "columbia" ]; then
+    COMPARE_BRANCH=columbia
+else
+    COMPARE_BRANCH=main
+fi
+
+git fetch origin $COMPARE_BRANCH
+git diff --color-words origin/$COMPARE_BRANCH syllabus.md README.md
