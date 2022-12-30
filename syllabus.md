@@ -1,4 +1,9 @@
-{% if id == "nyu" -%}
+{% if id == "columbia" -%}
+[![Columbia SIPA banner](extras/img/sipa.svg)](https://www.sipa.columbia.edu/)
+
+---
+
+{% else -%}
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
 {% endif -%}
