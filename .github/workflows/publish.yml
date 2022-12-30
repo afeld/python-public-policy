@@ -1,10 +1,8 @@
 name: Publish school-specific branches / site versions
-
 on:
   push:
     branches:
       - main
-
 jobs:
   schools:
     strategy:
@@ -14,6 +12,10 @@ jobs:
           - columbia
           - nyu
     uses: ./.github/workflows/setup.yml
+    # cancel any previous builds
+    concurrency:
+      group: schools-${{ github.ref }}
+      cancel-in-progress: true
     with:
       message: Render for school
       command: ./extras/scripts/school_ci.sh ${{ matrix.school }}
