@@ -10,6 +10,7 @@ SCHOOL=$1
 ./extras/scripts/school.sh "$SCHOOL"
 
 # remove irrelevant files
+
 git rm -rf \
     .github/ \
     nbdime_config.json \
@@ -17,6 +18,10 @@ git rm -rf \
     extras/scripts/ \
     extras/terraform/ \
     extras/**/test_*.py
+
+if [ "$SCHOOL" = "nyu" ]; then
+    git rm -r .codio* extras/codio
+fi
 
 git diff
 
