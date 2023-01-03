@@ -6,6 +6,16 @@ set -x
 
 SCHOOL=$1
 
+# remove irrelevant files
+
+git rm -r \
+    .github/ \
+    nbdime_config.json \
+    extras/pandas_crash_course.ipynb \
+    extras/scripts/ \
+    extras/terraform/ \
+    extras/**/test_*.py
+
 # render the files
 ./extras/scripts/school.sh "$SCHOOL"
 
@@ -19,15 +29,3 @@ git switch -c "$SCHOOL"
 git add .
 git commit -am "CI: render for school"
 git push -f origin "$SCHOOL"
-
-if [ "$SCHOOL" = "nyu" ]; then
-    # show diff from the original
-    
-    # https://gist.github.com/labynocle/93b151672585b8511ecd
-    # https://stackoverflow.com/questions/5326008/highlight-changed-lines-and-changed-bytes-in-each-changed-line/15149253#comment76619242_15149253
-    wget https://raw.githubusercontent.com/git/git/fd99e2bda0ca6a361ef03c04d6d7fdc7a9c40b78/contrib/diff-highlight/diff-highlight
-    chmod +x diff-highlight
-
-    git fetch origin main
-    git diff --color origin/main ./*.md ./*.ipynb | ./diff-highlight
-fi
