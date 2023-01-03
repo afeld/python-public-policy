@@ -6,8 +6,10 @@ set -x
 
 SCHOOL=$1
 
-# remove irrelevant files
+# render the files
+./extras/scripts/school.sh "$SCHOOL"
 
+# remove irrelevant files
 git rm -r \
     .github/ \
     nbdime_config.json \
@@ -15,9 +17,6 @@ git rm -r \
     extras/scripts/ \
     extras/terraform/ \
     extras/**/test_*.py
-
-# render the files
-./extras/scripts/school.sh "$SCHOOL"
 
 # https://lannonbr.com/blog/2019-12-09-git-commit-in-actions/
 # https://github.com/orgs/community/discussions/26560#discussioncomment-3252339
