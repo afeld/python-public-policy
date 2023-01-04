@@ -23,12 +23,6 @@ case $SCHOOL in
         ;;
 esac
 
-# render non-notebook files
-NON_MD_FILES=$(git ls-files ./*.{md,yml} _static/styles.css)
-for f in $NON_MD_FILES; do
-    python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
-done
-
 # render notebooks
 jupyter nbconvert \
     --to notebook --inplace \
@@ -37,3 +31,9 @@ jupyter nbconvert \
     --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
     --SchoolTemplate.school_id="$SCHOOL" \
     ./*.ipynb
+
+# render additional files
+OTHER_FILES=$(git ls-files -- ':!:*.ipynb' ':!:*.py' ':!:.github/workflows/*' ':!:extras/img/*')
+for f in $OTHER_FILES; do
+    python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
+done
