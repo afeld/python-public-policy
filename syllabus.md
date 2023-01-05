@@ -187,7 +187,7 @@ The Course Grade is based on the following:
 
 In general, assignments and resubmissions are due before the start of the next class. Scoring:
 
-- **Late work:** -0.5 points per day
+- **Late work:** {% if id == "columbia" %}-10%{% else %}-0.5 points{% endif %} per day
 - **Syntax errors:** -0.5 points
 - **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -0.1 points
