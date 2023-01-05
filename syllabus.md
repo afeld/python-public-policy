@@ -164,7 +164,7 @@ The classes will be streamed and recorded via Zoom on a best-effort basis. You c
 
 The Course Grade is based on the following:
 
-- Seven [Assignments](#assignments): 95%
+- Seven [Assignments](#assignment-scoring): 95%
   - [Homework 0][hw0]: 13%
   - [Homework 1][hw1]: 13%
   - [Homework 2][hw2]: 13%
@@ -183,7 +183,7 @@ The Course Grade is based on the following:
 [hw5]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html
 [hw6]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_6.html
 
-### Assignments
+### Assignment scoring
 
 In general, assignments and resubmissions are due before the start of the next class. Scoring:
 
