@@ -34,6 +34,7 @@ SCHOOLS = [
         discussions_url="https://courseworks2.columbia.edu/courses/171519/discussion_topics",
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
         words=[
+            # "codio", # TODO
             "columbia",
             "courseworks",
             "reader",
@@ -55,6 +56,7 @@ SCHOOLS = [
             "brightspace",
             # "conversation",  # Brightspace term, TODO
             "grader",
+            # "jupyterhub", # TODO
             "nyu",
             "padm",
             "python coding for public policy",  # Columbia version doesn't include "Coding"
