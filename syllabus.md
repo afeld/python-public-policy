@@ -43,7 +43,7 @@
 - **Readers:**
   - Section 1: Elaine Wei, etw2118@columbia.edu
   - Section 2: Mostafa Bushehri, mb5015@columbia.edu
-- **Office Hours:** fixed time to be determined, and by appointment
+- **Office Hours:** Tuesdays 2-3pm ET in IAB room 1322 and by appointment
 
 {% else -%}
 
