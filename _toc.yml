@@ -1,7 +1,7 @@
 format: jb-book
-root: index
+root: home
 chapters:
-  - file: README
+  - file: index
     title: Homepage
   - file: syllabus
     title: Syllabus

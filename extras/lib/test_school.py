@@ -6,11 +6,11 @@ import pytest
 @pytest.mark.parametrize("id", [("columbia"), ("nyu")])
 def test_site_path_injection(id):
     school = SCHOOL_TEXT[id]
-    cell = new_markdown_cell("https://python-public-policy.afeld.me/en/{{school_slug}}/README.html")
+    cell = new_markdown_cell("https://python-public-policy.afeld.me/en/{{school_slug}}/")
 
     updated_cell = render_cell(cell, id)
 
-    expected = f"https://python-public-policy.afeld.me/en/{school.school_slug}/README.html"
+    expected = f"https://python-public-policy.afeld.me/en/{school.school_slug}/"
     assert updated_cell.source == expected
 
 
