@@ -26,10 +26,24 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 
 ## Site
 
-The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). The files and folders that start with an underscore (`_`) are related to JupyterBook. Build locally from the `{{school_slug}}` branch with:
+The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Markdown (`.md`) files and the files and folders that start with an underscore (`_`) are related to JupyterBook.
+
+1. If not on the `{{school_slug}}` branch, render the files. _**This will overwrite local files, and thus you should stage changes first.**_
+
+      ```sh
+      ./extras/scripts/school.sh <school>
+      ```
+
+1. Build the site.
+
+      ```sh
+      jupyter-book build --all .
+      ```
+
+You can then check broken links with
 
 ```sh
-jupyter-book build .
+./extras/scripts/broken_links.sh
 ```
 
 ## Notebook cleanup
