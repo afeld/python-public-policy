@@ -258,7 +258,7 @@ Similarly, it is common practice to use code snippets found on the internet; the
 
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
-All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/#turning-in-assignments).
+All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html).
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
