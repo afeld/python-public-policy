@@ -93,7 +93,7 @@ def test_reminders(file):
 
     if file != "hw_6.ipynb":
         assert any(
-            "#turning-in-assignments" in cell.source for cell in notebook.cells
+            "assignments.html" in cell.source for cell in notebook.cells
         ), "Missing assignment submission instructions"
 
     if file not in ["hw_0.ipynb", "hw_6.ipynb"]:

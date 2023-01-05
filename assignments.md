@@ -11,6 +11,24 @@
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
+## Submission
+
+1. Ensure all the outputs are visible and the notebook is cleaned up.
+   - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`).
+   - See [general scoring criteria](syllabus.html#assignment-scoring).
+1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
+1. Export the notebook as a PDF. From the Jupyter interface, go to:
+   1. `File`
+   1. `Download as`
+   1. `PDF via LaTeX (PDF)`
+1. Glance through the PDF to ensure everything is showing up as you intend.
+   - What you see is what the instructors will see.
+1. Upload the PDF to the {{lms_name}} Assignment.
+
+After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
+
+Note: In-class exercises will not be graded.
+
 ## Common issues
 
 - **PDF export:**
@@ -38,21 +56,3 @@
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.
-
-## Turning in assignments
-
-1. Ensure all the outputs are visible and the notebook is cleaned up.
-   - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`).
-   - See [general scoring criteria](syllabus.html#assignment-scoring).
-1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
-1. Export the notebook as a PDF. From the Jupyter interface, go to:
-   1. `File`
-   1. `Download as`
-   1. `PDF via LaTeX (PDF)`
-1. Glance through the PDF to ensure everything is showing up as you intend.
-   - What you see is what the instructors will see.
-1. Upload the PDF to the {{lms_name}} Assignment.
-
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
-
-Note: In-class exercises will not be graded.
