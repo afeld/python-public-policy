@@ -5,6 +5,9 @@ chapters:
     title: Homepage
   - file: syllabus
     title: Syllabus
+  - file: assignments
+    title: Assignment info
+  - file: resources
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
   - url: https://padmgp-4506001-fall.rcnyu.org/
