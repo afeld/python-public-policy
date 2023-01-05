@@ -17,6 +17,7 @@ class SchoolText:
     lms_name: str
     lms_url: str
     discussions_url: str
+    survey_url: str
     lms_notification_settings_url: str
     words: list[str]
 
@@ -32,6 +33,7 @@ SCHOOLS = [
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/171519",
         discussions_url="https://courseworks2.columbia.edu/courses/171519/discussion_topics",
+        survey_url="https://courseworks2.columbia.edu/courses/171519/quizzes/156148",
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
         words=[
             # "codio", # TODO
@@ -51,6 +53,7 @@ SCHOOLS = [
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/206261",
         discussions_url="https://brightspace.nyu.edu/d2l/le/206261/discussions/List",
+        survey_url="https://docs.google.com/forms/d/e/1FAIpQLScBSZxzDX3WE1iaQYWrNbiIWMIBKiBw6Kri-hfhvKLn2zte9g/viewform?usp=sf_link",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
         words=[
             "brightspace",
