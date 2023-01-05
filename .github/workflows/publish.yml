@@ -1,8 +1,5 @@
 name: Publish school-specific branches / site versions
-on:
-  push:
-    branches:
-      - main
+on: push
 # cancel any previous builds
 concurrency:
   group: schools-${{ github.ref }}

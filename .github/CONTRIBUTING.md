@@ -26,7 +26,7 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 
 ## Site
 
-The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). The files and folders that start with an underscore (`_`) are related to JupyterBook. Build locally with:
+The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). The files and folders that start with an underscore (`_`) are related to JupyterBook. Build locally from the `{{school_slug}}` branch with:
 
 ```sh
 jupyter-book build .
@@ -40,6 +40,8 @@ To ensure that notebooks have the correct execution order and output, run them n
 ./extras/scripts/update.sh <file>.ipynb
 ```
 
+{% if id == "nyu" -%}
+
 ## Start of class checklist
 
 - Zoom
@@ -52,25 +54,7 @@ To ensure that notebooks have the correct execution order and output, run them n
 - [Set placeholders](https://settings-fall.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 
-## Assignment checks
-
-The following should be true for each assignment:
-
-- Links to the [instructions to submit](../README.html#turning-in-assignments)
-- Dates are correct:
-  - `Due Date`s should match the [schedule](../syllabus.html#schedule): subsequent Wednesdays 6:45pm, week by week
-  - `End Date` should be the Sundays at 6:45pm following the `Due Date`
-    - Exception is HW6, which can't be turned in late
-- Associated with the `Homework` `gradebook category`
-- Each Assignment is Visible
-
-## Homework extensions
-
-1. Go to [Assignments](https://brightspace.nyu.edu/d2l/lms/dropbox/admin/folders_manage.d2l?ou=156784)
-1. Edit Assignment
-1. Expand "Availability Dates & Conditions"
-1. Click "Manage Special Access"
-1. Check "Has Due Date"
+{% endif -%}
 
 ## Data sets
 

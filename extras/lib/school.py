@@ -61,8 +61,10 @@ SCHOOLS = [
     ),
 ]
 SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
+# should all be lowercase
 EXEMPT = [
     "hannahkates/nyu-python-public-policy",
+    "nyu's quantitative analysis guide",
     "rcnyu.org",  # TODO
 ]
 
@@ -79,22 +81,24 @@ def render_template(source: str, school_id: str):
 
 
 def check_line(line: str, line_num: int, this_school: SchoolText):
+    lower_line = line.lower()
     other_schools = [other_school for other_school in SCHOOLS if other_school.id != this_school.id]
+
     for other_school in other_schools:
         for word in other_school.words:
             for exemption in EXEMPT:
-                if exemption in line.lower():
+                if exemption in lower_line:
                     return
 
-            msg = f'"{word}" found, line {line_num}:\n\n{line}'
-            assert word not in line.lower(), msg
+            msg = f'"{word}" found, line {line_num}:\n\n{line}\n'
+            assert word not in lower_line, msg
 
     # site check
     if COURSE_HOSTNAME in line:
         # (imperfectly) assure it's linking to the right version
         assert (
             f"{COURSE_HOSTNAME}/en/{this_school.school_slug}" in line
-        ), f"Not properly linking to course site, line {line_num}:\n\n{line}"
+        ), f"Not properly linking to course site, line {line_num}:\n\n{line}\n"
 
 
 def confirm_other_schools_not_included(source: str, school_id: str):

@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -e
-set -x
 
 # confirm there's exactly one argument
 if [ "$#" -ne 1 ]; then
@@ -23,13 +22,7 @@ case $SCHOOL in
         ;;
 esac
 
-# render non-notebook files
-NON_MD_FILES=$(git ls-files ./*.{md,yml} _static/styles.css)
-for f in $NON_MD_FILES; do
-    python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
-done
-
-# render notebooks
+echo "Rendering notebooks…"
 jupyter nbconvert \
     --to notebook --inplace \
     --TagRemovePreprocessor.enabled=True \
@@ -37,3 +30,15 @@ jupyter nbconvert \
     --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
     --SchoolTemplate.school_id="$SCHOOL" \
     ./*.ipynb
+
+# render additional files
+OTHER_FILES=$(git ls-files -- \
+    ':!:*.ipynb' ':!:*.py' ':!:*.sh' ':!:*.tf' \
+    ':!:.github/workflows/*' \
+    ':!:.github/ISSUE_TEMPLATE/new-term.md' \
+    ':!:extras/img/*')
+
+for f in $OTHER_FILES; do
+    echo "Rendering $f..."
+    python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
+done

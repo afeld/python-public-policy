@@ -125,7 +125,7 @@ Note: In-class exercises will not be graded.
   - [DataCamp](https://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
   - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 - [Python for Data Analysis book](https://wesmckinney.com/book/)
-- NYU's [Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
+- [NYU's Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
 
 There are countless other blog posts, videos, books, etc. out there. There is no "best" resource, as individuals prefer different formats, come in with different experience, and learn at different speeds. Anything that comes up near the top of a Google search will likely be fine.
 

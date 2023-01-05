@@ -1,6 +1,6 @@
 ---
 name: new term
-about: How to switch over for a new semester
+about: How to switch over for a new semester at NYU
 title: prep for new term
 labels: ""
 assignees: afeld
@@ -19,7 +19,7 @@ assignees: afeld
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1aVKsHHz0riU2eR6lDa6Gw1nfIYQ_MZ6d2sirQytT75s/edit#)
-  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information)
+  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] Update bookmarks in Chrome

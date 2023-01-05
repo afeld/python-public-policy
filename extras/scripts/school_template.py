@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from ..lib.school import render_template
+from ..lib.school import confirm_other_schools_not_included, render_template
 
 parser = ArgumentParser(
     # https://stackoverflow.com/a/8789689/358804
@@ -20,6 +20,8 @@ with open(args.filename, mode) as f:
     # Jinja2 seems to strip the trailing newline
     if not result.endswith("\n"):
         result += "\n"
+
+    confirm_other_schools_not_included(result, args.school_id)
 
     if args.inplace:
         f.seek(0)
