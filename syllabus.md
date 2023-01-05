@@ -171,7 +171,7 @@ The Course Grade is based on the following:
   - [Homework 3][hw3]: 13%
   - [Homework 4][hw4]: 13%
   - [Homework 5][hw5]: 6%
-  - [Homework 6 proposal][hw5]: 6%
+  - [Homework 6 proposal][hw6_prop]: 6%
   - [Homework 6][hw6]: 18%
 - [Between-Class Participation](#participation): 5%
 
@@ -181,6 +181,7 @@ The Course Grade is based on the following:
 [hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
 [hw5]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html
+[hw6_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html#homework-6-proposal
 [hw6]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_6.html
 
 ### Assignment scoring
