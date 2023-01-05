@@ -36,6 +36,7 @@ SCHOOLS = [
         words=[
             "columbia",
             "courseworks",
+            "reader",
             "python for public policy",
             "sipa",
         ],
@@ -53,6 +54,7 @@ SCHOOLS = [
         words=[
             "brightspace",
             # "conversation",  # Brightspace term, TODO
+            "grader",
             "nyu",
             "padm",
             "python coding for public policy",  # Columbia version doesn't include "Coding"
@@ -66,6 +68,7 @@ EXEMPT = [
     "hannahkates/nyu-python-public-policy",
     "nyu's quantitative analysis guide",
     "rcnyu.org",  # TODO
+    "walk the reader",
 ]
 
 env = Environment()

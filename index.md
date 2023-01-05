@@ -194,7 +194,7 @@ From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 ## Jupyter beyond JupyterHub
 
-We use [a cloud-based JupyterHub environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported by the instructor/grader for course work.
+We use [a cloud-based JupyterHub environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
 After this class, however, you'll no longer have access to the class JupyterHub. Some options for running Jupyter on your own:
 

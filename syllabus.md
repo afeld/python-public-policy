@@ -40,7 +40,9 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
-- **Grader:** to be determined
+- **Readers:**
+  - Section 1: Elaine Wei, etw2118@columbia.edu
+  - Section 2: Mostafa Bushehri, mb5015@columbia.edu
 - **Office Hours:** fixed time to be determined, and by appointment
 
 {% else -%}
