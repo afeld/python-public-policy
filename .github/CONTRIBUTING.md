@@ -26,7 +26,7 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 
 ## Site
 
-The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). The files and folders that start with an underscore (`_`) are related to JupyterBook. Build locally from the `columbia` or `nyu` branches with:
+The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). The files and folders that start with an underscore (`_`) are related to JupyterBook. Build locally from the `{{school_slug}}` branch with:
 
 ```sh
 jupyter-book build .
@@ -40,6 +40,8 @@ To ensure that notebooks have the correct execution order and output, run them n
 ./extras/scripts/update.sh <file>.ipynb
 ```
 
+{% if id == "nyu" -%}
+
 ## Start of class checklist
 
 - Zoom
@@ -51,6 +53,8 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. Start recording
 - [Set placeholders](https://settings-fall.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
+
+{% endif -%}
 
 ## Data sets
 

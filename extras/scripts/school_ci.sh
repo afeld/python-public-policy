@@ -10,7 +10,7 @@ SCHOOL=$1
 ./extras/scripts/school.sh "$SCHOOL"
 
 # remove irrelevant files
-git rm -r \
+git rm -rf \
     .github/ \
     nbdime_config.json \
     extras/pandas_crash_course.ipynb \

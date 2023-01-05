@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -e
-set -x
 
 # confirm there's exactly one argument
 if [ "$#" -ne 1 ]; then
@@ -23,7 +22,7 @@ case $SCHOOL in
         ;;
 esac
 
-# render notebooks
+echo "Rendering notebooks…"
 jupyter nbconvert \
     --to notebook --inplace \
     --TagRemovePreprocessor.enabled=True \
@@ -33,7 +32,13 @@ jupyter nbconvert \
     ./*.ipynb
 
 # render additional files
-OTHER_FILES=$(git ls-files -- ':!:*.ipynb' ':!:*.py' ':!:.github/workflows/*' ':!:extras/img/*')
+OTHER_FILES=$(git ls-files -- \
+    ':!:*.ipynb' ':!:*.py' ':!:*.sh' ':!:*.tf' \
+    ':!:.github/workflows/*' \
+    ':!:.github/ISSUE_TEMPLATE/new-term.md' \
+    ':!:extras/img/*')
+
 for f in $OTHER_FILES; do
+    echo "Rendering $f..."
     python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
 done
