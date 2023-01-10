@@ -41,7 +41,7 @@
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
 - **Readers:**
-  - Section 1: Elaine Wei, etw2118@columbia.edu
+  - Section 1: Kellyann Hayes, kh3117@columbia.edu
   - Section 2: Mostafa Bushehri, mb5015@columbia.edu
 - **Office Hours:** Tuesdays 2-3pm ET in IAB room 1322 and by appointment
 
