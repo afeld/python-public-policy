@@ -32,13 +32,14 @@ SCHOOLS = [
         course_name="Python for Public Policy",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/171519",
-        discussions_url="https://courseworks2.columbia.edu/courses/171519/discussion_topics",
-        survey_url="https://courseworks2.columbia.edu/courses/171519/quizzes/156148",
+        discussions_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
+        survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
         words=[
             # "codio", # TODO
             "columbia",
             "courseworks",
+            "ed discussion",
             "reader",
             "python for public policy",
             "sipa",
