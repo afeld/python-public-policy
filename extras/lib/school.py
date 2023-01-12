@@ -34,7 +34,7 @@ SCHOOLS = [
         lms_url="https://courseworks2.columbia.edu/courses/171519",
         discussions_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
-        lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
+        lms_notification_settings_url="https://edstem.org/us/settings/notifications",
         words=[
             # "codio", # TODO
             "columbia",

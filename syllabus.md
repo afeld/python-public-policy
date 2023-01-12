@@ -217,6 +217,7 @@ Participation means:
 - Asking a question
 - Answering a question
 - Posting a useful/interesting resource
+- Sharing an insight
 
 in either:
 
