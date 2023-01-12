@@ -1,0 +1,18 @@
+{
+	"title": "Homework 0",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": false,
+	"useMarkAsComplete": false,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Guide-bda2"
+	]
+}

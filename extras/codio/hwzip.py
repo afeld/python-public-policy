@@ -15,4 +15,8 @@ with ZipFile(dest, "w") as zip:
     zip.write("extras/codio/.codio-menu", ".codio-menu")
     zip.write(f"{name}.ipynb")
 
+    zip.write("extras/codio/.guides/content/Guide-bda2.json", ".guides/content/Guide-bda2.json")
+    zip.write("extras/codio/.guides/content/Guide-bda2.md", ".guides/content/Guide-bda2.md")
+    zip.write("extras/codio/.guides/content/index.json", ".guides/content/index.json")
+
 print(f"Created {dest}")
