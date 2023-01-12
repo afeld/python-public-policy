@@ -29,11 +29,9 @@ Expanding on the [official instructions](https://docs.codio.com/develop/develop/
    1. Click `Add project-based assignment`.
    1. `Import`
    1. Use stack `python-public-policy`
-   1. `Source`: `Zip File`
-   1. Create the Guide.
-      1. Paste in `This file can be ignored.`
-      1. Under `Layout`:
-         1. Select `Layout`: `1 Panel`.
-         1. `Show file tree` should be off.
+   1. `Source`: `Zip File`, unloading the file from above
+   1. Create
+   1. Save the notebook so that the `Python 3` kernel is selected
+   1. `Publish`
 
 1. [Create on the Canvas side.](https://docs.codio.com/instructors/admin/integration/lms-systems/canvas.html#mapping-an-assignment-to-a-canvas-assignment)
