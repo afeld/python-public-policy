@@ -6,22 +6,24 @@ set -x
 
 SCHOOL=$1
 
-# render the files
-./extras/scripts/school.sh "$SCHOOL"
-
 # remove irrelevant files
 
-git rm -rf \
+git rm -r \
     .github/ \
     nbdime_config.json \
     extras/pandas_crash_course.ipynb \
-    extras/scripts/ \
     extras/terraform/ \
     extras/**/test_*.py
 
 if [ "$SCHOOL" = "nyu" ]; then
-    git rm -r .codio* extras/codio
+    git rm -r extras/codio
 fi
+
+# render the files
+./extras/scripts/school.sh "$SCHOOL"
+
+# remove remaining files
+git rm -r extras/scripts/
 
 git diff
 

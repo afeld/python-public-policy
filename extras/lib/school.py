@@ -72,6 +72,7 @@ SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 # should all be lowercase
 EXEMPT = [
     "hannahkates/nyu-python-public-policy",
+    "nbgrader",
     "nyu's quantitative analysis guide",
     "rcnyu.org",  # TODO
     "walk the reader",
