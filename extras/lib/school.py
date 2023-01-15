@@ -35,8 +35,9 @@ SCHOOLS = [
         discussions_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
+        coding_env_name="Codio",
         words=[
-            # "codio", # TODO
+            "codio",
             "columbia",
             "courseworks",
             "ed discussion",
@@ -56,11 +57,12 @@ SCHOOLS = [
         discussions_url="https://brightspace.nyu.edu/d2l/le/206261/discussions/List",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLScBSZxzDX3WE1iaQYWrNbiIWMIBKiBw6Kri-hfhvKLn2zte9g/viewform?usp=sf_link",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
+        coding_env_name="JupyterHub",
         words=[
             "brightspace",
             # "conversation",  # Brightspace term, TODO
             "grader",
-            # "jupyterhub", # TODO
+            "jupyterhub",
             "nyu",
             "padm",
             "python coding for public policy",  # Columbia version doesn't include "Coding"
@@ -74,7 +76,6 @@ EXEMPT = [
     "hannahkates/nyu-python-public-policy",
     "nbgrader",
     "nyu's quantitative analysis guide",
-    "rcnyu.org",  # TODO
     "walk the reader",
 ]
 
