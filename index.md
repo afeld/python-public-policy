@@ -15,7 +15,7 @@ The materials are also available for public consumption. If you are _not_ part o
   - Viewing Announcements
   - Submitting Assignments
   - Viewing grades
-- [{{coding_env_name}}](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
+- [{{coding_env_name}}]({{coding_env_url}}), where work will be completed
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
 

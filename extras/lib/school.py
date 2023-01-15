@@ -19,6 +19,8 @@ class SchoolText:
     discussions_url: str
     survey_url: str
     lms_notification_settings_url: str
+    coding_env_name: str
+    coding_env_url: str
     words: list[str]
 
 
@@ -36,6 +38,7 @@ SCHOOLS = [
         survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
         coding_env_name="Codio",
+        coding_env_url="https://courseworks2.columbia.edu/courses/171519/external_tools/52956",
         words=[
             "codio",
             "columbia",
@@ -58,8 +61,10 @@ SCHOOLS = [
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLScBSZxzDX3WE1iaQYWrNbiIWMIBKiBw6Kri-hfhvKLn2zte9g/viewform?usp=sf_link",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
         coding_env_name="JupyterHub",
+        coding_env_url="https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/",
         words=[
             "brightspace",
+            "conda",
             # "conversation",  # Brightspace term, TODO
             "grader",
             "jupyterhub",

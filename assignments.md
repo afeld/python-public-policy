@@ -5,7 +5,8 @@
 
 ## Tips
 
-- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy), but should keep any changes you make.
+{% if id == 'nyu' %}- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy), but should keep any changes you make.{% endif %}
+
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
@@ -55,4 +56,4 @@ Note: In-class exercises will not be graded.
   - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
-  - Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.
+  {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.{% endif %}
