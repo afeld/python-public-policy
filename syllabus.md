@@ -188,11 +188,11 @@ The Course Grade is based on the following:
 
 In general, assignments and resubmissions are due before the start of the next class. Scoring:
 
-- **Late work:** {% if id == "columbia" %}-10%{% else %}-0.5 points{% endif %} per day
-- **Syntax errors:** -0.5 points
-- **Incomplete Steps / Steps with logic errors:** -0.1 to -0.2 points
-- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -0.1 points
-- **Unattempted Steps:** -0.4 points
+- **Late work:** {% if id == "columbia" %}-10%{% else %}-10 points{% endif %} per day
+- **Syntax errors:** -10 points
+- **Incomplete Steps / Steps with logic errors:** -2 to -5 points
+- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -3 points
+- **Unattempted Steps:** -10 points
 
 If the submission showed effort, feedback will be given through [annotations in {{lms_name}}][annotations].
 
@@ -240,7 +240,7 @@ A student's overall Between-Class Participation score is calculated based on som
 
 Letter grades for the entire course will be assigned as follows:
 
-| Letter Grade | Points     | Description | Criteria                                                                                                                                                                                                                                                                                                                                                                   |
+| Letter Grade | GPA Points     | Description | Criteria                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------ | ---------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A            | 4.0 points | Excellent   | Exceptional work for a graduate student. Work at this level is unusually thorough, well-reasoned, creative, methodologically sophisticated, and well written. Work is of exceptional, professional quality.                                                                                                                                                                |
 | A-           | 3.7 points | Very good   | Very strong work for a graduate student. Work at this level shows signs of creativity, is thorough and well-reasoned, indicates strong understanding of appropriate methodological or analytical approaches, and meets professional standards.                                                                                                                             |
