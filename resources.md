@@ -7,7 +7,17 @@
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
-{% if id == "nyu" -%}
+{% if id == "columbia" -%}
+
+## Columbia
+
+- [Foundations for Research Computing](https://rcfoundations.research.columbia.edu/)
+- [Data Science Institute](https://datascience.columbia.edu/)
+- Library
+  - [Research Data Services](https://library.columbia.edu/services/research-data-services.html)
+  - [Studio](https://studio.cul.columbia.edu/)
+
+{% else -%}
 
 ## NYU
 
@@ -55,6 +65,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 ### Columbia
 
 - [Other Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext)
+- [Library Workshops](https://library.columbia.edu/using-libraries/workshops.html)
 
 {% else -%}
 
