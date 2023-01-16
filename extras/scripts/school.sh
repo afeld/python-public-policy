@@ -31,11 +31,15 @@ jupyter nbconvert \
     --SchoolTemplate.school_id="$SCHOOL" \
     ./*.ipynb
 
-# render additional files
+# render additional files, with a bunch of exceptions
 OTHER_FILES=$(git ls-files -- \
-    ':!:*.ipynb' ':!:*.py' ':!:*.sh' ':!:*.tf' \
+    ':!:*.ipynb' ':!:*.js' ':!:*.py' ':!:*.sh' ':!:*.tf' \
+    ':!:**/environment.yml' \
     ':!:.github/workflows/*' \
     ':!:.github/ISSUE_TEMPLATE/new-term.md' \
+    ':!:.readthedocs.yaml' \
+    ':!:_config.yml' \
+    ':!:extras/codio/*' \
     ':!:extras/img/*')
 
 for f in $OTHER_FILES; do

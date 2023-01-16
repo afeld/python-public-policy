@@ -78,9 +78,13 @@ SCHOOLS = [
 SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 # should all be lowercase
 EXEMPT = [
+    "anaconda",
+    "conda activate",
+    "create the environment",
     "hannahkates/nyu-python-public-policy",
     "nbgrader",
     "nyu's quantitative analysis guide",
+    "secondary", # matches "conda"
     "walk the reader",
 ]
 

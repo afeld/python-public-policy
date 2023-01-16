@@ -43,7 +43,7 @@ Note: In-class exercises will not be graded.
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
-- **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
+- **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of {% if id == 'columbia' %}5GB across all your assignments{% else %}1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files{% endif %}. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
   - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor.
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
@@ -51,9 +51,9 @@ Note: In-class exercises will not be graded.
 
 ### Kernel/memory issues
 
-- Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
+{% if id == 'nyu' %}- Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
   - Shows in the top right of the notebook interface
-  - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`
+  - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`{% endif %}
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.{% endif %}
