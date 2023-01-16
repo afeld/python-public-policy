@@ -264,7 +264,21 @@ All submissions must be made from a Jupyter notebook file, following [these inst
 
 Attendance is mandatory but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
 
-{% if id == "nyu" -%}
+{% if id == "columbia" -%}
+
+### SIPA Academic Integrity Statement
+
+The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean’s Disciplinary Procedures.
+
+Please familiarize yourself with the proper methods of citation and attribution. The School provides some useful resources online; we strongly encourage you to familiarize yourself with these various styles before conducting research. Cut and paste the following link into your browser to view the Code of Academic & Professional Conduct and to access useful resources on citation and attribution: http://bulletin.columbia.edu/sipa/academic-policies/
+
+Violations of the Code of Academic & Professional Conduct should be reported to the Associate Dean for Student Affairs.
+
+### SIPA Disability Statement
+
+SIPA is committed to ensuring that students registered with Columbia University’s Disability Services (DS) receive the reasonable accommodations necessary to participate fully in their academic programs. If you are a student with a disability and have a DS-certified accommodation letter, you may wish to make an appointment with your course instructor to discuss your accommodations. Faculty provide disability accommodations to students with DS-certified accommodation letters, and they provide the accommodations specified in such letters. If you have any additional questions, please contact SIPA’s DS liaison at disability@sipa.columbia.edu or 212-854-8690.
+
+{% else -%}
 
 ### Academic Integrity
 
