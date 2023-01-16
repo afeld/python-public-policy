@@ -67,11 +67,11 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 {% endif -%}
 
-## Jupyter beyond JupyterHub
+## Jupyter outside this course
 
-We use [a cloud-based JupyterHub environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
+We use [a cloud-based Jupyter environment](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
-After this class, however, you'll no longer have access to the class JupyterHub. Some options for running Jupyter on your own:
+After this class, however, you'll no longer have access to the class {{coding_env_name}}. Some options for running Jupyter on your own:
 
 - [Google Colab](https://colab.research.google.com/)
 - [Anaconda](https://www.anaconda.com/)
@@ -95,6 +95,12 @@ Note these instructions won't work in Colab.
 
    ```sh
    conda activate python-public-policy
+   ```
+
+1. Install Python dependencies used in notebooks:
+
+   ```sh
+   pip install -r extras/requirements.txt
    ```
 
 1. Start the Jupyter server:

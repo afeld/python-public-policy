@@ -24,5 +24,7 @@ jobs:
           environment-file: extras/environment.yml
           cache-downloads: true
           cache-env: true
+      - name: Install Python packages
+        run: pip install -r extras/requirements.txt
       - name: ${{ inputs.message }}
         run: ${{ inputs.command }}

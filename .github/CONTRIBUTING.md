@@ -1,8 +1,10 @@
 # Contributing
 
+{% if id == "nyu" -%}
 - JupyterHub
   - [Settings](https://settings-fall.rcnyu.org/)
   - [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
+{% endif -%}
 
 ## Adding/updating packages
 
@@ -14,11 +16,15 @@
    ```
 
 1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
-1. Update other environment(s) (e.g. JupyterHub)
+{% if id == "columbia" -%}
+1. [Update the stack](../extras/codio/README.md#creating-the-stack)
+{% else -%}
+1. Update environment in JupyterHub
 
    ```sh
    mamba env update --file environment.yml --prune
    ```
+{% endif -%}
 
 ## Slides
 

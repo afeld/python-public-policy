@@ -10,8 +10,8 @@ chapters:
   - file: resources
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
-  - url: https://padmgp-4506001-fall.rcnyu.org/
-    title: JupyterHub
+  - url: "{{coding_env_url}}"
+    title: "{{coding_env_name}}"
   - file: lecture_0
     sections:
       - file: hw_0

@@ -1,6 +1,7 @@
 __pycache__/
 _build/
 .ipynb_checkpoints/
+.nbgrader.log
 *.csv
 *.slides.html
 conf.py
