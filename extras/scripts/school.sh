@@ -38,7 +38,6 @@ OTHER_FILES=$(git ls-files -- \
     ':!:.github/workflows/*' \
     ':!:.github/ISSUE_TEMPLATE/new-term.md' \
     ':!:.readthedocs.yaml' \
-    ':!:_config.yml' \
     ':!:extras/codio/*' \
     ':!:extras/img/*')
 

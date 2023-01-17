@@ -82,6 +82,7 @@ EXEMPT = [
     "conda activate",
     "create the environment",
     "hannahkates/nyu-python-public-policy",
+    "jupyterhub_url",
     "nbgrader",
     "nyu's quantitative analysis guide",
     "secondary", # matches "conda"
