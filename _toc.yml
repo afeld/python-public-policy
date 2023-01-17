@@ -29,11 +29,9 @@ chapters:
     sections:
       - file: hw_4
   - file: lecture_5
+  - file: hw_5
     sections:
-      - file: hw_5
-  - file: hw_6
-    sections:
-      - file: hw_6/creepy_crawly.ipynb
-      - file: hw_6/lead.ipynb
-      - file: hw_6/universities.ipynb
+      - file: hw_5/creepy_crawly.ipynb
+      - file: hw_5/lead.ipynb
+      - file: hw_5/universities.ipynb
   - file: lecture_6
