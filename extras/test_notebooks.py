@@ -91,12 +91,12 @@ hw_notebooks = glob.glob("hw_*.ipynb")
 def test_reminders(file):
     notebook = read_notebook(file)
 
-    if file != "hw_6.ipynb":
+    if file != "hw_5.ipynb":
         assert any(
             "assignments.html" in cell.source for cell in notebook.cells
         ), "Missing assignment submission instructions"
 
-    if file not in ["hw_0.ipynb", "hw_6.ipynb"]:
+    if file not in ["hw_0.ipynb", "hw_5.ipynb"]:
         assert any(
             "participation" in cell.source for cell in notebook.cells
         ), "Missing participation reminder"

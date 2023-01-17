@@ -110,29 +110,20 @@ Students will learn how to:
 
 {% if school_slug == "columbia" -%}
 
-| Lecture | Date | Topics                                            | Homework                                                                              |
-| ------- | ---- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [0][l0] | 1/17 | Intro to coding                                   | pre-class TODOs due                                                                   |
-| [1][l1] | 1/24 | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
-| [2][l2] | 1/31 | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
-| [3][l3] | 2/7  | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
-| [4][l4] | 2/14 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
-| [5][l5] | 2/21 | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
-| [6][l6] | 2/28 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
-| none    | 3/7  | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
+| Lecture | Date | Topics                                      | Homework                                                                                   |
+| ------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [0][l0] | 1/17 | Intro to coding                             | pre-class TODOs due                                                                        |
+| [1][l1] | 1/24 | Intro to Pandas                             | [Homework 0][hw0] due                                                                      |
+| [2][l2] | 1/31 | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                   |
+| [3][l3] | 2/7  | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                   |
+| [4][l4] | 2/14 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                   |
+| [5][l5] | 2/21 | Guest lectures                              | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Homework 5 proposal][hw5_prop] due |
+| [6][l6] | 2/28 | APIs                                        | [Homework 4][hw4] resubmission and [Homework 5][hw5] due                                   |
+| none    | 3/7  | none                                        | [Homework 5][hw5] peer grading due                                                         |
 
 {% else -%}
 
-| Lecture | Date  | Topics                                            | Homework                                                                              |
-| ------- | ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [0][l0] | 10/26 | Intro to coding                                   | pre-class TODOs due                                                                   |
-| [1][l1] | 11/2  | Intro to Pandas                                   | [Homework 0][hw0] due                                                                 |
-| [2][l2] | 11/9  | Manipulating and combining data                   | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                              |
-| [3][l3] | 11/16 | Data visualization                                | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                              |
-| [4][l4] | 11/30 | Working with dates and time series analysis       | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                              |
-| [5][l5] | 12/7  | APIs                                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                              |
-| [6][l6] | 12/14 | Guest lecture(s) and topic(s) of students' choice | [Homework 4][hw4] resubmission, [Homework 5][hw5], and [Homework 6 proposal][hw5] due |
-| none    | 12/21 | none                                              | [Homework 5][hw5] resubmission and [Homework 6][hw6] due                              |
+TODO
 
 {% endif -%}
 
@@ -165,14 +156,14 @@ The classes will be streamed and recorded via Zoom on a best-effort basis. You c
 The Course Grade is based on the following:
 
 - Seven [Assignments](#assignment-scoring): 95%
-  - [Homework 0][hw0]: 13%
-  - [Homework 1][hw1]: 13%
-  - [Homework 2][hw2]: 13%
-  - [Homework 3][hw3]: 13%
-  - [Homework 4][hw4]: 13%
-  - [Homework 5][hw5]: 6%
-  - [Homework 6 proposal][hw6_prop]: 6%
-  - [Homework 6][hw6]: 18%
+  - [Homework 0][hw0]: 14%
+  - [Homework 1][hw1]: 14%
+  - [Homework 2][hw2]: 14%
+  - [Homework 3][hw3]: 14%
+  - [Homework 4][hw4]: 7%
+  - [Homework 5 proposal][hw5_prop]: 7%
+  - [Homework 5][hw5]: 20%
+  - [Homework 5][hw5] peer grading: 5%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_0.html
@@ -180,9 +171,8 @@ The Course Grade is based on the following:
 [hw2]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_2.html
 [hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
+[hw5_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html#homework-6-proposal
 [hw5]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html
-[hw6_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html#homework-6-proposal
-[hw6]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_6.html
 
 ### Assignment scoring
 
@@ -240,7 +230,7 @@ A student's overall Between-Class Participation score is calculated based on som
 
 Letter grades for the entire course will be assigned as follows:
 
-| Letter Grade | GPA Points     | Description | Criteria                                                                                                                                                                                                                                                                                                                                                                   |
+| Letter Grade | GPA Points | Description | Criteria                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------ | ---------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A            | 4.0 points | Excellent   | Exceptional work for a graduate student. Work at this level is unusually thorough, well-reasoned, creative, methodologically sophisticated, and well written. Work is of exceptional, professional quality.                                                                                                                                                                |
 | A-           | 3.7 points | Very good   | Very strong work for a graduate student. Work at this level shows signs of creativity, is thorough and well-reasoned, indicates strong understanding of appropriate methodological or analytical approaches, and meets professional standards.                                                                                                                             |
