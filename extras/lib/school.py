@@ -37,10 +37,10 @@ SCHOOLS = [
         discussions_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
-        coding_env_name="Codio",
-        coding_env_url="https://courseworks2.columbia.edu/courses/171519/external_tools/52956",
+        coding_env_name="Google Colab",
+        coding_env_url="https://colab.research.google.com",
         words=[
-            "codio",
+            "colab",
             "columbia",
             "courseworks",
             "ed discussion",
@@ -78,7 +78,9 @@ SCHOOLS = [
 SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 # should all be lowercase
 EXEMPT = [
+    "- [google colab](https://colab.research.google.com/)",
     "anaconda",
+    "built around it",  # referring to Colab
     "conda activate",
     "create the environment",
     "hannahkates/nyu-python-public-policy",
@@ -86,6 +88,7 @@ EXEMPT = [
     "nbgrader",
     "nyu's quantitative analysis guide",
     "secondary",  # matches "conda"
+    "these instructions won't work in colab",
     "walk the reader",
 ]
 
