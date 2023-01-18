@@ -1,6 +1,0 @@
-ipytest~=0.12.0
-pandas~=1.0
-plotly~=5.0
-statsmodels~=0.1
-# https://plotly.com/python/static-image-export/
-kaleido

@@ -112,12 +112,6 @@ Note these instructions won't work in Colab.
    conda activate python-public-policy
    ```
 
-1. Install Python dependencies used in notebooks:
-
-   ```sh
-   pip install -r extras/requirements.txt
-   ```
-
 1. Start the Jupyter server:
 
    ```sh
