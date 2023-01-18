@@ -20,8 +20,12 @@ repository:
   branch: "{{school_slug}}"
 launch_buttons:
   binderhub_url: ""
+  {% if id == 'columbia' -%}
+  colab_url: "https://colab.research.google.com"
+  {% else -%}
   # this gets overridden; see _static/site.js
   jupyterhub_url: https://padmgp-4506001-fall.rcnyu.org
+  {% endif %}
 sphinx:
   config:
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly

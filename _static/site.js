@@ -2,16 +2,13 @@
 // https://jupyterbook.org/en/stable/interactive/launchbuttons.html#add-a-launch-on-jupyterhub-button
 // This script switches that link to use the notebook URL in the synchronized repository.
 window.addEventListener("load", () => {
-  const launcher = document.querySelector(".menu-dropdown-launch-buttons a");
+  const launcher = document.querySelector(
+    ".menu-dropdown-launch-buttons a[href*='git-pull']"
+  );
   if (launcher) {
     // it's a page generated from a notebook
 
-    const path = window.location.pathname;
-    if (path.includes("/columbia")) {
-      launcher.href = "{{coding_env_url}}";
-    } else {
-      const nbName = path.match(/\/(\w+)\.html/)[1];
-      launcher.href = `https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/${nbName}.ipynb`;
-    }
+    const nbName = window.location.pathname.match(/\/(\w+)\.html/)[1];
+    launcher.href = `https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/${nbName}.ipynb`;
   }
 });
