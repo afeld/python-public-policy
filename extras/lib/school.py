@@ -85,7 +85,7 @@ EXEMPT = [
     "jupyterhub_url",
     "nbgrader",
     "nyu's quantitative analysis guide",
-    "secondary", # matches "conda"
+    "secondary",  # matches "conda"
     "walk the reader",
 ]
 
@@ -138,6 +138,17 @@ def render_cell(cell: NotebookNode, school_id: str):
 # https://nbconvert.readthedocs.io/en/latest/nbconvert_library.html#Custom-Preprocessors
 class SchoolTemplate(Preprocessor):
     school_id = Unicode().tag(config=True)
+
+    def preprocess(self, nb, resources):
+        if self.school_id == "columbia":
+            # use default kernel for Colab
+            nb.metadata.kernelspec = {
+                "display_name": "Python 3",
+                "language": "python",
+                "name": "python3",
+            }
+
+        return super().preprocess(nb, resources)
 
     def preprocess_cell(self, cell: NotebookNode, resources, cell_index):
         if not self.school_id:
