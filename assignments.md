@@ -15,9 +15,14 @@
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
-   - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`).
+   - This is a good time to run the notebook end-to-end with `Restart and run all`{% if id == 'nyu' %} (⏩){% endif %}.
    - See [general scoring criteria](syllabus.html#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
+{% if id == 'columbia' -%}
+1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.html#instructor-information).
+   - To avoid needing to do this for each assignment, you can share the `Colab Notebooks` folder in Google Drive, which will apply to all notebooks you create.
+1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
+{% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
    1. `Download as`
@@ -25,6 +30,7 @@
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. Upload the PDF to the {{lms_name}} Assignment.
+{% endif %}
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
 
