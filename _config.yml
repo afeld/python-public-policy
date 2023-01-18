@@ -17,7 +17,7 @@ html:
     </div>
 repository:
   url: https://github.com/afeld/python-public-policy
-  branch: main
+  branch: "{{school_slug}}"
 launch_buttons:
   binderhub_url: ""
   # this gets overridden; see _static/site.js
