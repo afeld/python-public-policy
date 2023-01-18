@@ -38,6 +38,7 @@ Note: In-class exercises will not be graded.
 
 ## Common issues
 
+{% if id == 'nyu' -%}
 - **PDF export:**
 
   - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) codeL
@@ -49,6 +50,7 @@ Note: In-class exercises will not be graded.
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
+{% endif -%}
 - **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of {% if id == 'columbia' %}5GB across all your assignments{% else %}1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files{% endif %}. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
   - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor.
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
