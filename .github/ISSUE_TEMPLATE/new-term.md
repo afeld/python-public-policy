@@ -27,7 +27,7 @@ assignees: afeld
   - [ ] Update links from Assignments in Brightspace
   - [ ] Update links from Discussions in Brightspace
   - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
-  - [ ] [Create conda environment](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#loading-the-notebooks-locally)
+  - [ ] [Create conda environment](https://github.com/afeld/python-public-policy/blob/{{school_slug}}/.github/CONTRIBUTING.md#loading-the-notebooks-locally)
 - [ ] New Brightspace site
   - [ ] Import
   - [ ] Simplify name
