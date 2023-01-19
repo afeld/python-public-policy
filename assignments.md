@@ -1,5 +1,7 @@
 # General assignment information
 
+- To open an Assignment in {{coding_env_name}}, click the launch button (🚀) at the top of the Assignment page of this site.
+   - You can also do this for lecture notebooks.
 - [Due dates](syllabus.html#schedule)
 - [Scoring](syllabus.html#assignment-scoring)
 
