@@ -15,10 +15,6 @@ git rm -r \
     extras/terraform/ \
     extras/**/test_*.py
 
-if [ "$SCHOOL" = "nyu" ]; then
-    git rm -r extras/codio
-fi
-
 # render the files
 ./extras/scripts/school.sh "$SCHOOL"
 

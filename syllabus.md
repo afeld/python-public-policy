@@ -184,17 +184,7 @@ In general, assignments and resubmissions are due before the start of the next c
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -3 points
 - **Unattempted Steps:** -10 points
 
-If the submission showed effort, feedback will be given through [annotations in {{lms_name}}][annotations].
-
-{% if id == "columbia" -%}
-
-[annotations]: https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-annotation-feedback-comments-from-my-instructor/ta-p/523
-
-{% else%}
-
-[annotations]: https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html
-
-{% endif %}
+If the submission showed effort, feedback will be given through {% if id == "columbia" %}comments in the notebook{% else %}[annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html){% endif %}.
 
 For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 

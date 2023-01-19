@@ -38,7 +38,6 @@ OTHER_FILES=$(git ls-files -- \
     ':!:.github/workflows/*' \
     ':!:.github/ISSUE_TEMPLATE/new-term.md' \
     ':!:.readthedocs.yaml' \
-    ':!:extras/codio/*' \
     ':!:extras/img/*')
 
 for f in $OTHER_FILES; do

@@ -15,9 +15,14 @@
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
-   - This is a good time to run the notebook end-to-end with ⏩ (`Restart and run all`).
+   - This is a good time to run the notebook end-to-end with `Restart and run all`{% if id == 'nyu' %} (⏩){% endif %}.
    - See [general scoring criteria](syllabus.html#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
+{% if id == 'columbia' -%}
+1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.html#instructor-information).
+   - To avoid needing to do this for each assignment, you can share the `Colab Notebooks` folder in Google Drive, which will apply to all notebooks you create.
+1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
+{% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
    1. `Download as`
@@ -25,6 +30,7 @@
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. Upload the PDF to the {{lms_name}} Assignment.
+{% endif %}
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
 
@@ -32,6 +38,7 @@ Note: In-class exercises will not be graded.
 
 ## Common issues
 
+{% if id == 'nyu' -%}
 - **PDF export:**
 
   - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) codeL
@@ -43,6 +50,7 @@ Note: In-class exercises will not be graded.
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
+{% endif -%}
 - **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of {% if id == 'columbia' %}5GB across all your assignments{% else %}1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files{% endif %}. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
   - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor.
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:

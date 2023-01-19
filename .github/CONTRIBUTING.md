@@ -16,9 +16,7 @@
    ```
 
 1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
-{% if id == "columbia" -%}
-1. [Update the stack](../extras/codio/README.md#creating-the-stack)
-{% else -%}
+{% if id == "nyu" -%}
 1. Update environment in JupyterHub
 
    ```sh

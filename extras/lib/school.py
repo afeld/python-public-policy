@@ -37,10 +37,10 @@ SCHOOLS = [
         discussions_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
-        coding_env_name="Codio",
-        coding_env_url="https://courseworks2.columbia.edu/courses/171519/external_tools/52956",
+        coding_env_name="Google Colab",
+        coding_env_url="https://colab.research.google.com",
         words=[
-            "codio",
+            "colab",
             "columbia",
             "courseworks",
             "ed discussion",
@@ -70,6 +70,7 @@ SCHOOLS = [
             "jupyterhub",
             "nyu",
             "padm",
+            "pio.renderers.default",  # boilerplate for allowing PDF export
             "python coding for public policy",  # Columbia version doesn't include "Coding"
             "wagner",
         ],
@@ -78,14 +79,17 @@ SCHOOLS = [
 SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 # should all be lowercase
 EXEMPT = [
+    "- [google colab](https://colab.research.google.com/)",
     "anaconda",
+    "built around it",  # referring to Colab
     "conda activate",
     "create the environment",
     "hannahkates/nyu-python-public-policy",
     "jupyterhub_url",
     "nbgrader",
     "nyu's quantitative analysis guide",
-    "secondary", # matches "conda"
+    "secondary",  # matches "conda"
+    "these instructions won't work in colab",
     "walk the reader",
 ]
 
@@ -138,6 +142,17 @@ def render_cell(cell: NotebookNode, school_id: str):
 # https://nbconvert.readthedocs.io/en/latest/nbconvert_library.html#Custom-Preprocessors
 class SchoolTemplate(Preprocessor):
     school_id = Unicode().tag(config=True)
+
+    def preprocess(self, nb, resources):
+        if self.school_id == "columbia":
+            # use default kernel for Colab
+            nb.metadata.kernelspec = {
+                "display_name": "Python 3",
+                "language": "python",
+                "name": "python3",
+            }
+
+        return super().preprocess(nb, resources)
 
     def preprocess_cell(self, cell: NotebookNode, resources, cell_index):
         if not self.school_id:
