@@ -88,6 +88,7 @@ EXEMPT = [
     "jupyterhub_url",
     "nbgrader",
     "nyu's quantitative analysis guide",
+    "python coding for public policy assignments",
     "secondary",  # matches "conda"
     "these instructions won't work in colab",
     "walk the reader",

@@ -1,12 +1,11 @@
 #!/bin/bash
 
+# Usage:
+#
+#   ./extras/scripts/school.sh <school> [<files>]
+
 set -e
 
-# confirm there's exactly one argument
-if [ "$#" -ne 1 ]; then
-  echo "Usage: $0 SCHOOL" >&2
-  exit 1
-fi
 
 SCHOOL=$1
 case $SCHOOL in
@@ -22,29 +21,38 @@ case $SCHOOL in
         ;;
 esac
 
+if [ $# -eq 1 ]; then
+    # render files, with a bunch of exceptions
+    FILES=$(git ls-files -- \
+        ':!:*.js' ':!:*.py' ':!:*.sh' ':!:*.tf' \
+        ':!:**/environment.yml' \
+        ':!:.github/workflows/*' \
+        ':!:.github/ISSUE_TEMPLATE/new-term.md' \
+        ':!:.readthedocs.yaml' \
+        ':!:extras/img/*' \
+        ':!:extras/pandas_crash_course.ipynb')
+else
+    shift 1
+    FILES=$*
+fi
+
 # allow this script to be run from other directories
 PYTHONPATH=$(dirname "$0")/../..
 export PYTHONPATH
 
-echo "Rendering notebooks…"
-jupyter nbconvert \
-    --to notebook --inplace \
-    --TagRemovePreprocessor.enabled=True \
-    --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG \
-    --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
-    --SchoolTemplate.school_id="$SCHOOL" \
-    ./*.ipynb
-
-# render additional files, with a bunch of exceptions
-OTHER_FILES=$(git ls-files -- \
-    ':!:*.ipynb' ':!:*.js' ':!:*.py' ':!:*.sh' ':!:*.tf' \
-    ':!:**/environment.yml' \
-    ':!:.github/workflows/*' \
-    ':!:.github/ISSUE_TEMPLATE/new-term.md' \
-    ':!:.readthedocs.yaml' \
-    ':!:extras/img/*')
-
-for f in $OTHER_FILES; do
+for f in $FILES; do
     echo "Rendering $f..."
-    python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
+    # https://stackoverflow.com/a/965072/358804
+    extension="${f##*.}"
+    if [ "$extension" = "ipynb" ]; then
+        jupyter nbconvert \
+            --to notebook --inplace \
+            --TagRemovePreprocessor.enabled=True \
+            --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG \
+            --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
+            --SchoolTemplate.school_id="$SCHOOL" \
+            "$f"
+    else
+        python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
+    fi
 done
