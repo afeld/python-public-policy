@@ -22,6 +22,10 @@ case $SCHOOL in
         ;;
 esac
 
+# allow this script to be run from other directories
+PYTHONPATH=$(dirname "$0")/../..
+export PYTHONPATH
+
 echo "Rendering notebooks…"
 jupyter nbconvert \
     --to notebook --inplace \
