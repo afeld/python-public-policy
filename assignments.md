@@ -2,6 +2,9 @@
 
 - To open an Assignment in {{coding_env_name}}, click the launch button (🚀) at the top of the Assignment page of this site.
    - You can also do this for lecture notebooks.
+{% if id == 'columbia' -%}
+- [{{coding_env_name}} walkthrough](https://columbiauniversity.zoom.us/rec/play/TfO3SbhRcAOSYoOc-HD7M_4d8cMQoAJCrcyJMIuUxfX1k7oX-txkCejsFLKxzrDn17aHDrlmWZumgS43.-J8dPQthf7yG1Iqx)
+{% endif -%}
 - [Due dates](syllabus.html#schedule)
 - [Scoring](syllabus.html#assignment-scoring)
 
