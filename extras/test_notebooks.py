@@ -96,7 +96,6 @@ def test_reminders(file):
             "assignments.html" in cell.source for cell in notebook.cells
         ), "Missing assignment submission instructions"
 
-    if file not in ["hw_0.ipynb", "hw_5.ipynb"]:
         assert any(
             "participation" in cell.source for cell in notebook.cells
         ), "Missing participation reminder"
