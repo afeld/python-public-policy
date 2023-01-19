@@ -7,7 +7,6 @@ dependencies:
   - black
   - nbqa
   - notebook
-  - jupyter_contrib_nbextensions
   # extensions
   - ipykernel
   - jupyter-resource-usage
