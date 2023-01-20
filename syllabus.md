@@ -51,10 +51,10 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Tuesdays, 3/21-5/2
+- **Class Meeting Times:** Tuesdays 3/21-5/16, no class 4/18 and 5/9
   - Section 1: 4:55-6:35pm ET
   - Section 2: 6:45-8:25pm ET
-- **Class Location:** [194 Mercer St](https://goo.gl/maps/omqFNDQ3nMohsmdJ7), room 305
+- **Class Location:** [194 Mercer St](https://goo.gl/maps/omqFNDQ3nMohsmdJ7) room 305
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -130,10 +130,11 @@ Students will learn how to:
 | [1][l1] | 3/28 | Intro to Pandas                             | [Homework 0][hw0] due                                                                      |
 | [2][l2] | 4/4  | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                   |
 | [3][l3] | 4/11 | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                   |
-| [4][l4] | 4/18 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                   |
-| [5][l5] | 4/25 | Guest lectures                              | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Homework 5 proposal][hw5_prop] due |
-| [6][l6] | 5/2  | APIs                                        | [Homework 4][hw4] resubmission and [Homework 5][hw5] due                                   |
-| none    | 5/9  | none                                        | [Homework 5][hw5] peer grading due                                                         |
+| none    | 4/18 | none                                        |                                                                                            |
+| [4][l4] | 4/25 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                   |
+| [5][l5] | 5/2  | APIs                                        | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Homework 5 proposal][hw5_prop] due |
+| none    | 5/9  | none                                        | [Homework 4][hw4] resubmission and [Homework 5][hw5] due                                   |
+| [6][l6] | 5/16 | Guest lectures                              | [Homework 5][hw5] peer grading due                                                         |
 
 {% endif -%}
 
