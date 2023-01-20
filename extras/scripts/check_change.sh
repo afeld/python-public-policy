@@ -49,6 +49,6 @@ case "$SOURCE" in
 esac
 
 echo "Comparing output..."
-DIFF=$(nbdiff --ignore-metadata "$PRE" "$FINAL")
+DIFF=$(nbdiff "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1
