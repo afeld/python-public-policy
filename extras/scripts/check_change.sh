@@ -49,12 +49,6 @@ case "$SOURCE" in
 esac
 
 echo "Comparing output..."
-# https://stackoverflow.com/a/28514531/358804
-if [[ "$SOURCE" = hw_* ]]; then
-  # ignore timestamps and execution counts
-  DIFF=$(nbdiff --ignore-metadata --ignore-details "$PRE" "$FINAL")
-else
-  DIFF=$(nbdiff "$PRE" "$FINAL")
-fi
+DIFF=$(nbdiff "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1
