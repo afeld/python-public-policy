@@ -14,13 +14,18 @@ function diffable() {
   jupyter nbconvert --to notebook --Exporter.preprocessors=extras.lib.diffable.Diffable --stdout "$1" > "$2"
 }
 
+# allow this script to be run from other directories
+PYTHONPATH=$(dirname "$0")/../..
+export PYTHONPATH
+
 mkdir -p tmp/extras
 diffable "$SOURCE" "$PRE"
 
-./extras/scripts/interactive_check.sh "$SOURCE" || exit 0
+# https://mywiki.wooledge.org/BashFAQ/028#Using_BASH_SOURCE
+"${BASH_SOURCE%/*}/interactive_check.sh" "$SOURCE" || exit 0
 
 cp "$PRE" "$POST"
-./extras/scripts/update.sh "$POST"
+"${BASH_SOURCE%/*}/update.sh" "$POST"
 
 diffable "$POST" "$FINAL"
 
@@ -44,6 +49,6 @@ case "$SOURCE" in
 esac
 
 echo "Comparing output..."
-DIFF=$(nbdiff "$PRE" "$FINAL")
+DIFF=$(nbdiff --ignore-metadata "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1
