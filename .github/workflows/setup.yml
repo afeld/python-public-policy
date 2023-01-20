@@ -17,9 +17,6 @@ jobs:
         shell: bash -l {0}
     steps:
       - uses: actions/checkout@v3
-        with:
-          # state this explicitly so this workflow can be reused by other repos
-          repository: afeld/python-public-policy
       - name: Install Conda packages
         uses: mamba-org/provision-with-micromamba@main
         with:
