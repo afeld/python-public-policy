@@ -8,7 +8,7 @@
 
 {% endif -%}
 
-# {{course_name}} - {% if school_slug == "columbia" %}Spring 2023{% else %}Fall 2022{% endif %}
+# {{course_name}} - Spring 2023
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -29,8 +29,8 @@
 - **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
 - **Class Meeting Times:** Tuesdays 1/17-2/28
-  - Section 1: 9-10:50am
-  - Section 2: 11-12:50pm
+  - Section 1: 9-10:50am ET
+  - Section 2: 11-12:50pm ET
 - **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
 - **Prerequisites:** None
 - Students should bring a laptop to class
@@ -51,9 +51,10 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Wednesdays, 10/26-12/14 6:45-8:25pm ET
-  - No class 11/23 for [Fall Break](https://events.nyu.edu/event/286100-fall-break)
-- **Class Location:** [NYU Global Center for Academic and Spiritual Life, 238 Thompson St](https://goo.gl/maps/N3wQtDhZhUW2b2ck7), room 288
+- **Class Meeting Times:** Tuesdays, 3/21-5/2
+  - Section 1: 4:55-6:35pm ET
+  - Section 2: 6:45-8:25pm ET
+- **Class Location:** [194 Mercer St](https://goo.gl/maps/omqFNDQ3nMohsmdJ7), room 305
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -63,8 +64,8 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** Tara Merigan, tsm6919@nyu.edu
-- **Office Hours:** Mondays at 5:30pm ET on Zoom, and by appointment
+- **Grader:** to be determined
+- **Office Hours:** Mondays 5:30-6pm ET over Zoom, and by appointment
 
 {% endif -%}
 
@@ -123,7 +124,16 @@ Students will learn how to:
 
 {% else -%}
 
-TODO
+| Lecture | Date | Topics                                      | Homework                                                                                   |
+| ------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [0][l0] | 3/21 | Intro to coding                             | pre-class TODOs due                                                                        |
+| [1][l1] | 3/28 | Intro to Pandas                             | [Homework 0][hw0] due                                                                      |
+| [2][l2] | 4/4  | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                   |
+| [3][l3] | 4/11 | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                   |
+| [4][l4] | 4/18 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                   |
+| [5][l5] | 4/25 | Guest lectures                              | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Homework 5 proposal][hw5_prop] due |
+| [6][l6] | 5/2  | APIs                                        | [Homework 4][hw4] resubmission and [Homework 5][hw5] due                                   |
+| none    | 5/9  | none                                        | [Homework 5][hw5] peer grading due                                                         |
 
 {% endif -%}
 
