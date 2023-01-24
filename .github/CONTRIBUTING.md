@@ -20,7 +20,7 @@
 1. Update environment in JupyterHub
 
    ```sh
-   mamba env update --file environment.yml --prune
+   mamba env update --file extras/environment.lock.yml --prune
    ```
 {% endif -%}
 
