@@ -25,7 +25,7 @@ if [ $# -eq 1 ]; then
     # render files, with a bunch of exceptions
     FILES=$(git ls-files -- \
         ':!:*.js' ':!:*.py' ':!:*.sh' ':!:*.tf' \
-        ':!:**/environment.yml' \
+        ':!:**/environment*.yml' \
         ':!:.github/workflows/*' \
         ':!:.github/ISSUE_TEMPLATE/new-term.md' \
         ':!:.readthedocs.yaml' \
