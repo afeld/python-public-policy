@@ -3,6 +3,7 @@ from jinja2 import Environment
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
 from traitlets import Unicode
+from typing import List
 
 
 @dataclasses.dataclass
@@ -21,7 +22,7 @@ class SchoolText:
     lms_notification_settings_url: str
     coding_env_name: str
     coding_env_url: str
-    words: list[str]
+    words: List[str]
 
 
 COURSE_HOSTNAME = "python-public-policy.afeld.me"
