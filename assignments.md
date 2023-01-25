@@ -17,19 +17,22 @@
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
-{% if id == 'columbia' -%}
 ### Storing data
 
-To keep your data between sessions, you'll probably want to store it in Google Drive.
+{% if id == 'columbia' -%}
+To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
 1. In the Colab sidebar, click the `Files` icon.
 1. Click the `Mount Drive` icon.
 1. Navigate to the file.
 1. Next to the filename, click the three dots.
-1. Click `Copy path`
-1. Use this path with `read_csv()`
-
+1. Click `Copy path`.
+1. Use this path with `read_csv()`.
+{% else -%}
+1. Navigate to the folder your notebook is in.
+1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
+1. From Python, use `read_csv("./<filename>.csv")`.
 {% endif -%}
 
 ## Submission
