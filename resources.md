@@ -15,6 +15,7 @@
 - [Foundations for Research Computing](https://rcfoundations.research.columbia.edu/)
 - [Data Science Institute](https://datascience.columbia.edu/)
 - Library
+  - [Data Club](https://library.columbia.edu/services/research-data-services/data-club.html)
   - [Research Data Services](https://library.columbia.edu/services/research-data-services.html)
   - [Studio](https://studio.cul.columbia.edu/)
 
