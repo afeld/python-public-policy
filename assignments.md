@@ -43,7 +43,7 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 {% if id == 'columbia' -%}
 1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.html#instructor-information) with at least `Commenter` permissions.
-   - To avoid needing to do this for each assignment, you can share the `Colab Notebooks` folder in Google Drive, which will apply to all notebooks you create.
+   - To avoid needing to do this for each assignment, strongly recomend [sharing the `Colab Notebooks` folder in Google Drive](https://support.google.com/drive/answer/7166529), which will apply to all notebooks you create.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
