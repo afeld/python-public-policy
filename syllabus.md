@@ -245,7 +245,7 @@ Letter grades for the entire course will be assigned as follows:
 
 ## Class Policies
 
-A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
+A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission. This also applies to using generative tools like [ChatGPT](https://openai.com/blog/chatgpt/).
 
 Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
 

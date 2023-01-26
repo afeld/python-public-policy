@@ -18,7 +18,7 @@ def has_html_output(cell: NotebookNode):
     return any(has_html(output) for output in cell["outputs"])
 
 
-def contains_memory_address(text):
+def contains_memory_address(text: str):
     return text.startswith("<") and text.endswith(">")
 
 
