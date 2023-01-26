@@ -20,3 +20,20 @@ def test_ignore_system():
 def test_ignore_ipytest():
     cell = NotebookNode({"source": "%%ipytest -qq", "outputs": ""})
     assert should_clear_output(cell)
+
+
+def test_ignore_image():
+    cell = NotebookNode(
+        {
+            "source": "import qrcode\nqrcode.make('hello')",
+            "outputs": [
+                {
+                    "data": {
+                        "image/png": "…",
+                        "text/plain": "<qrcode.image.pil.PilImage at 0x1060e5850>",
+                    }
+                }
+            ],
+        }
+    )
+    assert should_clear_output(cell)

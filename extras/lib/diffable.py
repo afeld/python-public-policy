@@ -2,7 +2,7 @@ from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
 
 
-def is_system_command(source):
+def is_system_command(source: str):
     return source.startswith("!")
 
 
@@ -18,10 +18,26 @@ def has_html_output(cell: NotebookNode):
     return any(has_html(output) for output in cell["outputs"])
 
 
+def contains_memory_address(text):
+    return text.startswith("<") and text.endswith(">")
+
+
+def has_memory_address(cell: NotebookNode):
+    return any(
+        contains_memory_address(output.get("data", {}).get("text/plain", ""))
+        for output in cell["outputs"]
+    )
+
+
 def should_clear_output(cell: NotebookNode):
     """Ignore any system command and ipytest output, since things like package paths shown in warnings/errors can change between different systems. Also clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution."""
     source = cell["source"]
-    return is_system_command(source) or is_ipytest(source) or has_html_output(cell)
+    return (
+        is_system_command(source)
+        or is_ipytest(source)
+        or has_html_output(cell)
+        or has_memory_address(cell)
+    )
 
 
 # based off of
