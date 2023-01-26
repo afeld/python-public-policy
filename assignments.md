@@ -53,6 +53,8 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. Upload the PDF to the {{lms_name}} Assignment.
+
+Engaging with comments left in {{coding_env_name}} is more than welcome. When you're ready to have it formally re-graded, please resubmit through {{lms_name}}.
 {% endif %}
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
