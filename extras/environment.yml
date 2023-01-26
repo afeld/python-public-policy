@@ -3,7 +3,7 @@ channels:
   - default
   - conda-forge
 dependencies:
-  # local development
+  ## local development ##
   - black
   - nbqa
   - notebook
@@ -14,8 +14,11 @@ dependencies:
   - nb_conda
   - RISE
 
-  # packages used in notebooks
+  ## packages used in notebooks ##
   - ipytest=0.12.*
+  # for QR codes
+  - qrcode
+  - pillow
   # https://plotly.com/python/static-image-export/
   - python-kaleido
   # match version in Colab returned by `!python --version`
@@ -27,7 +30,7 @@ dependencies:
   # bumped up from Colab, as 0.12.2 was getting `AttributeError: module 'numpy' has no attribute 'MachAr'`
   - statsmodels=0.*.*
 
-  # CI
+  ## CI ##
   - jinja2
   - nbconvert
   - nbdime
