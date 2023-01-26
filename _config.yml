@@ -1,4 +1,4 @@
-title: "{{course_name}}"
+title: "{{course_name}} @ {{school_name}}"
 author: Aidan Feldman
 only_build_toc_files: true
 exclude_patterns:
