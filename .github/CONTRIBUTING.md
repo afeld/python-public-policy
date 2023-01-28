@@ -84,3 +84,13 @@ For Zoom:
 ## Data sets
 
 Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then compressed and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data) via [Terraform](../extras/terraform/). [Descriptions of the data sets.](../extras/terraform/data.tf)
+
+{% if id == "columbia" -%}
+## Student enrollment activity
+
+1. Visit [SSOL](https://ssol.columbia.edu)
+1. View the Wait List Activity
+1. Open the Console
+1. Paste [the script](../extras/scripts/ssol.js)
+1. Do the same for the other section(s)
+{% endif %}
