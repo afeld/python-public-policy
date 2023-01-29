@@ -7,6 +7,6 @@ runs:
     - name: Install Conda packages
       uses: mamba-org/setup-micromamba@v1
       with:
-        environment-file: extras/environment.yml
+        environment-file: extras/environment.lock.yml
         init-shell: bash
         cache-environment: true
