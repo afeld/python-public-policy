@@ -12,7 +12,12 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
 
 ## Important links
 
-- [Syllabus](syllabus.md)
+- This site
+  - [Syllabus](syllabus.md)
+  - [Assignment info](assignments.md)
+  - [Resources](resources.md)
+  - Lecture slides
+  - Homework templates
 - [{{lms_name}} site]({{lms_url}}), which students will use for:
   {% if id == "nyu" -%}
   - Viewing Announcements
