@@ -1,5 +1,5 @@
+/* keep page from scrolling horizontally */
 .cell_output .output {
-  /* keep page from scrolling horizontally */
   max-width: 100%;
   overflow-x: auto;
 }
@@ -18,7 +18,7 @@
   color: white;
 }
 
-/* indicate the version by color */
+/* indicate the version by color, overriding the colors from sphinx-book-theme */
 /* version selector */
 .bd-sidebar .rst-versions.rst-badge .rst-current-version,
 .bd-sidebar .rst-versions.rst-badge .rst-current-version:hover,
@@ -26,7 +26,7 @@
   background-color: {{color}};
   color: white;
 }
-/* top nav bar */
+/* top nav bar on mobile */
 @media (max-width: 768px) {
   .header-article,
   .headerbtn {
