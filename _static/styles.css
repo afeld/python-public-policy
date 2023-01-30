@@ -18,10 +18,24 @@
   color: white;
 }
 
-/* indicate the version in the selector by color */
+/* indicate the version by color */
+/* version selector */
 .bd-sidebar .rst-versions.rst-badge .rst-current-version,
 .bd-sidebar .rst-versions.rst-badge .rst-current-version:hover,
 .bd-sidebar .rst-versions.rst-badge .rst-current-version .fa {
   background-color: {{color}};
   color: white;
+}
+/* top nav bar */
+@media (max-width: 768px) {
+  .header-article,
+  .headerbtn {
+    background-color: {{color}};
+    color: white !important;
+  }
+  /* undo for dropdown menus */
+  .menu-dropdown__content .headerbtn {
+    background-color: white;
+    color: rgb(90, 90, 90) !important;
+  }
 }
