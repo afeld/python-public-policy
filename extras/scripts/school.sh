@@ -27,6 +27,7 @@ if [ $# -eq 1 ]; then
         ':!:*.js' ':!:*.py' ':!:*.sh' ':!:*.tf' \
         ':!:**/environment*.yml' \
         ':!:.github/workflows/*' \
+        ':!:.github/ISSUE_TEMPLATE/new-term-*.md' \
         ':!:.readthedocs.yaml' \
         ':!:extras/img/*' \
         ':!:extras/pandas_crash_course.ipynb')
