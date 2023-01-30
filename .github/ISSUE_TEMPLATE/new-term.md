@@ -1,6 +1,6 @@
 ---
 name: new term
-about: How to switch over for a new semester at NYU
+about: "How to switch over for a new semester at {{school_name}}"
 title: prep for new term
 labels: ""
 assignees: afeld
@@ -10,12 +10,21 @@ assignees: afeld
   - [ ] Dates
   - [ ] Office hours
   - [ ] Link to survey
+{%- if id == "nyu" %}
   - [ ] Links to Brightspace site
   - [ ] Links to JupyterHub
 - [ ] Submit syllabus to Wagner
   - [ ] [Convert to PDF](https://md2pdf.netlify.com/)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
+{% endif -%}
+{% if id == "columbia" -%}
+- [ ] Find Reader
+  - [ ] Update [job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
+  - [ ] Share the [guide](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
+  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
+  - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
+{% else -%}
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
   - [ ] Share the [guide](https://docs.google.com/document/d/1aVKsHHz0riU2eR6lDa6Gw1nfIYQ_MZ6d2sirQytT75s/edit#)
@@ -43,10 +52,13 @@ assignees: afeld
 - [ ] [Set up Course Reserves](https://ares.library.nyu.edu/aresauth/ares.dll)
 - [ ] Send calendar invite
   - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
+{% endif -%}
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
+  {% if id == "nyu" -%}
   - [ ] [Fill out access form](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/campus-visitors.html#sponsoring-visitors)
+  {% endif -%}
   - [ ] Update lecture 6
 - [ ] Subscribe to Homework 5 Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6
