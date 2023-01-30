@@ -8,6 +8,8 @@ This repository contains content for [{{school_name}}'s {{course_name}}](syllabu
 
 The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks](resources.html#jupyter-outside-this-course).
 
+Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on a [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
+
 ## Important links
 
 - [Syllabus](syllabus.md)
@@ -24,8 +26,6 @@ The materials are also available for public consumption. If you are _not_ part o
   - Discussions
 {% endif -%}
 - [{{coding_env_name}}]({{coding_env_url}}), where work will be completed
-
-Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
 
 ## Why this class?
 
