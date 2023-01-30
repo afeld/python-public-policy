@@ -12,9 +12,17 @@ The materials are also available for public consumption. If you are _not_ part o
 
 - [Syllabus](syllabus.md)
 - [{{lms_name}} site]({{lms_url}}), which students will use for:
+  {% if id == "nyu" -%}
   - Viewing Announcements
-  - Submitting Assignments
+  - Discussions
+  {% endif -%}
+  - Submitting assignments
   - Viewing grades
+{% if id == "columbia" -%}
+- [Ed]({{discussions_url}}), which is used for:
+  - Accouncements
+  - Discussions
+{% endif -%}
 - [{{coding_env_name}}]({{coding_env_url}}), where work will be completed
 
 Produced and taught by Aidan Feldman. Largely based on [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
