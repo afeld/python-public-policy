@@ -4,6 +4,8 @@
 
 - [Office hours](syllabus.html#instructor-information)
 - [Stack Overflow](https://stackoverflow.com/)
+- [RealPython](https://realpython.com/tutorials/all/)
+- [FreeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
