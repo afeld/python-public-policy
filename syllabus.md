@@ -43,7 +43,9 @@
 - **Readers:**
   - Section 1: Kellyann Hayes, kh3117@columbia.edu
   - Section 2: Mostafa Bushehri, mb5015@columbia.edu
-- **Office Hours:** Tuesdays 2-3pm ET in IAB room 1322 and by appointment
+- **Office Hours:**
+  - Tuesdays 2-3pm ET in IAB room 1322, no appointment necessary
+  - Other times by appointment; email the instructor
 
 {% else -%}
 
@@ -65,7 +67,9 @@
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - **Grader:** to be determined
-- **Office Hours:** Mondays 5:30-6pm ET over Zoom, and by appointment
+- **Office Hours:**
+  - Mondays 5:30-6pm ET over Zoom, no appointment necessary
+  - Other times by appointment; email the instructor
 
 {% endif -%}
 
