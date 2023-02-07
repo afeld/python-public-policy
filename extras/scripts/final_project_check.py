@@ -1,6 +1,6 @@
-# Corresponds to the Requirements for homework 5. Requires cloc and nbconvert. Usage:
+# Corresponds to the Requirements for the Final Project. Requires cloc and nbconvert. Usage:
 #
-#   python3 -m extras.scripts.hw_5_check <assignment>.ipynb
+#   python3 -m extras.scripts.final_project_check <assignment>.ipynb
 
 import ast
 import json

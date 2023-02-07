@@ -1,5 +1,5 @@
 import nbformat
-from .hw_5_check import has_plotting, includes_link
+from .final_project_check import has_plotting, includes_link
 
 
 def test_nothing():
