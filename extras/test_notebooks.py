@@ -1,4 +1,6 @@
 import glob
+from markdown_it import MarkdownIt
+from markdown_it.token import Token
 import pytest
 import re
 from .lib.nb_helper import read_notebook
@@ -73,8 +75,8 @@ def test_nested_lists(file):
 
     notebook = read_notebook(file)
     for cell in notebook.cells:
-        source = cell.source
         if is_markdown(cell):
+            source = cell.source
             for line in source.splitlines():
                 match = re.match(r"^( +)(-|\d\.)", line)
                 if match:
@@ -82,6 +84,33 @@ def test_nested_lists(file):
                     assert (
                         num_spaces % 3 == 0 or num_spaces % 4 == 0
                     ), f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
+
+
+def check_link(token: Token, parent: Token = None):
+    if token.type == "link_open":
+        href = token.attrGet("href")
+        # escaped Jinja2 tags
+        if not re.match(r"http|#|%7B%7B", href):
+            source = parent.content if parent else token.content
+            assert False, f"Link should be absolute. Text:\n\n{source}\n"
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_links(file):
+    """To ensure that links work from the coding environment, ensure all links are absolute."""
+
+    md = MarkdownIt()
+
+    notebook = read_notebook(file)
+    for cell in notebook.cells:
+        if is_markdown(cell):
+            source = cell.source
+            tokens = md.parse(source)
+            for token in tokens:
+                check_link(token)
+                if token.type == "inline":
+                    for child in token.children:
+                        check_link(child, token)
 
 
 hw_notebooks = glob.glob("hw_*.ipynb")
