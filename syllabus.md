@@ -123,8 +123,8 @@ Students will learn how to:
 | [1][l1] | 1/24 | Intro to Pandas                             | [Homework 0][hw0] due                                                                           |
 | [2][l2] | 1/31 | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
 | [3][l3] | 2/7  | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
-| [4][l4] | 2/14 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                        |
-| [5][l5] | 2/21 | Guest lectures                              | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Final Project proposal][final_prop] due |
+| [4][l4] | 2/14 | Working with dates and time series analysis | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
+| [5][l5] | 2/21 | Guest lectures                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
 | [6][l6] | 2/28 | APIs                                        | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
 | none    | 3/7  | none                                        | [Final Project][final] peer grading due                                                         |
 
@@ -137,8 +137,8 @@ Students will learn how to:
 | [2][l2] | 4/4  | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
 | [3][l3] | 4/11 | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
 | none    | 4/18 | none                                        |                                                                                                 |
-| [4][l4] | 4/25 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                        |
-| [5][l5] | 5/2  | APIs                                        | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Final Project proposal][final_prop] due |
+| [4][l4] | 4/25 | Working with dates and time series analysis | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
+| [5][l5] | 5/2  | APIs                                        | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
 | none    | 5/9  | none                                        | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
 | [6][l6] | 5/16 | Guest lectures                              | [Final Project][final] peer grading due                                                         |
 
@@ -172,13 +172,13 @@ The classes will be streamed and recorded via Zoom on a best-effort basis. You c
 
 The Course Grade is based on the following:
 
-- Seven [Assignments](#assignment-scoring): 95%
+- [Assignments](#assignment-scoring): 95%
   - [Homework 0][hw0]: 14%
   - [Homework 1][hw1]: 14%
   - [Homework 2][hw2]: 14%
-  - [Homework 3][hw3]: 14%
-  - [Homework 4][hw4]: 7%
+  - [Homework 3][hw3]: 7%
   - [Final Project proposal][final_prop]: 7%
+  - [Homework 4][hw4]: 14%
   - [Final Project][final]: 20%
   - [Final Project][final] peer grading: 5%
 - [Between-Class Participation](#participation): 5%
@@ -188,7 +188,7 @@ The Course Grade is based on the following:
 [hw2]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_2.html
 [hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
-[final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html#homework-6-proposal
+[final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
 
 ### Assignment scoring
