@@ -19,5 +19,5 @@ assignees: afeld
   - [ ] Confirm order
   - [ ] Get bio(s)
   - [ ] Update lecture 6
-- [ ] Subscribe to Homework 5 Proposals Discussion
+- [ ] Subscribe to Final Project Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6

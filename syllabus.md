@@ -117,30 +117,30 @@ Students will learn how to:
 
 {% if school_slug == "columbia" -%}
 
-| Lecture | Date | Topics                                      | Homework                                                                                   |
-| ------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [0][l0] | 1/17 | Intro to coding                             | pre-class TODOs due                                                                        |
-| [1][l1] | 1/24 | Intro to Pandas                             | [Homework 0][hw0] due                                                                      |
-| [2][l2] | 1/31 | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                   |
-| [3][l3] | 2/7  | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                   |
-| [4][l4] | 2/14 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                   |
-| [5][l5] | 2/21 | Guest lectures                              | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Homework 5 proposal][hw5_prop] due |
-| [6][l6] | 2/28 | APIs                                        | [Homework 4][hw4] resubmission and [Homework 5][hw5] due                                   |
-| none    | 3/7  | none                                        | [Homework 5][hw5] peer grading due                                                         |
+| Lecture | Date | Topics                                      | Homework                                                                                        |
+| ------- | ---- | ------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [0][l0] | 1/17 | Intro to coding                             | pre-class TODOs due                                                                             |
+| [1][l1] | 1/24 | Intro to Pandas                             | [Homework 0][hw0] due                                                                           |
+| [2][l2] | 1/31 | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
+| [3][l3] | 2/7  | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
+| [4][l4] | 2/14 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                        |
+| [5][l5] | 2/21 | Guest lectures                              | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Final Project proposal][final_prop] due |
+| [6][l6] | 2/28 | APIs                                        | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
+| none    | 3/7  | none                                        | [Final Project][final] peer grading due                                                         |
 
 {% else -%}
 
-| Lecture | Date | Topics                                      | Homework                                                                                   |
-| ------- | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [0][l0] | 3/21 | Intro to coding                             | pre-class TODOs due                                                                        |
-| [1][l1] | 3/28 | Intro to Pandas                             | [Homework 0][hw0] due                                                                      |
-| [2][l2] | 4/4  | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                   |
-| [3][l3] | 4/11 | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                   |
-| none    | 4/18 | none                                        |                                                                                            |
-| [4][l4] | 4/25 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                   |
-| [5][l5] | 5/2  | APIs                                        | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Homework 5 proposal][hw5_prop] due |
-| none    | 5/9  | none                                        | [Homework 4][hw4] resubmission and [Homework 5][hw5] due                                   |
-| [6][l6] | 5/16 | Guest lectures                              | [Homework 5][hw5] peer grading due                                                         |
+| Lecture | Date | Topics                                      | Homework                                                                                        |
+| ------- | ---- | ------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [0][l0] | 3/21 | Intro to coding                             | pre-class TODOs due                                                                             |
+| [1][l1] | 3/28 | Intro to Pandas                             | [Homework 0][hw0] due                                                                           |
+| [2][l2] | 4/4  | Manipulating and combining data             | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
+| [3][l3] | 4/11 | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
+| none    | 4/18 | none                                        |                                                                                                 |
+| [4][l4] | 4/25 | Working with dates and time series analysis | [Homework 2][hw2] resubmission and [Homework 3][hw3] due                                        |
+| [5][l5] | 5/2  | APIs                                        | [Homework 3][hw3] resubmission, [Homework 4][hw4], and [Final Project proposal][final_prop] due |
+| none    | 5/9  | none                                        | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
+| [6][l6] | 5/16 | Guest lectures                              | [Final Project][final] peer grading due                                                         |
 
 {% endif -%}
 
@@ -178,9 +178,9 @@ The Course Grade is based on the following:
   - [Homework 2][hw2]: 14%
   - [Homework 3][hw3]: 14%
   - [Homework 4][hw4]: 7%
-  - [Homework 5 proposal][hw5_prop]: 7%
-  - [Homework 5][hw5]: 20%
-  - [Homework 5][hw5] peer grading: 5%
+  - [Final Project proposal][final_prop]: 7%
+  - [Final Project][final]: 20%
+  - [Final Project][final] peer grading: 5%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_0.html
@@ -188,8 +188,8 @@ The Course Grade is based on the following:
 [hw2]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_2.html
 [hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
-[hw5_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html#homework-6-proposal
-[hw5]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_5.html
+[final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html#homework-6-proposal
+[final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
 
 ### Assignment scoring
 
