@@ -205,7 +205,7 @@ If the submission showed effort, feedback will be given through {% if id == "col
 
 For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 
-Requests for extensions will only be considered if made before the deadline.
+Requests for extensions will only be considered if made via email before the deadline. Resubmission deadlines will not be extended.
 
 ### Participation
 
