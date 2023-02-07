@@ -18,6 +18,6 @@ assignees: afeld
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
-  - [ ] Update lecture 6
+  - [ ] Update lecture 5
 - [ ] Subscribe to Final Project Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6
