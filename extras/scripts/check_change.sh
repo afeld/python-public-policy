@@ -41,7 +41,7 @@ case "$SOURCE" in
     exit
     ;;
 
-  "lecture_5.ipynb")
+  "lecture_6.ipynb")
     # calls APIs with data that could change
     exit
     ;;
