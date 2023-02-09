@@ -22,6 +22,7 @@ class SchoolText:
     lms_notification_settings_url: str
     coding_env_name: str
     coding_env_url: str
+    assisstant_name: str
     words: List[str]
 
 
@@ -40,6 +41,7 @@ SCHOOLS = [
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
         coding_env_name="Google Colab",
         coding_env_url="https://colab.research.google.com",
+        assisstant_name="Reader",
         words=[
             "colab",
             "columbia",
@@ -63,6 +65,7 @@ SCHOOLS = [
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
         coding_env_name="JupyterHub",
         coding_env_url="https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/",
+        assisstant_name="grader",
         words=[
             "brightspace",
             "conda",
