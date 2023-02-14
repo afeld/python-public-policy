@@ -1,0 +1,20 @@
+name: Run tests
+
+on: push
+
+jobs:
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+
+  # https://docs.github.com/en/actions/using-workflows/reusing-workflows
+
+  pytest:
+    uses: ./.github/workflows/setup.yml
+    with:
+      message: Run tests
+      command: pytest
