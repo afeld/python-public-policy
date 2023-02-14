@@ -1,7 +1,5 @@
 # {{course_name}}
 
-[![Execute notebooks](https://github.com/afeld/python-public-policy/actions/workflows/notebooks.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/notebooks.yml?query=branch%3Amain) [![Run tests](https://github.com/afeld/python-public-policy/actions/workflows/tests.yml/badge.svg)](https://github.com/afeld/python-public-policy/actions/workflows/tests.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-coding-for-public-policy/badge/?version={{school_slug}})](https://python-public-policy.afeld.me/en/{{school_slug}}/?badge={{school_slug}})
-
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
 This repository contains content for [{{school_name}}'s {{course_name}}](syllabus.md) class.
