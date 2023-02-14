@@ -191,6 +191,8 @@ The Course Grade is based on the following:
 [final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
 
+It is entirely possible for everyone in the class to get over 100%.
+
 ### Assignment scoring
 
 In general, assignments and resubmissions are due before the start of the next class. Scoring:
