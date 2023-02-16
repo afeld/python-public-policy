@@ -125,7 +125,8 @@ Students will learn how to:
 | [3][l3] | 2/7  | Data visualization                          | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
 | [4][l4] | 2/14 | Working with dates and time series analysis | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
 | [5][l5] | 2/21 | Guest lectures                              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
-| [6][l6] | 2/28 | APIs                                        | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
+| [6][l6] | 2/28 | APIs                                        | [Homework 4][hw4] resubmission due                                                              |
+| none    | 3/2  | none                                        | [Final Project][final] due                                                                      |
 | none    | 3/7  | none                                        | [Final Project][final] peer grading due                                                         |
 
 {% else -%}
