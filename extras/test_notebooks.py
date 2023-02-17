@@ -117,8 +117,8 @@ def test_links(file):
 class PlotChecker(ast.NodeVisitor):
     def visit_Call(self, node):
         if (
-            hasattr(node.func, "value")
-            and hasattr(node.func.value, "id")
+            isinstance(node.func, ast.Attribute)
+            and isinstance(node.func.value, ast.Name)
             and node.func.value.id == "px"
         ):
             args = [kw.arg for kw in node.keywords]
@@ -136,8 +136,8 @@ def test_chart_titles(file):
             continue
 
         source = cell.source
-        # iPython magic or shell command
         if source.startswith("%%") or source.startswith("!"):
+            # iPython magic or shell command
             continue
 
         tree = ast.parse(source)
