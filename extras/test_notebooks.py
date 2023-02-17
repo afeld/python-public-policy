@@ -116,8 +116,11 @@ def test_links(file):
 
 class PlotChecker(ast.NodeVisitor):
     def visit_Call(self, node):
-        # print(ast.dump(node))
-        if node.func.value.id == "px":
+        if (
+            hasattr(node.func, "value")
+            and hasattr(node.func.value, "id")
+            and node.func.value.id == "px"
+        ):
             args = [kw.arg for kw in node.keywords]
             method = node.func.attr
             assert "title" in args, f"call to `{method}()` missing a `title`"
@@ -129,10 +132,17 @@ def test_chart_titles(file):
 
     notebook = read_notebook(file)
     for cell in notebook.cells:
-        if cell.cell_type == "code":
-            tree = ast.parse(cell.source)
-            checker = PlotChecker()
-            checker.visit(tree)
+        if cell.cell_type != "code":
+            continue
+
+        source = cell.source
+        # iPython magic or shell command
+        if source.startswith("%%") or source.startswith("!"):
+            continue
+
+        tree = ast.parse(source)
+        checker = PlotChecker()
+        checker.visit(tree)
 
 
 hw_notebooks = glob.glob("hw_*.ipynb")
