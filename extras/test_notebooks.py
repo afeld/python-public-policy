@@ -1,3 +1,4 @@
+import ast
 import glob
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
@@ -111,6 +112,27 @@ def test_links(file):
                 if token.type == "inline":
                     for child in token.children:
                         check_link(child, token)
+
+
+class PlotChecker(ast.NodeVisitor):
+    def visit_Call(self, node):
+        # print(ast.dump(node))
+        if node.func.value.id == "px":
+            args = [kw.arg for kw in node.keywords]
+            method = node.func.attr
+            assert "title" in args, f"call to `{method}()` missing a `title`"
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_chart_titles(file):
+    """Make sure all charts have titles"""
+
+    notebook = read_notebook(file)
+    for cell in notebook.cells:
+        if cell.cell_type == "code":
+            tree = ast.parse(cell.source)
+            checker = PlotChecker()
+            checker.visit(tree)
 
 
 hw_notebooks = glob.glob("hw_*.ipynb")
