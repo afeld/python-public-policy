@@ -1,5 +1,6 @@
 import ast
 from glob import glob
+import os
 from typing import Union
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
@@ -36,7 +37,7 @@ def is_h1(cell):
 
 notebooks = glob("*.ipynb")
 notebooks.sort()
-crash_course = "extras/pandas_crash_course.ipynb"
+crash_course = os.path.join(os.path.dirname(__file__), "pandas_crash_course.ipynb")
 all_notebooks = notebooks + [crash_course]
 
 
