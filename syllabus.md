@@ -192,7 +192,9 @@ The Course Grade is based on the following:
 [final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
 
-{% if school_slug == "nyu" -%}
+{% if school_slug == "columbia" -%}
+The overall grade is curved; see [the methodology](https://python-public-policy.afeld.me/en/{{school_slug}}/curve.html).
+{% elif -%}
 It is entirely possible for everyone in the class to get over 100%.
 {%- endif %}
 

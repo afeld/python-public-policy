@@ -15,6 +15,10 @@ git rm -r \
     extras/terraform/ \
     extras/**/test_*.py
 
+if [ "$SCHOOL" = "nyu" ]; then
+    rm curve.ipynb
+fi
+
 # render the files
 ./extras/scripts/school.sh "$SCHOOL"
 
