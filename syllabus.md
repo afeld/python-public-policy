@@ -194,7 +194,7 @@ The Course Grade is based on the following:
 
 {% if school_slug == "columbia" -%}
 The overall grade is curved; see [the methodology](https://python-public-policy.afeld.me/en/{{school_slug}}/curve.html).
-{% elif -%}
+{% else -%}
 It is entirely possible for everyone in the class to get over 100%.
 {%- endif %}
 
