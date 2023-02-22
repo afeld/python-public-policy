@@ -148,7 +148,8 @@ def test_chart_titles(file):
 
     notebook = read_notebook(file)
     for cell in notebook.cells:
-        if not is_python(cell):
+        tags = cell.metadata.get("tags", [])
+        if "skip-plot-check" in tags or not is_python(cell):
             continue
 
         tree = ast.parse(cell.source)
