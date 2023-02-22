@@ -46,6 +46,11 @@ case "$SOURCE" in
     exit
     ;;
 
+  "curve.ipynb")
+    # loads data locally
+    exit
+    ;;
+
 esac
 
 echo "Comparing output..."

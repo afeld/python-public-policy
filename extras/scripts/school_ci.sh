@@ -16,7 +16,7 @@ git rm -r \
     extras/**/test_*.py
 
 if [ "$SCHOOL" = "nyu" ]; then
-    rm curve.ipynb
+    git rm curve.ipynb
 fi
 
 # render the files
