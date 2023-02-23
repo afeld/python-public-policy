@@ -19,4 +19,9 @@ case "$1" in
     exit 1
     ;;
 
+  "curve.ipynb")
+    # loads data locally
+    exit 1
+    ;;
+
 esac

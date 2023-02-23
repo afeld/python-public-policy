@@ -5,6 +5,10 @@ chapters:
     title: Homepage
   - file: syllabus
     title: Syllabus
+{%- if school_slug == "columbia" %}
+    sections:
+      - file: curve
+{%- endif %}
   - file: assignments
     title: Assignment info
   - file: resources

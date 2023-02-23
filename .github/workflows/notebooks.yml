@@ -22,6 +22,7 @@ jobs:
           - lecture_4.ipynb
           - lecture_5.ipynb
           - lecture_6.ipynb
+          - curve.ipynb
           - extras/pandas_crash_course.ipynb
     uses: ./.github/workflows/setup.yml
     with:
