@@ -6,8 +6,7 @@ from markdown_it import MarkdownIt
 from markdown_it.token import Token
 import pytest
 import re
-from .lib.diffable import is_system_command
-from .lib.nb_helper import read_notebook
+from .lib.nb_helper import is_h1, is_markdown, is_python, read_notebook
 
 
 def check_metadata(notebook, file, expected_kernel):
@@ -25,14 +24,6 @@ def check_metadata(notebook, file, expected_kernel):
 def check_file(file, expected_kernel="Python [conda env:python-public-policy] *"):
     notebook = read_notebook(file)
     check_metadata(notebook, file, expected_kernel)
-
-
-def is_markdown(cell):
-    return cell.cell_type == "markdown"
-
-
-def is_h1(cell):
-    return is_markdown(cell) and cell.source.startswith("# ")
 
 
 notebooks = glob("*.ipynb")
@@ -131,15 +122,6 @@ class PlotChecker(ast.NodeVisitor):
             args = [kw.arg for kw in node.keywords]
             method = node.func.attr
             assert "title" in args, f"call to `{method}()` missing a `title`"
-
-
-def is_magic(source):
-    return source.startswith("%%")
-
-
-def is_python(cell):
-    source = cell.source
-    return cell.cell_type == "code" and not (is_magic(source) or is_system_command(source))
 
 
 @pytest.mark.parametrize("file", notebooks)
