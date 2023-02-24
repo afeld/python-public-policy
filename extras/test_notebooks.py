@@ -1,8 +1,12 @@
-import glob
+import ast
+from glob import glob
+import os
+from typing import Union
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
 import pytest
 import re
+from .lib.diffable import is_system_command
 from .lib.nb_helper import read_notebook
 
 
@@ -31,9 +35,9 @@ def is_h1(cell):
     return is_markdown(cell) and cell.source.startswith("# ")
 
 
-notebooks = glob.glob("*.ipynb")
+notebooks = glob("*.ipynb")
 notebooks.sort()
-crash_course = "extras/pandas_crash_course.ipynb"
+crash_course = os.path.join(os.path.dirname(__file__), "pandas_crash_course.ipynb")
 all_notebooks = notebooks + [crash_course]
 
 
@@ -113,7 +117,47 @@ def test_links(file):
                         check_link(child, token)
 
 
-hw_notebooks = glob.glob("hw_*.ipynb")
+def base_obj(node: ast.Call) -> Union[str, None]:
+    """If this is a method call, return the name of the base object it was called on"""
+    if isinstance(node.func, ast.Attribute) and isinstance(node.func.value, ast.Name):
+        return node.func.value.id
+    else:
+        return None
+
+
+class PlotChecker(ast.NodeVisitor):
+    def visit_Call(self, node):
+        if base_obj(node) == "px":
+            args = [kw.arg for kw in node.keywords]
+            method = node.func.attr
+            assert "title" in args, f"call to `{method}()` missing a `title`"
+
+
+def is_magic(source):
+    return source.startswith("%%")
+
+
+def is_python(cell):
+    source = cell.source
+    return cell.cell_type == "code" and not (is_magic(source) or is_system_command(source))
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_chart_titles(file):
+    """Make sure all charts have titles"""
+
+    notebook = read_notebook(file)
+    for cell in notebook.cells:
+        tags = cell.metadata.get("tags", [])
+        if "skip-plot-check" in tags or not is_python(cell):
+            continue
+
+        tree = ast.parse(cell.source)
+        checker = PlotChecker()
+        checker.visit(tree)
+
+
+hw_notebooks = glob("hw_*.ipynb")
 
 
 @pytest.mark.parametrize("file", hw_notebooks)
