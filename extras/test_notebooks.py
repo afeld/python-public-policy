@@ -121,6 +121,11 @@ class PlotChecker(ast.NodeVisitor):
         if base_obj(node) == "px":
             args = [kw.arg for kw in node.keywords]
             method = node.func.attr
+
+            if method == "get_trendline_results":
+                # `title` not applicable
+                return
+
             assert "title" in args, f"call to `{method}()` missing a `title`"
 
 
