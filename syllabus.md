@@ -127,7 +127,7 @@ Students will learn how to:
 | [5][l5] | 2/21 | Guest lectures                  | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
 | [6][l6] | 2/28 | APIs                            | [Homework 4][hw4] resubmission due                                                              |
 | none    | 3/2  | none                            | [Final Project][final] due                                                                      |
-| none    | 3/7  | none                            | [Final Project][final] peer grading due                                                         |
+| none    | 3/7  | none                            | [Final Project peer grading][final-peer] due                                                    |
 
 {% else -%}
 
@@ -140,8 +140,8 @@ Students will learn how to:
 | none    | 4/18 | none                            |                                                                                                 |
 | [4][l4] | 4/25 | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
 | [5][l5] | 5/2  | APIs                            | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
-| none    | 5/9  | none                            | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
-| [6][l6] | 5/16 | Guest lectures                  | [Final Project][final] peer grading due                                                         |
+| none    | 5/9  | none (Reading Day)              | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
+| [6][l6] | 5/16 | Guest lectures                  | [Final Project peer grading][final-peer]due                                                     |
 
 {% endif -%}
 
@@ -181,7 +181,7 @@ The Course Grade is based on the following:
   - [Final Project proposal][final_prop]: 7%
   - [Homework 4][hw4]: 14%
   - [Final Project][final]: 20%
-  - [Final Project][final] peer grading: 5%
+  - [Final Project peer grading][final-peer]: 5%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_0.html
@@ -191,6 +191,7 @@ The Course Grade is based on the following:
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
 [final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
+[final-peer]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#peer-grading
 
 {% if school_slug == "columbia" -%}
 The overall grade is curved; see [the methodology](https://python-public-policy.afeld.me/en/{{school_slug}}/curve.html).
