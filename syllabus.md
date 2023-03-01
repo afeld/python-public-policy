@@ -189,7 +189,7 @@ The Course Grade is based on the following:
 [hw2]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_2.html
 [hw3]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_3.html
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
-[final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal
+[final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
 [final-peer]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#peer-grading
 

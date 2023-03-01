@@ -31,6 +31,8 @@ chapters:
       - file: hw_3
   - file: final_project
     sections:
+      - file: final_project/proposal
+        title: Proposal
       - file: final_project/resources
         title: Resources
       - file: final_project/creepy_crawly.ipynb
