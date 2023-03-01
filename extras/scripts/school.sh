@@ -24,13 +24,14 @@ esac
 if [ $# -eq 1 ]; then
     # render files, with a bunch of exceptions
     FILES=$(git ls-files -- \
-        ':!:*.js' ':!:*.py' ':!:*.sh' ':!:*.tf' \
+        ':!:*.js' ':!:*.py' ':!:*.tf' \
         ':!:**/environment*.yml' \
         ':!:.github/workflows/*' \
         ':!:.github/ISSUE_TEMPLATE/new-term-*.md' \
         ':!:.readthedocs.yaml' \
         ':!:extras/img/*' \
-        ':!:extras/pandas_crash_course.ipynb')
+        ':!:extras/pandas_crash_course.ipynb' \
+        ':!:extras/scripts/*')
 else
     shift 1
     FILES=$*
