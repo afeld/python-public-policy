@@ -47,7 +47,7 @@ The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed
 You can then check broken links with
 
 ```sh
-./extras/scripts/broken_links.sh
+ruby ./extras/scripts/broken_links.rb
 ```
 
 ## Notebook cleanup

@@ -25,7 +25,7 @@ fi
 ./extras/scripts/build.sh
 
 gem install html-proofer
-./extras/scripts/broken_links.sh
+ruby extras/scripts/broken_links.rb
 
 # remove remaining files
 git rm -r extras/scripts/
