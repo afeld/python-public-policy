@@ -13,7 +13,6 @@ jobs:
           - hw_2.ipynb
           - hw_3.ipynb
           - hw_4.ipynb
-          - final_project.ipynb
           - lecture_0.ipynb
           - lecture_1.ipynb
           - lecture_2.ipynb
