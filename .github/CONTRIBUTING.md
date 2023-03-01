@@ -41,7 +41,7 @@ The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed
 1. Build the site.
 
       ```sh
-      jupyter-book build --all .
+      ./extras/scripts/build.sh
       ```
 
 You can then check broken links with
