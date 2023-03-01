@@ -1,4 +1,4 @@
-# Final Project resources
+# [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html) resources
 
 ## Open data portals
 
@@ -22,9 +22,9 @@ There are countless places to get data, notably:
 
 To count the number of lines of code in a notebook:
 
-1. Download the notebook as a Python file
-    1. With the notebook open in {{coding_env_name}}, go to `File`->{% if school_slug == "columbia" %}`Download`->`Download .py`{% else %}`Download as`->`Python (.py)`{% endif %}
-1. Upload the Python file to {{coding_env_name}}
+1. Download the notebook as a Python file.
+    1. With the notebook open in {{coding_env_name}}, go to `File`->{% if school_slug == "columbia" %}`Download`->`Download .py`{% else %}`Download as`->`Python (.py)`{% endif %}.
+1. Upload the Python file to {{coding_env_name}}.
 1. Put the following in a code cell and run it.
 
     ```sh
