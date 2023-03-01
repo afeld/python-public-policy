@@ -41,13 +41,13 @@ The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed
 1. Build the site.
 
       ```sh
-      jupyter-book build --all .
+      ./extras/scripts/build.sh
       ```
 
 You can then check broken links with
 
 ```sh
-./extras/scripts/broken_links.sh
+ruby ./extras/scripts/broken_links.rb
 ```
 
 ## Notebook cleanup

@@ -15,7 +15,7 @@ Paste in the URL of [a tabular dataset from the NYC Open Data Portal](https://da
 </p>
 <p>
   <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
-  <a id="download" class="btn btn-secondary disabled" target="_blank" role="button" aria-disabled="true">Download</a>
+  <a id="download" class="btn btn-secondary disabled" target="_blank" role="button" aria-disabled="true" data-proofer-ignore>Download</a>
 </p>
 <script src="_static/shorten.js"></script>
 

@@ -22,6 +22,11 @@ fi
 # render the files
 ./extras/scripts/school.sh "$SCHOOL"
 
+./extras/scripts/build.sh
+
+gem install html-proofer
+ruby extras/scripts/broken_links.rb
+
 # remove remaining files
 git rm -r extras/scripts/
 

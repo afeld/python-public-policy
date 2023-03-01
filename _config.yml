@@ -1,8 +1,13 @@
 title: "{{course_name}} @ {{school_name}}"
 author: Aidan Feldman
+
+# https://jupyterbook.org/en/stable/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
 only_build_toc_files: true
 exclude_patterns:
   - .github/*
+  - .pytest_cache/*
+  - tmp/*
+
 execute:
   execute_notebooks: "off"
 html:
