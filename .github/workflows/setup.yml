@@ -26,5 +26,9 @@ jobs:
           environment-file: extras/environment.yml
           cache-downloads: true
           cache-env: true
+      # needed for htmlproofer
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3"
       - name: ${{ inputs.message }}
         run: ${{ inputs.command }}
