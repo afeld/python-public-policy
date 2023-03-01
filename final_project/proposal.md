@@ -13,17 +13,11 @@
 1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
    - If you aren't sure, ask.
 1. Come up with a hypothesis (a.k.a. a guess of the answer to the question).
-1. Submit the proposal.
+1. Submit the proposal to {% if id == "columbia" %}the`Final Project proposal` Assignment{% else %}a new Conversation under the `Final Project proposals` [Discussion]({{discussions_url}}){% endif %}, using the format below.
 
 If the proposal shows effort and follows the format below, full credit will be given.
 
 ## Format
-
-{% if id == "columbia" -%}
-Submit responses to the following in the `Final Project proposal` Assignment:
-{% else -%}
-Post responses to the following as a new Conversation under the `Final Project proposals` [Discussion]({{discussions_url}}) by the start of class on 2/21:
-{%- endif %}
 
 - **What dataset are you going to use?**
   - Please include a link. If multiple, how are you going to merge/join them?
