@@ -65,6 +65,8 @@ Note: In-class exercises will not be graded.
 
 {% if id == 'columbia' -%}
 - **Mounting Google Drive is slow or fails:** See [the Google Colab help page](https://research.google.com/colaboratory/faq.html#drive-timeout).
+- **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
+  - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
 - **PDF export:**
 
@@ -82,6 +84,7 @@ Note: In-class exercises will not be graded.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
+    - See [how we found the property name to use](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
 
 ### Kernel/memory issues
