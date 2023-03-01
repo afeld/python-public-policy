@@ -39,7 +39,7 @@
 - [Documentation](https://pandas.pydata.org/pandas-docs/stable/)
 - Cheat sheets
   - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-  - [DataCamp](https://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
+  - [DataCamp](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python)
   - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 - [Python for Data Analysis book](https://wesmckinney.com/book/)
 - [NYU's Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
