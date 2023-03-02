@@ -28,7 +28,7 @@ In addition to the applicable [general assignment requirements](https://python-p
 
 - **Read like a blog post** - 35 points
   - Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
-  - Re-state the question, hypothesis, and data source(s) with link(s)
+  - Re-state the [question, hypothesis, and data source(s) with link(s)](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html#format)
   - Walk the reader through what you're doing in every step and what they should be taking away from it.
     - You are more than welcome to inject personality in there; doesn't need to be dry.
   - Use text cells with [Markdown](https://www.markdownguide.org/basic-syntax/) for formatting.

@@ -19,8 +19,8 @@ If the proposal shows effort and follows the format below, full credit will be g
 
 ## Format
 
-- **What dataset are you going to use?**
-  - Please include a link. If multiple, how are you going to merge/join them?
+- **What dataset(s) are you going to use?**
+  - Please include link(s). If multiple, how are you going to merge/join them?
 - **What's the question you are trying to answer?**
   - It should be _specific, and objectively answerable_ through the data available.
 - **What's your hypothesis?**
