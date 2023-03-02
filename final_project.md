@@ -100,3 +100,5 @@ You are _not_ expected to run any of their code. The notebook should be graded a
 {% if school_slug == "columbia" -%}
 While there are ways to find who owns a notebook on Colab, please avoid doing so.
 {% endif -%}
+
+Reviews are expected to be in-depth, and thus take 15+ minutes each.
