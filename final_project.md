@@ -89,8 +89,10 @@ Your Final Project will be reviewed and graded by three of your peers, and you w
 ### How to review
 
 1. Open [{{lms_name}}]({{lms_url}}).
-1. Go to Assignments, then `Final Project`. {% if school_slug == "columbia" %}Each submission should appear as a link to `https://colab.research.google.com/drive/...`
-  - If you're unable to access the notebooks, make sure you're signed into Google with your Columbia account, and using that to try and access them. See [these instructions](https://support.google.com/docs/answer/6211862).
+1. Go to Assignments, then `Final Project`.
+{% if school_slug == "columbia" -%}
+   - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
+   - If you're unable to access the notebooks, make sure you're signed into Google with your Columbia account, and using that to try and access them. See [these instructions](https://support.google.com/docs/answer/6211862).
 {%- endif %}
 1. Leave substantive feedback, directly in the notebook or in the overall comment area.
 1. Check against [the requirements above](#analysis-requirements), factoring in the applicable [general assignment scoring](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring).
