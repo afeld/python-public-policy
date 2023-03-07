@@ -84,7 +84,7 @@ To confirm you meet [the requirements](#analysis-requirements) prior to submitti
 
 ## Peer grading
 
-Your Final Project will be reviewed and graded by three of your peers, and you will grade three others'. The person being graded will be anonymous, but the reviewers won't be. Your score will be the average of the peer grades. If you disagree with the grade, you can appeal by [emailing the instructor and {{assisstant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
+Your Final Project will be reviewed and graded by three of your peers, and you will grade three others'. The person being graded will be anonymous, but the reviewers won't be. Your score will be the [median](https://docs.python.org/3/library/statistics.html#statistics.median) of the peer grades. If you disagree with the grade, you can appeal by [emailing the instructor and {{assisstant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
 
 ### How to review
 
