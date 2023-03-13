@@ -164,10 +164,13 @@ Students will learn how to:
 
 ### Zoom
 
-The classes will be streamed and recorded via Zoom on a best-effort basis. You can find the link to the live stream in the calendar invite, or in [{{lms_name}}]({{lms_url}}) under the Zoom tab. You can find the recordings in the Zoom tab under `Cloud Recordings`. Note that the course is designed for the in-room experience, and therefore:
+You can find the link to the live stream in the calendar invite, or in [{{lms_name}}]({{lms_url}}) under the Zoom tab. You can find the recordings in the Zoom tab under `Cloud Recordings`. Some caveats:
 
-- The instructor won't interact with any Zoom participants.
-- Office hours will not be recorded.
+- Everyone is expected to attend class in-person; see the [class policies](#class-policies).
+- The streaming/recording is done on a best-effort basis; it's not guaranteed.
+- The course is designed for the in-room experience, and therefore:
+  - The instructor won't interact with any Zoom participants.
+  - Office hours will not be recorded.
 
 ## Assignments and Evaluation
 
@@ -263,8 +266,8 @@ Letter grades for the entire course will be assigned as follows:
 
 ## Class Policies
 
-* All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html).
-* Attendance is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice.
+- All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html).
+- Attendance is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you are ill, injured, or have unexpected travel, you do not need permission to [participate in class remotely / watch the recording](#zoom).
 
 ### Sharing
 
