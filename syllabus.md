@@ -66,7 +66,7 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** to be determined
+- **Grader:** Amisa Ratliff, agr8413@nyu.edu
 - **Office Hours:**
   - Mondays 5:30-6pm ET over Zoom, no appointment necessary
   - Other times by appointment; email the instructor
