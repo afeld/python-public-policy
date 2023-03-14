@@ -65,7 +65,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
 - You are encouraged to post your PDF in your Proposal Discussion thread so other folks from the class can see.
 {% endif -%}
 
-Because it's the end of the course and your peers are doing the reviews, **there will be no extensions or resubmissions**.
+Because it's the end of the course and [your peers are doing the reviews](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html), **there will be no extensions or resubmissions**.
 
 ### Confirming you meet the requirements
 

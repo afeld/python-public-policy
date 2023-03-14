@@ -194,7 +194,7 @@ The Course Grade is based on the following:
 [hw4]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_4.html
 [final_prop]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
-[final-peer]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#peer-grading
+[final-peer]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html
 
 {% if school_slug == "columbia" -%}
 The overall grade is curved; see [the methodology](https://python-public-policy.afeld.me/en/{{school_slug}}/curve.html).
