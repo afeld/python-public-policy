@@ -24,8 +24,6 @@ assignees: afeld
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] Update bookmarks in Chrome
   - [ ] [Set up GitHub repositories synchronization](https://settings-fall.rcnyu.org/) using `ours` mode
-  - [ ] Update links from Assignments in Brightspace
-  - [ ] Update links from Discussions in Brightspace
   - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment)
 - [ ] New Brightspace site
