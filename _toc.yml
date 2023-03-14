@@ -35,6 +35,8 @@ chapters:
         title: Proposal
       - file: final_project/resources
         title: Resources
+      - file: final_project/peer_grading
+        title: Peer grading
       - file: final_project/examples
         title: Examples
         sections:
