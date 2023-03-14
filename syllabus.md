@@ -141,7 +141,7 @@ Students will learn how to:
 | [4][l4] | 4/25 | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
 | [5][l5] | 5/2  | APIs                            | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
 | none    | 5/9  | none (Reading Day)              | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
-| [6][l6] | 5/16 | Guest lectures                  | [Final Project peer grading][final-peer]due                                                     |
+| [6][l6] | 5/16 | Guest lectures                  | [Final Project peer grading][final-peer] due                                                     |
 
 {% endif -%}
 
@@ -164,7 +164,7 @@ Students will learn how to:
 
 ### Zoom
 
-You can find the link to the live stream in the calendar invite, or in [{{lms_name}}]({{lms_url}}) under the Zoom tab. You can find the recordings in the Zoom tab under `Cloud Recordings`. Some caveats:
+You can find the link to the live stream in [{{lms_name}}]({{lms_url}}) under the Zoom tab. The recordings are under `Cloud Recordings`. Some caveats:
 
 - Everyone is expected to attend class in-person; see the [class policies](#class-policies).
 - The streaming/recording is done on a best-effort basis; it's not guaranteed.
@@ -204,7 +204,7 @@ It is entirely possible for everyone in the class to get over 100%.
 
 ### Assignment scoring
 
-In general, assignments and resubmissions are due before the start of the next class. Scoring:
+In general, assignments and resubmissions are due at 9am ET the day of class. Scoring:
 
 - **Late work:** {% if id == "columbia" %}-10%{% else %}-10 points{% endif %} per day
 - **Syntax errors:** -10 points
@@ -216,7 +216,7 @@ If the submission showed effort, feedback will be given through {% if id == "col
 
 #### Resubmission
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due at 9am ET before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 
 #### Extensions
 
