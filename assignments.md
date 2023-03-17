@@ -70,7 +70,7 @@ Note: In-class exercises will not be graded.
 {% else -%}
 - **PDF export:**
 
-  - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) codeL
+  - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) code.
 
     ```python
     import plotly.io as pio
@@ -89,9 +89,14 @@ Note: In-class exercises will not be graded.
 
 ### Kernel/memory issues
 
-{% if id == 'nyu' %}- Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
+{% if id == 'nyu' -%}
+- Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
   - Shows in the top right of the notebook interface
-  - Change from `Kernel` menu → `Change kernel` → `Python [conda env:python-public-policy]`{% endif %}
+  - To change:
+    1. Open the `Kernel` menu
+    1. Click `Change kernel`
+    1. Click `Python [conda env:python-public-policy]`
+{%- endif %}
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.{% endif %}
