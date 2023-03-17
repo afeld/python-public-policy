@@ -1,0 +1,124 @@
+# {{assisstant_name|title}} guide
+
+## General info
+
+- [Responsibilities section of the job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz)
+- [Schedule](https://python-public-policy.afeld.me/en/columbia/syllabus.html#schedule)
+- In grading/Discussions:
+  - We want to try giving students just enough hints to figure it out without giving them the answer.
+    - If they seem totally lost, direct them to [office hours](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information).
+  - Don't spend a ton of time trying to figure out something that you don't understand; feel free to escalate to the instructor.
+- For students seeking one-on-one help, direct them to [office hours](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information).
+  - If someone asks to meet with you specifically, you're welcome to do so, but not required.
+- Notifications:
+  - You may want to tweak your [Discussion notification settings](https://edstem.org/us/settings/notifications).
+  - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
+  - Recommend [turning on notifications for comments and edits](https://support.google.com/docs/answer/91588) in this doc.
+- Keep an eye out for students who I should encourage to apply as a Reader next term. Things to look for:
+  - Being consistently helpful in the Discussions
+  - Clean, well-documented solutions for the homeworks
+  - Asking good questions
+
+## Weekly cadence
+
+Weeks start/end at the beginning of each class.
+
+- Attending class
+- [Participation](https://python-public-policy.afeld.me/en/columbia/syllabus.html#participation) tracking for students in your section
+  - Each week is represented as an Assignment
+    - Easiest to do this through the Grades interface, rather than SpeedGrader
+    - Every cell for previous weeks should be filled in
+    - Mark each student that participated as Complete
+    - Mark those who didn't as Incomplete
+    - [Mark weeks before wait listed students joined the class as Excused](https://python-public-policy.afeld.me/en/columbia/lecture_0.html#once-you-get-off-the-wait-list)
+  - You can use the Analytics from Ed to help
+  - We can be fairly forgiving/generous with the scoring there
+  - Instructor can [export enrollment activity](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#student-enrollment-activity) for you
+    - We start tracking participation for a student's first full week in the class
+    - Participation for prior weeks should be marked as "Excused"
+- Grading assignment submissions and resubmissions and releasing grades for your section
+  - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
+  - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
+
+### Discussions
+
+- [Help page](https://edstem.org/us/help/using-ed-discussion)
+- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
+- Ensure Discussion questions have answers within [the specified timeline](https://python-public-policy.afeld.me/en/columbia/syllabus.html#communications).
+  - On-call schedule:
+    - Mostafa: Monday-Wednesday
+    - Kellyann: Thursday-Sunday
+  - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
+    - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
+    - The day before homework is due, answer questions sooner than that to get students unstuck.
+- Please give corrections/clarifications on student answers where necessary.
+- If posts have the wrong Category, are [a Question when they should be a Post](https://edstem.org/us/help/using-ed-discussion#creating-threads) or vice versa, please fix.
+- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already
+
+### Check-in meeting
+
+- How's the workload?
+- Anything you need clarification on?
+- What came up in Discussions/assignments (common problems, etc.) that might be useful to cover in class?
+
+## Assignments
+
+- Recommend [creating a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you
+- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
+  - Filter the students to your particular section in the top right
+  - You can leave comments on particular cells through the Colab interface
+  - If points are deducted, explicitly state what the deductions are for
+- [Scoring and regrade rules](https://python-public-policy.afeld.me/en/columbia/syllabus.html#assignments)
+- [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
+  - Don't give extensions on the resubmission deadline unless authorized by the instructor
+- Solutions folder will be shared with you from Google Drive
+  - [Instructor will share them with students](https://python-public-policy.afeld.me/en/columbia/assignments.html#submission) via scheduled Announcements
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+- Reader will manually apply [late penalty](https://python-public-policy.afeld.me/en/columbia/syllabus.html#assignment-scoring)
+
+### Checks
+
+The following should be true for each Assignment:
+
+- [ ] The description is a link to the assignment page on [the site](https://python-public-policy.afeld.me/en/columbia/)
+- [ ] Points: 100, potentially split up
+- [ ] Assignment Group: Assignments
+- [ ] Display Grade as: Percentage
+- [ ] Submission Type: Online, Website URL
+- [ ] [Anonymous grading](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769)
+- [ ] Dates are correct:
+  - [ ] Due dates should match the [schedule](https://python-public-policy.afeld.me/en/columbia/syllabus.html#schedule)
+  - [ ] ["Until" date](https://community.canvaslms.com/t5/Instructor-Guide/What-is-the-difference-between-assignment-due-dates-and/ta-p/897) should be the resubmission deadline
+    - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/columbia/final_project.html), for which we don't accept resubmission
+- [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
+- [ ] Grading Policy Settings (under Grades tab)
+  - [ ] **Late Policies:** Unchecked "Automatically apply deduction to late assignments"
+    - [ ] Readers will manually deduct late penalty when appropriate (-10% per day)
+  - [ ] **Grade Posting Policies:** Automatic
+
+### [Final Project](https://python-public-policy.afeld.me/en/columbia/final_project.html)
+
+#### Proposals
+
+- Students are encouraged to submit before the deadline to get feedback sooner
+  - We aim to turn around feedback on [the proposals](https://python-public-policy.afeld.me/en/columbia/final_project.html#proposal) sooner than later, so that students can get started.
+- You will check whether each proposal meets [the requirements](https://python-public-policy.afeld.me/en/columbia/final_project.html#format)
+- If the proposal shows effort and follows the [format](https://python-public-policy.afeld.me/en/columbia/final_project.html#format), full credit should be given
+- Things to look for (don't spend too long on these):
+  - Will their dataset answer their question?
+  - Do they have a question that is objectively answerable?
+  - Will it be the right level of challenge for the duration of the project and their skills, not too much, not too little?
+- The feedback you will likely give the most often will be something like:
+
+  > Your question is good, but you'll probably be able to answer it in relatively few lines of code. Think about what your follow-up question(s) will be.
+
+#### Peer review
+
+[The final projects themselves are peer graded.](https://python-public-policy.afeld.me/en/columbia/final_project.html#peer-grading) Once the peer review deadline passes:
+
+1. In the Final Project Assignment, open Speedgrader.
+1. Open each submission.
+1. Calculate the median of the scores from the peers, using that as the final grade.
+1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
+   - As long as thoughtful feedback was given, give full points.
