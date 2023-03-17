@@ -43,10 +43,12 @@ SCHOOLS = [
         coding_env_url="https://colab.research.google.com",
         assisstant_name="Reader",
         words=[
+            "canvaslms",
             "colab",
             "columbia",
             "courseworks",
             "ed discussion",
+            "edstem",
             "reader",
             "python for public policy",
             "sipa",
