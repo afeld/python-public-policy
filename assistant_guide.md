@@ -1,13 +1,15 @@
 # {{assisstant_name|title}} guide
 
+_While the {{assisstant_name}} is the intended audience here, others are welcome to read it._
+
 ## General info
 
 - [Responsibilities section of the job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz)
 - [Schedule](https://python-public-policy.afeld.me/en/columbia/syllabus.html#schedule)
 - In grading/Discussions:
-  - We want to try giving students just enough hints to figure it out without giving them the answer.
+  - We want to try giving students _just enough_ hints to figure it out without giving them the answer.
     - If they seem totally lost, direct them to [office hours](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information).
-  - Don't spend a ton of time trying to figure out something that you don't understand; feel free to escalate to the instructor.
+  - Don't spend a _ton_ of time trying to figure out something that you don't understand; feel free to escalate to the instructor.
 - For students seeking one-on-one help, direct them to [office hours](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information).
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
 - Notifications:
