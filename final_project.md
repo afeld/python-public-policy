@@ -69,7 +69,7 @@ Because it's the end of the course and [your peers are doing the reviews](https:
 
 ### Confirming you meet the requirements
 
-The instructor and {{assisstant_name}} don't have bandwidth to review everyone's full notebooks. Therefore, to be fair to everyone, we will deny any requests to have notebooks reviewed end to end, aside from the appeals mentioned below. In other words, please don't ask us "I think I'm done — can you make sure my Final Project is ok?" That said, we are more than happy to answer specific questions and help troubleshoot specific sections.
+The instructor and {{assistant_name}} don't have bandwidth to review everyone's full notebooks. Therefore, to be fair to everyone, we will deny any requests to have notebooks reviewed end to end, aside from the appeals mentioned below. In other words, please don't ask us "I think I'm done — can you make sure my Final Project is ok?" That said, we are more than happy to answer specific questions and help troubleshoot specific sections.
 
 To confirm you meet [the requirements](#analysis-requirements) prior to submitting, you can:
 

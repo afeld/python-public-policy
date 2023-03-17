@@ -1,6 +1,6 @@
-# {{assisstant_name|title}} guide
+# {{assistant_name|title}} guide
 
-_While the {{assisstant_name}} is the intended audience here, others are welcome to read it._
+_While the {{assistant_name}} is the intended audience here, others are welcome to read it._
 
 ## General info
 
@@ -15,7 +15,7 @@ _While the {{assisstant_name}} is the intended audience here, others are welcome
 - Notifications:
   - You may want to tweak your [Discussion notification settings](https://edstem.org/us/settings/notifications).
   - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
-- Keep an eye out for students who I should encourage to apply as a {{assisstant_name}} next term. Things to look for:
+- Keep an eye out for students who I should encourage to apply as a {{assistant_name}} next term. Things to look for:
   - Being consistently helpful in the Discussions
   - Clean, well-documented solutions for the homeworks
   - Asking good questions
@@ -76,7 +76,7 @@ Weeks start/end at the beginning of each class.
 - Solutions folder will be shared with you from Google Drive
   - [Instructor will share them with students](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#submission) via scheduled Announcements
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
-- {{assisstant_name|title}} will manually apply [late penalty](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
+- {{assistant_name|capitalize}} will manually apply [late penalty](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
 
 ### Checks
 
@@ -95,7 +95,7 @@ The following should be true for each Assignment:
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
 - [ ] Grading Policy Settings (under Grades tab)
   - [ ] **Late Policies:** Unchecked "Automatically apply deduction to late assignments"
-    - [ ] {{assisstant_name|title}} will manually deduct late penalty when appropriate (-10% per day)
+    - [ ] {{assistant_name|capitalize}} will manually deduct late penalty when appropriate (-10% per day)
   - [ ] **Grade Posting Policies:** Automatic
 
 ### [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html)
