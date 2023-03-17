@@ -64,7 +64,7 @@ SCHOOLS = [
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLScBSZxzDX3WE1iaQYWrNbiIWMIBKiBw6Kri-hfhvKLn2zte9g/viewform?usp=sf_link",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=156784",
         coding_env_name="JupyterHub",
-        coding_env_url="https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/",
+        coding_env_url="https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/",
         assisstant_name="grader",
         words=[
             "brightspace",

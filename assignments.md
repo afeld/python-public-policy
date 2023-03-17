@@ -10,7 +10,7 @@
 
 ## Tips
 
-{% if id == 'nyu' %}- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.{% endif %}
+{% if id == 'nyu' %}- **All lecture slides and homework templates can be found under [`class_materials/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.{% endif %}
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
@@ -57,7 +57,7 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 Engaging with comments left in {{coding_env_name}} is more than welcome. When you're ready to have it formally re-graded, please resubmit through {{lms_name}}.
 {% endif %}
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
+After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
 
 Note: In-class exercises will not be graded.
 
@@ -80,7 +80,7 @@ Note: In-class exercises will not be graded.
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
 - **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
-  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to reach out to the instructor.
+  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to start your server in the `additional storage` mode to clean it up. Reach out to the instructor if you aren't able to resolve the issue on your own.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
@@ -99,4 +99,4 @@ Note: In-class exercises will not be graded.
 {%- endif %}
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
-  {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506001-fall.rcnyu.org/user-redirect/tree#running) page.{% endif %}
+  {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506.rcnyu.org/user-redirect/tree#running) page.{% endif %}

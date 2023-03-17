@@ -3,7 +3,7 @@
 {% if id == "nyu" -%}
 - JupyterHub
   - [Settings](https://settings-fall.rcnyu.org/)
-  - [Instructor site](https://padmgp-4506001-fall-instructor.rcnyu.org/)
+  - [Instructor site](https://padmgp-4506-instructor.rcnyu.org/)
 {% endif -%}
 
 ## Adding/updating packages
