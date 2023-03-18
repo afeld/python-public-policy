@@ -86,7 +86,7 @@ Weeks start/end at the beginning of each class.
 {% else -%}
 - Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
 {% endif -%}
-- [Scoring and regrade rules](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignments)
+- [Scoring and regrade rules](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
 {% if school_slug == "columbia" -%}
 - [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
 {% else -%}
@@ -135,8 +135,7 @@ The following should be true for each Assignment:
 
 - Students are encouraged to submit before the deadline to get feedback sooner
   - We aim to turn around feedback on [the proposals](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal) sooner than later, so that students can get started.
-- You will check whether each proposal meets [the requirements](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#format)
-- If the proposal shows effort and follows the [format](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#format), full credit should be given
+- If the proposal shows effort and follows the [format](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html#format), full credit should be given
 - Things to look for (don't spend too long on these):
   - Will their dataset answer their question?
   - Do they have a question that is objectively answerable?
