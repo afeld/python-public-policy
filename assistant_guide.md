@@ -33,17 +33,17 @@ Weeks start/end at the beginning of each class.
 - Attending class
 {% endif -%}
 - [Participation](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#participation) tracking{% if school_slug == "columbia" %} for students in your section{% endif %}
+  - We can be fairly forgiving/generous with the scoring there
+  {% if school_slug == "columbia" -%}
   - Each week is represented as an Assignment
     - Easiest to do this through the Grades interface, rather than SpeedGrader
     - Every cell for previous weeks should be filled in
     - Mark each student that participated as Complete
     - Mark those who didn't as Incomplete
-    - [Mark weeks before wait listed students joined the class as Excused](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html#once-you-get-off-the-wait-list)
   - You can use the Analytics from Ed to help
-  - We can be fairly forgiving/generous with the scoring there
   - Instructor can [export enrollment activity](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#student-enrollment-activity) for you
-    - We start tracking participation for a student's first full week in the class
-    - Participation for prior weeks should be marked as "Excused"
+    - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html#once-you-get-off-the-wait-list)
+  {%- endif %}
 - Grading assignment submissions and resubmissions and releasing grades for your section
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
