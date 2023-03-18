@@ -148,7 +148,9 @@ The following should be true for each Assignment:
 
 [The final projects themselves are peer graded.](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#peer-grading) Once the peer review deadline passes:
 
+{% if school_slug == "columbia" -%}
 1. In the Final Project Assignment, open Speedgrader.
+{%- endif %}
 1. Open each submission.
 1. Calculate the median of the scores from the peers, using that as the final grade.
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.

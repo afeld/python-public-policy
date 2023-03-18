@@ -58,6 +58,7 @@ SCHOOLS = [
             "reader",
             "python for public policy",
             "sipa",
+            "speedgrader",
             "wait list",
         ],
     ),
