@@ -12,7 +12,7 @@ assignees: afeld
   - [ ] Link to survey
 - [ ] Find Reader
   - [ ] Update [job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
-  - [ ] Share the [guide](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
+  - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/assistant_guide.html)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
 - [ ] Find guest(s)
