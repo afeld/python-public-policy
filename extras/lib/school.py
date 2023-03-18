@@ -17,12 +17,14 @@ class SchoolText:
     course_name: str
     lms_name: str
     lms_url: str
+    lms_anonymous_docs: str
     discussions_url: str
     survey_url: str
     lms_notification_settings_url: str
     coding_env_name: str
     coding_env_url: str
     assistant_name: str
+    assistant_responsibilities: str
     words: List[str]
 
 
@@ -36,12 +38,14 @@ SCHOOLS = [
         course_name="Python for Public Policy",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/171519",
+        lms_anonymous_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769",
         discussions_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
         coding_env_name="Google Colab",
         coding_env_url="https://colab.research.google.com",
         assistant_name="Reader",
+        assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
         words=[
             "canvaslms",
             "colab",
@@ -49,6 +53,8 @@ SCHOOLS = [
             "courseworks",
             "ed discussion",
             "edstem",
+            "kellyann",
+            "mostafa",
             "reader",
             "python for public policy",
             "sipa",
@@ -62,13 +68,16 @@ SCHOOLS = [
         course_name="Python Coding for Public Policy",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/278596",
+        lms_anonymous_docs="https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm",
         discussions_url="https://brightspace.nyu.edu/d2l/le/278596/discussions/List",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLScBSZxzDX3WE1iaQYWrNbiIWMIBKiBw6Kri-hfhvKLn2zte9g/viewform?usp=sf_link",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=278596",
         coding_env_name="JupyterHub",
         coding_env_url="https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/",
         assistant_name="grader",
+        assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         words=[
+            "amisa",
             "brightspace",
             "conda",
             # "conversation",  # Brightspace term, TODO
