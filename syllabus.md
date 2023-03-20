@@ -103,15 +103,17 @@ These are expected to take 5-10 hours per week.
 
 ## Learning Objectives
 
-Students will learn how to:
+By the end of the course, students will know:
 
-- Use [Jupyter](https://jupyter.org/)
-- Have an understanding of Python fundamentals
+- Python fundamentals
   - Common data types
   - Functions
   - Reading technical documentation
   - Troubleshooting
-- Know how to use several Python packages for different kinds of data analysis, manipulation, and visualization
+- How to use [pandas](https://pandas.pydata.org/) and other packages for data exploration, manipulation, visualization, and analysis
+- How to use [Jupyter](https://jupyter.org/) as a coding environment
+- How to work with open data
+- How these tools and skills can be leveraged in a policy context
 
 ## Schedule
 
