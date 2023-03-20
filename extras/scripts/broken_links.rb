@@ -13,7 +13,9 @@ options = {
   ignore_urls: [
     %r{^_static/images/logo_},
     %r{^https://vergil\.registrar\.columbia\.edu/#},
-    # gives a 403 for some reason
+
+    # give 403s for some reason
+    %r{^https://support.zoom.us/},
     'https://hobbylark.com/party-games/How-to-Make-Your-Own-Mad-Libs'
   ],
   swap_urls: {
