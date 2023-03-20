@@ -146,7 +146,7 @@ The following should be true for each Assignment:
 
 #### Peer review
 
-[The final projects themselves are peer graded.](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#peer-grading) Once the peer review deadline passes:
+[The Final Projects themselves are peer graded.](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html) Once the peer review deadline passes:
 
 {% if school_slug == "columbia" -%}
 1. In the Final Project Assignment, open Speedgrader.
