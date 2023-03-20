@@ -86,6 +86,7 @@ Note: In-class exercises will not be graded.
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
     - See [how we found the property name to use](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
+- **`SettingWithCopyWarning`:** Use `.loc[condition, "column name"] = …`. [More details.](https://www.dataquest.io/blog/settingwithcopywarning/)
 
 ### Kernel/memory issues
 
