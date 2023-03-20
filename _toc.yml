@@ -5,11 +5,10 @@ chapters:
     title: Homepage
   - file: syllabus
     title: Syllabus
+    {% if school_slug == "columbia" -%}
     sections:
-{%- if school_slug == "columbia" %}
       - file: curve
-{%- endif %}
-      - file: assistant_guide
+    {%- endif %}
   - file: assignments
     title: Assignment info
   - file: resources
@@ -49,3 +48,7 @@ chapters:
       - file: hw_4
   - file: lecture_5
   - file: lecture_6
+  - file: meta
+    sections:
+      - file: meta/assisstant_guide
+      - file: meta/instructor_guide

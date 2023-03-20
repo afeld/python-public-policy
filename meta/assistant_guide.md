@@ -41,7 +41,7 @@ Weeks start/end at the beginning of each class.
     - Mark each student that participated as Complete
     - Mark those who didn't as Incomplete
   - You can use the Analytics from Ed to help
-  - Instructor can [export enrollment activity](https://github.com/afeld/python-public-policy/blob/main/.github/CONTRIBUTING.md#student-enrollment-activity) for you
+  - Instructor can [export enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity) for you
     - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html#once-you-get-off-the-wait-list)
   {%- endif %}
 - Grading assignment submissions and resubmissions and releasing grades for your section

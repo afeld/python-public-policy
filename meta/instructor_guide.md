@@ -1,4 +1,6 @@
-# Contributing
+# Instructor guide
+
+_While this is meant as internal documentation for the instructor, others are welcome to read it._
 
 {% if id == "nyu" -%}
 - JupyterHub
