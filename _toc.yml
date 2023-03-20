@@ -50,5 +50,5 @@ chapters:
   - file: lecture_6
   - file: meta
     sections:
-      - file: meta/assisstant_guide
+      - file: meta/assistant_guide
       - file: meta/instructor_guide
