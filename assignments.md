@@ -45,6 +45,8 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.html#instructor-information) with at least `Commenter` permissions.
    - To avoid needing to do this for each assignment, strongly recomend [sharing the `Colab Notebooks` folder in Google Drive](https://support.google.com/drive/answer/7166529), which will apply to all notebooks you create.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
+
+Engaging with comments left in {{coding_env_name}} is more than welcome.
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
@@ -53,9 +55,9 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. Upload the PDF to the {{lms_name}} Assignment.
+{%- endif %}
 
-Engaging with comments left in {{coding_env_name}} is more than welcome. When you're ready to have it formally re-graded, please resubmit through {{lms_name}}.
-{% endif %}
+When you're ready to have it formally re-graded, please resubmit through {{lms_name}}.
 
 After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
 
