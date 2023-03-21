@@ -4,7 +4,7 @@ _While this is meant as internal documentation for the instructor, others are we
 
 {% if id == "nyu" -%}
 - JupyterHub
-  - [Settings](https://settings-fall.rcnyu.org/)
+  - [Settings](https://settings-spring.rcnyu.org/)
   - [Instructor site](https://padmgp-4506-instructor.rcnyu.org/)
 {% endif -%}
 
@@ -79,7 +79,7 @@ For Zoom:
   1. On laptop, mute mic and speakers on computer
   1. On Zoom Classroom, unmute mic
   1. Start recording
-- [Set placeholders](https://settings-fall.rcnyu.org/)
+- [Set placeholders](https://settings-spring.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 {% endif -%}
 

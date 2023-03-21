@@ -23,8 +23,8 @@ assignees: afeld
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] Update bookmarks in Chrome
-  - [ ] [Set up GitHub repositories synchronization](https://settings-fall.rcnyu.org/) using `ours` mode
-  - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
+  - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/) using `ours` mode
+  - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment)
 - [ ] New Brightspace site
   - [ ] Import
