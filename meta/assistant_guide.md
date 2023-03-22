@@ -104,8 +104,10 @@ Weeks start/end at the beginning of each class.
 The following should be true for each Assignment:
 
 - [ ] The description is a link to the assignment page on [the site](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- [ ] Points: 100, potentially split up
-- [ ] Assignment Group: Assignments
+- [ ] Points
+    - [ ] 100 points per Assignment, potentially split up
+    - [ ] Percentage of the overall grade matches [the breakdown in the syllabus](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignments-and-evaluation)
+- [ ] Grouped in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
 - [ ] [Anonymous grading]({{lms_anonymous_docs}})
@@ -116,7 +118,7 @@ The following should be true for each Assignment:
     - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html), for which we don't accept resubmission
   {% else -%}
   - [ ] End Date should be the Sundays following the Due Date, at the same time
-    - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html), which can't be turned in late
+    - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html), which should be three days after the Due Date
   {%- endif %}
 {% if school_slug == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)

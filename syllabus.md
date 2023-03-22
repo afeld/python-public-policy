@@ -178,15 +178,15 @@ You can find the link to the live stream in [{{lms_name}}]({{lms_url}}) under th
 
 The Course Grade is based on the following:
 
-- [Assignments](#assignment-scoring): 95%
+- [Assignments](#assignment-scoring): 70%
   - [Homework 0][hw0]: 14%
   - [Homework 1][hw1]: 14%
   - [Homework 2][hw2]: 14%
   - [Homework 3][hw3]: 7%
   - [Final Project proposal][final_prop]: 7%
   - [Homework 4][hw4]: 14%
-  - [Final Project][final]: 20%
-  - [Final Project peer grading][final-peer]: 5%
+- [Final Project][final]: 20%
+- [Final Project peer grading][final-peer]: 5%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: https://python-public-policy.afeld.me/en/{{school_slug}}/hw_0.html
