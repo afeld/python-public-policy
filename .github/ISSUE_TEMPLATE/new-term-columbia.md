@@ -15,6 +15,7 @@ assignees: afeld
   - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/assistant_guide.html)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
+  - [ ] Set up check-in
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
