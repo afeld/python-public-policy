@@ -218,7 +218,7 @@ If the submission showed effort, feedback will be given through {% if id == "col
 
 #### Resubmission
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score. This will be due at 9am ET before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due at 9am ET before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 
 #### Extensions
 
