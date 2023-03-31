@@ -47,6 +47,7 @@ Weeks start/end at the beginning of each class.
 - Grading assignment submissions and resubmissions and releasing grades for your section
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
+  - [Info about anonymous grading]({{lms_anonymous_docs}})
 
 ### Discussions
 

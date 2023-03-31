@@ -20,6 +20,7 @@ assignees: afeld
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
   - [ ] Share the [guide](https://python-public-policy.afeld.me/en/nyu/assistant_guide.html)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
+  - [ ] [Add to Brightspace](https://documentation.brightspace.com/EN/le/classlist/instructor/add_existing_user_to_classlist.htm) as a [Teaching Assistant](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018960&sys_kb_id=e78f37561b3e6050191ca8233a4bcb2a&spa=1)
   - [ ] Set up check-in
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
