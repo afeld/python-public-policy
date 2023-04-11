@@ -38,6 +38,7 @@ If the proposal shows effort and follows the format below, full credit will be g
 
 - **Dataset:** [Recycling Diversion and Capture Rates](https://data.cityofnewyork.us/Environment/Recycling-Diversion-and-Capture-Rates/gaq9-z3hz)
 - **Question:** From 2016 to 2019, what community district increased their diversion (recycling) rate the most?
+- **Columns:** `District`, `Fiscal Year`, `Diversion Rate-Total (Total Recycling / Total Waste)`
 - **Hypothesis:** [Bushwick](https://communityprofiles.planning.nyc.gov/brooklyn/4), because it's gentrified over that time, and hipsters love to recycle.
 
 ## Another example
