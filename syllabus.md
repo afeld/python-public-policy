@@ -226,9 +226,9 @@ Requests for extensions will only be considered if made via email before the dea
 
 ### Participation
 
-Between-Class Participation means:
+To encourage cosnsistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
 
-- Asking a question
+- Asking a question of substance
 - Answering a question
 - Posting a useful/interesting resource
 - Sharing an insight
@@ -239,16 +239,15 @@ in either:
 - [The Discussions]({{discussions_url}})
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings]({{lms_notification_settings_url}}) to make sure you see conversations that come through
+- Email
 
-The following don't count towards the Between-Class Participation score:
+A student's overall Between-Class Participation score is calculated based on some form of participation every week. The following don't count:
 
 - In-class participation, due to:
   - The difficuly of tracking participation live
   - Some students being more shy
 - Homework revisions
 - Communications about grades or other administrivia
-
-A student's overall Between-Class Participation score is calculated based on some form of participation every week.
 
 ### Letter Grades
 
