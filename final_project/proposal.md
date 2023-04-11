@@ -49,6 +49,8 @@ If the proposal shows effort and follows the format below, full credit will be g
 
 What's wrong with this proposal?
 
+---
+
 Even the question can bake in assumptions. For example:
 
 > What ZIP code has the highest number of food poisoning cases?
