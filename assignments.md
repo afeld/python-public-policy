@@ -112,4 +112,9 @@ If you get an error of `Disk is full` / `No space left on device`: Your workspac
 {%- endif %}
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
+  - If loading a new dataset, make it smaller by doing some filtering before loading it into the notebook:
+    - Through the data portal, if it supports it
+      - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
+    - In a spreadsheet program
+    - For the NYC Open Data Portal, though [the shortener widget](https://python-public-policy.afeld.me/en/{{school_slug}}/shorten.html)
   {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506.rcnyu.org/user-redirect/tree#running) page.{% endif %}
