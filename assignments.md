@@ -81,8 +81,12 @@ Note: In-class exercises will not be graded.
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 
-- **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. Jupyter shows the `File size` of each in the file browser. Try deleting some larger files that you don't need anymore.
-  - If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to start your server in the `additional storage` mode to clean it up. Reach out to the instructor if you aren't able to resolve the issue on your own.
+- **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
+  1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
+  1. Go to start your server again (visit [{{coding_env_name}}]({{coding_env_url}})).
+  1. Select `Troubleshooting Only - Clear Disk`.
+  1. Look at the `File size` Jupyter shows in the file browser.
+  1. Delete one or more large files.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
