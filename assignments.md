@@ -80,19 +80,25 @@ Note: In-class exercises will not be graded.
     ```
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
-
-- **`Disk is full` / `No space left on device`:** Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
-  1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-  1. Go to start your server again (visit [{{coding_env_name}}]({{coding_env_url}})).
-  1. Select `Troubleshooting Only - Clear Disk`.
-  1. Look at the `File size` Jupyter shows in the file browser.
-  1. Delete one or more large files.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
     - See [how we found the property name to use](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** Use `.loc[condition, "column name"] = …`. [More details.](https://www.dataquest.io/blog/settingwithcopywarning/)
+
+{% if id == 'nyu' -%}
+### Disk full
+
+If you get an error of `Disk is full` / `No space left on device`: Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
+
+1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
+1. Go to start your server again (visit [{{coding_env_name}}]({{coding_env_url}})).
+1. Select `Troubleshooting Only - Clear Disk`.
+1. Look at the `File size` Jupyter shows in the file browser.
+1. Delete one or more large files.
+
+{% endif -%}
 
 ### Kernel/memory issues
 
