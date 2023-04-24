@@ -30,6 +30,7 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. Click `Copy path`.
 1. Use this path with `read_csv()`.
 {% else -%}
+1. Open the [{{coding_env_name}} file browser]({{coding_env_url}}).
 1. Navigate to the folder your notebook is in.
 1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
 1. From Python, use `read_csv("./<filename>.csv")`.
