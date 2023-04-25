@@ -99,6 +99,7 @@ EXEMPT = [
     "- [google colab](https://colab.research.google.com/)",
     "anaconda",
     "built around it",  # referring to Colab
+    "columbia's graduate school of architecture",  # bio
     "conda activate",
     "create the environment",
     "hannahkates/nyu-python-public-policy",
