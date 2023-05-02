@@ -36,11 +36,15 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. From Python, use `read_csv("./<filename>.csv")`.
 
 [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
-{% endif -%}
+
+### Limits
+
+{{coding_env_name}} has a disk storage limit of 1GB (a.k.a. 1,024 MB or 1,048,576 KB) across all your files, and a memory limit of 3GB.
+{%- endif %}
 
 ### Reducing data size
 
-{% if id == 'nyu' %}{{coding_env_name}} has a disk storage limit of 1GB, and a memory limit of 3GB. {% endif %}You can make data smaller _before_ uploading by filtering it through:
+You can make data smaller _before_ uploading by filtering it through:
 
 - The data portal, if it supports it
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
@@ -102,7 +106,7 @@ Note: In-class exercises will not be graded.
 {% if id == 'nyu' -%}
 ### Disk full
 
-If you get an error of `Disk is full` / `No space left on device`: Your workspace in {{coding_env_name}} has a limit of 1GB (a.k.a 1,000 MB or 1,000,000 KB) across all your files. If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
+If you get an error of `Disk is full` / `No space left on device`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
 1. Go to start your server again (visit [{{coding_env_name}}]({{coding_env_url}})).

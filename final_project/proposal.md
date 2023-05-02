@@ -7,7 +7,7 @@
      - Using data from a primary source is preferred.
    - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
    {%- if id == "nyu" %}
-   - Note that {{coding_env_name}} has a storage limit of 1GB.
+   - Note the [{{coding_env_name}} limits](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#limits).
    {%- endif %}
 1. Inspect the data a bit.
 1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
