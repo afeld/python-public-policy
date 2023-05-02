@@ -54,7 +54,7 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
    - See [general scoring criteria](syllabus.html#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 {% if id == 'columbia' -%}
-1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.html#instructor-information) with at least `Commenter` permissions.
+1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information) with at least `Commenter` permissions.
    - To avoid needing to do this for each assignment, strongly recomend [sharing the `Colab Notebooks` folder in Google Drive](https://support.google.com/drive/answer/7166529), which will apply to all notebooks you create.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
 
@@ -123,7 +123,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
    jupyter nbconvert --to notebook --clear-output ~/class_materials/hw_<NUMBER>.ipynb
    ```
 
-If you're confused by these instrucions, download the notebook file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}]/syllabus.html#instructor-information).
+If you're confused by these instrucions, download the notebook file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
 {%- endif %}
 
 ### Kernel/memory issues
