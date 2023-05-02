@@ -34,6 +34,8 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 1. Navigate to the folder your notebook is in.
 1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
 1. From Python, use `read_csv("./<filename>.csv")`.
+
+[More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
 {% endif -%}
 
 ## Submission
@@ -99,7 +101,20 @@ If you get an error of `Disk is full` / `No space left on device`: Your workspac
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
 
-{% endif -%}
+### `Error loading notebook`
+
+This error can happen if you tried to output a lot of data in tables/charts. Steps to resolve:
+
+1. Open the [{{coding_env_name}}]({{coding_env_url}})) file browser
+1. Click `New`, then `Terminal`
+1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
+
+   ```sh
+   jupyter nbconvert --to notebook --clear-output ~/class_materials/hw_<NUMBER>.ipynb
+   ```
+
+If you're confused by these instrucions, download the file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}]/syllabus.html#instructor-information).
+{%- endif %}
 
 ### Kernel/memory issues
 
