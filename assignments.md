@@ -113,7 +113,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
    jupyter nbconvert --to notebook --clear-output ~/class_materials/hw_<NUMBER>.ipynb
    ```
 
-If you're confused by these instrucions, download the file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}]/syllabus.html#instructor-information).
+If you're confused by these instrucions, download the notebook file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}]/syllabus.html#instructor-information).
 {%- endif %}
 
 ### Kernel/memory issues
