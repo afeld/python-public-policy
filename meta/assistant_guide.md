@@ -34,6 +34,7 @@ Weeks start/end at the beginning of each class.
 {% endif -%}
 - [Participation](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#participation) tracking{% if school_slug == "columbia" %} for students in your section{% endif %}
   - We can be fairly forgiving/generous with the scoring there
+  - Every student should have each week marked one way or the other
   {% if school_slug == "columbia" -%}
   - Each week is represented as an Assignment
     - Easiest to do this through the Grades interface, rather than SpeedGrader
