@@ -38,6 +38,15 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
 {% endif -%}
 
+### Reducing data size
+
+{% if id == 'nyu' %}{{coding_env_name}} has a disk storage limit of 1GB, and a memory limit of 3GB. {% endif %}You can make data smaller _before_ uploading by filtering it through:
+
+- The data portal, if it supports it
+  - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
+- In a spreadsheet program
+- For the [NYC Open Data Portal](https://opendata.cityofnewyork.us/), though [the shortener widget](https://python-public-policy.afeld.me/en/{{school_slug}}/shorten.html)
+
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
@@ -100,6 +109,7 @@ If you get an error of `Disk is full` / `No space left on device`: Your workspac
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
+1. If you're still using those datasets, [make them smaller](#reducing-data-size).
 
 ### `Error loading notebook`
 
@@ -128,9 +138,5 @@ If you're confused by these instrucions, download the notebook file and [email t
 {%- endif %}
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
-  - If loading a new dataset, make it smaller by doing some filtering before loading it into the notebook:
-    - Through the data portal, if it supports it
-      - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
-    - In a spreadsheet program
-    - For the NYC Open Data Portal, though [the shortener widget](https://python-public-policy.afeld.me/en/{{school_slug}}/shorten.html)
+  - If loading a new dataset, [make it smaller](#reducing-data-size)
   {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506.rcnyu.org/user-redirect/tree#running) page.{% endif %}
