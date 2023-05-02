@@ -16,7 +16,9 @@ There are countless places to get data, notably:
 - [Economic Policy Institute](https://www.epi.org/data/)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
-- [Global list of open data portals](https://dataportals.org/)
+- Lists of open data portals:
+   - [DataPortals](https://dataportals.org/)
+   - [Open Data Network](https://www.opendatanetwork.com/)
 
 ## Counting lines of code
 
