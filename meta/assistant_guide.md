@@ -150,7 +150,7 @@ The following should be true for each Assignment:
 
 #### Peer review
 
-[The Final Projects themselves are peer graded.](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html) Once the peer review deadline passes:
+[The Final Projects themselves are peer graded.](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html) {% if school_slug == "nyu" %}We're using [PeerMark](https://www.nyu.edu/servicelink/KB0018477) to facilitate the peer grading.{% endif %} Once the peer review deadline passes:
 
 {% if school_slug == "columbia" -%}
 1. In the Final Project Assignment, open Speedgrader.
