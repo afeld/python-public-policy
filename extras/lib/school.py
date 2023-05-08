@@ -87,8 +87,10 @@ SCHOOLS = [
             "jupyterhub",
             "nyu",
             "padm",
+            "peermark",
             "pio.renderers.default",  # boilerplate for allowing PDF export
             "python coding for public policy",  # Columbia version doesn't include "Coding"
+            "turnitin",
             "wagner",
         ],
     ),

@@ -70,7 +70,10 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
    1. `PDF via LaTeX (PDF)`
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
-1. Upload the PDF to the {{lms_name}} Assignment.
+1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
+1. **If the Final Project:**
+   1. In [{{lms_name}}]({{lms_url}}), go to `Content` then [`Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/278596/topics/8569710). You should see an embedded TurnItIn/PeerMark dashboard.
+   1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
 {%- endif %}
 
 When you're ready to have it formally re-graded, please resubmit through {{lms_name}}.
