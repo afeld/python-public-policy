@@ -108,6 +108,7 @@ EXEMPT = [
     "jupyterhub_url",
     "nbgrader",
     "nyu's quantitative analysis guide",
+    "upload the notebook to [google colab]",
     "python coding for public policy assignments",
     "secondary",  # matches "conda"
     "speedgrader",  # matches "grader"
