@@ -20,16 +20,18 @@ There are countless places to get data, notably:
    - [DataPortals](https://dataportals.org/)
    - [Open Data Network](https://www.opendatanetwork.com/)
 
+{% if school_slug == "columbia" -%}
 ## Counting lines of code
 
 To count the number of lines of code in a notebook:
 
 1. Download the notebook as a Python file.
-    1. With the notebook open in {{coding_env_name}}, go to `File`->{% if school_slug == "columbia" %}`Download`->`Download .py`{% else %}`Download as`->`Python (.py)`{% endif %}.
-1. Upload the Python file to {{coding_env_name}}.
+    1. With the notebook open in {{coding_env_name}}, go to `File`->`Download`->`Download .py`.
+1. Upload the Python file to [{{coding_env_name}}]({{coding_env_url}}).
 1. Put the following in a code cell and run it.
 
     ```sh
     !apt-get install -y cloc > /dev/null
     !cloc --hide-rate --by-file *.py
     ```
+{%- endif %}
