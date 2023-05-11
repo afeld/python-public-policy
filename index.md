@@ -2,7 +2,7 @@
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
-This repository contains content for [{{school_name}}'s {{course_name}}](syllabus.md) class.
+This site contains content for [{{school_name}}'s {{course_name}}](syllabus.md) class.
 
 The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks](resources.html#jupyter-outside-this-course).
 
@@ -40,13 +40,14 @@ There are countless resources out there to learn Python and pandas — books, vi
 - Teaches you how to work with open data
 - Optimizes for minimal setup
 
-All the lectures and assignment templates are in this repository, so you _could_ go through them on your own. The benefits of enrolling are:
+All the lectures and assignment templates are available for download through this site, so you _could_ go through them on your own. The benefits of enrolling are:
 
 - Additional content
-  - You get access to lectures, which includes commentary that isn't in this repository
+  - You get access to lectures, which includes commentary that isn't available here
   - You get access to assignment solutions
 - Support
   - There is an instructor to answer questions, both during and between lectures
+  - You get feedback on your assignments
   - You have peers you can work with
 - You invest money and are expected to show up to class and turn in assignments on time, which [makes it far more likely you will complete it](https://mashable.com/2014/12/16/warning-college-may-be-a-waste-of-your-time-and-money/)
 
