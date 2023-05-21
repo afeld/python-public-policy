@@ -23,6 +23,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 ## Notes for reviewers
 
 - Your feedback should include what they did well, as well as what they could do more clearly/simply/etc.
+- The feedback should be constructive; don't be a jerk.
 - Points should only be deducted based on the [requirements](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#analysis-requirements). A "this could be done better/differently" comment doesn't _necessarily_ need to have a corresponding point deduction.
 - You are _not_ expected to run any of their code. The notebook should be graded as-is.
 {% if school_slug == "columbia" -%}
