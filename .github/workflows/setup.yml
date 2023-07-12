@@ -20,12 +20,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Conda packages
-        uses: mamba-org/provision-with-micromamba@main
+        uses: mamba-org/setup-micromamba@v1
         with:
-          channel-priority: strict
           environment-file: extras/environment.yml
-          cache-downloads: true
-          cache-env: true
+          init-shell: bash
+          cache-environment: true
       # needed for htmlproofer
       - uses: ruby/setup-ruby@v1
         with:
