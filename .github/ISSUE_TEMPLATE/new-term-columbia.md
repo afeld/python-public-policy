@@ -6,6 +6,7 @@ labels: ""
 assignees: afeld
 ---
 
+- [ ] Get space for office hours
 - [ ] Update in repo
   - [ ] Dates
   - [ ] Office hours

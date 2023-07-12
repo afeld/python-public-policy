@@ -13,7 +13,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
    - If you're unable to access the notebooks, make sure you're signed into Google with your Columbia account, and using that to try and access them. See [these instructions](https://support.google.com/docs/answer/6211862).
 1. Leave substantive feedback, directly in the notebook and/or as a comment/attachment on the {{lms_name}} Assignment peer review area.
 {% else -%}
-1. Go to `Content`, then [`Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/278596/topics/8569710). You should see an embedded TurnItIn/PeerMark dashboard.
+1. Go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088), then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
 {%- endif %}
 1. Check against [the analysis requirements](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#analysis-requirements), factoring in the applicable [general assignment scoring](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring).

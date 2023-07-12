@@ -8,7 +8,7 @@
 
 {% endif -%}
 
-# {{course_name}} - Spring 2023
+# {{course_name}} - Fall 2023
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -28,10 +28,10 @@
 
 - **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Tuesdays 1/17-2/28
-  - Section 1: 9-10:50am ET
-  - Section 2: 11-12:50pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
+- **Class Meeting Times:** Wednesdays 9/6-10/18
+  - Section 1: 4:10-6pm ET
+  - Section 2: 6:10-8pm ET
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room TBD
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -40,11 +40,9 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
-- **Readers:**
-  - Section 1: Kellyann Hayes, kh3117@columbia.edu
-  - Section 2: Mostafa Bushehri, mb5015@columbia.edu
+- **Readers:** TBD
 - **Office Hours:**
-  - Tuesdays 2-3pm ET in IAB room 1322, no appointment necessary
+  - Wednesdays 2:30-3:30pm ET in IAB room TBD, no appointment necessary
   - Other times by appointment; email the instructor
 
 {% else -%}
@@ -53,10 +51,8 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Tuesdays 3/21-5/16, no class 4/18 and 5/9
-  - Section 1: 4:55-6:35pm ET
-  - Section 2: 6:45-8:25pm ET
-- **Class Location:** [194 Mercer St](https://goo.gl/maps/omqFNDQ3nMohsmdJ7) room 305
+- **Class Meeting Times:** Wednesdays 10/25-12/14 6:45-8:25pm ET, no class 11/22
+- **Class Location:** [Global Center for Academic and Spiritual Life (GCASL), 238 Thompson St](https://goo.gl/maps/5kM2NSLCS3HyvFcQ6), room 275
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
@@ -66,9 +62,9 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** Amisa Ratliff, agr8413@nyu.edu
+- **Grader:** TBD
 - **Office Hours:**
-  - Mondays 5:30-6pm ET over Zoom, no appointment necessary
+  - Tuesdays 5:30-6pm ET over Zoom, no appointment necessary
   - Other times by appointment; email the instructor
 
 {% endif -%}
@@ -119,31 +115,30 @@ By the end of the course, students will know:
 
 {% if school_slug == "columbia" -%}
 
-| Lecture | Date | Topic                           | Homework                                                                                        |
-| ------- | ---- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [0][l0] | 1/17 | Intro to coding                 | pre-class TODOs due                                                                             |
-| [1][l1] | 1/24 | Intro to Pandas                 | [Homework 0][hw0] due                                                                           |
-| [2][l2] | 1/31 | Manipulating and combining data | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
-| [3][l3] | 2/7  | Data visualization              | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
-| [4][l4] | 2/14 | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
-| [5][l5] | 2/21 | The Bigger Picture              | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
-| [6][l6] | 2/28 | APIs                            | [Homework 4][hw4] resubmission due                                                              |
-| none    | 3/2  | none                            | [Final Project][final] due                                                                      |
-| none    | 3/7  | none                            | [Final Project peer grading][final-peer] due                                                    |
+| Lecture | Date  | Topic                           | Homework                                                                                        |
+| ------- | ----- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [0][l0] | 9/6   | Intro to coding                 | pre-class TODOs due                                                                             |
+| [1][l1] | 9/13  | Intro to Pandas                 | [Homework 0][hw0] due                                                                           |
+| [2][l2] | 9/20  | Manipulating and combining data | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
+| [3][l3] | 9/27  | Data visualization              | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
+| [4][l4] | 10/4  | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
+| [5][l5] | 10/11 | APIs                            | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
+| [6][l6] | 10/18 | The Bigger Picture              | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
+| none    | 10/25 | none                            | [Final Project peer grading][final-peer] due                                                    |
 
 {% else -%}
 
-| Lecture | Date | Topic                           | Homework                                                                                        |
-| ------- | ---- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [0][l0] | 3/21 | Intro to coding                 | pre-class TODOs due                                                                             |
-| [1][l1] | 3/28 | Intro to Pandas                 | [Homework 0][hw0] due                                                                           |
-| [2][l2] | 4/4  | Manipulating and combining data | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
-| [3][l3] | 4/11 | Data visualization              | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
-| none    | 4/18 | none                            |                                                                                                 |
-| [4][l4] | 4/25 | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
-| [5][l5] | 5/2  | APIs                            | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
-| none    | 5/9  | none (Reading Day)              | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
-| [6][l6] | 5/16 | The Bigger Picture              | [Final Project peer grading][final-peer] due                                                     |
+| Lecture | Date  | Topic                           | Homework                                                                                        |
+| ------- | ----- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [0][l0] | 10/25 | Intro to coding                 | pre-class TODOs due                                                                             |
+| [1][l1] | 11/1  | Intro to Pandas                 | [Homework 0][hw0] due                                                                           |
+| [2][l2] | 11/8  | Manipulating and combining data | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
+| [3][l3] | 11/15 | Data visualization              | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
+| none    | 11/22 | none                            |                                                                                                 |
+| [4][l4] | 11/29 | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
+| [5][l5] | 12/6  | APIs                            | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
+| [6][l6] | 12/13 | The Bigger Picture              | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
+| none    | 12/20 | none                            | [Final Project peer grading][final-peer] due                                                    |
 
 {% endif -%}
 
