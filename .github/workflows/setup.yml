@@ -23,7 +23,7 @@ jobs:
         uses: mamba-org/provision-with-micromamba@main
         with:
           channel-priority: strict
-          environment-file: extras/environment.yml
+          environment-file: extras/environment.lock.yml
           cache-downloads: true
           cache-env: true
       # needed for htmlproofer
