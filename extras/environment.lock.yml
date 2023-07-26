@@ -158,7 +158,7 @@ dependencies:
   - pyrsistent=0.19.3=py310h8e9501a_0
   - pysocks=1.7.1=pyha2e5f31_6
   - pytest=7.4.0=pyhd8ed1ab_0
-  - python=3.10.12=h01493a6_0_cpython
+  - python=3.10.6=hae75cb6_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python-fastjsonschema=2.18.0=pyhd8ed1ab_0
   - python-kaleido=0.2.1=pyhd8ed1ab_0

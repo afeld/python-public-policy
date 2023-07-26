@@ -24,7 +24,7 @@ dependencies:
   # https://plotly.com/python/static-image-export/
   - python-kaleido
   # match version in Colab returned by `!python --version`
-  - python=3.10.12
+  - python=3.10.6
   # match versions in Colab returned by `!pip list`
   # required for pandas' read_html()
   - html5lib=1.1
