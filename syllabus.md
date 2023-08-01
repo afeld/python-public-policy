@@ -31,7 +31,7 @@
 - **Class Meeting Times:** Wednesdays 9/6-10/18
   - Section 1: 4:10-6pm ET
   - Section 2: 6:10-8pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room TBD
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet without a full keyboard will be hard to use for in-class exercises
