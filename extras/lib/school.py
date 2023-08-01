@@ -51,6 +51,7 @@ SCHOOLS = [
             "colab",
             "columbia",
             "courseworks",
+            "daqa",
             "ed discussion",
             "edstem",
             "kellyann",
