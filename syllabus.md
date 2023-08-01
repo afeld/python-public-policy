@@ -219,7 +219,7 @@ For submissions that showed effort and were on time, the assignment can be resub
 
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline. Resubmission deadlines will not be extended.
+Requests for extensions will only be considered if made via email before the deadline.{% if id == 'nyu' %} Resubmission deadlines will not be extended.{% endif %}
 
 ### Participation
 
