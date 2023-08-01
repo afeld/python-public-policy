@@ -62,7 +62,7 @@ You can make data smaller _before_ uploading by filtering it through:
    - To avoid needing to do this for each assignment, strongly recomend [sharing the `Colab Notebooks` folder in Google Drive](https://support.google.com/drive/answer/7166529), which will apply to all notebooks you create.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
 
-Engaging with comments left in {{coding_env_name}} is more than welcome.
+Engaging with comments left in {{coding_env_name}} is more than welcome. After the submission deadline passes, the solutions will be shared.
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
@@ -74,11 +74,11 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
 1. **If the Final Project:**
    1. In [{{lms_name}}]({{lms_url}}), go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088) then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
-{%- endif %}
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in {{lms_name}}.
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted{% if id == 'nyu' %} in [`shared/solutions/`](https://padmgp-4506.rcnyu.org/user-redirect/tree/shared/solutions/){% endif %}.
+After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506.rcnyu.org/user-redirect/tree/shared/solutions/).
+{%- endif %}
 
 Note: In-class exercises will not be graded.
 

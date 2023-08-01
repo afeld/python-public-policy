@@ -62,7 +62,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
   - API keys
   - Personally-identifiable information (PII)
 
-Because it's the end of the course and [your peers are doing the reviews](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html), **there will be no extensions or resubmissions**.
+Because it's the end of the course and [your peers are doing the reviews](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html), **there will be no extensions{% if id == 'nyu' %} or resubmissions{% endif %}**.
 
 ### Confirming you meet the requirements
 

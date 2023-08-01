@@ -45,9 +45,11 @@ Weeks start/end at the beginning of each class.
   - Instructor can [export enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity) for you
     - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_0.html#once-you-get-off-the-wait-list)
   {%- endif %}
-- Grading assignment submissions and resubmissions and releasing grades for your section
+- Grading assignment submissions{% if id == 'nyu' %} and resubmissions{% endif %} and releasing grades for your section
+  {% if id == 'nyu' -%}
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
-  - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
+  {% endif -%}
+  - Feel free to grade things as they come in{% if id == 'nyu' %}, in the order received, to give those students more time for resubmission{% endif %}
   - [Info about anonymous grading]({{lms_anonymous_docs}})
 
 ### Discussions
@@ -95,7 +97,9 @@ Weeks start/end at the beginning of each class.
 - [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
 {%- endif %}
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
+  {%- if id == 'nyu' %}
   - Don't give extensions on the resubmission deadline unless authorized by the instructor
+  {%- endif %}
 - Solutions folder will be shared with you from Google Drive
   - [Instructor will share them with students](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#submission) via {% if school_slug == "columbia" %}scheduled Announcements{% else %}{{coding_env_name}}{% endif %}
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
@@ -115,10 +119,7 @@ The following should be true for each Assignment:
 - [ ] [Anonymous grading]({{lms_anonymous_docs}})
 - [ ] Dates are correct:
   - [ ] Due dates should match the [schedule](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#schedule)
-  {% if school_slug == "columbia" -%}
-  - [ ] ["Until" date](https://community.canvaslms.com/t5/Instructor-Guide/What-is-the-difference-between-assignment-due-dates-and/ta-p/897) should be the resubmission deadline
-    - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html), for which we don't accept resubmission
-  {% else -%}
+  {% if school_slug == "nyu" -%}
   - [ ] End Date should be the Sundays following the Due Date, at the same time
     - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html), which should be three days after the Due Date
   {%- endif %}

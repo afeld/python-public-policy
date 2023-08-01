@@ -115,16 +115,16 @@ By the end of the course, students will know:
 
 {% if school_slug == "columbia" -%}
 
-| Lecture | Date  | Topic                           | Homework                                                                                        |
-| ------- | ----- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [0][l0] | 9/6   | Intro to coding                 | pre-class TODOs due                                                                             |
-| [1][l1] | 9/13  | Intro to Pandas                 | [Homework 0][hw0] due                                                                           |
-| [2][l2] | 9/20  | Manipulating and combining data | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
-| [3][l3] | 9/27  | Data visualization              | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
-| [4][l4] | 10/4  | Dates and time series analysis  | [Homework 2][hw2] resubmission, [Homework 3][hw3], and [Final Project proposal][final_prop] due |
-| [5][l5] | 10/11 | APIs                            | [Homework 3][hw3] resubmission and [Homework 4][hw4] due                                        |
-| [6][l6] | 10/18 | The Bigger Picture              | [Homework 4][hw4] resubmission and [Final Project][final] due                                   |
-| none    | 10/25 | none                            | [Final Project peer grading][final-peer] due                                                    |
+| Lecture | Date  | Topic                           | Homework                                                        |
+| ------- | ----- | ------------------------------- | --------------------------------------------------------------- |
+| [0][l0] | 9/6   | Intro to coding                 | pre-class TODOs due                                             |
+| [1][l1] | 9/13  | Intro to Pandas                 | [Homework 0][hw0] due                                           |
+| [2][l2] | 9/20  | Manipulating and combining data | [Homework 1][hw1] due                                           |
+| [3][l3] | 9/27  | Data visualization              | [Homework 2][hw2] due                                           |
+| [4][l4] | 10/4  | Dates and time series analysis  | [Homework 3][hw3], and [Final Project proposal][final_prop] due |
+| [5][l5] | 10/11 | APIs                            | [Homework 4][hw4] due                                           |
+| [6][l6] | 10/18 | The Bigger Picture              | [Final Project][final] due                                      |
+| none    | 10/25 | none                            | [Final Project peer grading][final-peer] due                    |
 
 {% else -%}
 
@@ -201,7 +201,7 @@ It is entirely possible for everyone in the class to get over 100%.
 
 ### Assignment scoring
 
-In general, assignments and resubmissions are due at 9am ET the day of class. Scoring:
+In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at 9am ET the day of class. Scoring:
 
 - **Late work:** {% if id == "columbia" %}-10%{% else %}-10 points{% endif %} per day
 - **Syntax errors:** -10 points
@@ -211,9 +211,11 @@ In general, assignments and resubmissions are due at 9am ET the day of class. Sc
 
 If the submission showed effort, feedback will be given through {% if id == "columbia" %}comments in the notebook{% else %}[annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html){% endif %}.
 
+{% if id == 'nyu' %}
 #### Resubmission
 
 For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due at 9am ET before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
+{% endif %}
 
 #### Extensions
 
