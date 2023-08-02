@@ -17,6 +17,9 @@ assignees: afeld
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
+- [ ] Set up Courseworks
+  - [ ] Import content from previous term
+  - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
