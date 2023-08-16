@@ -24,5 +24,9 @@ assignees: afeld
   - [ ] Confirm order
   - [ ] Get bio(s)
   - [ ] Update lecture 5
+- [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
+  - [ ] Schedule
+  - [ ] Submit request
+  - [ ] Submit for reimbursement
 - [ ] Subscribe to Final Project Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6
