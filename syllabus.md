@@ -40,7 +40,9 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
-- **Readers:** TBD
+- **Readers:**
+  - Section 1: Edmond Zhu, zz2909@columbia.edu
+  - Section 2: TBD
 - **Office Hours:**
   - Wednesdays 2:30-3:30pm ET in IAB room TBD, no appointment necessary
   - Other times by appointment; email the instructor
