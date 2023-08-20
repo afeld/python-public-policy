@@ -90,7 +90,7 @@ Weeks start/end at the beginning of each class.
 {% else -%}
 - Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
 {% endif -%}
-- [Scoring and regrade rules](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
+- [Scoring {% if school_slug == "nyu" %}and regrade {% endif %}rules](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
 {% if school_slug == "columbia" -%}
 - [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
 {% else -%}

@@ -91,6 +91,8 @@ SCHOOLS = [
             "peermark",
             "pio.renderers.default",  # boilerplate for allowing PDF export
             "python coding for public policy",  # Columbia version doesn't include "Coding"
+            "regrad",
+            "re-grad",
             "re-submi",
             "resubmi",
             "turnitin",
