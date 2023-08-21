@@ -42,7 +42,7 @@
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
 - **Readers:**
   - Section 1: Edmond Zhu, zz2909@columbia.edu
-  - Section 2: TBD
+  - Section 2: Sebastian Espinosa, sme2140@columbia.edu
 - **Office Hours:**
   - Wednesdays 2:30-3:30pm ET in IAB room TBD, no appointment necessary
   - Other times by appointment; email the instructor
