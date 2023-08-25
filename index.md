@@ -23,6 +23,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   {% endif -%}
   - Submitting assignments
   - Viewing grades
+  - [Accessing class recordings](syllabus.html#class-recordings)
 {% if id == "columbia" -%}
 - [Ed]({{discussions_url}}), which is used for:
   - Accouncements

@@ -161,15 +161,19 @@ By the end of the course, students will know:
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - We will try to respond within 24 hours, 48 hours max.
 
-### Zoom
+### Class recordings
 
-You can find the link to the live stream in [{{lms_name}}]({{lms_url}}) under the Zoom tab. The recordings are under `Cloud Recordings`. Some caveats:
+Everyone is expected to attend class in-person; see the [class policies](#class-policies). That said, recordings of the lectures are made available for reference purposes. To view:
 
-- Everyone is expected to attend class in-person; see the [class policies](#class-policies).
-- The streaming/recording is done on a best-effort basis; it's not guaranteed.
-- The course is designed for the in-room experience, and therefore:
-  - The instructor won't interact with any Zoom participants.
-  - Office hours will not be recorded.
+1. Open [{{lms_name}}]({{lms_url}})
+1. Go to `Zoom` in the navigation
+1. Click `Cloud Recordings`
+
+Some caveats:
+
+- Recordings are made on a best-effort basis; they are not guaranteed.
+- The course is designed for the in-room experience.
+- Office hours will not be recorded.
 
 ## Assignments and Evaluation
 
@@ -267,7 +271,7 @@ Letter grades for the entire course will be assigned as follows:
 ## Class Policies
 
 - All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html).
-- Attendance is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you are ill, injured, or have unexpected travel, you do not need permission to [participate in class remotely / watch the recording](#zoom).
+- Attendance is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you are ill, injured, or have unexpected travel, please [watch the recording](#class-recordings).
 
 ### Sharing
 
