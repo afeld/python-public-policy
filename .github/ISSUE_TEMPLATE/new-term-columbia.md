@@ -11,6 +11,7 @@ assignees: afeld
   - [ ] Dates
   - [ ] Office hours
   - [ ] Link to survey
+  - [ ] CourseWorks link
 - [ ] Find Reader
   - [ ] Update [job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
   - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/assistant_guide.html)
