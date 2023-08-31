@@ -31,6 +31,7 @@
 - [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
   - Consultation
   - Classes
+- [The Coding Lab](https://codinglab.itp.io/)
 
 {% endif -%}
 
