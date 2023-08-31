@@ -6,6 +6,9 @@ locals {
   #   grep -oh -E "https://storage.googleapis.com/python-public-policy/data/.+\.csv(\.zip)?" *.ipynb | xargs basename | sort | uniq
   source_files = [
     "311_community_districts.csv",
+    # replaced by
+    "community_district_311.csv",
+
     "311_covid.csv",
     "311_mar_2019.csv",
 

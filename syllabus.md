@@ -120,7 +120,7 @@ By the end of the course, students will know:
 | Lecture | Date  | Topic                           | Homework                                                        |
 | ------- | ----- | ------------------------------- | --------------------------------------------------------------- |
 | [0][l0] | 9/6   | Intro to coding                 | pre-class TODOs due                                             |
-| [1][l1] | 9/13  | Intro to Pandas                 | [Homework 0][hw0] due                                           |
+| [1][l1] | 9/13  | Working with data               | [Homework 0][hw0] due                                           |
 | [2][l2] | 9/20  | Manipulating and combining data | [Homework 1][hw1] due                                           |
 | [3][l3] | 9/27  | Data visualization              | [Homework 2][hw2] due                                           |
 | [4][l4] | 10/4  | Dates and time series analysis  | [Homework 3][hw3], and [Final Project proposal][final_prop] due |
@@ -133,7 +133,7 @@ By the end of the course, students will know:
 | Lecture | Date  | Topic                           | Homework                                                                                        |
 | ------- | ----- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [0][l0] | 10/25 | Intro to coding                 | pre-class TODOs due                                                                             |
-| [1][l1] | 11/1  | Intro to Pandas                 | [Homework 0][hw0] due                                                                           |
+| [1][l1] | 11/1  | Working with data               | [Homework 0][hw0] due                                                                           |
 | [2][l2] | 11/8  | Manipulating and combining data | [Homework 0][hw0] resubmission and [Homework 1][hw1] due                                        |
 | [3][l3] | 11/15 | Data visualization              | [Homework 1][hw1] resubmission and [Homework 2][hw2] due                                        |
 | none    | 11/22 | none                            |                                                                                                 |
