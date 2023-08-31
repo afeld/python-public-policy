@@ -81,6 +81,7 @@ SCHOOLS = [
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         words=[
             "amisa",
+            "bonus",
             "brightspace",
             "conda",
             # "conversation",  # Brightspace term, TODO
