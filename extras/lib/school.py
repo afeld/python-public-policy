@@ -109,6 +109,8 @@ EXEMPT = [
     "columbia's graduate school of architecture",  # bio
     "conda activate",
     "create the environment",
+    "dictreader",
+    "for row in reader",
     "hannahkates/nyu-python-public-policy",
     "jupyterhub_url",
     "nbgrader",
@@ -116,6 +118,7 @@ EXEMPT = [
     "upload the notebook to [google colab]",
     "python coding for public policy assignments",
     "secondary",  # matches "conda"
+    "set up the reader",
     "speedgrader",  # matches "grader"
     "these instructions won't work in colab",
     "walk the reader",
