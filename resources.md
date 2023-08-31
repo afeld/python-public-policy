@@ -55,8 +55,8 @@ Want to keep going after this class?
 
 Recommended focusing on fundamentals of Python 3. Many "learn Python" resources will be web development-oriented (they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/)), so you might want to look for ones that focus on data science or Python 3 on its own. Some that are data-oriented:
 
+- freeCodeCamp's [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/) class
 - DataCamp's [Python Fundamentals](https://www.datacamp.com/tracks/python-fundamentals) or [Python Programmer](https://www.datacamp.com/tracks/python-programmer) tracks
-- [Kaggle's Learn Python tutorials](https://www.kaggle.com/learn/python)
 
 Countless other "learn Python" resources/courses/videos/books out there; there isn't one right choice for everyone.
 
