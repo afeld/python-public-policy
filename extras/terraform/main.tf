@@ -1,9 +1,7 @@
 terraform {
-  cloud {
-    organization = "afeld-personal"
-    workspaces {
-      name = "python-public-policy"
-    }
+  backend "gcs" {
+    bucket = "python-public-policy-tf-backend"
+    prefix = "terraform/state"
   }
 }
 
