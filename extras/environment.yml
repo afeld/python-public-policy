@@ -18,6 +18,7 @@ dependencies:
 
   ## packages used in notebooks ##
   - ipytest=0.13.*
+  - wget
   # for QR codes
   - qrcode
   - pillow
