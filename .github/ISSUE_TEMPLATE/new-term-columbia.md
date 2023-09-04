@@ -19,8 +19,10 @@ assignees: afeld
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
 - [ ] Set up Courseworks
-  - [ ] Import content from previous term
+  - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
+    - [ ] Create categories
+    - [ ] Send welcome Announcement
   - [ ] Set up recurring Zoom
 - [ ] Find guest(s)
   - [ ] Confirm order
