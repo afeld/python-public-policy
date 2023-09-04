@@ -40,7 +40,7 @@ SCHOOLS = [
         lms_url="https://courseworks2.columbia.edu/courses/185906",
         lms_anonymous_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769",
         discussions_url="https://courseworks2.columbia.edu/courses/185906/external_tools/37606?display=borderless",
-        survey_url="https://courseworks2.columbia.edu/courses/171519/external_tools/37606?display=borderless",
+        survey_url="https://courseworks2.columbia.edu/courses/185906/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
         coding_env_name="Google Colab",
         coding_env_url="https://colab.research.google.com",
