@@ -17,7 +17,6 @@ Paste in the URL of [a tabular dataset from the NYC Open Data Portal](https://da
   <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
   <a id="download" class="btn btn-secondary disabled" target="_blank" role="button" aria-disabled="true" data-proofer-ignore>Download</a>
 </p>
-<script src="_static/shorten.js"></script>
 
 ```{note}
 Under the hood, this tool uses the [SODA API](https://dev.socrata.com/docs/queries/limit.html), which we'll learn about in [Class 5](lecture_5.html#example-311-requests-from-the-last-week). It works with any dataset from open data portals built on [Socrata](https://dev.socrata.com/). It won't work with non-tabular formats like Maps.

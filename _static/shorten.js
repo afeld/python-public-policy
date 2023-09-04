@@ -1,4 +1,9 @@
 $(() => {
+  // only initiate on shortener page
+  if (!window.location.pathname.endsWith("shorten.html")) {
+    return;
+  }
+
   const inputEl = $("#url");
   const countEl = $('input[name="count"]');
   const downloadEl = $("#download");
