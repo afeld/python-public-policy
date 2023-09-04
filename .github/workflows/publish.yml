@@ -22,6 +22,14 @@ jobs:
       - uses: ./.github/actions/setup
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
+      - name: Push branch
+        uses: GuillaumeFalourd/git-commit-push@v1.3
+        with:
+          target_branch: ${{ matrix.school }}
+          commit_message: "CI: render for school"
+          force: true
+        if: github.ref_name == 'main'
+      # store for next job
       - uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.school }}
