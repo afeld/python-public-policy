@@ -10,7 +10,3 @@ runs:
         environment-file: extras/environment.yml
         init-shell: bash
         cache-environment: true
-    # needed for htmlproofer
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: "3"

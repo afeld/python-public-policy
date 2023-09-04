@@ -20,5 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/setup
+      # needed for htmlproofer
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3"
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
