@@ -9,7 +9,6 @@ SCHOOL=$1
 # remove irrelevant files
 
 git rm -r \
-    .github/ \
     nbdime_config.json \
     extras/pandas_crash_course.ipynb \
     extras/terraform/ \
