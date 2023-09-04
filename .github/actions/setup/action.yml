@@ -1,0 +1,17 @@
+# https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
+
+name: Set up build environment
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v3
+    - name: Install Conda packages
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: extras/environment.yml
+        init-shell: bash
+        cache-environment: true
+    # needed for htmlproofer
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "3"

@@ -6,13 +6,18 @@ concurrency:
   cancel-in-progress: true
 jobs:
   schools:
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         school:
           - columbia
           - nyu
-    uses: ./.github/workflows/setup.yml
-    with:
-      message: Render for school
-      command: ./extras/scripts/school_ci.sh ${{ matrix.school }}
+    # https://github.com/mamba-org/provision-with-micromamba#important
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: ./.github/actions/setup
+      - name: Render for school
+        run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
