@@ -29,8 +29,8 @@ jobs:
           commit_message: "CI: render for school"
           force: true
         if: github.ref_name == 'main'
-      # store for next job
-      - uses: actions/upload-artifact@v3
+      - name: Store rendered HTML for link checking
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.school }}
           path: _build/html
@@ -44,7 +44,8 @@ jobs:
           - columbia
           - nyu
     steps:
-      - uses: ruby/setup-ruby@v1
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3"
       - name: Install dependencies
