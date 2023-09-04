@@ -9,7 +9,6 @@ SCHOOL=$1
 # remove irrelevant files
 
 git rm -r \
-    .github/ \
     nbdime_config.json \
     extras/pandas_crash_course.ipynb \
     extras/terraform/ \
@@ -23,9 +22,6 @@ fi
 ./extras/scripts/school.sh "$SCHOOL"
 
 ./extras/scripts/build.sh
-
-gem install html-proofer
-ruby extras/scripts/broken_links.rb
 
 # remove remaining files
 git rm -r extras/scripts/

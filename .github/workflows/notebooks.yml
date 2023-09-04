@@ -4,6 +4,7 @@ on: push
 
 jobs:
   run_notebook:
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
@@ -22,7 +23,12 @@ jobs:
           - lecture_6.ipynb
           - curve.ipynb
           - extras/pandas_crash_course.ipynb
-    uses: ./.github/workflows/setup.yml
-    with:
-      message: Check for changes
-      command: ./extras/scripts/check_change.sh ${{ matrix.notebook }}
+    # https://github.com/mamba-org/provision-with-micromamba#important
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/setup
+      - name: Check for changes
+        run: ./extras/scripts/check_change.sh ${{ matrix.notebook }}

@@ -114,6 +114,7 @@ EXEMPT = [
     "for row in reader",
     "hannahkates/nyu-python-public-policy",
     "jupyterhub_url",
+    "name: install conda packages",  # CI
     "nbgrader",
     "nyu's quantitative analysis guide",
     "upload the notebook to [google colab]",

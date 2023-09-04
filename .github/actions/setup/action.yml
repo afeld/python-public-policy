@@ -1,0 +1,12 @@
+# https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
+
+name: Set up build environment
+runs:
+  using: composite
+  steps:
+    - name: Install Conda packages
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: extras/environment.yml
+        init-shell: bash
+        cache-environment: true
