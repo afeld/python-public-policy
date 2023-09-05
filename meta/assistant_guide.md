@@ -103,7 +103,9 @@ Weeks start/end at the beginning of each class.
 - Solutions folder will be shared with you from Google Drive
   - [Instructor will share them with students](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#submission) via {% if school_slug == "columbia" %}scheduled Announcements{% else %}{{coding_env_name}}{% endif %}
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+{%- if id == 'nyu' %}
 - {{assistant_name|capitalize}} will manually apply [late penalty](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
+{%- endif %}
 
 ### Checks
 
@@ -126,8 +128,7 @@ The following should be true for each Assignment:
 {% if school_slug == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
 - [ ] Grading Policy Settings (under Grades tab)
-  - [ ] **Late Policies:** Unchecked "Automatically apply deduction to late assignments"
-    - [ ] {{assistant_name|capitalize}} will manually deduct late penalty when appropriate (-10% per day)
+  - [ ] **Late Policies:** Check "Automatically apply deduction to late assignments"
   - [ ] **Grade Posting Policies:** Automatic
 {% else -%}
 - [ ] Associated with the `Homework` gradebook category
