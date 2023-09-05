@@ -2,7 +2,9 @@ format: jb-book
 root: home
 chapters:
   - file: index
+    title: Homepage
   - file: syllabus
+    title: Syllabus
     {% if school_slug == "columbia" -%}
     sections:
       - file: curve

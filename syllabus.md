@@ -1,5 +1,3 @@
-<h1 class="hidden-title">Syllabus</h1>
-
 {% if id == "columbia" -%}
 [![Columbia SIPA banner](extras/img/sipa.svg)](https://www.sipa.columbia.edu/)
 
