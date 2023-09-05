@@ -20,22 +20,25 @@
 
 /* indicate the version by color, overriding the colors from sphinx-book-theme */
 /* version selector */
-.bd-sidebar .rst-versions.rst-badge .rst-current-version,
-.bd-sidebar .rst-versions.rst-badge .rst-current-version:hover,
-.bd-sidebar .rst-versions.rst-badge .rst-current-version .fa {
-  background-color: {{color}};
-  color: white;
+.rst-current-version,
+.rst-current-version .fa,
+.rst-current-version .fa:after {
+  background-color: {{color}} !important;
+  color: white !important;
 }
-/* top nav bar on mobile */
-@media (max-width: 768px) {
-  .header-article,
-  .headerbtn {
-    background-color: {{color}};
-    color: white !important;
-  }
-  /* undo for dropdown menus */
-  .menu-dropdown__content .headerbtn {
-    background-color: white;
-    color: rgb(90, 90, 90) !important;
-  }
+/* top nav bar */
+.bd-header-article {
+  --pst-color-background: {{color}};
+}
+.bd-header-article .btn {
+  --pst-color-text-base: white;
+  --pst-color-text-muted: white;
+}
+/* undo for dropdown menus */
+.bd-header-article .dropdown-menu {
+  --pst-color-background: white;
+}
+.bd-header-article .dropdown-menu .btn {
+  --pst-color-text-base: #323232;
+  --pst-color-text-muted: #646464;
 }
