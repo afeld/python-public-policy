@@ -1,9 +1,3 @@
-/* keep page from scrolling horizontally */
-.cell_output .output {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
 /* keep outputs from being too long */
 .cell_output .output {
   max-height: 20rem;
