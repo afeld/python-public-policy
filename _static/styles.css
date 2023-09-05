@@ -19,13 +19,6 @@
 }
 
 /* indicate the version by color, overriding the colors from sphinx-book-theme */
-/* version selector */
-.rst-current-version,
-.rst-current-version .fa,
-.rst-current-version .fa:after {
-  background-color: {{color}} !important;
-  color: white !important;
-}
 /* top nav bar */
 .bd-header-article {
   --pst-color-background: {{color}};
