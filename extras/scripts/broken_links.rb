@@ -14,8 +14,9 @@ options = {
     %r{^_static/images/logo_},
     %r{^https://vergil\.registrar\.columbia\.edu/#},
     # give 403s for some reason
-    %r{^https://support.zoom.us/},
-    %r{^https://support.socrata.com/},
+    %r{^https://support\.zoom\.us/},
+    %r{^https://support\.socrata\.com/},
+    %r{^https://(www\.)?kaggle\.com/},
     "https://hobbylark.com/party-games/How-to-Make-Your-Own-Mad-Libs"
   ],
   swap_urls: {
