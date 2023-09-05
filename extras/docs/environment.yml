@@ -4,4 +4,4 @@ channels:
   - conda-forge
 dependencies:
   # this needs to stay in sync with ../environment.yml
-  - jupyter-book=0.13.1
+  - jupyter-book=0.15.1
