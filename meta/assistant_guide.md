@@ -61,8 +61,8 @@ Weeks start/end at the beginning of each class.
 - Ensure Discussion questions have answers within [the specified timeline](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#communications).
   {% if school_slug == "columbia" -%}
   - On-call schedule:
-    - Mostafa: Monday-Wednesday
-    - Kellyann: Thursday-Sunday
+    - Sebastian: Monday-Wednesday
+    - Edmond: Thursday-Sunday
   {%- endif %}
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
