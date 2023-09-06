@@ -3,6 +3,8 @@
 - To open an Assignment in {{coding_env_name}}, click the launch button (🚀) at the top of the Assignment page of this site.
    - You can also do this for lecture notebooks.
 {% if id == 'columbia' -%}
+   - Save a copy to your Google Drive.
+   - Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
 - [{{coding_env_name}} walkthrough](https://columbiauniversity.zoom.us/rec/play/TfO3SbhRcAOSYoOc-HD7M_4d8cMQoAJCrcyJMIuUxfX1k7oX-txkCejsFLKxzrDn17aHDrlmWZumgS43.-J8dPQthf7yG1Iqx)
 {% endif -%}
 - [Due dates](syllabus.html#schedule)
@@ -58,8 +60,7 @@ You can make data smaller _before_ uploading by filtering it through:
    - See [general scoring criteria](syllabus.html#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 {% if id == 'columbia' -%}
-1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information) with at least `Commenter` permissions.
-   - To avoid needing to do this for each assignment, strongly recomend [sharing the `Colab Notebooks` folder in Google Drive](https://support.google.com/drive/answer/7166529), which will apply to all notebooks you create.
+1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information) with `Commenter` permissions.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
 
 Engaging with comments left in {{coding_env_name}} is more than welcome. After the submission deadline passes, the solutions will be shared.
