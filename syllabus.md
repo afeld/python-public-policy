@@ -44,7 +44,7 @@
   - Section 1: Edmond Zhu, zz2909@columbia.edu
   - Section 2: Sebastian Espinosa, sme2140@columbia.edu
 - **Office Hours:**
-  - Wednesdays 2:30-3:30pm ET in IAB room TBD, no appointment necessary
+  - Tuesdays 2-3pm ET over [Zoom](https://columbiauniversity.zoom.us/j/92125737396?pwd=cWFTNVZieWRqYnk1MmI0K1U3WGEyQT09), no appointment necessary
   - Other times by appointment; email the instructor
 
 {% else -%}
