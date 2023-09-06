@@ -24,6 +24,11 @@ assignees: afeld
     - [ ] Create categories
     - [ ] Send welcome Announcement
   - [ ] Set up recurring Zoom
+- [ ] Bring the first day
+  - [ ] A/V keys
+  - [ ] Laptop stand
+  - [ ] Power strips
+  - [ ] Extension cord
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
