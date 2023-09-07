@@ -95,7 +95,7 @@ This class is a prerequisite for [Advanced Data Analytics and Evidence Building]
 Homework assignments will consist of two different formats:
 
 1. **Online tutorials:** In advance of classes, online tutorials will be assigned as homework. These online tutorials will introduce students to critical Python concepts. The following lecture will then focus on applying those concepts to real public policy data questions.
-1. **Data exploration, analysis, and visualization:** Students will complete Python coding exercises that apply new concepts they have learned in lecture. Coding assignments will build off of concepts covered in previous assignments.
+1. **Coding:** Students will complete Python coding exercises that apply new concepts they have learned in lecture. Coding assignments will build off of concepts covered in previous assignments.
 
 These are expected to take 5-10 hours per week.
 
