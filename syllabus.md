@@ -34,7 +34,7 @@
 - **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
 - **Prerequisites:** None
 - Students should bring a laptop to class
-  - A tablet without a full keyboard will be hard to use for in-class exercises
+  - A tablet with a full keyboard is ok
 - No textbooks required
 
 ## Instructor Information
@@ -57,7 +57,7 @@
 - **Class Location:** [Global Center for Academic and Spiritual Life (GCASL), 238 Thompson St](https://goo.gl/maps/5kM2NSLCS3HyvFcQ6), room 275
 - **Prerequisites:** None
 - Students should bring a laptop to class
-  - A tablet without a full keyboard will be hard to use for in-class exercises
+  - A tablet with a full keyboard is ok
   - [NYU offers loaners](https://library.nyu.edu/services/computing/on-campus/laptop-loans/)
 - No textbooks required
 
