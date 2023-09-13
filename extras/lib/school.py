@@ -25,6 +25,7 @@ class SchoolText:
     coding_env_url: str
     assistant_name: str
     assistant_responsibilities: str
+    wait_list: str
     words: List[str]
 
 
@@ -46,6 +47,7 @@ SCHOOLS = [
         coding_env_url="https://colab.research.google.com",
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
+        wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
         words=[
             "canvaslms",
             "colab",
@@ -60,7 +62,6 @@ SCHOOLS = [
             "sebastian",
             "sipa",
             "speedgrader",
-            "wait list",
         ],
     ),
     SchoolText(
@@ -79,6 +80,7 @@ SCHOOLS = [
         coding_env_url="https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/",
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
+        wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
         words=[
             "amisa",
             "bonus",
