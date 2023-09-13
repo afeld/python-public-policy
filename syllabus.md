@@ -207,7 +207,7 @@ It is entirely possible for everyone in the class to get over 100%.
 
 ### Assignment scoring
 
-In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at 9am ET the day of class. Scoring:
+In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at the start of class. Scoring:
 
 - **Late work:** {% if id == "columbia" %}-10%{% else %}-10 points{% endif %} per day
 - **Syntax errors:** -10 points
@@ -220,7 +220,7 @@ If the submission showed effort, feedback will be given through {% if id == "col
 {% if id == 'nyu' %}
 #### Resubmission
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due at 9am ET before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
 {% endif %}
 
 #### Extensions
