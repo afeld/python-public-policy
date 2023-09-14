@@ -62,23 +62,24 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 ## Start of class checklist
 
-{% if id == "columbia" -%}
-For Zoom:
-
-1. Start meeting
-1. On laptop, mute mic, speakers, and camera
-1. From the podium PC, join the meeting
-1. [Make the participant a co-host](https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-Adding-a-Co-Host#h_9c3ee7f2-b70c-4061-8dcf-00dd836b2075)
-1. [Spotlight](https://support.zoom.us/hc/en-us/articles/201362653-Spotlighting-participants-videos) the podium PC user
-1. Start recording
-{% else -%}
 - Zoom
   1. Start meeting
-  1. From Zoom Classroom, `Join Meeting`
+  1. From {% if id == "columbia" %}Zoom Classroom{% else %}the podium PC{% endif %}, `Join Meeting`
+  1. If there's a guest, [make them a co-host](https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-Adding-a-Co-Host#h_9c3ee7f2-b70c-4061-8dcf-00dd836b2075)
+  {% if id == "nyu" -%}
   1. Ensure all the cameras are turned on
-  1. On laptop, mute mic and speakers on computer
+  {% endif -%}
+  1. On laptop, mute mic and speakers
+  {% if id == "columbia" -%}
+  1. Turn on the wireless mic
+  1. From the control panel, open Settings and ensure the wireless mic is unmuted
+  {% else -%}
   1. On Zoom Classroom, unmute mic
+  {% endif -%}
+  1. Confirm audio being received in Zoom
+  1. Share screen
   1. Start recording
+{% if id == "nyu" -%}
 - [Set placeholders](https://settings-spring.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 {% endif -%}
