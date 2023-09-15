@@ -19,6 +19,7 @@ jobs:
           - lecture_1_exercise.ipynb
           - lecture_1_exercise_solution.ipynb
           - lecture_2.ipynb
+          - lecture_2_exercise.ipynb
           - lecture_3.ipynb
           - lecture_4.ipynb
           - lecture_5.ipynb
