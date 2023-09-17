@@ -285,7 +285,7 @@ Students may post their [Final Project](https://python-public-policy.afeld.me/en
 
 ### Auditing
 
-See the [school policies]({{auditing}}). To receive R-credit, every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required.
+See the [school policies]({{auditing}}). To receive R-credit, every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
 
 {% if id == "columbia" -%}
 
