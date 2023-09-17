@@ -45,6 +45,7 @@ Weeks start/end at the beginning of each class.
 
 - We can be fairly forgiving/generous with what counts as completion
 - Every student should have each week marked one way or the other
+- The instructor will mark participation for students that came to office hours
 {% if school_slug == "columbia" -%}
 - Each week is represented as an Assignment
   - Easiest to do this through the Grades interface, rather than SpeedGrader
