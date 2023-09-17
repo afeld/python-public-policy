@@ -28,7 +28,7 @@ _While this is meant as internal documentation for the instructor, others are we
 
 ## Slides
 
-While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/stable/usage.html#running-a-slideshow).
+While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/latest/usage.html#running-a-slideshow).
 
 ## Site
 
