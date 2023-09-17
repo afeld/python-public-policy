@@ -106,6 +106,7 @@ Note: In-class exercises will not be graded.
     - See [how we found the property name to use](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** Use `.loc[condition, "column name"] = …`. [More details.](https://www.dataquest.io/blog/settingwithcopywarning/)
+- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `{{coding_env_kernel_name.title()}}` menu then `Restart`.
 
 {% if id == 'nyu' -%}
 ### Disk full
@@ -134,17 +135,19 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
 If you're confused by these instrucions, download the notebook file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
 {%- endif %}
 
-### Kernel/memory issues
+### {{coding_env_kernel_name}}/memory issues
+
+The {{coding_env_kernel_name}} is the place where Python is installed and the code is actually executing, in the cloud somewhere.
 
 {% if id == 'nyu' -%}
-- Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
+- Make sure `Python [conda env:python-public-policy]` is selected as the {{coding_env_kernel_name}}.
   - Shows in the top right of the notebook interface
   - To change:
-    1. Open the `Kernel` menu
-    1. Click `Change kernel`
+    1. Open the `{{coding_env_kernel_name.title()}}` menu
+    1. Click `Change {{coding_env_kernel_name}}`
     1. Click `Python [conda env:python-public-policy]`
 {%- endif %}
-- If your kernel is repeatedly crashing, you're probably running out of memory.
+- If your {{coding_env_kernel_name}} is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
-  {% if id == 'nyu' %}- Close kernels you aren't using from the [Running](https://padmgp-4506.rcnyu.org/user-redirect/tree#running) page.{% endif %}
+  {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running](https://padmgp-4506.rcnyu.org/user-redirect/tree#running) page.{% endif %}
