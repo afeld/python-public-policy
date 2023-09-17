@@ -283,6 +283,10 @@ Students are more than welcome to share approaches and code snippets in the Disc
 
 Students may post their [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html) publicly (on GitHub, LinkedIn, etc.) since it's open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
 
+### Auditing
+
+See the [school policies]({{auditing}}). To receive R-credit, every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required.
+
 {% if id == "columbia" -%}
 
 ### SIPA Academic Integrity Statement

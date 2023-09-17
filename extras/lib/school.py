@@ -26,6 +26,7 @@ class SchoolText:
     assistant_name: str
     assistant_responsibilities: str
     wait_list: str
+    auditing: str
     words: List[str]
 
 
@@ -48,6 +49,7 @@ SCHOOLS = [
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
+        auditing="https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq",
         words=[
             "canvaslms",
             "colab",
@@ -81,6 +83,7 @@ SCHOOLS = [
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
+        auditing="https://wagner.nyu.edu/portal/students/academics/registration/auditing",
         words=[
             "amisa",
             "bonus",
