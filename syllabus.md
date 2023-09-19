@@ -163,7 +163,13 @@ By the end of the course, students will know:
 
 ### Class recordings
 
-Everyone is expected to attend class in-person; see the [class policies](#class-policies). That said, recordings of the lectures are made available for reference purposes. To view:
+Everyone is expected to attend class in-person; see the [class policies](#class-policies). That said, recordings of the lectures are made available for reference purposes.
+
+{% if school_slug == "columbia" %}
+Lecture 1: See [Announcement](https://edstem.org/us/courses/42026/discussion/3438258)
+
+Other lectures:
+{% endif %}
 
 1. Open [{{lms_name}}]({{lms_url}})
 1. Go to `Zoom` in the navigation
