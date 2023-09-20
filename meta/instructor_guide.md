@@ -81,7 +81,9 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. Confirm audio being received in Zoom
   1. Share screen
   1. Start recording
-{% if id == "nyu" -%}
+{% if id == "columbia" -%}
+- Put out power strips
+{% else %}
 - [Set placeholders](https://settings-spring.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 {% endif -%}
