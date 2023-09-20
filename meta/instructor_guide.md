@@ -72,7 +72,9 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. On laptop, mute mic and speakers
   {% if id == "columbia" -%}
   1. Turn on the wireless mic
-  1. From the control panel, open Settings and ensure the wireless mic is unmuted
+  1. From the control panel
+    1. Open `Settings` and ensure the wireless mic is unmuted
+    1. Go to `Camera Control` and select `B-Board`
   {% else -%}
   1. On Zoom Classroom, unmute mic
   {% endif -%}
