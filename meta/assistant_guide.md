@@ -126,7 +126,7 @@ The following should be true for each Assignment:
 - [ ] [Anonymous grading]({{lms_anonymous_docs}})
 - [ ] Dates are correct:
   - [ ] Due dates should match the [schedule](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#schedule)
-  - [ ] [End Date should be one week following the Due Date](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#late-submission-deadline), at the same time
+  - [ ] [{% if school_slug == "columbia" %}`Until` date{% else %}`End Date`{% endif %} should be one week following the Due Date](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#late-submission-deadline), at the same time
     - [ ] Exception is the [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html), which should be three days after the Due Date
 {% if school_slug == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
