@@ -225,7 +225,7 @@ If the submission showed effort, feedback will be given through {% if id == "col
 
 #### Late submission deadline
 
-Late submissions are accepted up to one week after the original deadline, unless there is reasonable accomodation requested through the school.
+Late submissions are accepted up to one week after the original deadline, unless there is reasonable accomodation requested through the school. The Final Project's late submission deadline is three days after the original due date.
 
 {% if id == 'nyu' %}
 #### Resubmission
