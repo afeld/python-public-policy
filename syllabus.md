@@ -223,6 +223,10 @@ In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due
 
 If the submission showed effort, feedback will be given through {% if id == "columbia" %}comments in the notebook{% else %}[annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html){% endif %}.
 
+#### Late submission deadline
+
+Late submissions are accepted up to one week after the original deadline, unless there is reasonable accomodation requested through the school.
+
 {% if id == 'nyu' %}
 #### Resubmission
 
@@ -231,7 +235,7 @@ For submissions that showed effort and were on time, the assignment can be resub
 
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline.{% if id == 'nyu' %} Resubmission deadlines will not be extended.{% endif %}
+Requests for extensions will only be considered if made via email before the deadline, up to the late submission cutoff mentioned above.{% if id == 'nyu' %} Resubmission deadlines will not be extended.{% endif %}
 
 ### Participation
 
