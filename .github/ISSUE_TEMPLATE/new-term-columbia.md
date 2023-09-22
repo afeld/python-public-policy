@@ -23,6 +23,7 @@ assignees: afeld
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
     - [ ] Create categories
     - [ ] Send welcome Announcement
+    - [ ] Schedule sending solutions
   - [ ] Set up recurring Zoom
 - [ ] Bring the first day
   - [ ] A/V keys
