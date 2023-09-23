@@ -152,6 +152,8 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
+In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at the start of class.
+
 ## Communications
 
 - All {% if school_slug == "nyu" %}announcements and {% endif %}assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
@@ -213,8 +215,6 @@ It is entirely possible for everyone in the class to get over 100%.
 
 ### Assignment scoring
 
-In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at the start of class. Scoring:
-
 - **Late work:** {% if id == "columbia" %}-10%{% else %}-10 points{% endif %} per day
 - **Syntax errors:** -10 points
 - **Incomplete Steps / Steps with logic errors:** -2 to -5 points
@@ -225,7 +225,7 @@ If the submission showed effort, feedback will be given through {% if id == "col
 
 #### Late submission deadline
 
-Late submissions are accepted up to one week after the original deadline, unless there is reasonable accomodation requested through the school. The Final Project's late submission deadline is three days after the original due date.
+Late submissions are accepted up to one week after [the original deadline](#schedule), unless there is reasonable accomodation requested through the school. The Final Project's late submission deadline is three days after [the original due date](#schedule).
 
 {% if id == 'nyu' %}
 #### Resubmission
