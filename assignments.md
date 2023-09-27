@@ -1,14 +1,19 @@
 # General assignment information
 
-- To open an Assignment in {{coding_env_name}}, click the launch button (🚀) at the top of the Assignment page of this site.
-   - You can also do this for lecture notebooks.
-{% if id == 'columbia' -%}
-   - Save a copy to your Google Drive.
-   - Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
-- [{{coding_env_name}} walkthrough](https://columbiauniversity.zoom.us/rec/play/TfO3SbhRcAOSYoOc-HD7M_4d8cMQoAJCrcyJMIuUxfX1k7oX-txkCejsFLKxzrDn17aHDrlmWZumgS43.-J8dPQthf7yG1Iqx)
-{% endif -%}
 - [Due dates](syllabus.html#schedule)
 - [Scoring](syllabus.html#assignment-scoring)
+
+## Getting started
+
+To edit/execute a Homework/lecture notebook:
+
+1. Click the launch button (🚀) at the top of the Assignment page of this site.
+1. You should now see the notebook in {{coding_env_name}}.
+{% if id == 'columbia' -%}
+1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
+1. Save a copy to your Google Drive.
+- [{{coding_env_name}} walkthrough](https://columbiauniversity.zoom.us/rec/play/TfO3SbhRcAOSYoOc-HD7M_4d8cMQoAJCrcyJMIuUxfX1k7oX-txkCejsFLKxzrDn17aHDrlmWZumgS43.-J8dPQthf7yG1Iqx)
+{% endif -%}
 
 ## Tips
 
