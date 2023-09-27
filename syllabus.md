@@ -53,7 +53,7 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Wednesdays 10/25-12/14 6:45-8:25pm ET, no class 11/22
+- **Class Meeting Times:** Wednesdays 10/25-12/13 6:45-8:25pm ET, no class 11/22
 - **Class Location:** [Global Center for Academic and Spiritual Life (GCASL), 238 Thompson St](https://goo.gl/maps/5kM2NSLCS3HyvFcQ6), room 275
 - **Prerequisites:** None
 - Students should bring a laptop to class
