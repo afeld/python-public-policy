@@ -31,10 +31,6 @@ launch_buttons:
   # this gets overridden; see _static/site.js
   jupyterhub_url: https://padmgp-4506.rcnyu.org
   {% endif %}
-parse:
-  myst_gfm_only: true
-  # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
-  myst_heading_anchors: 3
 sphinx:
   config:
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly
@@ -43,3 +39,5 @@ sphinx:
     html_show_copyright: false
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
     language: en
+    # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
+    myst_heading_anchors: 4
