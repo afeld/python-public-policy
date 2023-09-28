@@ -39,3 +39,5 @@ sphinx:
     html_show_copyright: false
     # https://jupyterbook.org/advanced/html.html#configuring-to-improve-accessibility
     language: en
+    # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
+    myst_heading_anchors: 4

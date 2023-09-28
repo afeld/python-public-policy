@@ -4,7 +4,7 @@
 
 This site contains content for [{{school_name}}'s {{course_name}}](syllabus.md) class.
 
-The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks](resources.html#jupyter-outside-this-course).
+The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks](resources.md#jupyter-outside-this-course).
 
 Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on a [previous iteration by Hannah Kates](https://github.com/hannahkates/nyu-python-public-policy).
 
@@ -23,7 +23,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   {% endif -%}
   - Submitting assignments
   - Viewing grades
-  - [Accessing class recordings](syllabus.html#class-recordings)
+  - [Accessing class recordings](syllabus.md#class-recordings)
 {% if id == "columbia" -%}
 - [Ed]({{discussions_url}}), which is used for:
   - Accouncements

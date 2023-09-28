@@ -2,7 +2,7 @@
 
 ## General
 
-- [Office hours](syllabus.html#instructor-information)
+- [Office hours](syllabus.md#instructor-information)
 - [Stack Overflow](https://stackoverflow.com/)
 - [RealPython](https://realpython.com/tutorials/all/)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/)
@@ -85,7 +85,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 ## Jupyter outside this course
 
-We use [a cloud-based Jupyter environment ({{coding_env_name}})](lecture_0.html#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
+We use [a cloud-based Jupyter environment ({{coding_env_name}})](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
 {% if id == "columbia" -%}
 Some additional options for running Jupyter:

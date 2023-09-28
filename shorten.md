@@ -19,5 +19,5 @@ Paste in the URL of [a tabular dataset from the NYC Open Data Portal](https://da
 </p>
 
 ```{note}
-Under the hood, this tool uses the [SODA API](https://dev.socrata.com/docs/queries/limit.html), which we'll learn about in [Class 5](lecture_5.html#example-311-requests-from-the-last-week). It works with any dataset from open data portals built on [Socrata](https://dev.socrata.com/). It won't work with non-tabular formats like Maps.
+Under the hood, this tool uses the [SODA API](https://dev.socrata.com/docs/queries/limit.html), which we'll learn about in [Class 5](lecture_5.ipynb#example-311-requests-from-the-last-week). It works with any dataset from open data portals built on [Socrata](https://dev.socrata.com/). It won't work with non-tabular formats like Maps.
 ```
