@@ -2,7 +2,7 @@
 
 ## General
 
-- [Office hours](syllabus.html#instructor-information)
+- [Office hours](syllabus.md#instructor-information)
 - [Stack Overflow](https://stackoverflow.com/)
 - [RealPython](https://realpython.com/tutorials/all/)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/)

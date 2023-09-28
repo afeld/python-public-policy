@@ -1,7 +1,7 @@
 # General assignment information
 
-- [Due dates](syllabus.html#schedule)
-- [Scoring](syllabus.html#assignment-scoring)
+- [Due dates](syllabus.md#schedule)
+- [Scoring](syllabus.md#assignment-scoring)
 
 ## Getting started
 
@@ -62,7 +62,7 @@ You can make data smaller _before_ uploading by filtering it through:
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - This is a good time to run the notebook end-to-end with `Restart and run all`{% if id == 'nyu' %} (⏩){% endif %}.
-   - See [general scoring criteria](syllabus.html#assignment-scoring).
+   - See [general scoring criteria](syllabus.md#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 {% if id == 'columbia' -%}
 1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information) with `Commenter` permissions.
