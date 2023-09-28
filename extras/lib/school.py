@@ -129,6 +129,7 @@ EXEMPT = [
     "nbgrader",
     "nyu's quantitative analysis guide",
     "upload the notebook to [google colab]",
+    "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
     "python coding for public policy assignments",
     "secondary",  # matches "conda"
     "set up the reader",
