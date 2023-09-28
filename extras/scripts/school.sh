@@ -49,7 +49,8 @@ for f in $FILES; do
         jupyter nbconvert \
             --to notebook --inplace \
             --TagRemovePreprocessor.enabled=True \
-            --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG,remove \
+            --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG \
+            --TagRemovePreprocessor.remove_cell_tags remove \
             --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
             --SchoolTemplate.school_id="$SCHOOL" \
             "$f"
