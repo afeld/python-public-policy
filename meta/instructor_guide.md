@@ -100,4 +100,14 @@ Canonical copies of data are in [a Google Drive folder](https://drive.google.com
 1. Open the Console
 1. Paste [the script](../extras/scripts/ssol.js)
 1. Do the same for the other section(s)
+
+## Updating the curve
+
+1. Open [{{lms_name}}]({{lms_url}})
+1. Go to Grades
+1. Export -> Export Entire Gradebook
+1. In the [curve notebook](../curve.ipynb), update the CSV filename
+1. Re-run the notebook
+1. Spot-check the [new cutoffs](../curve.ipynb#new-cutoffs)
+1. Update the [course grading scheme](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enable-a-grading-scheme-for-a-course/ta-p/1042)
 {% endif %}
