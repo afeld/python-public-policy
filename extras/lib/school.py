@@ -80,7 +80,7 @@ SCHOOLS = [
         lms_url="https://brightspace.nyu.edu/d2l/home/297088",
         lms_anonymous_docs="https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm",
         discussions_url="https://brightspace.nyu.edu/d2l/le/297088/discussions/List",
-        survey_url="TODO",
+        survey_url="https://brightspace.nyu.edu/d2l/home/297088",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=297088",
         coding_env_name="JupyterHub",
         coding_env_url="https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/",
