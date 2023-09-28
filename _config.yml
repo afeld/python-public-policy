@@ -32,6 +32,7 @@ launch_buttons:
   jupyterhub_url: https://padmgp-4506.rcnyu.org
   {% endif %}
 parse:
+  myst_gfm_only: true
   # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
   myst_heading_anchors: 3
 sphinx:
