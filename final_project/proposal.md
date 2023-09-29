@@ -29,7 +29,7 @@ If the proposal shows effort and follows the format below, full credit will be g
 
 ## Tips
 
-- Your question/hypothesis doesn't need to be something novel; confirming something you read in the news is fine.
+- Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
 - You won't be graded on the scientific soundness of your work.
   - That said, please think through and note assumptions/caveats/unknowns of your approach.
 - The sooner you post your proposal, the sooner you'll get feedback.

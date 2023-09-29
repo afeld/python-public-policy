@@ -16,9 +16,20 @@ There are countless places to get data, notably:
 - [Economic Policy Institute](https://www.epi.org/data/)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
+- [Black Wealth Data](https://blackwealthdata.org/)
 - Lists of open data portals:
    - [DataPortals](https://dataportals.org/)
    - [Open Data Network](https://www.opendatanetwork.com/)
+
+## Inspiration
+
+Probably not realistic to make visualizations that are as fancy as these, but they may give you ideas. Some also include links/downloads of the source data.
+
+- [FiveThirtyEight Interactives](https://projects.fivethirtyeight.com/)
+- [The Guardian Visual Journalism](https://www.theguardian.com/interactive)
+- [New York Times Graphics](https://www.nytimes.com/spotlight/graphics)
+- [Our World in Data](https://ourworldindata.org/)
+- [Visual Capitalist](https://www.visualcapitalist.com/)
 
 ## Counting lines of code
 
