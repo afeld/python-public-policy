@@ -284,6 +284,10 @@ Letter grades for the entire course will be assigned as follows:
 - All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html).
 - Attendance is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you are ill, injured, or have unexpected travel, please [watch the recording](#class-recordings).
 
+### Auditing
+
+See the [school policies]({{auditing}}). To receive R-credit, every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
+
 ### Sharing
 
 A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission. This also applies to using generative tools like [ChatGPT](https://openai.com/blog/chatgpt/).
@@ -293,10 +297,6 @@ Similarly, it is common practice to use code snippets found on the internet; the
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
 Students may post their [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html) publicly (on GitHub, LinkedIn, etc.) since it's open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
-
-### Auditing
-
-See the [school policies]({{auditing}}). To receive R-credit, every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
 
 {% if id == "columbia" -%}
 

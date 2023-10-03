@@ -138,6 +138,22 @@ The following should be true for each Assignment:
 - [ ] `Visible`
 {%- endif %}
 
+### Plagiarism
+
+Per the [Code of Academic and Professional Conduct](https://bulletin.columbia.edu/sipa/academic-policies/academic-and-professional-conduct/):
+
+> It is the responsibility of all members of the SIPA community to encourage academic integrity and to deter, confront, and report all acts of academic dishonesty.
+
+See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarsm vs. fair reuse.
+
+It isn't your responsibility to look for potential instances of cheating/plagiarism. That said, if you have suspicions of those occuring, you must report them to the instructor. Things you might notice:
+
+- Use of a package we haven't covered in class
+- Using a technique we didn't cover in class
+- Multiple student submisions:
+  - Being identical
+  - Solving a problem in the same unusual way
+
 ### [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html)
 
 #### Proposals
