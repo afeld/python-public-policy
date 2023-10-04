@@ -140,9 +140,11 @@ The following should be true for each Assignment:
 
 ### Plagiarism
 
+{% if school_slug == "columbia" -%}
 Per the [Code of Academic and Professional Conduct](https://bulletin.columbia.edu/sipa/academic-policies/academic-and-professional-conduct/):
 
 > It is the responsibility of all members of the SIPA community to encourage academic integrity and to deter, confront, and report all acts of academic dishonesty.
+{%- endif %}
 
 See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarsm vs. fair reuse.
 
