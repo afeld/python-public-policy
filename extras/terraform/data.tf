@@ -42,4 +42,9 @@ resource "google_storage_bucket_object" "zipped" {
   name   = "data/${basename(each.value.output_path)}"
   source = each.value.output_path
   bucket = google_storage_bucket.data.name
+
+  timeouts {
+    create = "10m"
+    update = "10m"
+  }
 }
