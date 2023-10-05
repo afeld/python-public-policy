@@ -18,7 +18,7 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
@@ -51,7 +51,7 @@ jobs:
       - name: Install dependencies
         run: gem install html-proofer
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v3
         with:
           name: ${{ matrix.school }}
