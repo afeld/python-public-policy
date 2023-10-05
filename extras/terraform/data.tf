@@ -43,12 +43,3 @@ resource "google_storage_bucket_object" "zipped" {
   source = each.value.output_path
   bucket = google_storage_bucket.data.name
 }
-
-resource "google_storage_object_access_control" "public_rule" {
-  for_each = google_storage_bucket_object.zipped
-
-  object = each.value.output_name
-  bucket = google_storage_bucket.data.name
-  role   = "READER"
-  entity = "allUsers"
-}
