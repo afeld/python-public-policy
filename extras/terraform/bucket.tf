@@ -13,10 +13,12 @@ locals {
 }
 
 # make publicly readable
-resource "google_storage_bucket_access_control" "public_rule" {
+resource "google_storage_bucket_iam_binding" "public" {
   bucket = google_storage_bucket.data.name
-  role   = "READER"
-  entity = "allUsers"
+  role   = "roles/storage.objectViewer"
+  members = [
+    "allUsers",
+  ]
 }
 
 data "google_project" "project" {
