@@ -33,7 +33,7 @@ assignees: afeld
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
-  - [ ] Update lecture 5
+  - [ ] Update lecture 6
 - [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
