@@ -1,6 +1,9 @@
+data "google_client_config" "current" {}
+
 resource "google_storage_bucket" "data" {
-  name          = "python-public-policy"
-  location      = "US-EAST1"
+  name = "python-public-policy2"
+  # https://stackoverflow.com/a/64134305
+  location      = data.google_client_config.current.region
   force_destroy = true
 
   versioning {
