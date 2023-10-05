@@ -5,10 +5,11 @@ chapters:
     title: Homepage
   - file: syllabus
     title: Syllabus
-    {% if school_slug == "columbia" -%}
     sections:
+      - file: joining_late
+      {% if school_slug == "columbia" -%}
       - file: curve
-    {%- endif %}
+      {%- endif %}
   - file: assignments
     title: Assignment info
   - file: resources

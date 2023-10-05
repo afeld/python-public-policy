@@ -56,7 +56,7 @@ You can make data smaller _before_ uploading by filtering it through:
 - The data portal, if it supports it
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - In a spreadsheet program
-- For the [NYC Open Data Portal](https://opendata.cityofnewyork.us/), though [the shortener widget](https://python-public-policy.afeld.me/en/{{school_slug}}/shorten.html)
+- For the [NYC Open Data Portal](https://opendata.cityofnewyork.us/), though [the shortener widget](shorten.md)
 
 ## Submission
 
@@ -65,10 +65,10 @@ You can make data smaller _before_ uploading by filtering it through:
    - See [general scoring criteria](syllabus.md#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 {% if id == 'columbia' -%}
-1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information) with `Commenter` permissions.
+1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.md#instructor-information) with `Commenter` permissions.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
 
-Engaging with comments left in {{coding_env_name}} is more than welcome. After [the late submission deadline](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#late-submission-deadline) for a given Homework passes, the solution will be shared.
+Engaging with comments left in {{coding_env_name}} is more than welcome. After [the late submission deadline](syllabus.md#late-submission-deadline) for a given Homework passes, the solution will be shared.
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
@@ -108,7 +108,7 @@ Note: In-class exercises will not be graded.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
-    - See [how we found the property name to use](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#map-complaint-counts-by-cd)
+    - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** Use `.loc[condition, "column name"] = …`. [More details.](https://www.dataquest.io/blog/settingwithcopywarning/)
 - **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `{{coding_env_kernel_name.title()}}` menu then `Restart`.
@@ -137,7 +137,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
    jupyter nbconvert --to notebook --clear-output ~/class_materials/hw_<NUMBER>.ipynb
    ```
 
-If you're confused by these instrucions, download the notebook file and [email to the instructor](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
+If you're confused by these instrucions, download the notebook file and [email to the instructor](syllabus.md#instructor-information).
 {%- endif %}
 
 ### {{coding_env_kernel_name}}/memory issues
