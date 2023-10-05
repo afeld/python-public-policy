@@ -1,4 +1,4 @@
-# [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html) examples
+# [Final Project](../final_project.md) examples
 
 Sample projects from past semesters:
 

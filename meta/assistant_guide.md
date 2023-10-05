@@ -5,12 +5,12 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
 ## General info
 
 - [Responsibilities section of the job post]({{assistant_responsibilities}})
-- [Schedule](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#schedule)
+- [Schedule](../syllabus.md#schedule)
 - In grading/Discussions:
   - We want to try giving students _just enough_ hints to figure it out without giving them the answer.
-    - If they seem totally lost, direct them to [office hours](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
+    - If they seem totally lost, direct them to [office hours](../syllabus.md#instructor-information).
   - Don't spend a _ton_ of time trying to figure out something that you don't understand; feel free to escalate to the instructor.
-- For students seeking one-on-one help, direct them to [office hours](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information).
+- For students seeking one-on-one help, direct them to [office hours](../syllabus.md#instructor-information).
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
 {% if school_slug == "columbia" -%}
 - Notifications:
@@ -39,7 +39,7 @@ Weeks start/end at the beginning of each class.
   - Feel free to grade things as they come in{% if id == 'nyu' %}, in the order received, to give those students more time for resubmission{% endif %}
   - [Info about anonymous grading]({{lms_anonymous_docs}})
 
-### [Between-class participation](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#participation) tracking
+### [Between-class participation](../syllabus.md#participation) tracking
 
 {% if school_slug == "columbia" %}... for students in your section.{% endif %}
 
@@ -63,7 +63,7 @@ Weeks start/end at the beginning of each class.
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 {% endif -%}
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
-- Ensure Discussion questions have answers within [the specified timeline](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#communications).
+- Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   {% if school_slug == "columbia" -%}
   - On-call schedule:
     - Sebastian: Monday-Wednesday
@@ -95,22 +95,22 @@ Weeks start/end at the beginning of each class.
 {% else -%}
 - Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
 {% endif -%}
-- [Scoring {% if school_slug == "nyu" %}and regrade {% endif %}rules](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
+- [Scoring {% if school_slug == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
 {% if school_slug == "columbia" -%}
 - [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
 {% else -%}
 - [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
 {%- endif %}
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#late-submission-deadline) or the new due date, whichever is later
+  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#late-submission-deadline) or the new due date, whichever is later
   {%- if id == 'nyu' %}
   - Don't give extensions on the resubmission deadline unless authorized by the instructor
   {%- endif %}
 - Solutions folder will be shared with you from Google Drive
-  - [Instructor will share them with students](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#submission) via {% if school_slug == "columbia" %}scheduled Announcements{% else %}{{coding_env_name}}{% endif %}
+  - [Instructor will share them with students](../assignments.md#submission) via {% if school_slug == "columbia" %}scheduled Announcements{% else %}{{coding_env_name}}{% endif %}
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
 {%- if id == 'nyu' %}
-- {{assistant_name|capitalize}} will manually apply [late penalty](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring)
+- {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)
 {%- endif %}
 
 ### Checks
@@ -120,14 +120,14 @@ The following should be true for each Assignment:
 - [ ] The description is a link to the assignment page on [the site](https://python-public-policy.afeld.me/en/{{school_slug}}/)
 - [ ] Points
     - [ ] 100 points per Assignment, potentially split up
-    - [ ] Percentage of the overall grade matches [the breakdown in the syllabus](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignments-and-evaluation)
+    - [ ] Percentage of the overall grade matches [the breakdown in the syllabus](../syllabus.md#assignments-and-evaluation)
 - [ ] Grouped in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
 - [ ] [Anonymous grading]({{lms_anonymous_docs}})
 - [ ] Dates are correct:
-  - [ ] Due dates should match the [schedule](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#schedule)
-  - [ ] {{assignment_cutoff_name}}s should match [the late submission deadline rules](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#late-submission-deadline), at the same time
+  - [ ] Due dates should match the [schedule](../syllabus.md#schedule)
+  - [ ] {{assignment_cutoff_name}}s should match [the late submission deadline rules](../syllabus.md#late-submission-deadline), at the same time
 {% if school_slug == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
 - [ ] Grading Policy Settings (under Grades tab)
@@ -156,12 +156,12 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
   - Being identical
   - Solving a problem in the same unusual way
 
-### [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html)
+### [Final Project](../final_project.md)
 
 #### Proposals
 
 - Students are encouraged to submit before the deadline to get feedback sooner
-  - We aim to turn around feedback on [the proposals](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html#proposal) sooner than later, so that students can get started.
+  - We aim to turn around feedback on [the proposals](../final_project/proposal.md) sooner than later, so that students can get started.
 - If the proposal shows effort and follows the [format](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html#format), full credit should be given
 - Things to look for (don't spend too long on these):
   - Will their dataset answer their question?

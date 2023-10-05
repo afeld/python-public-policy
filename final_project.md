@@ -10,7 +10,7 @@
 
 ## Once you start
 
-- [General assignment information](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html)
+- [General assignment information](assignments.md)
 - Create a new notebook to do the actual analysis; that is what you'll [turn in](#submission).{% if id == 'nyu' %} To create, click:
   1. `File`
   1. `New notebook`
@@ -22,7 +22,7 @@
 
 ## Analysis requirements
 
-In addition to the applicable [general assignment requirements](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#assignment-scoring), your submission should:
+In addition to the applicable [general assignment requirements](syllabus.md#assignment-scoring), your submission should:
 
 <!-- make sure edits here are reflected in extras/scripts/final_project_check.py -->
 
@@ -54,7 +54,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
 
 ## Submission
 
-- **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html).** Leave yourself time to fix any [issues that come up](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#common-issues) in doing so, computer crashing, etc.
+- **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
 - Please try to preserve anonymity.
   - Keep your name/username out of the notebook title, text cells, file paths, etc.
   - Hold off on responding to comments on your notebook before you get your Project grade.

@@ -1,4 +1,4 @@
-# [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html) resources
+# [Final Project](../final_project.md) resources
 
 ## Open data portals
 
