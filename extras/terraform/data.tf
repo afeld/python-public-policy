@@ -44,7 +44,22 @@ resource "google_storage_bucket_object" "zipped" {
   bucket = google_storage_bucket.data.name
 
   timeouts {
-    create = "10m"
-    update = "10m"
+    create = "20m"
+    update = "20m"
+  }
+}
+
+# test that the files are publicly accessible
+data "http" "publicly_accessible" {
+  for_each = google_storage_bucket_object.zipped
+
+  url    = "https://storage.googleapis.com/${google_storage_bucket.data.name}/${each.value.name}"
+  method = "HEAD"
+
+  lifecycle {
+    postcondition {
+      condition     = self.status_code == 200
+      error_message = "Status code invalid"
+    }
   }
 }
