@@ -12,3 +12,5 @@ jupyter nbconvert \
   "$NOTEBOOK"
 
 nbqa black "$NOTEBOOK"
+# https://github.com/nbQA-dev/nbQA/issues/555#issuecomment-974651504
+nbqa mdformat "$NOTEBOOK" --nbqa-md
