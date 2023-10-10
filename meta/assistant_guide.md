@@ -160,8 +160,8 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 #### Proposals
 
-- Students are encouraged to submit before the deadline to get feedback sooner
-  - We aim to turn around feedback on [the proposals](../final_project/proposal.md) sooner than later, so that students can get started.
+- Students are encouraged to submit before the deadline to get feedback sooner.
+  - Please provide feedback on [the proposals](../final_project/proposal.md) within four days of submission so that students can get started.
 - If the proposal shows effort and follows the [format](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html#format), full credit should be given
 - Things to look for (don't spend too long on these):
   - Will their dataset answer their question?
