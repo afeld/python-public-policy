@@ -1,4 +1,4 @@
-name: Jupyter Book
+name: python-public-policy-jupyter-book
 channels:
   - defaults
   - conda-forge
