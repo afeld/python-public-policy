@@ -6,6 +6,8 @@ resource "google_storage_bucket" "data" {
   location      = data.google_client_config.current.region
   force_destroy = true
 
+  uniform_bucket_level_access = true
+
   versioning {
     enabled = true
   }
