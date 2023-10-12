@@ -32,11 +32,11 @@ assignees: afeld
   - [ ] Import
   - [ ] Simplify name
   - [ ] Clear Announcements
-  - [ ] Add grader to Classlist
   - [ ] Create recurring Zoom
     - [ ] Add to calendar invite
   - [ ] Change Assignment dates and publish them
   - [ ] Update participation dates
+  - [ ] [Set up PeerMark for Final Project](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018477&sys_kb_id=f89fbe521b6f9c10a575997fbd4bcb80&spa=1)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Send welcome Announcement
     - [ ] In `pre-class TODOs` Assignment, link to new survey
@@ -49,5 +49,4 @@ assignees: afeld
   - [ ] Get bio(s)
   - [ ] [Fill out access form](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/campus-visitors.html#sponsoring-visitors)
   - [ ] Update lecture 6
-- [ ] Subscribe to Final Project Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6

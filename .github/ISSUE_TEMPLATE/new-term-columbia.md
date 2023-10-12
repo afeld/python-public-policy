@@ -39,5 +39,4 @@ assignees: afeld
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
   - [ ] Submit for reimbursement
-- [ ] Subscribe to Final Project Proposals Discussion
 - [ ] Update course evaluation link in Lecture 6
