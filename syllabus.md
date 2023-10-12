@@ -117,7 +117,7 @@ By the end of the course, students will know:
 
 {% if school_slug == "columbia" -%}
 
-| Lecture | Date  | Topic                           | Homework due                                               | [Late submission deadline](#late-submission-deadline)      |
+| Lecture | Date  | Topic                           | Homework due                                               | Late submission deadline                                   |
 | ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | [0][l0] | 9/6   | Intro to coding                 | pre-class TODOs                                            |                                                            |
 | [1][l1] | 9/13  | Working with data               | [Homework 0][hw0]                                          |                                                            |
@@ -126,21 +126,23 @@ By the end of the course, students will know:
 | [4][l4] | 10/4  | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
 | [5][l5] | 10/11 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
 | [6][l6] | 10/18 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| none    | 10/21 | none                            | none                                                       | [Final Project][final]                                     |
 | none    | 10/25 | none                            | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% else -%}
 
-| Lecture | Date  | Topic                           | Homework due                                               | [Late](#late-submission-deadline)/[resubmission](#resubmission) deadline |
-| ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [0][l0] | 10/25 | Intro to coding                 | pre-class TODOs                                            |                                                                          |
-| [1][l1] | 11/1  | Working with data               | [Homework 0][hw0]                                          |                                                                          |
-| [2][l2] | 11/8  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                        |
-| [3][l3] | 11/15 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                        |
-| none    | 11/22 | none                            |                                                            |
-| [4][l4] | 11/29 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                        |
-| [5][l5] | 12/6  | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]               |
-| [6][l6] | 12/13 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                                        |
-| none    | 12/20 | none                            | [Final Project peer grading][final-peer]                   |                                                                          |
+| Lecture | Date  | Topic                           | Homework due                                               | Late/[resubmission](#resubmission) deadline                |
+| ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [0][l0] | 10/25 | Intro to coding                 | pre-class TODOs                                            |                                                            |
+| [1][l1] | 11/1  | Working with data               | [Homework 0][hw0]                                          |                                                            |
+| [2][l2] | 11/8  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| [3][l3] | 11/15 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| none    | 11/22 | none                            |                                                            |                                                            |
+| [4][l4] | 11/29 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| [5][l5] | 12/6  | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| [6][l6] | 12/13 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| none    | 12/16 | none                            | none                                                       | [Final Project][final]                                     |
+| none    | 12/20 | none                            | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% endif -%}
 
@@ -152,7 +154,7 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
-In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at the start of class.
+In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at the time class starts. These will all be reflected in the Assignments in [{{lms_name}}]({{lms_url}}).
 
 ## Communications
 
@@ -223,10 +225,6 @@ It is entirely possible for everyone in the class to get over 100%.
 
 If the submission showed effort, feedback will be given through {% if id == "columbia" %}comments in the notebook{% else %}[annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html){% endif %}.
 
-#### Late submission deadline
-
-Late submissions are accepted up to one week after [the original deadline](#schedule), unless there is reasonable accomodation requested through the school. The Final Project's late submission deadline is three days after [the original due date](#schedule).
-
 {% if id == 'nyu' %}
 
 #### Resubmission
@@ -236,7 +234,7 @@ For submissions that showed effort and were on time, the assignment can be resub
 
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline, up to the late submission cutoff mentioned above.{% if id == 'nyu' %} Resubmission deadlines will not be extended.{% endif %}
+Requests for extensions will only be considered if made via email before the deadline, up to the late submission cutoff mentioned above. Late submission deadlines will only be extended if there is accomodation requested through the school.{% if id == 'nyu' %} Resubmission deadlines will not be extended.{% endif %}
 
 ### Participation
 

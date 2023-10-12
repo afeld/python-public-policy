@@ -68,7 +68,7 @@ You can make data smaller _before_ uploading by filtering it through:
 1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.md#instructor-information) with `Commenter` permissions.
 1. Drop the link to the Colab notebook in the {{lms_name}} Assignment.
 
-Engaging with comments left in {{coding_env_name}} is more than welcome. After [the late submission deadline](syllabus.md#late-submission-deadline) for a given Homework passes, the solution will be shared.
+Engaging with comments left in {{coding_env_name}} is more than welcome. After [the late submission deadline](syllabus.md#schedule) for a given Homework passes, the solution will be shared.
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`

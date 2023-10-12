@@ -37,7 +37,7 @@ If you're coming off the wait list or registering for the course after the first
    - Nine days after the [original due date](syllabus.md#schedule)
    - One week after you were enrolled in the course
 - If we accidentally mark you as late, let the {{assistant_name}} know and we'll get it corrected.
-- [The late submission deadline](syllabus.md#late-submission-deadline) will not be extended.
+- [The late submission deadline](syllabus.md#schedule) will not be extended.
    - In other words: If you joined the class more than a week after the class starts, you can't turn in Homework 0 late.
 
 This is a short class, and these rules are in place to:

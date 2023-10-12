@@ -102,7 +102,7 @@ Weeks start/end at the beginning of each class.
 - [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
 {%- endif %}
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#late-submission-deadline) or the new due date, whichever is later
+  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
   {%- if id == 'nyu' %}
   - Don't give extensions on the resubmission deadline unless authorized by the instructor
   {%- endif %}
@@ -127,7 +127,7 @@ The following should be true for each Assignment:
 - [ ] [Anonymous grading]({{lms_anonymous_docs}})
 - [ ] Dates are correct:
   - [ ] Due dates should match the [schedule](../syllabus.md#schedule)
-  - [ ] {{assignment_cutoff_name}}s should match [the late submission deadline rules](../syllabus.md#late-submission-deadline), at the same time
+  - [ ] {{assignment_cutoff_name}}s should match [the late submission deadline rules](../syllabus.md#schedule), at the same time
 {% if school_slug == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
 - [ ] Grading Policy Settings (under Grades tab)
