@@ -21,6 +21,7 @@ class SchoolText:
     discussions_url: str
     survey_url: str
     lms_notification_settings_url: str
+    lms_reorder_docs: str
     coding_env_name: str
     coding_env_url: str
     coding_env_kernel_name: str
@@ -46,6 +47,7 @@ SCHOOLS = [
         discussions_url="https://courseworks2.columbia.edu/courses/185906/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/185906/external_tools/37606?display=borderless",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
+        lms_reorder_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-an-assignment/ta-p/1289",
         coding_env_name="Google Colab",
         coding_env_url="https://colab.research.google.com",
         coding_env_kernel_name="runtime",
@@ -82,6 +84,7 @@ SCHOOLS = [
         discussions_url="https://brightspace.nyu.edu/d2l/le/297088/discussions/List",
         survey_url="https://brightspace.nyu.edu/d2l/home/297088",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=297088",
+        lms_reorder_docs="https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories",
         coding_env_name="JupyterHub",
         coding_env_url="https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/",
         coding_env_kernel_name="kernel",

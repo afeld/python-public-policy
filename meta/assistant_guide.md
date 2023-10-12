@@ -119,15 +119,18 @@ The following should be true for each Assignment:
 
 - [ ] The description is a link to the assignment page on [the site](https://python-public-policy.afeld.me/en/{{school_slug}}/)
 - [ ] Points
-    - [ ] 100 points per Assignment, potentially split up
+    - [ ] 100 points per Assignment, except for Homework 3 and the Final Project Proposal which are 50 each
     - [ ] Percentage of the overall grade matches [the breakdown in the syllabus](../syllabus.md#assignments-and-evaluation)
-- [ ] Grouped in a logical way
+- [ ] Grouped and [ordered]({{lms_reorder_docs}}) in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
+{% if school_slug == "nyu" -%}
+    - Final Project Proposal is a Discussion
+{%- endif %}
 - [ ] [Anonymous grading]({{lms_anonymous_docs}})
-- [ ] Dates are correct:
-  - [ ] Due dates should match the [schedule](../syllabus.md#schedule)
-  - [ ] {{assignment_cutoff_name}}s should match [the late submission deadline rules](../syllabus.md#schedule), at the same time
+- [ ] Dates match [the schedule](../syllabus.md#schedule):
+  - [ ] Due date
+  - [ ] {{assignment_cutoff_name}}
 {% if school_slug == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
 - [ ] Grading Policy Settings (under Grades tab)
