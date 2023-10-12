@@ -1,7 +1,8 @@
 name: python-public-policy-jupyter-book
 channels:
-  - defaults
+  # in opposite order from ../environment.yml due to some resolver issue
   - conda-forge
+  - defaults
 dependencies:
   # this needs to stay in sync with ../environment.yml
   - jupyter-book=0.15.1
