@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Renders the notebook templates. Using this custom logic rather than Jupyter Book substitutions since the latter can't be used in code blocks or for links.
+#
+# https://jupyterbook.org/en/stable/content/content-blocks.html#substitutions-and-variables-in-markdown
+# https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2
+#
 # Usage:
 #
 #   ./extras/scripts/school.sh <school> [<files>]

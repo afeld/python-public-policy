@@ -34,6 +34,7 @@ jobs:
         with:
           name: ${{ matrix.school }}
           path: _build/html
+  # do this as a separate job from link checking so that broken external links don't block the site build
   check_links:
     runs-on: ubuntu-latest
     needs: schools
