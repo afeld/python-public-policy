@@ -25,6 +25,7 @@ jobs:
           - lecture_3_exercise_solution.ipynb
           - lecture_4.ipynb
           - lecture_5.ipynb
+          - lecture_5_exercise_solution.ipynb
           - lecture_6.ipynb
           - curve.ipynb
           - extras/pandas_crash_course.ipynb
