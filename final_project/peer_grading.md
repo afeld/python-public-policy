@@ -11,7 +11,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 1. Go to Assignments, then `Final Project`.
    - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
    - If you're unable to access the notebooks, make sure you're signed into Google with your Columbia account, and using that to try and access them. See [these instructions](https://support.google.com/docs/answer/6211862).
-1. Leave substantive feedback, directly in the notebook and/or as a comment/attachment on the {{lms_name}} Assignment peer review area.
+1. Leave substantive feedback as a comment/attachment in the {{lms_name}} Assignment peer review area.
 {% else -%}
 1. Go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088), then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
