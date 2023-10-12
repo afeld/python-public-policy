@@ -60,6 +60,9 @@ chapters:
     sections:
       - file: hw_4
   - file: lecture_5
+    sections:
+      - file: lecture_5_exercise_solution
+        title: In-class exercise solution
   - file: lecture_6
   - file: meta
     sections:
