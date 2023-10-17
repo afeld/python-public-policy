@@ -1,6 +1,6 @@
 # [Final Project](../final_project.md) peer grading
 
-Your Final Project will be reviewed and graded by three of your peers, and you will grade three others'. {% if school_slug == "columbia" %}The person being graded will be anonymous, but the reviewers won't be.{% else %}This will be done anonymously in both directions.{% endif %} Your score will be the [median](https://docs.python.org/3/library/statistics.html#statistics.median) of the peer grades.
+Your Final Project will be reviewed and graded by three of your peers, and you will grade three others'. These will be anonymous. Your score will be the [median](https://docs.python.org/3/library/statistics.html#statistics.median) of the peer grades.
 
 If you disagree with the grade, you can appeal by [emailing the instructor and {{assistant_name}}](../syllabus.md#instructor-information). This comes with a risk: this new grade will be the one that's used, even if it's lower.
 
