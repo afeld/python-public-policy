@@ -13,7 +13,7 @@ There's a wait list for Section 1, space available in Section 2.
 ### While you're waiting
 
 - Attend class.
-- Look through the [important links](https://python-public-policy.afeld.me/en/{{school_slug}}/#important-links), including past lectures.
+- Look through the [important links](../#important-links), including past lectures.
    - You won't be able to access [{{lms_name}}]({{lms_url}}) or the [Discussions]({{discussions_url}}).
 - [Complete the Assignment(s) in {{coding_env_name}} as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 

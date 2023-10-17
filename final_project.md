@@ -6,7 +6,7 @@
 
 ## Proposal
 
-[Details](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html)
+[Details](final_project/proposal.md)
 
 ## Once you start
 
@@ -28,7 +28,7 @@ In addition to the applicable [general assignment requirements](syllabus.md#assi
 
 - **Read like a blog post** - 35 points
   - Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
-  - Re-state the [question, hypothesis, and data source(s) with link(s)](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/proposal.html#format)
+  - Re-state the [question, hypothesis, and data source(s) with link(s)](final_project/proposal.md#format)
   - Walk the reader through what you're doing in every step and what they should be taking away from it.
     - You are more than welcome to inject personality in there; doesn't need to be dry.
   - Use text cells with [Markdown](https://www.markdownguide.org/basic-syntax/) for formatting.
@@ -40,7 +40,7 @@ In addition to the applicable [general assignment requirements](syllabus.md#assi
 - **Use pandas** - 15 points
 - **Not be trivial** - 35 points - requiring:
   - At least 40 lines of code to come to a conclusion
-    - [How to count them automaticaly](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/resources.html#counting-lines-of-code)
+    - [How to count them automaticaly](final_project/resources.md#counting-lines-of-code)
   - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.
 - **Have a visualization** (chart or map) of some kind - 15 points
@@ -50,7 +50,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
 
 ## Examples
 
-[Details](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/examples.html)
+[Details](final_project/examples.md)
 
 ## Submission
 
@@ -62,7 +62,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
   - API keys
   - Personally-identifiable information (PII)
 
-Because it's the end of the course and [your peers are doing the reviews](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html), **there will be no extensions{% if id == 'nyu' %} or resubmissions{% endif %}**.
+Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions{% if id == 'nyu' %} or resubmissions{% endif %}**.
 
 ### Confirming you meet the requirements
 
@@ -75,4 +75,4 @@ To confirm you meet [the requirements](#analysis-requirements) prior to submitti
 
 ## Peer grading
 
-[Details](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html)
+[Details](final_project/peer_grading.md)

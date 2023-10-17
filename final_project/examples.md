@@ -2,8 +2,8 @@
 
 Sample projects from past semesters:
 
-- [NYC Restaurant Inspections, Creepy Crawly Edition](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/creepy_crawly.html)
-- [Investigating Elevated Blood Lead Level Rates in Children in NYC](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/lead.html)
-- [U.S. Universities - Regional Performance](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/universities.html)
+- [NYC Restaurant Inspections, Creepy Crawly Edition](creepy_crawly.ipynb)
+- [Investigating Elevated Blood Lead Level Rates in Children in NYC](lead.ipynb)
+- [U.S. Universities - Regional Performance](universities.ipynb)
 
 Note these won't be runnable without downloading the source data.
