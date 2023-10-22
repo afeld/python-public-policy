@@ -11,7 +11,6 @@ assignees: afeld
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] Links to Brightspace site
-  - [ ] Links to JupyterHub
 - [ ] Submit syllabus to Wagner
   - [ ] [Convert to PDF](https://md2pdf.netlify.com/)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
@@ -24,7 +23,6 @@ assignees: afeld
   - [ ] Set up check-in
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
-  - [ ] Update bookmarks in Chrome
   - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/) using `ours` mode
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment)
