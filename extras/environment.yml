@@ -7,7 +7,6 @@ dependencies:
   - black
   - nbqa
   - notebook
-  - jupyter_server
 
   # extensions
   - ipykernel
@@ -34,9 +33,7 @@ dependencies:
   ## CI ##
   - jinja2
   - nbconvert
-  # support latest version of jupyter_server
-  # https://nbdime.readthedocs.io/en/stable/changelog.html
-  - nbdime>=3.2.0
+  - nbdime
   - pytest
 
   # this needs to stay in sync with docs/environment.yml
