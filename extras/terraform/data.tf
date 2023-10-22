@@ -3,7 +3,7 @@ locals {
 
   # find all with
   #
-  #   grep -oh -E "https://storage.googleapis.com/python-public-policy/data/.+\.csv(\.zip)?" *.ipynb | xargs basename | sort | uniq
+  #   grep -oh -E "https://storage.googleapis.com/python-public-policy2/data/.+\.csv(\.zip)?" *.ipynb | xargs basename | sort | uniq
   source_files = [
     "311_community_districts.csv",
     # replaced by
