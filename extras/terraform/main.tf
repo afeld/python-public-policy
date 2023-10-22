@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket = "python-public-policy-tf-backend"
-    prefix = "terraform/state"
+    bucket = "python-public-policy-terraform"
+    prefix = "state"
   }
 }
 
