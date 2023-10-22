@@ -6,12 +6,10 @@ dependencies:
   ## local development ##
   - black
   - nbqa
-  - notebook=6.*
+  - notebook=7.*
 
   # extensions
-  - ipykernel
-  - jupyter-resource-usage
-  - nb_conda
+  - nb_conda_kernels
   - RISE
 
   ## packages used in notebooks ##
