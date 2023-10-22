@@ -11,6 +11,11 @@ resource "google_storage_bucket" "data" {
   versioning {
     enabled = true
   }
+
+  lifecycle {
+    # don't give up the old bucket name before the new one is created
+    create_before_destroy = true
+  }
 }
 
 locals {
