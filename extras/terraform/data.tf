@@ -3,7 +3,7 @@ locals {
 
   # find all with
   #
-  #   grep -oh -E "https://storage.googleapis.com/python-public-policy/data/.+\.csv(\.zip)?" *.ipynb | xargs basename | sort | uniq
+  #   grep -oh -E "https://storage.googleapis.com/python-public-policy2/data/.+\.csv(\.zip)?" *.ipynb | xargs basename | sort | uniq
   source_files = [
     "311_community_districts.csv",
     # replaced by
@@ -42,13 +42,24 @@ resource "google_storage_bucket_object" "zipped" {
   name   = "data/${basename(each.value.output_path)}"
   source = each.value.output_path
   bucket = google_storage_bucket.data.name
+
+  timeouts {
+    create = "20m"
+    update = "20m"
+  }
 }
 
-resource "google_storage_object_access_control" "public_rule" {
+# test that the files are publicly accessible
+data "http" "publicly_accessible" {
   for_each = google_storage_bucket_object.zipped
 
-  object = each.value.output_name
-  bucket = google_storage_bucket.data.name
-  role   = "READER"
-  entity = "allUsers"
+  url    = "https://storage.googleapis.com/${google_storage_bucket.data.name}/${each.value.name}"
+  method = "HEAD"
+
+  lifecycle {
+    postcondition {
+      condition     = self.status_code == 200
+      error_message = "Status code invalid"
+    }
+  }
 }

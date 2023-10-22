@@ -1,11 +1,12 @@
 terraform {
   backend "gcs" {
-    bucket = "python-public-policy-tf-backend"
-    prefix = "terraform/state"
+    bucket = "python-public-policy-terraform"
+    prefix = "state"
   }
 }
 
 provider "google" {
-  project = "fresh-mason-303504"
-  region  = "us-east1"
+  project = "python-public-policy2"
+  # match the region that the NYU JupyterHub is in
+  region = "us-east1"
 }
