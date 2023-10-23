@@ -66,7 +66,7 @@
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - **Grader:** Qiyu Feng, qf2051@nyu.edu
 - **Office Hours:**
-  - Tuesdays 5:30-6pm ET over Zoom, no appointment necessary
+  - Tuesdays 5-5:30pm ET over Zoom, no appointment necessary
   - Other times by appointment; email the instructor
 
 {% endif -%}
