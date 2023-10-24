@@ -97,6 +97,8 @@ Canonical copies of data are in [a Google Drive folder](https://drive.google.com
 {% if id == "columbia" -%}
 ## Student enrollment activity
 
+This only shows students coming off the wait list.
+
 1. Visit [SSOL](https://ssol.columbia.edu)
 1. View the Wait List Activity
 1. Open the Console
