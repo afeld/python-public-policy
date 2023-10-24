@@ -27,6 +27,7 @@ jobs:
         run: |
           git checkout -b ${{ matrix.school }}-merged
           git merge -s ours --no-commit --no-ff ${{github.ref_name}}
+          # use the contents of the base branch
           # https://stackoverflow.com/a/68636946/358804
           git restore --source ${{github.ref_name}} --worktree --staged -- .
       - name: Render for school
