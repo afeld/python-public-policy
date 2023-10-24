@@ -23,13 +23,13 @@ jobs:
           fetch-depth: 0
       - uses: ./.github/actions/setup
       # avoid force pushes on school branches by merging main but then only committing the processed files
-      - name: Merge into school branch
-        run: |
-          git checkout -b ${{ matrix.school }}-merged
-          git merge -s ours --no-commit --no-ff ${{github.ref_name}}
-          # use the contents of the base branch
-          # https://stackoverflow.com/a/68636946/358804
-          git restore --source ${{github.ref_name}} --worktree --staged -- .
+      - name: Switch to school branch
+        run: git switch ${{ matrix.school }}-merged
+      - name: Merge from base branch
+        run: git merge -s ours --no-commit --no-ff ${{github.ref_name}}
+      - name: Restore files from base branch
+        # https://stackoverflow.com/a/68636946/358804
+        run: git restore --source ${{github.ref_name}} --worktree --staged -- .
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
       - name: Commit changes
