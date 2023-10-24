@@ -19,6 +19,8 @@ jobs:
         shell: bash -l {0}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: ./.github/actions/setup
       # avoid force pushes on school branches by merging main but then only committing the processed files
       - name: Merge into school branch
