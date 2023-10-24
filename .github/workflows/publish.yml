@@ -19,15 +19,33 @@ jobs:
         shell: bash -l {0}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: ./.github/actions/setup
+      # avoid force pushes on school branches by merging main but then only committing the processed files
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "alf9@nyu.edu"
+      - name: Switch to school branch
+        run: git switch ${{ matrix.school }}
+      - name: Merge from base branch
+        run: git merge -s ours --no-commit --no-ff ${{github.ref_name}}
+      - name: Restore files from base branch
+        # https://stackoverflow.com/a/68636946/358804
+        run: git restore --source ${{github.ref_name}} --worktree --staged -- .
+      - name: Commit preliminary changes
+        run: |
+          git add -A
+          git commit -m "CI: render for school"
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
+      - name: Update commit
+        run: |
+          git add -A
+          git commit --amend --no-edit
       - name: Push branch
-        uses: GuillaumeFalourd/git-commit-push@v1.3
-        with:
-          target_branch: ${{ matrix.school }}
-          commit_message: "CI: render for school"
-          force: true
+        run: git push origin ${{ matrix.school }}
         if: github.ref_name == 'main'
       - name: Store rendered HTML for link checking
         uses: actions/upload-artifact@v3
