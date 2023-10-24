@@ -1,8 +1,8 @@
-# {{course_name}}
+# Python Coding for Public Policy
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_
 
-This site contains content for [{{school_name}}'s {{course_name}}](syllabus.md) class.
+This site contains content for [NYU Wagner's Python Coding for Public Policy](syllabus.md) class.
 
 The materials are also available for public consumption. If you are _not_ part of the class, see information about [running the notebooks](resources.md#jupyter-outside-this-course).
 
@@ -16,20 +16,13 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - [Resources](resources.md)
   - Lecture slides
   - Homework templates
-- [{{lms_name}} site]({{lms_url}}), which students will use for:
-  {% if id == "nyu" -%}
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/297088), which students will use for:
   - Viewing Announcements
   - Discussions
-  {% endif -%}
   - Submitting assignments
   - Viewing grades
   - [Accessing class recordings](syllabus.md#class-recordings)
-{% if id == "columbia" -%}
-- [Ed]({{discussions_url}}), which is used for:
-  - Accouncements
-  - Discussions
-{% endif -%}
-- [{{coding_env_name}}]({{coding_env_url}}), where work will be completed
+- [JupyterHub](https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/), where work will be completed
 
 ## Why this class?
 

@@ -11,10 +11,10 @@
 ## Once you start
 
 - [General assignment information](assignments.md)
-- Create a new notebook to do the actual analysis; that is what you'll [turn in](#submission).{% if id == 'nyu' %} To create, click:
+- Create a new notebook to do the actual analysis; that is what you'll [turn in](#submission). To create, click:
   1. `File`
   1. `New notebook`
-  1. `Python [conda env:python-public-policy]`{% endif %}
+  1. `Python [conda env:python-public-policy]`
 - Go back and find any information that's available _around_ the data, to get a better understanding of what it contains and means.
   - Might include a data dictionary
   - Might involve poking around a government agency's web site to understand their processes
@@ -62,25 +62,18 @@ If you answer the first question easily, that's fine; dig into / build off of it
   - API keys
   - Personally-identifiable information (PII)
 
-Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions{% if id == 'nyu' %} or resubmissions{% endif %}**.
+Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions or resubmissions**.
 
 ### Confirming you meet the requirements
 
-The instructor and {{assistant_name}} don't have bandwidth to review everyone's full notebooks. Therefore, to be fair to everyone, we will deny any requests to have notebooks reviewed end to end, aside from [appeals to the peer grade](final_project/peer_grading.md). In other words, please don't ask us "I think I'm done — can you make sure my Final Project is ok?" That said, we are more than happy to answer specific questions and help troubleshoot specific sections.
+The instructor and grader don't have bandwidth to review everyone's full notebooks. Therefore, to be fair to everyone, we will deny any requests to have notebooks reviewed end to end, aside from [appeals to the peer grade](final_project/peer_grading.md). In other words, please don't ask us "I think I'm done — can you make sure my Final Project is ok?" That said, we are more than happy to answer specific questions and help troubleshoot specific sections.
 
 To confirm you meet [the requirements](#analysis-requirements) prior to submitting, you can:
 
 - Take a pass through your own notebook, pretending you are grading someone else
 - Ask someone else in the class to do so
 
-{% if id == 'columbia' %}
-### Sharing
 
-Make sure the notebook will be visible to other students for peer grading:
-
-1. [Open the Sharing settings.](https://research.google.com/colaboratory/faq.html#notebook-storage)
-1. Under `General access`, change to `LionMail` (or `Anyone with the link`), then `Viewer`.
-{% endif %}
 
 ## Peer grading
 

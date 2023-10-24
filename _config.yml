@@ -1,4 +1,4 @@
-title: "{{course_name}} @ {{school_name}}"
+title: "Python Coding for Public Policy @ NYU Wagner"
 author: Aidan Feldman
 
 # https://jupyterbook.org/en/stable/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
@@ -22,15 +22,12 @@ html:
     </div>
 repository:
   url: https://github.com/afeld/python-public-policy
-  branch: "{{school_slug}}"
+  branch: "nyu"
 launch_buttons:
   binderhub_url: ""
-  {% if id == 'columbia' -%}
-  colab_url: "https://colab.research.google.com"
-  {% else -%}
   # this gets overridden; see _static/site.js
   jupyterhub_url: https://padmgp-4506.rcnyu.org
-  {% endif %}
+  
 sphinx:
   config:
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly

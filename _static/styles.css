@@ -15,7 +15,7 @@
 /* indicate the version by color, overriding the colors from sphinx-book-theme */
 /* top nav bar */
 .bd-header-article {
-  --pst-color-background: {{color}};
+  --pst-color-background: #57058b;
 }
 .bd-header-article .btn {
   --pst-color-text-base: white;
