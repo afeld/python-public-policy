@@ -30,7 +30,7 @@ jobs:
       - name: Switch to school branch
         run: git switch ${{ matrix.school }}-merged
       - name: Merge from base branch
-        run: git merge -s ours --no-commit --no-ff ${{github.ref_name}}
+        run: "git merge -s ours --no-ff -m 'CI: render for school' --no-edit ${{github.ref_name}}"
       - name: Restore files from base branch
         # https://stackoverflow.com/a/68636946/358804
         run: git restore --source ${{github.ref_name}} --worktree --staged -- .
@@ -39,7 +39,7 @@ jobs:
       - name: Commit changes
         run: |
           git add -A
-          git commit -am "CI: render for school"
+          git commit --amend --no-edit
       - name: Push branch
         run: git push origin ${{ matrix.school }}-merged
       - name: Store rendered HTML for link checking
