@@ -2,18 +2,15 @@
 
 ## Process
 
-1. [Find a dataset](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/resources.html#open-data-portals) that seems interesting.
+1. [Find a dataset](https://python-public-policy.afeld.me/en/columbia/final_project/resources.html#open-data-portals) that seems interesting.
    - Use at least one dataset that you aren't familiar with.
      - Using data from a primary source is preferred.
    - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
-   {%- if id == "nyu" %}
-   - Note the [{{coding_env_name}} limits](../assignments.md#limits).
-   {%- endif %}
 1. Inspect the data a bit.
 1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
    - If you aren't sure, ask.
 1. Come up with a hypothesis (a.k.a. a guess of the answer to the question).
-1. Submit the proposal to {% if id == "columbia" %}the `Final Project proposal` Assignment{% else %}a new Conversation under the `Final Project proposals` [Discussion]({{discussions_url}}){% endif %}, using the format below.
+1. Submit the proposal to the `Final Project proposal` Assignment, using the format below.
 
 If the proposal shows effort and follows the format below, full credit will be given.
 

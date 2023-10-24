@@ -9,8 +9,6 @@
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
-{% if id == "columbia" -%}
-
 ## Columbia
 
 - [Python at Columbia Business School](https://www8.gsb.columbia.edu/courses/python) self-paced course with videos, open to anyone at Columbia
@@ -20,20 +18,6 @@
   - [Data Club](https://library.columbia.edu/services/research-data-services/data-club.html)
   - [Research Data Services](https://library.columbia.edu/services/research-data-services.html)
   - [Studio](https://studio.cul.columbia.edu/)
-
-{% else -%}
-
-## NYU
-
-- [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
-  - Tutoring
-  - Math Review
-- [NYU Library Data Services](https://library.nyu.edu/departments/data-services/)
-  - Consultation
-  - Classes
-- [The Coding Lab](https://codinglab.itp.io/)
-
-{% endif -%}
 
 ## Pandas
 
@@ -65,35 +49,16 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 - [Kaggle's Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [DataCamp's Natural Language Processing in Python track](https://www.datacamp.com/tracks/natural-language-processing-in-python)
 
-{% if school_slug == "columbia" -%}
-
 ### Columbia
 
 - [Other Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext)
 - [Library Workshops](https://library.columbia.edu/using-libraries/workshops.html)
 
-{% else -%}
-
-### NYU
-
-- [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
-- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
-  - Applied Data Science
-  - Machine Learning for Cities
-
-{% endif -%}
-
 ## Jupyter outside this course
 
-We use [a cloud-based Jupyter environment ({{coding_env_name}})](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
+We use [a cloud-based Jupyter environment (Google Colab)](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
-{% if id == "columbia" -%}
 Some additional options for running Jupyter:
-{% else -%}
-After this class, however, you'll no longer have access. Some options for running Jupyter on your own:
-
-- [Google Colab](https://colab.research.google.com/)
-{% endif -%}
 - [Anaconda](https://www.anaconda.com/)
 - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
@@ -104,8 +69,8 @@ _Advanced_
 Note these instructions won't work in Colab.
 
 1. [Install Mamba.](https://mamba.readthedocs.io/en/latest/installation.html)
-1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}).
-1. Check out the `{{school_slug}}` branch.
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy/tree/columbia).
+1. Check out the `columbia` branch.
 1. [Create the environment.](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
 
    ```sh

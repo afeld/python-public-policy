@@ -7,27 +7,23 @@ chapters:
     title: Syllabus
     sections:
       - file: joining_late
-      {% if school_slug == "columbia" -%}
       - file: curve
-      {%- endif %}
   - file: assignments
     title: Assignment info
   - file: resources
-  - url: "{{lms_url}}"
-    title: "{{lms_name}}"
-  - url: "{{coding_env_url}}"
-    title: "{{coding_env_name}}"
+  - url: "https://courseworks2.columbia.edu/courses/185906"
+    title: "CourseWorks"
+  - url: "https://colab.research.google.com"
+    title: "Google Colab"
   - file: lecture_0
     sections:
       - file: hw_0
   - file: lecture_1
     sections:
-      {% if school_slug == "columbia" -%}
       - file: lecture_1_exercise
         title: In-class exercise
       - file: lecture_1_exercise_solution
         title: In-class exercise solution
-      {%- endif %}
       - file: hw_1
   - file: lecture_2
     sections:
