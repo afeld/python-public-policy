@@ -15,6 +15,8 @@ dependencies:
   - RISE
 
   ## packages used in notebooks ##
+  # makes kernel available in JupyterHub
+  - ipykernel
   - ipytest=0.13.*
   - wget
   # https://plotly.com/python/static-image-export/
