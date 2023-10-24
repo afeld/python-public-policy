@@ -23,6 +23,10 @@ jobs:
           fetch-depth: 0
       - uses: ./.github/actions/setup
       # avoid force pushes on school branches by merging main but then only committing the processed files
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "alf9@nyu.edu"
       - name: Switch to school branch
         run: git switch ${{ matrix.school }}-merged
       - name: Merge from base branch
@@ -34,8 +38,6 @@ jobs:
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
       - name: Commit changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "alf9@nyu.edu"
           git add -A
           git commit -am "CI: render for school"
       - name: Push branch
