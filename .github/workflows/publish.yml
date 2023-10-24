@@ -20,15 +20,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
+      # avoid force pushes on school branches by merging main but then only committing the processed files
+      - name: Merge into school branch
+        run: |
+          git checkout -b ${{ matrix.school }}-merged
+          git merge -s ours --no-commit --no-ff ${{github.ref_name}}
+          # https://stackoverflow.com/a/68636946/358804
+          git restore --source ${{github.ref_name}} --worktree --staged -- .
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "alf9@nyu.edu"
+          git add -A
+          git commit -am "CI: render for school"
       - name: Push branch
-        uses: GuillaumeFalourd/git-commit-push@v1.3
-        with:
-          target_branch: ${{ matrix.school }}
-          commit_message: "CI: render for school"
-          force: true
-        if: github.ref_name == 'main'
+        run: git push origin ${{ matrix.school }}-merged
       - name: Store rendered HTML for link checking
         uses: actions/upload-artifact@v3
         with:
