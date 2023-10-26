@@ -158,6 +158,13 @@ It is entirely possible for everyone in the class to get over 100%.
 
 If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
 
+#### [Final Project](final_project.md)
+
+The Final Project score will be the [median](https://docs.python.org/3/library/statistics.html#statistics.median) of [peer grades](final_project/peer_grading.md). For the Final Project peer review score, the following apply per review:
+
+- **Minimal feedback:** -10 points
+- **Not reviewed:** -20 points
+
 
 
 #### Resubmission
