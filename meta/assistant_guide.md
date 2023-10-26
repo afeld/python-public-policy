@@ -42,7 +42,7 @@ Weeks start/end at the beginning of each class.
   - Mark each student that participated as Complete
   - Mark those who didn't as Incomplete
 - You can use the Analytics from Ed to help
-- Instructor can [export enrollment activity](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#student-enrollment-activity) for you
+- Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 
 ### Discussions
@@ -86,7 +86,7 @@ Weeks start/end at the beginning of each class.
 
 The following should be true for each Assignment:
 
-- [ ] The description is a link to the assignment page on [the site](https://python-public-policy.afeld.me/en/columbia/)
+- [ ] The description is a link to the assignment page on this site
 - [ ] Points
     - [ ] 100 points per Assignment, except for Homework 3 and the Final Project Proposal which are 50 each
     - [ ] Percentage of the overall grade matches [the breakdown in the syllabus](../syllabus.md#assignments-and-evaluation)
@@ -126,7 +126,7 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 - Students are encouraged to submit before the deadline to get feedback sooner.
   - Please provide feedback on [the proposals](../final_project/proposal.md) within four days of submission so that students can get started.
-- If the proposal shows effort and follows the [format](https://python-public-policy.afeld.me/en/columbia/final_project/proposal.html#format), full credit should be given
+- If the proposal shows effort and follows the [format](../final_project/proposal.md#format), full credit should be given
 - Things to look for (don't spend too long on these):
   - Will their dataset answer their question?
   - Do they have a question that is objectively answerable?
@@ -137,10 +137,11 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 #### Peer review
 
-[The Final Projects themselves are peer graded.](https://python-public-policy.afeld.me/en/columbia/final_project/peer_grading.html)  Once the peer review deadline passes:
+[The Final Projects themselves are peer graded.](../final_project/peer_grading.md)  Once the peer review deadline passes:
 
 1. In the Final Project Assignment, open Speedgrader.
 1. Open each submission.
 1. Calculate the median of the scores from the peers, using that as the final grade.
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
-   - As long as thoughtful feedback was given, give full points.
+
+[Scoring details.](../syllabus.md#final-project)

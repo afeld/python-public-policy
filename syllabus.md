@@ -165,6 +165,13 @@ The overall grade is curved; see [the methodology](https://python-public-policy.
 
 If the submission showed effort, feedback will be given through comments in the notebook.
 
+#### [Final Project](final_project.md)
+
+The Final Project score will be the [median](https://docs.python.org/3/library/statistics.html#statistics.median) of [peer grades](final_project/peer_grading.md). For the Final Project peer review score, the following apply per review:
+
+- **Minimal feedback:** -10 points
+- **Not reviewed:** -20 points
+
 
 
 #### Extensions
