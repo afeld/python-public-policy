@@ -7,6 +7,7 @@ dependencies:
   - black
   - nbqa
   - nbclassic
+  - notebook=6.*
 
   # extensions
   - jupyter-resource-usage
