@@ -2,7 +2,7 @@
 
 ## Process
 
-1. [Find a dataset](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/resources.html#open-data-portals) that seems interesting.
+1. [Find a dataset](resources.md#open-data-portals) that seems interesting.
    - Use at least one dataset that you aren't familiar with.
      - Using data from a primary source is preferred.
    - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
