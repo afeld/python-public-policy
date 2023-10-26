@@ -184,4 +184,5 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 1. Open each submission.
 1. Calculate the median of the scores from the peers, using that as the final grade.
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
-   - As long as thoughtful feedback was given, give full points.
+
+[Scoring details.](../syllabus.md#final-project)
