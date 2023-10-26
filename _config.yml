@@ -37,3 +37,6 @@ sphinx:
     language: en
     # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#implicit-targets
     myst_heading_anchors: 4
+    html_theme_options:
+      # https://github.com/pydata/pydata-sphinx-theme/issues/1492
+      navigation_with_keys: false
