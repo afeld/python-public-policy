@@ -25,7 +25,7 @@ assignees: afeld
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] [Set up GitHub repositories synchronization](https://settings-spring.rcnyu.org/) using `ours` mode
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
-  - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages used in notebooks" are needed
+  - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages imported directly in notebooks" and "supporting packages" are needed
 - [ ] New Brightspace site
   - [ ] Import
   - [ ] Simplify name
