@@ -9,7 +9,6 @@ dependencies:
   - nbclassic
 
   # extensions
-  - ipykernel
   - jupyter-resource-usage
   - nb_conda_kernels
   - RISE
@@ -21,6 +20,11 @@ dependencies:
   - wget
   # https://plotly.com/python/static-image-export/
   - python-kaleido
+  # required for plotly rendering
+  - nbformat
+  # necessary optional dependency for nbformat->jsonschema
+  # https://python-jsonschema.readthedocs.io/en/stable/validate/#validating-formats
+  - isoduration
   # match version in Colab returned by `!python --version`
   - python=3.10.12
   # match versions in Colab returned by `!pip list`
