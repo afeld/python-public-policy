@@ -7,20 +7,14 @@ dependencies:
   - black
   - nbqa
   - nbclassic
+  - notebook=6.*
 
   # extensions
-  - ipykernel
   - jupyter-resource-usage
   - nb_conda_kernels
   - RISE
 
-  ## packages used in notebooks ##
-  # makes kernel available in JupyterHub
-  - ipykernel
-  - ipytest=0.13.*
-  - wget
-  # https://plotly.com/python/static-image-export/
-  - python-kaleido
+  ## packages imported directly in notebooks ##
   # match version in Colab returned by `!python --version`
   - python=3.10.12
   # match versions in Colab returned by `!pip list`
@@ -31,6 +25,19 @@ dependencies:
   - plotly=5.15.0
   - requests=2.31.0
   - statsmodels=0.14.0
+  ## supporting packages for notebooks ##
+  # makes kernel available in JupyterHub
+  - ipykernel
+  - ipytest=0.13.*
+  - wget
+  # https://plotly.com/python/static-image-export/
+  - python-kaleido
+  # required for plotly rendering
+  # https://github.com/plotly/plotly.py/blob/94f2024bc981bdfd3d4ba527122a21286f4c7793/packages/python/plotly/plotly/io/_renderers.py#L395
+  - nbformat
+  # necessary optional dependency for nbformat->jsonschema
+  # https://python-jsonschema.readthedocs.io/en/stable/validate/#validating-formats
+  - isoduration
 
   ## CI ##
   - jinja2
