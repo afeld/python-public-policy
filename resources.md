@@ -51,7 +51,10 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 ### NYU
 
-- [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
+- Wagner
+  - [Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
+  - [Pre-approved courses outside of Wagner (for Wagner students)](https://wagner.nyu.edu/portal/students/academics/courses/non-wagner-courses)
+- [Center for Data Science](https://cds.nyu.edu/masters-curriculum/)
 - [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
   - Applied Data Science
   - Machine Learning for Cities
