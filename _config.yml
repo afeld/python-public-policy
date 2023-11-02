@@ -29,6 +29,9 @@ launch_buttons:
   jupyterhub_url: https://padmgp-4506.rcnyu.org
   
 sphinx:
+  # avoid the html_theme_options from overriding the ones set by Jupyter Book
+  # https://jupyterbook.org/en/stable/advanced/sphinx.html#manual-sphinx-configuration
+  recursive_update: true
   config:
     # https://jupyterbook.org/en/stable/interactive/interactive.html#plotly
     html_js_files:
