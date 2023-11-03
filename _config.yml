@@ -26,9 +26,8 @@ repository:
 launch_buttons:
   binderhub_url: ""
   {% if id == 'columbia' -%}
-  colab_url: "https://colab.research.google.com"
+  colab_url: https://colab.research.google.com
   {% else -%}
-  # this gets overridden; see _static/site.js
   jupyterhub_url: https://padmgp-4506.rcnyu.org
   {% endif %}
 sphinx:
