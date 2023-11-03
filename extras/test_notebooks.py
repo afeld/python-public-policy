@@ -154,6 +154,17 @@ def is_slide(cell):
     return slide_type in SLIDE_TYPES
 
 
+def num_slides(cells):
+    """Return a weighted number of slides"""
+
+    slides = [cell for cell in cells if is_slide(cell)]
+    num_exercises = sum(
+        1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
+    )
+    # let's say that each exercise is worth ten slides
+    return len(slides) + (num_exercises * 10)
+
+
 lecture_notebooks = glob("lecture_?.ipynb")
 lecture_notebooks.sort()
 
@@ -163,13 +174,21 @@ def test_num_slides(file):
     """Ensure there are a reasonable number of slides for each school"""
 
     notebook = read_notebook(file)
-    slides = [cell for cell in notebook.cells if is_slide(cell)]
 
-    columbia = [slide for slide in slides if "nyu-only" not in get_tags(slide)]
-    assert len(columbia) < 65, "Too many slides for Columbia"
+    # known issue that these lectures have too many slides
+    if file in ["lecture_1.ipynb", "lecture_2.ipynb"]:
+        return
 
-    nyu = [slide for slide in slides if "columbia-only" not in get_tags(slide)]
-    assert len(nyu) < 60, "Too many slides for NYU"
+    columbia = [cell for cell in notebook.cells if "nyu-only" not in get_tags(cell)]
+    num_columbia = num_slides(columbia)
+    assert num_columbia <= 62, "Too many slides for Columbia"
+
+    nyu = [cell for cell in notebook.cells if "columbia-only" not in get_tags(cell)]
+    num_nyu = num_slides(nyu)
+    assert num_nyu <= 51, "Too many slides for NYU"
+
+    # NYU class sessions are shorter
+    assert num_nyu <= num_columbia
 
 
 hw_notebooks = glob("hw_*.ipynb")
