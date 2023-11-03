@@ -154,7 +154,8 @@ def is_slide(cell):
     return slide_type in SLIDE_TYPES
 
 
-lecture_notebooks = glob("lecture_*.ipynb")
+lecture_notebooks = glob("lecture_?.ipynb")
+lecture_notebooks.sort()
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
@@ -172,6 +173,7 @@ def test_num_slides(file):
 
 
 hw_notebooks = glob("hw_*.ipynb")
+hw_notebooks.sort()
 
 
 @pytest.mark.parametrize("file", hw_notebooks)
