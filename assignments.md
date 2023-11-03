@@ -10,6 +10,8 @@ To edit/execute a Homework/lecture notebook:
 1. Open the Homework page on this site.
 1. Click the launch button (🚀) at the top.
 1. You should now see the notebook in JupyterHub.
+1. Click `File`->`Save as...`
+1. In the text box, delete `class_materials/` and replace with `<name>.ipynb`, so for example: `hw_1.ipynb`.
 ## Tips
 
 - **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
