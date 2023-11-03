@@ -25,7 +25,7 @@ repository:
   branch: "columbia"
 launch_buttons:
   binderhub_url: ""
-  colab_url: "https://colab.research.google.com"
+  colab_url: https://colab.research.google.com
   
 sphinx:
   # avoid the html_theme_options from overriding the ones set by Jupyter Book
