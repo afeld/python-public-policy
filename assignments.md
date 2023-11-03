@@ -12,7 +12,7 @@ To edit/execute a Homework/lecture notebook:
 1. You should now see the notebook in JupyterHub.
 ## Tips
 
-- **All lecture slides and homework templates can be found under [`class_materials/`](https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
+- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
@@ -21,7 +21,7 @@ To edit/execute a Homework/lecture notebook:
 
 ### Storing data
 
-1. Open the [JupyterHub file browser](https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/).
+1. Open the [JupyterHub file browser](https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
 1. Navigate to the folder your notebook is in.
 1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
 1. From Python, use `read_csv("./<filename>.csv")`.
@@ -88,7 +88,7 @@ Note: In-class exercises will not be graded.
 If you get an error of `Disk is full` / `No space left on device`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-1. Go to start your server again (visit [JupyterHub](https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/)).
+1. Go to start your server again (visit [JupyterHub](https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu)).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
@@ -98,12 +98,12 @@ If you get an error of `Disk is full` / `No space left on device`: You've used a
 
 This error can happen if you tried to output a lot of data in tables/charts. Steps to resolve:
 
-1. Open the [JupyterHub](https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/)) file browser
+1. Open the [JupyterHub](https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu)) file browser
 1. Click `New`, then `Terminal`
 1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
 
    ```sh
-   jupyter nbconvert --to notebook --clear-output ~/class_materials/hw_<NUMBER>.ipynb
+   jupyter nbconvert --to notebook --clear-output ~/python-public-policy/hw_<NUMBER>.ipynb
    ```
 
 If you're confused by these instrucions, download the notebook file and [email to the instructor](syllabus.md#instructor-information).
