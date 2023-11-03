@@ -129,19 +129,46 @@ class PlotChecker(ast.NodeVisitor):
             assert "title" in args, f"call to `{method}()` missing a `title`"
 
 
+def get_tags(cell):
+    return cell.metadata.get("tags", [])
+
+
 @pytest.mark.parametrize("file", notebooks)
 def test_chart_titles(file):
     """Make sure all charts have titles"""
 
     notebook = read_notebook(file)
     for cell in notebook.cells:
-        tags = cell.metadata.get("tags", [])
+        tags = get_tags(cell)
         if "skip-plot-check" in tags or not is_python(cell):
             continue
 
         tree = ast.parse(cell.source)
         checker = PlotChecker()
         checker.visit(tree)
+
+
+def is_slide(cell):
+    SLIDE_TYPES = ["slide", "subslide"]
+    slide_type = cell.metadata.get("slideshow", {}).get("slide_type")
+    return slide_type in SLIDE_TYPES
+
+
+lecture_notebooks = glob("lecture_*.ipynb")
+
+
+@pytest.mark.parametrize("file", lecture_notebooks)
+def test_num_slides(file):
+    """Ensure there are a reasonable number of slides for each school"""
+
+    notebook = read_notebook(file)
+    slides = [cell for cell in notebook.cells if is_slide(cell)]
+
+    columbia = [slide for slide in slides if "nyu-only" not in get_tags(slide)]
+    assert len(columbia) < 65, "Too many slides for Columbia"
+
+    nyu = [slide for slide in slides if "columbia-only" not in get_tags(slide)]
+    assert len(nyu) < 60, "Too many slides for NYU"
 
 
 hw_notebooks = glob("hw_*.ipynb")
