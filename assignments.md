@@ -14,7 +14,7 @@ To edit/execute a Homework/lecture notebook:
 1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
 1. Save a copy to your Google Drive.
 - [{{coding_env_name}} walkthrough](https://columbiauniversity.zoom.us/rec/play/TfO3SbhRcAOSYoOc-HD7M_4d8cMQoAJCrcyJMIuUxfX1k7oX-txkCejsFLKxzrDn17aHDrlmWZumgS43.-J8dPQthf7yG1Iqx)
-{% else -}
+{% else -%}
 1. Click `File`->`Save as...`
 1. In the text box, delete `class_materials/` and replace with `<name>.ipynb`, so for example: `hw_1.ipynb`.
 {% endif -%}
