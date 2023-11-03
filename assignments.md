@@ -18,7 +18,7 @@ To edit/execute a Homework/lecture notebook:
 
 ## Tips
 
-{% if id == 'nyu' %}- **All lecture slides and homework templates can be found under [`class_materials/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.{% endif %}
+{% if id == 'nyu' %}- **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.{% endif %}
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
@@ -135,7 +135,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
 1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
 
    ```sh
-   jupyter nbconvert --to notebook --clear-output ~/class_materials/hw_<NUMBER>.ipynb
+   jupyter nbconvert --to notebook --clear-output ~/python-public-policy/hw_<NUMBER>.ipynb
    ```
 
 If you're confused by these instrucions, download the notebook file and [email to the instructor](syllabus.md#instructor-information).

@@ -86,7 +86,7 @@ SCHOOLS = [
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=297088",
         lms_reorder_docs="https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories",
         coding_env_name="JupyterHub",
-        coding_env_url="https://padmgp-4506.rcnyu.org/user-redirect/notebooks/class_materials/",
+        coding_env_url="https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu",
         coding_env_kernel_name="kernel",
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
