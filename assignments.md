@@ -18,8 +18,10 @@ To edit/execute a Homework/lecture notebook:
 
 ## Tips
 
-{% if id == 'nyu' %}- **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.{% endif %}
-
+{% if id == 'nyu' -%}
+- **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.
+- **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking the {{coding_env_name}}, as that will pull down the latest changes.
+{% endif -%}
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
