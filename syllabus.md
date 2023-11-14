@@ -176,7 +176,7 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline, up to the late submission cutoff mentioned above. Late submission deadlines will only be extended if there is accomodation requested through the school.
+Requests for extensions will only be considered if made via email before the deadline, up to [the late submission cutoff shown above](#schedule). Late submission deadlines will only be extended if there is accomodation requested through the school.
 
 ### Participation
 
