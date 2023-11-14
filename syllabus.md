@@ -166,7 +166,6 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 - **Not reviewed:** -20 points
 
 
-
 #### Resubmission
 
 For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through Brightspace.
@@ -174,7 +173,7 @@ For submissions that showed effort and were on time, the assignment can be resub
 
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline, up to the late submission cutoff mentioned above. Late submission deadlines will only be extended if there is accomodation requested through the school. Resubmission deadlines will not be extended.
+Requests for extensions will only be considered if made via email before the deadline, up to [the late submission cutoff shown above](#schedule). Late submission deadlines will only be extended if there is accomodation requested through the school. Resubmission deadlines will not be extended.
 
 ### Participation
 
