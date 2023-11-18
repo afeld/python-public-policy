@@ -8,7 +8,7 @@
 
 {% endif -%}
 
-# {{course_name}} - {% if id == "columbia" %}Fall 2023{% else %}Spring 2024{% endif %}
+# {{course_name}} - {% if id == "columbia" %}Spring 2024{% else %}Fall 2023{% endif %}
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
