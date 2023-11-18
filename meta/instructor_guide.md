@@ -79,7 +79,7 @@ This only shows students coming off the wait list.
 
 ## Updating the curve
 
-1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/185906)
+1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/187089)
 1. Go to Grades
 1. Export -> Export Entire Gradebook
 1. In the [curve notebook](../curve.ipynb), update the CSV filename

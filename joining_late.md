@@ -14,7 +14,7 @@ There's a wait list for Section 1, space available in Section 2.
 
 - Attend class.
 - Look through the [important links](index.md#important-links), including past lectures.
-   - You won't be able to access [CourseWorks](https://courseworks2.columbia.edu/courses/185906) or the [Discussions](https://courseworks2.columbia.edu/courses/185906/external_tools/37606?display=borderless).
+   - You won't be able to access [CourseWorks](https://courseworks2.columbia.edu/courses/187089) or the [Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless).
 - [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
 ## Once you join
@@ -26,7 +26,7 @@ If you're coming off the wait list or registering for the course after the first
    - If you don't have access after that, [email the instructor](syllabus.md#instructor-information).
 
 - Watch the [recording(s) of past lectures](syllabus.md#class-recordings) if you weren't present for them.
-- Make sure to read through the pinned threads that appear at the top of the list of [Discussions](https://courseworks2.columbia.edu/courses/185906/external_tools/37606?display=borderless), in case there's anything you missed.
+- Make sure to read through the pinned threads that appear at the top of the list of [Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
    - [Email the Reader](syllabus.md#instructor-information) if there's a mistake.
