@@ -1,6 +1,6 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Spring 2024
+# Python Coding for Public Policy - Fall 2023
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/nyu/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
