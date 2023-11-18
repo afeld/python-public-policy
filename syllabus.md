@@ -1,6 +1,6 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Fall 2023
+# Python Coding for Public Policy - Spring 2024
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/nyu/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -164,6 +164,7 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 
 - **Minimal feedback:** -10 points
 - **Not reviewed:** -20 points
+
 
 
 #### Resubmission
