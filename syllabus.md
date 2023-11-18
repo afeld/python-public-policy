@@ -2,7 +2,7 @@
 
 ---
 
-# Python for Public Policy - Fall 2023
+# Python for Public Policy - Spring 2024
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/columbia/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
