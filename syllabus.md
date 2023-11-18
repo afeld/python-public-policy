@@ -8,7 +8,7 @@
 
 {% endif -%}
 
-# {{course_name}} - Fall 2023
+# {{course_name}} - {% if id == "columbia" %}Fall 2023{% else %}Spring 2024{% endif %}
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -28,10 +28,10 @@
 
 - **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Wednesdays 9/6-10/18
-  - Section 1: 4:10-6pm ET
-  - Section 2: 6:10-8pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
+- **Class Meeting Times:** Tuesdays 1/16-2/27
+  - Section 1: 9-10:50am ET
+  - Section 2: 11-12:50pm ET
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room to be determined
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet with a full keyboard is ok
@@ -41,10 +41,10 @@
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
 - **Readers:**
-  - Section 1: Edmond Zhu, zz2909@columbia.edu
-  - Section 2: Sebastian Espinosa, sme2140@columbia.edu
+  - Leigh Mante, lom2112@columbia.edu
+  - Sebastian Espinosa, sme2140@columbia.edu
 - **Office Hours:**
-  - Tuesdays 1:30-2:30pm ET over [Zoom](https://columbiauniversity.zoom.us/j/92125737396?pwd=cWFTNVZieWRqYnk1MmI0K1U3WGEyQT09), no appointment necessary
+  - Mondays 2:30-3pm ET over [Zoom](https://columbiauniversity.zoom.us/j/93706020529?pwd=MDF6bE9NaXl2WGtNYkVzVSszZ1dGQT09), no appointment necessary
   - Other times by appointment; email the instructor
 
 {% else -%}
@@ -117,17 +117,17 @@ By the end of the course, students will know:
 
 {% if school_slug == "columbia" -%}
 
-| Lecture | Date  | Topic                           | Homework due                                               | Late submission deadline                                   |
-| ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [0][l0] | 9/6   | Intro to coding                 | pre-class TODOs                                            |                                                            |
-| [1][l1] | 9/13  | Working with data               | [Homework 0][hw0]                                          |                                                            |
-| [2][l2] | 9/20  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| [3][l3] | 9/27  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| [4][l4] | 10/4  | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| [5][l5] | 10/11 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| [6][l6] | 10/18 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| none    | 10/21 | none                            | none                                                       | [Final Project][final]                                     |
-| none    | 10/25 | none                            | [Final Project peer grading][final-peer]                   |                                                            |
+| Lecture | Date | Topic                           | Homework due                                               | Late submission deadline                                   |
+| ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [0][l0] | 1/16 | Intro to coding                 | pre-class TODOs                                            |                                                            |
+| [1][l1] | 1/23 | Working with data               | [Homework 0][hw0]                                          |                                                            |
+| [2][l2] | 1/30 | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| [3][l3] | 2/6  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| [4][l4] | 2/13 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| [5][l5] | 2/20 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| [6][l6] | 2/27 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| none    | 3/1  | none                            | none                                                       | [Final Project][final]                                     |
+| none    | 3/5  | none                            | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% else -%}
 
@@ -233,6 +233,7 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 - **Not reviewed:** -20 points
 
 {% if id == 'nyu' %}
+
 #### Resubmission
 
 For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
