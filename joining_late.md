@@ -3,7 +3,7 @@
 ## Wait list
 
 
-There's a wait list for Section 1, space available in Section 2.
+There is often a wait list for this course.
 
 
 - There's a lot of churn in enrollment, so be patient.
