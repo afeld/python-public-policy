@@ -31,6 +31,7 @@ If the proposal shows effort and follows the format below, full credit will be g
 - You won't be graded on the scientific soundness of your work.
   - That said, please think through and note assumptions/caveats/unknowns of your approach.
 - The sooner you post your proposal, the sooner you'll get feedback.
+- The point of the proposal is to ensure you've dug into the data and that your project scope is reasonable. Think of it as a head start rather than something you're locked into.
 
 ## Simplified example
 
