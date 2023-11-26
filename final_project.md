@@ -16,6 +16,7 @@
   - Might include a data dictionary
   - Might involve poking around a government agency's web site to understand their processes
   - Understand what all the different columns and values represent
+- If you end up answering your initial research question easily (haven't met the requirements below), ask and answer follow-up question(s).
 
 ## Analysis requirements
 
@@ -33,6 +34,7 @@ In addition to the applicable [general assignment requirements](syllabus.md#assi
   - If you hit any dead ends in your analysis, leave them in.
     - For example, include charts that you generate that may not show anything interesting and explain what you are choosing to look at instead.
     - You should still be cleaning up unused/broken code to make your notebook readable.
+    - You may need to tweak your research question as you go. Show and explain why.
   - Have a conclusion that speaks to your question and hypothesis.
 - **Use pandas** - 15 points
 - **Not be trivial** - 35 points - requiring:
