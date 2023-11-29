@@ -2,11 +2,14 @@
 
 ## Wait list
 
-
+There is often a wait list for this course.
 
 - There's a lot of churn in enrollment, so be patient.
 - To be fair to everyone, it's first come first served.
 - [How the wait list works](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html)
+- Worst case, if you don't get in:
+   - This class is offered every Fall and Spring
+   - [There are a lot of other ways to learn Python](resources.md)
 
 ### While you're waiting
 
