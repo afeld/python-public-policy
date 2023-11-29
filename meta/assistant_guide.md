@@ -84,6 +84,7 @@ Weeks start/end at the beginning of each class.
 - Anything you need clarification on?
 - Any Discussions the instructor should jump in on?
 - What came up in Discussions/assignments (common problems, etc.) that might be useful to cover in class?
+- Are all cells in the gradebook filled in (through last week)?
 
 ## Assignments
 
