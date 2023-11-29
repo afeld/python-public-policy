@@ -68,6 +68,7 @@ To ensure that notebooks have the correct execution order and output, run them n
   1. Start recording
 - [On laptop, turn on Focus mode](https://support.apple.com/guide/mac-help/set-up-a-focus-to-stay-on-task-mchl613dc43f/mac)
 - Set phone to Do Not Disturb
+- Run lecture notebook
 
 - [Set placeholders](https://settings-spring.rcnyu.org/)
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
