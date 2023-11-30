@@ -27,7 +27,7 @@ To edit/execute a Homework/lecture notebook:
 1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
 1. From Python, use `read_csv("./<filename>.csv")`.
 
-[More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
+Note that that file path should be to relative to the notebook within JupyterHub — `./` means "in the same directory". JupyterHub cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
 
 ### Limits
 
