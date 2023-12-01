@@ -26,6 +26,7 @@ If the proposal shows effort and follows the format below, full credit will be g
 
 ## Tips
 
+- Don't overthink it; [the process above](#process) shouldn't take more than a few hours.
 - Your question/hypothesis doesn't need to be something novel; confirming something you read / heard about is fine.
 - You won't be graded on the scientific soundness of your work.
   - That said, please think through and note assumptions/caveats/unknowns of your approach.
