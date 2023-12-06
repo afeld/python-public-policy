@@ -18,7 +18,7 @@
 
 ## Course Information
 
-- **Course Number:** [INAFU6504](https://vergil.registrar.columbia.edu/#/courses/INAFU6504)
+- **Course Number:** [INAFU6504](https://vergil.columbia.edu/vergil/course/20241/61319)
 - **Course site:** [python-public-policy.afeld.me/en/columbia/](https://python-public-policy.afeld.me/en/columbia/)
 - **Class Meeting Times:** Tuesdays 1/16-2/27
   - Section 1: 9-10:50am ET
