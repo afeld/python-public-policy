@@ -42,6 +42,6 @@ assignees: afeld
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
-  - [ ] [Fill out access form](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/campus-visitors.html#sponsoring-visitors)
+  - [ ] [Fill out access form](https://www.nyu.edu/about/visitor-information/sponsoring-visitors.html)
   - [ ] Update lecture 6
 - [ ] Update course evaluation link in Lecture 6
