@@ -86,7 +86,7 @@ Note: In-class exercises will not be graded.
 
 ### Disk full
 
-If you get an error of `Disk is full` / `No space left on device`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
+If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
 1. Go to start your server again (visit [JupyterHub](https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu)).
