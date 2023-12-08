@@ -33,8 +33,8 @@
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
 - **Readers:**
-  - Leigh Mante, lom2112@columbia.edu
-  - Sebastian Espinosa, sme2140@columbia.edu
+  - Section 1: Sebastian Espinosa, sme2140@columbia.edu
+  - Section 2: Leigh Mante, lom2112@columbia.edu
 - **Office Hours:**
   - Mondays 2:30-3pm ET over [Zoom](https://columbiauniversity.zoom.us/j/93706020529?pwd=MDF6bE9NaXl2WGtNYkVzVSszZ1dGQT09), no appointment necessary
   - Other times by appointment; email the instructor
