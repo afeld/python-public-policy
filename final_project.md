@@ -56,7 +56,7 @@ If you answer the first question easily, that's fine; dig into / build off of it
 
 ## Submission
 
-- **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
+- **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
 - Please try to preserve anonymity.
   - Keep your name/username out of the notebook title, text cells, file paths, etc.
   - Hold off on responding to comments on your notebook before you get your Project grade.
