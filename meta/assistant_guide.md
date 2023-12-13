@@ -186,8 +186,8 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 1. Open each submission.
 {% if school_slug == "nyu" -%}
 1. For similarity scores over 20%, look at the [report](https://help.turnitin.com/feedback-studio/lti/instructor/instructor-category.htm#the-similarity-report).
-  - Matches in data output can be ignored.
-  - If it seems like there may be instances of [plagiarism](../syllabus.md#class-policies) or you're not sure, let the instructor know.
+   - Matches in data output can be ignored.
+   - If it seems like there may be instances of [plagiarism](../syllabus.md#class-policies) or you're not sure, let the instructor know.
 {% endif -%}
 1. Calculate the median of the scores from the peers, using that as the final grade.
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
