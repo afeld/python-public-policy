@@ -137,7 +137,7 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
   > Your question is good, but you'll probably be able to answer it in relatively few lines of code. Think about what your follow-up question(s) will be.
 
-#### Peer review
+#### Grading
 
 [The Final Projects themselves are peer graded.](../final_project/peer_grading.md)  Once the peer review deadline passes:
 
