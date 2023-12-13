@@ -39,6 +39,8 @@ In addition to the applicable [general assignment requirements](syllabus.md#assi
 - **Use pandas** - 15 points
 - **Not be trivial** - 35 points - requiring:
   - At least 40 lines of code to come to a conclusion
+    - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
+    - If you meet all the other requirements, you will likely be well over this number.
     - [How to count them automaticaly](final_project/resources.md#counting-lines-of-code)
   - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
   - Operations that aren't easily done in a spreadsheet.

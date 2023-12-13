@@ -6,6 +6,8 @@
    - Use at least one dataset that you aren't familiar with.
      - Using data from a primary source is preferred.
    - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
+1. If necessary, [upload the data](../assignments.md#storing-data).
+1. Load the data into a DataFrame.
 1. Inspect the data a bit.
 1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
    - If you aren't sure, ask.
@@ -20,7 +22,7 @@ If the proposal shows effort and follows the format below, full credit will be g
   - Please include link(s).
 - **What's the question you are trying to answer?**
   - It should be _specific, and objectively answerable_ through the data available.
-- **What columns of the dataset(s) are you going to use to answer that?**
+- **What columns of the DataFrame(s) are you going to use to answer that?**
 - If you're using multiple datasets: **What columns are you going to merge/join them on?**
 - **What's your hypothesis?**
 
