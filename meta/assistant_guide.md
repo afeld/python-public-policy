@@ -117,12 +117,15 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
   > Your question is good, but you'll probably be able to answer it in relatively few lines of code. Think about what your follow-up question(s) will be.
 
-#### Peer review
+#### Grading
 
 [The Final Projects themselves are peer graded.](../final_project/peer_grading.md) We're using [PeerMark](https://www.nyu.edu/servicelink/KB0018477) to facilitate the peer grading. Once the peer review deadline passes:
 
 
 1. Open each submission.
+1. For similarity scores over 20%, look at the [report](https://help.turnitin.com/feedback-studio/lti/instructor/instructor-category.htm#the-similarity-report).
+  - Matches in data output can be ignored.
+  - If it seems like there may be instances of [plagiarism](../syllabus.md#class-policies) or you're not sure, let the instructor know.
 1. Calculate the median of the scores from the peers, using that as the final grade.
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
 
