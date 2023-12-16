@@ -17,8 +17,8 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
 {%- endif %}
 1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
-   - Explain what points are being deducted for what.
-   - State the final score in the comment area.
+1. Explain what points are being deducted for what.
+1. State the final score in the comment area.
 
 ## Notes for reviewers
 
