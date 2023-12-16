@@ -74,18 +74,18 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Lecture | Date  | Topic                           | Homework due                                               | Late/[resubmission](#resubmission) deadline                |
-| ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [0][l0] | 10/25 | Intro to coding                 | pre-class TODOs                                            |                                                            |
-| [1][l1] | 11/1  | Working with data               | [Homework 0][hw0]                                          |                                                            |
-| [2][l2] | 11/8  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| [3][l3] | 11/15 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| none    | 11/22 | none                            |                                                            |                                                            |
-| [4][l4] | 11/29 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| [5][l5] | 12/6  | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| [6][l6] | 12/13 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| none    | 12/16 | none                            | none                                                       | [Final Project][final]                                     |
-| none    | 12/20 | none                            | [Final Project peer grading][final-peer]                   |                                                            |
+| Lecture | Date  | Topic                           | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| [0][l0] | 10/25 | Intro to coding                 | pre-class TODOs                                            |                                                                    |
+| [1][l1] | 11/1  | Working with data               | [Homework 0][hw0]                                          |                                                                    |
+| [2][l2] | 11/8  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| [3][l3] | 11/15 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| none    | 11/22 | none                            |                                                            |                                                                    |
+| [4][l4] | 11/29 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| [5][l5] | 12/6  | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| [6][l6] | 12/13 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| none    | 12/16 | none                            | none                                                       | [Final Project][final]                                             |
+| none    | 12/20 | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
 
 [l0]: https://python-public-policy.afeld.me/en/nyu/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/nyu/lecture_1.html
