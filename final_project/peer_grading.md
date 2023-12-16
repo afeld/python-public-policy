@@ -10,8 +10,8 @@ If you disagree with the grade, you can appeal by [emailing the instructor and g
 1. Go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088), then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
 1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
-   - Explain what points are being deducted for what.
-   - State the final score in the comment area.
+1. Explain what points are being deducted for what.
+1. State the final score in the comment area.
 
 ## Notes for reviewers
 
