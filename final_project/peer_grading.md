@@ -13,8 +13,8 @@ If you disagree with the grade, you can appeal by [emailing the instructor and R
 1. Leave substantive feedback as a comment/attachment in the CourseWorks Assignment peer review area.
 
 1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
-   - Explain what points are being deducted for what.
-   - State the final score in the comment area.
+1. Explain what points are being deducted for what.
+1. State the final score in the comment area.
 
 ## Notes for reviewers
 
