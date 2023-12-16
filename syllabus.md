@@ -77,7 +77,7 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Lecture | Date | Topic                           | Homework due                                               | Late submission deadline                                   |
+| Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
 | ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | [0][l0] | 1/16 | Intro to coding                 | pre-class TODOs                                            |                                                            |
 | [1][l1] | 1/23 | Working with data               | [Homework 0][hw0]                                          |                                                            |
