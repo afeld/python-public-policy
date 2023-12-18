@@ -71,7 +71,7 @@ jobs:
         run: gem install html-proofer
 
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.school }}
           path: _build/html
