@@ -93,7 +93,15 @@ We use [a cloud-based Jupyter environment ({{coding_env_name}})](lecture_0.ipynb
 {% if id == "columbia" -%}
 Some additional options for running Jupyter:
 {% else -%}
-After this class, however, you'll no longer have access. Some options for running Jupyter on your own:
+After this class, however, you'll no longer have access. To download the files:
+
+1. Open a notebook
+1. In a code cell, run `!tar -czvf ~/python_files.tar.gz ~`
+1. From [the file browser](https://padmgp-4506.rcnyu.org/user-redirect/tree), check the box next to `python_files.tar.gz`, then click `Download`
+1. On your computer, unzip the file.
+   - On Windows, you may need to install [7-Zip](https://www.7-zip.org/) to do so.
+
+Some options for running Jupyter on your own:
 
 - [Google Colab](https://colab.research.google.com/)
 {% endif -%}
