@@ -13,6 +13,8 @@ options = {
   ignore_urls: [
     %r{^_static/images/logo_},
     %r{^https://vergil\.registrar\.columbia\.edu/#},
+    # gives a 400
+    %r{^https://twitter\.com/},
     # give 403s for some reason
     %r{^https://support\.zoom\.us/},
     %r{^https://support\.socrata\.com/},
