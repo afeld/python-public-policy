@@ -7,6 +7,7 @@
 - [RealPython](https://realpython.com/tutorials/all/)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [Crash Course Computer Science](https://thecrashcourse.com/topic/computerscience/)
+- [Python for MBAs](https://clio.columbia.edu/catalog/15536430) "and those in business roles that include coding or working with coding teams"
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
