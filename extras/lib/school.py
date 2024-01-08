@@ -30,6 +30,7 @@ class SchoolText:
     wait_list: str
     auditing: str
     assignment_cutoff_name: str
+    python_for_mbas: str
     words: List[str]
 
 
@@ -56,6 +57,7 @@ SCHOOLS = [
         wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
         auditing="https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq",
         assignment_cutoff_name="`Until` date",
+        python_for_mbas="https://clio.columbia.edu/catalog/15536430",
         words=[
             "canvaslms",
             "colab",
@@ -93,6 +95,7 @@ SCHOOLS = [
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
         auditing="https://wagner.nyu.edu/portal/students/academics/registration/auditing",
         assignment_cutoff_name="`End Date`",
+        python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
         words=[
             "amisa",
             "bonus",
