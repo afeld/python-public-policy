@@ -23,7 +23,7 @@
 - **Class Meeting Times:** Tuesdays 1/16-2/27
   - Section 1: 9-10:50am ET
   - Section 2: 11-12:50pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room to be determined
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet with a full keyboard is ok

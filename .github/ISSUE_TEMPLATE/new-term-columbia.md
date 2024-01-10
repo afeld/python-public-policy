@@ -12,7 +12,7 @@ assignees: afeld
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] CourseWorks link
-- [ ] Find Reader
+- [ ] Find Readers
   - [ ] Update [job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
   - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/assistant_guide.html)
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
@@ -26,6 +26,7 @@ assignees: afeld
     - [ ] Send welcome Announcement
     - [ ] Schedule sending solutions
   - [ ] Set up recurring Zoom
+  - [ ] Specify Textbooks
 - [ ] Bring the first day
   - [ ] A/V keys
   - [ ] Laptop stand
