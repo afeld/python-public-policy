@@ -32,6 +32,14 @@ assignees: afeld
   - [ ] Laptop stand
   - [ ] Power strips
   - [ ] Extension cord
+  - [ ] PB&J supplies
+    - [ ] Sunflower butter
+    - [ ] Jelly
+    - [ ] Bread
+    - [ ] Knife
+    - [ ] Paper towels
+    - [ ] Silicone mat
+    - [ ] Wet wipes
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
