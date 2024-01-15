@@ -291,7 +291,9 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Auditing
 
-See the [school policies]({{auditing}}). To receive R-credit, every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
+See the [school policies]({{auditing}}). If there's a [wait list](joining_late.md#wait-list), priority for spots in the class will be given to students taking the class for credit.
+
+To receive [R-credit]({{r_credit}}), every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
 
 ### Sharing
 

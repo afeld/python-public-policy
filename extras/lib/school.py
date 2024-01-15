@@ -29,6 +29,7 @@ class SchoolText:
     assistant_responsibilities: str
     wait_list: str
     auditing: str
+    r_credit: str
     assignment_cutoff_name: str
     python_for_mbas: str
     words: List[str]
@@ -56,6 +57,7 @@ SCHOOLS = [
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
         auditing="https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq",
+        r_credit="https://www.registrar.columbia.edu/content/grade-options#auditing",
         assignment_cutoff_name="`Until` date",
         python_for_mbas="https://clio.columbia.edu/catalog/15536430",
         words=[
@@ -94,6 +96,7 @@ SCHOOLS = [
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
         auditing="https://wagner.nyu.edu/portal/students/academics/registration/auditing",
+        r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
         assignment_cutoff_name="`End Date`",
         python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
         words=[
