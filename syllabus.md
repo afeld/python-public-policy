@@ -226,9 +226,9 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Auditing
 
-See the [school policies](https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq). If there's a [wait list](joining_late.md#wait-list), priority for spots in the class will be given to students taking the class for credit.
+See the [school policies](https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq). If there's a [wait list](joining_late.md#wait-list), priority for spots in the class will be given to students taking it for credit.
 
-To receive [R-credit](https://www.registrar.columbia.edu/content/grade-options#auditing), every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
+Once registered: To receive [R-credit](https://www.registrar.columbia.edu/content/grade-options#auditing), every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
 
 ### Sharing
 
