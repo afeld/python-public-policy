@@ -79,7 +79,7 @@ By the end of the course, students will know:
 
 | Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
 | ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [0][l0] | 1/16 | Intro to coding                 | pre-class TODOs                                            |                                                            |
+| [0][l0] | 1/16 | Intro to coding                 | none                                                       |                                                            |
 | [1][l1] | 1/23 | Working with data               | [Homework 0][hw0]                                          |                                                            |
 | [2][l2] | 1/30 | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
 | [3][l3] | 2/6  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
