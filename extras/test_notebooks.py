@@ -187,11 +187,9 @@ def test_num_slides(file):
     num_nyu = num_slides(nyu)
     assert num_nyu <= 51, "Too many slides for NYU"
 
-    # there's more Homework 0 content for Columbia, so ok to have fewer slides
-    if file != "lecture_0.ipynb":
-        assert (
-            num_nyu <= num_columbia
-        ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
+    assert (
+        num_nyu <= num_columbia
+    ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
 
 
 hw_notebooks = glob("hw_*.ipynb")
