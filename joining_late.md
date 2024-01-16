@@ -14,7 +14,7 @@ There is often a wait list for this course.
 
 ### While you're waiting
 
-- Attend class.
+- [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including past lectures.
    - You won't be able to access [CourseWorks](https://courseworks2.columbia.edu/courses/187089) or the [Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless).
 - [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
