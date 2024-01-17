@@ -112,12 +112,6 @@ In general, assignments are due at the time class starts. These will all be refl
 
 Everyone is expected to attend class in-person; see the [class policies](#class-policies). That said, recordings of the lectures are made available for reference purposes.
 
-
-Lecture 1: See [Announcement](https://edstem.org/us/courses/42026/discussion/3438258)
-
-Other lectures:
-
-
 1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/187089)
 1. Go to `Zoom` in the navigation
 1. Click `Cloud Recordings`
