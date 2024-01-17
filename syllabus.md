@@ -110,8 +110,6 @@ In general, assignments and resubmissions are due at the time class starts. Thes
 
 Everyone is expected to attend class in-person; see the [class policies](#class-policies). That said, recordings of the lectures are made available for reference purposes.
 
-
-
 1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/297088)
 1. Go to `Zoom` in the navigation
 1. Click `Cloud Recordings`
