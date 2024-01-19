@@ -20,7 +20,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and R
 
 - Your feedback should include what they did well, as well as what they could do more clearly/simply/etc.
 - The feedback should be constructive; don't be a jerk.
-- Points should only be deducted based on the [requirements](../final_project.md#analysis-requirements). A "this could be done better/differently" comment doesn't _necessarily_ need to have a corresponding point deduction.
+- Points should only be deducted based on the [requirements](../final_project.md#analysis-requirements). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 - You are _not_ expected to run any of their code. The notebook should be graded as-is.
 - While there are ways to find who owns a notebook on Colab, please avoid doing so.
 - "Changes cannot be saved" doesn't apply to comments.

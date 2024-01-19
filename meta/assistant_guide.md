@@ -6,6 +6,7 @@ _While the Reader is the intended audience here, others are welcome to read it._
 
 - [Responsibilities section of the job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz)
 - [Schedule](../syllabus.md#schedule)
+- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 - In grading/Discussions:
   - We want to try giving students _just enough_ hints to figure it out without giving them the answer.
     - If they seem totally lost, direct them to [office hours](../syllabus.md#instructor-information).
