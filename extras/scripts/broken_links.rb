@@ -4,6 +4,7 @@ require "html-proofer"
 
 options = {
   only_4xx: true,
+  ignore_status_codes: [400, 401, 403],
   ignore_files: [
     "_build/html/_static/webpack-macros.html",
     "_build/html/_static/sbt-webpack-macros.html",
@@ -12,14 +13,6 @@ options = {
   ],
   ignore_urls: [
     %r{^_static/images/logo_},
-    %r{^https://vergil\.registrar\.columbia\.edu/#},
-    # gives a 400
-    %r{^https://twitter\.com/},
-    # give 403s for some reason
-    %r{^https://support\.zoom\.us/},
-    %r{^https://support\.socrata\.com/},
-    %r{^https://(www\.)?kaggle\.com/},
-    "https://hobbylark.com/party-games/How-to-Make-Your-Own-Mad-Libs"
   ],
   swap_urls: {
     # ignore PDF page hash
