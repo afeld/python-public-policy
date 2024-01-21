@@ -53,7 +53,7 @@ Weeks start/end at the beginning of each class.
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   - On-call schedule:
     - Sebastian: Monday-Wednesday
-    - Edmond: Thursday-Sunday
+    - Leigh: Thursday-Sunday
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
