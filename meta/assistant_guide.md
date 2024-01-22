@@ -6,7 +6,6 @@ _While the Reader is the intended audience here, others are welcome to read it._
 
 - [Responsibilities section of the job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz)
 - [Schedule](../syllabus.md#schedule)
-- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 - In grading/Discussions:
   - We want to try giving students _just enough_ hints to figure it out without giving them the answer.
     - If they seem totally lost, direct them to [office hours](../syllabus.md#instructor-information).
@@ -27,10 +26,8 @@ Weeks start/end at the beginning of each class.
 
 - Attending class
 - Grading assignment submissions and releasing grades for your section
-  - Feel free to grade things as they come in
-  - [Info about anonymous grading](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769)
-
-### [Between-class participation](../syllabus.md#participation) tracking
+  - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
+  ### [Between-class participation](../syllabus.md#participation) tracking
 
 ... for students in your section.
 
@@ -84,6 +81,11 @@ Weeks start/end at the beginning of each class.
 - Solutions folder will be shared with you from Google Drive
   - [Instructor will share them with students](../assignments.md#submission) via scheduled Announcements
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+
+### Grading
+
+- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
+- [Info about anonymous grading](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769)
 
 ### Checks
 
