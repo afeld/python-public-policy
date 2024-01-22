@@ -43,7 +43,7 @@ All the lectures and assignment templates are available for download through thi
   - There is an instructor to answer questions, both during and between lectures
   - You get feedback on your assignments
   - You have peers you can work with
-- You invest money and are expected to show up to class and turn in assignments on time, which [makes it far more likely you will complete it](https://mashable.com/2014/12/16/warning-college-may-be-a-waste-of-your-time-and-money/)
+- You invest money and are expected to show up to class and turn in assignments on time, which [makes it far more likely you will complete it](https://mashable.com/archive/warning-college-may-be-a-waste-of-your-time-and-money)
 
 ## Testimonials
 
