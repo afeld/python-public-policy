@@ -6,7 +6,6 @@ _While the grader is the intended audience here, others are welcome to read it._
 
 - [Responsibilities section of the job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz)
 - [Schedule](../syllabus.md#schedule)
-- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 - In grading/Discussions:
   - We want to try giving students _just enough_ hints to figure it out without giving them the answer.
     - If they seem totally lost, direct them to [office hours](../syllabus.md#instructor-information).
@@ -25,11 +24,9 @@ _While the grader is the intended audience here, others are welcome to read it._
 Weeks start/end at the beginning of each class.
 
 - Grading assignment submissions and resubmissions and releasing grades for your section
-  - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
-  - [Info about anonymous grading](https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm)
-
-### [Between-class participation](../syllabus.md#participation) tracking
+  - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
+  ### [Between-class participation](../syllabus.md#participation) tracking
 
 
 
@@ -69,6 +66,11 @@ Weeks start/end at the beginning of each class.
   - [Instructor will share them with students](../assignments.md#submission) via JupyterHub
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
 - Grader will manually apply [late penalty](../syllabus.md#assignment-scoring)
+
+### Grading
+
+- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
+- [Info about anonymous grading](https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm)
 
 ### Checks
 
