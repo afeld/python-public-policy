@@ -6,7 +6,6 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
 
 - [Responsibilities section of the job post]({{assistant_responsibilities}})
 - [Schedule](../syllabus.md#schedule)
-- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 - In grading/Discussions:
   - We want to try giving students _just enough_ hints to figure it out without giving them the answer.
     - If they seem totally lost, direct them to [office hours](../syllabus.md#instructor-information).
@@ -34,11 +33,12 @@ Weeks start/end at the beginning of each class.
 - Attending class
 {% endif -%}
 - Grading assignment submissions{% if id == 'nyu' %} and resubmissions{% endif %} and releasing grades for your section
-  {% if id == 'nyu' -%}
+  {% if id == 'columbia' -%}
+  - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
+  {% else -%}
+  - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
   {% endif -%}
-  - Feel free to grade things as they come in{% if id == 'nyu' %}, in the order received, to give those students more time for resubmission{% endif %}
-  - [Info about anonymous grading]({{lms_anonymous_docs}})
 
 ### [Between-class participation](../syllabus.md#participation) tracking
 
@@ -115,6 +115,11 @@ Weeks start/end at the beginning of each class.
 {%- if id == 'nyu' %}
 - {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)
 {%- endif %}
+
+### Grading
+
+- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
+- [Info about anonymous grading]({{lms_anonymous_docs}})
 
 ### Checks
 
