@@ -7,7 +7,8 @@
 
 To edit/execute a Homework/lecture notebook:
 
-1. Open the Homework page on this site.
+1. Open the page for the Homework/Lecture on this site.
+   - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
 1. You should now see the notebook in Google Colab.
 1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
