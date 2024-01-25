@@ -21,6 +21,8 @@ There is often a wait list for this course.
 
 ## Once you join
 
+This is a short class that moves quickly, so depending on how much you missed, you may have to hustle to catch up. If you're willing and able to put in the time and do so quickly, it's doable.
+
 If you're coming off the wait list or registering for the course after the first lecture:
 
 {% if school_slug == "columbia" %}
