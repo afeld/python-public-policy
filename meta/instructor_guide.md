@@ -103,7 +103,7 @@ This only shows students coming off the wait list.
 1. Visit [SSOL](https://ssol.columbia.edu)
 1. View the Wait List Activity
 1. Open the Console
-1. Paste [the script](../extras/scripts/ssol.js)
+1. Paste [the script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/ssol.js)
 1. Do the same for the other section(s)
 
 ## Updating the curve
