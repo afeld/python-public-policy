@@ -48,7 +48,7 @@ jobs:
         run: git push origin ${{ matrix.school }}
         if: github.ref_name == 'main'
       - name: Store rendered HTML for link checking
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.school }}
           path: _build/html
