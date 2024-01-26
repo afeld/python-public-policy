@@ -28,6 +28,7 @@ assignees: afeld
     - [ ] Schedule sending solutions
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
+  - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity)
 - [ ] Bring the first day
   - [ ] A/V keys
   - [ ] Laptop stand
@@ -41,6 +42,7 @@ assignees: afeld
     - [ ] Paper towels
     - [ ] Silicone mat
     - [ ] Wet wipes
+- [ ] A couple weeks in: do a quality check on Assignments and Discussions
 - [ ] Find guest(s)
   - [ ] Confirm order
   - [ ] Get bio(s)
@@ -49,3 +51,4 @@ assignees: afeld
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
   - [ ] Submit for reimbursement
+- [ ] Update curve
