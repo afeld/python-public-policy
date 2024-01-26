@@ -50,7 +50,7 @@ You can make data smaller _before_ uploading by filtering it through:
    - This is a good time to run the notebook end-to-end with `Restart and run all`.
    - See [general scoring criteria](syllabus.md#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
-1. [Share your notebook](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.md#instructor-information) with `Commenter` permissions.
+1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Drop the link to the Colab notebook in the CourseWorks Assignment.
 
 Engaging with comments left in Google Colab is more than welcome. After [the late submission deadline](syllabus.md#schedule) for a given Homework passes, the solution will be shared.
