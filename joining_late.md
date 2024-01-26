@@ -12,7 +12,9 @@ There is often a wait list for this course.
    - This class is offered every Fall and Spring
    - [There are a lot of other ways to learn Python](resources.md)
 
-### While you're waiting
+## While you're waiting
+
+If you're not officially registered for the course but want to be, due to being wait-listed or having a registration issue:
 
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including past lectures.
