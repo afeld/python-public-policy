@@ -12,8 +12,7 @@ To edit/execute a Homework/lecture notebook:
 1. Click the launch button (🚀) at the top.
 1. You should now see the notebook in Google Colab.
 1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
-1. Save a copy to your Google Drive.
-- [Google Colab walkthrough](https://columbiauniversity.zoom.us/rec/play/TfO3SbhRcAOSYoOc-HD7M_4d8cMQoAJCrcyJMIuUxfX1k7oX-txkCejsFLKxzrDn17aHDrlmWZumgS43.-J8dPQthf7yG1Iqx)
+1. Click `Copy to Drive`.
 ## Tips
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
@@ -51,7 +50,9 @@ You can make data smaller _before_ uploading by filtering it through:
    - See [general scoring criteria](syllabus.md#assignment-scoring).
 1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
-1. Drop the link to the Colab notebook in the CourseWorks Assignment.
+1. Copy the URL of your notebook.
+   - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
+1. Paste your notebook URL in the CourseWorks Assignment.
 
 Engaging with comments left in Google Colab is more than welcome. After [the late submission deadline](syllabus.md#schedule) for a given Homework passes, the solution will be shared.
 
