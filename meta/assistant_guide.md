@@ -84,8 +84,7 @@ Weeks start/end at the beginning of each class.
 
 ### Grading
 
-- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
-- [Info about anonymous grading](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769)
+When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 
 ### Checks
 
@@ -99,7 +98,6 @@ The following should be true for each Assignment:
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
 
-- [ ] [Anonymous grading](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769)
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] `Until` date
