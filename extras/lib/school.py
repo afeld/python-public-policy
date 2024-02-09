@@ -17,7 +17,6 @@ class SchoolText:
     course_name: str
     lms_name: str
     lms_url: str
-    lms_anonymous_docs: str
     discussions_url: str
     survey_url: str
     name_tool_url: str
@@ -47,7 +46,6 @@ SCHOOLS = [
         course_name="Python for Public Policy",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/187089",
-        lms_anonymous_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-an-assignment-that-includes-anonymous-grading/ta-p/769",
         discussions_url="https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless",
         survey_url="https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless",
         name_tool_url="https://courseworks2.columbia.edu/courses/187089/external_tools/39295",
@@ -88,7 +86,6 @@ SCHOOLS = [
         course_name="Python Coding for Public Policy",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/297088",
-        lms_anonymous_docs="https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm",
         discussions_url="https://brightspace.nyu.edu/d2l/le/297088/discussions/List",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSe2xspsuAXDTjdFL9fSdC6yZNEnGXuyPt0Yg4YWjWpHRw1CMw/viewform?usp=sf_link",
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",

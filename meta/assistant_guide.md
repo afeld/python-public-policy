@@ -69,8 +69,7 @@ Weeks start/end at the beginning of each class.
 
 ### Grading
 
-- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
-- [Info about anonymous grading](https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm)
+When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 
 ### Checks
 
@@ -84,7 +83,6 @@ The following should be true for each Assignment:
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
 - Final Project Proposal is a Discussion
-- [ ] [Anonymous grading](https://documentation.brightspace.com/EN/le/assignments/instructor/about_anonymous_marking.htm)
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] `End Date`

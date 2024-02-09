@@ -48,7 +48,6 @@ You can make data smaller _before_ uploading by filtering it through:
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - This is a good time to run the notebook end-to-end with `Restart and run all` (⏩).
    - See [general scoring criteria](syllabus.md#assignment-scoring).
-1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
    1. `Download as`
