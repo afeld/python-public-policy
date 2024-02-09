@@ -4,7 +4,7 @@ require "html-proofer"
 
 options = {
   only_4xx: true,
-  ignore_status_codes: [400, 401, 403],
+  ignore_status_codes: [400, 401, 403, 429],
   ignore_files: [
     "_build/html/_static/webpack-macros.html",
     "_build/html/_static/sbt-webpack-macros.html",
