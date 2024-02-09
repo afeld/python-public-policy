@@ -67,7 +67,6 @@ You can make data smaller _before_ uploading by filtering it through:
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - This is a good time to run the notebook end-to-end with `Restart and run all`{% if id == 'nyu' %} (⏩){% endif %}.
    - See [general scoring criteria](syllabus.md#assignment-scoring).
-1. Leave your name off the notebook filename and the notebook itself, as assignments are graded anonymously.
 {% if id == 'columbia' -%}
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.

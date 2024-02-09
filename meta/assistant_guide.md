@@ -118,8 +118,7 @@ Weeks start/end at the beginning of each class.
 
 ### Grading
 
-- When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
-- [Info about anonymous grading]({{lms_anonymous_docs}})
+When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 
 ### Checks
 
@@ -135,7 +134,6 @@ The following should be true for each Assignment:
 {% if school_slug == "nyu" -%}
     - Final Project Proposal is a Discussion
 {%- endif %}
-- [ ] [Anonymous grading]({{lms_anonymous_docs}})
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] {{assignment_cutoff_name}}
