@@ -43,7 +43,7 @@ assignees: afeld
     - [ ] Silicone mat
     - [ ] Wet wipes
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions
-- [ ] Find guest(s)
+- [ ] [Find guest(s)](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
   - [ ] Confirm order
   - [ ] Get bio(s)
   - [ ] Update lecture 6
