@@ -43,7 +43,7 @@ assignees: afeld
     - [ ] Silicone mat
     - [ ] Wet wipes
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions
-- [ ] Find guest(s)
+- [ ] [Find guest(s)](https://python-public-policy.afeld.me/en/columbia/meta/guest_speakers.html)
   - [ ] Confirm order
   - [ ] Get bio(s)
   - [ ] Update lecture 6
