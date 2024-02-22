@@ -53,10 +53,16 @@ If the proposal shows effort and follows the format below, full credit will be g
 
 What's wrong with this proposal?
 
----
+## Question your question
 
 Even the question can bake in assumptions. For example:
 
 > What ZIP code has the highest number of food poisoning cases?
 
 assumes a relationship between food-borne illness and geography. What assumptions does your question make?
+
+## Changing your proposal
+
+You may change your dataset/question after your proposal was submitted, but unless directed to do so, it's not recommended. [The purpose of the Final Project](../final_project.md) is to get practice doing data analysis through code … the dataset and research question are a means to that end. The hope is that you're getting into the analysis sooner than later, rather than being stuck picking the perfect dataset/question.
+
+If you do decide to change them, be very sure they meet the requirements/tips above.
