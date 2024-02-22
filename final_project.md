@@ -1,8 +1,6 @@
 # Final Project
 
-- Open-ended
-  - Be creative, and just the right amount of ambitious
-- **Goal:** Prove or disprove a hypothesis using skills learned in this class
+The goal of the Final Project is to **prove or disprove a hypothesis using skills learned in this class, and demonstrate understanding of those techniques through explaining them to others**. It's open-ended — you decide what you're investigating. We're looking for you to be creative, and _just the right amount_ of ambitious.
 
 ## Proposal
 
