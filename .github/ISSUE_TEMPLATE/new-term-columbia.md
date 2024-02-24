@@ -42,6 +42,7 @@ assignees: afeld
     - [ ] Paper towels
     - [ ] Silicone mat
     - [ ] Wet wipes
+- [ ] Update [Gmail filters](https://docs.google.com/spreadsheets/d/1MoOnADGw_A3oc1qMx2TllbRHlRD-4dDcrHXldSdzM5E/edit#gid=1645501691)
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions
 - [ ] [Find guest(s)](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
   - [ ] Confirm order
