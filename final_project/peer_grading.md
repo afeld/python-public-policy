@@ -9,7 +9,9 @@ If you disagree with the grade, you can appeal by [emailing the instructor and R
 1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/187089).
 1. Go to Assignments, then `Final Project`.
    - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
-   - If you're unable to access the notebooks, make sure you're signed into Google with your Columbia account, and using that to try and access them. See [these instructions](https://support.google.com/docs/answer/6211862).
+   - If you're unable to access the notebooks, try:
+      - Removing `authuser=<number>` from the URL, if it contains it
+      - Accessing in a browser / [incognito window](https://support.google.com/chrome/answer/95464) where you're only signed into your LionMail account, no other Google accounts.
 1. Leave substantive feedback as a comment/attachment in the CourseWorks Assignment peer review area.
 
 1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
