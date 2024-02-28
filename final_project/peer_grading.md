@@ -10,7 +10,9 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 {% if school_slug == "columbia" -%}
 1. Go to Assignments, then `Final Project`.
    - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
-   - If you're unable to access the notebooks, make sure you're signed into Google with your Columbia account, and using that to try and access them. See [these instructions](https://support.google.com/docs/answer/6211862).
+   - If you're unable to access the notebooks, try:
+      - Removing `authuser=<number>` from the URL, if it contains it
+      - Accessing in a browser / [incognito window](https://support.google.com/chrome/answer/95464) where you're only signed into your LionMail account, no other Google accounts.
 1. Leave substantive feedback as a comment/attachment in the {{lms_name}} Assignment peer review area.
 {% else -%}
 1. Go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088), then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
