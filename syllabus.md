@@ -108,33 +108,20 @@ In general, assignments are due at the time class starts. These will all be refl
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/Reader will try to respond within 24 hours, 48 hours max, if someone else hasn't aleady.
 
-### Class recordings
-
-Everyone is expected to attend class in-person; see the [class policies](#class-policies). That said, recordings of the lectures are made available for reference purposes.
-
-1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/187089)
-1. Go to `Zoom` in the navigation
-1. Click `Cloud Recordings`
-
-Some caveats:
-
-- Recordings are made on a best-effort basis; they are not guaranteed.
-- The course is designed for the in-room experience.
-- Office hours will not be recorded.
-
 ## Assignments and Evaluation
 
 The Course Grade is based on the following:
 
 - [Assignments](#assignment-scoring): 70%
-  - [Homework 0][hw0]: 14%
-  - [Homework 1][hw1]: 14%
-  - [Homework 2][hw2]: 14%
-  - [Homework 3][hw3]: 7%
-  - [Final Project proposal][final_prop]: 7%
-  - [Homework 4][hw4]: 14%
+  - [Homework 0][hw0]: 13%
+  - [Homework 1][hw1]: 13%
+  - [Homework 2][hw2]: 13%
+  - [Homework 3][hw3]: 6%
+  - [Final Project proposal][final_prop]: 6%
+  - [Homework 4][hw4]: 13%
 - [Final Project][final]: 20%
 - [Final Project peer grading][final-peer]: 5%
+- [Attendance](#attendance): 6%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: https://python-public-policy.afeld.me/en/columbia/hw_0.html
@@ -216,7 +203,16 @@ Letter grades for the entire course will be assigned as follows:
 ## Class Policies
 
 - All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/columbia/assignments.html).
-- Attendance is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you are ill, injured, or have unexpected travel, please [watch the recording](#class-recordings).
+
+### Attendance
+
+Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
+
+Missing class counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. Missing more than 20 minutes of a class session will be treated as an absence. The first absence is treated as a "freebie", each subsequent absence will result in a 1% deduction from the overall grade.
+
+If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
+
+You are responsible for getting caught up on what was covered in class. You may want to ask a classmate for notes.
 
 ### Auditing
 

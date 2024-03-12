@@ -19,7 +19,6 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
 - [CourseWorks site](https://courseworks2.columbia.edu/courses/187089), which students will use for:
   - Submitting assignments
   - Viewing grades
-  - [Accessing class recordings](syllabus.md#class-recordings)
 - [Ed](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless), which is used for:
   - Accouncements
   - Discussions
