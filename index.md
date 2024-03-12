@@ -21,7 +21,6 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - Discussions
   - Submitting assignments
   - Viewing grades
-  - [Accessing class recordings](syllabus.md#class-recordings)
 - [JupyterHub](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu), where work will be completed
 
 ## Why this class?
