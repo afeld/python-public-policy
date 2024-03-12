@@ -69,6 +69,8 @@ Weeks start/end at the beginning of each class.
 
 ### Grading
 
+[How to grade in Brightspace](https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool)
+
 You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
 When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
 
