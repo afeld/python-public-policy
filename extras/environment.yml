@@ -6,13 +6,12 @@ dependencies:
   ## local development ##
   - black
   - nbqa
-  - nbclassic
-  - notebook=6.*
+  - notebook=7.*
 
   # extensions
   - jupyter-resource-usage
   - nb_conda_kernels
-  - RISE
+  - jupyterlab_rise
 
   ## packages imported directly in notebooks ##
   # match version in Colab returned by `!python --version`
@@ -24,7 +23,7 @@ dependencies:
   - pandas=1.5.3
   - plotly=5.15.0
   - requests=2.31.0
-  - statsmodels=0.14.0
+  - statsmodels=0.14.1
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
