@@ -11,9 +11,9 @@ chapters:
   - file: assignments
     title: Assignment info
   - file: resources
-  - url: "https://brightspace.nyu.edu/d2l/home/297088"
+  - url: "https://brightspace.nyu.edu/d2l/home/366164"
     title: "Brightspace"
-  - url: "https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu"
+  - url: "https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu"
     title: "JupyterHub"
   - file: lecture_0
     sections:

@@ -6,8 +6,8 @@ If you disagree with the grade, you can appeal by [emailing the instructor and g
 
 ## How to review
 
-1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/297088).
-1. Go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088), then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
+1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/366164).
+1. Go to [`Content`, then `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9977658). You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
    - Some students have reported issues when using Safari. If you're unable to access, try a different browser.
 1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
