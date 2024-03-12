@@ -22,6 +22,7 @@ class SchoolText:
     name_tool_url: str
     lms_profile_pic_url: str
     lms_notification_settings_url: str
+    lms_grading_docs: str
     lms_reorder_docs: str
     coding_env_name: str
     coding_env_url: str
@@ -51,6 +52,7 @@ SCHOOLS = [
         name_tool_url="https://courseworks2.columbia.edu/courses/187089/external_tools/39295",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
+        lms_grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
         lms_reorder_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-an-assignment/ta-p/1289",
         coding_env_name="Google Colab",
         coding_env_url="https://colab.research.google.com",
@@ -91,6 +93,7 @@ SCHOOLS = [
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=297088",
+        lms_grading_docs="https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool",
         lms_reorder_docs="https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories",
         coding_env_name="JupyterHub",
         coding_env_url="https://padmgp-4506.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu",
