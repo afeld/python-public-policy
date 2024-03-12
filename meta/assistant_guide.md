@@ -38,13 +38,11 @@ Weeks start/end at the beginning of each class.
   {% else -%}
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
-  {% endif -%}
+  {%- endif %}
 
 ### [Between-class participation](../syllabus.md#participation) tracking
 
-{% if school_slug == "columbia" -%}
-... for students in your section.
-{%- endif %}
+{% if school_slug == "columbia" %}... for students in your section.{% endif %}
 
 - We can be fairly forgiving/generous with what counts as completion
 - Every student should have each week marked one way or the other
