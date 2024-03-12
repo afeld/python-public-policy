@@ -26,7 +26,8 @@ Weeks start/end at the beginning of each class.
 - Grading assignment submissions and resubmissions and releasing grades for your section
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
-  ### [Between-class participation](../syllabus.md#participation) tracking
+
+### [Between-class participation](../syllabus.md#participation) tracking
 
 
 
