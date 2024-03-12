@@ -112,7 +112,7 @@ In general, assignments and resubmissions are due at the time class starts. Thes
 
 The Course Grade is based on the following:
 
-- [Assignments](#assignment-scoring): 70%
+- [Assignments](#assignment-scoring): 64%
   - [Homework 0][hw0]: 13%
   - [Homework 1][hw1]: 13%
   - [Homework 2][hw2]: 13%
