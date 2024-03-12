@@ -15,7 +15,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
       - Accessing in a browser / [incognito window](https://support.google.com/chrome/answer/95464) where you're only signed into your LionMail account, no other Google accounts.
 1. Leave substantive feedback as a comment/attachment in the {{lms_name}} Assignment peer review area.
 {% else -%}
-1. Go to [`Content`](https://brightspace.nyu.edu/d2l/le/lessons/297088), then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
+1. Go to [`Content`, then `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9977658). You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
    - Some students have reported issues when using Safari. If you're unable to access, try a different browser.
 {%- endif %}

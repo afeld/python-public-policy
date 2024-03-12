@@ -100,7 +100,7 @@ After this class, however, you'll no longer have access. To download the files:
 
 1. Open a notebook
 1. In a code cell, run `!tar -czvf ~/python_files.tar.gz ~`
-1. From [the file browser](https://padmgp-4506.rcnyu.org/user-redirect/tree), check the box next to `python_files.tar.gz`, then click `Download`
+1. From [the file browser](https://padm-4506-spring.rcnyu.org/user-redirect/tree), check the box next to `python_files.tar.gz`, then click `Download`
 1. On your computer, unzip the file.
    - On Windows, you may need to install [7-Zip](https://www.7-zip.org/) to do so.
 

@@ -8,7 +8,7 @@
 
 {% endif -%}
 
-# {{course_name}} - {% if id == "columbia" %}Spring 2024{% else %}Fall 2023{% endif %}
+# {{course_name}} - Spring 2024
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -53,8 +53,10 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Wednesdays 10/25-12/13 6:45-8:25pm ET, no class 11/22
-- **Class Location:** [Global Center for Academic and Spiritual Life (GCASL), 238 Thompson St](https://goo.gl/maps/5kM2NSLCS3HyvFcQ6), room 275
+- **Class Meeting Times:** Tuesdays 3/12-4/30
+  - Section 1: 4:55-6:35pm ET
+  - Section 2: 6:45-8:25pm ET
+- **Class Location:** [194 Mercer St.](https://maps.app.goo.gl/hKvJhPQh2zMEdN9d8), room 306A
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet with a full keyboard is ok
@@ -64,9 +66,9 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** Qiyu Feng, qf2051@nyu.edu
+- **Grader:** Harper Wang, hw3315@nyu.edu
 - **Office Hours:**
-  - Tuesdays 5-5:30pm ET over Zoom, no appointment necessary
+  - Mondays 5-5:30pm ET, no appointment necessary
   - Other times by appointment; email the instructor
 
 {% endif -%}
@@ -131,18 +133,18 @@ By the end of the course, students will know:
 
 {% else -%}
 
-| Lecture | Date  | Topic                           | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ------- | ----- | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| [0][l0] | 10/25 | Intro to coding                 | none                                                       |                                                                    |
-| [1][l1] | 11/1  | Working with data               | [Homework 0][hw0]                                          |                                                                    |
-| [2][l2] | 11/8  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| [3][l3] | 11/15 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| none    | 11/22 | none                            |                                                            |                                                                    |
-| [4][l4] | 11/29 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| [5][l5] | 12/6  | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| [6][l6] | 12/13 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| none    | 12/16 | none                            | none                                                       | [Final Project][final]                                             |
-| none    | 12/20 | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
+| Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| [0][l0] | 3/12 | Intro to coding                 | none                                                       |                                                                    |
+| none    | 3/19 | no class - Spring Break         | none                                                       | none                                                               |
+| [1][l1] | 3/26 | Working with data               | [Homework 0][hw0]                                          |                                                                    |
+| [2][l2] | 4/2  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| [3][l3] | 4/9  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| [4][l4] | 4/16 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| [5][l5] | 4/23 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| [6][l6] | 4/30 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| none    | 5/3  | none                            | none                                                       | [Final Project][final]                                             |
+| none    | 5/7  | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
 
 {% endif -%}
 
