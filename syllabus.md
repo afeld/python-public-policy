@@ -104,7 +104,7 @@ In general, assignments are due at the time class starts. These will all be refl
 - All assignments will be delivered through [the CourseWorks site](https://courseworks2.columbia.edu/courses/187089).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/Reader will try to respond within 24 hours, 48 hours max, if someone else hasn't aleady.
 
@@ -171,7 +171,7 @@ To encourage cosnsistent, deeper thought about the Assignments, relevance to the
 in either:
 
 - Office hours
-- [The Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless)
+- [Ed Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings](https://edstem.org/us/settings/notifications) to make sure you see conversations that come through
 - Email
