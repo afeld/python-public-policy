@@ -70,7 +70,6 @@ SCHOOLS = [
             "columbia",
             "courseworks",
             "daqa",
-            "ed discussion",
             "edstem",
             "leigh",
             "python for public policy",
