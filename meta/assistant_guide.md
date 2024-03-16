@@ -13,9 +13,8 @@ _While the Reader is the intended audience here, others are welcome to read it._
 - For students seeking one-on-one help, direct them to [office hours](../syllabus.md#instructor-information).
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
 - Notifications:
-  - You may want to tweak your [Discussion notification settings](https://edstem.org/us/settings/notifications).
-  - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
-- Keep an eye out for students who I should encourage to apply as a Reader next term. Things to look for:
+  - You may want to tweak your [Ed Discussion notification settings](https://edstem.org/us/settings/notifications).
+  - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).- Keep an eye out for students who I should encourage to apply as a Reader next term. Things to look for:
   - Being consistently helpful in the Discussions
   - Clean, well-documented solutions for the homeworks
   - Asking good questions
@@ -45,7 +44,7 @@ Weeks start/end at the beginning of each class.
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 
-### Discussions
+### [Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
