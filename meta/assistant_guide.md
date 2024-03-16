@@ -58,11 +58,9 @@ Weeks start/end at the beginning of each class.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 {%- endif %}
 
-### Discussions
+### [Discussions]({{discussions_url}})
 
-{% if school_slug == "columbia" -%}
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
-{% endif -%}
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   {% if school_slug == "columbia" -%}
@@ -74,10 +72,8 @@ Weeks start/end at the beginning of each class.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
 - Please give corrections/clarifications on student answers where necessary.
-{% if school_slug == "columbia" -%}
 - If posts have the wrong Category, are [a Question when they should be a Post](https://edstem.org/us/help/using-ed-discussion#creating-threads) or vice versa, please fix.
 - [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already
-{%- endif %}
 
 ### Check-in meeting
 
