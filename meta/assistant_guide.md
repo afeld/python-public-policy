@@ -34,6 +34,7 @@ Weeks start/end at the beginning of each class.
 - We can be fairly forgiving/generous with what counts as completion
 - Every student should have each week marked one way or the other
 - The instructor will mark participation for students that came to office hours
+- You can use the Analytics from Ed to help
 
 
 ### Discussions

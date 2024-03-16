@@ -37,6 +37,9 @@ dependencies:
   # necessary optional dependency for nbformat->jsonschema
   # https://python-jsonschema.readthedocs.io/en/stable/validate/#validating-formats
   - isoduration
+  # needed for plotly
+  # https://plotly.com/python/getting-started/#jupyterlab-support
+  - ipywidgets>=7.6
 
   ## CI ##
   - jinja2
