@@ -12,6 +12,9 @@ _While the grader is the intended audience here, others are welcome to read it._
   - Don't spend a _ton_ of time trying to figure out something that you don't understand; feel free to escalate to the instructor.
 - For students seeking one-on-one help, direct them to [office hours](../syllabus.md#instructor-information).
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
+- Notifications:
+  - You may want to tweak your [Ed Discussion notification settings](https://edstem.org/us/settings/notifications).
+  
 - Log hours for any time you put in related to this class, including any learning you're needing to do yourself to answer questions.
 - Subscribe to all the Discussion Topics so you get notified.
 - Keep an eye out for students who I should encourage to apply as a grader next term. Things to look for:
@@ -37,8 +40,9 @@ Weeks start/end at the beginning of each class.
 - You can use the Analytics from Ed to help
 
 
-### Discussions
+### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9996174)
 
+- [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   
@@ -46,7 +50,8 @@ Weeks start/end at the beginning of each class.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
 - Please give corrections/clarifications on student answers where necessary.
-
+- If posts have the wrong Category, are [a Question when they should be a Post](https://edstem.org/us/help/using-ed-discussion#creating-threads) or vice versa, please fix.
+- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already
 
 ### Check-in meeting
 
