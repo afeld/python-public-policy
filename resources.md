@@ -135,7 +135,7 @@ Note these instructions won't work in Colab.
 1. Start the Jupyter server:
 
    ```sh
-   jupyter nbclassic
+   jupyter notebook
    ```
 
 ## See also

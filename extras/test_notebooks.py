@@ -13,7 +13,8 @@ def check_metadata(notebook, file, expected_kernel):
     metadata = notebook.metadata
     runtime = metadata.kernelspec.display_name
 
-    assert runtime == expected_kernel
+    # seems the asterisk is added for the "preferred kernel"
+    assert runtime == expected_kernel or runtime == f"{expected_kernel} *"
     assert metadata.language_info.version.startswith("3.")
 
     if "colab" in metadata:
@@ -21,7 +22,7 @@ def check_metadata(notebook, file, expected_kernel):
         assert colab_name == file, f"Name in metadata doesn't match filename for {file}."
 
 
-def check_file(file, expected_kernel="Python [conda env:python-public-policy] *"):
+def check_file(file, expected_kernel="Python [conda env:python-public-policy]"):
     notebook = read_notebook(file)
     check_metadata(notebook, file, expected_kernel)
 
