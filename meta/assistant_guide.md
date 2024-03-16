@@ -12,11 +12,11 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
   - Don't spend a _ton_ of time trying to figure out something that you don't understand; feel free to escalate to the instructor.
 - For students seeking one-on-one help, direct them to [office hours](../syllabus.md#instructor-information).
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
-{% if school_slug == "columbia" -%}
 - Notifications:
-  - You may want to tweak your [Discussion notification settings](https://edstem.org/us/settings/notifications).
+  - You may want to tweak your [Ed Discussion notification settings](https://edstem.org/us/settings/notifications).
+  {% if school_slug == "columbia" -%}
   - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
-{% else -%}
+  {%- else %}
 - Log hours for any time you put in related to this class, including any learning you're needing to do yourself to answer questions.
 - Subscribe to all the Discussion Topics so you get notified.
 {% endif -%}
