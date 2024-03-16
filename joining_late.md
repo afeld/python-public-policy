@@ -18,7 +18,7 @@ If you're not officially registered for the course but want to be, due to being 
 
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including past lectures.
-   - You won't be able to access [{{lms_name}}]({{lms_url}}) or the [Discussions]({{discussions_url}}).
+   - You won't be able to access [{{lms_name}}]({{lms_url}}) or the [Ed Discussions]({{discussions_url}}).
 - [Complete the Assignment(s) in {{coding_env_name}} as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
 ## Once you join
@@ -32,7 +32,7 @@ If you're coming off the wait list or registering for the course after the first
    - If you don't have access after that, [email the instructor](syllabus.md#instructor-information).
 {% endif %}
 - Watch the recording(s) of past lectures if you weren't present for them.
-- Make sure to read through the pinned threads that appear at the top of the list of [Discussions]({{discussions_url}}), in case there's anything you missed.
+- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussions]({{discussions_url}}), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
    - [Email the {{assistant_name}}](syllabus.md#instructor-information) if there's a mistake.

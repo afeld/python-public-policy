@@ -47,13 +47,13 @@ Weeks start/end at the beginning of each class.
 - We can be fairly forgiving/generous with what counts as completion
 - Every student should have each week marked one way or the other
 - The instructor will mark participation for students that came to office hours
+- You can use the Analytics from Ed to help
 {% if school_slug == "columbia" -%}
 - Each week is represented as an Assignment
   - Easiest to do this through the Grades interface, rather than SpeedGrader
   - Every cell for previous weeks should be filled in
   - Mark each student that participated as Complete
   - Mark those who didn't as Incomplete
-- You can use the Analytics from Ed to help
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 {%- endif %}

@@ -163,7 +163,7 @@ In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due
 - All {% if school_slug == "nyu" %}announcements and {% endif %}assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [the Discussions]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/{{assistant_name}} will try to respond within 24 hours, 48 hours max, if someone else hasn't aleady.
 
@@ -238,7 +238,7 @@ To encourage cosnsistent, deeper thought about the Assignments, relevance to the
 in either:
 
 - Office hours
-- [The Discussions]({{discussions_url}})
+- [Ed Discussions]({{discussions_url}})
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings]({{lms_notification_settings_url}}) to make sure you see conversations that come through
 - Email
