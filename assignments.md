@@ -73,7 +73,7 @@ Note: In-class exercises will not be graded.
 
     ```python
     import plotly.io as pio
-    pio.renderers.default = "notebook_connected+pdf"
+    pio.renderers.default = "png"
     ```
 
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
