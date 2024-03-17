@@ -4,12 +4,12 @@ from .diffable import should_clear_output
 
 def test_ignore_empty():
     cell = NotebookNode({"source": "", "outputs": ""})
-    assert should_clear_output(cell) == False
+    assert should_clear_output(cell) is False
 
 
 def test_ignore_random():
     cell = NotebookNode({"source": "foo = 6", "outputs": ""})
-    assert should_clear_output(cell) == False
+    assert should_clear_output(cell) is False
 
 
 def test_ignore_system():
@@ -30,6 +30,21 @@ def test_ignore_image():
                 {
                     "data": {
                         "image/png": "…",
+                    }
+                }
+            ],
+        }
+    )
+    assert should_clear_output(cell)
+
+
+def test_ignore_memory():
+    cell = NotebookNode(
+        {
+            "source": "import qrcode\nqrcode.make('hello')",
+            "outputs": [
+                {
+                    "data": {
                         "text/plain": "<qrcode.image.pil.PilImage at 0x1060e5850>",
                     }
                 }
