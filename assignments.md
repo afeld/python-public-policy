@@ -14,7 +14,7 @@ To edit/execute a Homework/lecture notebook:
 ## Tips
 
 - **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
-- **Access [JupyterHub](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking the JupyterHub, as that will pull down the latest changes.
+- **Access [JupyterHub](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
@@ -50,8 +50,8 @@ You can make data smaller _before_ uploading by filtering it through:
    - See [general scoring criteria](syllabus.md#assignment-scoring).
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
-   1. `Download as`
-   1. `PDF via LaTeX (PDF)`
+   1. `Save and Export Notebook As…`
+   1. `PDF`
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the Brightspace Assignment.
