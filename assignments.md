@@ -20,7 +20,7 @@ To edit/execute a Homework/lecture notebook:
 
 {% if id == 'nyu' -%}
 - **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.
-- **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking the {{coding_env_name}}, as that will pull down the latest changes.
+- **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking {{coding_env_name}}, as that will pull down the latest changes.
 {% endif -%}
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
@@ -79,8 +79,8 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
-   1. `Download as`
-   1. `PDF via LaTeX (PDF)`
+   1. `Save and Export Notebook As…`
+   1. `PDF`
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
