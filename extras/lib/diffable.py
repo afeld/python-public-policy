@@ -1,5 +1,6 @@
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
+import re
 
 
 def is_system_command(source: str):
@@ -10,16 +11,18 @@ def is_ipytest(source: str):
     return source.startswith("%%ipytest")
 
 
-def has_html(output):
-    return "text/html" in output.get("data", {})
+def has_rich_format(output):
+    data = output.get("data", {})
+    return "text/html" in data or "image/png" in data
 
 
-def has_html_output(cell: NotebookNode):
-    return any(has_html(output) for output in cell["outputs"])
+def has_rich_output(cell: NotebookNode):
+    return any(has_rich_format(output) for output in cell["outputs"])
 
 
 def contains_memory_address(text: str):
-    return text.startswith("<") and text.endswith(">")
+    pattern = re.compile("^<.+ at 0x[a-z0-9]+>$")
+    return pattern.match(text)
 
 
 def has_memory_address(cell: NotebookNode):
@@ -35,7 +38,7 @@ def should_clear_output(cell: NotebookNode):
     return (
         is_system_command(source)
         or is_ipytest(source)
-        or has_html_output(cell)
+        or has_rich_output(cell)
         or has_memory_address(cell)
     )
 
