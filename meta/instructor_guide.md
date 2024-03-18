@@ -20,19 +20,25 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 
 The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Markdown (`.md`) files and the files and folders that start with an underscore (`_`) are related to JupyterBook.
 
-1. If not on the `columbia` branch, render the files. _**This will overwrite local files, and thus you should stage changes first.**_
+### `columbia` branch
 
-      ```sh
-      ./extras/scripts/school.sh <school>
-      ```
+1. Stage changes in Git, as they will be overwritten.
+1. If on the `columbia` branch, run:
 
-1. Build the site.
+   ```sh
+   ./extras/scripts/school.sh <school>
+   ./extras/scripts/build.sh
+   ```
 
-      ```sh
-      ./extras/scripts/build.sh
-      ```
+1. If on `main` or other branches, run:
 
-You can then check broken links with
+   ```sh
+   ./extras/scripts/school_ci.sh <school>
+   ```
+
+### Checking broken links
+
+Once the site is built, you can check broken links with:
 
 ```sh
 ruby ./extras/scripts/broken_links.rb
