@@ -52,6 +52,7 @@ You can make data smaller _before_ uploading by filtering it through:
    1. `File`
    1. `Save and Export Notebook As…`
    1. `PDF`
+   1. You may need to [allow popups](https://support.google.com/chrome/answer/95472)
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the Brightspace Assignment.
@@ -68,14 +69,6 @@ Note: In-class exercises will not be graded.
 ## Common issues
 
 - **PDF export:**
-
-  - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) code.
-
-    ```python
-    import plotly.io as pio
-    pio.renderers.default = "png"
-    ```
-
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
