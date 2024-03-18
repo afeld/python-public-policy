@@ -114,7 +114,6 @@ SCHOOLS = [
             "nyu",
             "padm",
             "peermark",
-            "pio.renderers.default",  # boilerplate for getting charts to work in JupyterLab
             "python coding for public policy",  # Columbia version doesn't include "Coding"
             "regrad",
             "re-grad",
