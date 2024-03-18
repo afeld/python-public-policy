@@ -81,6 +81,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
    1. `File`
    1. `Save and Export Notebook As…`
    1. `PDF`
+   1. You may need to [allow popups](https://support.google.com/chrome/answer/95472)
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
@@ -103,14 +104,6 @@ Note: In-class exercises will not be graded.
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
 - **PDF export:**
-
-  - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) code.
-
-    ```python
-    import plotly.io as pio
-    pio.renderers.default = "png"
-    ```
-
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
