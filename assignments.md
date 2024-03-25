@@ -11,6 +11,8 @@ To edit/execute a Homework/lecture notebook:
    - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
 1. You should now see the notebook in JupyterHub.
+That is now your own copy; make edits in there directly.
+
 ## Tips
 
 - **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
@@ -75,7 +77,7 @@ Note: In-class exercises will not be graded.
     - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
-- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Kernel` menu then `Restart`.
+- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Kernel` menu then `Restart Kernel`.
 
 ### Disk full
 
