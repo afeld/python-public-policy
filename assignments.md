@@ -13,6 +13,8 @@ To edit/execute a Homework/lecture notebook:
 1. You should now see the notebook in Google Colab.
 1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
 1. Click `Copy to Drive`.
+That is now your own copy; make edits in there directly.
+
 ## Tips
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
@@ -70,7 +72,7 @@ Note: In-class exercises will not be graded.
     - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
-- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Runtime` menu then `Restart`.
+- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Runtime` menu then `Restart Kernel`.
 
 
 
