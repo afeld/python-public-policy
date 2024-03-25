@@ -31,7 +31,6 @@ If you're coming off the wait list or registering for the course after the first
 - Within 24 hours after you're registered via SSOL, you should be automatically added to CourseWorks.
    - If you don't have access after that, [email the instructor](syllabus.md#instructor-information).
 
-- Watch the recording(s) of past lectures if you weren't present for them.
 - Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
