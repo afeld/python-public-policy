@@ -21,6 +21,7 @@ assignees: afeld
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
   - [ ] [Add to Brightspace as a Teaching Assistant](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018960&sys_kb_id=e78f37561b3e6050191ca8233a4bcb2a&spa=1)
   - [ ] Set up check-in
+  - [ ] Share solutions
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
