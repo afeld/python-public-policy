@@ -19,6 +19,7 @@ assignees: afeld
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
   - [ ] Set up Discussion rotation
+  - [ ] Share solutions
 - [ ] Set up Courseworks
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
   - [ ] [Automatically post grades](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-select-a-grade-posting-policy-for-a-course-in-the/ta-p/588)
