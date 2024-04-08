@@ -42,7 +42,7 @@ Weeks start/end at the beginning of each class.
 
 ### [Between-class participation](../syllabus.md#participation) tracking
 
-{% if school_slug == "columbia" %}... for students in your section.{% endif %}
+{% if school_slug == "columbia" %}... for students in your section.{% endif %} [Helper notebook.](ed_helper.ipynb)
 
 - We can be fairly forgiving/generous with what counts as completion
 - Every student should have each week marked one way or the other
