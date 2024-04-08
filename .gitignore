@@ -4,6 +4,7 @@ _build/
 .nbgrader.log
 *.csv
 *.slides.html
+* threads.json
 conf.py
 data
 shared
