@@ -48,4 +48,4 @@ dependencies:
   - pytest
 
   # this needs to stay in sync with docs/environment.yml
-  - jupyter-book=0.15.1
+  - jupyter-book=1.0.0
