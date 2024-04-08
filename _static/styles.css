@@ -1,3 +1,11 @@
+/* match Google Docs styles for nested ordered lists */
+article ol ol li {
+  list-style-type: lower-alpha;
+}
+article ol ol ol li {
+  list-style-type: lower-roman;
+}
+
 /* keep outputs from being too long */
 .cell_output .output {
   max-height: 20rem;
