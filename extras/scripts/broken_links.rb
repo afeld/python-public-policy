@@ -12,7 +12,8 @@ options = {
     %r{^_build/html/final_project/}
   ],
   ignore_urls: [
-    %r{^_static/images/logo_},
+    # https://github.com/executablebooks/sphinx-book-theme/pull/831
+    %r{_static/images/logo_},
   ],
   swap_urls: {
     # ignore PDF page hash
