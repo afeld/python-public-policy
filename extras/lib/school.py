@@ -34,6 +34,7 @@ class SchoolText:
     r_credit: str
     assignment_cutoff_name: str
     python_for_mbas: str
+    final_project_proposal: str
     words: List[str]
 
 
@@ -64,6 +65,7 @@ SCHOOLS = [
         r_credit="https://www.registrar.columbia.edu/content/grade-options#auditing",
         assignment_cutoff_name="`Until` date",
         python_for_mbas="https://clio.columbia.edu/catalog/15536430",
+        final_project_proposal="https://edstem.org",
         words=[
             "canvaslms",
             "colab",
@@ -103,6 +105,7 @@ SCHOOLS = [
         r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
         assignment_cutoff_name="`End Date`",
         python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
+        final_project_proposal="https://edstem.org/us/courses/56920/discussion/4727810",
         words=[
             "amisa",
             "bonus",

@@ -12,7 +12,7 @@
 1. Come up with a question that the data is capable of answering and _isn't trivial to answer_.
    - If you aren't sure, ask.
 1. Come up with a hypothesis (a.k.a. a guess of the answer to the question).
-1. Submit the proposal to the `Final Project proposal` Assignment, using the format below.
+1. Submit the proposal to [the `Final Project proposal` thread on Ed](https://edstem.org), using the format below.
 
 If the proposal shows effort and follows the format below, full credit will be given.
 
