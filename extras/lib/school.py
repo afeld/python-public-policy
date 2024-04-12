@@ -34,6 +34,7 @@ class SchoolText:
     r_credit: str
     assignment_cutoff_name: str
     python_for_mbas: str
+    final_project_proposal: str
     words: List[str]
 
 
