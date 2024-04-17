@@ -7,6 +7,7 @@
 - [RealPython](https://realpython.com/tutorials/all/)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [Crash Course Computer Science](https://thecrashcourse.com/topic/computerscience/)
+- [Data Analysis with Python for Excel Users](https://www.youtube.com/watch?v=WcDaZ67TVRo)
 - [Python for MBAs](https://clio.columbia.edu/catalog/15536430) "and those in business roles that include coding or working with coding teams"
 - [IBM Data Analyst Course](https://www.youtube.com/watch?v=1PAy6d16ADQ) - can jump to specific parts
 - [GitHub Student Developer Pack](https://education.github.com/pack)
