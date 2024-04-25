@@ -106,7 +106,9 @@ Note: In-class exercises will not be graded.
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
 - **PDF export:**
-  - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
+  - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
+    - Not displaying so many rows/values
+    - Reducing the number of points that are plotted
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
