@@ -29,6 +29,8 @@ If the proposal shows effort and follows the format below, full credit will be g
 - If you're using multiple datasets: **What columns are you going to merge/join them on?**
 - **What's your hypothesis?**
 
+Feel free to include any questions/concerns/uncertainties that the {{assistant_name}} can help with.
+
 ## Tips
 
 - Don't overthink it; [the process above](#process) shouldn't take more than a few hours.
