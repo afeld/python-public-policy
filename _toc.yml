@@ -15,6 +15,8 @@ chapters:
   - file: resources
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
+  - url: "{{discussions_url}}"
+    title: Ed Discussions
   - url: "{{coding_env_url}}"
     title: "{{coding_env_name}}"
   - file: lecture_0
