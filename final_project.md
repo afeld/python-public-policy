@@ -59,7 +59,9 @@ If you answer the first question easily, that's fine; dig into / build off of it
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
 - Please try to preserve anonymity.
   - Keep your name/username out of the notebook title, text cells, file paths, etc.
+  {% if school_slug == "columbia" -%}
   - Hold off on responding to comments on your notebook before you get your Project grade.
+  {%- endif %}
 - Don't leave any sensitive information in the notebook, such as:
   - API keys
   - Personally-identifiable information (PII)
