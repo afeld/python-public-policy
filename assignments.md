@@ -85,6 +85,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
    1. `PDF`
    1. You may need to [allow popups](https://support.google.com/chrome/answer/95472)
 1. Glance through the PDF to ensure everything is showing up as you intend.
+   - In particular, check your visualizations.
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
 1. **If the Final Project:**
