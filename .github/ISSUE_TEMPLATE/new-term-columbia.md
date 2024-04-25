@@ -30,11 +30,13 @@ assignees: afeld
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
   - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity)
+- [ ] Print attendance sheets
 - [ ] Bring the first day
   - [ ] A/V keys
   - [ ] Laptop stand
   - [ ] Power strips
   - [ ] Extension cord
+  - [ ] Attendance sheets
   - [ ] PB&J supplies
     - [ ] Sunflower butter
     - [ ] Jelly
