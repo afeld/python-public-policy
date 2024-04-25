@@ -39,7 +39,7 @@ assignees: afeld
   - [ ] [Set up PeerMark for Final Project](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018477&sys_kb_id=f89fbe521b6f9c10a575997fbd4bcb80&spa=1)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Send welcome Announcement
-  - [ ] Schedule sending solutions
+- [ ] Set reminder to send solutions
 - [ ] Send calendar invite
   - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions

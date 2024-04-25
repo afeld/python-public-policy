@@ -71,7 +71,9 @@ Note: In-class exercises will not be graded.
 ## Common issues
 
 - **PDF export:**
-  - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
+  - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
+    - Not displaying so many rows/values
+    - Reducing the number of points that are plotted
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
     - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
