@@ -13,6 +13,8 @@ chapters:
   - file: resources
   - url: "https://courseworks2.columbia.edu/courses/187089"
     title: "CourseWorks"
+  - url: "https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless"
+    title: Ed Discussions
   - url: "https://colab.research.google.com"
     title: "Google Colab"
   - file: lecture_0
