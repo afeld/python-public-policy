@@ -60,7 +60,7 @@ You can make data smaller _before_ uploading by filtering it through:
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the Brightspace Assignment.
 1. **If the Final Project:**
-   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/366164), go to [`Content`, then `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9977658). You should see an embedded TurnItIn/PeerMark dashboard.
+   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/366164), go to [`Content`, then `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/10096472). You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in Brightspace.
