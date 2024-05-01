@@ -23,7 +23,4 @@ fi
 
 ./extras/scripts/build.sh
 
-# remove remaining files
-git rm -r extras/scripts/
-
 git diff
