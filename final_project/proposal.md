@@ -5,6 +5,7 @@
 1. [Find a dataset](resources.md#open-data-portals) that seems interesting.
    - Use at least one dataset that you aren't familiar with.
      - Using data from a primary source is preferred.
+   - To meet the [requirement](../final_project.md#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
    - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
    {%- if id == "nyu" %}
    - Note the [{{coding_env_name}} limits](../assignments.md#limits).
