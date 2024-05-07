@@ -10,6 +10,7 @@
 - [Data Analysis with Python for Excel Users](https://www.youtube.com/watch?v=WcDaZ67TVRo)
 - [Python for MBAs]({{python_for_mbas}}) "and those in business roles that include coding or working with coding teams"
 - [IBM Data Analyst Course](https://www.youtube.com/watch?v=1PAy6d16ADQ) - can jump to specific parts
+- [Full Stack Python](https://www.fullstackpython.com/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
   - Includes [learning resources](https://education.github.com/pack?sort=popularity&tag=Learn#offers) and various tools
 
