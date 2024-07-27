@@ -53,9 +53,9 @@ All the lectures and assignment templates are available for download through thi
 
 ### Comparison to Computing in Context
 
-Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/).
+{{course_name}} can be thought of as a subset of [the SIPA sections of Computing in Context](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/).
 
-|                       | Python for Public Policy                 | Computing in Context                                                                                                                                             |
+|                       | {{course_name}}                          | Computing in Context                                                                                                                                             |
 | --------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Offered**           | Every Spring                             | Every Fall                                                                                                                                                       |
 | **Duration**          | Second half of term                      | Full term                                                                                                                                                        |
