@@ -55,15 +55,17 @@ All the lectures and assignment templates are available for download through thi
 
 Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/).
 
-|                       | Python for Public Policy                 | Computing in Context                                                                                                                                                                                                             |
-| --------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Offered**           | Every Spring                             | Every Fall                                                                                                                                                                                                                       |
-| **Duration**          | Second half of term                      | Full term                                                                                                                                                                                                                        |
-| **Credits**           | 1.5                                      | 3                                                                                                                                                                                                                                |
-| **Meetings per week** | One 110-minute lecture                   | Two 75-minute lectures plus one 90-minute recitation                                                                                                                                                                             |
-| **Student body**      | Mainly SIPA                              | Mix of SIPA and other schools                                                                                                                                                                                                    |
-| **Best suited for**   | Students who just want a taste of coding | Students who are interested in coding being part of their lives/careers                                                                                                                                                          |
-| **Other differences** | -                                        | Spends more time on Python fundamentals, such as control flow and functions. Allows students to take more advanced [DAQA courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext), as it's a prerequisite. |
+|                       | Python for Public Policy                 | Computing in Context                                                                                                                                             |
+| --------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Offered**           | Every Spring                             | Every Fall                                                                                                                                                       |
+| **Duration**          | Second half of term                      | Full term                                                                                                                                                        |
+| **Credits**           | 1.5                                      | 3                                                                                                                                                                |
+| **Meetings per week** | One 110-minute lecture                   | Two 75-minute lectures plus one 90-minute recitation                                                                                                             |
+| **Student body**      | Mainly SIPA                              | Mix of SIPA and other schools                                                                                                                                    |
+| **Best suited for**   | Students who just want a taste of coding | Students who are interested in coding being part of their lives/careers                                                                                          |
+| **Other differences** | -                                        | Spends more time on Python fundamentals, such as control flow and functions. Allows students to take more advanced [DAQA courses][daqa], as it's a prerequisite. |
+
+[daqa]: https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext
 
 {% endif -%}
 
