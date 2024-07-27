@@ -19,7 +19,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
 - [Brightspace site](https://brightspace.nyu.edu/d2l/home/366164), which students will use for:
   - Viewing Announcements
   - Discussions
-  - Submitting assignments
+    - Submitting assignments
   - Viewing grades
 - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9996174), which is used for:
   - Accouncements
