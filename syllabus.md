@@ -106,7 +106,7 @@ In general, assignments and resubmissions are due at the time class starts. Thes
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9996174), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
-- The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't aleady.
+- The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
 ## Assignments and Evaluation
 
