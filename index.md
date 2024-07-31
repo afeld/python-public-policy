@@ -53,17 +53,18 @@ All the lectures and assignment templates are available for download through thi
 
 ### Comparison to Computing in Context
 
-{{course_name}} can be thought of as a subset of [the SIPA sections of Computing in Context](https://www.cs.columbia.edu/2016/computing-in-context-a-computer-science-course-for-liberal-arts-majors-expands-with-new-sipa-track/).
+{{course_name}} can be thought of as a subset of [the SIPA sections of Computing in Context](https://docs.google.com/document/d/1965uM1hPXvVdR-co2QORGmhPiVKewqN1EKT_TngDrXw/edit).
 
-|                       | {{course_name}}                          | Computing in Context                                                                                                                                             |
-| --------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Offered**           | Every Spring                             | Every Fall                                                                                                                                                       |
-| **Duration**          | Second half of term                      | Full term                                                                                                                                                        |
-| **Credits**           | 1.5                                      | 3                                                                                                                                                                |
-| **Meetings per week** | One 110-minute lecture                   | Two 75-minute lectures plus one 90-minute recitation                                                                                                             |
-| **Student body**      | Mainly SIPA                              | Mix of SIPA and other schools                                                                                                                                    |
-| **Best suited for**   | Students who just want a taste of coding | Students who are interested in coding being part of their lives/careers                                                                                          |
-| **Other differences** | -                                        | Spends more time on Python fundamentals, such as control flow and functions. Allows students to take more advanced [DAQA courses][daqa], as it's a prerequisite. |
+|                       | {{course_name}}                                                                             | Computing in Context                                                                                                                                             |
+| --------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Offered**           | Every Spring                                                                                | Every Fall                                                                                                                                                       |
+| **Duration**          | Second half of term                                                                         | Full term                                                                                                                                                        |
+| **Credits**           | 1.5                                                                                         | 3                                                                                                                                                                |
+| **Meetings per week** | One 110-minute lecture                                                                      | Two 75-minute lectures plus one 90-minute recitation                                                                                                             |
+| **Topics covered**    | See [syllabus](syllabus.md#schedule)                                                        | See [syllabus](https://docs.google.com/document/d/1965uM1hPXvVdR-co2QORGmhPiVKewqN1EKT_TngDrXw/edit#heading=h.ex3szl3ftobj)                                      |
+| **Student body**      | Mainly SIPA                                                                                 | Mix of SIPA and other schools                                                                                                                                    |
+| **Best suited for**   | Students who just want a taste of coding                                                    | Students who are interested in coding being part of their lives/careers                                                                                          |
+| **Other differences** | We speed through Python fundamentals, spending most of the time on data analysis in Python. | Spends more time on Python fundamentals, such as control flow and functions. Allows students to take more advanced [DAQA courses][daqa], as it's a prerequisite. |
 
 [daqa]: https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext
 
