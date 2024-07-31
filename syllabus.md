@@ -165,7 +165,7 @@ In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
-- The instructor/{{assistant_name}} will try to respond within 24 hours, 48 hours max, if someone else hasn't aleady.
+- The instructor/{{assistant_name}} will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
 ## Assignments and Evaluation
 
