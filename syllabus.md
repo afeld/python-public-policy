@@ -289,7 +289,7 @@ Once registered: To receive [R-credit]({{r_credit}}), every assignment should at
 
 ### Sharing
 
-A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission. This also applies to using generative tools like [ChatGPT](https://openai.com/blog/chatgpt/).
+A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
 
 Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
 
@@ -297,11 +297,17 @@ Students are more than welcome to share approaches and code snippets in the Disc
 
 Students may post their [Final Project](https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html) publicly (on GitHub, LinkedIn, etc.) since it's open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
 
+### Generative AI
+
+For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are treated the same as other sources. For any code that's copied, reference the use of the tool and link to the discussion (where supported).
+
+These tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
+
 {% if id == "columbia" -%}
 
 ### SIPA Academic Integrity Statement
 
-The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean’s Disciplinary Procedures.
+The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean's Disciplinary Procedures.
 
 Please familiarize yourself with the proper methods of citation and attribution. The School provides some useful resources online; we strongly encourage you to familiarize yourself with these various styles before conducting research. Cut and paste the following link into your browser to view the Code of Academic & Professional Conduct and to access useful resources on citation and attribution: https://bulletin.columbia.edu/sipa/academic-policies/
 
@@ -309,7 +315,7 @@ Violations of the Code of Academic & Professional Conduct should be reported to 
 
 ### SIPA Disability Statement
 
-SIPA is committed to ensuring that students registered with Columbia University’s Disability Services (DS) receive the reasonable accommodations necessary to participate fully in their academic programs. If you are a student with a disability and have a DS-certified accommodation letter, you may wish to make an appointment with your course instructor to discuss your accommodations. Faculty provide disability accommodations to students with DS-certified accommodation letters, and they provide the accommodations specified in such letters. If you have any additional questions, please contact SIPA’s DS liaison at disability@sipa.columbia.edu or 212-854-8690.
+SIPA is committed to ensuring that students registered with Columbia University's Disability Services (DS) receive the reasonable accommodations necessary to participate fully in their academic programs. If you are a student with a disability and have a DS-certified accommodation letter, you may wish to make an appointment with your course instructor to discuss your accommodations. Faculty provide disability accommodations to students with DS-certified accommodation letters, and they provide the accommodations specified in such letters. If you have any additional questions, please contact SIPA's DS liaison at disability@sipa.columbia.edu or 212-854-8690.
 
 {% else -%}
 
