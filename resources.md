@@ -16,7 +16,7 @@
 
 ## Columbia
 
-- [Python at Columbia Business School](https://www8.gsb.columbia.edu/courses/python) self-paced course with videos, open to anyone at Columbia
+- [Python at Columbia Business School](https://academics.gsb.columbia.edu/python) self-paced course with videos, open to anyone at Columbia
 - [Foundations for Research Computing](https://rcfoundations.research.columbia.edu/)
 - [Data Science Institute](https://datascience.columbia.edu/)
 - Library
