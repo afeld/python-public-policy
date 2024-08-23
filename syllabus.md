@@ -224,6 +224,8 @@ See the [school policies](https://wagner.nyu.edu/portal/students/academics/regis
 
 Once registered: To receive [R-credit](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html), every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
 
+If it doesn't work out for you to take or audit the class, there are countless [other options for learning Python](resources.md).
+
 ### Sharing
 
 A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
