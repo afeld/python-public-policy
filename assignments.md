@@ -15,8 +15,8 @@ That is now your own copy; make edits in there directly.
 
 ## Tips
 
-- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
-- **Access [JupyterHub](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
+- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
+- **Access [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
@@ -25,7 +25,7 @@ That is now your own copy; make edits in there directly.
 
 ### Storing data
 
-1. Open the [JupyterHub file browser](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
+1. Open the [JupyterHub file browser](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
 1. Navigate to the folder your notebook is in.
 1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
 1. From Python, use `read_csv("./<filename>.csv")`.
@@ -60,12 +60,12 @@ You can make data smaller _before_ uploading by filtering it through:
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the Brightspace Assignment.
 1. **If the Final Project:**
-   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/366164), go to [`Content`, then `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/10096472). You should see the TurnItIn/PeerMark dashboard.
+   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/384630), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in Brightspace.
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padm-4506-spring.rcnyu.org/user-redirect/tree/shared/solutions/).
+After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 
 Note: In-class exercises will not be graded.
 
@@ -87,7 +87,7 @@ Note: In-class exercises will not be graded.
 If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-1. Go to start your server again from [padm-4506-spring.rcnyu.org](https://padm-4506-spring.rcnyu.org).
+1. Go to start your server again from [padmgp-4506-fall.rcnyu.org](https://padmgp-4506-fall.rcnyu.org).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
@@ -97,7 +97,7 @@ If you get an error of `Disk is full` / `No space left on device` / `Out of disk
 
 This error can happen if you tried to output a lot of data in tables/charts. Steps to resolve:
 
-1. Open the [JupyterHub](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu)) file browser
+1. Open the [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu)) file browser
 1. Click `New`, then `Terminal`
 1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
 
@@ -120,4 +120,4 @@ The kernel is the place where Python is installed and the code is actually execu
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
-  - Close kernels you aren't using from the [Running](https://padm-4506-spring.rcnyu.org/user-redirect/tree#running) page.
+  - Close kernels you aren't using from the [Running](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree#running) page.

@@ -16,15 +16,15 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - [Resources](resources.md)
   - Lecture slides
   - Homework templates
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/366164), which students will use for:
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/384630), which students will use for:
   - Viewing Announcements
   - Discussions
     - Submitting assignments
   - Viewing grades
-- [Ed](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/9996174), which is used for:
+- [Ed](https://brightspace.nyu.edu/d2l/le/384630/discussions/List), which is used for:
   - Accouncements
   - Discussions
-- [JupyterHub](https://padm-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu), where work will be completed
+- [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu), where work will be completed
 
 ## Why this class?
 

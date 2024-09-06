@@ -24,6 +24,7 @@ assignees: afeld
   - [ ] Share solutions
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
+  - [ ] Update links in repo
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages imported directly in notebooks" and "supporting packages" are needed
   - [ ] Confirm [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2) works

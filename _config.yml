@@ -25,7 +25,7 @@ repository:
   branch: "nyu"
 launch_buttons:
   binderhub_url: ""
-  jupyterhub_url: https://padm-4506-spring.rcnyu.org
+  jupyterhub_url: https://padmgp-4506-fall.rcnyu.org
   
 sphinx:
   # avoid the html_theme_options from overriding the ones set by Jupyter Book
