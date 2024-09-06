@@ -89,12 +89,12 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
    - What you see is what the instructors will see.
 1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
 1. **If the Final Project:**
-   1. In [{{lms_name}}]({{lms_url}}), go to [`Content`, then `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/366164/topics/10096472). You should see the TurnItIn/PeerMark dashboard.
+   1. In [{{lms_name}}]({{lms_url}}), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in {{lms_name}}.
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padm-4506-spring.rcnyu.org/user-redirect/tree/shared/solutions/).
+After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 {%- endif %}
 
 Note: In-class exercises will not be graded.
@@ -124,7 +124,7 @@ Note: In-class exercises will not be graded.
 If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-1. Go to start your server again from [padm-4506-spring.rcnyu.org](https://padm-4506-spring.rcnyu.org).
+1. Go to start your server again from [padmgp-4506-fall.rcnyu.org](https://padmgp-4506-fall.rcnyu.org).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
@@ -160,4 +160,4 @@ The {{coding_env_kernel_name}} is the place where Python is installed and the co
 - If your {{coding_env_kernel_name}} is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
-  {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running](https://padm-4506-spring.rcnyu.org/user-redirect/tree#running) page.{% endif %}
+  {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree#running) page.{% endif %}
