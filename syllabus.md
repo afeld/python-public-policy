@@ -60,7 +60,7 @@
 - **Prerequisites:** None
 - Students should bring a laptop to class
   - A tablet with a full keyboard is ok
-  - [NYU offers loaners](https://library.nyu.edu/services/computing/on-campus/laptop-loans/)
+  - NYU offers [loaners](https://library.nyu.edu/services/computing/on-campus/laptop-loans/) and [technology support](#technology-support)
 - No textbooks required
 
 ## Instructor Information
