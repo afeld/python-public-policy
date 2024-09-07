@@ -142,8 +142,8 @@ By the end of the course, students will know:
 | [4][l4] | 11/20   | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
 | [5][l5] | 11/27\* | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
 | [6][l6] | 12/4    | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| none    | 12/11   | none                            | none                                                       | [Final Project][final]                                             |
-| none    | 12/15   | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
+| none    | 12/7    | none                            | none                                                       | [Final Project][final]                                             |
+| none    | 12/11   | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
 
 \*This class will be virtual or rescheduled.
 
@@ -310,7 +310,7 @@ For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are tre
 
 This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html). Specifically, we will be using [the AI "magic" (command)](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o).
 
-***For the homeworks and Final Project:***
+**_For the homeworks and Final Project:_**
 
 You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must remain the notebook you turn in. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.**
 
