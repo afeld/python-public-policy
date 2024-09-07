@@ -236,7 +236,7 @@ Students may post their [Final Project](https://python-public-policy.afeld.me/en
 
 For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are treated the same as other sources. For any code that's copied, reference the use of the tool and link to the discussion (where supported).
 
-These tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
+Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
 ### SIPA Academic Integrity Statement
 
