@@ -25,9 +25,9 @@
   - Section 2: 11-12:50pm ET
 - **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
 - **Prerequisites:** None
+- **Textbooks:** None
 - Students should bring a laptop to class
   - A tablet with a full keyboard is ok
-- No textbooks required
 
 ## Instructor Information
 
@@ -77,17 +77,17 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
-| ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [0][l0] | 1/16 | Intro to coding                 | none                                                       |                                                            |
-| [1][l1] | 1/23 | Working with data               | [Homework 0][hw0]                                          |                                                            |
-| [2][l2] | 1/30 | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| [3][l3] | 2/6  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| [4][l4] | 2/13 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| [5][l5] | 2/20 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| [6][l6] | 2/27 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| none    | 3/1  | none                            | none                                                       | [Final Project][final]                                     |
-| none    | 3/5  | none                            | [Final Project peer grading][final-peer]                   |                                                            |
+| Lecture | Date    | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
+| ------- | ------- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [0][l0] | Jan. 16 | Intro to coding                 | none                                                       |                                                            |
+| [1][l1] | Jan. 23 | Working with data               | [Homework 0][hw0]                                          |                                                            |
+| [2][l2] | Jan. 30 | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| [3][l3] | Feb. 6  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| [4][l4] | Feb. 13 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| [5][l5] | Feb. 20 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| [6][l6] | Feb. 27 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| none    | Mar. 1  | none                            | none                                                       | [Final Project][final]                                     |
+| none    | Mar. 5  | none                            | [Final Project peer grading][final-peer]                   |                                                            |
 
 [l0]: https://python-public-policy.afeld.me/en/columbia/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/columbia/lecture_1.html
