@@ -15,6 +15,7 @@ class SchoolText:
     school_slug: str
     color: str
     course_name: str
+    term: str
     lms_name: str
     lms_url: str
     discussions_url: str
@@ -46,6 +47,7 @@ SCHOOLS = [
         school_slug="columbia",
         color="#201D5D",
         course_name="Python for Public Policy",
+        term="Spring 2024",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/187089",
         discussions_url="https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless",
@@ -84,6 +86,7 @@ SCHOOLS = [
         school_slug="nyu",
         color="#57058b",
         course_name="Python Coding for Public Policy",
+        term="Fall 2024",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/384630",
         discussions_url="https://brightspace.nyu.edu/d2l/le/384630/discussions/List",

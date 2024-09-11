@@ -2,6 +2,8 @@
 
 # Python Coding for Public Policy - Fall 2024
 
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python Coding for Public Policy - Fall 2024</p>
+
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/nyu/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
   .print-only {
