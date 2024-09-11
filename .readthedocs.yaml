@@ -2,9 +2,9 @@
 version: 2
 
 build:
-  os: "ubuntu-20.04"
+  os: ubuntu-lts-latest
   tools:
-    python: "mambaforge-22.9"
+    python: mambaforge-latest
   # https://jupyterbook.org/en/stable/publish/readthedocs.html
   jobs:
     pre_build:
