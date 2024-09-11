@@ -3,14 +3,17 @@
 
 ---
 
-# {{course_name}} - Spring 2024
+# Syllabus
 
 {% else -%}
+
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
 # {{course_name}} - Fall 2024
 
 {% endif -%}
+
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">{{course_name}} - {{term}}</p>
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
