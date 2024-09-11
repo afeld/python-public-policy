@@ -2,7 +2,9 @@
 
 ---
 
-# Python for Public Policy - Spring 2024
+# Syllabus
+
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python for Public Policy - Spring 2024</p>
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/columbia/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>

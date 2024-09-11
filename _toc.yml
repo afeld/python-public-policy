@@ -4,7 +4,6 @@ chapters:
   - file: index
     title: Homepage
   - file: syllabus
-    title: Syllabus
     sections:
       - file: joining_late
       - file: curve
