@@ -31,7 +31,7 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** TBD
+- **Grader:** Zixin Guan, zg2622@nyu.edu
 - **Office Hours:**
   - Mondays 5-6pm, virtual, no appointment necessary
   - Other times by appointment; email the instructor
