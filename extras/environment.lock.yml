@@ -150,7 +150,7 @@ dependencies:
   - pip=24.2=pyh8b19718_1
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_1
   - platformdirs=4.3.6=pyhd8ed1ab_0
-  - plotly=5.15.0=pyhd8ed1ab_0
+  - plotly=5.24.1=pyhd8ed1ab_0
   - pluggy=1.5.0=pyhd8ed1ab_0
   - prometheus_client=0.20.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.47=pyha770c72_0
