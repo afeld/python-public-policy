@@ -28,6 +28,7 @@ assignees: afeld
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages imported directly in notebooks" and "supporting packages" are needed
   - [ ] Confirm [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2) works
+    - If it doesn't render, it might be [this problem](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be).
 - [ ] New Brightspace site
   - [ ] Update bookmark
   - [ ] [Request Ed Discussions](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0019715&sys_kb_id=332d12091b25d150191ca8233a4bcb60&spa=1)
