@@ -20,14 +20,14 @@ dependencies:
   # required for pandas' read_html()
   - html5lib=1.1
   - lxml
-  - pandas=1.5.3
+  - pandas=2.1.4
   - plotly=5.15.0
-  - requests=2.31.0
-  - statsmodels=0.14.1
+  - requests=2.32.3
+  - statsmodels=0.14.3
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
-  - ipytest=0.13.*
+  - ipytest=0.14.*
   - wget
   # https://plotly.com/python/static-image-export/
   - python-kaleido
@@ -48,4 +48,4 @@ dependencies:
   - pytest
 
   # this needs to stay in sync with docs/environment.yml
-  - jupyter-book=0.15.1
+  - jupyter-book=1.0.2
