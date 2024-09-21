@@ -1,0 +1,2 @@
+# based on https://stackoverflow.com/a/73218382/358804
+*.ipynb filter=strip-notebook-execution
