@@ -121,6 +121,14 @@ Note these instructions won't work in Colab.
 
 1. Install [Mamba](https://mamba.readthedocs.io/en/latest/index.html).
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}).
+1. Add the following to your `.git/config` file:
+
+    ```
+    # based on https://stackoverflow.com/a/73218382/358804
+    [filter "strip-notebook-execution"]
+    	clean = "jupyter nbconvert --Exporter.preprocessors=extras.lib.clear_execution.ClearExecutionPreprocessor --to=notebook --stdin --stdout --log-level=ERROR"
+    ```
+
 1. Check out the `{{school_slug}}` branch.
 1. [Create the environment.](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
 
