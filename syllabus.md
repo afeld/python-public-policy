@@ -3,15 +3,13 @@
 
 ---
 
-# Syllabus
-
 {% else -%}
 
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# {{course_name}} - Fall 2024
-
 {% endif -%}
+
+# Syllabus
 
 <p style="font-size: 2rem; font-weight:bold; text-align: center;">{{course_name}} - {{term}}</p>
 
