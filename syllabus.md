@@ -1,6 +1,6 @@
 [![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
 
-# Python Coding for Public Policy - Fall 2024
+# Syllabus
 
 <p style="font-size: 2rem; font-weight:bold; text-align: center;">Python Coding for Public Policy - Fall 2024</p>
 
