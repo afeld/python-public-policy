@@ -176,12 +176,10 @@ def test_num_slides(file):
 
     notebook = read_notebook(file)
 
-    # known issue that these lectures have too many slides
     if file in ["lecture_1.ipynb", "lecture_2.ipynb"]:
-        return
-    # the various pieces of the lecture can be scaled appropriately
+        pytest.xfail("Known issue that these lectures have too many slides")
     if file == "lecture_6.ipynb":
-        return
+        pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     columbia = [cell for cell in notebook.cells if "nyu-only" not in get_tags(cell)]
     num_columbia = num_slides(columbia)
