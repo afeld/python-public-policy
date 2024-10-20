@@ -53,7 +53,7 @@ All the lectures and assignment templates are available for download through thi
 
 ### Comparison to Computing in Context
 
-{{course_name}} can be thought of as a subset of [the SIPA sections of Computing in Context](https://docs.google.com/document/d/1965uM1hPXvVdR-co2QORGmhPiVKewqN1EKT_TngDrXw/edit).
+{{course_name}} can be thought of as a subset of [the SIPA sections of Computing in Context](https://computing-in-context.afeld.me/).
 
 |                       | {{course_name}}                                                                             | Computing in Context                                                                                                                                             |
 | --------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
