@@ -5,4 +5,6 @@ channels:
   - defaults
 dependencies:
   # this needs to stay in sync with ../environment.yml
-  - jupyter-book=1.0.2
+  - jupyter-book=1.0.3
+  # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
+  - sphinx>=6.2.0
