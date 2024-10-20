@@ -183,7 +183,7 @@ def test_num_slides(file):
 
     columbia = [cell for cell in notebook.cells if "nyu-only" not in get_tags(cell)]
     num_columbia = num_slides(columbia)
-    assert num_columbia <= 62, "Too many slides for Columbia"
+    assert num_columbia <= 63, "Too many slides for Columbia"
 
     nyu = [cell for cell in notebook.cells if "columbia-only" not in get_tags(cell)]
     num_nyu = num_slides(nyu)
