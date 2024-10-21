@@ -211,6 +211,16 @@ def test_reminders(file):
     ), "Missing participation reminder"
 
 
+def num_lines(output):
+    html = output.data.get("text/html")
+    if html:
+        # rows of table
+        return html.count("<tr")
+
+    text = output.data["text/plain"]
+    return text.count("\n")
+
+
 @pytest.mark.parametrize("file", notebooks)
 def test_long_outputs_scrolled(file):
     notebook = read_notebook(file)
@@ -218,11 +228,10 @@ def test_long_outputs_scrolled(file):
     for cell in notebook.cells:
         if is_python(cell):
             for output in cell.outputs:
-                if output.output_type == "execute_result":
-                    html = output.data.get("text/html", "")
-                    num_rows = html.count("<tr")
+                if output.output_type in ["display_data", "execute_result"]:
+                    num_rows = num_lines(output)
                     if num_rows > 30:
                         # if not set, the notebook will automatically scroll
-                        assert (
-                            cell.metadata.get("scrolled") is not False
+                        assert cell.metadata.get(
+                            "scrolled"
                         ), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
