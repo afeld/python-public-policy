@@ -10,30 +10,30 @@ article ol ol ol li {
 .cell_output .output {
   max-height: 20rem;
   overflow-y: auto;
-}
-/* for HTML outputs, go a bit longer, since this includes things like visualizations */
-.cell_output .output.text_html {
-  max-height: 40rem;
-}
 
-#data-shortener-widget #download {
-  color: white;
+  /* for HTML outputs, go a bit longer, since this includes things like visualizations */
+  &.text_html {
+    max-height: 40rem;
+  }
 }
 
 /* indicate the version by color, overriding the colors from sphinx-book-theme */
 /* top nav bar */
 .bd-header-article {
   --pst-color-background: {{color}};
-}
-.bd-header-article .btn {
-  --pst-color-text-base: white;
-  --pst-color-text-muted: white;
-}
-/* undo for dropdown menus */
-.bd-header-article .dropdown-menu {
-  --pst-color-background: white;
-}
-.bd-header-article .dropdown-menu .btn {
-  --pst-color-text-base: #323232;
-  --pst-color-text-muted: #646464;
+
+  .btn {
+    --pst-color-text-base: white;
+    --pst-color-text-muted: white;
+  }
+
+  /* undo for dropdown menus */
+  .dropdown-menu {
+    --pst-color-background: white;
+
+    .btn {
+      --pst-color-text-base: #323232;
+      --pst-color-text-muted: #646464;
+    }
+  }
 }
