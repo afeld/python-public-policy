@@ -89,7 +89,7 @@ SCHOOLS = [
         term="Fall 2024",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/384630",
-        discussions_url="https://brightspace.nyu.edu/d2l/le/384630/discussions/List",
+        discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeIjidhqviazcLcsgs0rAeIlclFmcQLoxHZgxLhhrNynj5ykw/viewform?usp=sf_link",
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",

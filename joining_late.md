@@ -18,7 +18,7 @@ If you're not officially registered for the course but want to be, due to being 
 
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including past lectures.
-   - You won't be able to access [Brightspace](https://brightspace.nyu.edu/d2l/home/384630) or the [Ed Discussions](https://brightspace.nyu.edu/d2l/le/384630/discussions/List).
+   - You won't be able to access [Brightspace](https://brightspace.nyu.edu/d2l/home/384630) or the [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594).
 - [Complete the Assignment(s) in JupyterHub as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
 ## Once you join
@@ -28,7 +28,7 @@ This is a short class that moves quickly, so depending on how much you missed, y
 If you're coming off the wait list or registering for the course after the first lecture:
 
 
-- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussions](https://brightspace.nyu.edu/d2l/le/384630/discussions/List), in case there's anything you missed.
+- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
    - [Email the grader](syllabus.md#instructor-information) if there's a mistake.

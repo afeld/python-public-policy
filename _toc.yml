@@ -12,7 +12,7 @@ chapters:
   - file: resources
   - url: "https://brightspace.nyu.edu/d2l/home/384630"
     title: "Brightspace"
-  - url: "https://brightspace.nyu.edu/d2l/le/384630/discussions/List"
+  - url: "https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594"
     title: Ed Discussions
   - url: "https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu"
     title: "JupyterHub"

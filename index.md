@@ -21,7 +21,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - Discussions
     - Submitting assignments
   - Viewing grades
-- [Ed](https://brightspace.nyu.edu/d2l/le/384630/discussions/List), which is used for:
+- [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594), which is used for:
   - Accouncements
   - Discussions
 - [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu), where work will be completed

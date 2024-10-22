@@ -40,7 +40,7 @@ Weeks start/end at the beginning of each class.
 - You can use the Analytics from Ed to help
 
 
-### [Discussions](https://brightspace.nyu.edu/d2l/le/384630/discussions/List)
+### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
