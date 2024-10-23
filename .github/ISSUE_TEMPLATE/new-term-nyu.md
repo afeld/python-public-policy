@@ -21,7 +21,6 @@ assignees: afeld
   - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
   - [ ] [Add to Brightspace as a Teaching Assistant](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018960&sys_kb_id=e78f37561b3e6050191ca8233a4bcb2a&spa=1)
   - [ ] Set up check-in
-  - [ ] Share solutions
 - [ ] JupyterHub
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] Update links in repo
@@ -46,7 +45,6 @@ assignees: afeld
 - [ ] Send calendar invite
   - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] Set reminder to bring attendance sheets
-- [ ] Set reminder to send solutions
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions
 - [ ] [Find guest(s)](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
   - [ ] Confirm order

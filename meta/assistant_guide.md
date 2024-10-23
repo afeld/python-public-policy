@@ -18,7 +18,6 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
   - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
   {%- else %}
 - Log hours for any time you put in related to this class, including any learning you're needing to do yourself to answer questions.
-- Subscribe to all the Discussion Topics so you get notified.
 {%- endif %}
 - Keep an eye out for students who I should encourage to apply as a {{assistant_name}} next term. Things to look for:
   - Being consistently helpful in the Discussions
