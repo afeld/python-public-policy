@@ -14,7 +14,8 @@ _While the Reader is the intended audience here, others are welcome to read it._
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
 - Notifications:
   - You may want to tweak your [Ed Discussion notification settings](https://edstem.org/us/settings/notifications).
-  - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).- Keep an eye out for students who I should encourage to apply as a Reader next term. Things to look for:
+  - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
+- Keep an eye out for students who I should encourage to apply as a Reader next term. Things to look for:
   - Being consistently helpful in the Discussions
   - Clean, well-documented solutions for the homeworks
   - Asking good questions
