@@ -31,6 +31,7 @@ assignees: afeld
   - [ ] Specify Textbooks
   - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity)
 - [ ] Print attendance sheets
+- [ ] Set reminder to bring attendance sheets
 - [ ] Bring the first day
   - [ ] A/V keys
   - [ ] Laptop stand
