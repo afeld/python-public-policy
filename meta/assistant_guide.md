@@ -16,7 +16,6 @@ _While the grader is the intended audience here, others are welcome to read it._
   - You may want to tweak your [Ed Discussion notification settings](https://edstem.org/us/settings/notifications).
   
 - Log hours for any time you put in related to this class, including any learning you're needing to do yourself to answer questions.
-- Subscribe to all the Discussion Topics so you get notified.
 - Keep an eye out for students who I should encourage to apply as a grader next term. Things to look for:
   - Being consistently helpful in the Discussions
   - Clean, well-documented solutions for the homeworks
