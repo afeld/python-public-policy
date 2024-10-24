@@ -81,7 +81,6 @@ Weeks start/end at the beginning of each class.
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
   - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
 - Solutions folder will be shared with you from Google Drive
-  - [Instructor will share them with students](../assignments.md#submission) via scheduled Announcements
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
 
 ### Grading
