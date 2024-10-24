@@ -239,11 +239,11 @@ Students may post their [Final Project](https://python-public-policy.afeld.me/en
 
 ### Generative AI
 
-This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html). Specifically, we will be using [the AI "magic" (command)](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o).
+This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html).
 
 **_For the homeworks and Final Project:_**
 
-You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must remain the notebook you turn in. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.**
+You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must remain the notebook you turn in. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.** [Instructions for use.](https://python-public-policy.afeld.me/en/nyu/assignments.html#generative-ai)
 
 Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 

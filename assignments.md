@@ -23,6 +23,24 @@ That is now your own copy; make edits in there directly.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
+### Generative AI
+
+_**This is not yet functional.** See also: [course generative AI policy](https://python-public-policy.afeld.me/en/nyu/syllabus.html#generative-ai)._
+
+We will be using the AI "magic" (command). Documentation:
+
+- [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
+- [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
+
+Run the following in a code cell to try it out:
+
+```
+%%ai gpt-4.0-32k
+how are you?
+```
+
+You can then alter the prompt following the first line as you need.
+
 ### Storing data
 
 1. Open the [JupyterHub file browser](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
