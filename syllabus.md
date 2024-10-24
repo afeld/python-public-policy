@@ -69,7 +69,7 @@
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - **Grader:** Zixin Guan, zg2622@nyu.edu
 - **Office Hours:**
-  - Mondays 5-6pm, virtual, no appointment necessary
+  - Mondays 5-6pm, virtual, no appointment necessary - see Google Calendar invite
   - Other times by appointment; email the instructor
 
 {% endif -%}
@@ -146,7 +146,7 @@ By the end of the course, students will know:
 | none    | 12/7    | none                            | none                                                       | [Final Project][final]                                             |
 | none    | 12/11   | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
 
-\*This class will be virtual or rescheduled.
+\*This class will be virtual.
 
 {% endif -%}
 
