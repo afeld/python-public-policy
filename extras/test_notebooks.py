@@ -6,7 +6,7 @@ from markdown_it import MarkdownIt
 from markdown_it.token import Token
 import pytest
 import re
-from .lib.nb_helper import is_h1, is_markdown, is_python, read_notebook
+from .lib.nb_helper import get_tags, is_h1, is_markdown, is_python, read_notebook
 
 
 def check_metadata(notebook, file, expected_kernel):
@@ -130,10 +130,6 @@ class PlotChecker(ast.NodeVisitor):
             assert "title" in args, f"call to `{method}()` missing a `title`"
 
 
-def get_tags(cell):
-    return cell.metadata.get("tags", [])
-
-
 @pytest.mark.parametrize("file", notebooks)
 def test_chart_titles(file):
     """Make sure all charts have titles"""
@@ -147,68 +143,6 @@ def test_chart_titles(file):
         tree = ast.parse(cell.source)
         checker = PlotChecker()
         checker.visit(tree)
-
-
-def is_slide(cell):
-    SLIDE_TYPES = ["slide", "subslide"]
-    slide_type = cell.metadata.get("slideshow", {}).get("slide_type")
-    return slide_type in SLIDE_TYPES
-
-
-def num_slides(cells):
-    """Return a weighted number of slides"""
-
-    slides = [cell for cell in cells if is_slide(cell)]
-    num_exercises = sum(
-        1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
-    )
-    # let's say that each exercise is worth ten slides
-    return len(slides) + (num_exercises * 10)
-
-
-lecture_notebooks = glob("lecture_?.ipynb")
-lecture_notebooks.sort()
-
-
-@pytest.mark.parametrize("file", lecture_notebooks)
-def test_num_slides(file):
-    """Ensure there are a reasonable number of slides for each school"""
-
-    notebook = read_notebook(file)
-
-    if file in ["lecture_1.ipynb", "lecture_2.ipynb"]:
-        pytest.xfail("Known issue that these lectures have too many slides")
-    if file == "lecture_6.ipynb":
-        pytest.xfail("The various pieces of the lecture can be scaled appropriately")
-
-    columbia = [cell for cell in notebook.cells if "nyu-only" not in get_tags(cell)]
-    num_columbia = num_slides(columbia)
-    assert num_columbia <= 63, "Too many slides for Columbia"
-
-    nyu = [cell for cell in notebook.cells if "columbia-only" not in get_tags(cell)]
-    num_nyu = num_slides(nyu)
-    assert num_nyu <= 51, "Too many slides for NYU"
-
-    assert (
-        num_nyu <= num_columbia
-    ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
-
-
-hw_notebooks = glob("hw_*.ipynb")
-hw_notebooks.sort()
-
-
-@pytest.mark.parametrize("file", hw_notebooks)
-def test_reminders(file):
-    notebook = read_notebook(file)
-
-    assert any(
-        "assignments.html" in cell.source for cell in notebook.cells
-    ), "Missing assignment submission instructions"
-
-    assert any(
-        "participation" in cell.source for cell in notebook.cells
-    ), "Missing participation reminder"
 
 
 def num_lines(output):
