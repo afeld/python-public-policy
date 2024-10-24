@@ -12,6 +12,9 @@ solutions
 tmp
 Untitled.ipynb
 
+# override the global
+!.vscode/settings.json
+
 ## Terraform ##
 
 # Local .terraform directories
