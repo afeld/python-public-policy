@@ -40,12 +40,14 @@ We will be using the AI "magic" (command). Documentation:
 - [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
 - [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
-Use the `%%ai` magic followed by the model on one line, and your prompt on the rest. Run the following in a code cell:
+Run the following in a code cell to try it out:
 
 ```
 %%ai gpt-4.0-32k
 how are you?
 ```
+
+You can then alter the prompt following the first line as you need.
 {%- endif %}
 
 ### Storing data
