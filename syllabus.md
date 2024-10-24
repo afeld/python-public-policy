@@ -295,7 +295,7 @@ If it doesn't work out for you to take or audit the class, there are countless [
 
 A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
 
-Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
+Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.{% if id == "nyu" %} Note [the exception for generative AI](#generative-ai).{% endif %}
 
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
