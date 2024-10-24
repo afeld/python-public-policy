@@ -22,7 +22,11 @@ _While this is meant as internal documentation for the instructor, others are we
    ```
 ## Slides
 
-While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/latest/usage.html#running-a-slideshow).
+While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow).
+
+```sh
+jupyter nbconvert --to slides --post serve lecture_N.ipynb
+```
 
 ## Site
 
@@ -62,20 +66,14 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 ## Start of class checklist
 
-- Zoom
-  1. Start meeting
-  1. From the podium PC, `Join Meeting`
-  1. If there's a guest, [make them a co-host](https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-Adding-a-Co-Host#h_9c3ee7f2-b70c-4061-8dcf-00dd836b2075)
-  1. Ensure all the cameras are turned on
-  1. On laptop, mute mic and speakers
-  1. On Zoom Classroom, unmute mic
-  1. Confirm audio being received in Zoom
-  1. Share screen
+- Put out attendance sheet
+- Connect to HDMI
 - [On laptop, turn on Focus mode](https://support.apple.com/guide/mac-help/set-up-a-focus-to-stay-on-task-mchl613dc43f/mac)
 - Set phone to Do Not Disturb
 - Run lecture notebook
 
 - [Set placeholders](https://settings-spring.rcnyu.org/)
+- Adjust lights
 - If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 ## Data sets
 

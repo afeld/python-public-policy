@@ -106,7 +106,7 @@ Note these instructions won't work in Colab.
 1. Start the Jupyter server:
 
    ```sh
-   ./extras/scripts/start.sh
+   jupyter notebook --no-browser
    ```
 
 ## See also
