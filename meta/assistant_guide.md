@@ -105,7 +105,6 @@ Weeks start/end at the beginning of each class.
   - Don't give extensions on the resubmission deadline unless authorized by the instructor
   {%- endif %}
 - Solutions folder will be shared with you from Google Drive
-  - [Instructor will share them with students](../assignments.md#submission) via {% if school_slug == "columbia" %}scheduled Announcements{% else %}{{coding_env_name}}{% endif %}
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
 {%- if id == 'nyu' %}
 - {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)

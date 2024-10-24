@@ -162,7 +162,7 @@ In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due
 
 ## Communications
 
-- All {% if school_slug == "nyu" %}announcements and {% endif %}assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
+- All assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
