@@ -17,9 +17,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - Lecture slides
   - Homework templates
 - [Brightspace site](https://brightspace.nyu.edu/d2l/home/384630), which students will use for:
-  - Viewing Announcements
-  - Discussions
-    - Submitting assignments
+  - Submitting assignments
   - Viewing grades
 - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594), which is used for:
   - Accouncements
@@ -38,9 +36,7 @@ There are countless resources out there to learn Python and pandas — books, vi
 
 All the lectures and assignment templates are available for download through this site, so you _could_ go through them on your own. The benefits of enrolling are:
 
-- Additional content
-  - You get access to lectures, which includes commentary that isn't available here
-  - You get access to assignment solutions
+- You get access to lectures, which includes commentary that isn't available here
 - Support
   - There is an instructor to answer questions, both during and between lectures
   - You get feedback on your assignments

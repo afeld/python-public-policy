@@ -33,7 +33,7 @@
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
 - **Grader:** Zixin Guan, zg2622@nyu.edu
 - **Office Hours:**
-  - Mondays 5-6pm, virtual, no appointment necessary
+  - Mondays 5-6pm, virtual, no appointment necessary - see Google Calendar invite
   - Other times by appointment; email the instructor
 
 ## Description
@@ -88,7 +88,7 @@ By the end of the course, students will know:
 | none    | 12/7    | none                            | none                                                       | [Final Project][final]                                             |
 | none    | 12/11   | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
 
-\*This class will be virtual or rescheduled.
+\*This class will be virtual.
 
 [l0]: https://python-public-policy.afeld.me/en/nyu/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/nyu/lecture_1.html
@@ -102,7 +102,7 @@ In general, assignments and resubmissions are due at the time class starts. Thes
 
 ## Communications
 
-- All announcements and assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/384630).
+- All assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/384630).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594), so that other students can respond and/or benefit from the answers.

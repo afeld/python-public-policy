@@ -69,7 +69,6 @@ Weeks start/end at the beginning of each class.
   - Set the `End Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
   - Don't give extensions on the resubmission deadline unless authorized by the instructor
 - Solutions folder will be shared with you from Google Drive
-  - [Instructor will share them with students](../assignments.md#submission) via JupyterHub
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking
 - Grader will manually apply [late penalty](../syllabus.md#assignment-scoring)
 

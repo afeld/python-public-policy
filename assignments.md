@@ -65,8 +65,6 @@ You can make data smaller _before_ uploading by filtering it through:
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in Brightspace.
 
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
-
 Note: In-class exercises will not be graded.
 
 ## Common issues

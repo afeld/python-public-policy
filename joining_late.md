@@ -42,7 +42,4 @@ If you're coming off the wait list or registering for the course after the first
 - [The late submission deadline](syllabus.md#schedule) will not be extended.
    - In other words: If you joined the class more than a week after the class starts, you can't turn in Homework 0 late.
 
-This is a short class, and these rules are in place to:
-
-- Ensure late-joiners get caught up quickly
-- Allow solutions for homeworks to be shared sooner than later (so that students can learn from them)
+This is a short class, and these rules are in place to ensure late-joiners get caught up quickly.

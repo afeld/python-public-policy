@@ -35,7 +35,6 @@ assignees: afeld
     - [ ] Send welcome Announcement
   - [ ] Import
   - [ ] Simplify name
-  - [ ] Clear Announcements
   - [ ] Create recurring Zoom
   - [ ] Change Assignment dates and publish them
   - [ ] Update participation dates
