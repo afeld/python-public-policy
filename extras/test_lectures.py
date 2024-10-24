@@ -49,3 +49,11 @@ def test_num_slides(file):
     assert (
         num_nyu <= num_columbia
     ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
+
+
+@pytest.mark.parametrize("file", lecture_notebooks)
+def test_attendance_reminder(file):
+    notebook = read_notebook(file)
+
+    start_cells = notebook.cells[:3]
+    assert any("attendance" in cell.source for cell in start_cells)

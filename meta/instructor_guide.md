@@ -14,7 +14,11 @@ _While this is meant as internal documentation for the instructor, others are we
 1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
 ## Slides
 
-While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/latest/usage.html#running-a-slideshow).
+While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow).
+
+```sh
+jupyter nbconvert --to slides --post serve lecture_N.ipynb
+```
 
 ## Site
 
@@ -54,17 +58,8 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 ## Start of class checklist
 
-- Zoom
-  1. Start meeting
-  1. From Zoom Classroom, `Join Meeting`
-  1. If there's a guest, [make them a co-host](https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-Adding-a-Co-Host#h_9c3ee7f2-b70c-4061-8dcf-00dd836b2075)
-  1. On laptop, mute mic and speakers
-  1. Turn on the wireless mic
-  1. From the control panel
-    1. Open `Settings` and ensure the wireless mic is unmuted
-    1. Go to `Camera Control` and select `B-Board`
-  1. Confirm audio being received in Zoom
-  1. Share screen
+- Put out attendance sheet
+- Connect to HDMI
 - [On laptop, turn on Focus mode](https://support.apple.com/guide/mac-help/set-up-a-focus-to-stay-on-task-mchl613dc43f/mac)
 - Set phone to Do Not Disturb
 - Run lecture notebook
