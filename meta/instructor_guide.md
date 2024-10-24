@@ -28,7 +28,11 @@ _While this is meant as internal documentation for the instructor, others are we
 
 ## Slides
 
-While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://rise.readthedocs.io/en/latest/usage.html#running-a-slideshow).
+While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow).
+
+```sh
+jupyter nbconvert --to slides --post serve lecture_N.ipynb
+```
 
 ## Site
 
