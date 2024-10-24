@@ -309,20 +309,11 @@ For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are tre
 
 {% else -%}
 
-This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html). Specifically, we will be using [the AI "magic" (command)](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o). [General documentation.](https://jupyter-ai.readthedocs.io/en/latest/index.html)
+This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html).
 
 **_For the homeworks and Final Project:_**
 
-You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must remain the notebook you turn in.**
-
-To use, you use the `%%ai` magic followed by the model on one line, and your prompt on the rest. Run the following in a code cell:
-
-```
-%%ai gpt-4.0-32k
-how are you?
-```
-
-**All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.**
+You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must remain the notebook you turn in. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.** [Instructions for use.](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#generative-ai)
 
 {% endif -%}
 

@@ -30,6 +30,24 @@ That is now your own copy; make edits in there directly.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
+{% if id == "nyu" -%}
+### Generative AI
+
+_See also: [course generative AI policy](https://python-public-policy.afeld.me/en/nyu/syllabus.html#generative-ai)_
+
+We will be using the AI "magic" (command). Documentation:
+
+- [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
+- [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
+
+Use the `%%ai` magic followed by the model on one line, and your prompt on the rest. Run the following in a code cell:
+
+```
+%%ai gpt-4.0-32k
+how are you?
+```
+{%- endif %}
+
 ### Storing data
 
 {% if id == 'columbia' -%}
