@@ -23,6 +23,8 @@ That is now your own copy; make edits in there directly.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
+
+
 ### Storing data
 
 To keep data between sessions, you'll probably want to store it in Google Drive.
