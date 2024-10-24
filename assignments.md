@@ -93,8 +93,6 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in {{lms_name}}.
-
-After the resubmission deadline passes for each Assignment, the solutions will be posted in [`shared/solutions/`](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree/shared/solutions/).
 {%- endif %}
 
 Note: In-class exercises will not be graded.
