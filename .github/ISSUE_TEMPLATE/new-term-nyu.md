@@ -37,7 +37,7 @@ assignees: afeld
   - [ ] Simplify name
   - [ ] Create recurring Zoom
   - [ ] Change Assignment dates and publish them
-  - [ ] Update participation dates
+  - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus.html#schedule)
   - [ ] [Set up PeerMark for Final Project](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018477&sys_kb_id=f89fbe521b6f9c10a575997fbd4bcb80&spa=1)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
 - [ ] Print attendance sheets
