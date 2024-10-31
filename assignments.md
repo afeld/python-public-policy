@@ -124,6 +124,11 @@ Note: In-class exercises will not be graded.
 - **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
+- **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch {{coding_env_name}}:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
+  1. [Launch {{coding_env_name}}.]({{coding_env_url}})
+  1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
+    - If you've edited any of the template notebooks, you can find them in that `-old` folder.
+  1. Repeat the [getting started](#getting-started) steps.
 - **PDF export:**
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
     - Not displaying so many rows/values
