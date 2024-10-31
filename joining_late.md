@@ -9,8 +9,12 @@ There is often a wait list for this course.
 - To be fair to everyone, enrollment is first come first served.
 - [How the wait list works]({{wait_list}})
 - Worst case, if you don't get in:
-   - This class is offered every {% if school_slug == "nyu" %}Fall and {% endif %}Spring
-   - [There are a lot of other ways to learn Python](resources.md)
+   {% if school_slug == "columbia" -%}
+   - You can take [this or Computing in Context](index.md#comparison-to-computing-in-context) in the future.
+   {% else -%}
+   - This class is offered every Fall and Spring.
+   {% endif -%}
+   - [There are a lot of other ways to learn Python.](resources.md)
 
 ## While you're waiting
 
