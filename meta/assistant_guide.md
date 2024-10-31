@@ -22,7 +22,7 @@ _While the Reader is the intended audience here, others are welcome to read it._
 
 ## Weekly cadence
 
-Weeks end the day of class, the next one starts the day after.
+Weeks end the day of class, the next one starts the day after. "Weeks" is therefore referring to the class-to-class cycle. These "weeks" may be longer than seven days if there's no lecture due to a holiday.
 
 - Attending class
 - [Recording attendance](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance) based on the sign-in sheets
@@ -34,16 +34,17 @@ Weeks end the day of class, the next one starts the day after.
 
 ... for students in your section. [Helper notebook.](ed_helper.ipynb)
 
-- We can be fairly forgiving/generous with what counts as completion
-- Every student should have each week marked one way or the other
-- The instructor will mark participation for students that came to office hours
-- You can use the Analytics from Ed to help
-- Each week is represented as an Assignment
+- There are five weeks of participation tracked, from [Lecture 0 through Lecture 5](../syllabus.md#schedule).
+  - That last week, they should be focused on their [Final Project](../final_project.md).
+- We can be fairly forgiving/generous with what counts as completion.
+- Every student should have each week marked one way or the other.
+- The instructor will mark participation for students that came to office hours.
+- Each week is represented as an Assignment.
   - Easiest to do this through the Grades interface, rather than SpeedGrader
   - Every cell for previous weeks should be filled in
   - Mark each student that participated as Complete
   - Mark those who didn't as Incomplete
-- Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you
+- Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 
 ### [Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless)
