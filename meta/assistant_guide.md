@@ -26,11 +26,12 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
 
 ## Weekly cadence
 
-Weeks start/end at the beginning of each class.
+Weeks end the day of class, the next one starts the day after.
 
 {% if school_slug == "columbia" -%}
 - Attending class
 {% endif -%}
+- [Recording attendance]({{attendance_url}}) based on the sign-in sheets
 - Grading assignment submissions{% if id == 'nyu' %} and resubmissions{% endif %} and releasing grades for your section
   {% if id == 'columbia' -%}
   - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
