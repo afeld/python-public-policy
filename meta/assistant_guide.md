@@ -23,7 +23,7 @@ _While the grader is the intended audience here, others are welcome to read it._
 
 ## Weekly cadence
 
-Weeks end the day of class, the next one starts the day after.
+Weeks end the day of class, the next one starts the day after. "Weeks" is therefore referring to the class-to-class cycle. These "weeks" may be longer than seven days if there's no lecture due to a holiday.
 
 - [Recording attendance](https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data) based on the sign-in sheets
 - Grading assignment submissions and resubmissions and releasing grades for your section
@@ -34,10 +34,11 @@ Weeks end the day of class, the next one starts the day after.
 
  [Helper notebook.](ed_helper.ipynb)
 
-- We can be fairly forgiving/generous with what counts as completion
-- Every student should have each week marked one way or the other
-- The instructor will mark participation for students that came to office hours
-- You can use the Analytics from Ed to help
+- There are five weeks of participation tracked, from [Lecture 0 through Lecture 5](../syllabus.md#schedule).
+  - That last week, they should be focused on their [Final Project](../final_project.md).
+- We can be fairly forgiving/generous with what counts as completion.
+- Every student should have each week marked one way or the other.
+- The instructor will mark participation for students that came to office hours.
 
 
 ### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
