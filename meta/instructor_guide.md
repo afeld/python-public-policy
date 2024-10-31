@@ -25,7 +25,10 @@ _While this is meant as internal documentation for the instructor, others are we
 While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow).
 
 ```sh
-jupyter nbconvert --to slides --post serve lecture_N.ipynb
+jupyter nbconvert --to slides \
+   --SlidesExporter.reveal_scroll=True \
+   --ServePostProcessor.browser chrome \
+   --post serve lecture_N.ipynb
 ```
 
 ## Site
