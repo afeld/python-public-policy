@@ -40,14 +40,20 @@ We will be using the AI "magic" (command). Documentation:
 - [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
 - [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
-Run the following in a code cell to try it out:
+Run the following in a `Code` cell to try it out:
+
+```
+%load_ext rit_jupyter_ai_magics
+```
+
+Then in another cell:
 
 ```
 %%ai gpt-4.0-32k
 how are you?
 ```
 
-You can then alter the prompt following the first line as you need.
+Replace `how are you?` with your prompt. You can repeat that cell as many times as you need.
 {%- endif %}
 
 ### Storing data
