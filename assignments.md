@@ -33,7 +33,7 @@ That is now your own copy; make edits in there directly.
 {% if id == "nyu" -%}
 ### Generative AI
 
-_**This is not yet functional.** See also: [course generative AI policy](https://python-public-policy.afeld.me/en/nyu/syllabus.html#generative-ai)._
+_**This is not yet functional.** See also: [course generative AI policy](syllabus.md#generative-ai)._
 
 We will be using the AI "magic" (command). Documentation:
 
