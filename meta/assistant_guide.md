@@ -45,6 +45,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 {% if school_slug == "columbia" %}... for students in your section.{% endif %} [Helper notebook.](ed_helper.ipynb)
 
 - There are five weeks of participation tracked, from [Lecture 0 through Lecture 5](../syllabus.md#schedule).
+  - That last week, they should be focused on their [Final Project](../final_project.md).
 - We can be fairly forgiving/generous with what counts as completion.
 - Every student should have each week marked one way or the other.
 - The instructor will mark participation for students that came to office hours.
