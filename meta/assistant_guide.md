@@ -23,8 +23,9 @@ _While the grader is the intended audience here, others are welcome to read it._
 
 ## Weekly cadence
 
-Weeks start/end at the beginning of each class.
+Weeks end the day of class, the next one starts the day after.
 
+- [Recording attendance](https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data) based on the sign-in sheets
 - Grading assignment submissions and resubmissions and releasing grades for your section
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
