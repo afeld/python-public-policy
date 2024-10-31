@@ -22,9 +22,10 @@ _While the Reader is the intended audience here, others are welcome to read it._
 
 ## Weekly cadence
 
-Weeks start/end at the beginning of each class.
+Weeks end the day of class, the next one starts the day after.
 
 - Attending class
+- [Recording attendance](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance) based on the sign-in sheets
 - Grading assignment submissions and releasing grades for your section
   - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
   
