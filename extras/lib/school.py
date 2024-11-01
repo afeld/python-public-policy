@@ -31,6 +31,7 @@ class SchoolText:
     assistant_name: str
     assistant_responsibilities: str
     wait_list: str
+    registration: str
     auditing: str
     r_credit: str
     assignment_cutoff_name: str
@@ -64,6 +65,7 @@ SCHOOLS = [
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
+        registration="https://bulletin.columbia.edu/sipa/registration/",
         auditing="https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq",
         r_credit="https://www.registrar.columbia.edu/content/grade-options#auditing",
         assignment_cutoff_name="`Until` date",
@@ -104,6 +106,7 @@ SCHOOLS = [
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
+        registration="https://wagner.nyu.edu/portal/students/academics/registration",
         auditing="https://wagner.nyu.edu/portal/students/academics/registration/auditing",
         r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
         assignment_cutoff_name="`End Date`",
