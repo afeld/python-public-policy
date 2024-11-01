@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+import dataclasses
 from jinja2 import Environment
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
@@ -6,7 +6,7 @@ from traitlets import Unicode
 from typing import List
 
 
-@dataclass
+@dataclasses.dataclass
 class SchoolText:
     """Class to ensure each school has the same configuration structure"""
 
