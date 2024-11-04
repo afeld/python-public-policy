@@ -16,10 +16,10 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - [Resources](resources.md)
   - Lecture slides
   - Homework templates
-- [CourseWorks site](https://courseworks2.columbia.edu/courses/187089), which students will use for:
+- [CourseWorks site](https://courseworks2.columbia.edu/courses/210776), which students will use for:
   - Submitting assignments
   - Viewing grades
-- [Ed](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless), which is used for:
+- [Ed](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless), which is used for:
   - Accouncements
   - Discussions
 - [Google Colab](https://colab.research.google.com), where work will be completed

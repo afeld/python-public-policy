@@ -47,14 +47,12 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 
-### [Discussions](https://courseworks2.columbia.edu/courses/187089/external_tools/37606?display=borderless)
+### [Discussions](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
-  - On-call schedule:
-    - Sebastian: Monday-Wednesday
-    - Leigh: Thursday-Sunday
+  - On-call schedule: TBD
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
