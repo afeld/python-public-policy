@@ -31,10 +31,10 @@
 
 - **Course Number:** [INAFU6504](https://vergil.columbia.edu/vergil/course/20241/61319)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Tuesdays 1/16-2/27
+- **Class Meeting Times:** Tuesdays 1/21-3/4
   - Section 1: 9-10:50am ET
   - Section 2: 11-12:50pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 410
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room TBD
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -44,10 +44,10 @@
 
 - **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
 - **Readers:**
-  - Section 1: Sebastian Espinosa, sme2140@columbia.edu
-  - Section 2: Leigh Mante, lom2112@columbia.edu
+  - Section 1: Muxi Li, ml4981@columbia.edu
+  - Section 2: Sipeng Ye, sy3205@columbia.edu
 - **Office Hours:**
-  - Mondays 2:30-3pm ET over [Zoom](https://columbiauniversity.zoom.us/j/93706020529?pwd=MDF6bE9NaXl2WGtNYkVzVSszZ1dGQT09), no appointment necessary
+  - TBD, no appointment necessary
   - Other times by appointment; email the instructor
 
 {% else -%}
@@ -122,15 +122,15 @@ By the end of the course, students will know:
 
 | Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
 | ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [0][l0] | 1/16 | Intro to coding                 | none                                                       |                                                            |
-| [1][l1] | 1/23 | Working with data               | [Homework 0][hw0]                                          |                                                            |
-| [2][l2] | 1/30 | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| [3][l3] | 2/6  | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| [4][l4] | 2/13 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| [5][l5] | 2/20 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| [6][l6] | 2/27 | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| none    | 3/1  | none                            | none                                                       | [Final Project][final]                                     |
-| none    | 3/5  | none                            | [Final Project peer grading][final-peer]                   |                                                            |
+| [0][l0] | 1/21 | Intro to coding                 | none                                                       |                                                            |
+| [1][l1] | 1/28 | Working with data               | [Homework 0][hw0]                                          |                                                            |
+| [2][l2] | 2/4  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| [3][l3] | 2/11 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| [4][l4] | 2/18 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| [5][l5] | 2/25 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| [6][l6] | 3/4  | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| none    | 3/7  | none                            | none                                                       | [Final Project][final]                                     |
+| none    | 3/11 | none                            | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% else -%}
 
