@@ -51,6 +51,7 @@ assignees: afeld
   - [ ] Confirm order
   - [ ] Get bio(s)
   - [ ] Update lecture 6
+  - [ ] [Fill out access form](https://academic.cuit.columbia.edu/guestaccess/)
 - [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
