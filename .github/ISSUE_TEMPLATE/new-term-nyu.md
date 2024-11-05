@@ -48,5 +48,5 @@ assignees: afeld
 - [ ] [Find guest(s)](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
   - [ ] Confirm order
   - [ ] Get bio(s)
-  - [ ] [Fill out access form](https://www.nyu.edu/about/visitor-information/sponsoring-visitors.html)
+  - [ ] [Fill out access form](https://www.nyu.edu/about/visitor-information/sponsoring-visitors.html#visitors)
   - [ ] Update lecture 6
