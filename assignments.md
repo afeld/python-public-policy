@@ -10,6 +10,7 @@ To edit/execute a Homework/lecture notebook:
 1. Open the page for the Homework/Lecture on this site.
    - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
+   - JupyterHub may take a few minutes to start up.
 1. You should now see the notebook in JupyterHub.
 That is now your own copy; make edits in there directly.
 
