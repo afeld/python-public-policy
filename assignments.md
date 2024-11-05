@@ -10,6 +10,9 @@ To edit/execute a Homework/lecture notebook:
 1. Open the page for the Homework/Lecture on this site.
    - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
+   {% if id == 'nyu' -%}
+   - {{coding_env_name}} may take a few minutes to start up.
+   {%- endif %}
 1. You should now see the notebook in {{coding_env_name}}.
 {% if id == 'columbia' -%}
 1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
