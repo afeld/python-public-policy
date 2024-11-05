@@ -9,7 +9,7 @@ There is often a wait list for this course.
 - To be fair to everyone, enrollment is first come first served.
 - [How the wait list works]({{wait_list}})
 - Worst case, if you don't get in:
-   {% if school_slug == "columbia" -%}
+   {% if id == "columbia" -%}
    - You can take [this or Computing in Context](index.md#comparison-to-computing-in-context) in the future.
    {% else -%}
    - This class is offered every Fall and Spring.
@@ -31,7 +31,7 @@ This is a short class that moves quickly, so depending on how much you missed, y
 
 If you're coming off the wait list or registering for the course after the first lecture:
 
-{% if school_slug == "columbia" %}
+{% if id == "columbia" %}
 - Within 24 hours after you're registered via SSOL, you should be automatically added to CourseWorks.
    - If you don't have access after that, [email the instructor](syllabus.md#instructor-information).
 {% endif %}

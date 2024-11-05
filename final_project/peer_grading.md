@@ -7,7 +7,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 ## How to review
 
 1. Open [{{lms_name}}]({{lms_url}}).
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 1. Go to Assignments, then `Final Project`.
    - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
    - If you're unable to access the notebooks, try:
@@ -30,7 +30,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 - The feedback should be constructive; don't be a jerk.
 - Points should only be deducted based on the [requirements](../final_project.md#analysis-requirements). Please leave comments beyond that, for things like "this could be done better/differently," even if there isn't a corresponding point deduction.
 - You are _not_ expected to run any of their code. The notebook should be graded as-is.
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 - While there are ways to find who owns a notebook on Colab, please avoid doing so.
 - "Changes cannot be saved" doesn't apply to comments.
 - [Canvas peer review documentation](https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-a-peer-review-to-an-assignment/ta-p/293)

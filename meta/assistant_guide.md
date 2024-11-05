@@ -14,7 +14,7 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
   - If someone asks to meet with you specifically, you're welcome to do so, but not required.
 - Notifications:
   - You may want to tweak your [Ed Discussion notification settings](https://edstem.org/us/settings/notifications).
-  {% if school_slug == "columbia" -%}
+  {% if id == "columbia" -%}
   - You will want to [turn on notifications for assignment comments](https://community.canvaslms.com/t5/Canvas-Question-Forum/Notification-when-student-posts-a-comment-on-an-assignment/m-p/405572#M142680).
   {%- else %}
 - Log hours for any time you put in related to this class, including any learning you're needing to do yourself to answer questions.
@@ -28,7 +28,7 @@ _While the {{assistant_name}} is the intended audience here, others are welcome 
 
 Weeks end the day of class, the next one starts the day after. "Weeks" is therefore referring to the class-to-class cycle. These "weeks" may be longer than seven days if there's no lecture due to a holiday.
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 - Attending class
 {% endif -%}
 - [Recording attendance]({{attendance_url}}) based on the sign-in sheets
@@ -42,14 +42,14 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 ### [Between-class participation](../syllabus.md#participation) tracking
 
-{% if school_slug == "columbia" %}... for students in your section.{% endif %} [Helper notebook.](ed_helper.ipynb)
+{% if id == "columbia" %}... for students in your section.{% endif %} [Helper notebook.](ed_helper.ipynb)
 
 - There are five weeks of participation tracked, from [Lecture 0 through Lecture 5](../syllabus.md#schedule).
   - That last week, they should be focused on their [Final Project](../final_project.md).
 - We can be fairly forgiving/generous with what counts as completion.
 - Every student should have each week marked one way or the other.
 - The instructor will mark participation for students that came to office hours.
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 - Each week is represented as an Assignment.
   - Easiest to do this through the Grades interface, rather than SpeedGrader
   - Every cell for previous weeks should be filled in
@@ -64,7 +64,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
-  {% if school_slug == "columbia" -%}
+  {% if id == "columbia" -%}
   - On-call schedule: TBD
   {%- endif %}
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
@@ -84,7 +84,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 ## Assignments
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 - Recommend [creating a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you
 - Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
   - Filter the students to your particular section in the top right
@@ -93,8 +93,8 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 {% else -%}
 - Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
 {% endif -%}
-- [Scoring {% if school_slug == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
-{% if school_slug == "columbia" -%}
+- [Scoring {% if id == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
+{% if id == "columbia" -%}
 - [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
 {% else -%}
 - [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
@@ -131,13 +131,13 @@ The following should be true for each Assignment:
 - [ ] Grouped and [ordered]({{lms_reorder_docs}}) in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
-{% if school_slug == "nyu" -%}
+{% if id == "nyu" -%}
     - Final Project Proposal is a Discussion
 {%- endif %}
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] {{assignment_cutoff_name}}
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 - [ ] [Published](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-publish-or-unpublish-an-assignment-as-an-instructor/ta-p/585)
 - [ ] Grading Policy Settings (under Grades tab)
   - [ ] **Late Policies:** Check "Automatically apply deduction to late assignments"
@@ -149,7 +149,7 @@ The following should be true for each Assignment:
 
 ### Plagiarism
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 Per the [Code of Academic and Professional Conduct](https://bulletin.columbia.edu/sipa/academic-policies/academic-and-professional-conduct/):
 
 > It is the responsibility of all members of the SIPA community to encourage academic integrity and to deter, confront, and report all acts of academic dishonesty.
@@ -182,13 +182,13 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 #### Grading
 
-[The Final Projects themselves are peer graded.](../final_project/peer_grading.md) {% if school_slug == "nyu" %}We're using [PeerMark](https://www.nyu.edu/servicelink/KB0018477) to facilitate the peer grading.{% endif %} Once the peer review deadline passes:
+[The Final Projects themselves are peer graded.](../final_project/peer_grading.md) {% if id == "nyu" %}We're using [PeerMark](https://www.nyu.edu/servicelink/KB0018477) to facilitate the peer grading.{% endif %} Once the peer review deadline passes:
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 1. In the Final Project Assignment, open Speedgrader.
 {%- endif %}
 1. Open each submission.
-{% if school_slug == "nyu" -%}
+{% if id == "nyu" -%}
 1. For similarity scores over 20%, look at the [report](https://help.turnitin.com/feedback-studio/lti/instructor/instructor-category.htm#the-similarity-report).
    - Matches in data output can be ignored.
    - If it seems like there may be instances of [plagiarism](../syllabus.md#class-policies) or you're not sure, let the instructor know.

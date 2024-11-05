@@ -25,7 +25,7 @@
   }
 </style>
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 
 ## Course Information
 
@@ -118,7 +118,7 @@ By the end of the course, students will know:
 
 ## Schedule
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 
 | Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
 | ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
@@ -194,7 +194,7 @@ The Course Grade is based on the following:
 [final]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project.html
 [final-peer]: https://python-public-policy.afeld.me/en/{{school_slug}}/final_project/peer_grading.html
 
-{% if school_slug == "columbia" -%}
+{% if id == "columbia" -%}
 The overall grade is curved; see [the methodology](https://python-public-policy.afeld.me/en/{{school_slug}}/curve.html).
 {% else -%}
 It is entirely possible for everyone in the class to get over 100%.

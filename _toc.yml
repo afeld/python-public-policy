@@ -6,7 +6,7 @@ chapters:
   - file: syllabus
     sections:
       - file: joining_late
-      {% if school_slug == "columbia" -%}
+      {% if id == "columbia" -%}
       - file: curve
       {%- endif %}
   - file: assignments
