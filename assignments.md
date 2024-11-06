@@ -36,27 +36,32 @@ That is now your own copy; make edits in there directly.
 {% if id == "nyu" -%}
 ### Generative AI
 
-_**This is not yet functional.** See also: [course generative AI policy](syllabus.md#generative-ai)._
+_See also: [course generative AI policy](syllabus.md#generative-ai)._
 
 We will be using the AI "magic" (command). Documentation:
 
 - [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
 - [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
-Run the following in a `Code` cell to try it out:
+#### Usage
 
-```
-%load_ext rit_jupyter_ai_magics
-```
+1. Open [{{coding_env_name}}]({{coding_env_url}}).
+1. Create a new notebook using the `Python [conda env:base]` {{coding_env_kernel_name}}.
+   - We will only use this {{coding_env_kernel_name}} for AI; [all other notebooks should use `Python [conda env:python-public-policy]`](#{{coding_env_kernel_name}}-memory-issues).
+1. Load the models by running the following in a `Code` cell:
 
-Then in another cell:
+   ```
+   %load_ext rit_jupyter_ai_magics
+   ```
 
-```
-%%ai gpt-4.0-32k
-how are you?
-```
+1. In another cell, run:
 
-Replace `how are you?` with your prompt. You can repeat that cell as many times as you need.
+   ```
+   %%ai gpt-4.0-32k
+   how are you?
+   ```
+
+1. Replace `how are you?` with your prompt. You can repeat that cell as many times as you need.
 {%- endif %}
 
 ### Storing data

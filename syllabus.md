@@ -295,7 +295,7 @@ If it doesn't work out for you to take or audit the class, there are countless [
 
 A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
 
-Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.{% if id == "nyu" %} Note [the exception for generative AI](#generative-ai).{% endif %}
+Similarly, it is common practice to use code snippets found on the internet; these sources must be cited.
 
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
@@ -303,19 +303,11 @@ Students may post their [Final Project](https://python-public-policy.afeld.me/en
 
 ### Generative AI
 
-{% if id == "columbia" -%}
+{% if id == "nyu" -%}
+This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html). This will give you access to a more powerful model than is available for free publicly. [Instructions for use.](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#generative-ai)
+{% endif -%}
 
 For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are treated the same as other sources. For any code that's copied, reference the use of the tool and link to the discussion (where supported).
-
-{% else -%}
-
-This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html).
-
-**_For the homeworks and Final Project:_**
-
-You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must remain the notebook you turn in. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.** [Instructions for use.](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#generative-ai)
-
-{% endif -%}
 
 Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
