@@ -28,16 +28,12 @@ dependencies:
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
-  - ipytest=0.14.*
   - wget
   # https://plotly.com/python/static-image-export/
   - python-kaleido
   # required for plotly rendering
   # https://github.com/plotly/plotly.py/blob/94f2024bc981bdfd3d4ba527122a21286f4c7793/packages/python/plotly/plotly/io/_renderers.py#L395
   - nbformat
-  # necessary optional dependency for nbformat->jsonschema
-  # https://python-jsonschema.readthedocs.io/en/stable/validate/#validating-formats
-  - isoduration
   # needed for plotly
   # https://plotly.com/python/getting-started/#jupyterlab-support
   - ipywidgets>=7.6
