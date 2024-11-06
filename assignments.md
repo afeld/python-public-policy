@@ -79,7 +79,7 @@ Note: In-class exercises will not be graded.
 
 
 
-### runtime/memory issues
+### runtime and memory issues
 
 The runtime is the place where Python is installed and the code is actually executing, in the cloud somewhere.
 
