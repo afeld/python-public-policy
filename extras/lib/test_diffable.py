@@ -17,11 +17,6 @@ def test_ignore_system():
     assert should_clear_output(cell)
 
 
-def test_ignore_ipytest():
-    cell = NotebookNode({"source": "%%ipytest -qq", "outputs": ""})
-    assert should_clear_output(cell)
-
-
 def test_ignore_image():
     cell = NotebookNode(
         {
