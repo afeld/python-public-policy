@@ -243,7 +243,7 @@ This course is taking part in [NYU’s Private Generative AI Service Pilot](http
 
 **_For the homeworks and Final Project:_**
 
-You are welcome to use the AI magic and can ask it any questions you like without penalty, but **all use of it must be done through JupyterHub, and that notebook must be [turned in](https://python-public-policy.afeld.me/en/nyu/assignments.html#submission) with the corresponding work. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.** [Instructions for use.](https://python-public-policy.afeld.me/en/nyu/assignments.html#generative-ai)
+You are welcome to use [the AI magic](https://python-public-policy.afeld.me/en/nyu/assignments.html#generative-ai) and can ask it any questions you like without penalty, but **all use of it must be done through JupyterHub, and that notebook must be [turned in](https://python-public-policy.afeld.me/en/nyu/assignments.html#submission) with the corresponding work. All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), GitHub Copilot, etc.) is prohibited.**
 
 Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
