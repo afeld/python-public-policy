@@ -47,7 +47,7 @@ We will be using the AI "magic" (command). Documentation:
 
 1. Open [{{coding_env_name}}]({{coding_env_url}}).
 1. Create a new notebook using the `Python [conda env:base]` {{coding_env_kernel_name}}.
-   - We will only use this {{coding_env_kernel_name}} for AI; [all other notebooks should use `Python [conda env:python-public-policy]`](#{{coding_env_kernel_name}}-memory-issues).
+   - We will only use this {{coding_env_kernel_name}} for AI; [all other notebooks should use `Python [conda env:python-public-policy]`](#{{coding_env_kernel_name}}-and-memory-issues).
 1. Load the models by running the following in a `Code` cell:
 
    ```
@@ -182,7 +182,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
 If you're confused by these instrucions, download the notebook file and [email to the instructor](syllabus.md#instructor-information).
 {%- endif %}
 
-### {{coding_env_kernel_name}}/memory issues
+### {{coding_env_kernel_name}} and memory issues
 
 The {{coding_env_kernel_name}} is the place where Python is installed and the code is actually executing, in the cloud somewhere.
 
