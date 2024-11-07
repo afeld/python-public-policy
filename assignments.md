@@ -46,6 +46,7 @@ To keep data between sessions, you'll probably want to store it in Google Drive.
 You can make data smaller _before_ uploading by filtering it through:
 
 - The data portal, if it supports it
+  - This allows you to only download the data you need.
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - In a spreadsheet program
 
