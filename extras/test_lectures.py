@@ -44,9 +44,11 @@ def test_num_slides(file):
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     num_columbia = num_slides_without_tag(notebook.cells, "nyu-only")
+    assert num_columbia >= 43, "Too few slides for Columbia"
     assert num_columbia <= 63, "Too many slides for Columbia"
 
     num_nyu = num_slides_without_tag(notebook.cells, "columbia-only")
+    assert num_nyu >= 40, "Too few slides for NYU"
     assert num_nyu <= 51, "Too many slides for NYU"
 
     assert (
