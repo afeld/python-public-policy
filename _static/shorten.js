@@ -12,9 +12,8 @@ $(() => {
   const activeClasses = "active btn-primary";
   const disabledClasses = "disabled btn-secondary";
 
-  const urlPattern = RegExp(
-    "^https://.*/([A-Za-z0-9]{4}-[A-Za-z0-9]{4})([\\/\\?#].*)?"
-  );
+  // https://support.socrata.com/hc/en-us/articles/202950258-What-is-a-Dataset-UID-or-a-Dataset-4x4
+  const urlPattern = /^https:\/\/.*\/([A-Za-z0-9]{4}-[A-Za-z0-9]{4})([/?#].*)?/;
 
   const enableDownload = (url) => {
     downloadEl
@@ -34,7 +33,6 @@ $(() => {
 
   const updateDownload = () => {
     const inputText = inputEl.val();
-    // https://support.socrata.com/hc/en-us/articles/202950258-What-is-a-Dataset-UID-or-a-Dataset-4x4-
     const matches = inputText.match(urlPattern);
 
     if (inputEl[0].checkValidity() && countEl[0].checkValidity() && matches) {
