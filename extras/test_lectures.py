@@ -20,11 +20,19 @@ def num_slides(cells):
     """Return a weighted number of slides"""
 
     slides = [cell for cell in cells if is_slide(cell)]
+    count = len(slides)
+
+    has_intro = any("# Introductions" in slide.source for slide in slides)
+    if has_intro:
+        count += 5
+
     num_exercises = sum(
         1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
     )
     # let's say that each exercise is worth ten slides
-    return len(slides) + (num_exercises * 10)
+    count += num_exercises * 10
+
+    return count
 
 
 def num_slides_without_tag(cells, tag):
