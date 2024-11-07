@@ -98,7 +98,6 @@ You can make data smaller _before_ uploading by filtering it through:
 - The data portal, if it supports it
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - In a spreadsheet program
-- For the [NYC Open Data Portal](https://opendata.cityofnewyork.us/), though [the shortener widget](shorten.md)
 
 ## Submission
 
