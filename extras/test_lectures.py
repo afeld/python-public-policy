@@ -33,7 +33,7 @@ def test_num_slides(file):
 
     notebook = read_notebook(file)
 
-    if file in ["lecture_1.ipynb", "lecture_2.ipynb"]:
+    if file == "lecture_1.ipynb":
         pytest.xfail("Known issue that these lectures have too many slides")
     if file == "lecture_6.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
