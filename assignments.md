@@ -71,6 +71,7 @@ JupyterHub has a disk storage limit of 1GB (a.k.a. 1,024 MB or 1,048,576 KB) acr
 You can make data smaller _before_ uploading by filtering it through:
 
 - The data portal, if it supports it
+  - This allows you to only download the data you need.
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - In a spreadsheet program
 
