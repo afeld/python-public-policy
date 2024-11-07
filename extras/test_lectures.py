@@ -27,6 +27,11 @@ def num_slides(cells):
     return len(slides) + (num_exercises * 10)
 
 
+def num_slides_without_tag(cells, tag):
+    tagged_cells = [cell for cell in cells if tag not in get_tags(cell)]
+    return num_slides(tagged_cells)
+
+
 @pytest.mark.parametrize("file", lecture_notebooks)
 def test_num_slides(file):
     """Ensure there are a reasonable number of slides for each school"""
@@ -38,12 +43,10 @@ def test_num_slides(file):
     if file == "lecture_6.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
-    columbia = [cell for cell in notebook.cells if "nyu-only" not in get_tags(cell)]
-    num_columbia = num_slides(columbia)
+    num_columbia = num_slides_without_tag(notebook.cells, "nyu-only")
     assert num_columbia <= 63, "Too many slides for Columbia"
 
-    nyu = [cell for cell in notebook.cells if "columbia-only" not in get_tags(cell)]
-    num_nyu = num_slides(nyu)
+    num_nyu = num_slides_without_tag(notebook.cells, "columbia-only")
     assert num_nyu <= 51, "Too many slides for NYU"
 
     assert (
