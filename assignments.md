@@ -46,8 +46,6 @@ We will be using the AI "magic" (command). Documentation:
 #### Usage
 
 1. Open [{{coding_env_name}}]({{coding_env_url}}).
-1. Create a new notebook using the `Python [conda env:base]` {{coding_env_kernel_name}}.
-   - We will only use this {{coding_env_kernel_name}} for AI; [all other notebooks should use `Python [conda env:python-public-policy]`](#{{coding_env_kernel_name}}-and-memory-issues).
 1. Load the models by running the following in a `Code` cell:
 
    ```
@@ -125,7 +123,6 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
 1. **If the Final Project:**
    1. In [{{lms_name}}]({{lms_url}}), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
-1. **If you [used generative AI](#generative-ai):** Repeat the previous steps to also turn in the notebook with your interactions.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in {{lms_name}}.
 {%- endif %}
