@@ -149,7 +149,7 @@ Note: In-class exercises will not be graded.
     - Not displaying so many rows/values
     - Reducing the number of points that are plotted
 {% endif -%}
-- **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:
+- **When using `choropleth_map()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
     - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
   - The column and the GeoJSON properties have values that match
