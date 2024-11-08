@@ -36,8 +36,6 @@ We will be using the AI "magic" (command). Documentation:
 #### Usage
 
 1. Open [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
-1. Create a new notebook using the `Python [conda env:base]` kernel.
-   - We will only use this kernel for AI; [all other notebooks should use `Python [conda env:python-public-policy]`](#kernel-and-memory-issues).
 1. Load the models by running the following in a `Code` cell:
 
    ```
@@ -92,7 +90,6 @@ You can make data smaller _before_ uploading by filtering it through:
 1. **If the Final Project:**
    1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/384630), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
-1. **If you [used generative AI](#generative-ai):** Repeat the previous steps to also turn in the notebook with your interactions.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in Brightspace.
 
