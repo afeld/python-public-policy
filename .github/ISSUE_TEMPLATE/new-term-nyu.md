@@ -29,6 +29,12 @@ assignees: afeld
   - [ ] Confirm [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2) works
     - If it doesn't render, it might be [this problem](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be).
   - [ ] Sign up for [generative AI pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html)
+    - [ ] Install AI magic in custom environment by having the [Instructional Tools For Coding](mailto:Instructional-Tools-For-Coding@nyu.edu) copy over the package wheel and running a command like:
+
+        ```sh
+        pip install langchain_openai ./rit_jupyter_ai_magics-2.21.0-py3-none-any.whl
+        ```
+
 - [ ] New Brightspace site
   - [ ] Update bookmark
   - [ ] [Request Ed Discussions](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0019715&sys_kb_id=332d12091b25d150191ca8233a4bcb60&spa=1)
