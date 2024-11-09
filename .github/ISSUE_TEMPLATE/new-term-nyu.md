@@ -52,8 +52,7 @@ assignees: afeld
   - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
 - [ ] Set reminder to bring attendance sheets
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions
-- [ ] [Find guest(s)](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
-  - [ ] Confirm order
-  - [ ] Get bio(s)
+- [ ] [Find guest](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
+  - [ ] Get bio
   - [ ] [Fill out access form](https://www.nyu.edu/about/visitor-information/sponsoring-visitors.html#visitors)
   - [ ] Update lecture 6
