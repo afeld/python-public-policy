@@ -182,7 +182,7 @@ If you're confused by these instrucions, download the notebook file and [email t
 
 ### {{coding_env_kernel_name}} and memory issues
 
-The {{coding_env_kernel_name}} is the place where Python is installed and the code is actually executing, in the cloud somewhere.
+The {{coding_env_kernel_name}} is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
 {% if id == 'nyu' -%}
 - Make sure `Python [conda env:python-public-policy]` is selected as the {{coding_env_kernel_name}}.

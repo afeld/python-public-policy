@@ -95,9 +95,7 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 We use [a cloud-based Jupyter environment ({{coding_env_name}})](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
-{% if id == "columbia" -%}
-Some additional options for running Jupyter:
-{% else -%}
+{% if id == "nyu" -%}
 After this class, however, you'll no longer have access. To download the files:
 
 1. Open a notebook
@@ -105,13 +103,24 @@ After this class, however, you'll no longer have access. To download the files:
 1. From [the file browser](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree), check the box next to `python_files.tar.gz`, then click `Download`
 1. On your computer, unzip the file.
    - On Windows, you may need to install [7-Zip](https://www.7-zip.org/) to do so.
+{%- endif %}
 
-Some options for running Jupyter on your own:
+A non-exhaustive list of alternatives:
 
-- [Google Colab](https://colab.research.google.com/)
-{% endif -%}
-- [Anaconda](https://www.anaconda.com/)
+### Local
+
+- [Anaconda Distribution](https://www.anaconda.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+### Cloud-based
+
+- [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
+- [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
+{% if id != "columbia" -%}
+- [Google Colab](https://colab.research.google.com/)
+{%- endif %}
+- [Kaggle Notebooks](https://www.kaggle.com/docs/notebooks)
+- [Mode Notebooks](https://mode.com/help/articles/notebook)
 
 ### Matching the class environment
 
