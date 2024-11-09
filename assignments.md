@@ -140,7 +140,7 @@ If you're confused by these instrucions, download the notebook file and [email t
 
 ### kernel and memory issues
 
-The kernel is the place where Python is installed and the code is actually executing, in the cloud somewhere.
+The kernel is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
 - Make sure `Python [conda env:python-public-policy]` is selected as the kernel.
   - Shows in the top right of the notebook interface

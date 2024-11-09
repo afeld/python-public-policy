@@ -76,11 +76,20 @@ After this class, however, you'll no longer have access. To download the files:
 1. On your computer, unzip the file.
    - On Windows, you may need to install [7-Zip](https://www.7-zip.org/) to do so.
 
-Some options for running Jupyter on your own:
+A non-exhaustive list of alternatives:
 
-- [Google Colab](https://colab.research.google.com/)
-- [Anaconda](https://www.anaconda.com/)
+### Local
+
+- [Anaconda Distribution](https://www.anaconda.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+### Cloud-based
+
+- [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
+- [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
+- [Google Colab](https://colab.research.google.com/)
+- [Kaggle Notebooks](https://www.kaggle.com/docs/notebooks)
+- [Mode Notebooks](https://mode.com/help/articles/notebook)
 
 ### Matching the class environment
 
