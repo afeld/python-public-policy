@@ -81,7 +81,7 @@ Note: In-class exercises will not be graded.
 
 ### runtime and memory issues
 
-The runtime is the place where Python is installed and the code is actually executing, in the cloud somewhere.
+The runtime is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
 
 - If your runtime is repeatedly crashing, you're probably running out of memory.

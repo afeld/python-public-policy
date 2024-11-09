@@ -63,9 +63,22 @@ Countless other "learn Python" resources/courses/videos/books out there; there i
 
 We use [a cloud-based Jupyter environment (Google Colab)](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
-Some additional options for running Jupyter:
-- [Anaconda](https://www.anaconda.com/)
+
+
+A non-exhaustive list of alternatives:
+
+### Local
+
+- [Anaconda Distribution](https://www.anaconda.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+### Cloud-based
+
+- [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
+- [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
+
+- [Kaggle Notebooks](https://www.kaggle.com/docs/notebooks)
+- [Mode Notebooks](https://mode.com/help/articles/notebook)
 
 ### Matching the class environment
 
