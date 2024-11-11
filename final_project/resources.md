@@ -24,7 +24,9 @@ There are countless places to get data, notably:
 
 ## Inspiration
 
-Probably not realistic to make visualizations that are as fancy as these, but they may give you ideas. Some also include links/downloads of the source data.
+For starters, see the [examples from past semesters](examples.md).
+
+Probably not realistic to make visualizations that are as fancy as these ones made by professionals, but they may give you ideas. Some also include links/downloads of the source data.
 
 - [FiveThirtyEight Interactives](https://projects.fivethirtyeight.com/)
 - [The Guardian Visual Journalism](https://www.theguardian.com/interactive)
