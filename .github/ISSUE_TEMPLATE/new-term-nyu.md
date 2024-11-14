@@ -40,6 +40,8 @@ assignees: afeld
   - [ ] [Request Ed Discussions](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0019715&sys_kb_id=332d12091b25d150191ca8233a4bcb60&spa=1)
     - [ ] Create categories
     - [ ] Send welcome Announcement
+    - [ ] Set up Thread for Final Project Proposal
+      - [ ] Replace link
   - [ ] Import
   - [ ] Simplify name
   - [ ] Create recurring Zoom

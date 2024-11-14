@@ -26,6 +26,8 @@ assignees: afeld
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
     - [ ] Create categories
     - [ ] Send welcome Announcement
+    - [ ] Set up Thread for Final Project Proposal
+      - [ ] Replace link
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
   - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity)
