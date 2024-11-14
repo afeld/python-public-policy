@@ -114,7 +114,7 @@ SCHOOLS = [
         r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
         assignment_cutoff_name="`End Date`",
         python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
-        final_project_proposal="https://edstem.org/us/courses/56920/discussion/4727810",
+        final_project_proposal="https://edstem.org/us/courses/68651/discussion/5711987",
         attendance_url="https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data",
         words=[
             "bonus",
