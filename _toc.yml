@@ -66,5 +66,6 @@ chapters:
   - file: meta
     sections:
       - file: meta/assistant_guide
-      - file: meta/ed_helper
+        sections:
+          - file: meta/ed_helper
       - file: meta/instructor_guide
