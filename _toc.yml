@@ -5,6 +5,7 @@ chapters:
     title: Homepage
   - file: syllabus
     sections:
+      - file: registration
       - file: joining_late
       {% if id == "columbia" -%}
       - file: curve

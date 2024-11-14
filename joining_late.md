@@ -18,7 +18,7 @@ There is often a wait list for this course.
 
 ## While you're waiting
 
-If you're not officially registered for the course but want to be, due to being wait-listed or having a registration issue:
+If you're not officially [registered](registration.md) for the course but want to be, due to being wait-listed or having a registration issue:
 
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including past lectures.
