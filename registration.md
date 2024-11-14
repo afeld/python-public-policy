@@ -9,6 +9,6 @@ If you're waiting to get in, see [what you can do in the meantime](joining_late.
 
 See the [school policies]({{auditing}}). Students must be officially registered. If there's a [wait list](joining_late.md#wait-list), priority for spots in the class will be given to students taking it for credit.
 
-Once registered: To receive [R-credit]({{r_credit}}), every assignment should at least be attempted and submitted. The [between-class participation](#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
+Once registered: To receive [R-credit]({{r_credit}}), every assignment should at least be attempted and submitted. The [between-class participation](syllabus.md#participation) is not required. At the end of the course, please remind the instructor that you were auditing.
 
 If it doesn't work out for you to take or audit the class, there are countless [other options for learning Python](resources.md).
