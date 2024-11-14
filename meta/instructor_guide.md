@@ -25,10 +25,7 @@ _While this is meant as internal documentation for the instructor, others are we
 While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow).
 
 ```sh
-jupyter nbconvert --to slides \
-   --SlidesExporter.reveal_scroll=True \
-   --ServePostProcessor.browser chrome \
-   --post serve lecture_N.ipynb
+make slides lec=N
 ```
 
 ## Site
@@ -56,7 +53,7 @@ The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed
 Once the site is built, you can check broken links with:
 
 ```sh
-ruby ./extras/scripts/broken_links.rb
+make linkcheck
 ```
 
 ## Notebook cleanup
