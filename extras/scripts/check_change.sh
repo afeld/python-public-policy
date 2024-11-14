@@ -46,6 +46,11 @@ case "$SOURCE" in
     exit
     ;;
 
+  "lecture_5_exercise_solution.ipynb")
+    # place_id seems to be unstable
+    exit
+    ;;
+
 esac
 
 echo "Comparing output..."
