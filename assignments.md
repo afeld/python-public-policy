@@ -43,6 +43,8 @@ We will be using the AI "magic" (command). Documentation:
 - [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
 - [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
+Note that we only have the `gpt-4.0-32k` model enabled.
+
 #### Usage
 
 1. Open [{{coding_env_name}}]({{coding_env_url}}).
