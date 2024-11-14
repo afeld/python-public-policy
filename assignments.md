@@ -33,6 +33,8 @@ We will be using the AI "magic" (command). Documentation:
 - [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
 - [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
 
+Note that we only have the `gpt-4.0-32k` model enabled.
+
 #### Usage
 
 1. Open [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
