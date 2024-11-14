@@ -26,7 +26,7 @@ assignees: afeld
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
     - [ ] Create categories
     - [ ] Send welcome Announcement
-    - [ ] Set up Thread for Final Project Proposal
+    - [ ] Set up Megathread for Final Project proposals
       - [ ] Replace link
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
