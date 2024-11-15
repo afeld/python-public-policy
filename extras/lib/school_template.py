@@ -1,5 +1,5 @@
 import dataclasses
-import re
+from urllib.parse import urlparse
 from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
@@ -15,7 +15,11 @@ env = Environment(undefined=StrictUndefined)
 def get_vars(school_id: str):
     school_text = SCHOOL_TEXT[school_id]
     local_vars = dataclasses.asdict(school_text)
-    local_vars["coding_env_origin"] = re.sub(r"/hub/.+$", "", local_vars["coding_env_url"])
+
+    coding_env = urlparse(local_vars["coding_env_url"])
+    # get rid of the nbgitpuller stuff
+    local_vars["coding_env_origin"] = f"{coding_env.scheme}://{coding_env.netloc}"
+
     return local_vars
 
 
