@@ -56,7 +56,7 @@ for f in $FILES; do
             --TagRemovePreprocessor.enabled=True \
             --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG \
             --TagRemovePreprocessor.remove_cell_tags remove \
-            --Exporter.preprocessors=extras.lib.school.SchoolTemplate \
+            --Exporter.preprocessors=extras.lib.school_template.SchoolTemplate \
             --SchoolTemplate.school_id="$SCHOOL" \
             "$f"
     else

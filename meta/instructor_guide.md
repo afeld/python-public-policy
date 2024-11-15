@@ -2,9 +2,6 @@
 
 _While this is meant as internal documentation for the instructor, others are welcome to read it._
 
-- JupyterHub
-  - [Settings](https://settings-spring.rcnyu.org/)
-  - [Instructor site](https://padmgp-4506-instructor.rcnyu.org/)
 ## Adding/updating packages
 
 1. Modify [`environment.yml`](../extras/environment.yml)
