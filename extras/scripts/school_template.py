@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from ..lib.school import confirm_other_schools_not_included, render_template
+from ..lib.school_template import confirm_other_schools_not_included, render_template
 
 parser = ArgumentParser(
     # https://stackoverflow.com/a/8789689/358804
