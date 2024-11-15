@@ -12,13 +12,17 @@ COURSE_HOSTNAME = "python-public-policy.afeld.me"
 env = Environment(undefined=StrictUndefined)
 
 
+def origin(url: str):
+    parsed = urlparse(url)
+    return f"{parsed.scheme}://{parsed.netloc}"
+
+
 def get_vars(school_id: str):
     school_text = SCHOOL_TEXT[school_id]
     local_vars = dataclasses.asdict(school_text)
 
-    coding_env = urlparse(local_vars["coding_env_url"])
     # get rid of the nbgitpuller stuff
-    local_vars["coding_env_origin"] = f"{coding_env.scheme}://{coding_env.netloc}"
+    local_vars["coding_env_origin"] = origin(local_vars["coding_env_url"])
 
     return local_vars
 
