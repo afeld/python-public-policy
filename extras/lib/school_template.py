@@ -15,7 +15,7 @@ env = Environment(undefined=StrictUndefined)
 def get_vars(school_id: str):
     school_text = SCHOOL_TEXT[school_id]
     local_vars = dataclasses.asdict(school_text)
-    local_vars["coding_env_root_url"] = re.sub(r"/hub/.+$", "", local_vars["coding_env_url"])
+    local_vars["coding_env_origin"] = re.sub(r"/hub/.+$", "", local_vars["coding_env_url"])
     return local_vars
 
 

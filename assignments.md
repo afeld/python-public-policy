@@ -139,7 +139,7 @@ Note: In-class exercises will not be graded.
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
 - **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch {{coding_env_name}}:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
-  1. [Launch {{coding_env_name}}.]({{coding_env_root_url}})
+  1. [Launch {{coding_env_name}}.]({{coding_env_origin}})
   1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
     - If you've edited any of the template notebooks, you can find them in that `-old` folder.
   1. Repeat the [getting started](#getting-started) steps.
@@ -161,7 +161,7 @@ Note: In-class exercises will not be graded.
 If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-1. Go to [start your server again]({{coding_env_root_url}}).
+1. Go to [start your server again]({{coding_env_origin}}).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
@@ -171,7 +171,7 @@ If you get an error of `Disk is full` / `No space left on device` / `Out of disk
 
 This error can happen if you tried to output a lot of data in tables/charts. Steps to resolve:
 
-1. Open the [{{coding_env_name}}]({{coding_env_root_url}})) file browser
+1. Open the [{{coding_env_name}}]({{coding_env_origin}})) file browser
 1. Click `New`, then `Terminal`
 1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
 
@@ -197,4 +197,4 @@ The {{coding_env_kernel_name}} is [the place where Python is installed and the c
 - If your {{coding_env_kernel_name}} is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
-  {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_root_url}}/user-redirect/tree#running) page.{% endif %}
+  {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.{% endif %}
