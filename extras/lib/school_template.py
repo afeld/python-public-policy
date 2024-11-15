@@ -1,4 +1,5 @@
 import dataclasses
+import re
 from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
@@ -7,15 +8,20 @@ from traitlets import Unicode
 from .school import EXEMPT, SCHOOL_TEXT, SCHOOLS, SchoolText
 
 COURSE_HOSTNAME = "python-public-policy.afeld.me"
+
 env = Environment(undefined=StrictUndefined)
+
+
+def get_vars(school_id: str):
+    school_text = SCHOOL_TEXT[school_id]
+    local_vars = dataclasses.asdict(school_text)
+    local_vars["coding_env_root_url"] = re.sub(r"/hub/.+$", "", local_vars["coding_env_url"])
+    return local_vars
 
 
 def render_template(source: str, school_id: str):
     template = env.from_string(source)
-
-    school_text = SCHOOL_TEXT[school_id]
-    local_vars = dataclasses.asdict(school_text)
-
+    local_vars = get_vars(school_id)
     return template.render(**local_vars)
 
 
