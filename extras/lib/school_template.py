@@ -1,5 +1,5 @@
 import dataclasses
-from jinja2 import Environment
+from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
 from traitlets import Unicode
@@ -7,7 +7,7 @@ from traitlets import Unicode
 from .school import EXEMPT, SCHOOL_TEXT, SCHOOLS, SchoolText
 
 COURSE_HOSTNAME = "python-public-policy.afeld.me"
-env = Environment()
+env = Environment(undefined=StrictUndefined)
 
 
 def render_template(source: str, school_id: str):
