@@ -1,6 +1,8 @@
-from .school import render_cell, confirm_other_schools_not_included, SCHOOL_TEXT
 from nbformat.v4 import new_markdown_cell
 import pytest
+
+from .school import SCHOOL_TEXT
+from .school_template import confirm_other_schools_not_included, render_cell
 
 
 @pytest.mark.parametrize("id", [("columbia"), ("nyu")])
