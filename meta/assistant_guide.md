@@ -123,14 +123,18 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 - Students are encouraged to submit before the deadline to get feedback sooner.
   - Please provide feedback on [the proposals](../final_project/proposal.md) within four days of submission so that students can get started.
-- If the proposal shows effort and follows the [format](../final_project/proposal.md#format), full credit should be given
+- If the proposal shows effort and follows the [format](../final_project/proposal.md#format), full credit should be given.
 - Things to look for (don't spend too long on these):
   - Will their dataset answer their question?
   - Do they have a question that is objectively answerable?
   - Will it be the right level of challenge for the duration of the project and their skills, not too much, not too little?
-- The feedback you will likely give the most often will be something like:
+- You will often need to provide feedback along the lines of:
 
   > Your question is good, but you'll probably be able to answer it in relatively few lines of code. Think about what your follow-up question(s) will be.
+
+- Constructive feedback can be given as a reply in Ed (where other students can see). If the proposal is bad, send an email.
+  - In other words, avoid embarrassing anyone.
+- To indicate to a student that their proposal is good to go, mark the reply as [Resolved](https://edstem.org/help/using-ed-discussion).
 
 #### Grading
 
