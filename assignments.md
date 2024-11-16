@@ -99,11 +99,6 @@ Note: In-class exercises will not be graded.
 
 ## Common issues
 
-- **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch JupyterHub:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
-  1. [Launch JupyterHub.](https://padmgp-4506-fall.rcnyu.org)
-  1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
-    - If you've edited any of the template notebooks, you can find them in that `-old` folder.
-  1. Repeat the [getting started](#getting-started) steps.
 - **PDF export:**
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
     - Not displaying so many rows/values
