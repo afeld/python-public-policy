@@ -17,6 +17,7 @@ That is now your own copy; make edits in there directly.
 ## Tips
 
 - **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
+   - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
 - **Access [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
