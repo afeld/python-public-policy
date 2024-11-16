@@ -15,7 +15,7 @@ chapters:
     title: "Brightspace"
   - url: "https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594"
     title: Ed Discussions
-  - url: "https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu"
+  - url: "https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https://github.com/afeld/python-public-policy&urlpath=tree/python-public-policy/&branch=nyu"
     title: "JupyterHub"
   - file: lecture_0
     sections:
