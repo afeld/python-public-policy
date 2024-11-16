@@ -32,6 +32,8 @@ def test_other_school():
 def test_render_template():
     rendered = render_template("{{coding_env_url}}", "nyu")
 
+    assert "&amp;" not in rendered, "Query separators shouldn't be encoded"
+
     url = urlparse(rendered)
     query = parse_qs(url.query)
     assert query == {
