@@ -22,7 +22,7 @@ class SchoolText:
     lms_grading_docs: str
     lms_reorder_docs: str
     coding_env_name: str
-    coding_env_url: str
+    coding_env_origin: str
     coding_env_kernel_name: str
     assistant_name: str
     assistant_responsibilities: str
@@ -56,7 +56,7 @@ SCHOOLS = [
         lms_grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
         lms_reorder_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-an-assignment/ta-p/1289",
         coding_env_name="Google Colab",
-        coding_env_url="https://colab.research.google.com",
+        coding_env_origin="https://colab.research.google.com",
         coding_env_kernel_name="runtime",
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
@@ -98,7 +98,7 @@ SCHOOLS = [
         lms_grading_docs="https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool",
         lms_reorder_docs="https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories",
         coding_env_name="JupyterHub",
-        coding_env_url="https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https://github.com/afeld/python-public-policy&urlpath=tree/python-public-policy/&branch=nyu",
+        coding_env_origin="https://padmgp-4506-fall.rcnyu.org",
         coding_env_kernel_name="kernel",
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",

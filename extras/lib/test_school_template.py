@@ -4,6 +4,7 @@ from .school_template import get_vars, render_template
 
 def test_render_template():
     rendered = render_template("{{coding_env_url}}", "nyu")
+
     url = urlparse(rendered)
     query = parse_qs(url.query)
     assert query == {

@@ -1,5 +1,5 @@
 import dataclasses
-from urllib.parse import urlparse
+from urllib.parse import urlencode
 from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
@@ -15,17 +15,27 @@ env = Environment(
 )
 
 
-def origin(url: str):
-    parsed = urlparse(url)
-    return f"{parsed.scheme}://{parsed.netloc}"
+def nbgitpuller_url(origin: str):
+    """https://nbgitpuller.readthedocs.io/en/latest/topic/url-options.html"""
+
+    query = urlencode(
+        {
+            "repo": "https://github.com/afeld/python-public-policy",
+            "urlpath": "tree/python-public-policy/",
+            "branch": "nyu",
+        }
+    )
+    return f"{origin}/hub/user-redirect/git-pull?{query}"
 
 
 def get_vars(school_id: str):
     school_text = SCHOOL_TEXT[school_id]
     local_vars = dataclasses.asdict(school_text)
 
-    # get rid of the nbgitpuller stuff
-    local_vars["coding_env_origin"] = origin(local_vars["coding_env_url"])
+    if school_id == "nyu":
+        local_vars["coding_env_url"] = nbgitpuller_url(local_vars["coding_env_origin"])
+    else:
+        local_vars["coding_env_url"] = local_vars["coding_env_origin"]
 
     return local_vars
 
