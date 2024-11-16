@@ -22,6 +22,7 @@ def is_h1(cell):
 
 
 def is_magic(source):
+    """https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions"""
     return source.startswith("%%")
 
 
