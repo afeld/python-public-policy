@@ -38,7 +38,9 @@ That is now your own copy; make edits in there directly.
 
 _See also: [course generative AI policy](syllabus.md#generative-ai)._
 
-We will be using the AI "magic" (command). Documentation:
+We will be using the AI [magic](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions).
+
+#### Documentation
 
 - [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
 - [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
@@ -47,6 +49,9 @@ Note that we only have the `gpt-4.0-32k` model enabled.
 
 #### Usage
 
+1. **One-time setup:** Visit [projects.rit.nyu.edu](https://projects.rit.nyu.edu/) and accept the Terms of Use.
+   - This site is only accessible from [the NYU network](https://www.nyu.edu/life/information-technology/infrastructure/network-services/nyu-net.html).
+      - If you're off campus, you can connect via [the VPN](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html).
 1. Open [{{coding_env_name}}]({{coding_env_url}}).
 1. Load the models by running the following in a `Code` cell:
 
