@@ -36,6 +36,9 @@ assignees: afeld
         pip install langchain_openai ./rit_jupyter_ai_magics-2.21.0-py3-none-any.whl
         ```
 
+    - [ ] Add people to [Project](https://projects.rit.nyu.edu/) - need to be on [VPN](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html)
+      - [ ] Grader(s)
+      - [ ] Students
 - [ ] New Brightspace site
   - [ ] Update bookmark
   - [ ] [Request Ed Discussions](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0019715&sys_kb_id=332d12091b25d150191ca8233a4bcb60&spa=1)

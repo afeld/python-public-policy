@@ -32,10 +32,11 @@ def get_vars(school_id: str):
     school_text = SCHOOL_TEXT[school_id]
     local_vars = dataclasses.asdict(school_text)
 
+    origin = local_vars["coding_env_origin"]
     if school_id == "nyu":
-        local_vars["coding_env_url"] = nbgitpuller_url(local_vars["coding_env_origin"])
+        local_vars["coding_env_url"] = nbgitpuller_url(origin)
     else:
-        local_vars["coding_env_url"] = local_vars["coding_env_origin"]
+        local_vars["coding_env_url"] = origin
 
     return local_vars
 
