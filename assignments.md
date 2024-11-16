@@ -24,8 +24,6 @@ That is now your own copy; make edits in there directly.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
-
-
 ### Storing data
 
 To keep data between sessions, you'll probably want to store it in Google Drive.
@@ -49,6 +47,8 @@ You can make data smaller _before_ uploading by filtering it through:
   - This makes the download faster, including only the data you need.
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - In a spreadsheet program
+
+
 
 ## Submission
 
