@@ -9,7 +9,10 @@ from .school import EXEMPT, SCHOOL_TEXT, SCHOOLS, SchoolText
 
 COURSE_HOSTNAME = "python-public-policy.afeld.me"
 
-env = Environment(undefined=StrictUndefined)
+env = Environment(
+    undefined=StrictUndefined,
+    autoescape=False,
+)
 
 
 def origin(url: str):
