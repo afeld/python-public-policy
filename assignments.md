@@ -25,6 +25,7 @@ That is now your own copy; make edits in there directly.
 
 {% if id == 'nyu' -%}
 - **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.
+   - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
 - **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking {{coding_env_name}}, as that will pull down the latest changes.
 {% endif -%}
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
