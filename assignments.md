@@ -33,42 +33,6 @@ That is now your own copy; make edits in there directly.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
-{% if id == "nyu" -%}
-### Generative AI
-
-_See also: [course generative AI policy](syllabus.md#generative-ai)._
-
-We will be using the AI [magic](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions).
-
-#### Documentation
-
-- [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
-- [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
-
-Note that we only have the `gpt-4.0-32k` model enabled.
-
-#### Usage
-
-1. **One-time setup:** Visit [projects.rit.nyu.edu](https://projects.rit.nyu.edu/) and accept the Terms of Use.
-   - This site is only accessible from [the NYU network](https://www.nyu.edu/life/information-technology/infrastructure/network-services/nyu-net.html).
-      - If you're off campus, you can connect via [the VPN](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html).
-1. Open [{{coding_env_name}}]({{coding_env_url}}).
-1. Load the models by running the following in a `Code` cell:
-
-   ```
-   %load_ext rit_jupyter_ai_magics
-   ```
-
-1. In another cell, run:
-
-   ```
-   %%ai gpt-4.0-32k
-   how are you?
-   ```
-
-1. Replace `how are you?` with your prompt. You can repeat that cell as many times as you need.
-{%- endif %}
-
 ### Storing data
 
 {% if id == 'columbia' -%}
@@ -104,6 +68,42 @@ You can make data smaller _before_ uploading by filtering it through:
   - This makes the download faster, including only the data you need.
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - In a spreadsheet program
+
+{% if id == "nyu" -%}
+## Generative AI
+
+_See also: [course generative AI policy](syllabus.md#generative-ai)._
+
+We will be using the AI [magic](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions).
+
+### Documentation
+
+- [NYU-specific](https://sites.google.com/nyu.edu/rit-genai/use-build/rit-jupyterhub#h.r3bhgpidqt5o)
+- [General](https://jupyter-ai.readthedocs.io/en/latest/index.html)
+
+Note that we only have the `gpt-4.0-32k` model enabled.
+
+### Usage
+
+1. **One-time setup:** Visit [projects.rit.nyu.edu](https://projects.rit.nyu.edu/) and accept the Terms of Use.
+   - This site is only accessible from [the NYU network](https://www.nyu.edu/life/information-technology/infrastructure/network-services/nyu-net.html).
+      - If you're off campus, you can connect via [the VPN](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html).
+1. Open [{{coding_env_name}}]({{coding_env_url}}).
+1. Load the models by running the following in a `Code` cell:
+
+   ```
+   %load_ext rit_jupyter_ai_magics
+   ```
+
+1. In another cell, run:
+
+   ```
+   %%ai gpt-4.0-32k
+   how are you?
+   ```
+
+1. Replace `how are you?` with your prompt. You can repeat that cell as many times as you need.
+{%- endif %}
 
 ## Submission
 
