@@ -10,6 +10,7 @@ assignees: afeld
 - [ ] Update in repo
   - [ ] Dates
   - [ ] Office hours
+  - [ ] Link to Vergil
   - [ ] Link to survey
   - [ ] CourseWorks link
 - [ ] Find Readers
