@@ -45,7 +45,7 @@ All the lectures and assignment templates are available for download through thi
 
 ### Comparison to Computing in Context
 
-Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://computing-in-context.afeld.me/).
+Both courses are intended for students who are new to coding. Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://computing-in-context.afeld.me/).
 
 |                       | Python for Public Policy                                                                             | Computing in Context                                                                                                                                             |
 | --------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
