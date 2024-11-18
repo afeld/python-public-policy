@@ -47,18 +47,18 @@ All the lectures and assignment templates are available for download through thi
 
 Both courses are intended for students who are new to coding. Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://computing-in-context.afeld.me/).
 
-|                       | Python for Public Policy                                                                             | Computing in Context                                                                                                                                             |
-| --------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Offered**           | Every Spring                                                                                | Every Fall                                                                                                                                                       |
-| **Duration**          | Second half of term                                                                         | Full term                                                                                                                                                        |
-| **Credits**           | 1.5                                                                                         | 3                                                                                                                                                                |
-| **Meetings per week** | One 110-minute lecture                                                                      | Two 75-minute lectures plus one 90-minute recitation                                                                                                             |
-| **Topics covered**    | See [syllabus](syllabus.md#schedule)                                                        | See [syllabus](https://computing-in-context.afeld.me/#schedule)                                                                                                  |
-| **Student body**      | Mainly SIPA                                                                                 | Mix of SIPA and other schools                                                                                                                                    |
-| **Best suited for**   | Students who just want a taste of coding                                                    | Students who are interested in coding being part of their lives/careers                                                                                          |
-| **Other differences** | We speed through Python fundamentals, spending most of the time on data analysis in Python. | Spends more time on Python fundamentals, such as control flow and functions. Allows students to take more advanced [DAQA courses][daqa], as it's a prerequisite. |
+|                       | Python for Public Policy                                                                             | Computing in Context                                                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Offered**           | Every Spring                                                                                | Every Fall                                                                                                                                     |
+| **Duration**          | Second half of term                                                                         | Full term                                                                                                                                      |
+| **Credits**           | 1.5                                                                                         | 3                                                                                                                                              |
+| **Meetings per week** | One 110-minute lecture                                                                      | Two 75-minute lectures plus one 90-minute recitation                                                                                           |
+| **Topics covered**    | See [syllabus](syllabus.md#schedule)                                                        | See [syllabus](https://computing-in-context.afeld.me/#schedule)                                                                                |
+| **Student body**      | Mainly SIPA                                                                                 | Mix of SIPA and other schools                                                                                                                  |
+| **Best suited for**   | Students who just want a taste of coding                                                    | Students who are interested in coding being part of their lives/careers                                                                        |
+| **Other differences** | We speed through Python fundamentals, spending most of the time on data analysis in Python. | Spends more time on Python fundamentals, such as control flow and functions. [Allows students to take more advanced DAQA courses.][cic-prereq] |
 
-[daqa]: https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext
+[cic-prereq]: https://computing-in-context.afeld.me/#course-overview
 
 ## Testimonials
 
