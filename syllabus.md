@@ -120,31 +120,31 @@ By the end of the course, students will know:
 
 {% if id == "columbia" -%}
 
-| Lecture | Date | Topic                           | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
-| ------- | ---- | ------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [0][l0] | 1/21 | Intro to coding                 | none                                                       |                                                            |
-| [1][l1] | 1/28 | Working with data               | [Homework 0][hw0]                                          |                                                            |
-| [2][l2] | 2/4  | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| [3][l3] | 2/11 | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| [4][l4] | 2/18 | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| [5][l5] | 2/25 | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| [6][l6] | 3/4  | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| none    | 3/7  | none                            | none                                                       | [Final Project][final]                                     |
-| none    | 3/11 | none                            | [Final Project peer grading][final-peer]                   |                                                            |
+| Date | Lecture                               | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
+| ---- | ------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 1/21 | [Intro to coding][l0]                 | none                                                       |                                                            |
+| 1/28 | [Working with data][l1]               | [Homework 0][hw0]                                          |                                                            |
+| 2/4  | [Manipulating and combining data][l2] | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 2/11 | [Data visualization][l3]              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 2/18 | [Dates and time series analysis][l4]  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 2/25 | [APIs][l5]                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 3/4  | [The Bigger Picture][l6]              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 3/7  | none                                  | none                                                       | [Final Project][final]                                     |
+| 3/11 | none                                  | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% else -%}
 
-| Lecture | Date    | Topic                           | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ------- | ------- | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| [0][l0] | 10/23   | Intro to coding                 | none                                                       |                                                                    |
-| [1][l1] | 10/30   | Working with data               | [Homework 0][hw0]                                          |                                                                    |
-| [2][l2] | 11/6    | Manipulating and combining data | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| [3][l3] | 11/13   | Data visualization              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| [4][l4] | 11/20   | Dates and time series analysis  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| [5][l5] | 11/27\* | APIs                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| [6][l6] | 12/4    | The Bigger Picture              | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| none    | 12/7    | none                            | none                                                       | [Final Project][final]                                             |
-| none    | 12/11   | none                            | [Final Project peer grading][final-peer]                   |                                                                    |
+| Date    | Lecture                               | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ------- | ------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| 10/23   | [Intro to coding][l0]                 | none                                                       |                                                                    |
+| 10/30   | [Working with data][l1]               | [Homework 0][hw0]                                          |                                                                    |
+| 11/6    | [Manipulating and combining data][l2] | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| 11/13   | [Data visualization][l3]              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| 11/20   | [Dates and time series analysis][l4]  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| 11/27\* | [APIs][l5]                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 12/4    | [The Bigger Picture][l6]              | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| 12/7    | none                                  | none                                                       | [Final Project][final]                                             |
+| 12/11   | none                                  | [Final Project peer grading][final-peer]                   |                                                                    |
 
 \*This class will be virtual.
 
