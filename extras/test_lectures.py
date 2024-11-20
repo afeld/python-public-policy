@@ -3,17 +3,20 @@ import re
 
 import pytest
 
-from .lib.nb_helper import get_tags, read_notebook
+from .lib.nb_helper import get_tags, is_code_cell, read_notebook
 
 
 lecture_notebooks = glob("lecture_?.ipynb")
 lecture_notebooks.sort()
 
 
+def slide_type(cell):
+    return cell.metadata.get("slideshow", {}).get("slide_type")
+
+
 def is_slide(cell):
     SLIDE_TYPES = ["slide", "subslide"]
-    slide_type = cell.metadata.get("slideshow", {}).get("slide_type")
-    return slide_type in SLIDE_TYPES
+    return slide_type(cell) in SLIDE_TYPES
 
 
 def num_slides(cells):
@@ -70,3 +73,19 @@ def test_attendance_reminder(file):
 
     start_cells = notebook.cells[:3]
     assert any("attendance" in cell.source for cell in start_cells)
+
+
+@pytest.mark.parametrize("file", lecture_notebooks)
+def test_hidden_imports(file):
+    if file == "lecture_1.ipynb":
+        pytest.skip("Introducing pandas")
+
+    notebook = read_notebook(file)
+
+    for cell in notebook.cells:
+        if is_code_cell(cell):
+            lines = cell.source.splitlines()
+
+            imports_only = all(line.startswith("import ") for line in lines)
+            if imports_only:
+                assert slide_type(cell) == "skip", f"imports should be hidden:\n\n{cell.source}\n"

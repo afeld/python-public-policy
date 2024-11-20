@@ -26,6 +26,10 @@ def is_magic(source):
     return source.startswith("%%")
 
 
+def is_code_cell(cell):
+    return cell.cell_type == "code"
+
+
 def is_python(cell):
     source = cell.source
     return cell.cell_type == "code" and not (is_magic(source) or is_system_command(source))
