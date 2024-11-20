@@ -24,6 +24,11 @@ That is now your own copy; make edits in there directly.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
+- **Ask for help.**
+   - The assignments are meant to be challenging, not impossible.
+   - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
+      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
+      - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
 ### Storing data
 
