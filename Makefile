@@ -14,3 +14,8 @@ slides:
 
 test:
 	pytest
+
+file := *.py *.ipynb
+
+format:
+	nbqa black $(file)
