@@ -11,4 +11,4 @@ jupyter nbconvert \
   --ExecutePreprocessor.timeout=120 \
   "$NOTEBOOK"
 
-nbqa black "$NOTEBOOK"
+make format file="$NOTEBOOK"
