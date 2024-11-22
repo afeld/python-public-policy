@@ -7,5 +7,6 @@
   },
   "[json]": {
     "editor.formatOnSave": false
-  }
+  },
+  "workbench.externalBrowser": "chrome"
 }
