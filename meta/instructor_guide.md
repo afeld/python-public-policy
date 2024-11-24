@@ -4,14 +4,14 @@ _While this is meant as internal documentation for the instructor, others are we
 
 ## Adding/updating packages
 
-1. Modify [`environment.yml`](../extras/environment.yml)
+1. Modify [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml)
 1. Run
 
    ```sh
    ./extras/scripts/update_packages.sh
    ```
 
-1. Manually update the [notebooks with interactivity](../extras/scripts/interactive_check.sh)
+1. Manually update the [notebooks with interactivity](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/interactive_check.sh)
 {% if id == "nyu" -%}
 1. Update environment in JupyterHub
 
