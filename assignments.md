@@ -160,9 +160,9 @@ Note: In-class exercises will not be graded.
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
 - **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `{{coding_env_kernel_name.title()}}` menu then `Restart Kernel`.
-- **X axis is out of order in a Plotly line chart:** Make sure that:
-   - The values are integers/floats/timestamps, not strings
-   - [The X values are sorted](https://plotly.com/python/line-charts/#data-order-in-line-charts)
+- **The values are out of order along the axis of a Plotly chart:** Make sure that:
+   - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
+   - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
 
 {% if id == 'nyu' -%}
 ### Disk full
