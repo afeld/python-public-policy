@@ -10,8 +10,6 @@ chapters:
       {% if id == "columbia" -%}
       - file: curve
       {%- endif %}
-  - file: assignments
-    title: Assignment info
   - file: resources
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
@@ -19,53 +17,56 @@ chapters:
     title: Ed Discussions
   - url: "{{coding_env_url}}"
     title: "{{coding_env_name}}"
-  - file: lecture_0
+  - file: lectures
+    sections:
+      - file: lecture_0
+      - file: lecture_1
+        sections:
+          - file: lecture_1_exercise
+            title: In-class exercise
+          - file: lecture_1_exercise_solution
+            title: In-class exercise solution
+      - file: lecture_2
+        sections:
+          - file: lecture_2_exercise
+            title: In-class exercise
+      - file: lecture_3
+        sections:
+          - file: lecture_3_exercise
+            title: In-class exercise
+          - file: lecture_3_exercise_solution
+            title: In-class exercise solution
+      - file: lecture_4
+      - file: lecture_5
+        sections:
+          - file: lecture_5_exercise_solution
+            title: In-class exercise solution
+      - file: lecture_6
+      - file: meta
+        sections:
+          - file: meta/assistant_guide
+            sections:
+              - file: meta/ed_helper
+          - file: meta/instructor_guide
+  - file: assignments
+    title: Assignments
     sections:
       - file: hw_0
-  - file: lecture_1
-    sections:
-      - file: lecture_1_exercise
-        title: In-class exercise
-      - file: lecture_1_exercise_solution
-        title: In-class exercise solution
       - file: hw_1
-  - file: lecture_2
-    sections:
-      - file: lecture_2_exercise
-        title: In-class exercise
       - file: hw_2
-  - file: lecture_3
-    sections:
-      - file: lecture_3_exercise
-        title: In-class exercise
-      - file: lecture_3_exercise_solution
-        title: In-class exercise solution
       - file: hw_3
-  - file: final_project
-    sections:
-      - file: final_project/proposal
-        title: Proposal
-      - file: final_project/resources
-        title: Resources
-      - file: final_project/peer_grading
-        title: Peer grading
-      - file: final_project/examples
-        title: Examples
-        sections:
-          - file: final_project/creepy_crawly.ipynb
-          - file: final_project/lead.ipynb
-          - file: final_project/universities.ipynb
-  - file: lecture_4
-    sections:
       - file: hw_4
-  - file: lecture_5
-    sections:
-      - file: lecture_5_exercise_solution
-        title: In-class exercise solution
-  - file: lecture_6
-  - file: meta
-    sections:
-      - file: meta/assistant_guide
+      - file: final_project
         sections:
-          - file: meta/ed_helper
-      - file: meta/instructor_guide
+          - file: final_project/proposal
+            title: Proposal
+          - file: final_project/resources
+            title: Resources
+          - file: final_project/peer_grading
+            title: Peer grading
+          - file: final_project/examples
+            title: Examples
+            sections:
+              - file: final_project/creepy_crawly.ipynb
+              - file: final_project/lead.ipynb
+              - file: final_project/universities.ipynb
