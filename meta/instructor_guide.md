@@ -32,7 +32,9 @@ make slides lec=N
 
 The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Markdown (`.md`) files and the files and folders that start with an underscore (`_`) are related to JupyterBook.
 
-### `{{school_slug}}` branch
+The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/storing-and-sharing-data-from-a-workflow) from [the latest `Publish` Action](https://github.com/afeld/python-public-policy/actions/workflows/publish.yml).
+
+### Building locally
 
 1. Stage changes in Git, as they will be overwritten.
 1. If on the `{{school_slug}}` branch, run:
