@@ -40,12 +40,6 @@ chapters:
           - file: lecture_5_exercise_solution
             title: In-class exercise solution
       - file: lecture_6
-      - file: meta
-        sections:
-          - file: meta/assistant_guide
-            sections:
-              - file: meta/ed_helper
-          - file: meta/instructor_guide
   - file: assignments
     title: Assignments
     sections:
@@ -68,3 +62,9 @@ chapters:
               - file: final_project/creepy_crawly.ipynb
               - file: final_project/lead.ipynb
               - file: final_project/universities.ipynb
+  - file: meta
+    sections:
+      - file: meta/assistant_guide
+        sections:
+          - file: meta/ed_helper
+      - file: meta/instructor_guide
