@@ -42,6 +42,8 @@ dependencies:
   - jinja2
   - nbconvert
   - nbdime
+  # https://github.com/jupyter/nbconvert/issues/2173
+  - pandoc<3.2.1
   - pytest
 
   # this needs to stay in sync with docs/environment.yml
