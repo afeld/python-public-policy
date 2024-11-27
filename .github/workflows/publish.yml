@@ -13,10 +13,10 @@ jobs:
         school:
           - columbia
           - nyu
-    # https://github.com/mamba-org/provision-with-micromamba#important
+    # https://github.com/mamba-org/setup-micromamba?tab=readme-ov-file#about-login-shells
     defaults:
       run:
-        shell: bash -l {0}
+        shell: bash -leo pipefail {0}
     steps:
       - uses: actions/checkout@v4
         with:
