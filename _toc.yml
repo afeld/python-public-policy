@@ -11,6 +11,8 @@ chapters:
       - file: curve
       {%- endif %}
   - file: resources
+    sections:
+      - file: operator_precedence
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
   - url: "{{discussions_url}}"
