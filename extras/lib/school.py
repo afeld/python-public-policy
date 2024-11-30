@@ -143,17 +143,18 @@ EXEMPT = [
     "dictreader",
     "for row in reader",
     "hannahkates/nyu-python-public-policy",
+    "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
     "jupyterhub_url",
     "name: install conda packages",  # CI
     "nbgrader",
     "nyu's quantitative analysis guide",
-    "upload the notebook to [google colab]",
-    "upload the python file to google colab",
-    "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
     "python coding for public policy assignments",
     "secondary",  # matches "conda"
     "set up the reader",
     "speedgrader",  # matches "grader"
+    "strict channel priority",  # conda
     "these instructions won't work in colab",
+    "upload the notebook to [google colab]",
+    "upload the python file to google colab",
     "walk the reader",
 ]
