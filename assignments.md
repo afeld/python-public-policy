@@ -99,6 +99,7 @@ Note that we only have the `gpt-4.0-32k` model enabled.
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - In particular, check your visualizations.
    - What you see is what the instructors will see.
+   - [Troubleshooting tips](#pdf-export)
 1. **If one of the Homeworks:** Upload the PDF to the Brightspace Assignment.
 1. **If the Final Project:**
    1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/384630), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
@@ -110,10 +111,6 @@ Note: In-class exercises will not be graded.
 
 ## Common issues
 
-- **PDF export:**
-  - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
-    - Not displaying so many rows/values
-    - Reducing the number of points that are plotted
 - **When using `choropleth_map()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
     - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
@@ -163,3 +160,27 @@ The kernel is [the place where Python is installed and the code is actually exec
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
   - Close kernels you aren't using from the [Running](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree#running) page.
+
+### PDF export
+
+Jupyter notebook export to PDF is… [fragile](https://github.com/jupyterlab/jupyterlab/issues/12113).
+
+- **500 error:** Read the error. If it seems like it crashed arbitrarily, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
+   - Not displaying so many rows/values
+   - Reducing the number of points that are plotted
+
+#### Alternatives
+
+If you are unable to get the direct-to-PDF export working, try:
+
+- Going through HTML:
+   1. [Export the notebook as HTML.](https://jupyterlab.readthedocs.io/en/stable/user/export.html)
+   1. Open the HTML file in your browser.
+   1. `File`->`Print…`
+   1. `Save as PDF`
+   1. If any of the visualizations are cut off:
+      1. Cancel the Print to PDF.
+      1. Viewing the HTML file, make the browser window narrower.
+         - This forces the visualizations to re-draw.
+      1. Try from `File`->`Print…` again.
+- An online converter, such as [Ploomer](https://www.convert.ploomber.io/)
