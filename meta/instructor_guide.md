@@ -113,9 +113,10 @@ This only shows students coming off the wait list.
 Most of the issues are around Plotly rendering / PDF export. Things that have been hit repeatedly:
 
 - [Embedded image error in nbconvert](https://github.com/jupyter/nbconvert/issues/2173)
+  - As of 11/30/24, JupyterHub is using too new a version of pandoc in the `base` environment.
 - [Plotly JupyterLab support](https://plotly.com/python/getting-started/#JupyterLab-Support)
-  - https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be
+  - [Needs to be installed on `base` environment as well](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be)
 - [PDF export fidelity](https://github.com/jupyterlab/jupyterlab/issues/12113)
 
-Attempted to distill into the [student troubleshooting guide](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#pdf-export).
+See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#pdf-export).
 {%- endif %}
