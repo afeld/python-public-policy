@@ -51,7 +51,9 @@ dependencies:
   - jinja2
   - nbconvert
   - nbdime
+  # newer versions don't suppport embedded images:
   # https://github.com/jupyter/nbconvert/issues/2173
+  # unfortunately this version constraint won't help with the PDF export from JupyterHub, since that uses the base environment
   - pandoc<3.2.1
   - pytest
 
