@@ -132,6 +132,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome. After [
 1. Glance through the PDF to ensure everything is showing up as you intend.
    - In particular, check your visualizations.
    - What you see is what the instructors will see.
+   - [Troubleshooting tips](#pdf-export)
 1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
 1. **If the Final Project:**
    1. In [{{lms_name}}]({{lms_url}}), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
@@ -148,11 +149,6 @@ Note: In-class exercises will not be graded.
 - **Mounting Google Drive is slow or fails:** See [the Google Colab help page](https://research.google.com/colaboratory/faq.html#drive-timeout).
 - **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
-{% else -%}
-- **PDF export:**
-  - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
-    - Not displaying so many rows/values
-    - Reducing the number of points that are plotted
 {% endif -%}
 - **When using `choropleth_map()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
@@ -207,3 +203,29 @@ The {{coding_env_kernel_name}} is [the place where Python is installed and the c
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
   {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.{% endif %}
+
+{% if id == 'nyu' -%}
+### PDF export
+
+Jupyter notebook export to PDF is… [fragile](https://github.com/jupyterlab/jupyterlab/issues/12113).
+
+- **500 error:** Read the error. If it seems like it crashed arbitrarily, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
+   - Not displaying so many rows/values
+   - Reducing the number of points that are plotted
+
+#### Alternatives
+
+If you are unable to get the direct-to-PDF export working, try:
+
+- Going through HTML:
+   1. [Export the notebook as HTML.](https://jupyterlab.readthedocs.io/en/stable/user/export.html)
+   1. Open the HTML file in your browser.
+   1. `File`->`Print…`
+   1. `Save as PDF`
+   1. If any of the visualizations are cut off:
+      1. Cancel the Print to PDF.
+      1. Viewing the HTML file, make the browser window narrower.
+         - This forces the visualizations to re-draw.
+      1. Try from `File`->`Print…` again.
+- An online converter, such as [Ploomer](https://www.convert.ploomber.io/)
+{%- endif %}
