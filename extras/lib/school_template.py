@@ -56,7 +56,6 @@ def check_line(line: str, line_num: int, this_school: SchoolText):
     other_schools = [other_school for other_school in SCHOOLS if other_school.id != this_school.id]
     for other_school in other_schools:
         for word in other_school.words:
-
             msg = f'"{word}" found, line {line_num}:\n\n{line}\n'
             assert word not in lower_line, msg
 
