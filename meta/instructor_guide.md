@@ -71,8 +71,8 @@ To ensure that notebooks have the correct execution order and output, run them n
 - Put out attendance sheet
 - Connect to HDMI
 - On laptop, turn on:
-   - [Focus mode](https://support.apple.com/guide/mac-help/set-up-a-focus-to-stay-on-task-mchl613dc43f/mac)
-   - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+  - [Focus mode](https://support.apple.com/guide/mac-help/set-up-a-focus-to-stay-on-task-mchl613dc43f/mac)
+  - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - Set phone to Do Not Disturb
 - Run lecture notebook
 {% if id == "columbia" -%}
@@ -107,4 +107,15 @@ This only shows students coming off the wait list.
 1. Re-run the notebook
 1. Spot-check the [new cutoffs](../curve.ipynb#new-cutoffs)
 1. Update the [course grading scheme](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enable-a-grading-scheme-for-a-course/ta-p/1042)
-{% endif %}
+{% else -%}
+## {{coding_env_name}} troubleshooting
+
+Most of the issues are around Plotly rendering / PDF export. Things that have been hit repeatedly:
+
+- [Embedded image error in nbconvert](https://github.com/jupyter/nbconvert/issues/2173)
+- [Plotly JupyterLab support](https://plotly.com/python/getting-started/#JupyterLab-Support)
+  - https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be
+- [PDF export fidelity](https://github.com/jupyterlab/jupyterlab/issues/12113)
+
+Attempted to distill into the [student troubleshooting guide](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#pdf-export).
+{%- endif %}
