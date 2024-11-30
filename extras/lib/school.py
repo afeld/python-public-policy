@@ -140,6 +140,7 @@ EXEMPT = [
     "built around it",  # referring to Colab
     "columbia's graduate school of architecture",  # bio
     "conda activate",
+    "conda config",
     "create the environment",
     "dictreader",
     "for row in reader",
