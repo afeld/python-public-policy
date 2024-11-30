@@ -132,7 +132,8 @@ SCHOOLS = [
     ),
 ]
 SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
-# should all be lowercase
+
+# text that contains / is adjacent to words above, which are allowed for both schools
 EXEMPT = [
     "- [google colab](https://colab.research.google.com/)",
     "anaconda",
