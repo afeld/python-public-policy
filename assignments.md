@@ -165,7 +165,11 @@ The kernel is [the place where Python is installed and the code is actually exec
 
 Jupyter notebook export to PDF is… [fragile](https://github.com/jupyterlab/jupyterlab/issues/12113).
 
-- **500 error:** Read the error. If it seems like it crashed arbitrarily, you may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
+If you get a **500 error**, scroll to the bottom and read the message.
+
+- If it mentions `Undefined control sequence` and `\pandocbounded`, it's [an issue with the exporter](https://github.com/jupyter/nbconvert/issues/2173). Jump to the [Alternatives](#alternatives).
+- If it mentions a package being missing, ask on [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594).
+- Otherwise, it may be crashing due to not being handle the complexity of the render. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
    - Not displaying so many rows/values
    - Reducing the number of points that are plotted
 
