@@ -27,15 +27,14 @@ assignees: afeld
   - [ ] Update links in repo
   - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages imported directly in notebooks" and "supporting packages" are needed
-  - [ ] Confirm [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2) works
-    - If it doesn't render, it might be [this problem](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be).
+  - [ ] Confirm it works
+    - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2)
+    - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture_3.html)
+      - [ ] [Export to PDF](https://python-public-policy.afeld.me/en/nyu/assignments.html#submission)
   - [ ] Sign up for [generative AI pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html)
-    - [ ] Install AI magic in custom environment by having the [Instructional Tools For Coding](mailto:Instructional-Tools-For-Coding@nyu.edu) copy over the package wheel and running a command like:
-
-        ```sh
-        pip install langchain_openai ./rit_jupyter_ai_magics-2.21.0-py3-none-any.whl
-        ```
-
+    - [ ] Have the [Instructional Tools For Coding](mailto:Instructional-Tools-For-Coding@nyu.edu) team copy over the package wheel
+    - [ ] Install AI magic in custom environment by adjusting the `environment.yml`
+    - [ ] Confirm [instructions](https://python-public-policy.afeld.me/en/nyu/assignments.html#generative-ai) work
     - [ ] Add people to [Project](https://projects.rit.nyu.edu/) - need to be on [VPN](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html)
       - [ ] Grader(s)
       - [ ] Students

@@ -89,6 +89,12 @@ Note these instructions won't work in Colab.
 1. Install [Mamba](https://mamba.readthedocs.io/en/latest/index.html).
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy/tree/columbia).
 1. Check out the `columbia` branch.
+1. Set [strict channel priority](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-channels.html#strict-channel-priority).
+
+   ```sh
+   conda config --set channel_priority strict
+   ```
+
 1. [Create the environment.](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
 
    ```sh
