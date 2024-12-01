@@ -207,9 +207,9 @@ The {{coding_env_kernel_name}} is [the place where Python is installed and the c
 {% if id == 'nyu' -%}
 ### PDF export
 
-Jupyter notebook export to PDF is… [fragile](https://github.com/jupyterlab/jupyterlab/issues/12113).
+[Jupyter notebook export to PDF is _fragile_, especially with interactive charts through Plotly.](meta/instructor_guide.md#jupyterhub-troubleshooting)
 
-If you get a **500 error**, scroll to the bottom and read the message.
+If you get a **500 error**, it could be happening for a handful of reasons. Scroll to the bottom and read the message.
 
 - If it mentions `Undefined control sequence` and `\pandocbounded`, it's [an issue with the exporter](https://github.com/jupyter/nbconvert/issues/2173). Jump to the [Alternatives](#alternatives).
 - If it mentions a package being missing, ask on [Ed]({{discussions_url}}).

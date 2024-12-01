@@ -108,7 +108,7 @@ This only shows students coming off the wait list.
 1. Spot-check the [new cutoffs](../curve.ipynb#new-cutoffs)
 1. Update the [course grading scheme](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enable-a-grading-scheme-for-a-course/ta-p/1042)
 {% else -%}
-## {{coding_env_name}} troubleshooting
+## JupyterHub troubleshooting
 
 Most of the issues are around Plotly rendering / PDF export. Things that have been hit repeatedly:
 
