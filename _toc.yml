@@ -74,4 +74,5 @@ chapters:
       - file: meta/adrs
         sections:
           - file: meta/adrs/plotting
+          - file: meta/adrs/submission
       {%- endif %}
