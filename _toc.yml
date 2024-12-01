@@ -70,3 +70,8 @@ chapters:
         sections:
           - file: meta/ed_helper
       - file: meta/instructor_guide
+      {% if id == "nyu" -%}
+      - file: meta/adrs
+        sections:
+          - file: meta/adrs/plotting
+      {%- endif %}
