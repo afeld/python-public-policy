@@ -84,6 +84,13 @@ Note: In-class exercises will not be graded.
 - **The values are out of order along the axis of a Plotly chart:** Make sure that:
    - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
    - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
+- **`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:** Add the following cell before your other Plotly code, then `Restart and run all`.
+
+   ```python
+   import plotly.io
+
+   plotly.io.json.config.default_engine = 'json'
+   ```
 
 
 
