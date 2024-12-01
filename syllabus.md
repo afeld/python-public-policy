@@ -33,7 +33,7 @@
 
 ## Instructor Information
 
-- **Professor:** [Aidan Feldman](https://api.afeld.me/), alf2215@columbia.edu
+- **Professor:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 - **Readers:**
   - Section 1: Muxi Li, ml4981@columbia.edu
   - Section 2: Sipeng Ye, sy3205@columbia.edu
