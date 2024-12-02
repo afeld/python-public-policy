@@ -6,7 +6,7 @@ Status: **DRAFT**
 
 ## Context
 
-Students are currently [directed to submit via {{lms_name}}](../../assignments.md#submission).
+Students are currently [directed to export PDFs and submit via {{lms_name}}](../../assignments.md#submission).
 
 TODO
 
@@ -14,18 +14,21 @@ TODO
 
 ### Format
 
-| Option   | Pros | Cons                                                             |
-| -------- | ---- | ---------------------------------------------------------------- |
-| PDF      | TODO | TODO                                                             |
-| HTML     | TODO | TODO                                                             |
-| Notebook | TODO | Can hide long outputs; can interact with interactive plots; TODO |
+| Option       | Pros                                                                                          | Cons                                                                                                                      |
+| ------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **PDF**      | Avoids "works on my machine"                                                                  | No support for interactive plots; [Plotly needs extra packages][kaleido] and is [fragile][fragile]; long outputs look bad |
+| **HTML**     | Supports interactive plots; outputs support scrolling                                         | TODO                                                                                                                      |
+| **Notebook** | Supports interactive plots; long outputs are collapsable/scrollable by the {{assistant_name}} | Can hide long outputs; can interact with interactive plots; TODO                                                          |
+
+[kaleido]: https://plotly.com/python/static-image-export/
+[fragile]: ../instructor_guide.md#jupyterhub-troubleshooting
 
 ### Tool
 
-| Option       | Pros | Cons |
-| ------------ | ---- | ---- |
-| {{lms_name}} | TODO | TODO |
-| Gradescope   | TODO | TODO |
+| Option           | Pros | Cons                                    |
+| ---------------- | ---- | --------------------------------------- |
+| **{{lms_name}}** | TODO | TODO                                    |
+| **Gradescope**   | TODO | Notebook submissions aren't interactive |
 
 ## Decision
 

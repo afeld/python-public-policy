@@ -12,14 +12,16 @@ Status: **DRAFT**
 >
 > A lot of the complication revolves around Plotly charts being interactive by default.
 
+This is tied up with [how assignments are submitted](submission.md), as [support for interactive plots (in notebooks/HTML) in those tools varies](submission.md#tool).
+
 ## Options
 
-| Option                                 | Pros                                                                                                          | Cons                                                                                                   |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Plotly (interactive)                   | No change required to course materials; interactive is cool                                                   | [Various problems][problems]                                                                           |
-| Plotly ([static][static])              | Minimal change required to course materials; safer for PDF export; easy to switch between interactive and non | Students need to remember to switch                                                                    |
-| [pandas native][pandas]                | Less code; fewer packages; more native                                                                        | Requires changes throughout the materials; learning curve for me; images aren't as cool as interactive |
-| [seaborn](https://seaborn.pydata.org/) | More powerful charts take less code than pandas                                                               | Learning curve for me                                                                                  |
+| Option                                     | Pros                                                                                                          | Cons                                                                                                   |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Plotly (interactive)**                   | No change required to course materials; interactive is cool                                                   | [Various problems][problems]                                                                           |
+| **Plotly ([static][static])**              | Minimal change required to course materials; safer for PDF export; easy to switch between interactive and non | Students need to remember to switch                                                                    |
+| **[pandas native][pandas]**                | Less code; fewer packages; more native                                                                        | Requires changes throughout the materials; learning curve for me; images aren't as cool as interactive |
+| **[seaborn](https://seaborn.pydata.org/)** | More powerful charts take less code than pandas                                                               | Learning curve for me                                                                                  |
 
 [problems]: ../instructor_guide.md#jupyterhub-troubleshooting
 [static]: https://plotly.com/python/renderers/#static-image-renderers

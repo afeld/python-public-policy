@@ -118,6 +118,7 @@ Most of the issues are around Plotly rendering / PDF export. Things that have be
   - [Needs to be installed on `base` environment as well](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be)
 - [PDF export fidelity](https://github.com/jupyterlab/jupyterlab/issues/12113)
 - [orjson attribute error through Plotly](https://github.com/plotly/plotly.py/issues/3567)
+- [PDF exporting crashes when there's a lot of data being output / in plots](../assignments.md#pdf-export)
 
 See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](../assignments.md#pdf-export).
 {%- endif %}
