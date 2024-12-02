@@ -1,5 +1,6 @@
 format: jb-book
 root: home
+# conditionals should match school_ci.sh
 chapters:
   - file: index
     title: Homepage
@@ -70,3 +71,9 @@ chapters:
         sections:
           - file: meta/ed_helper
       - file: meta/instructor_guide
+      {% if id == "nyu" -%}
+      - file: meta/adrs
+        sections:
+          - file: meta/adrs/plotting
+          - file: meta/adrs/submission
+      {%- endif %}

@@ -119,5 +119,5 @@ Most of the issues are around Plotly rendering / PDF export. Things that have be
 - [PDF export fidelity](https://github.com/jupyterlab/jupyterlab/issues/12113)
 - [orjson attribute error through Plotly](https://github.com/plotly/plotly.py/issues/3567)
 
-See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#pdf-export).
+See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](../assignments.md#pdf-export).
 {%- endif %}
