@@ -143,7 +143,6 @@ EXEMPT = [
     "conda config",
     "create the environment",
     "dictreader",
-    "fix something in jupyterhub",
     "for row in reader",
     "hannahkates/nyu-python-public-policy",
     "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",

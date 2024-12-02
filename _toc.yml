@@ -1,5 +1,6 @@
 format: jb-book
 root: home
+# conditionals should match school_ci.sh
 chapters:
   - file: index
     title: Homepage

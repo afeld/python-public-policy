@@ -15,7 +15,10 @@ git rm -r \
     extras/terraform/ \
     extras/**/test_*.py
 
-if [ "$SCHOOL" = "nyu" ]; then
+# match the conditionals in _toc.yml
+if [ "$SCHOOL" = "columbia" ]; then
+    git rm -r meta/adrs*
+else
     git rm curve.ipynb
 fi
 
