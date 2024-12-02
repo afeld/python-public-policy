@@ -38,6 +38,12 @@ jobs:
         run: |
           git add -A
           git commit -m "CI: render for school"
+      # can be used for troubleshooting
+      - name: Store merged source
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.school }}-src
+          path: ./
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
       - name: Update commit
