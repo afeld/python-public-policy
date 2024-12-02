@@ -72,4 +72,6 @@ chapters:
       - file: meta/adrs
         sections:
           - file: meta/adrs/plotting
+            title: Plotting
           - file: meta/adrs/submission
+            title: Submission
