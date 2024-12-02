@@ -47,7 +47,7 @@ PYTHONPATH=$(dirname "$0")/../..
 export PYTHONPATH
 
 for f in $FILES; do
-    echo "Rendering $f..."
+    echo "Rendering $f, even if not used..."
     # https://stackoverflow.com/a/965072/358804
     extension="${f##*.}"
     if [ "$extension" = "ipynb" ]; then
