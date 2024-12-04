@@ -111,6 +111,11 @@ Note: In-class exercises will not be graded.
 
 ## Common issues
 
+- **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch JupyterHub:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
+  1. [Launch JupyterHub.](https://padmgp-4506-fall.rcnyu.org)
+  1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
+    - If you've edited any of the template notebooks, you can find them in that `-old` folder.
+  1. Repeat the [getting started](#getting-started) steps.
 - **When using `choropleth_map()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
     - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
