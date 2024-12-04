@@ -149,6 +149,12 @@ Note: In-class exercises will not be graded.
 - **Mounting Google Drive is slow or fails:** See [the Google Colab help page](https://research.google.com/colaboratory/faq.html#drive-timeout).
 - **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
+{% else -%}
+- **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch {{coding_env_name}}:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
+  1. [Launch {{coding_env_name}}.]({{coding_env_origin}})
+  1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
+    - If you've edited any of the template notebooks, you can find them in that `-old` folder.
+  1. Repeat the [getting started](#getting-started) steps.
 {% endif -%}
 - **When using `choropleth_map()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
