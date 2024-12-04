@@ -16,6 +16,8 @@ This is tied up with [how assignments are submitted](submission.md), as [support
 
 ## Options
 
+Non-exhaustive list.
+
 | Option                                     | Pros                                                                                                          | Cons                                                                                                  |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Plotly (interactive)**                   | No change required to course materials; interactive is cool                                                   | [Various problems][problems]                                                                          |
