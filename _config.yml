@@ -25,7 +25,7 @@ repository:
   branch: "{{school_slug}}"
 launch_buttons:
   binderhub_url: ""
-  {% if id == 'columbia' -%}
+  {% if id == "columbia" -%}
   colab_url: https://colab.research.google.com
   {% else -%}
   jupyterhub_url: {{coding_env_origin}}

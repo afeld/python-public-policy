@@ -158,7 +158,7 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
-In general, assignments{% if id == 'nyu' %} and resubmissions{% endif %} are due at the time class starts. These will all be reflected in the Assignments in [{{lms_name}}]({{lms_url}}).
+In general, assignments{% if id == "nyu" %} and resubmissions{% endif %} are due at the time class starts. These will all be reflected in the Assignments in [{{lms_name}}]({{lms_url}}).
 
 ## Communications
 
@@ -217,7 +217,7 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 - **Minimal feedback:** -10 points
 - **Not reviewed:** -20 points
 
-{% if id == 'nyu' %}
+{% if id == "nyu" %}
 
 #### Resubmission
 
@@ -226,7 +226,7 @@ For submissions that showed effort and were on time, the assignment can be resub
 
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline, up to [the late submission cutoff shown above](#schedule). Late submission deadlines will only be extended if there is accomodation requested through the school.{% if id == 'nyu' %} Resubmission deadlines will not be extended.{% endif %}
+Requests for extensions will only be considered if made via email before the deadline, up to [the late submission cutoff shown above](#schedule). Late submission deadlines will only be extended if there is accomodation requested through the school.{% if id == "nyu" %} Resubmission deadlines will not be extended.{% endif %}
 
 ### Participation
 

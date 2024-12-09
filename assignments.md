@@ -10,11 +10,11 @@ To edit/execute a Homework/lecture notebook:
 1. Open the page for the Homework/Lecture on this site.
    - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
-   {% if id == 'nyu' -%}
+   {% if id == "nyu" -%}
    - {{coding_env_name}} may take a few minutes to start up.
    {%- endif %}
 1. You should now see the notebook in {{coding_env_name}}.
-{% if id == 'columbia' -%}
+{% if id == "columbia" -%}
 1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
 1. Click `Copy to Drive`.
 {% endif -%}
@@ -23,7 +23,7 @@ That is now your own copy; make edits in there directly.
 
 ## Tips
 
-{% if id == 'nyu' -%}
+{% if id == "nyu" -%}
 - **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.
    - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
 - **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking {{coding_env_name}}, as that will pull down the latest changes.
@@ -41,7 +41,7 @@ That is now your own copy; make edits in there directly.
 
 ### Storing data
 
-{% if id == 'columbia' -%}
+{% if id == "columbia" -%}
 To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
@@ -114,9 +114,9 @@ Note that we only have the `gpt-4.0-32k` model enabled.
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
-   - This is a good time to run the notebook end-to-end with `Restart and run all`{% if id == 'nyu' %} (⏩){% endif %}.
+   - This is a good time to run the notebook end-to-end with `Restart and run all`{% if id == "nyu" %} (⏩){% endif %}.
    - See [general scoring criteria](syllabus.md#assignment-scoring).
-{% if id == 'columbia' -%}
+{% if id == "columbia" -%}
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
@@ -145,7 +145,7 @@ Note: In-class exercises will not be graded.
 
 ## Common issues
 
-{% if id == 'columbia' -%}
+{% if id == "columbia" -%}
 - **Mounting Google Drive is slow or fails:** See [the Google Colab help page](https://research.google.com/colaboratory/faq.html#drive-timeout).
 - **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
@@ -165,7 +165,7 @@ Note: In-class exercises will not be graded.
 - **The values are out of order along the axis of a Plotly chart:** Make sure that:
    - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
    - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
-- **`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:** Add the following cell before your other Plotly code, then `Restart and run all`{% if id == 'nyu' %} (⏩){% endif %}.
+- **`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:** Add the following cell before your other Plotly code, then `Restart and run all`{% if id == "nyu" %} (⏩){% endif %}.
 
    ```python
    import plotly.io
@@ -173,7 +173,7 @@ Note: In-class exercises will not be graded.
    plotly.io.json.config.default_engine = 'json'
    ```
 
-{% if id == 'nyu' -%}
+{% if id == "nyu" -%}
 ### Disk full
 
 If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
@@ -204,7 +204,7 @@ If you're confused by these instrucions, download the notebook file and [email t
 
 The {{coding_env_kernel_name}} is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
-{% if id == 'nyu' -%}
+{% if id == "nyu" -%}
 - Make sure `Python [conda env:python-public-policy]` is selected as the {{coding_env_kernel_name}}.
   - Shows in the top right of the notebook interface
   - To change:
@@ -215,9 +215,9 @@ The {{coding_env_kernel_name}} is [the place where Python is installed and the c
 - If your {{coding_env_kernel_name}} is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](#reducing-data-size)
-  {% if id == 'nyu' %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.{% endif %}
+  {% if id == "nyu" %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.{% endif %}
 
-{% if id == 'nyu' -%}
+{% if id == "nyu" -%}
 ### PDF export
 
 [Jupyter notebook export to PDF is _fragile_, especially with interactive charts through Plotly.](meta/instructor_guide.md#jupyterhub-troubleshooting)
