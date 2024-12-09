@@ -54,11 +54,11 @@ There are countless other blog posts, videos, books, etc. out there. There is no
 
 ## Learning more
 
-Want to keep going after this class?
+Want to keep going with Python after this class? See the sections below for specifics, and [Developer Roadmaps](https://roadmap.sh/) for directions you can go at a high level.
 
 ### Python fundamentals
 
-Recommended focusing on fundamentals of Python 3. Many "learn Python" resources will be web development-oriented (they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/)), so you might want to look for ones that focus on data science or Python 3 on its own. Some that are data-oriented:
+Recommended focusing on fundamentals of Python 3. Many "learn Python" resources will be web development-oriented — they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/). If you want to stay focused on data, you might want to look for ones that focus on data science or Python 3 generally, such as:
 
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 - freeCodeCamp's [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/) class
