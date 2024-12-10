@@ -91,3 +91,10 @@ This only shows students coming off the wait list.
 1. Re-run the notebook
 1. Spot-check the [new cutoffs](../curve.ipynb#new-cutoffs)
 1. Update the [course grading scheme](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enable-a-grading-scheme-for-a-course/ta-p/1042)
+
+
+## Contacts
+
+- [SIPA Academic Affairs](mailto:sipa_academicaffairs@sipa.columbia.edu)
+  - Primary contact: [Jenny Labuga-Rumenik](mailto:jl5701@columbia.edu)
+- Job posts: sipajobs@sipa.columbia.edu
