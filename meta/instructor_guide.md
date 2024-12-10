@@ -122,3 +122,15 @@ Most of the issues are around Plotly rendering / PDF export. Things that have be
 
 See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](../assignments.md#pdf-export).
 {%- endif %}
+
+## Contacts
+
+{% if id == "columbia" -%}
+- [SIPA Academic Affairs](mailto:sipa_academicaffairs@sipa.columbia.edu)
+  - Primary contact: [Jenny Labuga-Rumenik](mailto:jl5701@columbia.edu)
+- Job posts: sipajobs@sipa.columbia.edu
+{%- else %}
+- [Wagner Faculty Support](mailto:wagner.facultysupport@nyu.edu)
+  - Primary contact: [Michelle Spatz](mailto:michelle.spatz@nyu.edu)
+- Job posts: wagner.ocss@nyu.edu
+{%- endif %}
