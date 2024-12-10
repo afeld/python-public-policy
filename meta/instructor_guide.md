@@ -93,3 +93,10 @@ Most of the issues are around Plotly rendering / PDF export. Things that have be
 - [PDF exporting crashes when there's a lot of data being output / in plots](../assignments.md#pdf-export)
 
 See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](../assignments.md#pdf-export).
+
+## Contacts
+
+
+- [Wagner Faculty Support](mailto:wagner.facultysupport@nyu.edu)
+  - Primary contact: [Michelle Spatz](mailto:michelle.spatz@nyu.edu)
+- Job posts: wagner.ocss@nyu.edu
