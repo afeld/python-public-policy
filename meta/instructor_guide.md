@@ -99,4 +99,4 @@ See also: comments in [`environment.yml`](https://github.com/afeld/python-public
 
 - [Wagner Faculty Support](mailto:wagner.facultysupport@nyu.edu)
   - Primary contact: [Michelle Spatz](mailto:michelle.spatz@nyu.edu)
-- Job posts: wagner.ocss@nyu.edu
+- Job posts: wagner.ocs@nyu.edu
