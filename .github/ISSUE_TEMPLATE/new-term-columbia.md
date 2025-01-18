@@ -13,6 +13,7 @@ assignees: afeld
   - [ ] Link to Vergil
   - [ ] Link to survey
   - [ ] CourseWorks link
+  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#adding-updating-packages) to match Colab
 - [ ] Find Readers
   - [ ] Update [job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
   - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/assistant_guide.html)
