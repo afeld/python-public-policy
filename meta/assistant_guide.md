@@ -65,25 +65,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 ## Assignments
 
-- Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
-- [Scoring and regrade rules](../syllabus.md#assignment-scoring)
-- [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
-  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the `End Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
-  - Don't give extensions on the resubmission deadline unless authorized by the instructor
-- Solutions folder will be shared with you from Google Drive
-  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
-- Grader will manually apply [late penalty](../syllabus.md#assignment-scoring)
 
-### Grading
-
-[How to grade in Brightspace](https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool)
-
-You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
-When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
-
-- Point deductions, explaining what it's being deducted for
-- Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
 
 ### Checks
 
@@ -102,6 +84,24 @@ The following should be true for each Assignment:
   - [ ] `End Date`
 - [ ] Associated with the `Homework` gradebook category
 - [ ] `Visible`
+
+### Grading
+
+[How to grade in Brightspace](https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool)
+
+- Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
+- [Scoring and regrade rules](../syllabus.md#assignment-scoring)
+- You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
+When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
+  - Point deductions, explaining what it's being deducted for
+  - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
+- [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
+  - Set the `End Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
+  - Don't give extensions on the resubmission deadline unless authorized by the instructor
+- Solutions folder will be shared with you from Google Drive
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+- Grader will manually apply [late penalty](../syllabus.md#assignment-scoring)
 
 ### Plagiarism
 
