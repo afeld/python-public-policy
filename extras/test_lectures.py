@@ -43,6 +43,7 @@ def num_slides_without_tag(cells, tag):
     return num_slides(tagged_cells)
 
 
+# see counts with `pytest -s -k num_slides`
 @pytest.mark.parametrize("file", lecture_notebooks)
 def test_num_slides(file):
     """Ensure there are a reasonable number of slides for each school"""
@@ -55,10 +56,12 @@ def test_num_slides(file):
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     num_columbia = num_slides_without_tag(notebook.cells, "nyu-only")
+    print("Number of slides for Columbia: ", num_columbia)
     assert num_columbia >= 42, "Too few slides for Columbia"
     assert num_columbia <= 63, "Too many slides for Columbia"
 
     num_nyu = num_slides_without_tag(notebook.cells, "columbia-only")
+    print("Number of slides for NYU: ", num_nyu)
     assert num_nyu >= 39, "Too few slides for NYU"
     assert num_nyu <= 51, "Too many slides for NYU"
 
