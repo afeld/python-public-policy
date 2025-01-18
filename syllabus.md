@@ -44,7 +44,7 @@
 
 - **Professor:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 - **Readers:**
-  - Section 1: Muxi Li, ml4981@columbia.edu
+  - Section 1: Claire Li, ml4981@columbia.edu
   - Section 2: Sipeng Ye, sy3205@columbia.edu
 - **Office Hours:**
   - TBD, no appointment necessary
@@ -277,7 +277,7 @@ Letter grades for the entire course will be assigned as follows:
 
 Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss an experience in class, you miss an important learning moment and the class misses your contribution.
 
-Missing class counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. Missing more than 20 minutes of a class session will be treated as an absence. The first absence is treated as a "freebie", each subsequent absence will result in a 1% deduction from the overall grade.
+Missing class counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. Missing more than 20 minutes of a class session will be treated as an absence. The first absence is treated as a "freebie".
 
 If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
 

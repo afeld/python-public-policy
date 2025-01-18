@@ -57,6 +57,6 @@ assignees: afeld
   - [ ] [Fill out access form](https://academic.cuit.columbia.edu/guestaccess/)
 - [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
   - [ ] Schedule
-  - [ ] [Submit request](https://sipa.campusgroups.com/student_forms)
+  - [ ] [Submit request](https://sipa.campusgroups.com/cgtest/survey?survey_uid=67287ffc-8888-11e9-b822-0a85c368333a)
   - [ ] Submit for reimbursement
 - [ ] Update curve
