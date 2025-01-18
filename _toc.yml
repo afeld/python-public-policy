@@ -46,6 +46,7 @@ chapters:
   - file: assignments
     title: Assignments
     sections:
+      - file: assignments/open_ended
       - file: hw_0
       - file: hw_1
       - file: hw_2
