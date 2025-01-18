@@ -4,7 +4,7 @@ _[General assignment information](assignments.md)_
 
 ## Coding
 
-1. [Find a dataset.](final_project/resources.md#open-data-portals)
+1. [Find a dataset.](assignments.md#open-data-portals)
    - It must have:
      - At least one numeric column
      - Between one thousand and one million rows
