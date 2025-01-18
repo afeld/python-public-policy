@@ -87,40 +87,8 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 ## Assignments
 
 {% if id == "columbia" -%}
-- Recommend [creating a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you
-- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
-  - Filter the students to your particular section in the top right
-  - You can leave comments on particular cells through the Colab interface
-  - If points are deducted, explicitly state what the deductions are for
-{% else -%}
-- Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
-{% endif -%}
-- [Scoring {% if id == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
-{% if id == "columbia" -%}
-- [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
-{% else -%}
-- [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
+It's recommended that you [create a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you.
 {%- endif %}
-  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
-  {%- if id == "nyu" %}
-  - Don't give extensions on the resubmission deadline unless authorized by the instructor
-  {%- endif %}
-- Solutions folder will be shared with you from Google Drive
-  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
-{%- if id == "nyu" %}
-- {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)
-{%- endif %}
-
-### Grading
-
-[How to grade in {{lms_name}}]({{lms_grading_docs}})
-
-You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
-When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
-
-- Point deductions, explaining what it's being deducted for
-- Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
 
 ### Checks
 
@@ -147,6 +115,39 @@ The following should be true for each Assignment:
 {% else -%}
 - [ ] Associated with the `Homework` gradebook category
 - [ ] `Visible`
+{%- endif %}
+
+### Grading
+
+[How to grade in {{lms_name}}]({{lms_grading_docs}})
+
+{% if id == "columbia" -%}
+- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
+  - Filter the students to your particular section in the top right
+  - You can leave comments on particular cells through the Colab interface
+  - If points are deducted, explicitly state what the deductions are for
+{% else -%}
+- Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
+{% endif -%}
+- [Scoring {% if id == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
+- You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
+When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
+  - Point deductions, explaining what it's being deducted for
+  - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
+{% if id == "columbia" -%}
+- [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
+{% else -%}
+- [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
+{%- endif %}
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
+  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
+  {%- if id == "nyu" %}
+  - Don't give extensions on the resubmission deadline unless authorized by the instructor
+  {%- endif %}
+- Solutions folder will be shared with you from Google Drive
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+{%- if id == "nyu" %}
+- {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)
 {%- endif %}
 
 ### Plagiarism
