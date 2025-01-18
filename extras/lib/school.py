@@ -33,6 +33,7 @@ class SchoolText:
     r_credit: str
     assignment_cutoff_name: str
     python_for_mbas: str
+    statista_url: str
     final_project_proposal: str
     attendance_url: str
     words: List[str]
@@ -67,6 +68,7 @@ SCHOOLS = [
         r_credit="https://www.registrar.columbia.edu/content/grade-options#auditing",
         assignment_cutoff_name="`Until` date",
         python_for_mbas="https://clio.columbia.edu/catalog/15536430",
+        statista_url="https://clio.columbia.edu/catalog/11329105",
         final_project_proposal="https://edstem.org",
         attendance_url="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance",
         words=[
@@ -109,6 +111,7 @@ SCHOOLS = [
         r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
         assignment_cutoff_name="`End Date`",
         python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
+        statista_url="https://search.library.nyu.edu/permalink/01NYU_INST/1697t4d/alma990062490650107871",
         final_project_proposal="https://edstem.org/us/courses/68651/discussion/5711987",
         attendance_url="https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data",
         words=[
