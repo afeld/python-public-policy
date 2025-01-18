@@ -68,6 +68,7 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 - [New York Times Graphics](https://www.nytimes.com/spotlight/graphics)
 - [Our World in Data](https://ourworldindata.org/)
 - [ProPublica News Apps](https://www.propublica.org/newsapps/)
+- [Statista](https://search.library.nyu.edu/permalink/01NYU_INST/1697t4d/alma990062490650107871)
 - [Visual Capitalist](https://www.visualcapitalist.com/)
 
 ### Storing data
