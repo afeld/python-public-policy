@@ -1,6 +1,6 @@
 # [Final Project](../final_project.md) resources
 
-Seee also: [open-ended assignment information](../assignments.md#open-ended-assignments)
+Seee also: [open-ended assignment information](../assignments/open_ended.md)
 
 ## Counting lines of code
 

@@ -229,7 +229,7 @@ Similarly, it is common practice to use code snippets found on the internet; the
 
 Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 
-Students may post their [open-ended assignments](https://python-public-policy.afeld.me/en/nyu/assignments.html#open-ended-assignments) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
+Students may post their [open-ended assignments](assignments/open_ended.md) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
 
 #### Generative AI
 
