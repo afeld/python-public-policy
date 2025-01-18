@@ -216,7 +216,9 @@ If you do miss class, we trust that it's for a good reason. If you're sick, plea
 
 You are responsible for getting caught up on what was covered in class. You may want to ask a classmate for notes.
 
-### Sharing
+### Academic Integrity
+
+#### Sharing
 
 A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
 
@@ -226,13 +228,13 @@ Students are more than welcome to share approaches and code snippets in the Disc
 
 Students may post their [Final Project](https://python-public-policy.afeld.me/en/columbia/final_project.html) publicly (on GitHub, LinkedIn, etc.) since it's open-ended. Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
 
-### Generative AI
+#### Generative AI
 
 For this course, generative AI tools like ChatGPT, Copilot, Gemini, etc. are treated the same as other sources. For any code that's copied, reference the use of the tool and link to the discussion (where supported).
 
 Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
-### SIPA Academic Integrity Statement
+#### SIPA Academic Integrity Statement
 
 The School of International & Public Affairs does not tolerate cheating or plagiarism in any form. Students who violate the Code of Academic & Professional Conduct will be subject to the Dean's Disciplinary Procedures.
 
