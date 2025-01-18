@@ -70,28 +70,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 ## Assignments
 
-- Recommend [creating a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you
-- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
-  - Filter the students to your particular section in the top right
-  - You can leave comments on particular cells through the Colab interface
-  - If points are deducted, explicitly state what the deductions are for
-- [Scoring rules](../syllabus.md#assignment-scoring)
-- [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
-
-  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
-- Solutions folder will be shared with you from Google Drive
-  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
-
-### Grading
-
-[How to grade in CourseWorks](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757)
-
-You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
-When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
-
-- Point deductions, explaining what it's being deducted for
-- Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
+It's recommended that you [create a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you.
 
 ### Checks
 
@@ -113,6 +92,27 @@ The following should be true for each Assignment:
   - [ ] **Late Policies:** Check "Automatically apply deduction to late assignments"
   - [ ] **Grade Posting Policies:** Automatic
 
+
+### Grading
+
+[How to grade in CourseWorks](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757)
+
+- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
+  - Filter the students to your particular section in the top right
+  - You can leave comments on particular cells through the Colab interface
+  - If points are deducted, explicitly state what the deductions are for
+- If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
+- [Scoring rules](../syllabus.md#assignment-scoring)
+- You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
+When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
+  - Point deductions, explaining what it's being deducted for
+  - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
+- [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
+
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
+  - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
+- Solutions folder will be shared with you from Google Drive
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
 
 ### Plagiarism
 
