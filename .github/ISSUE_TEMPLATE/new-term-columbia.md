@@ -21,6 +21,7 @@ assignees: afeld
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
   - [ ] Set up Discussion rotation
+  - [ ] Share solutions folder from Drive
 - [ ] Set up Courseworks
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
   - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/columbia/syllabus.html#schedule)
