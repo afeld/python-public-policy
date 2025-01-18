@@ -1,6 +1,6 @@
 # Open-ended assignments
 
-_[Homework 1](../hw_1.md) and the [Final Project](../final_project.md)_
+In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you will pick your own dataset(s).
 
 - Use at least one dataset that you aren't familiar with.
    - Using data from a primary source is preferred.
