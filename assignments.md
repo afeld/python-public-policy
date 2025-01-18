@@ -2,6 +2,7 @@
 
 - [Due dates](syllabus.md#schedule)
 - [Scoring](syllabus.md#assignment-scoring)
+- [Open-ended assignment info](assignments/open_ended.md)
 
 ## Getting started
 
