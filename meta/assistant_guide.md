@@ -126,6 +126,7 @@ The following should be true for each Assignment:
   - Filter the students to your particular section in the top right
   - You can leave comments on particular cells through the Colab interface
   - If points are deducted, explicitly state what the deductions are for
+- If you're having trouble accessing the notebook in {{coding_env_name}}, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 {% else -%}
 - Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
 {% endif -%}
