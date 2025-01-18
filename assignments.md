@@ -30,6 +30,46 @@ That is now your own copy; make edits in there directly.
       - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
       - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
+## Open-ended assignments
+
+_[Homework 1](hw_1.md) and the [Final Project](final_project.md)_
+
+### Open data portals
+
+There are countless places to get data, notably:
+
+- Local:
+   - [NYC Open Data](https://opendata.cityofnewyork.us/)
+      - [Scout](https://scout.tsdataclinic.com/explore/NYC) can be used to find datasets with certain columns
+   - [BetaNYC](https://data.beta.nyc/)
+- U.S. Federal:
+   - [data.gov](https://www.data.gov/)
+   - [Census Bureau](https://data.census.gov/)
+   - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
+- [United Nations](https://data.un.org/)
+- [World Bank](https://data.worldbank.org/)
+- [World Health Organization (WHO)](https://www.who.int/data)
+- [Economic Policy Institute](https://www.epi.org/data/)
+- [Kaggle](https://www.kaggle.com/datasets)
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+- [Black Wealth Data](https://blackwealthdata.org/)
+- Lists of open data portals:
+   - [DataPortals](https://dataportals.org/)
+   - [Open Data Network](https://www.opendatanetwork.com/)
+
+### Inspiration
+
+For starters, see the [Final Project examples from past semesters](final_project/examples.md).
+
+Probably not realistic to make visualizations that are as fancy as these ones made by professionals, but they may give you ideas. Some also include links/downloads of the source data.
+
+- [FiveThirtyEight Interactives](https://projects.fivethirtyeight.com/)
+- [The Guardian Visual Journalism](https://www.theguardian.com/interactive)
+- [New York Times Graphics](https://www.nytimes.com/spotlight/graphics)
+- [Our World in Data](https://ourworldindata.org/)
+- [ProPublica News Apps](https://www.propublica.org/newsapps/)
+- [Visual Capitalist](https://www.visualcapitalist.com/)
+
 ### Storing data
 
 1. Open the [JupyterHub file browser](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).

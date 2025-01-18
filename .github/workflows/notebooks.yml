@@ -10,7 +10,6 @@ jobs:
       matrix:
         notebook:
           - hw_0.ipynb
-          - hw_1.ipynb
           - hw_2.ipynb
           - hw_3.ipynb
           - hw_4.ipynb
