@@ -23,8 +23,6 @@ locals {
     # https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
     # Leaving out because it slows the terraform operations down too much.
     # "311_Service_Requests_2018-19.csv",
-
-    "cleaned_311_data_hw2.csv"
   ]
 }
 
