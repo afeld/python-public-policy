@@ -80,6 +80,10 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then compressed and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data) via [Terraform](https://github.com/afeld/python-public-policy/tree/main/extras/terraform). [Descriptions of the data sets.](https://github.com/afeld/python-public-policy/blob/main/extras/terraform/data.tf)
 
+```sh
+gcloud auth application-default login
+```
+
 ## JupyterHub troubleshooting
 
 Most of the issues are around Plotly rendering / PDF export. Things that have been hit repeatedly:
