@@ -41,6 +41,7 @@ For starters, see the [Final Project examples from past semesters](../final_proj
 
 Probably not realistic to make visualizations that are as fancy as these ones made by professionals, but they may give you ideas. Some also include links/downloads of the source data.
 
+- [Climate & Economic Justice Screening Tool](https://screeningtool.geoplatform.gov/)
 - [FiveThirtyEight Interactives](https://projects.fivethirtyeight.com/)
 - [The Guardian Visual Journalism](https://www.theguardian.com/interactive)
 - [New York Times Graphics](https://www.nytimes.com/spotlight/graphics)
