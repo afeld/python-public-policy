@@ -29,10 +29,10 @@ chapters:
         sections:
           - file: lecture_2_exercise
             title: In-class exercise
+          - file: lecture_2_exercise_2_solution
+            title: Exercise 2 solution
       - file: lecture_3
         sections:
-          - file: lecture_3_exercise
-            title: In-class exercise
           - file: lecture_3_exercise_solution
             title: In-class exercise solution
       - file: lecture_4
