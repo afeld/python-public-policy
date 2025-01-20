@@ -31,28 +31,6 @@ That is now your own copy; make edits in there directly.
       - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
       - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
-### Storing data
-
-1. Open the [JupyterHub file browser](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
-1. Navigate to the folder your notebook is in.
-1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
-1. From Python, use `read_csv("./<filename>.csv")`.
-
-Note that that file path should be to relative to the notebook within JupyterHub — `./` means "in the same directory". JupyterHub cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
-
-### Limits
-
-JupyterHub has a disk storage limit of 1GB (a.k.a. 1,024 MB or 1,048,576 KB) across all your files, and a memory limit of 3GB.
-
-### Reducing data size
-
-You can make data smaller _before_ uploading by filtering it through:
-
-- The data portal, if it supports it
-  - This makes the download faster, including only the data you need.
-  - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
-- In a spreadsheet program
-
 ## Generative AI
 
 _See also: [course generative AI policy](syllabus.md#generative-ai)._
@@ -136,14 +114,14 @@ Note: In-class exercises will not be graded.
 
 ### Disk full
 
-If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
+If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](assignments/open_ended.md#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
 1. Go to [start your server again](https://padmgp-4506-fall.rcnyu.org).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
-1. If you're still using those datasets, [make them smaller](#reducing-data-size).
+1. If you're still using those datasets, [make them smaller](assignments/open_ended.md#reducing-data-size).
 
 ### `Error loading notebook`
 
@@ -171,7 +149,7 @@ The kernel is [the place where Python is installed and the code is actually exec
     1. Click `Python [conda env:python-public-policy]`
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
-  - If loading a new dataset, [make it smaller](#reducing-data-size)
+  - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
   - Close kernels you aren't using from the [Running](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree#running) page.
 
 ### PDF export
