@@ -11,7 +11,6 @@ assignees: afeld
   - [ ] Dates
   - [ ] Office hours
   - [ ] Link to Vergil
-  - [ ] Link to survey
   - [ ] CourseWorks link
   - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#adding-updating-packages) to match Colab
 - [ ] Find Readers
