@@ -26,6 +26,7 @@ There are countless places to get data, notably:
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Black Wealth Data](https://blackwealthdata.org/)
+- [DataHub](https://datahub.io/collections)
 - Lists of open data portals:
    - [DataPortals](https://dataportals.org/)
    - [Open Data Network](https://www.opendatanetwork.com/)
