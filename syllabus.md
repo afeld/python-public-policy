@@ -79,17 +79,17 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Date | Lecture                               | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
-| ---- | ------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 1/21 | [Intro to coding][l0]                 | none                                                       |                                                            |
-| 1/28 | [Working with data][l1]               | [Homework 0][hw0]                                          |                                                            |
-| 2/4  | [Manipulating and combining data][l2] | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 2/11 | [Data visualization][l3]              | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 2/18 | [Dates and time series analysis][l4]  | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 2/25 | [APIs][l5]                            | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 3/4  | [The Bigger Picture][l6]              | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 3/7  | none                                  | none                                                       | [Final Project][final]                                     |
-| 3/11 | none                                  | [Final Project peer grading][final-peer]                   |                                                            |
+| Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
+| ---- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 1/21 | [Intro to coding][l0]                  | none                                                       |                                                            |
+| 1/28 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                            |
+| 2/4  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 2/11 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 2/18 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 2/25 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 3/4  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 3/7  | none                                   | none                                                       | [Final Project][final]                                     |
+| 3/11 | none                                   | [Final Project peer grading][final-peer]                   |                                                            |
 
 [l0]: https://python-public-policy.afeld.me/en/columbia/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/columbia/lecture_1.html
