@@ -7,8 +7,6 @@ In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you wi
 - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 {%- if id == "columbia" %}
 - If you'd be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to the instructor](../syllabus.md#instructor-information).
-{%- else %}
-- Note the [{{coding_env_name}} limits](../assignments.md#limits).
 {%- endif %}
 
 ## Open data portals
