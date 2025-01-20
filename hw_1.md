@@ -2,6 +2,11 @@
 
 _[General assignment information](assignments.md)_
 
+## Tutorials
+
+- [Summary statistics](https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html)
+- [Grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#grouping)
+
 ## Coding
 
 1. [Find a dataset.](assignments/open_ended.md#open-data-portals)
@@ -22,7 +27,7 @@ _[General assignment information](assignments.md)_
 
 Now [turn in the assignment](assignments.md).
 
-## Tutorials
+## Tutorials, continued
 
 1. Read [The Joys (and Woes) of the Craft of Software Engineering](https://cs.calvin.edu/courses/cs/262/kvlinden/references/brooksJoysAndWoes.html)
    - Note not _everything_ in there is applicable to data analysis
