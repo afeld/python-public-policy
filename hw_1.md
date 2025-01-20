@@ -4,8 +4,7 @@ _[General assignment information](assignments.md)_
 
 ## Tutorials
 
-- [Summary statistics](https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html)
-- [Grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#grouping)
+- [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
 
 ## Coding
 
