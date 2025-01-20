@@ -10,5 +10,9 @@ build:
     pre_build:
       - jupyter-book config sphinx .
 
+sphinx:
+  # https://about.readthedocs.com/blog/2024/12/deprecate-config-files-without-sphinx-or-mkdocs-config/
+  configuration: conf.py
+
 conda:
   environment: extras/docs/environment.yml
