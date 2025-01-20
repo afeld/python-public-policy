@@ -37,6 +37,7 @@ For starters, see the [Final Project examples from past semesters](../final_proj
 
 Probably not realistic to make visualizations that are as fancy as these ones made by professionals, but they may give you ideas. Some also include links/downloads of the source data.
 
+- [Climate & Economic Justice Screening Tool](https://screeningtool.geoplatform.gov/)
 - [FiveThirtyEight Interactives](https://projects.fivethirtyeight.com/)
 - [The Guardian Visual Journalism](https://www.theguardian.com/interactive)
 - [New York Times Graphics](https://www.nytimes.com/spotlight/graphics)
@@ -44,3 +45,27 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 - [ProPublica News Apps](https://www.propublica.org/newsapps/)
 - [Statista](https://clio.columbia.edu/catalog/11329105)
 - [Visual Capitalist](https://www.visualcapitalist.com/)
+
+## Storing data
+
+To keep data between sessions, you'll probably want to store it in Google Drive.
+
+1. Upload the file(s) somewhere in Drive.
+1. In the Colab sidebar, click the `Files` icon.
+1. Click the `Mount Drive` icon.
+   - Think of this as attaching your Drive to your Colab instance, as if you were plugging in a USB flash drive.
+1. Navigate to the file.
+1. Next to the filename, click the three dots.
+1. Click `Copy path`.
+   - The value should be something like `/content/drive/My Drive/...`.
+1. Use this path with `read_csv()`.
+
+
+## Reducing data size
+
+You can make data smaller _before_ uploading by filtering it through:
+
+- The data portal, if it supports it
+  - This makes the download faster, including only the data you need.
+  - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
+- In a spreadsheet program
