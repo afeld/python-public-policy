@@ -119,7 +119,7 @@ Note: In-class exercises will not be graded.
   1. Repeat the [getting started](#getting-started) steps.
 - **When using `choropleth_map()`, nothing appears on the map:** Make sure:
   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
-    - See [how we found the property name to use](lecture_3.ipynb#map-complaint-counts-by-cd)
+    - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
 - **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Kernel` menu then `Restart Kernel`.
