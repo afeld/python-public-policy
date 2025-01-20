@@ -50,7 +50,7 @@ SCHOOLS = [
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/210776",
         discussions_url="https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless",
-        survey_url="https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless",
+        survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeexomJkVX-9WTMXTYfRYWg3UC3n0_gDVe-qGDDt78aTbBodw/viewform?usp=header",
         name_tool_url="https://courseworks2.columbia.edu/courses/210776/external_tools/62951",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
