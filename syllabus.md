@@ -38,7 +38,7 @@
   - Section 1: Claire Li, ml4981@columbia.edu
   - Section 2: Sipeng Ye, sy3205@columbia.edu
 - **Office Hours:**
-  - TBD, no appointment necessary
+  - Mondays 4-5pm ET over [Zoom](https://courseworks2.columbia.edu/courses/210776/external_tools/23749), no appointment necessary
   - Other times by appointment; email the instructor
 
 ## Description
