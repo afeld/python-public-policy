@@ -19,6 +19,10 @@ def is_slide(cell):
     return slide_type(cell) in SLIDE_TYPES
 
 
+def is_exercise(source: str):
+    return re.match("#+.+(demo|exercise)", source, re.IGNORECASE) is not None
+
+
 def num_slides(cells):
     """Return a weighted number of slides"""
 
@@ -29,9 +33,7 @@ def num_slides(cells):
     if has_intro:
         count += 5
 
-    num_exercises = sum(
-        1 for slide in slides if re.match("#.+exercise", slide.source, re.IGNORECASE)
-    )
+    num_exercises = sum(1 for slide in slides if is_exercise(slide.source))
     # let's say that each exercise is worth ten slides
     count += num_exercises * 10
 
