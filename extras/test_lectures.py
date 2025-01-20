@@ -29,10 +29,6 @@ def num_slides(cells):
     slides = [cell for cell in cells if is_slide(cell)]
     count = len(slides)
 
-    has_intro = any("# Introductions" in slide.source for slide in slides)
-    if has_intro:
-        count += 5
-
     num_exercises = sum(1 for slide in slides if is_exercise(slide.source))
     # let's say that each exercise is worth ten slides
     count += num_exercises * 10
