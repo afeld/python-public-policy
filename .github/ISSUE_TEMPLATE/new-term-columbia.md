@@ -33,7 +33,8 @@ assignees: afeld
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
   - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/{{school_slug}}/meta/instructor_guide.html#student-enrollment-activity)
-- [ ] Print attendance sheets
+- [ ] Print [attendance sheets](https://docs.google.com/spreadsheets/d/12QzoGhaGdlgui0CWPjSFLCR2ew45sx6dEEb7j04mt5Q/edit?gid=0#gid=0)
+  - [ ] In print menu, include date as custom header
 - [ ] Set reminder to bring attendance sheets
 - [ ] Bring the first day
   - [ ] A/V keys
