@@ -3,6 +3,7 @@
 - [General info](https://bulletin.columbia.edu/sipa/registration/)
 - [Registering from other schools](https://bulletin.columbia.edu/sipa/registration/#crossregistrationtext)
   - There are lots of related courses around the University - [search](https://vergil.columbia.edu/) for "python".
+    - [Computing in Context](index.md#comparison-to-computing-in-context) offers [sections tailored to different disciplines](https://computing-in-context.afeld.me/#course-overview).
   - See also: [Resources](resources.md)
 
 If you're waiting to get in, see [what you can do in the meantime](joining_late.md#while-youre-waiting).
