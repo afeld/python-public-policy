@@ -2,6 +2,8 @@
 
 - [General info]({{registration}})
 - [Registering from other schools]({{cross_registration}})
+  - There are lots of related courses around the University - [search]({{course_search}}) for "python".
+  - See also: [Resources](resources.md)
 
 If you're waiting to get in, see [what you can do in the meantime](joining_late.md#while-youre-waiting).
 
