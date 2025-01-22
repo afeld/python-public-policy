@@ -36,6 +36,7 @@ class SchoolText:
     statista_url: str
     final_project_proposal: str
     attendance_url: str
+    course_search: str
     words: List[str]
 
 
@@ -71,6 +72,7 @@ SCHOOLS = [
         statista_url="https://clio.columbia.edu/catalog/11329105",
         final_project_proposal="https://edstem.org",
         attendance_url="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance",
+        course_search="https://vergil.columbia.edu/",
         words=[
             "canvaslms",
             "colab",
@@ -114,6 +116,7 @@ SCHOOLS = [
         statista_url="https://search.library.nyu.edu/permalink/01NYU_INST/1697t4d/alma990062490650107871",
         final_project_proposal="https://edstem.org/us/courses/68651/discussion/5711987",
         attendance_url="https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data",
+        course_search="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/course-search.html",
         words=[
             "bonus",
             "brightspace",
@@ -138,6 +141,7 @@ SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 
 # text that contains / is adjacent to words above, which are allowed for both schools
 EXEMPT = [
+    ".zoom.us/rec",
     "- [google colab](https://colab.research.google.com/)",
     "anaconda",
     "built around it",  # referring to Colab
