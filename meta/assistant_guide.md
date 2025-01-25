@@ -67,7 +67,9 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   {% if id == "columbia" -%}
-  - On-call schedule: TBD
+  - On-call schedule:
+    - Sunday-Tuesday: Claire
+    - Wednesday-Saturday: Serena
   {%- endif %}
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
