@@ -45,7 +45,7 @@ All the lectures and assignment templates are available for download through thi
 
 ### Comparison to Computing in Context
 
-Both courses are intended for students who are new to coding. Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://computing-in-context.afeld.me/). Computing in Context has more class time per week and goes a full semester, so it's more than 4x the class time of Python for Public Policy.
+Both courses are intended for students who are new to coding. Python for Public Policy can be thought of as a subset of [the SIPA sections of Computing in Context](https://computing-in-context.afeld.me/).
 
 |                       | Python for Public Policy                                                                             | Computing in Context                                                                                                                                                                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -62,6 +62,12 @@ Both courses are intended for students who are new to coding. Python for Public 
 [cic-meeting]: https://computing-in-context.afeld.me/#meeting-information
 [cic-structure]: https://computing-in-context.afeld.me/#contexts-and-structure
 [cic-prereq]: https://computing-in-context.afeld.me/#course-overview
+
+Computing in Context has two lectures and a lab and goes a full semester, which means:
+
+- It goes a lot deeper into Python
+- It's more than 4x the class time of Python for Public Policy
+- Students get more time to code in class
 
 ## Testimonials
 
