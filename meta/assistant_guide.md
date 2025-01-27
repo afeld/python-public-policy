@@ -52,7 +52,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
-  - On-call schedule:
+  - Discussion monitoring schedule:
     - Sunday-Tuesday: Claire
     - Wednesday-Saturday: Serena
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
