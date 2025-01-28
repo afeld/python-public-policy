@@ -12,7 +12,7 @@ _[General assignment information](assignments.md)_
    - It must have:
      - At least one numeric column
      - Between one thousand and one million rows
-       - If it's larger than that, you can filter it down.
+       - If it's larger than that, you can [make it smaller](assignments/open_ended.md#reducing-data-size).
    - Don't spend too long on this step.
 1. If there's more than one numeric column, pick one.
 1. Create a new notebook.
