@@ -1,3 +1,8 @@
+video {
+  max-height: 50vh;
+  width: 100%;
+}
+
 /* match Google Docs styles for nested ordered lists */
 article ol ol li {
   list-style-type: lower-alpha;
