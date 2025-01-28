@@ -41,7 +41,7 @@ def num_slides_without_tag(cells, tag):
     return num_slides(tagged_cells)
 
 
-# see counts with `pytest -s -k num_slides`
+# see counts with `pytest -s -vv -k num_slides`
 @pytest.mark.parametrize("file", lecture_notebooks)
 def test_num_slides(file):
     """Ensure there are a reasonable number of slides for each school"""
