@@ -22,13 +22,11 @@ chapters:
     sections:
       - file: lecture_0
       - file: lecture_1
-        {% if id == "columbia" -%}
         sections:
           - file: lecture_1_exercise
             title: In-class exercise
           - file: lecture_1_exercise_solution
             title: In-class exercise solution
-        {%- endif %}
       - file: lecture_2
         sections:
           - file: lecture_2_exercise
