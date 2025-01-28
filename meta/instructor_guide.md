@@ -67,7 +67,8 @@ To ensure that notebooks have the correct execution order and output, run them n
   - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - Set phone to Do Not Disturb
 - Run lecture notebook
-- Put out power strips
+- Set up Zoom recording
+<!-- - Put out power strips -->
 ## Data sets
 
 Canonical copies of data are in [a Google Drive folder](https://drive.google.com/drive/folders/1oCKV6NfvGO007aynTmSSbr1kzqXi4dHV), synced locally with [Google Drive for desktop](https://support.google.com/a/users/answer/9965580). Data is then compressed and uploaded to [a Google Cloud Storage bucket](https://console.cloud.google.com/storage/browser/python-public-policy/data) via [Terraform](https://github.com/afeld/python-public-policy/tree/main/extras/terraform). [Descriptions of the data sets.](https://github.com/afeld/python-public-policy/blob/main/extras/terraform/data.tf)
