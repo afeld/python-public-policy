@@ -76,7 +76,8 @@ To ensure that notebooks have the correct execution order and output, run them n
 - Set phone to Do Not Disturb
 - Run lecture notebook
 {% if id == "columbia" -%}
-- Put out power strips
+- Set up Zoom recording
+<!-- - Put out power strips -->
 {% else %}
 - [Set placeholders](https://settings-spring.rcnyu.org/)
 - Adjust lights
