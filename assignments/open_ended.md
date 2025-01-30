@@ -51,12 +51,12 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 ## Storing data
 
 {% if id == "columbia" -%}
-To keep data between sessions, you'll probably want to store it in Google Drive.
+To keep data between sessions in {{coding_env_name}}, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
-1. In the Colab sidebar, click the `Files` icon.
+1. In the {{coding_env_name}} sidebar, click the `Files` icon.
 1. Click the `Mount Drive` icon.
-   - Think of this as attaching your Drive to your Colab instance, as if you were plugging in a USB flash drive.
+   - Think of this as attaching your Drive to your {{coding_env_name}} instance, as if you were plugging in a USB flash drive.
 1. Navigate to the file.
 1. Next to the filename, click the three dots.
 1. Click `Copy path`.
