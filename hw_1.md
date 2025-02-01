@@ -1,6 +1,6 @@
 # Homework 1
 
-_[General assignment information](assignments.md)_
+[General assignment information.](assignments.md)
 
 ## Tutorials
 
