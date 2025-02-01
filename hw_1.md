@@ -1,6 +1,6 @@
 # Homework 1
 
-_[General assignment information](assignments.md)_
+[General assignment information.](assignments.md)Note that this isn't a template notebook, hence there's no 🚀 above. You will create a blank notebook for this one.
 
 ## Tutorials
 
