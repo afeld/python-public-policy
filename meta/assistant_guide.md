@@ -50,7 +50,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 ### [Discussions](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
-- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
+- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   - Discussion monitoring schedule:
     - Sunday-Tuesday: Claire
@@ -60,7 +60,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
 - Please give corrections/clarifications on student answers where necessary.
 - If posts have the wrong Category, are [a Question when they should be a Post](https://edstem.org/us/help/using-ed-discussion#creating-threads) or vice versa, please fix.
-- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already
+- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already.
 
 ### Check-in meeting
 
@@ -99,10 +99,10 @@ The following should be true for each Assignment:
 
 [How to grade in CourseWorks](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757)
 
-- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
-  - Filter the students to your particular section in the top right
-  - You can leave comments on particular cells through the Colab interface
-  - If points are deducted, explicitly state what the deductions are for
+- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13).
+  - Filter the students to your particular section in the top right.
+  - You can leave comments on particular cells through the Colab interface.
+  - If points are deducted, explicitly state what the deductions are for.
 - If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 - [Scoring rules](../syllabus.md#assignment-scoring)
 - You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
@@ -111,10 +111,10 @@ When grading, points should only be deducted based on [these criteria](../syllab
   - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
 - [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
 
-  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
+  - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
 - Solutions folder will be shared with you from Google Drive
-  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
 
 ### Plagiarism
 
@@ -122,7 +122,7 @@ Per the [Code of Academic and Professional Conduct](https://bulletin.columbia.ed
 
 > It is the responsibility of all members of the SIPA community to encourage academic integrity and to deter, confront, and report all acts of academic dishonesty.
 
-See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarsm vs. fair reuse.
+See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarism vs. fair reuse.
 
 It isn't your responsibility to look for potential instances of cheating/plagiarism. That said, if you have suspicions of those occuring, you must report them to the instructor. Things you might notice:
 
