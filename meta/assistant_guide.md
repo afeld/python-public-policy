@@ -64,7 +64,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 ### [Discussions]({{discussions_url}})
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
-- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
+- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   {% if id == "columbia" -%}
   - Discussion monitoring schedule:
@@ -76,7 +76,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
 - Please give corrections/clarifications on student answers where necessary.
 - If posts have the wrong Category, are [a Question when they should be a Post](https://edstem.org/us/help/using-ed-discussion#creating-threads) or vice versa, please fix.
-- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already
+- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already.
 
 ### Check-in meeting
 
@@ -124,10 +124,10 @@ The following should be true for each Assignment:
 [How to grade in {{lms_name}}]({{lms_grading_docs}})
 
 {% if id == "columbia" -%}
-- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13)
-  - Filter the students to your particular section in the top right
-  - You can leave comments on particular cells through the Colab interface
-  - If points are deducted, explicitly state what the deductions are for
+- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13).
+  - Filter the students to your particular section in the top right.
+  - You can leave comments on particular cells through the Colab interface.
+  - If points are deducted, explicitly state what the deductions are for.
 - If you're having trouble accessing the notebook in {{coding_env_name}}, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 {% else -%}
 - Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
@@ -142,13 +142,13 @@ When grading, points should only be deducted based on [these criteria](../syllab
 {% else -%}
 - [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
 {%- endif %}
-  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
+  - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
   {%- if id == "nyu" %}
-  - Don't give extensions on the resubmission deadline unless authorized by the instructor
+  - Don't give extensions on the resubmission deadline unless authorized by the instructor.
   {%- endif %}
 - Solutions folder will be shared with you from Google Drive
-  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
 {%- if id == "nyu" %}
 - {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)
 {%- endif %}
@@ -161,7 +161,7 @@ Per the [Code of Academic and Professional Conduct](https://bulletin.columbia.ed
 > It is the responsibility of all members of the SIPA community to encourage academic integrity and to deter, confront, and report all acts of academic dishonesty.
 {%- endif %}
 
-See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarsm vs. fair reuse.
+See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarism vs. fair reuse.
 
 It isn't your responsibility to look for potential instances of cheating/plagiarism. That said, if you have suspicions of those occuring, you must report them to the instructor. Things you might notice:
 
