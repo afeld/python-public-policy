@@ -223,7 +223,7 @@ Anything outside of the provided course materials is considered a "source". This
 - Other students
 - Online resources
 - Books
-- Generative AI (ChatGPT, Copilot, Gemini, etc.)\*
+- Generative AI (ChatGPT, Copilot, Gemini, etc.)[\*](#generative-ai)
 
 If you are copying and pasting from a source, it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where applicable) is fine.
 
