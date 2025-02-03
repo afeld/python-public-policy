@@ -8,6 +8,8 @@
 
 ## Coding
 
+You'll complete this assignment using pandas. Steps:
+
 1. [Find a dataset.](assignments/open_ended.md#open-data-portals)
    - It must have:
      - At least one numeric column
@@ -16,13 +18,12 @@
    - Don't spend too long on this step.
 1. If there's more than one numeric column, pick one.
 1. Create a new notebook.
-1. Using pandas:
-   1. Read in the data.
-   1. Compute:
-      - The mean
-      - The median
-      - The mode
-   1. Do a `groupby()` with an [aggregation](https://pandas.pydata.org/docs/user_guide/groupby.html#aggregation).
+1. Read in the data.
+1. Compute:
+   - The mean
+   - The median
+   - The mode
+1. Do a `groupby()` with an [aggregation](https://pandas.pydata.org/docs/user_guide/groupby.html#aggregation).
 
 Now [turn in the assignment](assignments.md).
 
