@@ -1,6 +1,6 @@
 # Homework 1
 
-[General assignment information.](assignments.md){% if id == "columbia" %}Note that this isn't a template notebook, hence there's no 🚀 above. You will create a blank notebook for this one.{% endif %}
+[General assignment information.](assignments.md){% if id == "columbia" %} Note that this isn't a template notebook, hence there's no 🚀 above. You will create a blank notebook for this one.{% endif %}
 
 ## Tutorials
 
