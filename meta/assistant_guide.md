@@ -45,7 +45,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 ### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
-- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning
+- We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
   
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
@@ -53,7 +53,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
 - Please give corrections/clarifications on student answers where necessary.
 - If posts have the wrong Category, are [a Question when they should be a Post](https://edstem.org/us/help/using-ed-discussion#creating-threads) or vice versa, please fix.
-- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already
+- [Mark correct answers as Accepted](https://edstem.org/us/help/using-ed-discussion#accepting-answers), if they aren't already.
 
 ### Check-in meeting
 
@@ -96,18 +96,18 @@ When grading, points should only be deducted based on [these criteria](../syllab
   - Point deductions, explaining what it's being deducted for
   - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
 - [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
-  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor
-  - Set the `End Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later
-  - Don't give extensions on the resubmission deadline unless authorized by the instructor
+  - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
+  - Set the `End Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
+  - Don't give extensions on the resubmission deadline unless authorized by the instructor.
 - Solutions folder will be shared with you from Google Drive
-  - The students don't need to match the provided solution exactly, as long as they do what the question is asking
+  - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
 - Grader will manually apply [late penalty](../syllabus.md#assignment-scoring)
 
 ### Plagiarism
 
 
 
-See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarsm vs. fair reuse.
+See [the class policies](../syllabus.md#sharing) for more details for what constitues plagiarism vs. fair reuse.
 
 It isn't your responsibility to look for potential instances of cheating/plagiarism. That said, if you have suspicions of those occuring, you must report them to the instructor. Things you might notice:
 
