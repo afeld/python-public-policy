@@ -221,15 +221,22 @@ You are responsible for getting caught up on what was covered in class. You may 
 
 ### Academic Integrity
 
-#### Sharing
+Anything outside of the provided course materials is considered a "source". This includes:
 
-A student may work with other students. However, assignment solutions should not be identical to / copied-and-pasted from one another, and each student should submit theirs separately. In addition, students need to indicate who they worked with with each submission.
+- Other students
+- Online resources
+- Books
+- Generative AI (ChatGPT, Copilot, Gemini, etc.)\*
 
-Similarly, it is common practice to use code snippets found on the internet; these sources must be cited. Note [the exception for generative AI](#generative-ai).
+If you are copying and pasting from a source, it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where applicable) is fine.
 
-Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
+**If you did most of the work yourself, it's ok. If most of the work was copied from elsewhere, it's plagiarism,** and will be reported. Other notes:
 
-Students may post their [open-ended assignments](assignments/open_ended.md) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are, however, more than welcome to share any of your notebooks with specific people, such as future employers.
+- Students are welcome to work with one another, as long as:
+  - You indicate who you worked with
+  - The submissions are different
+- Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
+- Students may post their [open-ended assignments](assignments/open_ended.md) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are more than welcome to share any of your notebooks with specific people, such as future employers.
 
 #### Generative AI
 
