@@ -67,6 +67,13 @@ def check_line(line: str, line_num: int, this_school: SchoolText):
         ), f"Not properly linking to course site, line {line_num}:\n\n{line}\n"
 
 
+def confirm_no_jinja_tags(source: str):
+    for i, line in enumerate(source.splitlines()):
+        line_num = i + 1
+        for tag in ["{{", "{%", "}}", "%}"]:
+            assert tag not in line, f"Jinja tag found, line {line_num}:\n\n{line}\n"
+
+
 def confirm_other_schools_not_included(source: str, school_id: str):
     school_text = SCHOOL_TEXT[school_id]
     for i, line in enumerate(source.splitlines()):
@@ -76,7 +83,10 @@ def confirm_other_schools_not_included(source: str, school_id: str):
 
 def render_cell(cell: NotebookNode, school_id: str):
     cell.source = render_template(cell.source, school_id)
+
+    confirm_no_jinja_tags(cell.source)
     confirm_other_schools_not_included(cell.source, school_id)
+
     return cell
 
 
