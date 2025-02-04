@@ -38,13 +38,7 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 {% if id == "columbia" -%}
 - [Other Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext)
 {% else -%}
-- Wagner
-  - [Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
-  - [Pre-approved courses outside of Wagner (for Wagner students)](https://wagner.nyu.edu/portal/students/academics/courses/non-wagner-courses)
-- [Center for Data Science](https://cds.nyu.edu/masters-curriculum/)
-- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
-  - Applied Data Science
-  - Machine Learning for Cities
+- [Pre-approved courses outside of Wagner (for Wagner students)](https://wagner.nyu.edu/portal/students/academics/courses/non-wagner-courses)
 {%- endif %}
 - [Free trials for online courses through the GitHub Student Developer Pack](https://education.github.com/pack?sort=popularity&tag=Learn#offers)
 
@@ -56,8 +50,15 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 - [Python at Columbia Business School](https://academics.gsb.columbia.edu/python) self-paced course with videos, open to anyone at Columbia
 {%- endif %}
 
-### Data analysis
+### Data analysis/science
 
+{% if id == "nyu" -%}
+- [Wagner Data Science and Data Management](https://wagner.nyu.edu/focus/areas/data-science-data-management)
+- [Center for Data Science](https://cds.nyu.edu/masters-curriculum/)
+- [Center for Urban Science + Progress (CUSP)](https://cusp.nyu.edu/masters-degree/#curriculum)
+  - Applied Data Science
+  - Machine Learning for Cities
+{%- endif %}
 - [Data Analysis with Python for Excel Users](https://www.youtube.com/watch?v=WcDaZ67TVRo)
 - freeCodeCamp's [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/) class
 - [IBM Data Analyst Course](https://www.youtube.com/watch?v=1PAy6d16ADQ) - can jump to specific parts
