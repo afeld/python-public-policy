@@ -62,6 +62,9 @@ Google Colab gives you the option to upload data directly, but those files will 
    - The value should be something like `/content/drive/My Drive/...`.
 1. Use this path with `read_csv()`.
 
+Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
+
+
 
 ## Reducing data size
 
