@@ -26,6 +26,8 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 - Attending class
 - [Recording attendance](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance) based on the sign-in sheets
+  - Please arrive to class a bit early to sit with the attendance sheet as people walk in.
+  - Please hold onto a copy/photo of the attendance sheets, in case we need to reference the signatures later.
 - Grading assignment submissions and releasing grades for your section
   - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
   
