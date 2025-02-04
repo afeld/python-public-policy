@@ -49,7 +49,7 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 
 ## Storing data
 
-Google Colab gives you the option to upload data directly, but those files will disappaear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
+Google Colab gives you the option to upload data directly, but those files will disappear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
 1. In the Google Colab sidebar, click the `Files` icon (📁).
@@ -62,7 +62,7 @@ Google Colab gives you the option to upload data directly, but those files will 
    - The value should be something like `/content/drive/My Drive/...`.
 1. Use this path with `read_csv()`.
 
-Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
+Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
 
 
