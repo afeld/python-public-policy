@@ -52,7 +52,7 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 ## Storing data
 
 {% if id == "columbia" -%}
-To keep data between sessions in {{coding_env_name}}, you'll probably want to store it in Google Drive.
+{{coding_env_name}} gives you the option to upload data directly, but those files will disappaear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
 1. In the {{coding_env_name}} sidebar, click the `Files` icon.
