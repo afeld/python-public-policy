@@ -52,7 +52,7 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 ## Storing data
 
 {% if id == "columbia" -%}
-{{coding_env_name}} gives you the option to upload data directly, but those files will disappaear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
+{{coding_env_name}} gives you the option to upload data directly, but those files will disappear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
 1. In the {{coding_env_name}} sidebar, click the `Files` icon (📁).
@@ -71,7 +71,7 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
 1. From Python, use `read_csv("./<filename>.csv")`.
 
-Note that that file path should be to relative to the notebook within {{coding_env_name}} — `./` means "in the same directory". {% endif %}{{coding_env_name}} cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths](https://www.codecademy.com/resources/docs/general/file-paths)
+Note that that file path should be to relative to the notebook within {{coding_env_name}} — `./` means "in the same directory". {% endif %}{{coding_env_name}} cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
 {% if id == "nyu" -%}
 ## Limits
