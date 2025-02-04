@@ -49,7 +49,7 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 
 ## Storing data
 
-To keep data between sessions in Google Colab, you'll probably want to store it in Google Drive.
+Google Colab gives you the option to upload data directly, but those files will disappaear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
 1. In the Google Colab sidebar, click the `Files` icon.
