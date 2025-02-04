@@ -34,6 +34,10 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - While you aren't expected to attend class in general, you are more than welcome to join for [the guest lecture](../syllabus.md#schedule).
 {% endif -%}
 - [Recording attendance]({{attendance_url}}) based on the sign-in sheets
+  {% if id == "columbia" -%}
+  - Please arrive to class a bit early to sit with the attendance sheet as people walk in.
+  - Please hold onto a copy/photo of the attendance sheets, in case we need to reference the signatures later.
+  {%- endif %}
 - Grading assignment submissions{% if id == "nyu" %} and resubmissions{% endif %} and releasing grades for your section
   {% if id == "columbia" -%}
   - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
