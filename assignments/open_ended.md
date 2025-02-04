@@ -52,10 +52,11 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 Google Colab gives you the option to upload data directly, but those files will disappaear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
 
 1. Upload the file(s) somewhere in Drive.
-1. In the Google Colab sidebar, click the `Files` icon.
+1. In the Google Colab sidebar, click the `Files` icon (📁).
 1. Click the `Mount Drive` icon.
    - Think of this as attaching your Drive to your Google Colab instance, as if you were plugging in a USB flash drive.
 1. Navigate to the file.
+   - You may need to click into `content`, then `drive`.
 1. Next to the filename, click the three dots.
 1. Click `Copy path`.
    - The value should be something like `/content/drive/My Drive/...`.
