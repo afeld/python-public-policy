@@ -27,6 +27,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 - While you aren't expected to attend class in general, you are more than welcome to join for [the guest lecture](../syllabus.md#schedule).
 - [Recording attendance](https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data) based on the sign-in sheets
+  
 - Grading assignment submissions and resubmissions and releasing grades for your section
   - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
   - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)

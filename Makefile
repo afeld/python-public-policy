@@ -1,5 +1,8 @@
 browser := chrome
 
+lab:
+	jupyter lab --browser $(browser)
+
 notebook:
 	jupyter notebook --browser $(browser)
 
