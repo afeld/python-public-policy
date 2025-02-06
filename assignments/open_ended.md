@@ -3,7 +3,7 @@
 In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you will pick your own dataset(s).
 
 - Use at least one dataset that you aren't familiar with.
-   - Using data from a primary source is preferred.
+  - Using data from a primary source is preferred.
 - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 - If you'd be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to the instructor](../syllabus.md#instructor-information).
 
@@ -12,13 +12,13 @@ In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you wi
 There are countless places to get data, notably:
 
 - Local:
-   - [NYC Open Data](https://opendata.cityofnewyork.us/)
-      - [Scout](https://scout.tsdataclinic.com/explore/NYC) can be used to find datasets with certain columns
-   - [BetaNYC](https://data.beta.nyc/)
+  - [NYC Open Data](https://opendata.cityofnewyork.us/)
+    - [Scout](https://scout.tsdataclinic.com/explore/NYC) can be used to find datasets with certain columns
+  - [BetaNYC](https://data.beta.nyc/)
 - U.S. Federal:
-   - [data.gov](https://www.data.gov/)
-   - [Census Bureau](https://data.census.gov/)
-   - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
+  - [data.gov](https://www.data.gov/)
+  - [Census Bureau](https://data.census.gov/)
+  - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
 - [United Nations](https://data.un.org/)
 - [World Bank](https://data.worldbank.org/)
 - [World Health Organization (WHO)](https://www.who.int/data)
@@ -29,8 +29,8 @@ There are countless places to get data, notably:
 - [Black Wealth Data](https://blackwealthdata.org/)
 - [DataHub](https://datahub.io/collections)
 - Lists of open data portals:
-   - [DataPortals](https://dataportals.org/)
-   - [Open Data Network](https://www.opendatanetwork.com/)
+  - [DataPortals](https://dataportals.org/)
+  - [Open Data Network](https://www.opendatanetwork.com/)
 
 ## Inspiration
 
@@ -73,4 +73,6 @@ You can make data smaller _before_ uploading by filtering it through:
 - The data portal, if it supports it
   - This makes the download faster, including only the data you need.
   - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
+- The `$limit` parameter (or equivalent), if using an API
+  - [Socrata documentation](https://dev.socrata.com/docs/queries/limit)
 - In a spreadsheet program
