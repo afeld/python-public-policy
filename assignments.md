@@ -24,21 +24,36 @@ That is now your own copy; make edits in there directly.
 
 ## Tips
 
-{% if id == "nyu" -%}
-- **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.
-   - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
-- **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking {{coding_env_name}}, as that will pull down the latest changes.
-{% endif -%}
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
-- **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
-- You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
-- **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within a notebook, there's probably a better way to do it.
-- **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 - **Ask for help.**
    - The assignments are meant to be challenging, not impossible.
    - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
       - [Ed]({{discussions_url}})
       - [Office hours](https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html#instructor-information)
+
+### Coding in general
+
+- Make variable names descriptive.
+   - Do as I say, not as I do!
+- Only do one thing per line.
+   - Makes troubleshooting easier
+- **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
+- **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within your file(s), there's probably a better way to do it.
+- **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
+
+### Jupyter / {{coding_env_name}}
+
+{% if id == "nyu" -%}
+- **All lecture slides and homework templates can be found under [`python-public-policy/`]({{coding_env_url}}).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/{{school_slug}}), but should keep any changes you make.
+   - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
+- **Access [{{coding_env_name}}]({{coding_env_url}}) via the links on this site** rather than bookmarking {{coding_env_name}}, as that will pull down the latest changes.
+{% endif -%}
+- Keep each cell to only a few lines of code.
+   - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
+- You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
+- Make notebooks [idempotent](https://en.wikipedia.org/wiki/Idempotence)
+    - Makes your work reproducible.
+    - Use `Restart and run all` (⏩ button in toolbar).
 
 {% if id == "nyu" -%}
 ## Generative AI
