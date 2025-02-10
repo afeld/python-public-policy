@@ -52,9 +52,22 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 ## Storing data
 
 {% if id == "columbia" -%}
-{{coding_env_name}} gives you the option to upload data directly, but those files will disappear when your session ends. To keep data between sessions, you'll probably want to store it in Google Drive.
+To work with uploaded files in {{coding_env_name}}, you have two options:
 
-1. Upload the file(s) somewhere in Drive.
+### Direct upload
+
+_Fewer steps, but your file(s) will disappear when your session ends._
+
+1. In the {{coding_env_name}} sidebar, click the `Files` icon (📁).
+1. Click the upload button (📤).
+1. Select your file.
+1. You'll use `read_csv("MY_FILENAME.csv")` in your code.
+
+### Google Drive
+
+_More steps, but your file(s) are preserved between sessions._
+
+1. Upload the file(s) somewhere in [Drive](https://drive.google.com/drive/my-drive).
 1. In the {{coding_env_name}} sidebar, click the `Files` icon (📁).
 1. Click the `Mount Drive` icon.
    - Think of this as attaching your Drive to your {{coding_env_name}} instance, as if you were plugging in a USB flash drive.
