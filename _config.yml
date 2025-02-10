@@ -27,6 +27,9 @@ launch_buttons:
   binderhub_url: ""
   jupyterhub_url: https://padmgp-4506-fall.rcnyu.org
   
+parse:
+  myst_enable_extensions:
+    - html_image
 sphinx:
   # avoid the html_theme_options from overriding the ones set by Jupyter Book
   # https://jupyterbook.org/en/stable/advanced/sphinx.html#manual-sphinx-configuration
