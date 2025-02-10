@@ -30,6 +30,9 @@ launch_buttons:
   {% else -%}
   jupyterhub_url: {{coding_env_origin}}
   {% endif %}
+parse:
+  myst_enable_extensions:
+    - html_image
 sphinx:
   # avoid the html_theme_options from overriding the ones set by Jupyter Book
   # https://jupyterbook.org/en/stable/advanced/sphinx.html#manual-sphinx-configuration
