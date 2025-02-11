@@ -4,6 +4,8 @@ In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you wi
 
 - Use at least one dataset that you aren't familiar with.
   - Using data from a primary source is preferred.
+- It should have between one thousand and one million rows.
+  - If it's larger than that, you can [make it smaller](#reducing-data-size).
 - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 {%- if id == "columbia" %}
 - If you'd be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to the instructor](../syllabus.md#instructor-information).
