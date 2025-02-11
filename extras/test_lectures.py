@@ -78,6 +78,8 @@ def test_attendance_reminder(file):
 def test_hidden_imports(file):
     if file == "lecture_1.ipynb":
         pytest.skip("Introducing pandas")
+    if file == "lecture_3.ipynb":
+        pytest.skip("Introducing plotly")
 
     notebook = read_notebook(file)
 
