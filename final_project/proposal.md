@@ -3,7 +3,6 @@
 ## Process
 
 1. [Find a dataset](../assignments/open_ended.md) that seems interesting.
-   - To meet the [requirement](../final_project.md#analysis-requirements) that your project "not be trivial," you probably want a dataset that's large enough that you can't understand it at a glance. In other words, you probably want it to have 500+ rows.
 1. If necessary, [upload the data](../assignments/open_ended.md#storing-data).
 1. Load the data into a DataFrame.
 1. Inspect the data a bit.
