@@ -2,7 +2,7 @@
 
 ## Process
 
-1. [Find a dataset](../assignments/open_ended.md) that seems interesting.
+1. [Find a dataset.](../assignments/open_ended.md)
 1. If necessary, [upload the data](../assignments/open_ended.md#storing-data).
 1. Load the data into a DataFrame.
 1. Inspect the data a bit.
