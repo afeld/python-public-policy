@@ -285,6 +285,12 @@ You are responsible for getting caught up on what was covered in class. You may 
 
 ### Academic Integrity
 
+If you are copying and pasting from a source (see below), it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where possible) is fine.
+
+**If you did most of the work yourself, it's ok. If most of the work was copied from elsewhere, it's plagiarism,** and will be reported.
+
+#### Sources
+
 Anything outside of the provided course materials is considered a "source". This includes:
 
 - Other students
@@ -292,9 +298,7 @@ Anything outside of the provided course materials is considered a "source". This
 - Books
 - Generative AI (ChatGPT, Copilot, Gemini, etc.)[\*](#generative-ai)
 
-If you are copying and pasting from a source, it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where applicable) is fine.
-
-**If you did most of the work yourself, it's ok. If most of the work was copied from elsewhere, it's plagiarism,** and will be reported. Other notes:
+#### Other notes
 
 - Students are welcome to work with one another, as long as:
   - You indicate who you worked with
