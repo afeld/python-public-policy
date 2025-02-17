@@ -7,6 +7,7 @@ In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you wi
 - It should have between one thousand and one million rows.
   - If it's larger than that, you can [make it smaller](#reducing-data-size).
 - Finding a dataset available in CSV or JSON is recommended, though [pandas can read other formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
+- It's ok if you pick the same dataset as another student, as long as you're following [the Academic Integrity rules](../syllabus.md#academic-integrity).
 - If you'd be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to the instructor](../syllabus.md#instructor-information).
 
 ## Open data portals
