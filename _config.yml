@@ -30,6 +30,7 @@ launch_buttons:
 parse:
   myst_enable_extensions:
     - html_image
+    - linkify
 sphinx:
   # avoid the html_theme_options from overriding the ones set by Jupyter Book
   # https://jupyterbook.org/en/stable/advanced/sphinx.html#manual-sphinx-configuration
