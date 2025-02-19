@@ -36,16 +36,20 @@ In addition to the applicable [general assignment requirements](syllabus.md#assi
   - Have a conclusion that speaks to your question and hypothesis.
 - **Use pandas** - 15 points
 - **Not be trivial** - 35 points - requiring:
-  - At least 40 lines of code to come to a conclusion
-    - That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
-    - If you meet all the other requirements, you will likely be well over this number.
-    - [How to count them automaticaly](final_project/resources.md#counting-lines-of-code)
-  - Transforming data through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html) of DataFrames
-  - Operations that aren't easily done in a spreadsheet.
+  - Transforming of DataFrames through [grouping](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html), [merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging), and/or [reshaping](https://pandas.pydata.org/docs/user_guide/reshaping.html)
+  - Operations that aren't easily done in a spreadsheet
 - **Have a visualization** (chart or map) of some kind - 15 points
   - Follow [best practices](https://xdgov.github.io/data-design-standards/)
 
 If you answer the first question easily, that's fine; dig into / build off of it. Go deep, not broad.
+
+```{dropdown} Is the subjectivity of "trivial" stressing you out?
+If you insist: Make sure you use at least 40 lines of code to come to a conclusion.
+
+- That code should be relevant to answering your question. In other words, having 40 lines of `print("hello world")` wouldn't count.
+- If you meet all the requirements above, you will likely be well over this number.
+- [How to count them automaticaly](final_project/resources.md#counting-lines-of-code)
+```
 
 ## Examples
 

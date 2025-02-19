@@ -32,7 +32,6 @@ The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/w
 1. If on the `columbia` branch, run:
 
    ```sh
-   ./extras/scripts/school.sh <school>
    ./extras/scripts/build.sh
    ```
 
