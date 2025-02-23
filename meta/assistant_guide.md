@@ -44,7 +44,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - The instructor will mark participation for students that came to office hours.
 
 
-### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
+### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.

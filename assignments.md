@@ -21,7 +21,7 @@ That is now your own copy; make edits in there directly.
 - **Ask for help.**
    - The assignments are meant to be challenging, not impossible.
    - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
-      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
+      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594)
       - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
 ### Coding in general
@@ -36,9 +36,9 @@ That is now your own copy; make edits in there directly.
 
 ### Jupyter / JupyterHub
 
-- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
+- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
    - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
-- **Access [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
+- **Access [JupyterHub](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
 - Keep each cell to only a few lines of code.
    - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
@@ -64,7 +64,7 @@ Note that we only have the `gpt-4.0-32k` model enabled.
 1. **One-time setup:** Visit [projects.rit.nyu.edu](https://projects.rit.nyu.edu/) and accept the Terms of Use.
    - This site is only accessible from [the NYU network](https://www.nyu.edu/life/information-technology/infrastructure/network-services/nyu-net.html).
       - If you're off campus, you can connect via [the VPN](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html).
-1. Open [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
+1. Open [JupyterHub](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
 1. Load the models by running the following in a `Code` cell:
 
    ```
@@ -96,7 +96,7 @@ Note that we only have the `gpt-4.0-32k` model enabled.
    - [Troubleshooting tips](#pdf-export)
 1. **If one of the Homeworks:** Upload the PDF to the Brightspace Assignment.
 1. **If the Final Project:**
-   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/384630), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
+   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/432695), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
 
 When you're ready to have it formally re-graded, please resubmit through the same Assignment in Brightspace.
@@ -106,7 +106,7 @@ Note: In-class exercises will not be graded.
 ## Common issues
 
 - **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch JupyterHub:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
-  1. [Launch JupyterHub.](https://padmgp-4506-fall.rcnyu.org)
+  1. [Launch JupyterHub.](https://padmgp-4506-spring.rcnyu.org)
   1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
     - If you've edited any of the template notebooks, you can find them in that `-old` folder.
   1. Repeat the [getting started](#getting-started) steps.
@@ -132,7 +132,7 @@ Note: In-class exercises will not be graded.
 If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](assignments/open_ended.md#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-1. Go to [start your server again](https://padmgp-4506-fall.rcnyu.org).
+1. Go to [start your server again](https://padmgp-4506-spring.rcnyu.org).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
@@ -142,7 +142,7 @@ If you get an error of `Disk is full` / `No space left on device` / `Out of disk
 
 This error can happen if you tried to output a lot of data in tables/charts. Steps to resolve:
 
-1. Open the [JupyterHub](https://padmgp-4506-fall.rcnyu.org)) file browser
+1. Open the [JupyterHub](https://padmgp-4506-spring.rcnyu.org)) file browser
 1. Click `New`, then `Terminal`
 1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
 
@@ -165,7 +165,7 @@ The kernel is [the place where Python is installed and the code is actually exec
 - If your kernel is repeatedly crashing, you're probably running out of memory.
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
-  - Close kernels you aren't using from the [Running](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree#running) page.
+  - Close kernels you aren't using from the [Running](https://padmgp-4506-spring.rcnyu.org/user-redirect/tree#running) page.
 
 ### PDF export
 
@@ -174,7 +174,7 @@ The kernel is [the place where Python is installed and the code is actually exec
 If you get a **500 error**, it could be happening for a handful of reasons. Scroll to the bottom and read the message.
 
 - If it mentions `Undefined control sequence` and `\pandocbounded`, it's [an issue with the exporter](https://github.com/jupyter/nbconvert/issues/2173). Jump to the [Alternatives](#alternatives).
-- If it mentions a package being missing, ask on [Ed](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594).
+- If it mentions a package being missing, ask on [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594).
 - Otherwise, it may be crashing due to not being handle the complexity of the render. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
    - Not displaying so many rows/values
    - Reducing the number of points that are plotted

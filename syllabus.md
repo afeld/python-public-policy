@@ -2,7 +2,7 @@
 
 # Syllabus
 
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python Coding for Public Policy - Fall 2024</p>
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python Coding for Public Policy - Spring 2025</p>
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/nyu/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -20,8 +20,10 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/nyu/](https://python-public-policy.afeld.me/en/nyu/)
-- **Class Meeting Times:** Wednesdays 10/23-12/4, 6:45-8:25pm
-- **Class Location:** Global Center for Academic and Spiritual Life (GCASL), [238 Thompson St.](https://maps.app.goo.gl/345WAPewdgn4bLqz7), room 269
+- **Class Meeting Times:** Tuesdays 3/18-5/6
+  - Section 1: 4:55-6:35pm
+  - Section 2: 6:45-8:25pm
+- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 117
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -76,19 +78,18 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Date    | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| 10/23   | [Intro to coding][l0]                  | none                                                       |                                                                    |
-| 10/30   | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
-| 11/6    | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| 11/13   | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| 11/20   | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| 11/27\* | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| 12/4    | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| 12/7    | none                                   | none                                                       | [Final Project][final]                                             |
-| 12/11   | none                                   | [Final Project peer grading][final-peer]                   |                                                                    |
-
-\*This class will be virtual.
+| Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ---- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| 3/18 | [Intro to coding][l0]                  | none                                                       |                                                                    |
+| 3/25 | none (Spring Break)                    | none                                                       | none                                                               |
+| 4/1  | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
+| 4/8  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| 4/15 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| 4/22 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| 4/29 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 5/6  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| 5/9  | none                                   | none                                                       | [Final Project][final]                                             |
+| 5/13 | none                                   | [Final Project peer grading][final-peer]                   |                                                                    |
 
 [l0]: https://python-public-policy.afeld.me/en/nyu/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/nyu/lecture_1.html
@@ -98,14 +99,14 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/nyu/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/nyu/lecture_6.html
 
-In general, assignments and resubmissions are due at the time class starts. These will all be reflected in the Assignments in [Brightspace](https://brightspace.nyu.edu/d2l/home/384630).
+In general, assignments and resubmissions are due at the time class starts. These will all be reflected in the Assignments in [Brightspace](https://brightspace.nyu.edu/d2l/home/432695).
 
 ## Communications
 
-- All assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/384630).
+- All assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/432695).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
@@ -176,9 +177,9 @@ To encourage cosnsistent, deeper thought about the Assignments, relevance to the
 in either:
 
 - Office hours
-- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/384630/topics/10717594)
+- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/lms/discussions/admin/subscriptions.d2l?ou=384630) to make sure you see conversations that come through
+  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=432695) to make sure you see conversations that come through
 - Email
 
 A student's overall Between-Class Participation score is calculated based on some form of participation every week. The following don't count:
