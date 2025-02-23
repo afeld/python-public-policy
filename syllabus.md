@@ -56,8 +56,10 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Wednesdays 10/23-12/4, 6:45-8:25pm
-- **Class Location:** Global Center for Academic and Spiritual Life (GCASL), [238 Thompson St.](https://maps.app.goo.gl/345WAPewdgn4bLqz7), room 269
+- **Class Meeting Times:** Tuesdays 3/18-5/6
+  - Section 1: 4:55-6:35pm
+  - Section 2: 6:45-8:25pm
+- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 117
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -134,19 +136,18 @@ By the end of the course, students will know:
 
 {% else -%}
 
-| Date    | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| 10/23   | [Intro to coding][l0]                  | none                                                       |                                                                    |
-| 10/30   | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
-| 11/6    | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| 11/13   | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| 11/20   | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| 11/27\* | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| 12/4    | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| 12/7    | none                                   | none                                                       | [Final Project][final]                                             |
-| 12/11   | none                                   | [Final Project peer grading][final-peer]                   |                                                                    |
-
-\*This class will be virtual.
+| Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ---- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| 3/18 | [Intro to coding][l0]                  | none                                                       |                                                                    |
+| 3/25 | none (Spring Break)                    | none                                                       | none                                                               |
+| 4/1  | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
+| 4/8  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| 4/15 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| 4/22 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| 4/29 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 5/6  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| 5/9  | none                                   | none                                                       | [Final Project][final]                                             |
+| 5/13 | none                                   | [Final Project peer grading][final-peer]                   |                                                                    |
 
 {% endif -%}
 
