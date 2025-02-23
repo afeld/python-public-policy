@@ -41,7 +41,7 @@ assignees: afeld
       - [ ] Students
 - [ ] New Brightspace site
   - [ ] Update bookmark
-  - [ ] [Request Ed Discussions](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0019715&sys_kb_id=332d12091b25d150191ca8233a4bcb60&spa=1)
+  - [ ] [Request Ed Discussions](https://support.nyu.edu/esc?id=kb_article&table=kb_knowledge&sys_id=695ab043c3cfd694d0e1b2fc05013193&recordUrl=%2Fkb_view.do%3Fsys_kb_id%3D695ab043c3cfd694d0e1b2fc05013193)
     - [ ] Create categories
     - [ ] Send welcome Announcement
     - [ ] Set up Megathread for Final Project proposals
@@ -55,7 +55,7 @@ assignees: afeld
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
 - [ ] Print attendance sheets
 - [ ] Send calendar invite
-  - [ ] [Request Google Group](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018953&sys_kb_id=23e5e5a9dbbaa410492a6d8d13961947&spa=1)
+  - [ ] [Request Google Group](https://support.nyu.edu/esc?id=kb_article&table=kb_knowledge&sys_id=695ab043c3cfd694d0e1b2fc05013193&recordUrl=%2Fkb_view.do%3Fsys_kb_id%3D695ab043c3cfd694d0e1b2fc05013193)
 - [ ] Set reminder to bring attendance sheets
 - [ ] A couple weeks in: do a quality check on Assignments and Discussions
 - [ ] [Find guest](https://docs.google.com/document/d/1SMBquSezZ_1wLW0y2osJ35WFpz82PvSRbfLtNZQFjAo/edit)
