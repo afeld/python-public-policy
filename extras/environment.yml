@@ -20,7 +20,8 @@ dependencies:
   - html5lib=1.1
   - lxml
   - pandas=2.2.2
-  - plotly=5.24.1
+  # intentionally using newer version than Colab to avoid the need for the plugin in the base environment
+  - plotly=6.*
   - requests=2.32.3
   - statsmodels=0.14.4
   ## supporting packages for notebooks ##
@@ -35,8 +36,9 @@ dependencies:
   - nbformat
   # needed for plotly
   # https://plotly.com/python/getting-started/#jupyterlab-support
-  - ipywidgets>=7.6
+  - anywidget
   - isoduration
+  - narwhals
   # for AI magic in JupyterHub
   # - pip
   # - pip:
