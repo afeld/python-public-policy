@@ -94,7 +94,7 @@ SCHOOLS = [
         term="Spring 2025",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/432695",
-        discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594",
+        discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSfwKHNZcAPVw_uP20egkqonBkmaTEPr73YPsnLroD0XiA3WPQ/viewform?usp=header",
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",
