@@ -12,7 +12,7 @@ assignees: afeld
   - [ ] Link to survey
   - [ ] Links to Brightspace site
 - [ ] Submit syllabus to Wagner
-  - [ ] [Convert to PDF](https://md2pdf.netlify.com/)
+  - [ ] [Download as PDF](https://python-public-policy.afeld.me/en/nyu/syllabus.html)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
