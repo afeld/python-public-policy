@@ -16,7 +16,7 @@ _While this is meant as internal documentation for the instructor, others are we
 1. Update environment in JupyterHub
 
    ```sh
-   mamba env update --file extras/environment.lock.yml --prune
+   mamba env update --file extras/environment.yml --prune
    ```
 {% endif -%}
 

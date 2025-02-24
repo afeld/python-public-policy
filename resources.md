@@ -135,7 +135,7 @@ Note these instructions won't work in Colab.
 1. [Create the environment.](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
 
    ```sh
-   mamba env create --file extras/environment.lock.yml
+   mamba env create --file extras/environment.yml
    ```
 
 1. Activate the environment:
