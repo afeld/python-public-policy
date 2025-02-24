@@ -15,10 +15,11 @@ Students are currently [directed to export PDFs and submit via {{lms_name}}](../
 | Option       | Pros                                                                                           | Cons                                                                                                                      |
 | ------------ | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **PDF**      | Avoids "works on my machine"                                                                   | No support for interactive plots; [Plotly needs extra packages][kaleido] and is [fragile][fragile]; long outputs look bad |
-| **HTML**     | Supports interactive plots; outputs support scrolling, though that must be done by the student | TODO                                                                                                                      |
-| **Notebook** | Supports interactive plots; long outputs are collapsable/scrollable by the {{assistant_name}}  | Can hide long outputs; can interact with interactive plots; TODO                                                          |
+| **HTML**     | Supports interactive plots; outputs support scrolling, though that must be done by the student | [Doesn't support annotation in {{lms_name}}][annotation]                                                                  |
+| **Notebook** | Supports interactive plots; long outputs are collapsable/scrollable by the {{assistant_name}}  | [Doesn't support annotation in {{lms_name}}][annotation]; TODO                                                            |
 
 [kaleido]: https://plotly.com/python/static-image-export/
+[annotation]: https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool#supported-file-types-for-annotating-submissions
 
 ### PDF export
 
