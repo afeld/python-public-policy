@@ -106,7 +106,7 @@ In general, assignments and resubmissions are due at the time class starts. Thes
 - All assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/432695).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
@@ -177,7 +177,7 @@ To encourage cosnsistent, deeper thought about the Assignments, relevance to the
 in either:
 
 - Office hours
-- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594)
+- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
   - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=432695) to make sure you see conversations that come through
 - Email

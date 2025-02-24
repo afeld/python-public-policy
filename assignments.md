@@ -21,7 +21,7 @@ That is now your own copy; make edits in there directly.
 - **Ask for help.**
    - The assignments are meant to be challenging, not impossible.
    - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
-      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594)
+      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123)
       - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
 ### Coding in general
@@ -174,7 +174,7 @@ The kernel is [the place where Python is installed and the code is actually exec
 If you get a **500 error**, it could be happening for a handful of reasons. Scroll to the bottom and read the message.
 
 - If it mentions `Undefined control sequence` and `\pandocbounded`, it's [an issue with the exporter](https://github.com/jupyter/nbconvert/issues/2173). Jump to the [Alternatives](#alternatives).
-- If it mentions a package being missing, ask on [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/10717594).
+- If it mentions a package being missing, ask on [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123).
 - Otherwise, it may be crashing due to not being handle the complexity of the render. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
    - Not displaying so many rows/values
    - Reducing the number of points that are plotted
