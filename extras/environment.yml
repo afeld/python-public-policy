@@ -26,6 +26,7 @@ dependencies:
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
+  - unzip
   - wget
   # https://plotly.com/python/static-image-export/
   - python-kaleido
