@@ -34,6 +34,7 @@ if [ $# -eq 1 ]; then
         ':!:.github/workflows/*' \
         ':!:.github/ISSUE_TEMPLATE/new-term-*.md' \
         ':!:.readthedocs.yaml' \
+        ':!:Makefile' \
         ':!:extras/img/*' \
         ':!:extras/pandas_crash_course.ipynb' \
         ':!:extras/scripts/*')

@@ -8,7 +8,7 @@ _While this is meant as internal documentation for the instructor, others are we
 1. Run
 
    ```sh
-   ./extras/scripts/update_packages.sh
+   make update_packages
    ```
 
 1. Manually update the [notebooks with interactivity](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/interactive_check.sh)
