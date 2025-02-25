@@ -12,7 +12,7 @@ Status: **DRAFT**
 >
 > A lot of the complication revolves around Plotly charts being interactive by default.
 
-This is tied up with [how assignments are submitted](submission.md), as [support for interactive plots (in notebooks/HTML) in those tools varies](submission.md#tool).
+This is tied up with [how assignments are submitted](submission.md), as [support for interactive plots (in notebooks/HTML) in those tools varies](submission.md#options).
 
 ## Options
 
