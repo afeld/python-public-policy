@@ -133,3 +133,4 @@ Note these instructions won't work in Colab.
 
 - [DataJournalism.com](https://datajournalism.com/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
+- [Generative AI offerings from the University](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/generative-ai-services.html)

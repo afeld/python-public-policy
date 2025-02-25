@@ -233,7 +233,7 @@ Anything outside of the provided course materials is considered a "source". This
 - Other students
 - Online resources
 - Books
-- Generative AI (ChatGPT, Copilot, Gemini, etc.)[\*](#generative-ai)
+- Generative AI (ChatGPT, Copilot, Gemini, etc.)
 
 #### Other notes
 
@@ -244,17 +244,6 @@ Anything outside of the provided course materials is considered a "source". This
 - Students may post their [open-ended assignments](assignments/open_ended.md) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are more than welcome to share any of your notebooks with specific people, such as future employers.
 
 #### Generative AI
-
-This course is taking part in [NYU’s Private Generative AI Service Pilot](https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/private-ai-generative-pilot.html).
-
-**_For the homeworks and Final Project:_**
-
-You are welcome to use [the AI magic](https://python-public-policy.afeld.me/en/nyu/assignments.html#generative-ai) and can ask it any questions you like without penalty, but **all use of it must be done through JupyterHub and turned in with the corresponding work**. You can use the same notebook, or a separate one. **All other use of generative AI (through [chatgpt.com](https://chatgpt.com/), [GitHub Copilot](https://github.com/features/copilot), etc.) is prohibited.**
-
-This policy is in place to ensure that:
-
-- The instructor/grader have a good sense of what generative AI is being used for
-- There is a level playing field in terms of the model being used
 
 Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
 
