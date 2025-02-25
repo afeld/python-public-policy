@@ -128,3 +128,4 @@ Note these instructions won't work in Colab.
 - [Data Science Institute](https://datascience.columbia.edu/)
 - [DataJournalism.com](https://datajournalism.com/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
+- [Generative AI offerings from the University](https://www.cuit.columbia.edu/content/ai-services)

@@ -45,8 +45,6 @@ That is now your own copy; make edits in there directly.
     - Makes your work reproducible.
     - Use `Restart and run all` (⏩ button in toolbar).
 
-
-
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
