@@ -159,3 +159,4 @@ Note these instructions won't work in Colab.
 {%- endif %}
 - [DataJournalism.com](https://datajournalism.com/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
+- [Generative AI offerings from the University]({{ai_offerings}})
