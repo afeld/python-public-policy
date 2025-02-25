@@ -20,8 +20,6 @@ Students are currently [directed to export PDFs and submit via {{lms_name}}](../
 
 ## Options
 
-### Format
-
 | Option       | Tool                             | Pros                                                                                                                                                                     | Cons                                                                                                                           |
 | ------------ | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | **PDF**      | **{{lms_name}}**                 | Students are comfortable with {{lms_name}}; avoids "works on my machine"                                                                                                 | No support for interactive plots; [Plotly needs extra packages][kaleido] and is [fragile][fragile]; long/wide outputs look bad |
