@@ -2,9 +2,6 @@
   "python.testing.pytestArgs": ["extras"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "[markdown]": {
-    "editor.formatOnSave": false
-  },
   "[json]": {
     "editor.formatOnSave": false
   },

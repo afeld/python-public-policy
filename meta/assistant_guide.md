@@ -123,6 +123,7 @@ The following should be true for each Assignment:
   - [ ] **Grade Posting Policies:** Automatic
 {% else -%}
 - [ ] Associated with the `Homework` gradebook category
+- [ ] [Enable TurnItIn similarity reports](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011354)
 - [ ] `Visible`
 {%- endif %}
 
