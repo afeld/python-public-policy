@@ -11,23 +11,28 @@ Students are currently [directed to export PDFs and submit via {{lms_name}}](../
 ### Considerations
 
 - The assignments are largely/increasingly open-ended.
-- There's more need for manual line-by-line feedback.
+- There's more need for manual line-by-line feedback than auto-grading.
 
 ### Nice-to-haves
 
 - Auto-grading
-- Minimal/foolproof [submission steps](../../assignments.md#submission)
+- Plagiarism detection
+- Minimal/foolproof workflows for:
+  - [Submission](../../assignments.md#submission)
+  - [Grading](../assistant_guide.md#grading)
 
 ## Options
 
-| Option       | Tool                             | Autograder support | Plagiarism detection | Inline annotation                    | Notebooks are interactive                          | Other pros                                                                                                                                   | Other cons                                                                                   |
-| ------------ | -------------------------------- | ------------------ | -------------------- | ------------------------------------ | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **PDF**      | **{{lms_name}}**                 | N                  | [Y][lms-similarity]  | [Y][annotation]                      | N                                                  | Students are comfortable with {{lms_name}}; avoids "works on my machine"                                                                     | [Plotly needs extra packages][kaleido] and is [fragile][fragile]; long/wide outputs look bad |
-| **HTML**     | **{{lms_name}}**                 | N                  | [Y][lms-similarity]  | [N][annotation]                      | Kinda - need to be downloaded                      | Students are comfortable with {{lms_name}}; outputs support scrolling, though that must be done by the student; avoids "works on my machine" | [Plotly rendering broken in v6.0.0][html-render]                                             |
-| **Notebook** | **{{lms_name}}**                 | N                  | [N][lms-similarity]  | [N][annotation]                      | Kinda - need to be downloaded                      | Students are comfortable with {{lms_name}}; long outputs are collapsable/scrollable by the {{assistant_name}}                                | Need to be downloaded to be viewed                                                           |
-| **Notebook** | [**Gradescope**][gradescope]     | [Y][gs-autograder] | [N][gs-similarity]   | N                                    | [Kinda][gs-interactive] - need to be downloaded    | Supported by both schools                                                                                                                    |                                                                                              |
-| **Notebook** | [**Nbgrader**][nbgrader]         | Y                  | N                    | Y                                    | Y                                                  | Pre-installed in NYU {{coding_env_name}}                                                                                                     | Workflow is totally disconnected from {{lms_name}}                                           |
-| **Notebook** | [**Otter Grader**][otter-grader] | Y                  | N                    | [Kinda - through PDFs][otter-manual] | N - [manual grading is through PDFs][otter-manual] | Built by Jupyter experts                                                                                                                     | Optimized for autograding over manual feedback                                               |
+| Option       | Tool                             | Autograder support | Plagiarism detection | Inline annotation                    | Notebooks are interactive\*                        | Integration with {{lms_name}} | Other pros                                                               | Other cons                                                                                                |
+| ------------ | -------------------------------- | ------------------ | -------------------- | ------------------------------------ | -------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| **PDF**      | **{{lms_name}}**                 | N                  | [Y][lms-similarity]  | [Y][annotation]                      | N                                                  | Y                             | Students are comfortable with {{lms_name}}; avoids "works on my machine" | [Plotly needs extra packages][kaleido] and is [fragile][fragile]                                          |
+| **HTML**     | **{{lms_name}}**                 | N                  | [Y][lms-similarity]  | [N][annotation]                      | Kinda - need to be downloaded                      | Y                             | Students are comfortable with {{lms_name}}; avoids "works on my machine" | [Plotly rendering broken in v6.0.0][html-render]; long outputs can only be made scrollable by the student |
+| **Notebook** | **{{lms_name}}**                 | N                  | [N][lms-similarity]  | [N][annotation]                      | Kinda - need to be downloaded                      | Y                             | Students are comfortable with {{lms_name}}                               |                                                                                                           |
+| **Notebook** | [**Gradescope**][gradescope]     | [Y][gs-autograder] | [N][gs-similarity]   | N                                    | [Kinda][gs-interactive] - need to be downloaded    | Y                             | Supported by both schools                                                |                                                                                                           |
+| **Notebook** | [**Nbgrader**][nbgrader]         | Y                  | N                    | Y                                    | Y                                                  | N                             | Pre-installed in NYU {{coding_env_name}}                                 |                                                                                                           |
+| **Notebook** | [**Otter Grader**][otter-grader] | Y                  | N                    | [Kinda - through PDFs][otter-manual] | N - [manual grading is through PDFs][otter-manual] | N                             | Built by Jupyter experts                                                 | Optimized for autograding over manual feedback                                                            |
+
+\*Interactive plots, tables are scrollable (horizontally/vertically), long outputs can be made scrollable (ideally by the {{assistant_name}})
 
 [lms-similarity]: https://guides.turnitin.com/hc/en-us/articles/23929463501965-File-requirements
 [kaleido]: https://plotly.com/python/static-image-export/
