@@ -85,6 +85,7 @@ The following should be true for each Assignment:
   - [ ] Due date
   - [ ] `End Date`
 - [ ] Associated with the `Homework` gradebook category
+- [ ] [Enable TurnItIn similarity reports](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011354)
 - [ ] `Visible`
 
 ### Grading
