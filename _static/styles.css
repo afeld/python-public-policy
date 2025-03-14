@@ -1,3 +1,7 @@
+iframe {
+  width: 100%;
+}
+
 video {
   max-height: 50vh;
   width: 100%;

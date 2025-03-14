@@ -21,30 +21,9 @@ Students are currently [directed to export PDFs and submit via Brightspace](../.
   - [Submission](../../assignments.md#submission)
   - [Grading](../assistant_guide.md#grading)
 
-## Options
+## [Options](https://docs.google.com/spreadsheets/d/181B2YeSahgSkTMyoo7QbfLC4pm6sEQyj_N78XtsfFWo/edit?gid=0#gid=0)
 
-| Option       | Tool                             | Autograder support | Plagiarism detection | Inline annotation                    | Notebooks are interactive\*                        | Integration with Brightspace | Other pros                                                               | Other cons                                                                                                |
-| ------------ | -------------------------------- | ------------------ | -------------------- | ------------------------------------ | -------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **PDF**      | **Brightspace**                 | N                  | [Y][lms-similarity]  | [Y][annotation]                      | N                                                  | Y                             | Students are comfortable with Brightspace; avoids "works on my machine" | [Plotly needs extra packages][kaleido] and is [fragile][fragile]                                          |
-| **HTML**     | **Brightspace**                 | N                  | [Y][lms-similarity]  | [N][annotation]                      | Kinda - need to be downloaded                      | Y                             | Students are comfortable with Brightspace; avoids "works on my machine" | [Plotly rendering broken in v6.0.0][html-render]; long outputs can only be made scrollable by the student |
-| **Notebook** | **Brightspace**                 | N                  | [N][lms-similarity]  | [N][annotation]                      | Kinda - need to be downloaded                      | Y                             | Students are comfortable with Brightspace                               |                                                                                                           |
-| **Notebook** | [**Gradescope**][gradescope]     | [Y][gs-autograder] | [N][gs-similarity]   | N                                    | [Kinda][gs-interactive] - need to be downloaded    | Y                             | Supported by both schools                                                |                                                                                                           |
-| **Notebook** | [**Nbgrader**][nbgrader]         | Y                  | N                    | Y                                    | Y                                                  | N                             | Pre-installed in NYU JupyterHub                                 |                                                                                                           |
-| **Notebook** | [**Otter Grader**][otter-grader] | Y                  | N                    | [Kinda - through PDFs][otter-manual] | N - [manual grading is through PDFs][otter-manual] | N                             | Built by Jupyter experts                                                 | Optimized for autograding over manual feedback                                                            |
-
-\*Interactive plots, tables are scrollable (horizontally/vertically), long outputs can be made scrollable (ideally by the grader)
-
-[lms-similarity]: https://guides.turnitin.com/hc/en-us/articles/23929463501965-File-requirements
-[kaleido]: https://plotly.com/python/static-image-export/
-[annotation]: https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool#supported-file-types-for-annotating-submissions
-[html-render]: https://github.com/plotly/plotly.py/issues/5012
-[gradescope]: https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011989
-[gs-autograder]: https://gradescope-autograders.readthedocs.io/
-[gs-similarity]: https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/500-code-similarity-support-for-jupyter-notebooks-ipynb-files-
-[gs-interactive]: https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/711-support-html-in-jupyter-notebooks
-[nbgrader]: https://nbgrader.readthedocs.io/
-[otter-grader]: https://otter-grader.readthedocs.io/
-[otter-manual]: https://otter-grader.readthedocs.io/en/latest/pdfs.html
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzltT-noD1xOhsmqzkW20Vx8BMVBydlAyWPZrml046nVZPPeC1KeBeInLhEXmdGV_FRe8uCGUA07x7/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" height="400"></iframe>
 
 ### PDF export
 
