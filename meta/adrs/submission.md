@@ -23,7 +23,7 @@ Students are currently [directed to export PDFs and submit via Brightspace](../.
 
 ## [Options](https://docs.google.com/spreadsheets/d/181B2YeSahgSkTMyoo7QbfLC4pm6sEQyj_N78XtsfFWo/edit?gid=0#gid=0)
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzltT-noD1xOhsmqzkW20Vx8BMVBydlAyWPZrml046nVZPPeC1KeBeInLhEXmdGV_FRe8uCGUA07x7/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" height="400"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzltT-noD1xOhsmqzkW20Vx8BMVBydlAyWPZrml046nVZPPeC1KeBeInLhEXmdGV_FRe8uCGUA07x7/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" height="500"></iframe>
 
 ### PDF export
 
