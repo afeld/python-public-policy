@@ -7,6 +7,9 @@ FREEBIES = 1
 ROLL_CALL_CSV = (
     "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
 )
+# get by clicking into the Assignment and getting from the URL
+ASSIGNMENT_ID = 1405957
+GRADEBOOK_FILE = "attendance.csv"
 STUDENT_UNIQUE_COLS = ["Student ID", "Student Name", "Section Name", "Section"]
 
 
@@ -74,6 +77,28 @@ def compute_scores(entries: pd.DataFrame):
     return scores
 
 
+def write_canvas_csv(scores: pd.Series):
+    """https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-grades-in-the-Gradebook/ta-p/807"""
+
+    attendance_col = f"Attendance ({ASSIGNMENT_ID})"
+
+    gradebook = (
+        scores.reset_index(name=attendance_col)
+        .drop(columns=["Section"])
+        .rename(
+            columns={
+                # Roll Call has `FIRST LAST`, gradebook has `LAST, FIRST`. Shouldn't matter.
+                "Student Name": "Student",
+                "Student ID": "ID",
+                "Section Name": "Section",
+            }
+        )
+    )
+    gradebook.to_csv(GRADEBOOK_FILE, index=False)
+
+    print(f"Now upload {GRADEBOOK_FILE} to CourseWorks Gradebook.")
+
+
 def run():
     entries = get_entries(ROLL_CALL_CSV)
     validate(entries)
@@ -82,12 +107,11 @@ def run():
     print_heading("Scores")
     print_students(scores)
 
-    # TODO write to CSV
-    # https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-grades-in-the-Gradebook/ta-p/807
-
     lowered_scores = scores[scores < TOP_SCORE]
     print_heading(f"Scores for students who missed more than {FREEBIES} class(es)")
     print_students(lowered_scores.sort_values())
+
+    write_canvas_csv(scores)
 
 
 run()
