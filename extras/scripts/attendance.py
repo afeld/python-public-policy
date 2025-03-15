@@ -4,11 +4,11 @@ NUM_CLASSES = 7
 TOP_SCORE = NUM_CLASSES
 FREEBIES = 1
 
-file_path = (
+ROLL_CALL_CSV = (
     "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
 )
 entries = pd.read_csv(
-    file_path,
+    ROLL_CALL_CSV,
     index_col=False,
     usecols=[
         "Section Name",
@@ -20,14 +20,21 @@ entries = pd.read_csv(
     parse_dates=["Class Date"],
 )
 
+# for students who switch sections, use their final section
+student_info = entries.drop_duplicates(subset=["Student ID"], keep="last")
+student_info = student_info[["Student ID", "Section Name"]]
+
+entries = entries.drop(columns=["Section Name"])
+entries = entries.merge(student_info, on="Student ID")
+
 # pull the section number out
 entries["Section"] = (
     entries["Section Name"].str.extract(r"INAFU6504_(\d{3})_").astype(int)
 )
 
-# TODO deal with students who switch sections
+STUDENT_UNIQUE_COLS = ["Student ID", "Student Name", "Section Name", "Section"]
 
-recording_counts = entries.groupby(["Student ID", "Student Name"]).size()
+recording_counts = entries.groupby(STUDENT_UNIQUE_COLS).size()
 print("Students missing entries:\n")
 print(recording_counts[recording_counts < NUM_CLASSES])
 
@@ -35,14 +42,15 @@ total_classes = entries["Class Date"].nunique()
 assert total_classes == NUM_CLASSES
 
 attended = entries[entries["Attendance"] == "present"]
-attendance_counts = attended.groupby(["Student ID", "Student Name"]).size()
-# print("\n-------------------\nAttendance counts:\n")
-# print(attendance_counts)
+attendance_counts = attended.groupby(STUDENT_UNIQUE_COLS).size()
+print("\n-------------------\nAttendance counts:\n")
+print(attendance_counts)
 
 # factor in the freebies
 scores = attendance_counts + FREEBIES
 scores[scores > TOP_SCORE] = TOP_SCORE
-# print(scores)
+print("\n-------------------\nScores:\n")
+print(scores)
 
 # TODO write to CSV
 # https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-grades-in-the-Gradebook/ta-p/807
