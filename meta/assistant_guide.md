@@ -110,9 +110,7 @@ The following should be true for each Assignment:
 - [ ] Grouped and [ordered]({{lms_reorder_docs}}) in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
-{% if id == "nyu" -%}
     - Final Project Proposal is a Discussion
-{%- endif %}
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] {{assignment_cutoff_name}}
