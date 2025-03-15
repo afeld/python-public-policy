@@ -90,7 +90,7 @@ The following should be true for each Assignment:
 - [ ] Grouped and [ordered](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-an-assignment/ta-p/1289) in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
-
+    - Final Project Proposal is a Discussion
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] `Until` date
