@@ -20,7 +20,12 @@ def normalize_sections(entries: pd.DataFrame):
 
 
 def print_heading(text: str):
-    print(f"\n-------------------\n{text}:\n")
+    print(f"-------------------\n\n{text.upper()}:\n")
+
+
+def print_students(students: pd.Series):
+    print(students.droplevel(["Student ID", "Section Name"]))
+    print()
 
 
 def run():
@@ -47,8 +52,8 @@ def run():
     STUDENT_UNIQUE_COLS = ["Student ID", "Student Name", "Section Name", "Section"]
 
     recording_counts = entries.groupby(STUDENT_UNIQUE_COLS).size()
-    print("Students missing entries:\n")
-    print(recording_counts[recording_counts < NUM_CLASSES])
+    print_heading("Students missing entries")
+    print_students(recording_counts[recording_counts < NUM_CLASSES])
 
     total_classes = entries["Class Date"].nunique()
     assert total_classes == NUM_CLASSES
@@ -56,20 +61,20 @@ def run():
     attended = entries[entries["Attendance"] == "present"]
     attendance_counts = attended.groupby(STUDENT_UNIQUE_COLS).size()
     print_heading("Attendance counts")
-    print(attendance_counts)
+    print_students(attendance_counts)
 
     # factor in the freebies
     scores = attendance_counts + FREEBIES
     scores[scores > TOP_SCORE] = TOP_SCORE
     print_heading("Scores")
-    print(scores)
+    print_students(scores)
 
     # TODO write to CSV
     # https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-import-grades-in-the-Gradebook/ta-p/807
 
     lowered_scores = scores[scores < TOP_SCORE]
     print_heading(f"Scores for students who missed more than {FREEBIES} class(es)")
-    print(lowered_scores.sort_values())
+    print_students(lowered_scores.sort_values())
 
 
 run()
