@@ -40,7 +40,7 @@ If sticking with PDFs, they can be exported from {{coding_env_name}}:
 
 ## Decision
 
-TODO
+Notebook + Python files through Gradescope
 
 ## Consequences
 
