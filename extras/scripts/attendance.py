@@ -1,3 +1,5 @@
+# this is a script rather than a notebook to avoid private student information being committed to the repository
+
 import pandas as pd
 
 NUM_CLASSES = 7
