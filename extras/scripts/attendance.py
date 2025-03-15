@@ -7,6 +7,7 @@ FREEBIES = 1
 ROLL_CALL_CSV = (
     "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
 )
+STUDENT_UNIQUE_COLS = ["Student ID", "Student Name", "Section Name", "Section"]
 
 
 def normalize_sections(entries: pd.DataFrame):
@@ -19,18 +20,9 @@ def normalize_sections(entries: pd.DataFrame):
     return entries.merge(student_info, on="Student ID")
 
 
-def print_heading(text: str):
-    print(f"-------------------\n\n{text.upper()}:\n")
-
-
-def print_students(students: pd.Series):
-    print(students.droplevel(["Student ID", "Section Name"]))
-    print()
-
-
-def run():
+def get_entries(filename: str):
     entries = pd.read_csv(
-        ROLL_CALL_CSV,
+        filename,
         index_col=False,
         usecols=[
             "Section Name",
@@ -43,14 +35,24 @@ def run():
     )
 
     entries = normalize_sections(entries)
-
     # pull the section number out
     entries["Section"] = (
         entries["Section Name"].str.extract(r"INAFU6504_(\d{3})_").astype(int)
     )
 
-    STUDENT_UNIQUE_COLS = ["Student ID", "Student Name", "Section Name", "Section"]
+    return entries
 
+
+def print_heading(text: str):
+    print(f"-------------------\n\n{text.upper()}:\n")
+
+
+def print_students(students: pd.Series):
+    print(students.droplevel(["Student ID", "Section Name"]))
+    print()
+
+
+def validate(entries: pd.DataFrame):
     recording_counts = entries.groupby(STUDENT_UNIQUE_COLS).size()
     print_heading("Students missing entries")
     print_students(recording_counts[recording_counts < NUM_CLASSES])
@@ -58,14 +60,25 @@ def run():
     total_classes = entries["Class Date"].nunique()
     assert total_classes == NUM_CLASSES
 
+
+def compute_scores(entries: pd.DataFrame):
     attended = entries[entries["Attendance"] == "present"]
     attendance_counts = attended.groupby(STUDENT_UNIQUE_COLS).size()
-    print_heading("Attendance counts")
-    print_students(attendance_counts)
+    # print_heading("Attendance counts")
+    # print_students(attendance_counts)
 
     # factor in the freebies
     scores = attendance_counts + FREEBIES
     scores[scores > TOP_SCORE] = TOP_SCORE
+
+    return scores
+
+
+def run():
+    entries = get_entries(ROLL_CALL_CSV)
+    validate(entries)
+
+    scores = compute_scores(entries)
     print_heading("Scores")
     print_students(scores)
 
