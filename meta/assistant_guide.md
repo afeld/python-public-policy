@@ -152,3 +152,4 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
 
 [Scoring details.](../syllabus.md#final-project)
+
