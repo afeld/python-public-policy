@@ -215,3 +215,14 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 1. In the Gradebook, give points to the reviewer under the Final Project Peer Review.
 
 [Scoring details.](../syllabus.md#final-project)
+
+{% if id == "columbia" -%}
+## Final grades
+
+To compute the [attendance](../syllabus.md#attendance) score:
+
+1. [Export the Roll Call attendance data.](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#export_attendance_data)
+1. Copy [the script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/attendance.py) into {{coding_env_name}}.
+1. Adjust the constants at the top as necessary.
+1. Run the code.
+{%- endif %}
