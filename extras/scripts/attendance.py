@@ -1,8 +1,8 @@
 import pandas as pd
 
 NUM_CLASSES = 7
-TOP_SCORE = NUM_CLASSES
 FREEBIES = 1
+TOP_SCORE = NUM_CLASSES - FREEBIES
 
 ROLL_CALL_CSV = (
     "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
@@ -70,11 +70,10 @@ def compute_scores(entries: pd.DataFrame):
     # print_heading("Attendance counts")
     # print_students(attendance_counts)
 
-    # factor in the freebies
-    scores = attendance_counts + FREEBIES
-    scores[scores > TOP_SCORE] = TOP_SCORE
+    # cap the top scores
+    attendance_counts[attendance_counts > TOP_SCORE] = TOP_SCORE
 
-    return scores
+    return attendance_counts
 
 
 def write_canvas_csv(scores: pd.Series):
@@ -108,7 +107,7 @@ def run():
     print_students(scores)
 
     lowered_scores = scores[scores < TOP_SCORE]
-    print_heading(f"Scores for students who missed more than {FREEBIES} class(es)")
+    print_heading(f"Scores below {TOP_SCORE}")
     print_students(lowered_scores.sort_values())
 
     write_canvas_csv(scores)
