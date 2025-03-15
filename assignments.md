@@ -66,7 +66,7 @@ That is now your own copy; make edits in there directly.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
 1. Paste your notebook URL in the {{lms_name}} Assignment.
 
-Engaging with comments left in {{coding_env_name}} is more than welcome. After [the late submission deadline](syllabus.md#schedule) for a given Homework passes, the solution will be shared.
+Engaging with comments left in {{coding_env_name}} is more than welcome.
 {% else -%}
 1. Export the notebook as a PDF. From the Jupyter interface, go to:
    1. `File`
