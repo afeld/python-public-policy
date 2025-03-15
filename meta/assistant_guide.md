@@ -80,7 +80,7 @@ The following should be true for each Assignment:
 - [ ] Grouped and [ordered](https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories) in a logical way
 - [ ] Display Grade as: Percentage
 - [ ] Submission Type: Online, Website URL
-- Final Project Proposal is a Discussion
+    - Final Project Proposal is a Discussion
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
   - [ ] Due date
   - [ ] `End Date`
