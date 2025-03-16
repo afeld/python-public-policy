@@ -102,7 +102,7 @@ The following should be true for each Assignment:
 
 ### Grading
 
-[How to grade in CourseWorks](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757)
+[Official docs](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757)
 
 - Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13).
   - Filter the students to your particular section in the top right.
@@ -115,7 +115,6 @@ When grading, points should only be deducted based on [these criteria](../syllab
   - Point deductions, explaining what it's being deducted for
   - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
 - [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
-
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
   - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
 - Solutions folder will be shared with you from Google Drive

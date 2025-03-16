@@ -58,7 +58,10 @@ That is now your own copy; make edits in there directly.
 Engaging with comments left in Google Colab is more than welcome.
 
 
-Note: In-class exercises will not be graded.
+### Notes
+
+
+- In-class exercises will not be submitted/graded.
 
 ## Common issues
 
@@ -93,4 +96,3 @@ The runtime is [the place where Python is installed and the code is actually exe
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
   
-
