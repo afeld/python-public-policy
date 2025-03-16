@@ -7,6 +7,9 @@ dependencies:
   - black
   - nbqa
   - notebook=7.*
+  - pip
+  - pip:
+      - gradescope_utils
 
   # extensions
   - jupyter-resource-usage

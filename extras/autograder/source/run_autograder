@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# based on
+# https://github.com/gradescope/autograder_samples/blob/master/python/src/run_autograder
+
+set -ex
+
+cd /autograder/source
+
+python3 run_tests.py
