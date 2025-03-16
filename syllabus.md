@@ -75,16 +75,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 ## Description
 
-This seven-week course exposes the students to the application and use of Python for data analytics in public policy setting. The course teaches introductory technical programming skills that allow students to learn Python and apply code on pertinent public policy data. The majority of the class content will utilize the [New York City 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) dataset. It's a rich dataset that can be explored from many angles relevant to real-world public policy and program management responsibilities.
-
-Class will be split between:
-
-- Lecture
-- Demonstration
-- Hands-on time to:
-  - Play with the code from lectures
-  - Start on the homework
-  - Ask questions
+Cell-ing yourself short with Excel? Ready to pivot to something more powerful? This seven-week course is all about "How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets." Students will learn data analysis through code, using the Python programming language to explore, manipulate, visualize, and interpret open data for policy questions. No coding experience required.
 
 ## Homework
 
