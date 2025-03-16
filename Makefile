@@ -41,3 +41,9 @@ autograde:
 		/bin/bash -c "/autograder/source/setup.sh && /autograder/source/run_autograder"
 
 	cat ./extras/autograder/results/results.json
+
+build_autograder:
+	# https://stackoverflow.com/a/17351814/358804
+	git archive -o ./extras/autograder.zip HEAD:./extras/autograder/source
+
+	echo "Now upload extras/autograder.zip to Gradescope."
