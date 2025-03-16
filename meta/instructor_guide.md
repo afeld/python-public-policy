@@ -124,6 +124,22 @@ Most of the issues are around Plotly rendering. Things that have been hit repeat
 
 - Comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml)
 - [Student troubleshooting guide](../assignments.md#common-issues)
+
+## Autograder
+
+Based on the [Gradescope instructions](https://gradescope-autograders.readthedocs.io/en/latest/manual_docker/):
+
+```sh
+cd extras/autograder
+mkdir -p results
+
+docker run --rm \
+  -v .:/autograder \
+  gradescope/autograder-base \
+  /bin/bash -c "/autograder/source/setup.sh && /autograder/source/run_autograder"
+
+cat results/results.json
+```
 {%- endif %}
 
 ## Contacts
