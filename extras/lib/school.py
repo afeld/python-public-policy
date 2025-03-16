@@ -148,6 +148,7 @@ EXEMPT = [
     ".zoom.us/rec",
     "- [google colab](https://colab.research.google.com/)",
     "anaconda",
+    "autograder",  # matches "grader"
     "built around it",  # referring to Colab
     "columbia's graduate school of architecture",  # bio
     "conda activate",
@@ -155,6 +156,7 @@ EXEMPT = [
     "create the environment",
     "dictreader",
     "for row in reader",
+    "gradescope_utils",  # matches "gradescope"
     "hannahkates/nyu-python-public-policy",
     "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
     "jupyterhub_url",
