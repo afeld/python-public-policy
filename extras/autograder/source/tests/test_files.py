@@ -11,11 +11,8 @@ class TestFiles(TestCase):
         """There should be exactly one notebook and one Python file submitted"""
 
         files = os.listdir("/autograder/submission")
-
-        self.assertEqual(len(files), 2, "There should be exactly two files submitted.")
-
-        for ext in [".ipynb", ".py"]:
-            ext_files = [f for f in files if f.endswith(ext)]
-            self.assertEqual(
-                len(ext_files), 1, f"There should be exactly one {ext} file."
-            )
+        extensions = [os.path.splitext(filename)[1] for filename in files]
+        extensions.sort()
+        self.assertListEqual(
+            extensions, [".ipynb", ".py"], f"Files submitted: {', '.join(files)}"
+        )
