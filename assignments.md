@@ -68,24 +68,33 @@ That is now your own copy; make edits in there directly.
 
 Engaging with comments left in {{coding_env_name}} is more than welcome.
 {% else -%}
-1. Export the notebook as a PDF. From the Jupyter interface, go to:
-   1. `File`
-   1. `Save and Export Notebook As…`
-   1. `PDF`
-   1. You may need to [allow popups](https://support.google.com/chrome/answer/95472)
-1. Glance through the PDF to ensure everything is showing up as you intend.
-   - In particular, check your visualizations.
-   - What you see is what the instructors will see.
-   - [Troubleshooting tips](#pdf-export)
-1. **If one of the Homeworks:** Upload the PDF to the {{lms_name}} Assignment.
-1. **If the Final Project:**
-   1. In [{{lms_name}}]({{lms_url}}), go to `Content`, then `Final Project`. You should see the TurnItIn/PeerMark dashboard.
-   1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the PDF.
-
-When you're ready to have it formally re-graded, please resubmit through the same Assignment in {{lms_name}}.
+1. Export the files.
+   - `.ipynb`:
+     1. `File`
+     1. `Download`
+   - `.py`:
+     1. `File`
+     1. `Save and Export Notebook As`
+     1. `Executable Script`
+        - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
+1. Submit.
+   1. In [{{lms_name}}]({{lms_url}}), go to `Content`.
+      - Note that this is _not_ the `Assignments` tab of {{lms_name}}.
+   1. **If one of the Homeworks:**
+      1. Click `Gradescope`.
+      1. [Upload the files to the Assignment in Gradescope.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
+   1. **If the Final Project:**
+      1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
+      1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the files.
 {%- endif %}
 
-Note: In-class exercises will not be graded.
+### Notes
+
+{% if id == "nyu" -%}
+- You can ignore Gradescope saying "Large file hidden". The {{assistant_name}} can download the notebook to view.
+- [Resubmissions](syllabus.md#resubmission) are done the same way.
+{%- endif %}
+- In-class exercises will not be submitted/graded.
 
 ## Common issues
 
@@ -160,33 +169,3 @@ The {{coding_env_kernel_name}} is [the place where Python is installed and the c
   - Make sure you aren't loading data sets you don't need.
   - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
   {% if id == "nyu" %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.{% endif %}
-
-{% if id == "nyu" -%}
-### PDF export
-
-[Jupyter notebook export to PDF is _fragile_, especially with interactive charts through Plotly.](meta/instructor_guide.md#jupyterhub-troubleshooting)
-
-If you get a **500 error**, it could be happening for a handful of reasons. Scroll to the bottom and read the message.
-
-- If it mentions `Undefined control sequence` and `\pandocbounded`, it's [an issue with the exporter](https://github.com/jupyter/nbconvert/issues/2173). Jump to the [Alternatives](#alternatives).
-- If it mentions a package being missing, ask on [Ed]({{discussions_url}}).
-- Otherwise, it may be crashing due to not being handle the complexity of the render. Try reducing your output (in the Jupyter sense) to smaller subsets. This can include:
-   - Not displaying so many rows/values
-   - Reducing the number of points that are plotted
-
-#### Alternatives
-
-If you are unable to get the direct-to-PDF export working, try:
-
-- Going through HTML:
-   1. [Export the notebook as HTML.](https://jupyterlab.readthedocs.io/en/stable/user/export.html)
-   1. Open the HTML file in your browser.
-   1. `File`->`Print…`
-   1. `Save as PDF`
-   1. If any of the visualizations are cut off:
-      1. Cancel the Print to PDF.
-      1. Viewing the HTML file, make the browser window narrower.
-         - This forces the visualizations to re-draw.
-      1. Try from `File`->`Print…` again.
-- An online converter, such as [Ploomer](https://www.convert.ploomber.io/)
-{%- endif %}
