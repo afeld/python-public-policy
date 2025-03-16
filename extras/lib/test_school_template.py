@@ -15,7 +15,9 @@ from .school_template import (
 @pytest.mark.parametrize("id", [("columbia"), ("nyu")])
 def test_site_path_injection(id):
     school = SCHOOL_TEXT[id]
-    cell = new_markdown_cell("https://python-public-policy.afeld.me/en/{{school_slug}}/")
+    cell = new_markdown_cell(
+        "https://python-public-policy.afeld.me/en/{{school_slug}}/"
+    )
 
     updated_cell = render_cell(cell, id)
 
@@ -45,7 +47,9 @@ def test_render_template():
 
 def test_coding_env_origin_columbia():
     vars = get_vars("columbia")
-    assert vars["coding_env_url"] == vars["coding_env_origin"], "There should be no change"
+    assert vars["coding_env_url"] == vars["coding_env_origin"], (
+        "There should be no change"
+    )
 
 
 def test_coding_env_origin_nyu():

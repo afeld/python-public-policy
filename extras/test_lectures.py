@@ -61,9 +61,9 @@ def test_num_slides(file):
     assert num_nyu >= 39, "Too few slides for NYU"
     assert num_nyu <= 51, "Too many slides for NYU"
 
-    assert (
-        num_nyu <= num_columbia
-    ), "NYU should have fewer slides than Columbia, since the class sessions are shorter"
+    assert num_nyu <= num_columbia, (
+        "NYU should have fewer slides than Columbia, since the class sessions are shorter"
+    )
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
@@ -89,4 +89,6 @@ def test_hidden_imports(file):
 
             imports_only = all(line.startswith("import ") for line in lines)
             if imports_only:
-                assert slide_type(cell) == "skip", f"imports should be hidden:\n\n{cell.source}\n"
+                assert slide_type(cell) == "skip", (
+                    f"imports should be hidden:\n\n{cell.source}\n"
+                )

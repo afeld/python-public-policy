@@ -32,7 +32,9 @@ def is_code_cell(cell):
 
 def is_python(cell):
     source = cell.source
-    return cell.cell_type == "code" and not (is_magic(source) or is_system_command(source))
+    return cell.cell_type == "code" and not (
+        is_magic(source) or is_system_command(source)
+    )
 
 
 def get_tags(cell):
