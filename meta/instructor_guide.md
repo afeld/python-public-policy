@@ -127,7 +127,7 @@ Most of the issues are around Plotly rendering. Things that have been hit repeat
 
 ## Autograder
 
-Requires [Docker](https://www.docker.com/).
+Requires [Docker](https://www.docker.com/). Put files in `extras/autograder/submission/`, then run:
 
 ```sh
 make autograde

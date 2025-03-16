@@ -33,7 +33,7 @@ update_packages:
 
 # based on https://gradescope-autograders.readthedocs.io/en/latest/manual_docker/
 autograde:
-	mkdir -p ./extras/autograder/results
+	mkdir -p ./extras/autograder/results ./extras/autograder/results
 
 	docker run --rm \
 		-v ./extras/autograder:/autograder \

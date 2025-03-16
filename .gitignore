@@ -16,4 +16,5 @@ Untitled.ipynb
 !.vscode/settings.json
 
 extras/autograder/results/
+extras/autograder/submission/
 autograder.zip
