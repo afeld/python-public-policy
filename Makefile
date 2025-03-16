@@ -22,7 +22,7 @@ test:
 file := .
 
 format:
-	black --extend-exclude "/final_project/\w+.ipynb" $(file)
+	ruff format $(file)
 
 update_packages:
 	# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment

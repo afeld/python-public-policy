@@ -20,7 +20,9 @@ def check_metadata(notebook, file, expected_kernel):
 
     if "colab" in metadata:
         colab_name = metadata["colab"]["name"]
-        assert colab_name == file, f"Name in metadata doesn't match filename for {file}."
+        assert colab_name == file, (
+            f"Name in metadata doesn't match filename for {file}."
+        )
 
 
 def check_file(file, expected_kernel="Python [conda env:python-public-policy]"):
@@ -78,9 +80,9 @@ def test_nested_lists(file):
                 match = re.match(r"^( +)(-|\d\.)", line)
                 if match:
                     num_spaces = len(match[1])
-                    assert (
-                        num_spaces % 3 == 0 or num_spaces % 4 == 0
-                    ), f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
+                    assert num_spaces % 3 == 0 or num_spaces % 4 == 0, (
+                        f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
+                    )
 
 
 def check_link(token: Token, parent: Token = None):
@@ -144,6 +146,6 @@ def test_long_outputs_scrolled(file):
                     num_rows = num_lines(output)
                     if num_rows > 30:
                         # if not set, the notebook will automatically scroll
-                        assert cell.metadata.get(
-                            "scrolled"
-                        ), f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
+                        assert cell.metadata.get("scrolled"), (
+                            f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
+                        )

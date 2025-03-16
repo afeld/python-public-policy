@@ -6,7 +6,9 @@ NUM_CLASSES = 7
 FREEBIES = 1
 TOP_SCORE = NUM_CLASSES - FREEBIES
 
-ROLL_CALL_CSV = "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
+ROLL_CALL_CSV = (
+    "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
+)
 # get by clicking into the Assignment and getting from the URL
 ASSIGNMENT_ID = 1405957
 GRADEBOOK_FILE = "attendance.csv"
@@ -39,7 +41,9 @@ def get_entries(filename: str):
 
     entries = normalize_sections(entries)
     # pull the section number out
-    entries["Section"] = entries["Section Name"].str.extract(r"INAFU6504_(\d{3})_").astype(int)
+    entries["Section"] = (
+        entries["Section Name"].str.extract(r"INAFU6504_(\d{3})_").astype(int)
+    )
 
     return entries
 

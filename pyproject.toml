@@ -1,7 +1,7 @@
-[tool.black]
-line-length = 100
-
 [tool.pytest.ini_options]
 addopts = [
     "--ignore=extras/autograder/",
 ]
+
+[tool.ruff]
+extend-exclude = ["final_project/*.ipynb"]
