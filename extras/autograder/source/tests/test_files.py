@@ -13,6 +13,4 @@ class TestFiles(TestCase):
         files = os.listdir("/autograder/submission")
         extensions = [os.path.splitext(filename)[1] for filename in files]
         extensions.sort()
-        self.assertListEqual(
-            extensions, [".ipynb", ".py"], f"Files submitted: {', '.join(files)}"
-        )
+        self.assertListEqual(extensions, [".ipynb", ".py"], f"Files submitted: {', '.join(files)}")

@@ -18,10 +18,8 @@ slides:
 test:
 	pytest
 
-file := *.py *.ipynb
-
 format:
-	nbqa black $(file)
+	black --extend-exclude "/final_project/\w+.ipynb" .
 
 update_packages:
 	# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment
