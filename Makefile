@@ -18,8 +18,11 @@ slides:
 test:
 	pytest
 
+# overridden in update.sh
+file := .
+
 format:
-	black --extend-exclude "/final_project/\w+.ipynb" .
+	black --extend-exclude "/final_project/\w+.ipynb" $(file)
 
 update_packages:
 	# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment
