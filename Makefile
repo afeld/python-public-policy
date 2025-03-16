@@ -30,3 +30,14 @@ update_packages:
 	./extras/scripts/update_lectures.sh
 
 	echo "Please update homework notebooks separately, in python-public-policy-assignments"
+
+# based on https://gradescope-autograders.readthedocs.io/en/latest/manual_docker/
+autograde:
+	mkdir -p ./extras/autograder/results
+
+	docker run --rm \
+		-v ./extras/autograder:/autograder \
+		gradescope/autograder-base \
+		/bin/bash -c "/autograder/source/setup.sh && /autograder/source/run_autograder"
+
+	cat ./extras/autograder/results/results.json

@@ -127,18 +127,10 @@ Most of the issues are around Plotly rendering. Things that have been hit repeat
 
 ## Autograder
 
-Based on the [Gradescope instructions](https://gradescope-autograders.readthedocs.io/en/latest/manual_docker/):
+Requires [Docker](https://www.docker.com/).
 
 ```sh
-cd extras/autograder
-mkdir -p results
-
-docker run --rm \
-  -v .:/autograder \
-  gradescope/autograder-base \
-  /bin/bash -c "/autograder/source/setup.sh && /autograder/source/run_autograder"
-
-cat results/results.json
+make autograde
 ```
 {%- endif %}
 
