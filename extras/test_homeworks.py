@@ -16,13 +16,13 @@ hw_markdown.sort()
 def test_notebook_reminders(file):
     notebook = read_notebook(file)
 
-    assert any(
-        "assignments.html" in cell.source for cell in notebook.cells
-    ), "Missing assignment submission instructions"
+    assert any("assignments.html" in cell.source for cell in notebook.cells), (
+        "Missing assignment submission instructions"
+    )
 
-    assert any(
-        "participation" in cell.source for cell in notebook.cells
-    ), "Missing participation reminder"
+    assert any("participation" in cell.source for cell in notebook.cells), (
+        "Missing participation reminder"
+    )
 
 
 @pytest.mark.parametrize("file", hw_markdown)

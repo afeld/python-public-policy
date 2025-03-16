@@ -21,7 +21,9 @@ class TestFiles(TestCase):
         files = os.listdir("/autograder/submission")
         extensions = [get_ext(filename) for filename in files]
         extensions.sort()
-        self.assertListEqual(extensions, [".ipynb", ".py"], f"Files submitted: {', '.join(files)}")
+        self.assertListEqual(
+            extensions, [".ipynb", ".py"], f"Files submitted: {', '.join(files)}"
+        )
 
     @number("1.2")
     def test_plots(self):
