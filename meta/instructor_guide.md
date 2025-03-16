@@ -96,6 +96,14 @@ Most of the issues are around Plotly rendering. Things that have been hit repeat
 - Comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml)
 - [Student troubleshooting guide](../assignments.md#common-issues)
 
+## Autograder
+
+Requires [Docker](https://www.docker.com/). Put files in `extras/autograder/submission/`, then run:
+
+```sh
+make autograde
+```
+
 ## Contacts
 
 
