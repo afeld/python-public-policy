@@ -53,7 +53,9 @@ def check_line(line: str, line_num: int, this_school: SchoolText):
         if exemption in lower_line:
             return
 
-    other_schools = [other_school for other_school in SCHOOLS if other_school.id != this_school.id]
+    other_schools = [
+        other_school for other_school in SCHOOLS if other_school.id != this_school.id
+    ]
     for other_school in other_schools:
         for word in other_school.words:
             msg = f'"{word}" found, line {line_num}:\n\n{line}\n'
@@ -62,9 +64,9 @@ def check_line(line: str, line_num: int, this_school: SchoolText):
     # site check
     if COURSE_HOSTNAME in line:
         # (imperfectly) assure it's linking to the right version
-        assert (
-            f"{COURSE_HOSTNAME}/en/{this_school.school_slug}" in line
-        ), f"Not properly linking to course site, line {line_num}:\n\n{line}\n"
+        assert f"{COURSE_HOSTNAME}/en/{this_school.school_slug}" in line, (
+            f"Not properly linking to course site, line {line_num}:\n\n{line}\n"
+        )
 
 
 def confirm_no_jinja_tags(source: str):
