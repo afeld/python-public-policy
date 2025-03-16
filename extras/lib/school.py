@@ -19,8 +19,8 @@ class SchoolText:
     name_tool_url: str
     lms_profile_pic_url: str
     lms_notification_settings_url: str
-    lms_grading_docs: str
-    lms_reorder_docs: str
+    grading_docs: str
+    grading_extension_docs: str
     coding_env_name: str
     coding_env_origin: str
     coding_env_kernel_name: str
@@ -56,8 +56,8 @@ SCHOOLS = [
         name_tool_url="https://courseworks2.columbia.edu/courses/210776/external_tools/62951",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
-        lms_grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
-        lms_reorder_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-move-or-reorder-an-assignment/ta-p/1289",
+        grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
+        grading_extension_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only",
         coding_env_name="Google Colab",
         coding_env_origin="https://colab.research.google.com",
         coding_env_kernel_name="runtime",
@@ -101,8 +101,8 @@ SCHOOLS = [
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=432695",
-        lms_grading_docs="https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool",
-        lms_reorder_docs="https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories",
+        grading_docs="https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M",
+        grading_extension_docs="https://guides.gradescope.com/hc/en-us/articles/22251762857997-Extending-assignment-release-dates-due-dates-and-time-limits",
         coding_env_name="JupyterHub",
         coding_env_origin="https://padmgp-4506-spring.rcnyu.org",
         coding_env_kernel_name="kernel",
@@ -113,7 +113,7 @@ SCHOOLS = [
         cross_registration="https://wagner.nyu.edu/portal/students/academics/courses/across-nyu/instructions/form",
         auditing="https://wagner.nyu.edu/portal/students/academics/registration/auditing",
         r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
-        assignment_cutoff_name="`End Date`",
+        assignment_cutoff_name="`Late Due Date`",
         python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
         statista_url="https://search.library.nyu.edu/permalink/01NYU_INST/1697t4d/alma990062490650107871",
         final_project_proposal="https://edstem.org/us/courses/68651/discussion/5711987",
@@ -126,6 +126,7 @@ SCHOOLS = [
             "conda",
             # "conversation",  # Brightspace term, TODO
             "grader",
+            "gradescope",
             "jupyterhub",
             "nyu",
             "padm",

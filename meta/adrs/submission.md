@@ -40,7 +40,7 @@ If sticking with PDFs, they can be exported from JupyterHub:
 
 ## Decision
 
-TODO
+Notebook + Python files through Gradescope
 
 ## Consequences
 

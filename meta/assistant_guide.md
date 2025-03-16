@@ -77,30 +77,28 @@ The following should be true for each Assignment:
 - [ ] Points
     - [ ] 100 points per Assignment, except for Homework 3 and the Final Project Proposal which are 50 each
     - [ ] Percentage of the overall grade matches [the breakdown in the syllabus](../syllabus.md#assignments-and-evaluation)
-- [ ] Grouped and [ordered](https://community.d2l.com/brightspace/kb/articles/3405-reorder-edit-and-delete-assignments-and-categories) in a logical way
-- [ ] Display Grade as: Percentage
-- [ ] Submission Type: Online, Website URL
-    - Final Project Proposal is a Discussion
+- [ ] `Allow late submissions`
 - [ ] Dates match [the schedule](../syllabus.md#schedule):
-  - [ ] Due date
-  - [ ] `End Date`
-- [ ] Associated with the `Homework` gradebook category
-- [ ] [Enable TurnItIn similarity reports](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011354)
-- [ ] `Visible`
+  - [ ] `Release Date` is the start of the course
+  - [ ] `Due Date`
+    - Use the start of the second section, if applicable.
+  - [ ] `Late Due Date`
+    - Ditto.
+- [ ] `Enable manual grading`
+- [ ] `Submission Methods Enabled`: `Upload` only
 
 ### Grading
 
-[How to grade in Brightspace](https://community.d2l.com/brightspace/kb/articles/3529-evaluate-assignments-using-the-assignments-tool)
+[Official docs](https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M)
 
-- Use [annotations](https://brightspaceresources.ccc.edu/kb/how-do-i-use-the-annotation-tool-to-provide-feedback-on-an-assignment-submitted-to-an-assignment-folder/) to leave comments within the PDFs.
 - [Scoring and regrade rules](../syllabus.md#assignment-scoring)
 - You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
 When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
   - Point deductions, explaining what it's being deducted for
   - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
-- [How to give extensions](https://documentation.brightspace.com/EN/le/assignments/instructor/set_release_conditions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CCreate%20assignments%20and%20assess%20submissions%7C_____7) — see "Add special access to an assignment"
+- [How to give extensions](https://guides.gradescope.com/hc/en-us/articles/22251762857997-Extending-assignment-release-dates-due-dates-and-time-limits)
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
-  - Set the `End Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
+  - Set the `Late Due Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
   - Don't give extensions on the resubmission deadline unless authorized by the instructor.
 - Solutions folder will be shared with you from Google Drive
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking.

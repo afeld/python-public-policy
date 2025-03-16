@@ -85,17 +85,16 @@ gcloud auth application-default login
 
 ## JupyterHub troubleshooting
 
-Most of the issues are around Plotly rendering / PDF export. Things that have been hit repeatedly:
+Most of the issues are around Plotly rendering. Things that have been hit repeatedly:
 
-- [Embedded image error in nbconvert](https://github.com/jupyter/nbconvert/issues/2173)
-  - As of 11/30/24, JupyterHub is using too new a version of pandoc in the `base` environment.
 - [Plotly JupyterLab support](https://plotly.com/python/getting-started/#JupyterLab-Support)
   - [Needs to be installed on `base` environment as well](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be)
-- [PDF export fidelity](https://github.com/jupyterlab/jupyterlab/issues/12113)
 - [orjson attribute error through Plotly](https://github.com/plotly/plotly.py/issues/3567)
-- [PDF exporting crashes when there's a lot of data being output / in plots](../assignments.md#pdf-export)
 
-See also: comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml). Attempted to distill into the [student troubleshooting guide](../assignments.md#pdf-export).
+### See also
+
+- Comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml)
+- [Student troubleshooting guide](../assignments.md#common-issues)
 
 ## Contacts
 
