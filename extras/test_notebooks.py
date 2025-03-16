@@ -1,11 +1,12 @@
-import ast
-from glob import glob
 import os
-from typing import Union
+import re
+from glob import glob
+
+import pytest
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
-import pytest
-import re
+
+from .autograder.source.tests.helpers import check_plots
 from .lib.nb_helper import get_tags, is_h1, is_markdown, is_python, read_notebook
 
 
@@ -109,27 +110,6 @@ def test_links(file):
                         check_link(child, token)
 
 
-def base_obj(node: ast.Call) -> Union[str, None]:
-    """If this is a method call, return the name of the base object it was called on"""
-    if isinstance(node.func, ast.Attribute) and isinstance(node.func.value, ast.Name):
-        return node.func.value.id
-    else:
-        return None
-
-
-class PlotChecker(ast.NodeVisitor):
-    def visit_Call(self, node):
-        if base_obj(node) == "px":
-            args = [kw.arg for kw in node.keywords]
-            method = node.func.attr
-
-            if method == "get_trendline_results":
-                # `title` not applicable
-                return
-
-            assert "title" in args, f"call to `{method}()` missing a `title`"
-
-
 @pytest.mark.parametrize("file", notebooks)
 def test_chart_titles(file):
     """Make sure all charts have titles"""
@@ -140,9 +120,7 @@ def test_chart_titles(file):
         if "skip-plot-check" in tags or not is_python(cell):
             continue
 
-        tree = ast.parse(cell.source)
-        checker = PlotChecker()
-        checker.visit(tree)
+        check_plots(cell.source)
 
 
 def num_lines(output):
