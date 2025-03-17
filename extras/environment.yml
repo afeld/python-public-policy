@@ -9,6 +9,9 @@ dependencies:
   - pip
   - pip:
       - gradescope_utils
+      # Using v6 (newer than Colab) to avoid the need for the plugin in the base environment. Using (unreleased) v6.0.1 to avoid a bug in the HTML export.
+      # https://github.com/plotly/plotly.js/blob/master/CHANGELOG.md#301----2025-02-18
+      - git+https://github.com/plotly/plotly.py@v6.0.1
 
   # extensions
   - jupyter-resource-usage
@@ -22,8 +25,8 @@ dependencies:
   - html5lib=1.1
   - lxml
   - pandas=2.2.2
-  # intentionally using newer version than Colab to avoid the need for the plugin in the base environment
-  - plotly=6.*
+  # see above
+  # - plotly>=6.0.1
   - requests=2.32.3
   - statsmodels=0.14.4
   ## supporting packages for notebooks ##
