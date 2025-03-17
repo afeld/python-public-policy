@@ -34,7 +34,7 @@ assignees: afeld
 - [ ] New Brightspace site
   - [ ] Update bookmark
   - [ ] [Request Ed Discussions](https://support.nyu.edu/esc?id=kb_article&table=kb_knowledge&sys_id=695ab043c3cfd694d0e1b2fc05013193&recordUrl=%2Fkb_view.do%3Fsys_kb_id%3D695ab043c3cfd694d0e1b2fc05013193)
-    - [ ] Create categories
+    - [ ] Copy settings
     - [ ] Send welcome Announcement
     - [ ] Set up Megathread for Final Project proposals
       - [ ] Replace link
