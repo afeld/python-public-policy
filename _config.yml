@@ -14,8 +14,6 @@ html:
   use_repository_button: true
   extra_navbar: ""
   home_page_in_navbar: false
-  # https://github.com/plotly/plotly.py/issues/5012
-  announcement: Charts are currently broken on this site. To view them, launch on {{coding_env_name}}.
   extra_footer: |
     <div>
       <a href="https://creativecommons.org/publicdomain/zero/1.0/">
