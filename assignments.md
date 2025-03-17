@@ -125,7 +125,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
 
 If you're confused by these instrucions, download the notebook file and [email to the instructor](syllabus.md#instructor-information).
 
-### kernel and memory issues
+### Kernel and memory issues
 
 The kernel is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
