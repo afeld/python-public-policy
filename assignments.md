@@ -87,7 +87,7 @@ Engaging with comments left in Google Colab is more than welcome.
 
 
 
-### runtime and memory issues
+### Runtime and memory issues
 
 The runtime is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
