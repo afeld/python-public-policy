@@ -153,7 +153,7 @@ This error can happen if you tried to output a lot of data in tables/charts. Ste
 If you're confused by these instrucions, download the notebook file and [email to the instructor](syllabus.md#instructor-information).
 {%- endif %}
 
-### {{coding_env_kernel_name}} and memory issues
+### {{coding_env_kernel_name|title}} and memory issues
 
 The {{coding_env_kernel_name}} is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
 
