@@ -99,11 +99,10 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/columbia/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/columbia/lecture_6.html
 
-In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [CourseWorks](https://courseworks2.columbia.edu/courses/210776).
+In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [CourseWorks](https://courseworks2.columbia.edu/courses/210776/assignments).
 
 ## Communications
 
-- All assignments will be delivered through [the CourseWorks site](https://courseworks2.columbia.edu/courses/210776).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless), so that other students can respond and/or benefit from the answers.
@@ -146,7 +145,7 @@ The overall grade is curved; see [the methodology](https://python-public-policy.
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/columbia/lecture_3.html#chart-hygiene) -3 points
 - **Unattempted Steps:** -10 points
 
-If the submission showed effort, feedback will be given through comments in the notebook.
+If the submission showed effort, written feedback will be provided.
 
 #### [Final Project](final_project.md)
 
@@ -163,7 +162,7 @@ Requests for extensions will only be considered if made via email before the dea
 
 ### Participation
 
-To encourage cosnsistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
+To encourage consistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
 
 - Asking a question of substance
 - Answering a question

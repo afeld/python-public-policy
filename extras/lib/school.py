@@ -14,6 +14,8 @@ class SchoolText:
     term: str
     lms_name: str
     lms_url: str
+    submission_tool_name: str
+    submission_tool_url: str
     discussions_url: str
     survey_url: str
     name_tool_url: str
@@ -51,6 +53,8 @@ SCHOOLS = [
         term="Spring 2025",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/210776",
+        submission_tool_name="CourseWorks",
+        submission_tool_url="https://courseworks2.columbia.edu/courses/210776/assignments",
         discussions_url="https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeexomJkVX-9WTMXTYfRYWg3UC3n0_gDVe-qGDDt78aTbBodw/viewform?usp=header",
         name_tool_url="https://courseworks2.columbia.edu/courses/210776/external_tools/62951",
@@ -96,6 +100,8 @@ SCHOOLS = [
         term="Spring 2025",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/432695",
+        submission_tool_name="Gradescope",
+        submission_tool_url="https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11563092",
         discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSfwKHNZcAPVw_uP20egkqonBkmaTEPr73YPsnLroD0XiA3WPQ/viewform?usp=header",
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
