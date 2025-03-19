@@ -159,11 +159,10 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
-In general, assignments{% if id == "nyu" %} and resubmissions{% endif %} are due at the time class starts. These will all be reflected in the Assignments in [{{lms_name}}]({{lms_url}}).
+In general, assignments{% if id == "nyu" %} and resubmissions{% endif %} are due at the time class starts. These will all be reflected in the Assignments in [{{submission_tool_name}}]({{submission_tool_url}}).
 
 ## Communications
 
-- All assignments will be delivered through [the {{lms_name}} site]({{lms_url}}).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
@@ -209,7 +208,7 @@ It is entirely possible for everyone in the class to get over 100%.
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_3.html#chart-hygiene) -3 points
 - **Unattempted Steps:** -10 points
 
-If the submission showed effort, feedback will be given through {% if id == "columbia" %}comments in the notebook{% else %}[annotations in {{lms_name}}](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html){% endif %}.
+If the submission showed effort, written feedback will be provided.
 
 #### [Final Project](final_project.md)
 
@@ -222,7 +221,7 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 
 #### Resubmission
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{lms_name}}.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{submission_tool_name}}.
 {% endif %}
 
 #### Extensions

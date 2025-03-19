@@ -81,8 +81,8 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
    1. In [{{lms_name}}]({{lms_url}}), go to `Content`.
       - Note that this is _not_ the `Assignments` tab of {{lms_name}}.
    1. **If one of the Homeworks:**
-      1. Click `Gradescope`.
-      1. [Upload the files to the Assignment in Gradescope.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
+      1. [Go to {{submission_tool_name}}.]({{submission_tool_url}})
+      1. [Upload the files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
    1. **If the Final Project:**
       1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
       1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the files.
@@ -91,7 +91,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
 ### Notes
 
 {% if id == "nyu" -%}
-- You can ignore Gradescope saying "Large file hidden". The {{assistant_name}} can download the notebook to view.
+- You can ignore {{submission_tool_name}} saying "Large file hidden". The {{assistant_name}} can download the notebook to view.
 - [Resubmissions](syllabus.md#resubmission) are done the same way.
 {%- endif %}
 - In-class exercises will not be submitted/graded.
