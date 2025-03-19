@@ -47,15 +47,10 @@ jobs:
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
 
-      # have had issues with nbgitpuller URLs being double-escaped, which causes an error when trying to open it
-      - name: Confirm there isn't double-escaping
-        run: |
-          if grep -r "&amp;amp;" _build/html; then
-            echo "Double-escaped URL"
-            exit 1
-          else
-            echo "No double-escaping"
-          fi
+      # https://github.com/jupyter-book/jupyter-book/issues/2271
+      # https://stackoverflow.com/a/1583282/358804
+      - name: Fix double-escaping
+        run: find _build/html -name '*.html' -print0 | xargs -0 sed -i 's/&amp;amp;/\&amp;/g'
 
       - name: Update commit
         run: |
