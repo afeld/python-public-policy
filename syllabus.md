@@ -99,11 +99,10 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/nyu/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/nyu/lecture_6.html
 
-In general, assignments and resubmissions are due at the time class starts. These will all be reflected in the Assignments in [Brightspace](https://brightspace.nyu.edu/d2l/home/432695).
+In general, assignments and resubmissions are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11563092).
 
 ## Communications
 
-- All assignments will be delivered through [the Brightspace site](https://brightspace.nyu.edu/d2l/home/432695).
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123), so that other students can respond and/or benefit from the answers.
@@ -145,7 +144,7 @@ It is entirely possible for everyone in the class to get over 100%.
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/nyu/lecture_3.html#chart-hygiene) -3 points
 - **Unattempted Steps:** -10 points
 
-If the submission showed effort, feedback will be given through [annotations in Brightspace](https://www.iup.edu/instructional-design/brightspace-information-hub/add-annotations-to-student-submissions-in-d2l-assignments.html).
+If the submission showed effort, written feedback will be provided.
 
 #### [Final Project](final_project.md)
 
@@ -158,7 +157,7 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 
 #### Resubmission
 
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through Brightspace.
+For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through Gradescope.
 
 
 #### Extensions
@@ -167,7 +166,7 @@ Requests for extensions will only be considered if made via email before the dea
 
 ### Participation
 
-To encourage cosnsistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
+To encourage consistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
 
 - Asking a question of substance
 - Answering a question
