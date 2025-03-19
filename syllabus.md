@@ -230,7 +230,7 @@ Requests for extensions will only be considered if made via email before the dea
 
 ### Participation
 
-To encourage cosnsistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
+To encourage consistent, deeper thought about the Assignments, relevance to the broader world, etc., students are expected to do Between-Class Participation. This includes:
 
 - Asking a question of substance
 - Answering a question
