@@ -52,8 +52,8 @@ That is now your own copy; make edits in there directly.
    - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
 - Make notebooks [idempotent](https://en.wikipedia.org/wiki/Idempotence)
-    - Makes your work reproducible.
-    - Use `Restart and run all` (⏩ button in toolbar).
+   - Makes your work reproducible.
+   - Use `Restart and run all` (⏩ button in toolbar).
 
 ## Submission
 
@@ -70,13 +70,13 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
 {% else -%}
 1. Export the files.
    - `.ipynb`:
-     1. `File`
-     1. `Download`
+      1. `File`
+      1. `Download`
    - `.py`:
-     1. `File`
-     1. `Save and Export Notebook As`
-     1. `Executable Script`
-        - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
+      1. `File`
+      1. `Save and Export Notebook As`
+      1. `Executable Script`
+         - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
 1. Submit.
    1. In [{{lms_name}}]({{lms_url}}), go to `Content`.
       - Note that this is _not_ the `Assignments` tab of {{lms_name}}.
@@ -101,18 +101,18 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
 {% if id == "columbia" -%}
 - **Mounting Google Drive is slow or fails:** See [the Google Colab help page](https://research.google.com/colaboratory/faq.html#drive-timeout).
 - **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
-  - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
+   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
 - **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch {{coding_env_name}}:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
-  1. [Launch {{coding_env_name}}.]({{coding_env_origin}})
-  1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
-    - If you've edited any of the template notebooks, you can find them in that `-old` folder.
-  1. Repeat the [getting started](#getting-started) steps.
+   1. [Launch {{coding_env_name}}.]({{coding_env_origin}})
+   1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
+      - If you've edited any of the template notebooks, you can find them in that `-old` folder.
+   1. Repeat the [getting started](#getting-started) steps.
 {% endif -%}
 - **When using `choropleth_map()`, nothing appears on the map:** Make sure:
-  - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
-    - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
-  - The column and the GeoJSON properties have values that match
+   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
+      - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
+   - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
 - **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `{{coding_env_kernel_name.title()}}` menu then `Restart Kernel`.
 - **The values are out of order along the axis of a Plotly chart:** Make sure that:
@@ -159,13 +159,15 @@ The {{coding_env_kernel_name}} is [the place where Python is installed and the c
 
 {% if id == "nyu" -%}
 - Make sure `Python [conda env:python-public-policy]` is selected as the {{coding_env_kernel_name}}.
-  - Shows in the top right of the notebook interface
-  - To change:
-    1. Open the `{{coding_env_kernel_name.title()}}` menu
-    1. Click `Change {{coding_env_kernel_name}}`
-    1. Click `Python [conda env:python-public-policy]`
+   - Shows in the top right of the notebook interface
+   - To change:
+      1. Open the `{{coding_env_kernel_name.title()}}` menu.
+      1. Click `Change {{coding_env_kernel_name}}`.
+      1. Click `Python [conda env:python-public-policy]`.
 {%- endif %}
 - If your {{coding_env_kernel_name}} is repeatedly crashing, you're probably running out of memory.
-  - Make sure you aren't loading data sets you don't need.
-  - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
-  {% if id == "nyu" %}- Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.{% endif %}
+   - Make sure you aren't loading data sets you don't need.
+   - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
+   {% if id == "nyu" %}
+   - Close {{coding_env_kernel_name}}s you aren't using from the [Running]({{coding_env_origin}}/user-redirect/tree#running) page.
+   {%- endif %}
