@@ -14,6 +14,8 @@ In [Homework 1](../hw_1.md) and the [Final Project](../final_project.md), you wi
 
 There are countless places to get data, notably:
 
+- [Columbia Data Platform](https://dataplatform.cuit.columbia.edu/)
+
 - Local:
   - [NYC Open Data](https://opendata.cityofnewyork.us/)
     - [Scout](https://scout.tsdataclinic.com/explore/NYC) can be used to find datasets with certain columns
