@@ -10,6 +10,9 @@ chapters:
       - file: joining_late
       
   - file: resources
+    sections:
+      - file: brackets
+        title: Brackets
   - url: "https://brightspace.nyu.edu/d2l/home/432695"
     title: "Brightspace"
   - url: "https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123"
