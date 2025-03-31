@@ -19,12 +19,14 @@ jobs:
           - lecture_1_exercise_solution.ipynb
           - lecture_2.ipynb
           - lecture_2_exercise.ipynb
+          - lecture_2_exercise_2_solution.ipynb
           - lecture_3.ipynb
           - lecture_3_exercise_solution.ipynb
           - lecture_4.ipynb
           - lecture_5.ipynb
           - lecture_5_exercise_solution.ipynb
           - lecture_6.ipynb
+          - brackets.ipynb
           - curve.ipynb
           - extras/pandas_crash_course.ipynb
     # https://github.com/mamba-org/setup-micromamba?tab=readme-ov-file#about-login-shells
