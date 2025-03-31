@@ -44,9 +44,11 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 - [Climate & Economic Justice Screening Tool](https://screeningtool.geoplatform.gov/)
 - [FiveThirtyEight Interactives](https://projects.fivethirtyeight.com/)
 - [The Guardian Visual Journalism](https://www.theguardian.com/interactive)
+- [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/showcase)
 - [New York Times Graphics](https://www.nytimes.com/spotlight/graphics)
 - [Our World in Data](https://ourworldindata.org/)
 - [ProPublica News Apps](https://www.propublica.org/newsapps/)
+- [The Pudding](https://www.pudding.cool/)
 - [Statista](https://search.library.nyu.edu/permalink/01NYU_INST/1697t4d/alma990062490650107871)
 - [Visual Capitalist](https://www.visualcapitalist.com/)
 
