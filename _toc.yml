@@ -10,6 +10,9 @@ chapters:
       - file: joining_late
       - file: curve
   - file: resources
+    sections:
+      - file: brackets
+        title: Brackets
   - url: "https://courseworks2.columbia.edu/courses/210776"
     title: "CourseWorks"
   - url: "https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless"
