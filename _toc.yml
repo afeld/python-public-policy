@@ -12,6 +12,9 @@ chapters:
       - file: curve
       {%- endif %}
   - file: resources
+    sections:
+      - file: brackets
+        title: Brackets
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
   - url: "{{discussions_url}}"

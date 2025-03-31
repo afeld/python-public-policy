@@ -34,6 +34,7 @@ Now [turn in the assignment](assignments.md).
 1. Learn about functions
    - [Video](https://www.youtube.com/watch?v=9Os0o3wzS_I&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=8)
    - [Blog post](https://python.land/introduction-to-python/functions)
+1. [Brackets in Python and pandas](brackets.ipynb)
 1. Coding Style Guides - Please skim these; I don't expect you to understand and follow everything in them. The most important guidelines to pay attention to are indentation and keeping each statement on its own line.
    - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/writing/style/)
    - [PEP 8](https://www.python.org/dev/peps/pep-0008/)
