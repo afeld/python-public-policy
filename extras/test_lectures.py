@@ -29,10 +29,13 @@ def num_slides(cells: list[NotebookNode]):
 
     slides = [cell for cell in cells if is_slide(cell)]
     count = len(slides)
+    print("  Number of slides:\t", count)
 
     num_exercises = sum(1 for slide in slides if is_exercise(slide.source))
+    print("  Number of exercises:\t", num_exercises)
     # let's say that each exercise is worth ten slides
     count += num_exercises * 10
+    print("  Weighted count:\t", count)
 
     return count
 
@@ -53,13 +56,14 @@ def test_num_slides(file):
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
     cells: list[NotebookNode] = notebook.cells
+    print("Columbia:")
     num_columbia = num_slides_without_tag(cells, "nyu-only")
-    print("Number of slides for Columbia: ", num_columbia)
+
     assert num_columbia >= 42, "Too few slides for Columbia"
     assert num_columbia <= 63, "Too many slides for Columbia"
 
+    print("NYU:")
     num_nyu = num_slides_without_tag(cells, "columbia-only")
-    print("Number of slides for NYU: ", num_nyu)
     assert num_nyu >= 39, "Too few slides for NYU"
     assert num_nyu <= 51, "Too many slides for NYU"
 
