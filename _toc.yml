@@ -30,6 +30,8 @@ chapters:
             title: In-class exercise
           - file: lecture_1_exercise_solution
             title: In-class exercise solution
+          - file: lecture_1_demo_solutions
+            title: Demo solutions
       - file: lecture_2
         sections:
           - file: lecture_2_exercise
