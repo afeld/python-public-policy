@@ -1,3 +1,7 @@
+# https://mypy.readthedocs.io/en/stable/config_file.html
+[tool.mypy]
+check_untyped_defs = true
+
 [tool.pytest.ini_options]
 addopts = [
     "--ignore=extras/autograder/",
