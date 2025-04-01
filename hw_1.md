@@ -5,6 +5,9 @@
 ## Tutorials
 
 - [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+- [Group by: split-apply-combine](https://pandas.pydata.org/docs/user_guide/groupby.html)
+   - Beginning up to "GroupBy object attributes"
+   - "Aggregation" up to "The `aggregate()` method"
 
 ## Coding
 
