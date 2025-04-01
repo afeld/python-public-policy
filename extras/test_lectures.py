@@ -1,6 +1,7 @@
 from glob import glob
 import re
 
+from nbformat import NotebookNode
 import pytest
 
 from .lib.nb_helper import get_tags, is_code_cell, read_notebook
@@ -10,11 +11,11 @@ lecture_notebooks = glob("lecture_?.ipynb")
 lecture_notebooks.sort()
 
 
-def slide_type(cell):
+def slide_type(cell: NotebookNode):
     return cell.metadata.get("slideshow", {}).get("slide_type")
 
 
-def is_slide(cell):
+def is_slide(cell: NotebookNode):
     SLIDE_TYPES = ["slide", "subslide"]
     return slide_type(cell) in SLIDE_TYPES
 
@@ -23,7 +24,7 @@ def is_exercise(source: str):
     return re.match("#+.+(demo|exercise)", source, re.IGNORECASE) is not None
 
 
-def num_slides(cells):
+def num_slides(cells: list[NotebookNode]):
     """Return a weighted number of slides"""
 
     slides = [cell for cell in cells if is_slide(cell)]
@@ -51,12 +52,13 @@ def test_num_slides(file):
     if file == "lecture_6.ipynb":
         pytest.xfail("The various pieces of the lecture can be scaled appropriately")
 
-    num_columbia = num_slides_without_tag(notebook.cells, "nyu-only")
+    cells: list[NotebookNode] = notebook.cells
+    num_columbia = num_slides_without_tag(cells, "nyu-only")
     print("Number of slides for Columbia: ", num_columbia)
     assert num_columbia >= 42, "Too few slides for Columbia"
     assert num_columbia <= 63, "Too many slides for Columbia"
 
-    num_nyu = num_slides_without_tag(notebook.cells, "columbia-only")
+    num_nyu = num_slides_without_tag(cells, "columbia-only")
     print("Number of slides for NYU: ", num_nyu)
     assert num_nyu >= 39, "Too few slides for NYU"
     assert num_nyu <= 51, "Too many slides for NYU"
