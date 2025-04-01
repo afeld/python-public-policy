@@ -68,19 +68,15 @@ To ensure that notebooks have the correct execution order and output, run them n
 ## Start of class checklist
 
 - Put out attendance sheet
-- Connect to HDMI
-- On laptop, turn on:
-  - [Focus mode](https://support.apple.com/guide/mac-help/set-up-a-focus-to-stay-on-task-mchl613dc43f/mac)
-  - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
-- Set phone to Do Not Disturb
+- Connect to screen
+- Start [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+- Set phone and laptop to Do Not Disturb
 - Run lecture notebook
 {% if id == "columbia" -%}
 - Set up Zoom recording
 <!-- - Put out power strips -->
 {% else %}
 - [Set placeholders](https://settings-spring.rcnyu.org/)
-- Adjust lights
-- If first couple classes: take attendance for recording [Academic Engagement](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/faculty/academic-engagement.html)
 {% endif -%}
 
 ## Data sets
