@@ -28,24 +28,11 @@ def has_memory_address(cell: NotebookNode):
     )
 
 
-def is_value_count(source: str):
-    return ".value_counts(" in source
-
-
 def should_clear_output(cell: NotebookNode):
-    """
-    Ignore:
-    - Any system command output, since things like package paths shown in warnings/errors can change between different systems
-    - HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution
-    - `value_counts()` output, since the order of the index seems to differ by machine/OS
-    """
-
+    """Ignore any system command output, since things like package paths shown in warnings/errors can change between different systems. Also clear HTML output, since it often has generated IDs (from displacy, plotly, etc.) that change with each execution."""
     source = cell["source"]
     return (
-        is_system_command(source)
-        or has_rich_output(cell)
-        or has_memory_address(cell)
-        or is_value_count(source)
+        is_system_command(source) or has_rich_output(cell) or has_memory_address(cell)
     )
 
 
