@@ -56,3 +56,4 @@ Now [turn in the assignment](assignments.md).
 ## Participation
 
 Reminder about the [between-class participation requirement](syllabus.md#participation).
+
