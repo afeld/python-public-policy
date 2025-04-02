@@ -6,6 +6,5 @@
     "editor.formatOnSave": false
   },
   "workbench.externalBrowser": "chrome",
-  "editor.formatOnSave": false,
-  "flake8.enabled": false
+  "editor.formatOnSave": false
 }
