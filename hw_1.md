@@ -56,3 +56,5 @@ Now [turn in the assignment](assignments.md).
 ## Participation
 
 Reminder about the [between-class participation requirement](syllabus.md#participation).
+
+## [Lecture 2 instructions](https://edstem.org/us/courses/76318/discussion/6462523)
