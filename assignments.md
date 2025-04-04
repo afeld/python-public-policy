@@ -82,7 +82,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
       - Note that this is _not_ the `Assignments` tab of {{lms_name}}.
    1. **If one of the Homeworks:**
       1. [Go to {{submission_tool_name}}.]({{submission_tool_url}})
-      1. [Upload the files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
+      1. [Upload both the `.ipynb` and `.py` files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
    1. **If the Final Project:**
       1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
       1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/submitting-a-paper/submitting-a-paper.htm) to upload the files.
