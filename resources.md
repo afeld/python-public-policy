@@ -14,11 +14,13 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 - [Wagner Quantitative Support](https://wagner.nyu.edu/portal/students/academics/advisement/quantitative)
 {%- endif %}
 
-## pandas cheat sheets
+## Cheat sheets
 
-- [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-- [DataCamp](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python)
-- [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
+- [Python Flash Cards](https://nostarch.com/pythonflashcards)
+- pandas cheat sheets
+   - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+   - [DataCamp](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python)
+   - [DataQuest](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 
 ## Tutorials
 
