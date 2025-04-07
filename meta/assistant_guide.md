@@ -129,6 +129,8 @@ The following should be true for each Assignment:
     - Ditto.
 - [ ] `Enable manual grading`
 - [ ] `Submission Methods Enabled`: `Upload` only
+- [ ] It's officially ["linked"](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0012083) from {{lms_name}}
+- [ ] It shows up in the {{lms_name}} Gradebook properly
 {%- endif %}
 
 ### Grading
