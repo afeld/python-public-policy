@@ -23,6 +23,7 @@ jobs:
           - lecture_2_exercise_2_solution.ipynb
           - lecture_3.ipynb
           - lecture_3_exercise_solution.ipynb
+          - lecture_3_demo_solutions.ipynb
           - lecture_4.ipynb
           - lecture_5.ipynb
           - lecture_5_exercise_solution.ipynb
