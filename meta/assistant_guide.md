@@ -158,6 +158,8 @@ When grading, points should only be deducted based on [these criteria](../syllab
 - Solutions folder will be shared with you from Google Drive
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
 {%- if id == "nyu" %}
+- Per Gradescope support, "Unfortunately, there isn't a way right now to assign "0" scores to all students without submissions on Gradescope. For now, the workaround would be to upload a blank/fake submission for each of the students who didn't submit anything for the assignment on Gradescope and grade those submissions with a 0 score for all questions, so that the students have a 0 on Gradescope." [Feature request.](https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/119-instructors-can-give-students-without-submissions-0-scores-on-gradescope)
+- Note that you need to both `Post Grades to NYU Brightspace` and [`Publish Grades`](https://guides.gradescope.com/hc/en-us/articles/22067099093517-Reviewing-Grades#h_01HRFQT3293V5J0QA8D6ZETGVJ).
 - {{assistant_name|capitalize}} will manually apply [late penalty](../syllabus.md#assignment-scoring)
 {%- endif %}
 
