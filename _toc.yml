@@ -47,6 +47,9 @@ chapters:
           - file: lecture_3_demo_solutions
             title: Demo solutions
       - file: lecture_4
+        sections:
+          - file: lecture_4_demo_solution
+            title: Demo solution
       - file: lecture_5
         sections:
           - file: lecture_5_exercise_solution
