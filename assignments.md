@@ -22,6 +22,10 @@ To edit/execute a Homework/lecture notebook:
 
 That is now your own copy; make edits in there directly.
 
+### [Open-ended assignments](assignments/open_ended.md)
+
+You'll create your own notebook{% if id == "nyu" %}, using `Python [conda env:python-public-policy]` as the kernel{% endif %}.
+
 ## Tips
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
