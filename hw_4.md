@@ -1,5 +1,7 @@
 # Homework 4
 
+_[General](assignments.md) and [open-ended](assignments/open_ended.md) assignment information_
+
 ## Coding
 
 For this assignment, you will:
@@ -15,7 +17,7 @@ You will **take two datasets and show a relationship (or lack thereof) in one vi
 - Merging the datasets and plotting a derived measure
 - etc.
 
-Here is [a thorough example](./final_project/universities.ipynb) - yours does _not_ need to be that complex though.
+Here is [a thorough example](final_project/universities.ipynb) - yours does _not_ need to be that complex though.
 
 ### Requirements
 
@@ -25,7 +27,6 @@ Here is [a thorough example](./final_project/universities.ipynb) - yours does _n
   - There can be additional visualizations
 - The relationship you're showing doesn’t need to be something novel; replicating something you saw / read / heard about is fine.
 - State the takeaway(s)
-- [General assignment information](assignments.md)
 
 ## Tutorials
 
