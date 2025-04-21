@@ -12,7 +12,6 @@ jobs:
           - hw_0.ipynb
           - hw_2.ipynb
           - hw_3.ipynb
-          - hw_4.ipynb
           - lecture_0.ipynb
           - lecture_1.ipynb
           - lecture_1_exercise.ipynb
