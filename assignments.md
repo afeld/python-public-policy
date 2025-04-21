@@ -17,6 +17,10 @@ To edit/execute a Homework/lecture notebook:
 1. Click `Copy to Drive`.
 That is now your own copy; make edits in there directly.
 
+### [Open-ended assignments](assignments/open_ended.md)
+
+You'll create your own notebook.
+
 ## Tips
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
