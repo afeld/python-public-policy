@@ -26,6 +26,7 @@ There are countless places to get data, notably:
 - [World Bank](https://data.worldbank.org/)
 - [World Health Organization (WHO)](https://www.who.int/data)
 - [HealthData.gov](https://healthdata.gov/)
+- [The Humanitarian Data Exchange](https://data.humdata.org/)
 - [Economic Policy Institute](https://www.epi.org/data/)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
