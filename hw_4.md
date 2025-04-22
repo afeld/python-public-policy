@@ -13,7 +13,9 @@ For this assignment, you will:
 
 You will **take two datasets and show a relationship (or lack thereof) in one visualization** (chart or map). This can mean:
 
-- Plotting information from both as separate lines/points
+- Plotting information from both as separate lines/points — see Plotly docs on:
+  - [Multiple Axes](https://plotly.com/python/multiple-axes/)
+  - [Graph Objects](https://plotly.com/python/graph-objects/#when-to-use-graph-objects-vs-plotly-express)
 - Merging the datasets and plotting a derived measure
 - etc.
 
