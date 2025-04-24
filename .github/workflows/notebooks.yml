@@ -16,13 +16,13 @@ jobs:
           - lecture_1.ipynb
           - lecture_1_exercise.ipynb
           - lecture_1_exercise_solution.ipynb
-          - lecture_1_demo_solutions.ipynb
+          - lecture_1_demo_solution.ipynb
           - lecture_2.ipynb
           - lecture_2_exercise.ipynb
           - lecture_2_exercise_2_solution.ipynb
           - lecture_3.ipynb
           - lecture_3_exercise_solution.ipynb
-          - lecture_3_demo_solutions.ipynb
+          - lecture_3_demo_solution.ipynb
           - lecture_4.ipynb
           - lecture_4_demo_solution.ipynb
           - lecture_5.ipynb
