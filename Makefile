@@ -1,10 +1,8 @@
-browser := chrome
-
 lab:
-	jupyter lab --browser $(browser)
+	jupyter lab
 
 notebook:
-	jupyter notebook --browser $(browser)
+	jupyter notebook
 
 linkcheck:
 	ruby ./extras/scripts/broken_links.rb
@@ -12,7 +10,6 @@ linkcheck:
 slides:
 	jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
-		--ServePostProcessor.browser $(browser) \
 		--post serve lecture_$(lec).ipynb
 
 test:
