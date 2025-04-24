@@ -60,6 +60,8 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 
 ## Submission
 
+[Instructions](assignments.md#submission)
+
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
 - Please try to preserve anonymity.
   - Keep your name/username out of the notebook title, text cells, file paths, etc.

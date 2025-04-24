@@ -72,7 +72,7 @@ You'll create your own notebook, using `Python [conda env:python-public-policy]`
       1. [Upload both the `.ipynb` and `.py` files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
    1. **If the Final Project:**
       1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
-      1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the files.
+      1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the `.ipynb`. (`.py` not needed.)
 
 ### Notes
 
