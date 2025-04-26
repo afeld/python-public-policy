@@ -46,12 +46,8 @@ jobs:
       #     path: ./
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
-
-      # https://github.com/jupyter-book/jupyter-book/issues/2271
-      # https://stackoverflow.com/a/1583282/358804
       - name: Fix double-escaping
-        run: find _build/html -name '*.html' -print0 | xargs -0 sed -i 's/&amp;amp;/\&amp;/g'
-
+        run: make fix_double_escaping
       - name: Update commit
         run: |
           git add -A

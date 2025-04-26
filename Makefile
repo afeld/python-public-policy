@@ -45,3 +45,9 @@ build_autograder:
 	git archive -o ./extras/autograder.zip HEAD:./extras/autograder/source
 
 	echo "Now upload extras/autograder.zip to Gradescope."
+
+# fix double-escaping
+# https://github.com/jupyter-book/jupyter-book/issues/2271
+# https://stackoverflow.com/a/1583282/358804
+fix_double_escaping:
+	find _build/html -name '*.html' -print0 | xargs -0 sed -i 's/&amp;amp;/\&amp;/g'
