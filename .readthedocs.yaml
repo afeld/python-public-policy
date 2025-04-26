@@ -10,7 +10,7 @@ build:
     pre_build:
       - jupyter-book config sphinx .
     post_build:
-      - make fix_double_escaping
+      - make fix_double_escaping build_dir=$(READTHEDOCS_OUTPUT)
 
 sphinx:
   # https://about.readthedocs.com/blog/2024/12/deprecate-config-files-without-sphinx-or-mkdocs-config/
