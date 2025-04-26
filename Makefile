@@ -46,7 +46,6 @@ build_autograder:
 
 	echo "Now upload extras/autograder.zip to Gradescope."
 
-# fix double-escaping
 # https://github.com/jupyter-book/jupyter-book/issues/2271
 # https://stackoverflow.com/a/1583282/358804
 fix_double_escaping:
