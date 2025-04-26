@@ -5,7 +5,7 @@ runs:
   using: composite
   steps:
     - name: Install Conda packages
-      uses: mamba-org/setup-micromamba@v1
+      uses: mamba-org/setup-micromamba@v2
       with:
         environment-file: extras/environment.yml
         init-shell: bash
