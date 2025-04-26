@@ -51,6 +51,8 @@ jobs:
       # https://stackoverflow.com/a/1583282/358804
       - name: Fix double-escaping
         run: find _build/html -name '*.html' -print0 | xargs -0 sed -i 's/&amp;amp;/\&amp;/g'
+      - name: Confirm ampersand replacement worked
+        run: grep git-pull _build/html/assignments/open_ended.html
 
       - name: Update commit
         run: |
