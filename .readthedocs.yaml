@@ -5,10 +5,12 @@ build:
   os: ubuntu-lts-latest
   tools:
     python: mambaforge-latest
-  # https://jupyterbook.org/en/stable/publish/readthedocs.html
   jobs:
+    # https://jupyterbook.org/en/stable/publish/readthedocs.html
     pre_build:
       - jupyter-book config sphinx .
+    post_build:
+      - make fix_double_escaping
 
 sphinx:
   # https://about.readthedocs.com/blog/2024/12/deprecate-config-files-without-sphinx-or-mkdocs-config/
