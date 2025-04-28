@@ -87,7 +87,7 @@ A non-exhaustive list of alternatives:
 - [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
 - [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
 
-- [Kaggle Notebooks](https://www.kaggle.com/docs/notebooks)
+- [Kaggle notebooks](https://www.kaggle.com/code)
 - [Mode Notebooks](https://mode.com/help/articles/notebook)
 
 ### Matching the class environment
