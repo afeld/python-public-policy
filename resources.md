@@ -116,7 +116,7 @@ A non-exhaustive list of alternatives:
 {% if id != "columbia" -%}
 - [Google Colab](https://colab.research.google.com/)
 {%- endif %}
-- [Kaggle Notebooks](https://www.kaggle.com/docs/notebooks)
+- [Kaggle notebooks](https://www.kaggle.com/code)
 - [Mode Notebooks](https://mode.com/help/articles/notebook)
 
 ### Matching the class environment
