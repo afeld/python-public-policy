@@ -29,7 +29,7 @@ Here is [a thorough example](final_project/universities.ipynb) - yours does _not
   - There can be additional visualizations
 - The relationship you're showing doesn’t need to be something novel; replicating something you saw / read / heard about is fine.
 - This can overlap the [Final Project](final_project.md), but should be different.
-  - Note [the requirement](assignments/open_ended.md) that Homework 4 "Use at least one dataset that you aren't familiar with."
+  - Per [the requirements](assignments/open_ended.md), it should use at least one dataset you haven't used for your Final Project or anything else.
 - State the takeaway(s)
 
 ## Tutorials
