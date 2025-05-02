@@ -113,7 +113,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
       - If you've edited any of the template notebooks, you can find them in that `-old` folder.
    1. Repeat the [getting started](#getting-started) steps.
 {% endif -%}
-- **When using `choropleth_map()`, nothing appears on the map:** Make sure:
+- **When using [`choropleth()`](https://plotly.com/python/choropleth-maps/)/[`choropleth_map()`](https://plotly.com/python/tile-county-choropleth/), nothing appears on the map:** Make sure:
    - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
       - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
    - The column and the GeoJSON properties have values that match
