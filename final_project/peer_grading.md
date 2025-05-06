@@ -14,9 +14,9 @@ If you disagree with the grade, you can appeal by [emailing the instructor and R
       - Accessing in a browser / [incognito window](https://support.google.com/chrome/answer/95464) where you're only signed into your LionMail account, no other Google accounts.
 1. Leave substantive feedback as a comment/attachment in the CourseWorks Assignment peer review area.
 
-1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
-1. Explain what points are being deducted for what.
-1. State the final score in the comment area.
+1. Fill out the rubric.
+   - Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring), for more details.
+   - Explain what points are being deducted for what.
 
 ## Notes for reviewers
 
