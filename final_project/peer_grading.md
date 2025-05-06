@@ -16,14 +16,14 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 1. Leave substantive feedback as a comment/attachment in the {{lms_name}} Assignment peer review area.
 {% else -%}
 1. Go to `Content`, then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
-1. Follow [these instructions](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
+1. Follow [these instructions to review](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
    - Some students have reported issues when using Safari. If you're unable to access, try a different browser.
-   - You may need to download the `.ipynb` file and upload it to {{coding_env_url}} to view it.
+   - You may need to download the `.ipynb` file and upload it to [{{coding_env_name}}]({{coding_env_url}}) to view it.
    - PeerMark (annoyingly) doesn't let you edit your review after you submit it, so double-check before submitting.
 {%- endif %}
-1. Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring).
-1. Explain what points are being deducted for what.
-1. State the final score in the comment area.
+1. Fill out the rubric.
+   - Check against [the analysis requirements](../final_project.md#analysis-requirements), factoring in the applicable [general assignment scoring](../syllabus.md#assignment-scoring), for more details.
+   - Explain what points are being deducted for what.
 
 ## Notes for reviewers
 
