@@ -54,6 +54,9 @@ You'll create your own notebook.
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - This is a good time to run the notebook end-to-end with `Restart and run all`.
    - See [general scoring criteria](syllabus.md#assignment-scoring).
+1. Ensure the notebook doesn't contain any sensitive information. (Only really applicable to [open-ended assignments](assignments/open_ended.md).)
+   - API keys
+   - Personally-identifiable information (PII)
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
