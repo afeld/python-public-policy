@@ -63,6 +63,12 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 {% if id == "columbia" -%}
 [Instructions](assignments.md#submission)
 {% else -%}
+1. Remove the following from the notebook, filename, file paths, etc:
+   - Name
+   - NetID
+   - Sensitive information
+      - API keys
+      - Personally-identifiable information (PII)
 1. Export the files.
    - `.ipynb`:
       1. `File`
@@ -82,16 +88,10 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 ### Notes
 
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
-- Please try to preserve anonymity.
-  - Keep your name/username out of the notebook title, text cells, file paths, etc.
-  {% if id == "columbia" -%}
-  - Hold off on responding to comments on your notebook before you get your Project grade.
-  {%- endif %}
-- Don't leave any sensitive information in the notebook, such as:
-  - API keys
-  - Personally-identifiable information (PII)
-
-Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions{% if id == "nyu" %} or resubmissions{% endif %}**.
+- Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions{% if id == "nyu" %} or resubmissions{% endif %}**.
+{% if id == "columbia" -%}
+- Hold off on responding to comments on your notebook before you get your Project grade.
+{%- endif %}
 
 ### Confirming you meet the requirements
 
