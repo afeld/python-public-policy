@@ -67,12 +67,10 @@ You'll create your own notebook, using `Python [conda env:python-public-policy]`
 1. Submit.
    1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/432695), go to `Content`.
       - Note that this is _not_ the `Assignments` tab of Brightspace.
-   1. **If one of the Homeworks:**
-      1. [Go to Gradescope.](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11563092)
-      1. [Upload both the `.ipynb` and `.py` files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
-   1. **If the Final Project:**
-      1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
-      1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the `.ipynb`. (`.py` not needed.)
+   1. [Go to Gradescope.](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11563092)
+   1. [Upload both the `.ipynb` and `.py` files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
+
+Note [the Final Project submission](final_project.md#submission) is slightly different.
 
 ### Notes
 
