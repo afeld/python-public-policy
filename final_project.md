@@ -66,20 +66,16 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
    - Sensitive information
       - API keys
       - Personally-identifiable information (PII)
-1. Export the files.
-   - `.ipynb`:
-      1. `File`
-      1. `Download`
-   - `.html`:
-      1. `File`
-      1. `Save and Export Notebook As`
-      1. `HTML`
-         - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
+1. Export the notebook as HTML by clicking:
+   1. `File`
+   1. `Save and Export Notebook As`
+   1. `HTML`
+      - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
 1. Submit.
    1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/432695), go to `Content`.
       - Note that this is _not_ the `Assignments` tab of Brightspace.
    1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
-   1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the `.ipynb` and `.html` as-is.
+   1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the `.html` file as-is.
 
 ### Notes
 
