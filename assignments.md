@@ -55,6 +55,9 @@ You'll create your own notebook, using `Python [conda env:python-public-policy]`
 1. Ensure all the outputs are visible and the notebook is cleaned up.
    - This is a good time to run the notebook end-to-end with `Restart and run all` (⏩).
    - See [general scoring criteria](syllabus.md#assignment-scoring).
+1. Ensure the notebook doesn't contain any sensitive information. (Only really applicable to [open-ended assignments](assignments/open_ended.md).)
+   - API keys
+   - Personally-identifiable information (PII)
 1. Export the files.
    - `.ipynb`:
       1. `File`
