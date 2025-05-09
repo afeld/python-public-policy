@@ -18,10 +18,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and {
 1. Go to `Content`, then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions to review](https://guides.turnitin.com/hc/en-us/articles/23974126126093-Writing-a-peer-review).
    - Some students have reported issues when using Safari. If you're unable to access, try a different browser.
-   - Download the `.html` and open that file in your browser. As a backup, you can try downloading the `.ipynb` file and uploading it to [{{coding_env_name}}]({{coding_env_url}}) to view it.
-
-      ![Download buttons in TurnItIn](../extras/img/turnitin_download.png)
-
+   - Download the `.html` file and open that file in your browser.
    - PeerMark (annoyingly) doesn't let you edit your review after you submit it, so double-check before submitting.
 {%- endif %}
 1. Fill out the rubric.
