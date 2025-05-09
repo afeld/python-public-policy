@@ -10,7 +10,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and g
 1. Go to `Content`, then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions to review](https://help.turnitin.com/feedback-studio/d2l/LTI13/student/peermark/writing-a-peer-review.htm).
    - Some students have reported issues when using Safari. If you're unable to access, try a different browser.
-   - Try downloading the `.html` You may need to download the `.ipynb` file and upload it to [JupyterHub](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) to view it, or view the .
+   - Download the `.html` and opening that file in your browser. As a backup, you can try downloading the `.ipynb` file and uploading it to [JupyterHub](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) to view it.
    - PeerMark (annoyingly) doesn't let you edit your review after you submit it, so double-check before submitting.
 1. Fill out the rubric.
    - More details in [the analysis requirements](../final_project.md#analysis-requirements).
