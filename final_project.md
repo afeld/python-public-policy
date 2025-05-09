@@ -60,7 +60,26 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 
 ## Submission
 
+{% if id == "columbia" -%}
 [Instructions](assignments.md#submission)
+{% else -%}
+1. Export the files.
+   - `.ipynb`:
+      1. `File`
+      1. `Download`
+   - `.html`:
+      1. `File`
+      1. `Save and Export Notebook As`
+      1. `HTML`
+         - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
+1. Submit.
+   1. In [{{lms_name}}]({{lms_url}}), go to `Content`.
+      - Note that this is _not_ the `Assignments` tab of {{lms_name}}.
+   1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
+   1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the `.ipynb` and `.html` as-is.
+{%- endif %}
+
+### Notes
 
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
 - Please try to preserve anonymity.
