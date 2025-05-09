@@ -147,7 +147,7 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 
 1. Open each submission.
-1. For similarity scores over 20%, look at the [report](https://help.turnitin.com/feedback-studio/lti/instructor/instructor-category.htm#the-similarity-report).
+1. For similarity scores over 20%, look at the [report](https://guides.turnitin.com/hc/en-us/articles/23438306524173-Navigating-the-Similarity-Report).
    - Matches in data output can be ignored.
    - If it seems like there may be instances of [plagiarism](../syllabus.md#class-policies) or you're not sure, let the instructor know.
 1. Calculate the median of the scores from the peers, using that as the final grade.
