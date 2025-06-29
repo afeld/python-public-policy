@@ -21,6 +21,10 @@ file := .
 format:
 	ruff format $(file)
 
+# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
+site:
+	jupyter-book build --all -W -n --keep-going .
+
 update_packages:
 	# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment
 	mamba env update --file extras/environment.yml --prune
