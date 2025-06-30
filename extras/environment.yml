@@ -16,7 +16,7 @@ dependencies:
 
   ## packages imported directly in notebooks ##
   # match version in Colab returned by `!python --version`
-  - python=3.11.11
+  - python=3.11.13
   # match versions in Colab returned by `!pip list`
   # required for pandas' read_html()
   - html5lib=1.1
