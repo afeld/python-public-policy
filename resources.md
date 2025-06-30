@@ -34,7 +34,7 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 
 - Related [Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext):
    - Application Development for Social Impact
-   - Applying Machine Learning — if interested, you should take [Computing in Context](https://computing-in-context.afeld.me/) instead of Python for Public Policy
+   - Applying Machine Learning — If interested, you should [take Computing in Context instead of Python for Public Policy](index.md#comparison-to-computing-in-context), as it's a prerequisite.
    - Intro to Text Analysis in Python / Text as Data
    - Intro to Infographics and Data Visualization
    - Introduction to Database Design, Management, and Security
