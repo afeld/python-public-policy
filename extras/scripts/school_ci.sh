@@ -25,6 +25,6 @@ fi
 # render the files
 ./extras/scripts/school.sh "$SCHOOL"
 
-./extras/scripts/build.sh
+make site
 
 git diff

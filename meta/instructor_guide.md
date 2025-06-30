@@ -32,7 +32,7 @@ The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/w
 1. If on the `columbia` branch, run:
 
    ```sh
-   ./extras/scripts/build.sh
+   make site
    ```
 
 1. If on `main` or other branches, run:
