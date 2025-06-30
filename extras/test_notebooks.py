@@ -125,6 +125,17 @@ def test_chart_titles(file):
         check_plots(cell.source)
 
 
+def is_plotly_output(output):
+    return "application/vnd.plotly.v1+json" in output.data
+
+
+def is_text_or_table_output(output):
+    return output.output_type in [
+        "display_data",
+        "execute_result",
+    ] and not is_plotly_output(output)
+
+
 def num_lines(output):
     html = output.data.get("text/html")
     if html:
@@ -142,7 +153,7 @@ def test_long_outputs_scrolled(file):
     for cell in notebook.cells:
         if is_python(cell):
             for output in cell.outputs:
-                if output.output_type in ["display_data", "execute_result"]:
+                if is_text_or_table_output(output):
                     num_rows = num_lines(output)
                     if num_rows > 30:
                         # if not set, the notebook will automatically scroll
