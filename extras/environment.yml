@@ -27,6 +27,8 @@ dependencies:
   - plotly>=6.0.1
   - requests=2.32.3
   - statsmodels=0.14.4
+  # https://github.com/statsmodels/statsmodels/issues/9584#issuecomment-2994905188
+  - scipy<1.16.0
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
