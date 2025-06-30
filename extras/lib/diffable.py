@@ -9,7 +9,11 @@ def is_system_command(source: str):
 
 def has_rich_format(output):
     data = output.get("data", {})
-    return "text/html" in data or "image/png" in data
+    return (
+        "text/html" in data
+        or "image/png" in data
+        or "application/vnd.plotly.v1+json" in data
+    )
 
 
 def has_rich_output(cell: NotebookNode):
@@ -39,7 +43,7 @@ def should_clear_output(cell: NotebookNode):
 # based off of
 # https://github.com/jupyter/nbconvert/blob/master/nbconvert/preprocessors/tagremove.py
 class Diffable(Preprocessor):
-    def preprocess_cell(self, cell: NotebookNode, resources, cell_index):
+    def preprocess_cell(self, cell: NotebookNode, resources: dict, index: int):
         if cell["cell_type"] != "code":
             return cell, resources
 
