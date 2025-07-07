@@ -52,6 +52,9 @@ build_autograder:
 
 build_dir := _build
 
+clean:
+	rm -rf $(build_dir)
+
 # https://github.com/jupyter-book/jupyter-book/issues/2271
 # https://stackoverflow.com/a/1583282/358804
 fix_double_escaping:
