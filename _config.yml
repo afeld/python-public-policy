@@ -28,7 +28,9 @@ launch_buttons:
   colab_url: https://colab.research.google.com
   
 parse:
+  # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
   myst_enable_extensions:
+    - dollarmath
     - html_image
     - linkify
 sphinx:
