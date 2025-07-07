@@ -211,9 +211,9 @@ Attending class is mandatory, but most importantly, important. Learning programm
 
 Missing class counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. Missing more than 20 minutes of a class session will be treated as an absence. The first absence is treated as a "freebie". Your final Attendance score will be calculated as:
 
-$$\text{Maximum Score} = \text{Total Classes} - \text{Freebies} = 7 - 1 = 6$$
+$$\text{maximum_score} = \text{total_classes} - \text{freebies} = 7 - 1 = 6$$
 
-$$\text{Your Score} = \min(\text{Maximum Score}, \text{Number of Classes You Attended})$$
+$$\text{your_score} = \min(\text{maximum_score}, \text{number_of_classes_you_attended})$$
 
 If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
 
