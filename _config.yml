@@ -28,7 +28,9 @@ launch_buttons:
   jupyterhub_url: https://padmgp-4506-spring.rcnyu.org
   
 parse:
+  # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
   myst_enable_extensions:
+    - dollarmath
     - html_image
     - linkify
 sphinx:
