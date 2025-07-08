@@ -32,6 +32,7 @@ There are countless places to get data, notably:
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Black Wealth Data](https://blackwealthdata.org/)
 - [DataHub](https://datahub.io/collections)
+- [Gallup Global Datasets](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)
 - Lists of open data portals:
   - [DataPortals](https://dataportals.org/)
   - [Open Data Network](https://www.opendatanetwork.com/)
