@@ -61,7 +61,7 @@ Both courses are intended for students who are new to coding. Python for Public 
 [dsp]: https://bulletin.columbia.edu/sipa/specializations/daqa/#dsprequirementstext
 [cic-meeting]: https://computing-in-context.afeld.me/#meeting-information
 [cic-structure]: https://computing-in-context.afeld.me/#contexts-and-structure
-[cic-prereq]: https://computing-in-context.afeld.me/#course-overview
+[cic-prereq]: https://computing-in-context.afeld.me/#relationship-to-other-courses
 
 Computing in Context has two lectures and a lab and goes a full semester, which means:
 
