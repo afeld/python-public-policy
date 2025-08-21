@@ -23,6 +23,8 @@ There are countless places to get data, notably:
 - U.S. Federal:
   - [data.gov](https://www.data.gov/)
   - [Census Bureau](https://data.census.gov/)
+    - [Census Academy](https://www.census.gov/data/academy.html)
+    - [ZIP Code Crosswalk](https://www.huduser.gov/portal/datasets/usps_crosswalk.html)
   - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
 - [United Nations](https://data.un.org/)
 - [World Bank](https://data.worldbank.org/)
