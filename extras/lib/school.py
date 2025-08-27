@@ -57,7 +57,7 @@ SCHOOLS = [
         submission_tool_url="https://courseworks2.columbia.edu/courses/210776/assignments",
         discussions_url="https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeexomJkVX-9WTMXTYfRYWg3UC3n0_gDVe-qGDDt78aTbBodw/viewform?usp=header",
-        name_tool_url="https://courseworks2.columbia.edu/courses/210776/external_tools/62951",
+        name_tool_url="https://courseworks2.columbia.edu/courses/183594/pages/you-at-columbia-a-step-by-step-tutorial",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://edstem.org/us/settings/notifications",
         grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
