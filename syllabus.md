@@ -18,6 +18,8 @@
   }
 </style>
 
+This is the syllabus for the Spring editions of the course. [Find information about the Fall editions (SIPA6650IA) in Vergil.](https://vergil.columbia.edu/vergil/search?hc=true&ci=SIPA6650IA)
+
 ## Course Information
 
 - **Course Number:** [INAFU6504](https://vergil.columbia.edu/vergil/course/20251/61319)
