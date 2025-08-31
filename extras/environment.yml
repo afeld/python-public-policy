@@ -16,7 +16,7 @@ dependencies:
 
   ## packages imported directly in notebooks ##
   # match version in Colab returned by `!python --version`
-  - python=3.11.13
+  - python=3.12.11
   # match versions in Colab returned by `!pip list`
   # required for pandas' read_html()
   - html5lib=1.1
@@ -25,10 +25,10 @@ dependencies:
   # Using v6 (newer than Colab) to avoid the need for the plugin in the base environment. Using (unreleased) v6.0.1 to avoid a bug in the HTML export.
   # https://github.com/plotly/plotly.js/blob/master/CHANGELOG.md#301----2025-02-18
   - plotly>=6.0.1
-  - requests=2.32.3
-  - statsmodels=0.14.4
-  # https://github.com/statsmodels/statsmodels/issues/9584#issuecomment-2994905188
-  - scipy<1.16.0
+  - requests=2.32.4
+  # https://github.com/statsmodels/statsmodels/releases/tag/v0.14.5
+  - statsmodels>=0.14.5
+  - scipy
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
@@ -61,6 +61,6 @@ dependencies:
   - pytest
 
   # this needs to stay in sync with docs/environment.yml
-  - jupyter-book=1.0.3
+  - jupyter-book=1.0.4.post1
   # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
   - sphinx>=6.2.0
