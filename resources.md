@@ -38,12 +38,11 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 ## Courses
 
 {% if id == "columbia" -%}
-- Related [Data Analytics & Quantitative Analysis (DAQA) courses](https://bulletin.columbia.edu/sipa/specializations/daqa/#coursestext):
-   - Application Development for Social Impact
+- Related [Data Science for Policy (DSP) courses](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp#dsp-requirements):
    - Applying Machine Learning — If interested, you should [take Computing in Context instead of {{course_name}}](index.md#comparison-to-computing-in-context), as it's a prerequisite.
-   - Intro to Text Analysis in Python / Text as Data
-   - Intro to Infographics and Data Visualization
-   - Introduction to Database Design, Management, and Security
+   - Intro to Text Analysis in Python
+   - Introduction to Infographics and Data Visualization
+   - Database Design, Management, and Security
    - Time Series Analysis
 {% else -%}
 - [Courses outside Wagner](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu)

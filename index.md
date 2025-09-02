@@ -58,9 +58,9 @@ Both courses are intended for students who are new to coding. {{course_name}} ca
 | **Topics covered**    | See [syllabus](syllabus.md#schedule)                                                        | See [syllabus](https://computing-in-context.afeld.me/#schedule)                                                                                                                                                                                       |
 | **Student body**      | Mainly SIPA                                                                                 | [Mix of SIPA and other schools][cic-structure]                                                                                                                                                                                                        |
 | **Best suited for**   | Students who just want a taste of coding                                                    | Students who are interested in coding being part of their lives/careers                                                                                                                                                                               |
-| **Other differences** | We speed through Python fundamentals, spending most of the time on data analysis in Python. | <ul><li>Spends more time on Python fundamentals, such as control flow and functions.</li><li>[Required for the Data Science for Policy (DSP) Concentration.][dsp]</li><li>[Allows students to take more advanced DAQA courses.][cic-prereq]</li></ul> |
+| **Other differences** | We speed through Python fundamentals, spending most of the time on data analysis in Python. | <ul><li>Spends more time on Python fundamentals, such as control flow and functions.</li><li>[Required for the Data Science for Policy (DSP) Concentration.][dsp]</li><li>[Allows students to take more advanced DSP courses.][cic-prereq]</li></ul> |
 
-[dsp]: https://bulletin.columbia.edu/sipa/specializations/daqa/#dsprequirementstext
+[dsp]: https://www.sipa.columbia.edu/sipa-education/bulletin/dsp
 [cic-meeting]: https://computing-in-context.afeld.me/#meeting-information
 [cic-structure]: https://computing-in-context.afeld.me/#contexts-and-structure
 [cic-prereq]: https://computing-in-context.afeld.me/#relationship-to-other-courses

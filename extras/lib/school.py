@@ -85,6 +85,7 @@ SCHOOLS = [
             "columbia",
             "courseworks",
             "daqa",
+            "dsp",
             "python for public policy",
             "reader",
             "sipa",
