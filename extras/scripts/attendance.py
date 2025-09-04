@@ -41,6 +41,7 @@ def get_entries(filename: str):
 
     entries = normalize_sections(entries)
     # pull the section number out
+    # TODO update course ID
     entries["Section"] = (
         entries["Section Name"].str.extract(r"INAFU6504_(\d{3})_").astype(int)
     )
