@@ -31,7 +31,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 ## Course Information
 
-- **Course Number:** [INAFU6504](https://vergil.columbia.edu/vergil/course/20251/61319)
+- **Course Number:** [SIPA6650IA](https://vergil.columbia.edu/vergil/search?hc=true&ci=SIPA6650IA), formerly [INAFU6504](https://vergil.columbia.edu/vergil/course/20251/61319)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
 - **Class Meeting Times:** Tuesdays 1/21-3/4
   - Section 1: 9-10:50am ET
