@@ -9,6 +9,7 @@ dependencies:
   - pip
   - pip:
       - gradescope_utils
+      - sphinxcontrib-imagesvg
 
   # extensions
   - jupyter-resource-usage
