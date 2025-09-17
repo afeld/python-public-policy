@@ -6,5 +6,8 @@
     "editor.formatOnSave": false
   },
   "workbench.externalBrowser": "chrome",
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": []
 }
