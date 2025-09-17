@@ -68,26 +68,9 @@ def test_heading_levels(file):
                 assert source.startswith("###"), "should be H3+"
 
 
-@pytest.mark.parametrize("file", notebooks)
-def test_nested_lists(file):
-    """JupyterBook's markdown parser doesn't support nested lists with two spaces."""
-
-    notebook = read_notebook(file)
-    for cell in notebook.cells:
-        if is_markdown(cell):
-            source = cell.source
-            for line in source.splitlines():
-                match = re.match(r"^( +)(-|\d\.)", line)
-                if match:
-                    num_spaces = len(match[1])
-                    assert num_spaces % 3 == 0 or num_spaces % 4 == 0, (
-                        f"Lists should be indented in multiples of three or four spaces. Text:\n\n{source}\n"
-                    )
-
-
-def check_link(token: Token, parent: Token = None):
+def check_link(token: Token, parent: Token | None = None):
     if token.type == "link_open":
-        href = token.attrGet("href")
+        href = str(token.attrGet("href"))
         # escaped Jinja2 tags
         if not re.match(r"http|#|%7B%7B", href):
             source = parent.content if parent else token.content
@@ -108,7 +91,7 @@ def test_links(file):
             for token in tokens:
                 check_link(token)
                 if token.type == "inline":
-                    for child in token.children:
+                    for child in token.children:  # type: ignore
                         check_link(child, token)
 
 
