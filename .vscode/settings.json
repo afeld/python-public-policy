@@ -3,10 +3,17 @@
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "[json]": {
+    // don't mess with notebooks
     "editor.formatOnSave": false
   },
+  "[markdown]": {
+    // don't mess up the Jinja tags
+    "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
   "workbench.externalBrowser": "chrome",
-  "editor.formatOnSave": false,
   "python-envs.defaultEnvManager": "ms-python.python:conda",
   "python-envs.defaultPackageManager": "ms-python.python:conda",
   "python-envs.pythonProjects": []
