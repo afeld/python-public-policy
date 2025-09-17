@@ -37,8 +37,6 @@ parse:
     - html_image
     - linkify
 sphinx:
-  extra_extensions:
-    - sphinxcontrib.imagesvg
   # avoid the html_theme_options from overriding the ones set by Jupyter Book
   # https://jupyterbook.org/en/stable/advanced/sphinx.html#manual-sphinx-configuration
   recursive_update: true

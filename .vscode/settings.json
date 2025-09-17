@@ -2,10 +2,17 @@
   "python.testing.pytestArgs": ["extras"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
+  "[json]": {
+    // don't mess with notebooks
+    "editor.formatOnSave": false
   },
-  "editor.formatOnSave": false,
+  "[markdown]": {
+    // don't mess up the Jinja tags
+    "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
   "workbench.externalBrowser": "chrome",
   "python-envs.defaultEnvManager": "ms-python.python:conda",
   "python-envs.defaultPackageManager": "ms-python.python:conda",
