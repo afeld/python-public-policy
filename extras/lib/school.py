@@ -40,7 +40,7 @@ class SchoolText:
     attendance_url: str
     course_search: str
     ai_offerings: str
-    words: List[str]
+    prefixes: List[str]
 
 
 SCHOOLS = [
@@ -68,8 +68,8 @@ SCHOOLS = [
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
-        registration="https://bulletin.columbia.edu/sipa/registration/",
-        cross_registration="https://bulletin.columbia.edu/sipa/registration/#crossregistrationtext",
+        registration="https://www.sipa.columbia.edu/sipa-education/bulletin/registration",
+        cross_registration="https://www.sipa.columbia.edu/sipa-education/bulletin/registration#how-to-cross-register",
         auditing="https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq",
         r_credit="https://www.registrar.columbia.edu/content/grade-options#auditing",
         assignment_cutoff_name="`Until` date",
@@ -79,12 +79,13 @@ SCHOOLS = [
         attendance_url="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance",
         course_search="https://vergil.columbia.edu/",
         ai_offerings="https://www.cuit.columbia.edu/content/ai-services",
-        words=[
+        prefixes=[
             "canvaslms",
             "colab",
             "columbia",
             "courseworks",
             "daqa",
+            "dsp",
             "python for public policy",
             "reader",
             "sipa",
@@ -126,7 +127,7 @@ SCHOOLS = [
         attendance_url="https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data",
         course_search="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/course-search.html",
         ai_offerings="https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/generative-ai-services.html",
-        words=[
+        prefixes=[
             "bonus",
             "brightspace",
             "conda",
@@ -149,7 +150,7 @@ SCHOOLS = [
 ]
 SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 
-# text that contains / is adjacent to words above, which are allowed for both schools
+# text that contains / is adjacent to prefixes above, which are allowed for both schools
 EXEMPT = [
     ".zoom.us/rec",
     "- [google colab](https://colab.research.google.com/)",

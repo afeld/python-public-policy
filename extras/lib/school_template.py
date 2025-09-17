@@ -1,3 +1,4 @@
+import re
 import dataclasses
 from urllib.parse import urlencode
 from jinja2 import Environment, StrictUndefined
@@ -57,9 +58,9 @@ def check_line(line: str, line_num: int, this_school: SchoolText):
         other_school for other_school in SCHOOLS if other_school.id != this_school.id
     ]
     for other_school in other_schools:
-        for word in other_school.words:
-            msg = f'"{word}" found, line {line_num}:\n\n{line}\n'
-            assert word not in lower_line, msg
+        for prefix in other_school.prefixes:
+            msg = f'"{prefix}" found, line {line_num}:\n\n{line}\n'
+            assert re.search(rf"\b{prefix}", line, re.IGNORECASE) is None, msg
 
     # site check
     if COURSE_HOSTNAME in line:
@@ -107,7 +108,7 @@ class SchoolTemplate(Preprocessor):
 
         return super().preprocess(nb, resources)
 
-    def preprocess_cell(self, cell: NotebookNode, resources, cell_index):
+    def preprocess_cell(self, cell: NotebookNode, resources, index):
         if not self.school_id:
             raise RuntimeError(f"{type(self).__name__}.school_id must be set")
 
