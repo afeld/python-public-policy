@@ -156,6 +156,7 @@ EXEMPT = [
     "- [google colab](https://colab.research.google.com/)",
     "anaconda",
     "autograder",  # matches "grader"
+    "baseurl: ",  # _config.yml
     "built around it",  # referring to Colab
     "columbia's graduate school of architecture",  # bio
     "conda activate",
