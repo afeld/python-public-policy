@@ -11,6 +11,8 @@ exclude_patterns:
 execute:
   execute_notebooks: "off"
 html:
+  # useful since the site's being deployed for each school
+  baseurl: https://python-public-policy.afeld.me/en/columbia/
   use_repository_button: true
   extra_navbar: ""
   home_page_in_navbar: false
