@@ -42,7 +42,7 @@ If you're coming off the wait list or registering for the course after the first
 - We will grant extensions up to the following, whichever comes first:
    - Nine days after the [original due date](syllabus.md#schedule)
    - One week after you were enrolled in the course
-- If we accidentally mark you as late, let the Reader know and we'll get it corrected.
+- If we accidentally mark you as late, let the Reader know and it will be corrected.
 - [The late submission deadline](syllabus.md#schedule) will not be extended.
    - In other words: If you joined the class more than a week after the class starts, you can't turn in Homework 0 late.
 
