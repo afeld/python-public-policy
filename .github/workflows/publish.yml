@@ -18,7 +18,7 @@ jobs:
       run:
         shell: bash -leo pipefail {0}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: ./.github/actions/setup
@@ -78,7 +78,7 @@ jobs:
       - name: Install dependencies
         run: gem install html-proofer
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/download-artifact@v5
         with:
           name: ${{ matrix.school }}
