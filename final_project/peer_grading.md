@@ -2,7 +2,7 @@
 
 Your Final Project will be reviewed and graded by three of your peers, and you will grade three others'. These will be anonymous. [Scoring details.](../syllabus.md#final-project)
 
-If you disagree with the grade, you can appeal by [emailing the instructor and {{assistant_name}}](../syllabus.md#instructor-information). This comes with a risk: this new grade will be the one that's used, even if it's lower.
+If you disagree with the grade, you can appeal by [emailing the instructor{% if id == "columbia" %} and {{assistant_name}}{% endif %}](../syllabus.md#instructor-information). This comes with a risk: this new grade will be the one that's used, even if it's lower.
 
 ## How to review
 

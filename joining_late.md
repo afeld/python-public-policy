@@ -39,14 +39,14 @@ If you're coming off the wait list or registering for the course after the first
 - Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussions]({{discussions_url}}), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
-   - [Email the {{assistant_name}}](syllabus.md#instructor-information) if there's a mistake.
+   - [Email the {% if id == "columbia" %}{{assistant_name}}{% else %}instructor{% endif %}](syllabus.md#instructor-information) if there's a mistake.
 
 ## Extensions
 
 - We will grant extensions up to the following, whichever comes first:
    - Nine days after the [original due date](syllabus.md#schedule)
    - One week after you were enrolled in the course
-- If we accidentally mark you as late, let the {{assistant_name}} know and we'll get it corrected.
+- If we accidentally mark you as late, let the {% if id == "columbia" %}{{assistant_name}}{% else %}instructor{% endif %} know and it will be corrected.
 - [The late submission deadline](syllabus.md#schedule) will not be extended.
    - In other words: If you joined the class more than a week after the class starts, you can't turn in Homework 0 late.
 

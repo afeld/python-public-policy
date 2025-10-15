@@ -23,7 +23,7 @@ If the proposal shows effort and follows the format below, full credit will be g
 - If you're using multiple datasets: **What columns are you going to merge/join them on?**
 - **What's your hypothesis?**
 
-Feel free to include any questions/concerns/uncertainties that the {{assistant_name}} can help with.
+Feel free to include any questions/concerns/uncertainties that the {% if id == "columbia" %}{{assistant_name}}{% else %}instructor{% endif %} can help with.
 
 ## Tips
 
