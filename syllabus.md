@@ -58,10 +58,8 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Tuesdays 3/18-5/6
-  - Section 1: 4:55-6:35pm
-  - Section 2: 6:45-8:25pm
-- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 117
+- **Class Meeting Times:** Wednesdays, 10/22-12/10, 6:45-8:25pm
+- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 115
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -71,10 +69,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** Zixin Guan, zg2622@nyu.edu
-- **Office Hours:**
-  - Mondays 5-6pm, virtual, no appointment necessary - see Google Calendar invite
-  - Other times by appointment; email the instructor
+- **Office Hours:** By appointment; email the instructor
 
 {% endif -%}
 
@@ -90,12 +85,6 @@ Class will be split between:
   - Play with the code from lectures
   - Start on the homework
   - Ask questions
-
-{% if id == "nyu" -%}
-
-This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
-
-{% endif -%}
 
 ## Homework
 
@@ -138,18 +127,18 @@ By the end of the course, students will know:
 
 {% else -%}
 
-| Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ---- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| 3/18 | [Intro to coding][l0]                  | none                                                       |                                                                    |
-| 3/25 | none (Spring Break)                    | none                                                       | none                                                               |
-| 4/1  | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
-| 4/8  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| 4/15 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| 4/22 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| 4/29 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| 5/6  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| 5/9  | none                                   | none                                                       | [Final Project][final]                                             |
-| 5/13 | none                                   | [Final Project peer grading][final-peer]                   |                                                                    |
+| Date  | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ----- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| 10/22 | [Intro to coding][l0]                  | none                                                       |                                                                    |
+| 10/29 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
+| 11/5  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| 11/12 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| 11/19 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| 11/26 | none (Thanksgiving)                    | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | none                                                               |
+| 12/10 | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| 12/13 | none                                   | none                                                       | [Final Project][final]                                             |
+| 12/17 | Final exam                             | [Final Project peer grading][final-peer]                   |                                                                    |
 
 {% endif -%}
 

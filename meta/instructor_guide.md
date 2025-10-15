@@ -76,7 +76,7 @@ To ensure that notebooks have the correct execution order and output, run them n
 - Set up Zoom recording
 <!-- - Put out power strips -->
 {% else %}
-- [Set placeholders](https://settings-spring.rcnyu.org/)
+- [Set placeholders](https://settings-fall.rcnyu.org/)
 {% endif -%}
 
 ## Data sets

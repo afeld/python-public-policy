@@ -68,7 +68,7 @@ You'll create your own notebook{% if id == "nyu" %}, using `Python [conda env:py
    - API keys
    - Personally-identifiable information (PII)
 {% if id == "columbia" -%}
-1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and {{assistant_name}}](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
+1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor{% if id == "columbia" %} and {{assistant_name}}{% endif %}](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
 1. Paste your notebook URL in the {{lms_name}} Assignment.
@@ -96,7 +96,7 @@ Note [the Final Project submission](final_project.md#submission) is slightly dif
 ### Notes
 
 {% if id == "nyu" -%}
-- You can ignore {{submission_tool_name}} saying "Large file hidden". The {{assistant_name}} can download the notebook to view.
+- You can ignore {{submission_tool_name}} saying "Large file hidden". The file can be downloaded when grading.
 - [Resubmissions](syllabus.md#resubmission) are done the same way.
 {%- endif %}
 - In-class exercises will not be submitted/graded.
