@@ -97,16 +97,6 @@ Many "learn Python" resources will be web development-oriented — they will pro
 
 We use [a cloud-based Jupyter environment ({{coding_env_name}})](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
-{% if id == "nyu" -%}
-After this class, however, you'll no longer have access. To download the files:
-
-1. Open a notebook
-1. In a code cell, run `!tar -czvf ~/python_files.tar.gz ~`
-1. From [the file browser]({{coding_env_origin}}), check the box next to `python_files.tar.gz`, then click `Download`
-1. On your computer, unzip the file.
-   - On Windows, you may need to install [7-Zip](https://www.7-zip.org/) to do so.
-{%- endif %}
-
 A non-exhaustive list of alternatives:
 
 ### Local
@@ -118,9 +108,6 @@ A non-exhaustive list of alternatives:
 
 - [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
 - [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
-{% if id != "columbia" -%}
-- [Google Colab](https://colab.research.google.com/)
-{%- endif %}
 - [Kaggle notebooks](https://www.kaggle.com/code)
 - [Mode Notebooks](https://mode.com/help/articles/notebook)
 

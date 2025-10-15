@@ -36,7 +36,7 @@ If sticking with PDFs, they can be exported from {{coding_env_name}}:
 
 [nbconvert]: https://nbconvert.readthedocs.io/
 [fidelity]: https://github.com/jupyterlab/jupyterlab/issues/12113
-[fragile]: ../instructor_guide.md#jupyterhub-troubleshooting
+[fragile]: https://web.archive.org/web/20251015160329/https://python-public-policy.afeld.me/en/nyu/meta/instructor_guide.html#jupyterhub-troubleshooting
 
 ## Decision
 

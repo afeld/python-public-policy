@@ -98,13 +98,12 @@ class SchoolTemplate(Preprocessor):
     school_id = Unicode().tag(config=True)
 
     def preprocess(self, nb, resources):
-        if self.school_id == "columbia":
-            # use default kernel for Colab
-            nb.metadata.kernelspec = {
-                "display_name": "Python 3",
-                "language": "python",
-                "name": "python3",
-            }
+        # use default kernel for Colab
+        nb.metadata.kernelspec = {
+            "display_name": "Python 3",
+            "language": "python",
+            "name": "python3",
+        }
 
         return super().preprocess(nb, resources)
 

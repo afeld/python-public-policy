@@ -81,7 +81,6 @@ SCHOOLS = [
         ai_offerings="https://www.cuit.columbia.edu/content/ai-services",
         prefixes=[
             "canvaslms",
-            "colab",
             "columbia",
             "courseworks",
             "daqa",
@@ -110,9 +109,9 @@ SCHOOLS = [
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=477758",
         grading_docs="https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M",
         grading_extension_docs="https://guides.gradescope.com/hc/en-us/articles/22251762857997-Extending-assignment-release-dates-due-dates-and-time-limits",
-        coding_env_name="JupyterHub",
-        coding_env_origin="https://padmgp-4506-fall.rcnyu.org",
-        coding_env_kernel_name="kernel",
+        coding_env_name="Google Colab",
+        coding_env_origin="https://colab.research.google.com",
+        coding_env_kernel_name="runtime",
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
@@ -134,7 +133,6 @@ SCHOOLS = [
             # "conversation",  # Brightspace term, TODO
             "grader",
             "gradescope",
-            "jupyterhub",
             "nyu",
             "padm",
             "peermark",
@@ -153,7 +151,6 @@ SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 # text that contains / is adjacent to prefixes above, which are allowed for both schools
 EXEMPT = [
     ".zoom.us/rec",
-    "- [google colab](https://colab.research.google.com/)",
     "anaconda",
     "autograder",  # matches "grader"
     "baseurl: ",  # _config.yml
@@ -167,7 +164,6 @@ EXEMPT = [
     "gradescope_utils",  # matches "gradescope"
     "hannahkates/nyu-python-public-policy",
     "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
-    "jupyterhub_url",
     "name: install conda packages",  # CI
     "nbgrader",
     "nyu's quantitative analysis guide",
@@ -176,8 +172,5 @@ EXEMPT = [
     "set up the reader",
     "speedgrader",  # matches "grader"
     "strict channel priority",  # conda
-    "these instructions won't work in colab",
-    "upload the notebook to [google colab]",
-    "upload the python file to google colab",
     "walk the reader",
 ]
