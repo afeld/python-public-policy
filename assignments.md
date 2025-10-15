@@ -25,7 +25,7 @@ You'll create your own notebook, using `Python [conda env:python-public-policy]`
 - **Ask for help.**
    - The assignments are meant to be challenging, not impossible.
    - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
-      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123)
+      - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240)
       - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
 ### Coding in general
@@ -40,9 +40,9 @@ You'll create your own notebook, using `Python [conda env:python-public-policy]`
 
 ### Jupyter / JupyterHub
 
-- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
+- **All lecture slides and homework templates can be found under [`python-public-policy/`](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).** The contents of this directory will be automatically updated from [the GitHub repository](https://github.com/afeld/python-public-policy/tree/nyu), but should keep any changes you make.
    - FYI that this uses [nbgitpuller](https://nbgitpuller.readthedocs.io/) under the hood.
-- **Access [JupyterHub](https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
+- **Access [JupyterHub](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu) via the links on this site** rather than bookmarking JupyterHub, as that will pull down the latest changes.
 - Keep each cell to only a few lines of code.
    - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
@@ -68,23 +68,23 @@ You'll create your own notebook, using `Python [conda env:python-public-policy]`
       1. `Executable Script`
          - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
 1. Submit.
-   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/432695), go to `Content`.
+   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/477758), go to `Content`.
       - Note that this is _not_ the `Assignments` tab of Brightspace.
-   1. [Go to Gradescope.](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11563092)
+   1. [Go to Gradescope.](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241)
    1. [Upload both the `.ipynb` and `.py` files to the Assignment.](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)
 
 Note [the Final Project submission](final_project.md#submission) is slightly different.
 
 ### Notes
 
-- You can ignore Gradescope saying "Large file hidden". The grader can download the notebook to view.
+- You can ignore Gradescope saying "Large file hidden". The file can be downloaded when grading.
 - [Resubmissions](syllabus.md#resubmission) are done the same way.
 - In-class exercises will not be submitted/graded.
 
 ## Common issues
 
 - **`Error: Command '['git', 'diff', '..origin/nyu', '--name-status']' returned non-zero exit status 128` when trying to launch JupyterHub:** Something got corrupted in your copy of the files that come through [`nbgitpuller`](https://nbgitpuller.readthedocs.io/). Easiest thing is to move the existing ones and restart with a fresh copy.
-   1. [Launch JupyterHub.](https://padmgp-4506-spring.rcnyu.org)
+   1. [Launch JupyterHub.](https://padmgp-4506-fall.rcnyu.org)
    1. There should be a `python-public-policy` folder. Rename it, something like `python-public-policy-old`.
       - If you've edited any of the template notebooks, you can find them in that `-old` folder.
    1. Repeat the [getting started](#getting-started) steps.
@@ -110,7 +110,7 @@ Note [the Final Project submission](final_project.md#submission) is slightly dif
 If you get an error of `Disk is full` / `No space left on device` / `Out of diskspace`: You've used all the [available disk space](assignments/open_ended.md#limits). If you do fill it up, your server may not be able to start again (`spawn failed`). You'll need to delete one or more large files that you don't need anymore:
 
 1. If you server is started already (you're seeing notebooks), click `Control Panel` -> `Stop My Server`.
-1. Go to [start your server again](https://padmgp-4506-spring.rcnyu.org).
+1. Go to [start your server again](https://padmgp-4506-fall.rcnyu.org).
 1. Select `Troubleshooting Only - Clear Disk`.
 1. Look at the `File size` Jupyter shows in the file browser.
 1. Delete one or more large files.
@@ -120,7 +120,7 @@ If you get an error of `Disk is full` / `No space left on device` / `Out of disk
 
 This error can happen if you tried to output a lot of data in tables/charts. Steps to resolve:
 
-1. Open the [JupyterHub](https://padmgp-4506-spring.rcnyu.org)) file browser
+1. Open the [JupyterHub](https://padmgp-4506-fall.rcnyu.org)) file browser
 1. Click `New`, then `Terminal`
 1. Run the following, changing the [path](https://www.codecademy.com/resources/docs/general/file-paths) at the end to match whatever notebook needs to be repaired:
 
@@ -144,4 +144,4 @@ The kernel is [the place where Python is installed and the code is actually exec
    - Make sure you aren't loading data sets you don't need.
    - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
    
-   - Close kernels you aren't using from the [Running](https://padmgp-4506-spring.rcnyu.org/user-redirect/tree#running) page.
+   - Close kernels you aren't using from the [Running](https://padmgp-4506-fall.rcnyu.org/user-redirect/tree#running) page.

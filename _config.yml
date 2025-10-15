@@ -27,7 +27,7 @@ repository:
   branch: "nyu"
 launch_buttons:
   binderhub_url: ""
-  jupyterhub_url: https://padmgp-4506-spring.rcnyu.org
+  jupyterhub_url: https://padmgp-4506-fall.rcnyu.org
   
 parse:
   # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html

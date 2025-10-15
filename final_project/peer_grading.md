@@ -2,11 +2,11 @@
 
 Your Final Project will be reviewed and graded by three of your peers, and you will grade three others'. These will be anonymous. [Scoring details.](../syllabus.md#final-project)
 
-If you disagree with the grade, you can appeal by [emailing the instructor and grader](../syllabus.md#instructor-information). This comes with a risk: this new grade will be the one that's used, even if it's lower.
+If you disagree with the grade, you can appeal by [emailing the instructor](../syllabus.md#instructor-information). This comes with a risk: this new grade will be the one that's used, even if it's lower.
 
 ## How to review
 
-1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/432695).
+1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/477758).
 1. Go to `Content`, then `Final Project`. You should see an embedded TurnItIn/PeerMark dashboard.
 1. Follow [these instructions to review](https://guides.turnitin.com/hc/en-us/articles/23974126126093-Writing-a-peer-review).
    - Some students have reported issues when using Safari. If you're unable to access, try a different browser.

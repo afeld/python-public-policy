@@ -2,7 +2,7 @@
 
 # Syllabus
 
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python Coding for Public Policy - Spring 2025</p>
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python Coding for Public Policy - Fall 2025</p>
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/nyu/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -20,10 +20,8 @@
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/nyu/](https://python-public-policy.afeld.me/en/nyu/)
-- **Class Meeting Times:** Tuesdays 3/18-5/6
-  - Section 1: 4:55-6:35pm
-  - Section 2: 6:45-8:25pm
-- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 117
+- **Class Meeting Times:** Wednesdays, 10/22-12/10, 6:45-8:25pm
+- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 115
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -33,10 +31,7 @@
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
-- **Grader:** Zixin Guan, zg2622@nyu.edu
-- **Office Hours:**
-  - Mondays 5-6pm, virtual, no appointment necessary - see Google Calendar invite
-  - Other times by appointment; email the instructor
+- **Office Hours:** By appointment; email the instructor
 
 ## Description
 
@@ -50,8 +45,6 @@ Class will be split between:
   - Play with the code from lectures
   - Start on the homework
   - Ask questions
-
-This class is a prerequisite for [Advanced Data Analytics and Evidence Building](https://wagner.nyu.edu/education/courses/advanced-data-analytics-and-evidence-building), which builds on the topics covered here.
 
 ## Homework
 
@@ -78,18 +71,18 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ---- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| 3/18 | [Intro to coding][l0]                  | none                                                       |                                                                    |
-| 3/25 | none (Spring Break)                    | none                                                       | none                                                               |
-| 4/1  | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
-| 4/8  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| 4/15 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| 4/22 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| 4/29 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| 5/6  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| 5/9  | none                                   | none                                                       | [Final Project][final]                                             |
-| 5/13 | none                                   | [Final Project peer grading][final-peer]                   |                                                                    |
+| Date  | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
+| ----- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| 10/22 | [Intro to coding][l0]                  | none                                                       |                                                                    |
+| 10/29 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
+| 11/5  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
+| 11/12 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
+| 11/19 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
+| 11/26 | none (Thanksgiving)                    | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | none                                                               |
+| 12/10 | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
+| 12/13 | none                                   | none                                                       | [Final Project][final]                                             |
+| 12/17 | Final exam                             | [Final Project peer grading][final-peer]                   |                                                                    |
 
 [l0]: https://python-public-policy.afeld.me/en/nyu/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/nyu/lecture_1.html
@@ -99,13 +92,13 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/nyu/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/nyu/lecture_6.html
 
-In general, assignments and resubmissions are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11563092).
+In general, assignments and resubmissions are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241).
 
 ## Communications
 
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
@@ -176,9 +169,9 @@ To encourage consistent, deeper thought about the Assignments, relevance to the 
 in either:
 
 - Office hours
-- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123)
+- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=432695) to make sure you see conversations that come through
+  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=477758) to make sure you see conversations that come through
 - Email
 
 A student's overall Between-Class Participation score is calculated based on some form of participation every week. The following don't count:

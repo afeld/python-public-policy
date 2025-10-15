@@ -72,7 +72,7 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
    1. `HTML`
       - You may need to [allow popups](https://support.google.com/chrome/answer/95472).
 1. Submit.
-   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/432695), go to `Content`.
+   1. In [Brightspace](https://brightspace.nyu.edu/d2l/home/477758), go to `Content`.
       - Note that this is _not_ the `Assignments` tab of Brightspace.
    1. Click `Final Project`. You should see the TurnItIn/PeerMark dashboard.
    1. Follow [these instructions](https://guides.turnitin.com/hc/en-us/articles/21851026380813-Submitting-to-a-Feedback-Studio-assignment-using-D2L-LTI-1-3) to upload the `.html` file as-is.
@@ -85,7 +85,7 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 
 ### Confirming you meet the requirements
 
-The instructor and grader don't have bandwidth to review everyone's full notebooks. Therefore, to be fair to everyone, we will deny any requests to have notebooks reviewed end to end, aside from [appeals to the peer grade](final_project/peer_grading.md). In other words, please don't ask us "I think I'm done — can you make sure my Final Project is ok?" That said, we are more than happy to answer specific questions and help troubleshoot specific sections.
+The instructor doesn't have bandwidth to review everyone's full notebooks. Therefore, to be fair to everyone, any requests to have notebooks reviewed end to end will be denied — aside from [appeals to the peer grade](final_project/peer_grading.md). In other words, please don't ask "I think I'm done — can you make sure my Final Project is ok?" That said, more than happy to answer specific questions and help troubleshoot specific sections.
 
 To confirm you meet [the requirements](#analysis-requirements) prior to submitting, you can:
 

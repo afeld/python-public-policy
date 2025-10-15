@@ -13,11 +13,11 @@ chapters:
     sections:
       - file: brackets
         title: Brackets
-  - url: "https://brightspace.nyu.edu/d2l/home/432695"
+  - url: "https://brightspace.nyu.edu/d2l/home/477758"
     title: "Brightspace"
-  - url: "https://brightspace.nyu.edu/d2l/le/lessons/432695/topics/11040123"
+  - url: "https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240"
     title: Ed Discussions
-  - url: "https://padmgp-4506-spring.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu"
+  - url: "https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu"
     title: "JupyterHub"
   - file: lectures
     sections:

@@ -26,14 +26,14 @@ assignees: afeld
   - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
   - [ ] Update bookmarks
   - [ ] Update links in repo
-  - [ ] [Add student IDs](https://settings-spring.rcnyu.org/)
+  - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
   - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages imported directly in notebooks" and "supporting packages" are needed
   - [ ] Confirm it works
     - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2)
     - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture_3.html)
 - [ ] New Brightspace site
   - [ ] Update bookmark
-  - [ ] [Request Ed Discussions](https://support.nyu.edu/esc?id=kb_article&table=kb_knowledge&sys_id=695ab043c3cfd694d0e1b2fc05013193&recordUrl=%2Fkb_view.do%3Fsys_kb_id%3D695ab043c3cfd694d0e1b2fc05013193)
+  - [ ] [Request Ed Discussions](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
     - [ ] Copy settings
     - [ ] Send welcome Announcement
     - [ ] Set up Megathread for Final Project proposals
