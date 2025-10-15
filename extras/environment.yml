@@ -16,10 +16,10 @@ dependencies:
 
   ## packages imported directly in notebooks ##
   # match version in Colab returned by `!python --version`
-  - python=3.12.11
-  # match versions in Colab returned by `!pip list`
+  - python=3.12.12
+  # match versions in Colab returned by `!pip list` for packages where the interface may change
   # required for pandas' read_html()
-  - html5lib=1.1
+  - html5lib
   - lxml
   - pandas=2.2.2
   # Using v6 (newer than Colab) to avoid the need for the plugin in the base environment. Using (unreleased) v6.0.1 to avoid a bug in the HTML export.
@@ -29,6 +29,7 @@ dependencies:
   # https://github.com/statsmodels/statsmodels/releases/tag/v0.14.5
   - statsmodels>=0.14.5
   - scipy
+
   ## supporting packages for notebooks ##
   # makes kernel available in JupyterHub
   - ipykernel
