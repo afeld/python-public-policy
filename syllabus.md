@@ -134,8 +134,8 @@ By the end of the course, students will know:
 | 11/5  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
 | 11/12 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
 | 11/19 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| 11/26 | none (Thanksgiving)                    | none                                                       | none                                                               |
-| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 11/26 | none (Thanksgiving)                    | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
+| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | none                                                               |
 | 12/10 | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
 | 12/13 | none                                   | none                                                       | [Final Project][final]                                             |
 | 12/17 | Final exam                             | [Final Project peer grading][final-peer]                   |                                                                    |
