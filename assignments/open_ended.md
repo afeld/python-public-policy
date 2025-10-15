@@ -65,15 +65,15 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 
 ## Storing data
 
-To work with uploaded files in {{coding_env_name}}, you have two options.
+To work with uploaded files in Google Colab, you have two options.
 
 ### Direct upload
 
 _Fewer steps, but your file(s) will disappear when your session ends._
 
-<img src="../extras/img/colab_upload_direct.png" height=261 alt="Steps to get data into {{coding_env_name}} directly"/>
+<img src="../extras/img/colab_upload_direct.png" height=261 alt="Steps to get data into Google Colab directly"/>
 
-1. In the {{coding_env_name}} sidebar, click the `Files` icon (A).
+1. In the Google Colab sidebar, click the `Files` icon (A).
 1. Click the upload button (B).
 1. Select your file.
 1. You'll use `read_csv("MY_FILENAME.csv")` in your code.
@@ -82,13 +82,13 @@ _Fewer steps, but your file(s) will disappear when your session ends._
 
 _More steps, but your file(s) are preserved between sessions._
 
-![Steps to get data into {{coding_env_name}} via Drive](../extras/img/colab_upload_drive.png)
+![Steps to get data into Google Colab via Drive](../extras/img/colab_upload_drive.png)
 
 1. Upload the file(s) somewhere in [Drive](https://drive.google.com/drive/my-drive).
-1. In the {{coding_env_name}} sidebar, click the `Files` icon (A).
+1. In the Google Colab sidebar, click the `Files` icon (A).
 1. Click the `Mount Drive` icon (B).
    - You may need to run the code it injects to authorize it (C).
-   - Think of this as attaching your Drive to your {{coding_env_name}} instance, as if you were plugging in a USB flash drive.
+   - Think of this as attaching your Drive to your Google Colab instance, as if you were plugging in a USB flash drive.
 1. Navigate to the file (D).
    - You may need to click into `content`, then `drive`.
 1. Next to the filename, click the three dots.
@@ -96,7 +96,7 @@ _More steps, but your file(s) are preserved between sessions._
    - The value should be something like `/content/drive/My Drive/...`.
 1. Use this path with `read_csv()` (F).
 
-{{coding_env_name}} cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
+Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
 ## Reducing data size
 

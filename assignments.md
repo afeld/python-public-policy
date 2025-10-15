@@ -11,7 +11,7 @@ To edit/execute a Homework/lecture notebook:
 1. Open the page for the Homework/Lecture on this site.
    - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
-1. You should now see the notebook in {{coding_env_name}}.
+1. You should now see the notebook in Google Colab.
 1. Make sure you're using your school Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
 1. Click `Copy to Drive`.
 
@@ -40,7 +40,7 @@ You'll create your own notebook.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within your file(s), there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
 
-### Jupyter / {{coding_env_name}}
+### Jupyter / Google Colab
 
 - Keep each cell to only a few lines of code.
    - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
@@ -62,7 +62,7 @@ You'll create your own notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
 1. Paste your notebook URL in the {{lms_name}} Assignment.
 
-Engaging with comments left in {{coding_env_name}} is more than welcome.
+Engaging with comments left in Google Colab is more than welcome.
 
 ### Notes
 
@@ -82,7 +82,7 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
       - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
    - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
-- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `{{coding_env_kernel_name.title()}}` menu then `Restart Kernel`.
+- **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Runtime` menu then `Restart Kernel`.
 - **In a visualization, the values are out of order along the axis, or you're seeing vertical/zig-zag-y lines:** Make sure that:
    - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
    - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
@@ -94,9 +94,9 @@ Engaging with comments left in {{coding_env_name}} is more than welcome.
    plotly.io.json.config.default_engine = 'json'
    ```
 
-### {{coding_env_kernel_name|title}} and memory issues
+### Runtime and memory issues
 
-The {{coding_env_kernel_name}} is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere. If your {{coding_env_kernel_name}} is repeatedly crashing, you're probably running out of memory.
+The runtime is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere. If your runtime is repeatedly crashing, you're probably running out of memory.
 
 - Make sure you aren't loading data you don't need.
 - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)

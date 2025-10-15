@@ -24,7 +24,7 @@ If you're not officially [registered](registration.md) for the course but want t
 - Look through the [important links](index.md#important-links), including [past lectures](syllabus.md#schedule).
    - [Recording](https://columbiauniversity.zoom.us/rec/play/dBBFt7QTwZTfETvu0_VQzqT_pt6K0-4PvrRJF0fDUVH8yKoIHP9WOCl8hGRSyIu3HEiKxPQ2woCwDQ-I.OGynUNH57slJqZki) of [Lecture 0](lecture_0.ipynb)
    - You won't be able to access [{{submission_tool_name}}]({{submission_tool_url}}) or the [Ed Discussion]({{discussions_url}}).
-- [Complete the Assignment(s) in {{coding_env_name}} as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
+- [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
 ## Once you join
 

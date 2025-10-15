@@ -27,7 +27,7 @@ Students are currently [directed to export PDFs and submit via {{lms_name}}](../
 
 ### PDF export
 
-If sticking with PDFs, they can be exported from {{coding_env_name}}:
+If sticking with PDFs, they can be exported from Google Colab:
 
 | Option                                   | Pros                        | Cons                                                                                                       |
 | ---------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------- |

@@ -139,9 +139,9 @@ The following should be true for each Assignment:
 - Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13).
   - Filter the students to your particular section in the top right.
 {% endif -%}
-- You can leave comments on particular cells through the {{coding_env_name}} interface.
+- You can leave comments on particular cells through the Google Colab interface.
 - If points are deducted, explicitly state what the deductions are for.
-- If you're having trouble accessing the notebook in {{coding_env_name}}, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
+- If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 - [Scoring {% if id == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
 - You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
 When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
@@ -222,7 +222,7 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 To compute the [attendance](../syllabus.md#attendance) score:
 
 1. [Export the Roll Call attendance data.](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#export_attendance_data)
-1. Copy [the script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/attendance.py) into {{coding_env_name}}.
+1. Copy [the script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/attendance.py) into Google Colab.
 1. Adjust the constants at the top as necessary.
 1. Run the code.
 {%- endif %}

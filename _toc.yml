@@ -19,8 +19,8 @@ chapters:
     title: "{{lms_name}}"
   - url: "{{discussions_url}}"
     title: Ed Discussion
-  - url: "{{coding_env_url}}"
-    title: "{{coding_env_name}}"
+  - url: https://colab.research.google.com
+    title: Google Colab
   - file: lectures
     sections:
       - file: lecture_0
