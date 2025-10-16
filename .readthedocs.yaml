@@ -1,10 +1,12 @@
 # https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#id2
 version: 2
 
+python:
+  install:
+    - requirements: requirements.txt
+
 build:
   os: ubuntu-lts-latest
-  tools:
-    python: mambaforge-latest
   jobs:
     # https://jupyterbook.org/en/stable/publish/readthedocs.html
     pre_build:
@@ -15,6 +17,3 @@ build:
 sphinx:
   # https://about.readthedocs.com/blog/2024/12/deprecate-config-files-without-sphinx-or-mkdocs-config/
   configuration: conf.py
-
-conda:
-  environment: extras/docs/environment.yml

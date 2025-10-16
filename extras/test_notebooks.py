@@ -25,7 +25,7 @@ def check_metadata(notebook, file, expected_kernel):
         )
 
 
-def check_file(file, expected_kernel="Python [conda env:python-public-policy]"):
+def check_file(file, expected_kernel="Python 3 (ipykernel)"):
     notebook = read_notebook(file)
     check_metadata(notebook, file, expected_kernel)
 

@@ -4,10 +4,10 @@ name: Set up build environment
 runs:
   using: composite
   steps:
-    - name: Install Conda packages
-      uses: mamba-org/setup-micromamba@v2
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
-        environment-file: extras/environment.yml
-        init-shell: bash
-        cache-downloads: true
-        cache-environment: true
+        cache: pip
+    - run: pip install -r requirements.txt
+      # https://stackoverflow.com/a/71042698/358804
+      shell: bash
