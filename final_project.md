@@ -81,7 +81,7 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 ### Notes
 
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
-- Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions{% if id == "nyu" %} or resubmissions{% endif %}**.
+- Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions**.
 - Hold off on responding to comments on your notebook before you get your Project grade.
 
 ### Confirming you meet the requirements

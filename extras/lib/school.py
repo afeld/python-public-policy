@@ -131,7 +131,6 @@ SCHOOLS = [
             "regrad",
             "re-grad",
             "re-submi",
-            "resubmi",
             "turnitin",
             "wagner",
         ],

@@ -68,7 +68,6 @@ Engaging with comments left in Google Colab is more than welcome.
 
 {% if id == "nyu" -%}
 - You can ignore {{submission_tool_name}} saying "Large file hidden". The file can be downloaded when grading.
-- [Resubmissions](syllabus.md#resubmission) are done the same way.
 {%- endif %}
 - In-class exercises will not be submitted/graded.
 

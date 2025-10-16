@@ -41,12 +41,9 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
   - 20 minutes into the lecture, please put the sheet away. Students who arrive after that are considered absent.
   - Please hold onto a copy/photo of the attendance sheets, in case we need to reference the signatures later.
   {%- endif %}
-- Grading assignment submissions{% if id == "nyu" %} and resubmissions{% endif %} and releasing grades for your section
+- Grading assignment submissions and releasing grades for your section
   {% if id == "columbia" -%}
   - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
-  {% else -%}
-  - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
-  - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
   {%- endif %}
 
 ### [Between-class participation](../syllabus.md#participation) tracking
@@ -150,9 +147,6 @@ When grading, points should only be deducted based on [these criteria](../syllab
 - [How to give extensions]({{grading_extension_docs}})
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
   - Set the {{assignment_cutoff_name}} to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
-  {%- if id == "nyu" %}
-  - Don't give extensions on the resubmission deadline unless authorized by the instructor.
-  {%- endif %}
 - Solutions folder will be shared with you from Google Drive
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
 {%- if id == "nyu" %}

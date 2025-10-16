@@ -127,18 +127,18 @@ By the end of the course, students will know:
 
 {% else -%}
 
-| Date  | Lecture                                | Homework due                                               | [Late](#assignment-scoring)/[resubmission](#resubmission) deadline |
-| ----- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| 10/22 | [Intro to coding][l0]                  | none                                                       |                                                                    |
-| 10/29 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                                    |
-| 11/5  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                                  |
-| 11/12 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                                  |
-| 11/19 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                                  |
-| 11/26 | none (Thanksgiving)                    | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop]         |
-| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | none                                                               |
-| 12/10 | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                                  |
-| 12/13 | none                                   | none                                                       | [Final Project][final]                                             |
-| 12/17 | Final exam                             | [Final Project peer grading][final-peer]                   |                                                                    |
+| Date  | Lecture                                | Homework due                                               | [Late deadline](#assignment-scoring)                       |
+| ----- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 10/22 | [Intro to coding][l0]                  | none                                                       |                                                            |
+| 10/29 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                            |
+| 11/5  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 11/12 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 11/19 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 11/26 | none (Thanksgiving)                    | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | none                                                       |
+| 12/10 | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 12/13 | none                                   | none                                                       | [Final Project][final]                                     |
+| 12/17 | Final exam                             | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% endif -%}
 
@@ -150,7 +150,7 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/{{school_slug}}/lecture_6.html
 
-In general, assignments{% if id == "nyu" %} and resubmissions{% endif %} are due at the time class starts. These will all be reflected in the Assignments in [{{submission_tool_name}}]({{submission_tool_url}}).
+In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [{{submission_tool_name}}]({{submission_tool_url}}).
 
 ## Communications
 
@@ -208,16 +208,9 @@ The Final Project score will be the [median](https://docs.python.org/3/library/s
 - **Minimal feedback:** -10 points
 - **Not reviewed:** -20 points
 
-{% if id == "nyu" %}
-
-#### Resubmission
-
-For submissions that showed effort and were on time, the assignment can be resubmitted to improve the score, up to full credit. This will be due before the next class — see the [schedule](#schedule) — and can be resubmitted through {{submission_tool_name}}.
-{% endif %}
-
 #### Extensions
 
-Requests for extensions will only be considered if made via email before the deadline, up to [the late submission cutoff shown above](#schedule). Late submission deadlines will only be extended if there is accomodation requested through the school.{% if id == "nyu" %} Resubmission deadlines will not be extended.{% endif %}
+Requests for extensions will only be considered if made via email before the deadline, up to [the late submission cutoff shown above](#schedule). Late submission deadlines will only be extended if there is accomodation requested through the school.
 
 ### Participation
 
