@@ -25,9 +25,15 @@ format:
 site:
 	jupyter-book build --all -W -n --keep-going .
 
+setup:
+	python -m venv .venv
+	. .venv/bin/activate && \
+	pip install -r requirements.txt
+
 update_packages:
-	# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment
-	mamba env update --file extras/environment.yml --prune
+	. .venv/bin/activate && \
+	pip install --upgrade pip && \
+	pip install --upgrade -r requirements.txt
 
 	./extras/scripts/update_lectures.sh
 

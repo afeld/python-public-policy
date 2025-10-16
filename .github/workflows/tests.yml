@@ -11,16 +11,11 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
 
-  # https://docs.github.com/en/actions/using-workflows/reusing-workflows
-
   pytest:
     runs-on: ubuntu-latest
-    # https://github.com/mamba-org/setup-micromamba?tab=readme-ov-file#about-login-shells
-    defaults:
-      run:
-        shell: bash -leo pipefail {0}
     steps:
       - uses: actions/checkout@v5
+      # https://docs.github.com/en/actions/using-workflows/reusing-workflows
       - uses: ./.github/actions/setup
       - name: Run tests
         run: make test
