@@ -2,6 +2,7 @@ __pycache__/
 _build/
 .ipynb_checkpoints/
 .nbgrader.log
+.venv/
 *.csv
 *.slides.html
 * threads.json
