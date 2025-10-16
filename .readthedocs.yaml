@@ -7,6 +7,8 @@ python:
 
 build:
   os: ubuntu-lts-latest
+  tools:
+    python: "3"
   jobs:
     # https://jupyterbook.org/en/stable/publish/readthedocs.html
     pre_build:
