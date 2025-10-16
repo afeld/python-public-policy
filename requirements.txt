@@ -1,0 +1,46 @@
+## local development ##
+notebook==7.*
+ruff
+gradescope_utils
+
+# extensions
+jupyter-resource-usage
+
+## packages imported directly in notebooks ##
+# .python-version should match version in Colab returned by `!python --version`. # Below, match versions in Colab returned by `!pip list` for packages where the interface may change.
+# required for pandas' read_html()
+html5lib
+lxml
+pandas==2.2.2
+# Using v6 (newer than Colab) to avoid the need for the plugin in the base environment. Using (unreleased) v6.0.1 to avoid a bug in the HTML export.
+# https://github.com/plotly/plotly.js/blob/master/CHANGELOG.md#301----2025-02-18
+plotly>=6.0.1
+requests==2.32.4
+# https://github.com/statsmodels/statsmodels/releases/tag/v0.14.5
+statsmodels>=0.14.5
+scipy
+
+## supporting packages for notebooks ##
+ipykernel
+# https://plotly.com/python/static-image-export/
+kaleido
+# required for plotly rendering
+# https://github.com/plotly/plotly.py/blob/v6.0.0/packages/python/plotly/plotly/io/_renderers.py#L426
+nbformat>=4.2.0
+# needed for plotly
+# https://plotly.com/python/getting-started/#jupyterlab-support
+anywidget
+isoduration
+narwhals
+
+## CI ##
+jinja2
+# https://github.com/jupyter/nbconvert/pull/2196
+nbconvert>=7.16.6
+nbdime
+pytest
+
+# this needs to stay in sync with docs/environment.yml
+jupyter-book==1.0.4.post1
+# https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
+sphinx>=6.2.0

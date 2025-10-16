@@ -31,10 +31,6 @@ jobs:
           - brackets.ipynb
           - curve.ipynb
           - extras/pandas_crash_course.ipynb
-    # https://github.com/mamba-org/setup-micromamba?tab=readme-ov-file#about-login-shells
-    defaults:
-      run:
-        shell: bash -leo pipefail {0}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/setup

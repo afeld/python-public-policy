@@ -120,7 +120,6 @@ SCHOOLS = [
         prefixes=[
             "bonus",
             "brightspace",
-            "conda",
             # "conversation",  # Brightspace term, TODO
             "grader",
             "gradescope",
@@ -141,25 +140,19 @@ SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 # text that contains / is adjacent to prefixes above, which are allowed for both schools
 EXEMPT = [
     ".zoom.us/rec",
-    "anaconda",
     "autograder",  # matches "grader"
     "baseurl: ",  # _config.yml
     "built around it",  # referring to Colab
     "columbia's graduate school of architecture",  # bio
-    "conda activate",
-    "conda config",
     "create the environment",
     "dictreader",
     "for row in reader",
     "gradescope_utils",  # matches "gradescope"
     "hannahkates/nyu-python-public-policy",
     "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
-    "name: install conda packages",  # CI
     "nyu's quantitative analysis guide",
     "python coding for public policy assignments",
-    "secondary",  # matches "conda"
     "set up the reader",
     "speedgrader",  # matches "grader"
-    "strict channel priority",  # conda
     "walk the reader",
 ]

@@ -98,19 +98,13 @@ _Advanced_
 
 Note these instructions won't work in Colab.
 
-1. Install [Mamba](https://mamba.readthedocs.io/en/latest/index.html).
+1. Install Python.
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) [the repository](https://github.com/afeld/python-public-policy/tree/columbia).
 1. Check out the `columbia` branch.
-1. [Create the environment.](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) From this directory, run:
+1. Install the packages.
 
    ```sh
-   mamba env create --file extras/environment.yml
-   ```
-
-1. Activate the environment:
-
-   ```sh
-   conda activate python-public-policy
+   make setup
    ```
 
 1. Start the Jupyter server:
