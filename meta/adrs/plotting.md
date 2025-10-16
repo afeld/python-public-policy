@@ -25,7 +25,7 @@ Non-exhaustive list.
 | **[pandas native][pandas]**                | Less code; fewer packages; more native                                                                        | Requires changes throughout the materials; learning curve for me; static isn't as cool as interactive |
 | **[seaborn](https://seaborn.pydata.org/)** | More powerful charts take less code than pandas                                                               | Learning curve for me; static isn't as cool as interactive                                            |
 
-[problems]: ../instructor_guide.md#jupyterhub-troubleshooting
+[problems]: https://web.archive.org/web/20251015160329/https://python-public-policy.afeld.me/en/nyu/meta/instructor_guide.html#jupyterhub-troubleshooting
 [static]: https://plotly.com/python/renderers/#static-image-renderers
 [pandas]: https://pandas.pydata.org/docs/getting_started/intro_tutorials/04_plotting.html
 

@@ -31,7 +31,6 @@ dependencies:
   - scipy
 
   ## supporting packages for notebooks ##
-  # makes kernel available in JupyterHub
   - ipykernel
   - unzip
   - wget
@@ -45,14 +44,6 @@ dependencies:
   - anywidget
   - isoduration
   - narwhals
-  # for AI magic in JupyterHub
-  # - pip
-  # - pip:
-  #     # https://python.langchain.com/docs/versions/v0_3/#1-do-not-use-the-langchain_corepydantic_v1-namespace
-  #     - langchain-core==0.2.*
-  #     - langchain-openai
-  #     # path/filename may need to be adjusted
-  #     # - ../../rit_jupyter_ai_magics-2.21.0-py3-none-any.whl
 
   ## CI ##
   - jinja2

@@ -27,7 +27,7 @@ Students are currently [directed to export PDFs and submit via Brightspace](../.
 
 ### PDF export
 
-If sticking with PDFs, they can be exported from JupyterHub:
+If sticking with PDFs, they can be exported from Google Colab:
 
 | Option                                   | Pros                        | Cons                                                                                                       |
 | ---------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -36,7 +36,7 @@ If sticking with PDFs, they can be exported from JupyterHub:
 
 [nbconvert]: https://nbconvert.readthedocs.io/
 [fidelity]: https://github.com/jupyterlab/jupyterlab/issues/12113
-[fragile]: ../instructor_guide.md#jupyterhub-troubleshooting
+[fragile]: https://web.archive.org/web/20251015160329/https://python-public-policy.afeld.me/en/nyu/meta/instructor_guide.html#jupyterhub-troubleshooting
 
 ## Decision
 

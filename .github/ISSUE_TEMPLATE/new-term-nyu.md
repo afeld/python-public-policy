@@ -11,6 +11,7 @@ assignees: afeld
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] Links to Brightspace site
+  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#adding-updating-packages) to match Colab
 - [ ] Submit syllabus to Wagner
   - [ ] [Download as PDF](https://python-public-policy.afeld.me/en/nyu/syllabus.html)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
@@ -22,15 +23,9 @@ assignees: afeld
   - [ ] [Add to Brightspace as a Teaching Assistant](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018960&sys_kb_id=e78f37561b3e6050191ca8233a4bcb2a&spa=1)
   - [ ] Set up check-in
   - [ ] Share solutions folder from Drive
-- [ ] JupyterHub
-  - [ ] [Request environment](https://sites.google.com/nyu.edu/nyu-hpc/training-support/resources-for-classes/jupyterhub/jupyterhub-intake-form)
-  - [ ] Update bookmarks
-  - [ ] Update links in repo
-  - [ ] [Add student IDs](https://settings-fall.rcnyu.org/)
-  - [ ] [Create conda environment](https://python-public-policy.afeld.me/en/nyu/resources.html#matching-the-class-environment) - only "packages imported directly in notebooks" and "supporting packages" are needed
-  - [ ] Confirm it works
-    - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2)
-    - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture_3.html)
+- [ ] Confirm Colab works
+  - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2)
+  - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture_3.html)
 - [ ] New Brightspace site
   - [ ] Update bookmark
   - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)

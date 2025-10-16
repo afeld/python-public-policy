@@ -29,9 +29,8 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - [Recording attendance](https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data) based on the sign-in sheets
   - [Attendance policy](../syllabus.md#attendance)
   
-- Grading assignment submissions and resubmissions and releasing grades for your section
-  - Feel free to grade things as they come in, in the order received, to give those students more time for resubmission
-  - Please try and be done with grading of an assignment within four days after it's due (so they have time for resubmission)
+- Grading assignment submissions and releasing grades for your section
+  
 
 ### [Between-class participation](../syllabus.md#participation) tracking
 
@@ -67,7 +66,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 
 ## Assignments
 
-
+It's recommended that you [create a GMail filter](https://support.google.com/mail/answer/6579) for something like `from:google.com subject:"shared with you" ("colab notebooks" OR homework)` to `Skip Inbox` so that you aren't notified every time a student shares a notebook with you.
 
 ### Checks
 
@@ -93,6 +92,9 @@ The following should be true for each Assignment:
 
 [Official docs](https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M)
 
+- You can leave comments on particular cells through the Google Colab interface.
+- If points are deducted, explicitly state what the deductions are for.
+- If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 - [Scoring and regrade rules](../syllabus.md#assignment-scoring)
 - You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
 When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
@@ -101,7 +103,6 @@ When grading, points should only be deducted based on [these criteria](../syllab
 - [How to give extensions](https://guides.gradescope.com/hc/en-us/articles/22251762857997-Extending-assignment-release-dates-due-dates-and-time-limits)
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
   - Set the `Late Due Date` to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
-  - Don't give extensions on the resubmission deadline unless authorized by the instructor.
 - Solutions folder will be shared with you from Google Drive
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
 - Per Gradescope support, "Unfortunately, there isn't a way right now to assign "0" scores to all students without submissions on Gradescope. For now, the workaround would be to upload a blank/fake submission for each of the students who didn't submit anything for the assignment on Gradescope and grade those submissions with a 0 score for all questions, so that the students have a 0 on Gradescope." [Feature request.](https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/119-instructors-can-give-students-without-submissions-0-scores-on-gradescope)

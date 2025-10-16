@@ -70,15 +70,7 @@ Many "learn Python" resources will be web development-oriented — they will pro
 
 ## Jupyter outside this course
 
-We use [a cloud-based Jupyter environment (JupyterHub)](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
-
-After this class, however, you'll no longer have access. To download the files:
-
-1. Open a notebook
-1. In a code cell, run `!tar -czvf ~/python_files.tar.gz ~`
-1. From [the file browser](https://padmgp-4506-fall.rcnyu.org), check the box next to `python_files.tar.gz`, then click `Download`
-1. On your computer, unzip the file.
-   - On Windows, you may need to install [7-Zip](https://www.7-zip.org/) to do so.
+We use [a cloud-based Jupyter environment (Google Colab)](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
 A non-exhaustive list of alternatives:
 
@@ -91,7 +83,6 @@ A non-exhaustive list of alternatives:
 
 - [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
 - [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
-- [Google Colab](https://colab.research.google.com/)
 - [Kaggle notebooks](https://www.kaggle.com/code)
 - [Mode Notebooks](https://mode.com/help/articles/notebook)
 

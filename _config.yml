@@ -26,9 +26,7 @@ repository:
   url: https://github.com/afeld/python-public-policy
   branch: "nyu"
 launch_buttons:
-  binderhub_url: ""
-  jupyterhub_url: https://padmgp-4506-fall.rcnyu.org
-  
+  colab_url: https://colab.research.google.com
 parse:
   # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
   myst_enable_extensions:

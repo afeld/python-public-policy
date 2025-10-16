@@ -9,10 +9,7 @@ The goal of the Final Project is to **prove or disprove a hypothesis using skill
 ## Once you start
 
 - [General assignment information](assignments.md)
-- Create a new notebook to do the actual analysis; that is what you'll [turn in](#submission). To create, click:
-  1. `File`
-  1. `New notebook`
-  1. `Python [conda env:python-public-policy]`
+- Create a new notebook to do the actual analysis; that is what you'll [turn in](#submission).
 - Go back and find any information that's available _around_ the data, to get a better understanding of what it contains and means.
   - Might include a data dictionary
   - Might involve poking around a government agency's web site to understand their processes
@@ -80,8 +77,8 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 ### Notes
 
 - **DO NOT WAIT UNTIL THE LAST MINUTE TO [SUBMIT](assignments.md#submission).** Leave yourself time to fix any [issues that come up](assignments.md#common-issues) in doing so, computer crashing, etc.
-- Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions or resubmissions**.
-
+- Because it's the end of the course and [your peers are doing the reviews](final_project/peer_grading.md), **there will be no extensions**.
+- Hold off on responding to comments on your notebook before you get your Project grade.
 
 ### Confirming you meet the requirements
 
@@ -92,7 +89,12 @@ To confirm you meet [the requirements](#analysis-requirements) prior to submitti
 - Take a pass through your own notebook, pretending you are grading someone else
 - Ask someone else in the class to do so
 
+### Sharing
 
+Make sure the notebook will be visible to other students for peer grading:
+
+1. [Open the Sharing settings.](https://research.google.com/colaboratory/faq.html#notebook-storage)
+1. Under `General access`, change to `LionMail` (or `Anyone with the link`), then `Viewer`.
 
 ## Peer grading
 

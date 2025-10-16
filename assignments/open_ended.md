@@ -58,16 +58,38 @@ Probably not realistic to make visualizations that are as fancy as these ones ma
 
 ## Storing data
 
-1. Open the [JupyterHub file browser](https://padmgp-4506-fall.rcnyu.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fafeld%2Fpython-public-policy&urlpath=tree%2Fpython-public-policy%2F&branch=nyu).
-1. Navigate to the folder your notebook is in.
-1. [Upload the data.](https://tljh.jupyter.org/en/latest/howto/content/add-data.html#adding-data-from-your-local-machine)
-1. From Python, use `read_csv("./<filename>.csv")`.
+To work with uploaded files in Google Colab, you have two options.
 
-Note that that file path should be to relative to the notebook within JupyterHub — `./` means "in the same directory". JupyterHub cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
+### Direct upload
 
-## Limits
+_Fewer steps, but your file(s) will disappear when your session ends._
 
-JupyterHub has a disk storage limit of 1GB (a.k.a. 1,024 MB or 1,048,576 KB) across all your files, and a memory limit of 3GB.
+<img src="../extras/img/colab_upload_direct.png" height=261 alt="Steps to get data into Google Colab directly"/>
+
+1. In the Google Colab sidebar, click the `Files` icon (A).
+1. Click the upload button (B).
+1. Select your file.
+1. You'll use `read_csv("MY_FILENAME.csv")` in your code.
+
+### Google Drive
+
+_More steps, but your file(s) are preserved between sessions._
+
+![Steps to get data into Google Colab via Drive](../extras/img/colab_upload_drive.png)
+
+1. Upload the file(s) somewhere in [Drive](https://drive.google.com/drive/my-drive).
+1. In the Google Colab sidebar, click the `Files` icon (A).
+1. Click the `Mount Drive` icon (B).
+   - You may need to run the code it injects to authorize it (C).
+   - Think of this as attaching your Drive to your Google Colab instance, as if you were plugging in a USB flash drive.
+1. Navigate to the file (D).
+   - You may need to click into `content`, then `drive`.
+1. Next to the filename, click the three dots.
+1. Click `Copy path` (E).
+   - The value should be something like `/content/drive/My Drive/...`.
+1. Use this path with `read_csv()` (F).
+
+Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
 ## Reducing data size
 
