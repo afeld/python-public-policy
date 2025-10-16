@@ -33,7 +33,7 @@ assignees: afeld
     - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture_3.html)
 - [ ] New Brightspace site
   - [ ] Update bookmark
-  - [ ] [Request Ed Discussions](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
+  - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
     - [ ] Copy settings
     - [ ] Send welcome Announcement
     - [ ] Set up Megathread for Final Project proposals

@@ -98,7 +98,7 @@ In general, assignments and resubmissions are due at the time class starts. Thes
 
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
@@ -169,9 +169,8 @@ To encourage consistent, deeper thought about the Assignments, relevance to the 
 in either:
 
 - Office hours
-- [Ed Discussions](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240)
-  - When starting a new Conversation, please use a descriptive Title to make them easier to navigate
-  - Suggest checking your [notifications settings](https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=477758) to make sure you see conversations that come through
+- [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240)
+  - When starting a new Conversation, please use a descriptive Title to make them easier to navigate.
 - Email
 
 A student's overall Between-Class Participation score is calculated based on some form of participation every week. The following don't count:
