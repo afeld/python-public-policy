@@ -1,6 +1,5 @@
 import re
 import dataclasses
-from urllib.parse import urlencode
 from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
@@ -16,30 +15,9 @@ env = Environment(
 )
 
 
-def nbgitpuller_url(origin: str):
-    """https://nbgitpuller.readthedocs.io/en/latest/topic/url-options.html"""
-
-    query = urlencode(
-        {
-            "repo": "https://github.com/afeld/python-public-policy",
-            "urlpath": "tree/python-public-policy/",
-            "branch": "nyu",
-        }
-    )
-    return f"{origin}/hub/user-redirect/git-pull?{query}"
-
-
 def get_vars(school_id: str):
     school_text = SCHOOL_TEXT[school_id]
-    local_vars = dataclasses.asdict(school_text)
-
-    origin = local_vars["coding_env_origin"]
-    if school_id == "nyu":
-        local_vars["coding_env_url"] = nbgitpuller_url(origin)
-    else:
-        local_vars["coding_env_url"] = origin
-
-    return local_vars
+    return dataclasses.asdict(school_text)
 
 
 def render_template(source: str, school_id: str):
@@ -98,13 +76,12 @@ class SchoolTemplate(Preprocessor):
     school_id = Unicode().tag(config=True)
 
     def preprocess(self, nb, resources):
-        if self.school_id == "columbia":
-            # use default kernel for Colab
-            nb.metadata.kernelspec = {
-                "display_name": "Python 3",
-                "language": "python",
-                "name": "python3",
-            }
+        # use default kernel for Colab
+        nb.metadata.kernelspec = {
+            "display_name": "Python 3",
+            "language": "python",
+            "name": "python3",
+        }
 
         return super().preprocess(nb, resources)
 

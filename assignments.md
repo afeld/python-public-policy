@@ -11,10 +11,10 @@ To edit/execute a Homework/lecture notebook:
 1. Open the page for the Homework/Lecture on this site.
    - For example: [Homework 0](hw_0.ipynb)
 1. Click the launch button (🚀) at the top.
-   
 1. You should now see the notebook in Google Colab.
-1. Make sure you're using your Columbia Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
+1. Make sure you're using your school Google account. [How to switch.](https://support.google.com/accounts/answer/1721977)
 1. Click `Copy to Drive`.
+
 That is now your own copy; make edits in there directly.
 
 ### [Open-ended assignments](assignments/open_ended.md)
@@ -47,12 +47,12 @@ You'll create your own notebook.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
 - Make notebooks [idempotent](https://en.wikipedia.org/wiki/Idempotence)
    - Makes your work reproducible.
-   - Use `Restart and run all` (⏩ button in toolbar).
+   - Use `Restart session and run all` (⏩ button in toolbar).
 
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
-   - This is a good time to run the notebook end-to-end with `Restart and run all`.
+   - This is a good time to run the notebook end-to-end with `Restart session and run all`.
    - See [general scoring criteria](syllabus.md#assignment-scoring).
 1. Ensure the notebook doesn't contain any sensitive information. (Only really applicable to [open-ended assignments](assignments/open_ended.md).)
    - API keys
@@ -63,7 +63,6 @@ You'll create your own notebook.
 1. Paste your notebook URL in the CourseWorks Assignment.
 
 Engaging with comments left in Google Colab is more than welcome.
-
 
 ### Notes
 
@@ -84,7 +83,7 @@ Engaging with comments left in Google Colab is more than welcome.
 - **In a visualization, the values are out of order along the axis, or you're seeing vertical/zig-zag-y lines:** Make sure that:
    - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
    - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
-- **`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:** Add the following cell before your other Plotly code, then `Restart and run all`.
+- **`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:** Add the following cell before your other Plotly code, then `Restart session and run all`.
 
    ```python
    import plotly.io
@@ -92,14 +91,9 @@ Engaging with comments left in Google Colab is more than welcome.
    plotly.io.json.config.default_engine = 'json'
    ```
 
-
-
 ### Runtime and memory issues
 
-The runtime is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere.
+The runtime is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere. If your runtime is repeatedly crashing, you're probably running out of memory.
 
-
-- If your runtime is repeatedly crashing, you're probably running out of memory.
-   - Make sure you aren't loading data sets you don't need.
-   - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
-   
+- Make sure you aren't loading data you don't need.
+- If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)

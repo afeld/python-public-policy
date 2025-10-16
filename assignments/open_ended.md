@@ -93,8 +93,6 @@ _More steps, but your file(s) are preserved between sessions._
 
 Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
-
-
 ## Reducing data size
 
 You can make data smaller _before_ uploading by filtering it through:

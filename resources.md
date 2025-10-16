@@ -78,8 +78,6 @@ Many "learn Python" resources will be web development-oriented — they will pro
 
 We use [a cloud-based Jupyter environment (Google Colab)](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
 
-
-
 A non-exhaustive list of alternatives:
 
 ### Local
@@ -91,7 +89,6 @@ A non-exhaustive list of alternatives:
 
 - [Anaconda Notebooks](https://www.anaconda.com/products/notebooks)
 - [Google Cloud Vertex AI Notebooks](https://cloud.google.com/vertex-ai-notebooks)
-
 - [Kaggle notebooks](https://www.kaggle.com/code)
 - [Mode Notebooks](https://mode.com/help/articles/notebook)
 

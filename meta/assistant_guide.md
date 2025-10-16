@@ -33,7 +33,6 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
   - Please hold onto a copy/photo of the attendance sheets, in case we need to reference the signatures later.
 - Grading assignment submissions and releasing grades for your section
   - Recommend waiting until the submission deadline to start grading, to avoid issues with students who may have been intending to continue working on it
-  
 
 ### [Between-class participation](../syllabus.md#participation) tracking
 
@@ -106,8 +105,8 @@ The following should be true for each Assignment:
 
 - Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13).
   - Filter the students to your particular section in the top right.
-  - You can leave comments on particular cells through the Colab interface.
-  - If points are deducted, explicitly state what the deductions are for.
+- You can leave comments on particular cells through the Google Colab interface.
+- If points are deducted, explicitly state what the deductions are for.
 - If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 - [Scoring rules](../syllabus.md#assignment-scoring)
 - You are checking student submissions against the solutions. That said, student code/output doesn't need to look _exactly_ like what's in the solution, as long as they're doing what's asked for in each Step.
