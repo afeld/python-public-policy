@@ -26,12 +26,7 @@ repository:
   url: https://github.com/afeld/python-public-policy
   branch: "{{school_slug}}"
 launch_buttons:
-  binderhub_url: ""
-  {% if id == "columbia" -%}
   colab_url: https://colab.research.google.com
-  {% else -%}
-  jupyterhub_url: {{coding_env_origin}}
-  {% endif %}
 parse:
   # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
   myst_enable_extensions:

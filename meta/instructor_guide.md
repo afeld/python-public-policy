@@ -12,13 +12,6 @@ _While this is meant as internal documentation for the instructor, others are we
    ```
 
 1. Manually update the [notebooks with interactivity](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/interactive_check.sh)
-{% if id == "nyu" -%}
-1. Update environment in JupyterHub
-
-   ```sh
-   mamba env update --file extras/environment.yml --prune
-   ```
-{% endif -%}
 
 ## Slides
 
@@ -73,10 +66,7 @@ To ensure that notebooks have the correct execution order and output, run them n
 - Set phone and laptop to Do Not Disturb
 - Run lecture notebook
 {% if id == "columbia" -%}
-- Set up Zoom recording
-<!-- - Put out power strips -->
-{% else %}
-- [Set placeholders](https://settings-fall.rcnyu.org/)
+- Put out power strips
 {% endif -%}
 
 ## Data sets
@@ -108,19 +98,6 @@ This only shows students coming off the wait list.
 1. Spot-check the [new cutoffs](../curve.ipynb#new-cutoffs)
 1. Update the [course grading scheme](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enable-a-grading-scheme-for-a-course/ta-p/1042)
 {% else -%}
-## JupyterHub troubleshooting
-
-Most of the issues are around Plotly rendering. Things that have been hit repeatedly:
-
-- [Plotly JupyterLab support](https://plotly.com/python/getting-started/#JupyterLab-Support)
-  - [Needs to be installed on `base` environment as well](https://blog.afeld.me/getting-plotly-to-work-in-hosted-jupyterhub-26692f5ef2be)
-- [orjson attribute error through Plotly](https://github.com/plotly/plotly.py/issues/3567)
-
-### See also
-
-- Comments in [`environment.yml`](https://github.com/afeld/python-public-policy/blob/main/extras/environment.yml)
-- [Student troubleshooting guide](../assignments.md#common-issues)
-
 ## Autograder
 
 Requires [Docker](https://www.docker.com/). Put files in `extras/autograder/submission/`, then run:

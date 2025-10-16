@@ -22,7 +22,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
 - [Ed]({{discussions_url}}), which is used for:
   - Accouncements
   - Discussions
-- [{{coding_env_name}}]({{coding_env_url}}), where work will be completed
+- [Google Colab](https://colab.research.google.com), where work will be completed
 
 ## Why this class?
 
