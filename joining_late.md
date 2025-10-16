@@ -19,7 +19,7 @@ If you're not officially [registered](registration.md) for the course but want t
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including [past lectures](syllabus.md#schedule).
    - [Recording](https://columbiauniversity.zoom.us/rec/play/dBBFt7QTwZTfETvu0_VQzqT_pt6K0-4PvrRJF0fDUVH8yKoIHP9WOCl8hGRSyIu3HEiKxPQ2woCwDQ-I.OGynUNH57slJqZki) of [Lecture 0](lecture_0.ipynb)
-   - You won't be able to access [CourseWorks](https://courseworks2.columbia.edu/courses/210776/assignments) or the [Ed Discussions](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless).
+   - You won't be able to access [CourseWorks](https://courseworks2.columbia.edu/courses/210776/assignments) or the [Ed Discussion](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless).
 - [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
 ## Once you join
@@ -32,7 +32,7 @@ If you're coming off the wait list or registering for the course after the first
 - Within 24 hours after you're registered via SSOL, you should be automatically added to CourseWorks.
    - If you don't have access after that, [email the instructor](syllabus.md#instructor-information).
 
-- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussions](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless), in case there's anything you missed.
+- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussion](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
    - [Email the Reader](syllabus.md#instructor-information) if there's a mistake.
