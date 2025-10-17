@@ -28,7 +28,9 @@ site:
 setup:
 	python -m venv .venv
 	. .venv/bin/activate && \
-	pip install -r requirements.txt
+	pip install \
+		-r requirements.txt \
+		-r extras/autograder/source/requirements.txt
 
 update_packages:
 	. .venv/bin/activate && \

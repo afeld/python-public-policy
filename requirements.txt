@@ -1,7 +1,6 @@
 ## local development ##
 notebook==7.*
 ruff
-gradescope_utils
 
 # extensions
 jupyter-resource-usage
