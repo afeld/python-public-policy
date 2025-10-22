@@ -9,6 +9,7 @@ class SchoolText:
     id: str
     school_name: str
     school_slug: str
+    email: str
     color: str
     course_name: str
     term: str
@@ -45,6 +46,7 @@ SCHOOLS = [
         id="columbia",
         school_name="Columbia University",
         school_slug="columbia",
+        email="alf2215@columbia.edu",
         color="#201D5D",
         course_name="Python for Public Policy",
         term="Spring 2025",
@@ -89,6 +91,7 @@ SCHOOLS = [
         id="nyu",
         school_name="NYU Wagner",
         school_slug="nyu",
+        email="alf9@nyu.edu",
         color="#57058b",
         course_name="Python Coding for Public Policy",
         term="Fall 2025",

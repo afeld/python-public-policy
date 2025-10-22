@@ -44,7 +44,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 ## Instructor Information
 
-- **Professor:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
+- **Professor:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), {{email}}
 - **Readers:**
   - Section 1: Claire Li, ml4981@columbia.edu
   - Section 2: Serena Ye, sy3205@columbia.edu
@@ -68,7 +68,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 ## Instructor Information
 
-- **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), alf9@nyu.edu
+- **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), {{email}}
 - **Office Hours:** By appointment; email the instructor
 
 {% endif -%}
