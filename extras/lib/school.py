@@ -15,7 +15,6 @@ class SchoolText:
     term: str
     lms_name: str
     lms_url: str
-    submission_tool_name: str
     submission_tool_url: str
     discussions_url: str
     survey_url: str
@@ -52,7 +51,6 @@ SCHOOLS = [
         term="Spring 2025",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/210776",
-        submission_tool_name="Gradescope",
         submission_tool_url="https://courseworks2.columbia.edu/courses/210776",
         discussions_url="https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeexomJkVX-9WTMXTYfRYWg3UC3n0_gDVe-qGDDt78aTbBodw/viewform?usp=header",
@@ -97,7 +95,6 @@ SCHOOLS = [
         term="Fall 2025",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/477758",
-        submission_tool_name="Gradescope",
         submission_tool_url="https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241",
         discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSfZI-dMv1-AbZN1bGkfFfrTpWWas6AvIoKoYQuWoNu0uSxefQ/viewform?usp=header",
