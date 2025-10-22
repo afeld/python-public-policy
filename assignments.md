@@ -60,7 +60,7 @@ You'll create your own notebook.
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
-1. Paste your notebook URL in the Brightspace Assignment.
+1. Paste your notebook URL in [the Gradescope Assignment](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241).
 
 Engaging with comments left in Google Colab is more than welcome.
 
