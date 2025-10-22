@@ -33,6 +33,11 @@ assignees: afeld
       - [ ] Replace link
   - [ ] Set up recurring Zoom
   - [ ] Specify Textbooks
+  - [ ] Set up Gradescope — [Columbia](https://ctl.columbia.edu/resources-and-technology/teaching-with-technology/teaching-online/gradescope/) and [official](https://guides.gradescope.com/hc/en-us/sections/21589089531021-Using-Gradescope-with-Canvas-for-Instructors) docs
+    - [ ] Duplicate from last semester
+    - [ ] Adjust dates
+    - [ ] Link from CourseWorks
+    - [ ] Link Assignments
   - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#student-enrollment-activity)
 - [ ] Print [attendance sheets](https://docs.google.com/spreadsheets/d/12QzoGhaGdlgui0CWPjSFLCR2ew45sx6dEEb7j04mt5Q/edit?gid=0#gid=0)
   - [ ] In print menu, include date as custom header

@@ -60,15 +60,13 @@ You'll create your own notebook.
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor{% if id == "columbia" %} and {{assistant_name}}{% endif %}](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
-1. Paste your notebook URL in the {{lms_name}} Assignment.
+1. Paste your notebook URL in [the {{submission_tool_name}} Assignment]({{submission_tool_url}}).
 
 Engaging with comments left in Google Colab is more than welcome.
 
 ### Notes
 
-{% if id == "nyu" -%}
 - You can ignore {{submission_tool_name}} saying "Large file hidden". The file can be downloaded when grading.
-{%- endif %}
 - In-class exercises will not be submitted/graded.
 
 ## Common issues
