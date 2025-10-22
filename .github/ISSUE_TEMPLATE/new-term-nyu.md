@@ -36,9 +36,11 @@ assignees: afeld
   - [ ] Import
   - [ ] Simplify name
   - [ ] Create recurring Zoom
-  - [ ] Set up Gradescope
-    - [NYU docs](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0012077)
-    - [Official docs](https://guides.gradescope.com/hc/en-us/articles/23587619649805-Using-Gradescope-LTI-1-3-with-Brightspace-D2L-as-an-Instructor)
+  - [ ] Set up Gradescope — [NYU](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0012077) and [official](https://guides.gradescope.com/hc/en-us/articles/23587619649805-Using-Gradescope-LTI-1-3-with-Brightspace-D2L-as-an-Instructor) docs
+    - [ ] Duplicate from last semester
+    - [ ] Adjust dates
+    - [ ] Link from Brightspace
+    - [ ] Link Assignments
   - [ ] Change Assignment dates and publish them
   - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus.html#schedule)
   - [ ] [Set up PeerMark for Final Project](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018477&sys_kb_id=f89fbe521b6f9c10a575997fbd4bcb80&spa=1)

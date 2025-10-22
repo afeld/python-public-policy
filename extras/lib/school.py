@@ -15,7 +15,6 @@ class SchoolText:
     term: str
     lms_name: str
     lms_url: str
-    submission_tool_name: str
     submission_tool_url: str
     discussions_url: str
     survey_url: str
@@ -23,7 +22,6 @@ class SchoolText:
     lms_profile_pic_url: str
     lms_notification_settings_url: str
     grading_docs: str
-    grading_extension_docs: str
     assistant_name: str
     assistant_responsibilities: str
     wait_list: str
@@ -52,15 +50,13 @@ SCHOOLS = [
         term="Spring 2025",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/210776",
-        submission_tool_name="CourseWorks",
-        submission_tool_url="https://courseworks2.columbia.edu/courses/210776/assignments",
+        submission_tool_url="https://courseworks2.columbia.edu/courses/210776",
         discussions_url="https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeexomJkVX-9WTMXTYfRYWg3UC3n0_gDVe-qGDDt78aTbBodw/viewform?usp=header",
         name_tool_url="https://courseworks2.columbia.edu/courses/183594/pages/you-at-columbia-a-step-by-step-tutorial",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
         grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
-        grading_extension_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only",
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
@@ -97,7 +93,6 @@ SCHOOLS = [
         term="Fall 2025",
         lms_name="Brightspace",
         lms_url="https://brightspace.nyu.edu/d2l/home/477758",
-        submission_tool_name="Gradescope",
         submission_tool_url="https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241",
         discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSfZI-dMv1-AbZN1bGkfFfrTpWWas6AvIoKoYQuWoNu0uSxefQ/viewform?usp=header",
@@ -105,7 +100,6 @@ SCHOOLS = [
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=477758",
         grading_docs="https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M",
-        grading_extension_docs="https://guides.gradescope.com/hc/en-us/articles/22251762857997-Extending-assignment-release-dates-due-dates-and-time-limits",
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
@@ -125,7 +119,6 @@ SCHOOLS = [
             "brightspace",
             # "conversation",  # Brightspace term, TODO
             "grader",
-            "gradescope",
             "nyu",
             "padm",
             "peermark",
@@ -150,7 +143,6 @@ EXEMPT = [
     "create the environment",
     "dictreader",
     "for row in reader",
-    "gradescope_utils",  # matches "gradescope"
     "hannahkates/nyu-python-public-policy",
     "https://community.canvaslms.com/t5/canvas-basics-guide/what-are-grading-schemes/ta-p/41",
     "nyu's quantitative analysis guide",

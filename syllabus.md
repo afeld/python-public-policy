@@ -101,7 +101,7 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/columbia/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/columbia/lecture_6.html
 
-In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [CourseWorks](https://courseworks2.columbia.edu/courses/210776/assignments).
+In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/210776).
 
 ## Communications
 

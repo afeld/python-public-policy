@@ -44,10 +44,10 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - Every student should have each week marked one way or the other.
 - The instructor will mark participation for students that came to office hours.
 - Each week is represented as an Assignment.
-  - Easiest to do this through the Grades interface, rather than SpeedGrader
-  - Every cell for previous weeks should be filled in
-  - Mark each student that participated as Complete
-  - Mark those who didn't as Incomplete
+  - Easiest to do this through the Grades interface, rather than SpeedGrader.
+  - Every cell for previous weeks should be filled in.
+  - Mark each student that participated as Complete.
+  - Mark those who didn't as Incomplete.
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 
@@ -101,10 +101,8 @@ The following should be true for each Assignment:
 
 ### Grading
 
-[Official docs](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757)
+[Official docs](https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M)
 
-- Grading is done through [SpeedGrader](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-SpeedGrader/ta-p/13).
-  - Filter the students to your particular section in the top right.
 - You can leave comments on particular cells through the Google Colab interface.
 - If points are deducted, explicitly state what the deductions are for.
 - If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
@@ -113,11 +111,14 @@ The following should be true for each Assignment:
 When grading, points should only be deducted based on [these criteria](../syllabus.md#assignment-scoring). Please leave comments for:
   - Point deductions, explaining what it's being deducted for
   - Feedback like "this could be done better/differently," even if there isn't a corresponding point deduction
-- [How to give extensions](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-assign-an-assignment-to-an-individual-student/ta-p/717#assign_to_student_only)
+- [How to give extensions](https://guides.gradescope.com/hc/en-us/articles/22251762857997-Extending-assignment-release-dates-due-dates-and-time-limits)
   - Grant any request for 1-2 days made before the deadline; escalate others to the instructor.
   - Set the `Until` date to the original [late submission deadline](../syllabus.md#schedule) or the new due date, whichever is later.
 - Solutions folder will be shared with you from Google Drive
   - The students don't need to match the provided solution exactly, as long as they do what the question is asking.
+- Per Gradescope support, "Unfortunately, there isn't a way right now to assign "0" scores to all students without submissions on Gradescope. For now, the workaround would be to upload a blank/fake submission for each of the students who didn't submit anything for the assignment on Gradescope and grade those submissions with a 0 score for all questions, so that the students have a 0 on Gradescope." [Feature request.](https://portal.productboard.com/sz44uvlbbmnviv939g6lvnkd/c/119-instructors-can-give-students-without-submissions-0-scores-on-gradescope)
+- Note that you need to both `Post Grades` and [`Publish Grades`](https://guides.gradescope.com/hc/en-us/articles/22067099093517-Reviewing-Grades#h_01HRFQT3293V5J0QA8D6ZETGVJ).
+- Reader will manually apply [late penalty](../syllabus.md#assignment-scoring)
 
 ### Plagiarism
 

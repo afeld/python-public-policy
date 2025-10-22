@@ -60,13 +60,13 @@ You'll create your own notebook.
 1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
 1. Copy the URL of your notebook.
    - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
-1. Paste your notebook URL in the CourseWorks Assignment.
+1. Paste your notebook URL in [the Gradescope Assignment](https://courseworks2.columbia.edu/courses/210776).
 
 Engaging with comments left in Google Colab is more than welcome.
 
 ### Notes
 
-
+- You can ignore Gradescope saying "Large file hidden". The file can be downloaded when grading.
 - In-class exercises will not be submitted/graded.
 
 ## Common issues
