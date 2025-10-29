@@ -1,11 +1,10 @@
-from glob import glob
 import re
+from glob import glob
 
-from nbformat import NotebookNode
 import pytest
+from nbformat import NotebookNode
 
 from .lib.nb_helper import get_tags, is_code_cell, read_notebook
-
 
 lecture_notebooks = glob("lecture_?.ipynb")
 lecture_notebooks.sort()
@@ -82,8 +81,6 @@ def test_attendance_reminder(file):
 
 @pytest.mark.parametrize("file", lecture_notebooks)
 def test_hidden_imports(file):
-    if file == "lecture_1.ipynb":
-        pytest.skip("Introducing pandas")
     if file == "lecture_3.ipynb":
         pytest.skip("Introducing plotly")
 

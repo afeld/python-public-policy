@@ -31,11 +31,6 @@ diffable "$POST" "$FINAL"
 
 case "$SOURCE" in
 
-  lecture_1.ipynb)
-    # uses sample()
-    exit
-    ;;
-
   lecture_3.ipynb)
     # https://github.com/jupyter/nbdime/issues/473#issuecomment-831682930
     exit
