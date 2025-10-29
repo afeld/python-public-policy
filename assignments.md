@@ -94,6 +94,10 @@ You'll create your own notebook.
 
 The runtime is [the place where Python is installed and the code is actually executing](https://docs.jupyter.org/en/stable/projects/kernels.html#kernels), in the cloud somewhere. If your runtime is repeatedly crashing, you're probably running out of memory.
 
-- [Get more memory through Colab Pro](hw_0.ipynb#one-time-setup), if you haven't already.
+- Get more memory in Colab:
+  1. [Sign up for free Colab Pro](hw_0.ipynb#one-time-setup), if you haven't already.
+  1. In the bottom-right corner, click `Python 3`.
+  1. Click `Change runtime type`.
+  1. Turn `High-RAM` ([Random Access Memory](https://simple.wikipedia.org/wiki/Random-access_memory)) on.
 - Make sure you aren't loading data you don't need.
 - If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
