@@ -24,10 +24,10 @@ There are countless places to get data, notably:
     - [Census Academy](https://www.census.gov/data/academy.html)
     - [ZIP Code Crosswalk](https://www.huduser.gov/portal/datasets/usps_crosswalk.html)
   - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
+  - [HealthData.gov](https://healthdata.gov/)
 - [United Nations](https://data.un.org/)
 - [World Bank](https://data.worldbank.org/)
 - [World Health Organization (WHO)](https://www.who.int/data)
-- [HealthData.gov](https://healthdata.gov/)
 - [The Humanitarian Data Exchange](https://data.humdata.org/)
 - [Economic Policy Institute](https://www.epi.org/data/)
 - [Kaggle](https://www.kaggle.com/datasets)
@@ -35,7 +35,8 @@ There are countless places to get data, notably:
 - [Black Wealth Data](https://blackwealthdata.org/)
 - [DataHub](https://datahub.io/collections)
 - [Gallup Global Datasets](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)
-- Lists of open data portals:
+- [Data Commons](https://datacommons.org/data)
+- Directories of open data portals:
   - [DataPortals](https://dataportals.org/)
   - [Open Data Network](https://www.opendatanetwork.com/)
 
