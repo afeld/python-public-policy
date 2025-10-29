@@ -25,17 +25,17 @@ You'll create your own notebook.
 
 - **Read the instructions carefully.** Like word problems from math class, they are very specific in what they are asking for.
 - **Ask for help.**
-   - The assignments are meant to be challenging, not impossible.
-   - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
-      - [Ed](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless)
-      - [Office hours](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
+  - The assignments are meant to be challenging, not impossible.
+  - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
+    - [Ed](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless)
+    - [Office hours](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
 
 ### Coding in general
 
 - Make variable names descriptive.
-   - Do as I say, not as I do!
+  - Do as I say, not as I do!
 - Only do one thing per line.
-   - Makes troubleshooting easier
+  - Makes troubleshooting easier
 - **Spot check your results.** If you are transforming data from a previous Step, compare the results, do a handful of the calculations manually, etc. to ensure that the results are correct.
 - **[Don't repeat yourself (DRY).](https://dzone.com/articles/is-your-code-dry-or-wet)** If you find yourself copying and pasting code within your file(s), there's probably a better way to do it.
 - **Avoid [hard-coding](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) values.** Don't rely on things like row numbers or column order being stable, in case the dataset were to be updated.
@@ -43,11 +43,11 @@ You'll create your own notebook.
 ### Jupyter / Google Colab
 
 - Keep each cell to only a few lines of code.
-   - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
+  - Allows/encourages you to output intermediate results, ensuring that everything is working as expected.
 - You are always welcome to **add cells**. You probably don't want more than a few lines of code in each. This makes the spot checking of intermediate results easier.
 - Make notebooks [idempotent](https://en.wikipedia.org/wiki/Idempotence)
-   - Makes your work reproducible.
-   - Use `Restart session and run all` (⏩ button in toolbar).
+  - Makes your work reproducible.
+  - Use `Restart session and run all` (⏩ button in toolbar).
 
 ## Submission
 
@@ -57,12 +57,11 @@ You'll create your own notebook.
 1. Ensure the notebook doesn't contain any sensitive information. (Only really applicable to [open-ended assignments](assignments/open_ended.md).)
    - API keys
    - Personally-identifiable information (PII)
-1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor and Reader](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
-1. Copy the URL of your notebook.
-   - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
-1. Paste your notebook URL in [the Gradescope Assignment](https://courseworks2.columbia.edu/courses/210776).
+1. `Download as .ipynb` and `.py` (two files).
 
-Engaging with comments left in Google Colab is more than welcome.
+   ![Click the Colab File menu, Download, then Download as .ipynb and Download as .py](extras/img/download_notebook.png)
+
+1. Upload both files to [the Gradescope Assignment](https://courseworks2.columbia.edu/courses/210776).
 
 ### Notes
 
@@ -73,23 +72,23 @@ Engaging with comments left in Google Colab is more than welcome.
 
 - **Mounting Google Drive is slow or fails:** See [the Google Colab help page](https://research.google.com/colaboratory/faq.html#drive-timeout).
 - **Can't load a file from Drive with `requests.get()`:** Use [`open()`](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
-   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
+  - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 - **When using [`choropleth()`](https://plotly.com/python/choropleth-maps/)/[`choropleth_map()`](https://plotly.com/python/tile-county-choropleth/), nothing appears on the map:** Make sure:
-   - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
-      - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
-   - The column and the GeoJSON properties have values that match
+  - Your `locations` corresponds to the DataFrame column name and `featureidkey` is set to `properties.<property name>` matching the GeoJSON
+    - See [how we found the property name to use](lecture_3.ipynb#geospatial-data)
+  - The column and the GeoJSON properties have values that match
 - **`SettingWithCopyWarning`:** [How to fix](https://www.dataquest.io/blog/settingwithcopywarning/)
 - **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Runtime` menu then `Restart Kernel`.
 - **In a visualization, the values are out of order along the axis, or you're seeing vertical/zig-zag-y lines:** Make sure that:
-   - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
-   - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
+  - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
+  - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
 - **`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:** Add the following cell before your other Plotly code, then `Restart session and run all`.
 
-   ```python
-   import plotly.io
+  ```python
+  import plotly.io
 
-   plotly.io.json.config.default_engine = 'json'
-   ```
+  plotly.io.json.config.default_engine = 'json'
+  ```
 
 ### Runtime and memory issues
 
