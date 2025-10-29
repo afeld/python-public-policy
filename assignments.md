@@ -57,12 +57,11 @@ You'll create your own notebook.
 1. Ensure the notebook doesn't contain any sensitive information. (Only really applicable to [open-ended assignments](assignments/open_ended.md).)
    - API keys
    - Personally-identifiable information (PII)
-1. Confirm that the notebook is [shared](https://research.google.com/colaboratory/faq.html#notebook-storage) with [the instructor{% if id == "columbia" %} and {{assistant_name}}{% endif %}](syllabus.md#instructor-information) with `Commenter` permissions. If it isn't, [share the parent folder](hw_0.ipynb#one-time-setup) and re-confirm.
-1. Copy the URL of your notebook.
-   - The URL should be of the format `https://colab.research.google.com/drive/<long identifier>`. If it's `https://colab.research.google.com/github/...`, click `Copy to Drive`.
-1. Paste your notebook URL in [the Gradescope Assignment]({{submission_tool_url}}).
+1. `Download as .ipynb` and `.py` (two files).
 
-Engaging with comments left in Google Colab is more than welcome.
+   ![Click the Colab File menu, Download, then Download as .ipynb and Download as .py](extras/img/download_notebook.png)
+
+1. Upload both files to [the Gradescope Assignment]({{submission_tool_url}}).
 
 ### Notes
 
