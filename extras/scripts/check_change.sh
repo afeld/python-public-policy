@@ -36,7 +36,7 @@ case "$SOURCE" in
     exit
     ;;
 
-  lecture_4.ipynb|lecture_5.ipynb)
+  hw_2/datasets.ipynb|lecture_4.ipynb|lecture_5.ipynb)
     # calls APIs with data that could change
     exit
     ;;

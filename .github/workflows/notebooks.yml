@@ -11,6 +11,7 @@ jobs:
         notebook:
           - hw_0.ipynb
           - hw_2.ipynb
+          - hw_2/datasets.ipynb
           - hw_3.ipynb
           - lecture_0.ipynb
           - lecture_1.ipynb

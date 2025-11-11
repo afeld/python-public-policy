@@ -62,6 +62,9 @@ chapters:
       - file: hw_0
       - file: hw_1
       - file: hw_2
+        sections:
+          - file: hw_2/datasets
+            title: Datasets
       - file: hw_3
       - file: hw_4
       - file: final_project
