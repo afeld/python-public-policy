@@ -53,15 +53,28 @@ def test_one_h1(file):
     assert num_h1s == 1
 
 
-@pytest.mark.parametrize("file", all_notebooks)
+def get_slide_type(cell) -> str:
+    return cell.metadata.get("slideshow", {}).get("slide_type", "")
+
+
+def has_slides(notebook):
+    return any(get_slide_type(cell) == "slide" for cell in notebook.cells)
+
+
+@pytest.mark.parametrize("file", notebooks)
 def test_heading_levels(file):
     notebook = read_notebook(file)
+
+    if not has_slides(notebook):
+        pytest.skip("No slides")
+
     for cell in notebook.cells:
         meta = cell.metadata
         source = cell.source
-        if is_markdown(cell) and "slideshow" in meta and source.startswith("#"):
-            # slide with a heading
-            slide_type = meta["slideshow"]["slide_type"]
+        if is_markdown(cell) and source.startswith("#"):
+            # it's a heading
+
+            slide_type = get_slide_type(cell)
             if slide_type == "slide":
                 assert source.startswith(("# ", "## ")), "should be an H1 or H2"
             elif slide_type == "subslide":
