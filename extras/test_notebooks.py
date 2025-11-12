@@ -69,7 +69,6 @@ def test_heading_levels(file):
         pytest.skip("No slides")
 
     for cell in notebook.cells:
-        meta = cell.metadata
         source = cell.source
         if is_markdown(cell) and source.startswith("#"):
             # it's a heading
@@ -156,3 +155,36 @@ def test_long_outputs_scrolled(file):
                         assert cell.metadata.get("scrolled"), (
                             f"Long output should be scrollable. Cell:\n\n{cell.source}\n"
                         )
+
+
+@pytest.mark.parametrize("file", notebooks)
+def test_plotly_renderer_configured(file):
+    """If a notebook imports plotly, ensure it sets the correct renderer.
+
+    https://computing-in-context.afeld.me/notebooks.html#jupyter-book"""
+
+    notebook = read_notebook(file)
+
+    is_slideshow = has_slides(notebook)
+    imports_plotly = False
+    has_renderer_config = False
+
+    for cell in notebook.cells:
+        if is_python(cell):
+            source = cell.source
+
+            if "import plotly" in source:
+                imports_plotly = True
+
+            if 'pio.renderers.default = "notebook_connected+plotly_mimetype"' in source:
+                has_renderer_config = True
+
+                if is_slideshow:
+                    assert get_slide_type(cell) == "skip", (
+                        "Renderer config cell should have slide_type 'skip'"
+                    )
+
+    if imports_plotly:
+        assert has_renderer_config, (
+            "Notebook imports plotly but doesn't set `pio.renderers.default = 'notebook_connected+plotly_mimetype'`"
+        )
