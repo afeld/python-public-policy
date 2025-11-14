@@ -6,7 +6,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor and R
 
 ## How to review
 
-1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/210776).
+1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/233960).
 1. Go to Assignments, then `Final Project`.
    - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
    - If you're unable to access the notebooks, try:

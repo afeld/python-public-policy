@@ -4,7 +4,7 @@
 
 # Syllabus
 
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python for Public Policy - Spring 2025</p>
+<p style="font-size: 2rem; font-weight:bold; text-align: center;">Python for Public Policy - Spring 2026</p>
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/columbia/syllabus.html">python-public-policy.afeld.me</a>.</div>
 <style>
@@ -18,16 +18,16 @@
   }
 </style>
 
-This is the syllabus for the Spring editions of the course. [Find information about the Fall editions (SIPA6650IA) in Vergil.](https://vergil.columbia.edu/vergil/search?hc=true&ci=SIPA6650IA)
+This is the syllabus for the Spring editions of the course. [Find information about the Fall editions (SIPA6650IA) in Vergil.](https://vergil.columbia.edu/vergil/course/20261/105959)
 
 ## Course Information
 
-- **Course Number:** [SIPA6650IA](https://vergil.columbia.edu/vergil/search?hc=true&ci=SIPA6650IA), formerly [INAFU6504](https://vergil.columbia.edu/vergil/course/20251/61319)
+- **Course Number:** [SIPA6650IA](https://vergil.columbia.edu/vergil/course/20261/105959), formerly [INAFU6504](https://vergil.columbia.edu/vergil/course/20251/61319)
 - **Course site:** [python-public-policy.afeld.me/en/columbia/](https://python-public-policy.afeld.me/en/columbia/)
-- **Class Meeting Times:** Tuesdays 1/21-3/4
-  - Section 1: 9-10:50am ET
-  - Section 2: 11-12:50pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 404
+- **Class Meeting Times:** Tuesdays 1/20-3/3
+  - Section 1: 10-11:50am ET
+  - Section 2: 1:10-3pm ET
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room TBD
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -37,10 +37,10 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 - **Professor:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), alf2215@columbia.edu
 - **Readers:**
-  - Section 1: Claire Li, ml4981@columbia.edu
-  - Section 2: Serena Ye, sy3205@columbia.edu
+  - Pranav Mehta, pm3313@columbia.edu
+  - Xinran (Sara) Yang, sxy2007@columbia.edu
 - **Office Hours:**
-  - Mondays 4-5pm ET over [Zoom](https://courseworks2.columbia.edu/courses/210776/external_tools/23749), no appointment necessary
+  - TBD, no appointment necessary
   - Other times by appointment; email the instructor
 
 ## Description
@@ -83,15 +83,16 @@ By the end of the course, students will know:
 
 | Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
 | ---- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 1/21 | [Intro to coding][l0]                  | none                                                       |                                                            |
-| 1/28 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                            |
-| 2/4  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 2/11 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 2/18 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 2/25 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 3/4  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 3/7  | none                                   | none                                                       | [Final Project][final]                                     |
-| 3/11 | none                                   | [Final Project peer grading][final-peer]                   |                                                            |
+| 1/20 | [Intro to coding][l0]                  | none                                                       |                                                            |
+| 1/27 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                            |
+| 2/3  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 2/10 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 2/17 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 2/24 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 3/3  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 3/6  | none                                   | none                                                       | [Final Project][final]                                     |
+| 3/9  | Midterm exam                           |                                                            |                                                            |
+| 3/10 | none                                   | [Final Project peer grading][final-peer]                   |                                                            |
 
 [l0]: https://python-public-policy.afeld.me/en/columbia/lecture_0.html
 [l1]: https://python-public-policy.afeld.me/en/columbia/lecture_1.html
@@ -101,13 +102,13 @@ By the end of the course, students will know:
 [l5]: https://python-public-policy.afeld.me/en/columbia/lecture_5.html
 [l6]: https://python-public-policy.afeld.me/en/columbia/lecture_6.html
 
-In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/210776).
+In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/233960).
 
 ## Communications
 
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [Ed Discussion](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussion](https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/Reader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
@@ -172,7 +173,7 @@ To encourage consistent, deeper thought about the Assignments, relevance to the 
 in either:
 
 - Office hours
-- [Ed Discussion](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless)
+- [Ed Discussion](https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate.
 - Email
 

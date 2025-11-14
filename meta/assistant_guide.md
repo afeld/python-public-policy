@@ -51,7 +51,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
 
-### [Discussions](https://courseworks2.columbia.edu/courses/210776/external_tools/37606?display=borderless)
+### [Discussions](https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.
