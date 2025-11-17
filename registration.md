@@ -1,12 +1,11 @@
 # Registration
 
 - [General info](https://wagner.nyu.edu/portal/students/academics/registration)
-- [Registering from other schools](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu/instructions/form)
+- [Registering from other schools.](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu/instructions/form) Alternatives:
   - There are lots of related courses around the University - [search](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/course-search.html) for "python".
     
   - See also: [Resources](resources.md)
-
-If you're waiting to get in, see [what you can do in the meantime](joining_late.md#while-youre-waiting).
+- [Joining late / wait list information](joining_late.md)
 
 ## Auditing
 
