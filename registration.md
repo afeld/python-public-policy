@@ -4,7 +4,7 @@
 - [Registering from other schools.]({{cross_registration}}) Alternatives:
   - There are lots of related courses around the University - [search]({{course_search}}) for "python".
     {% if id == "columbia" -%}
-    - [Computing in Context](index.md#comparison-to-computing-in-context) offers [sections tailored to different disciplines](https://computing-in-context.afeld.me/#course-overview).
+    - [Computing in Context goes more in depth](index.md#comparison-to-computing-in-context) and offers [sections tailored to different disciplines](https://computing-in-context.afeld.me/#course-overview).
     {%- endif %}
   - See also: [Resources](resources.md)
 - [Joining late / wait list information](joining_late.md)

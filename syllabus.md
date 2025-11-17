@@ -46,8 +46,8 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 - **Professor:** [Aidan Feldman](https://www.sipa.columbia.edu/communities-connections/faculty/aidan-feldman), {{email}}
 - **Readers:**
-  - Pranav Mehta, pm3313@columbia.edu
-  - Xinran (Sara) Yang, sxy2007@columbia.edu
+  - Section 1: Pranav Mehta, pm3313@columbia.edu
+  - Section 2: Xinran (Sara) Yang, sxy2007@columbia.edu
 - **Office Hours:**
   - TBD, no appointment necessary
   - Other times by appointment; email the instructor
