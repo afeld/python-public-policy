@@ -7,7 +7,7 @@
     - [Computing in Context](index.md#comparison-to-computing-in-context) offers [sections tailored to different disciplines](https://computing-in-context.afeld.me/#course-overview).
     {%- endif %}
   - See also: [Resources](resources.md)
-- [Wait list information](joining_late.md)
+- [Joining late / wait list information](joining_late.md)
 
 ## Auditing
 
