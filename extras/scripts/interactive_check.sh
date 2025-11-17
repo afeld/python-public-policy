@@ -19,6 +19,11 @@ case "$1" in
     exit 1
     ;;
 
+  "lecture_4_demo_solution.ipynb")
+    # uses live data
+    exit 1
+    ;;
+
   "curve.ipynb")
     # loads data locally
     exit 1
