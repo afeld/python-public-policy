@@ -221,7 +221,7 @@ Anything outside of the provided course materials is considered a "source". This
 - Other students
 - Online resources
 - Books
-- Generative AI (ChatGPT, Copilot, Gemini, etc.)
+- Generative AI (ChatGPT, Claude, Copilot, Gemini, etc.)
 
 #### Other notes
 
