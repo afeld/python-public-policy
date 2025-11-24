@@ -7,14 +7,14 @@ jobs:
     name: Shellcheck
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
 
   pytest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       # https://docs.github.com/en/actions/using-workflows/reusing-workflows
       - uses: ./.github/actions/setup
       - name: Run tests
