@@ -71,26 +71,18 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Date  | Lecture                                | Homework due                                               | [Late deadline](#assignment-scoring)                       |
-| ----- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 10/22 | [Intro to coding][l0]                  | none                                                       |                                                            |
-| 10/29 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                            |
-| 11/5  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 11/12 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 11/19 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 11/26 | none (Thanksgiving)                    | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 12/3  | [APIs][l5]                             | [Homework 4][hw4]                                          | none                                                       |
-| 12/10 | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 12/13 | none                                   | none                                                       | [Final Project][final]                                     |
-| 12/17 | Final exam                             | [Final Project peer grading][final-peer]                   |                                                            |
-
-[l0]: https://python-public-policy.afeld.me/en/nyu/lecture_0.html
-[l1]: https://python-public-policy.afeld.me/en/nyu/lecture_1.html
-[l2]: https://python-public-policy.afeld.me/en/nyu/lecture_2.html
-[l3]: https://python-public-policy.afeld.me/en/nyu/lecture_3.html
-[l4]: https://python-public-policy.afeld.me/en/nyu/lecture_4.html
-[l5]: https://python-public-policy.afeld.me/en/nyu/lecture_5.html
-[l6]: https://python-public-policy.afeld.me/en/nyu/lecture_6.html
+| Date  | Lecture             | Homework due                                               | [Late deadline](#assignment-scoring)                       |
+| ----- | ------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 10/22 | {doc}`lecture_0`    | none                                                       |                                                            |
+| 10/29 | {doc}`lecture_1`    | [Homework 0][hw0]                                          |                                                            |
+| 11/5  | {doc}`lecture_2`    | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 11/12 | {doc}`lecture_3`    | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 11/19 | {doc}`lecture_4`    | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 11/26 | none (Thanksgiving) | none                                                       | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 12/3  | {doc}`lecture_5`    | [Homework 4][hw4]                                          | none                                                       |
+| 12/10 | {doc}`lecture_6`    | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 12/13 | none                | none                                                       | [Final Project][final]                                     |
+| 12/17 | Final exam          | [Final Project peer grading][final-peer]                   |                                                            |
 
 In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241).
 
