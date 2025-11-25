@@ -81,26 +81,18 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Date | Lecture                                | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
-| ---- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 1/20 | [Intro to coding][l0]                  | none                                                       |                                                            |
-| 1/27 | [Working with data][l1]                | [Homework 0][hw0]                                          |                                                            |
-| 2/3  | [Manipulating and combining data][l2]  | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 2/10 | [Data reshaping and visualization][l3] | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 2/17 | [Dates and time series analysis][l4]   | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 2/24 | [APIs][l5]                             | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 3/3  | [The Bigger Picture][l6]               | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 3/6  | none                                   | none                                                       | [Final Project][final]                                     |
-| 3/9  | Midterm exam                           |                                                            |                                                            |
-| 3/10 | none                                   | [Final Project peer grading][final-peer]                   |                                                            |
-
-[l0]: https://python-public-policy.afeld.me/en/columbia/lecture_0.html
-[l1]: https://python-public-policy.afeld.me/en/columbia/lecture_1.html
-[l2]: https://python-public-policy.afeld.me/en/columbia/lecture_2.html
-[l3]: https://python-public-policy.afeld.me/en/columbia/lecture_3.html
-[l4]: https://python-public-policy.afeld.me/en/columbia/lecture_4.html
-[l5]: https://python-public-policy.afeld.me/en/columbia/lecture_5.html
-[l6]: https://python-public-policy.afeld.me/en/columbia/lecture_6.html
+| Date | Lecture          | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
+| ---- | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 1/20 | {doc}`lecture_0` | none                                                       |                                                            |
+| 1/27 | {doc}`lecture_1` | [Homework 0][hw0]                                          |                                                            |
+| 2/3  | {doc}`lecture_2` | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 2/10 | {doc}`lecture_3` | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 2/17 | {doc}`lecture_4` | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 2/24 | {doc}`lecture_5` | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 3/3  | {doc}`lecture_6` | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 3/6  | none             | none                                                       | [Final Project][final]                                     |
+| 3/9  | Midterm exam     |                                                            |                                                            |
+| 3/10 | none             | [Final Project peer grading][final-peer]                   |                                                            |
 
 In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/233960).
 
