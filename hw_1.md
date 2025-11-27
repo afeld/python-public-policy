@@ -49,9 +49,7 @@ Now [turn in the assignment](assignments.md).
 
 - [Learn about data dictionaries](https://analystanswers.com/what-is-a-data-dictionary-a-simple-thorough-overview/)
 - Glance through pandas' [comparison with other tools](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/index.html) for any you are familiar with
-- More on indexing:
-  - [How to Select Rows from Pandas DataFrame](https://datatofish.com/select-rows-pandas-dataframe/)
-  - Selecting Subsets of Data in Pandas: [Part 1](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) and [Part 2](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-39e811c81a0c)
+- Selecting Subsets of Data in Pandas: [Part 1](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) and [Part 2](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-39e811c81a0c)
 
 ## Participation
 
