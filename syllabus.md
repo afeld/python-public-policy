@@ -82,7 +82,7 @@ By the end of the course, students will know:
 | 12/3  | {doc}`lecture_5`    | [Homework 4][hw4]                                          | none                                                       |
 | 12/10 | {doc}`lecture_6`    | [Final Project][final]                                     | [Homework 4][hw4]                                          |
 | 12/13 | none                | none                                                       | [Final Project][final]                                     |
-| 12/17 | Final exam          | [Final Project peer grading][final-peer]                   |                                                            |
+| 12/17 | [Exam][exam]        | [Final Project peer grading][final-peer]                   |                                                            |
 
 In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241).
 
@@ -98,13 +98,14 @@ In general, assignments are due at the time class starts. These will all be refl
 
 The Course Grade is based on the following:
 
-- [Assignments](#assignment-scoring): 64%
-  - [Homework 0][hw0]: 13%
-  - [Homework 1][hw1]: 13%
-  - [Homework 2][hw2]: 13%
-  - [Homework 3][hw3]: 6%
-  - [Final Project proposal][final_prop]: 6%
-  - [Homework 4][hw4]: 13%
+- [Assignments](#assignment-scoring): 50%
+  - [Homework 0][hw0]: 10%
+  - [Homework 1][hw1]: 10%
+  - [Homework 2][hw2]: 10%
+  - [Homework 3][hw3]: 5%
+  - [Final Project proposal][final_prop]: 5%
+  - [Homework 4][hw4]: 10%
+- [Exam][exam]: 14%
 - [Final Project][final]: 20%
 - [Final Project peer grading][final-peer]: 5%
 - [Attendance](#attendance): 6%
@@ -115,6 +116,7 @@ The Course Grade is based on the following:
 [hw2]: https://python-public-policy.afeld.me/en/nyu/hw_2.html
 [hw3]: https://python-public-policy.afeld.me/en/nyu/hw_3.html
 [hw4]: https://python-public-policy.afeld.me/en/nyu/hw_4.html
+[exam]: https://python-public-policy.afeld.me/en/nyu/exam.html
 [final_prop]: https://python-public-policy.afeld.me/en/nyu/final_project/proposal.html
 [final]: https://python-public-policy.afeld.me/en/nyu/final_project.html
 [final-peer]: https://python-public-policy.afeld.me/en/nyu/final_project/peer_grading.html
