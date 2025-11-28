@@ -8,6 +8,7 @@ runs:
       uses: actions/setup-python@v5
       with:
         cache: pip
-    - run: pip install -r requirements.txt
+    - name: Install packages
+      run: pip install -r requirements.txt
       # https://stackoverflow.com/a/71042698/358804
       shell: bash
