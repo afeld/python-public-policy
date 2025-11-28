@@ -9,7 +9,7 @@ If both of those are the case, you will likely do well on the exam without a _hu
 
 ## Format
 
-- The test will contain:
+- The exam will contain:
   - Fill-in-the-blank
   - Matching
   - Free response questions
