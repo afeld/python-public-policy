@@ -8,6 +8,7 @@ chapters:
     sections:
       - file: registration
       - file: joining_late
+      - file: exam
       - file: curve
   - file: resources
     sections:
