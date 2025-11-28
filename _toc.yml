@@ -8,6 +8,7 @@ chapters:
     sections:
       - file: registration
       - file: joining_late
+      - file: exam
       {% if id == "columbia" -%}
       - file: curve
       {%- endif %}
