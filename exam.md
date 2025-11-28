@@ -1,6 +1,18 @@
 # Exam
 
-The exam will contain fill-in-the-blank, matching, and free response questions, coding and high-level. It will be done on paper, closed-book (no cheat sheets, phones, laptops, etc).
+- The test will contain:
+  - Fill-in-the-blank
+  - Matching
+  - Free response questions
+    - Coding
+      - The syntax isn't expected to be perfect.
+    - High-level
+- It will be done on paper.
+- It will be "closed book", meaning no:
+  - Cheat sheets
+  - Phones
+  - Laptops
+  - etc.
 
 ## Topics
 
@@ -20,8 +32,7 @@ The following is in scope for the exam:
   - Grouping
   - Cleaning
   - Merging
-  - Reshaping
-- Troubleshooting code
+- Troubleshooting
 - Data visualization
   - Choosing chart types
   - Chart hygiene
@@ -57,7 +68,6 @@ Recommendation: Try completing them without using a search engine, generative AI
 - How do you make a link in Markdown?
 - How does `groupby()` work?
 - What is resampling used for? Include an example.
-- Why would you use an API?
 - What's a choropleth map? Try explaining to someone who's never seen one before.
 - What are the different kinds of merges? Can describe through text and/or visuals.
 - How would you merge the following Dataframes? Write the code as best you can.
@@ -78,13 +88,11 @@ Recommendation: Try completing them without using a search engine, generative AI
   | Mickey | Mouse   | multiple      |
   | Big    | Bird    | Sesame Street |
 
-
+- Why would you use an API?
 - Suppose you have this JSON stored in a `candidates` variable. Write code to retrieve the name.
 
   ```json
   {
-    "results": [
-      { "name": "Jimmy McMillan", "first_file_date": "2010-01-01" }
-    ]
+    "results": [{ "name": "Jimmy McMillan", "first_file_date": "2010-01-01" }]
   }
   ```
