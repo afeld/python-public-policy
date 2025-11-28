@@ -4,7 +4,7 @@ The exam will contain fill-in-the-blank, matching, and free response questions, 
 
 ## Topics
 
-The exam will cover the following:
+The following is in scope for the exam:
 
 - Python fundamentals
   - Types
@@ -13,13 +13,18 @@ The exam will cover the following:
   - Functions
 - pandas data structures
 - Jupyter concepts
+- Markdown basics
 - Data manipulation
   - Boolean indexing
+  - Aggregation (count/sum/mean)
   - Grouping
   - Cleaning
   - Merging
-- Troubleshooting
+  - Reshaping
+- Troubleshooting code
 - Data visualization
+  - Choosing chart types
+  - Chart hygiene
 - Time series
   - Resampling
 - APIs, conceptually
@@ -57,18 +62,29 @@ Recommendation: Try completing them without using a search engine, generative AI
 - What are the different kinds of merges? Can describe through text and/or visuals.
 - How would you merge the following Dataframes? Write the code as best you can.
 
-**`intros`**
+  **`intros`**
 
-| Name         | Year introduced |
-| ------------ | --------------- |
-| Mickey Mouse | 1928            |
-| Big Bird     | 1969            |
-| Lisa Simpson | 1987            |
+  | Name         | Year introduced |
+  | ------------ | --------------- |
+  | Mickey Mouse | 1928            |
+  | Big Bird     | 1969            |
+  | Lisa Simpson | 1987            |
 
-**`shows`**
+  **`shows`**
 
-| First  | Last    | Series        |
-| ------ | ------- | ------------- |
-| Lisa   | Simpson | The Simpsons  |
-| Mickey | Mouse   | multiple      |
-| Big    | Bird    | Sesame Street |
+  | First  | Last    | Series        |
+  | ------ | ------- | ------------- |
+  | Lisa   | Simpson | The Simpsons  |
+  | Mickey | Mouse   | multiple      |
+  | Big    | Bird    | Sesame Street |
+
+
+- Suppose you have this JSON stored in a `candidates` variable. Write code to retrieve the name.
+
+  ```json
+  {
+    "results": [
+      { "name": "Jimmy McMillan", "first_file_date": "2010-01-01" }
+    ]
+  }
+  ```
