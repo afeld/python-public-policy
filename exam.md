@@ -1,5 +1,14 @@
 # Exam
 
+The point of the exam is to ensure you were doing the following throughout the course:
+
+- Paying attention
+- Completing the assignments yourself (versus [copying-and-pasting from generative AI](syllabus.md#academic-integrity), etc.)
+
+If both of those are the case, you will likely do well on the exam without a _huge_ amount of studying.
+
+## Format
+
 - The test will contain:
   - Fill-in-the-blank
   - Matching
