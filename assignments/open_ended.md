@@ -18,7 +18,7 @@ There are countless places to get data, notably:
 
 - Local:
   - [NYC Open Data](https://opendata.cityofnewyork.us/)
-    - [Scout](https://scout.tsdataclinic.com/explore/NYC) can be used to find datasets with certain columns
+    - [Scout](https://scoutopendata.com/explore/NYC) can be used to find datasets with certain columns
   - [BetaNYC](https://data.beta.nyc/)
 - U.S. Federal:
   - [data.gov](https://www.data.gov/)
