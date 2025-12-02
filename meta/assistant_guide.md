@@ -55,15 +55,15 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - We can be fairly forgiving/generous with what counts as completion.
 - Every student should have each week marked one way or the other.
 - The instructor will mark participation for students that came to office hours.
-{% if id == "columbia" -%}
-- Each week is represented as an Assignment.
+- Each week is represented as {% if id == "columbia" %}an Assignment{% else %}a gradebook item{% endif %}.
+  {% if id == "columbia" -%}
   - Easiest to do this through the Grades interface, rather than SpeedGrader.
+  {%- endif %}
   - Every cell for previous weeks should be filled in.
-  - Mark each student that participated as Complete.
-  - Mark those who didn't as Incomplete.
+  - Mark each student that participated as {% if id == "columbia" %}Complete{% else %}`P` (present){% endif %}.
+  - Mark those who didn't as {% if id == "columbia" %}Incomplete{% else %}`A` (absent){% endif %}.
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
-{%- endif %}
 
 ### [Discussions]({{discussions_url}})
 
@@ -132,7 +132,6 @@ The following should be true for each Assignment:
 
 [Official docs](https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M)
 
-- You can leave comments on particular cells through the Google Colab interface.
 - If points are deducted, explicitly state what the deductions are for.
 - If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 - [Scoring {% if id == "nyu" %}and regrade {% endif %}rules](../syllabus.md#assignment-scoring)
