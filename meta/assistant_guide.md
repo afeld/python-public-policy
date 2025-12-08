@@ -62,8 +62,10 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
   - Every cell for previous weeks should be filled in.
   - Mark each student that participated as {% if id == "columbia" %}Complete{% else %}`P` (present){% endif %}.
   - Mark those who didn't as {% if id == "columbia" %}Incomplete{% else %}`A` (absent){% endif %}.
+{% if id == "columbia" -%}
 - Instructor can [export enrollment activity](instructor_guide.md#student-enrollment-activity) for you.
   - [We start tracking participation for a student's first full week in the class. Participation for prior weeks should be marked as `Excused`.](../joining_late.md#once-you-join)
+{%- endif %}
 
 ### [Discussions]({{discussions_url}})
 
