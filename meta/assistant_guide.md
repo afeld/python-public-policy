@@ -41,6 +41,11 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - We can be fairly forgiving/generous with what counts as completion.
 - Every student should have each week marked one way or the other.
 - The instructor will mark participation for students that came to office hours.
+- Each week is represented as a gradebook item.
+  
+  - Every cell for previous weeks should be filled in.
+  - Mark each student that participated as `P` (present).
+  - Mark those who didn't as `A` (absent).
 
 
 ### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240)
@@ -92,7 +97,6 @@ The following should be true for each Assignment:
 
 [Official docs](https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M)
 
-- You can leave comments on particular cells through the Google Colab interface.
 - If points are deducted, explicitly state what the deductions are for.
 - If you're having trouble accessing the notebook in Google Colab, make sure the URL doesn't include an `authuser` [parameter](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL#parameters).
 - [Scoring and regrade rules](../syllabus.md#assignment-scoring)
@@ -144,7 +148,7 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 #### Grading
 
-[The Final Projects themselves are peer graded.](../final_project/peer_grading.md) We're using [PeerMark](https://www.nyu.edu/servicelink/KB0018477) to facilitate the peer grading. Once the peer review deadline passes:
+[The Final Projects themselves are peer graded.](../final_project/peer_grading.md) We're using [Peerceptiv](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0012161) to facilitate the peer grading. Once the peer review deadline passes:
 
 
 1. Open each submission.
