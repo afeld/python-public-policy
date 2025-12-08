@@ -66,10 +66,8 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
    - Sensitive information
       - API keys
       - Personally-identifiable information (PII)
-1. [Share the notebook](https://support.google.com/drive/answer/2494822)
-   1. General Access
-   1. New York University
-   1. Viewer
+1. [Share the notebook.](https://support.google.com/drive/answer/2494822)
+   - Under `General Access`, select `New York University`, then `Viewer`.
 1. Submit.
    1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/12556022).
    1. Submit the URL to your notebook (`https://colab.research.google.com/drive/...`).
