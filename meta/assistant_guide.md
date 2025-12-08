@@ -187,7 +187,7 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 #### Grading
 
-[The Final Projects themselves are peer graded.](../final_project/peer_grading.md) {% if id == "nyu" %}We're using [PeerMark](https://www.nyu.edu/servicelink/KB0018477) to facilitate the peer grading.{% endif %} Once the peer review deadline passes:
+[The Final Projects themselves are peer graded.](../final_project/peer_grading.md) {% if id == "nyu" %}We're using [Peerceptiv](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0012161) to facilitate the peer grading.{% endif %} Once the peer review deadline passes:
 
 {% if id == "columbia" -%}
 1. In the Final Project Assignment, open Speedgrader.

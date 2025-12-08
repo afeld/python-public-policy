@@ -121,7 +121,7 @@ SCHOOLS = [
             "grader",
             "nyu",
             "padm",
-            "peermark",
+            "peerceptiv",
             "python coding for public policy",  # Columbia version doesn't include "Coding"
             "regrad",
             "re-grad",

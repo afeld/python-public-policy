@@ -43,7 +43,7 @@ assignees: afeld
     - [ ] Link Assignments
   - [ ] Change Assignment dates and publish them
   - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus.html#schedule)
-  - [ ] [Set up PeerMark for Final Project](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018477&sys_kb_id=f89fbe521b6f9c10a575997fbd4bcb80&spa=1)
+  - [ ] [Set up the Final Project](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011896)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
 - [ ] Print attendance sheets
 - [ ] Send calendar invite
