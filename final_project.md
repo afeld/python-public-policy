@@ -75,13 +75,6 @@ To confirm you meet [the requirements](#analysis-requirements) prior to submitti
 - Take a pass through your own notebook, pretending you are grading someone else
 - Ask someone else in the class to do so
 
-### Sharing
-
-Make sure the notebook will be visible to other students for peer grading:
-
-1. [Open the Sharing settings.](https://research.google.com/colaboratory/faq.html#notebook-storage)
-1. Under `General access`, change to `LionMail` (or `Anyone with the link`), then `Viewer`.
-
 ## Peer grading
 
 [Details](final_project/peer_grading.md)
