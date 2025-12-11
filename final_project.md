@@ -66,8 +66,9 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
    - Sensitive information
       - API keys
       - Personally-identifiable information (PII)
-1. [Share the notebook.](https://support.google.com/drive/answer/2494822)
-   - Under `General Access`, select `New York University`, then `Viewer`.
+1. [Share the notebook.](https://research.google.com/colaboratory/faq.html#notebook-storage) Under `General Access`, select:
+   1. `Anyone with the link`, then
+   1. `Viewer`
 1. Submit.
    1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/12556022).
    1. Submit the URL to your notebook (`https://colab.research.google.com/drive/...`).
@@ -87,13 +88,6 @@ To confirm you meet [the requirements](#analysis-requirements) prior to submitti
 
 - Take a pass through your own notebook, pretending you are grading someone else
 - Ask someone else in the class to do so
-
-### Sharing
-
-Make sure the notebook will be visible to other students for peer grading:
-
-1. [Open the Sharing settings.](https://research.google.com/colaboratory/faq.html#notebook-storage)
-1. Under `General access`, change to `LionMail` (or `Anyone with the link`), then `Viewer`.
 
 ## Peer grading
 
