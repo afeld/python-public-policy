@@ -21,6 +21,8 @@ class SchoolText:
     name_tool_url: str
     lms_profile_pic_url: str
     lms_notification_settings_url: str
+    exam_tool_name: str
+    exam_tool_docs: str
     grading_docs: str
     assistant_name: str
     assistant_responsibilities: str
@@ -56,6 +58,8 @@ SCHOOLS = [
         name_tool_url="https://courseworks2.columbia.edu/courses/183594/pages/you-at-columbia-a-step-by-step-tutorial",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
+        exam_tool_name="Proctorio",
+        exam_tool_docs="https://www.cuit.columbia.edu/proctorio",
         grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
@@ -99,6 +103,8 @@ SCHOOLS = [
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",
         lms_notification_settings_url="https://brightspace.nyu.edu/d2l/Notifications/Settings?ou=477758",
+        exam_tool_name="Respondus LockDown Browser",
+        exam_tool_docs="https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011343",
         grading_docs="https://guides.gradescope.com/hc/en-us/articles/22066635961357-Grading-a-Programming-Assignment#h_01HH372CKNNR01EAMQ1VS6BB7M",
         assistant_name="grader",
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",

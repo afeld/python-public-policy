@@ -16,11 +16,13 @@ If both of those are the case, you will likely do well on the exam without a _hu
     - Coding
       - The syntax isn't expected to be perfect.
     - High-level
-- It will be done on paper.
+- It will be done online (in-person, synchronously) through [{{exam_tool_name}}]({{exam_tool_url}}).
+  - To save time, installing this in advance is recommended.
 - It will be "closed book", meaning no:
+  - Web browsing
+  - Apps
   - Cheat sheets
   - Phones
-  - Laptops
   - etc.
 
 ## Topics
