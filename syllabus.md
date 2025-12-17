@@ -333,7 +333,7 @@ Academic integrity is a vital component of Wagner and NYU. All students enrolled
 
 ## Accessibility
 
-Academic accommodations are available for students with disabilities. Please visit the [Moses Center for Student Accessibility](https://www.nyu.edu/life/global-inclusion-and-diversity/centers-and-communities/accessibility.html) website and click on the Reasonable Accommodations and How to Register tab or call or email CSD at (212-998-4980 or mosescsd@nyu.edu) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
+Academic accommodations are available for students with disabilities. Please visit the [Moses Center for Accessibility and Inclusive Culture website](https://www.nyu.edu/life/community-flourishing/centers-and-communities/accessibility.html) and follow the steps outlined on that page to request an accommodation. You can also email the Moses Center (<mosescenter@nyu.edu>) for information. Students who are requesting academic accommodations are strongly advised to reach out to the Moses Center as early as possible in the semester for assistance.
 
 ## Technology Support
 
