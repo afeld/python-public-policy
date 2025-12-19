@@ -33,7 +33,17 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 
 ## Courses
 
-- [Courses outside Wagner](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu)
+- Wagner:
+   - [R](https://www.r-project.org/) ([comparison with `pandas`](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_r.html)):
+      - [Data Analysis, Mapping, and Storytelling](https://wagner.nyu.edu/education/courses/data-analysis-mapping-and-storytelling)
+      - [R Coding for Public Policy](https://wagner.nyu.edu/education/courses/r-coding-for-public-policy)
+   - [Data and AI Strategies for Social Impact Organizations](https://wagner.nyu.edu/education/courses/data-and-ai-strategies-for-social-impact-organizations)
+   - [Geographic Information Systems](https://wagner.nyu.edu/education/courses/geographic-information-systems)
+   - [Introduction to Database Design, Management, and Security](https://wagner.nyu.edu/education/courses/introduction-database-design-management-and-security)
+   - [Large Scale Data Analysis with Machine Learning I and II](https://wagner.nyu.edu/education/courses/search?qry=Machine+Learning&semesters_offered=All)
+   - [Using Large Data Sets in Policy Research](https://wagner.nyu.edu/education/courses/using-large-data-sets-policy-research)
+   - [Policy and Data Studio](https://wagner.nyu.edu/education/courses/policy-and-data-studio)
+- [Elsewhere at NYU](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu)
 - [Free trials for online courses through the GitHub Student Developer Pack](https://education.github.com/pack?sort=popularity&tag=Learn#offers)
 
 ### Python fundamentals
