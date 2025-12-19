@@ -38,14 +38,24 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 ## Courses
 
 {% if id == "columbia" -%}
-- Related [Data Science for Policy (DSP) courses](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp#dsp-requirements):
+- [Data Science for Policy (DSP)](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp#dsp-requirements):
    - Applying Machine Learning — If interested, you should [take Computing in Context instead of {{course_name}}](index.md#comparison-to-computing-in-context), as it's a prerequisite.
    - Intro to Text Analysis in Python
    - Introduction to Infographics and Data Visualization
    - Database Design, Management, and Security
    - Time Series Analysis
 {% else -%}
-- [Courses outside Wagner](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu)
+- Wagner:
+   - [R](https://www.r-project.org/) ([comparison with `pandas`](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_r.html)):
+      - [Data Analysis, Mapping, and Storytelling](https://wagner.nyu.edu/education/courses/data-analysis-mapping-and-storytelling)
+      - [R Coding for Public Policy](https://wagner.nyu.edu/education/courses/r-coding-for-public-policy)
+   - [Data and AI Strategies for Social Impact Organizations](https://wagner.nyu.edu/education/courses/data-and-ai-strategies-for-social-impact-organizations)
+   - [Geographic Information Systems](https://wagner.nyu.edu/education/courses/geographic-information-systems)
+   - [Introduction to Database Design, Management, and Security](https://wagner.nyu.edu/education/courses/introduction-database-design-management-and-security)
+   - [Large Scale Data Analysis with Machine Learning I and II](https://wagner.nyu.edu/education/courses/search?qry=Machine+Learning&semesters_offered=All)
+   - [Using Large Data Sets in Policy Research](https://wagner.nyu.edu/education/courses/using-large-data-sets-policy-research)
+   - [Policy and Data Studio](https://wagner.nyu.edu/education/courses/policy-and-data-studio)
+- [Elsewhere at NYU](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu)
 {%- endif %}
 - [Free trials for online courses through the GitHub Student Developer Pack](https://education.github.com/pack?sort=popularity&tag=Learn#offers)
 
