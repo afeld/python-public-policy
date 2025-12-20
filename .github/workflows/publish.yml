@@ -36,7 +36,7 @@ jobs:
           git commit -m "CI: render for school"
       # can be used for troubleshooting
       # - name: Store merged source
-      #   uses: actions/upload-artifact@v5
+      #   uses: actions/upload-artifact@v6
       #   with:
       #     name: ${{ matrix.school }}-src
       #     path: ./
@@ -52,7 +52,7 @@ jobs:
         run: git push origin ${{ matrix.school }}
         if: github.ref_name == 'main'
       - name: Store rendered HTML for link checking
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: ${{ matrix.school }}
           path: _build/html
@@ -75,7 +75,7 @@ jobs:
         run: gem install html-proofer
 
       - uses: actions/checkout@v6
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: ${{ matrix.school }}
           path: _build/html
