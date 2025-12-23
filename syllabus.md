@@ -75,7 +75,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 ## Description
 
-Cell-ing yourself short with Excel? Ready to pivot to something more powerful? This seven-week course is all about "How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets." Students will learn data analysis through code, using the Python programming language to explore, manipulate, visualize, and interpret open data for policy questions. No coding experience required.
+Alternate title: "How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets." Students will learn data analysis through the Python programming language — exploring, manipulating, visualizing, and interpreting open data to answer policy questions. The class incorporates use of generative AI for coding problems, helping students understand its strengths and weaknesses. No coding experience required.
 
 ## Homework
 
