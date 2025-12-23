@@ -33,8 +33,7 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 ## Courses
 
 - [Data Science for Policy (DSP)](https://www.sipa.columbia.edu/sipa-education/bulletin/dsp#dsp-requirements):
-   - Applying Machine Learning — If interested, you should [take Computing in Context instead of Python for Public Policy](index.md#comparison-to-computing-in-context), as it's a prerequisite.
-   - Intro to Text Analysis in Python
+   - [Other Python courses](https://docs.google.com/drawings/d/1PjJG2TdWk-JMU_G2X3BV6ue0N9y5tZUN7FNJ3C8yPX8/edit?usp=sharing)
    - Introduction to Infographics and Data Visualization
    - Database Design, Management, and Security
    - Time Series Analysis
