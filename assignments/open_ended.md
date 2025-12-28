@@ -87,7 +87,18 @@ Expands on the [instructions to mount Google Drive locally](https://colab.resear
 1. Click the `Mount Drive` icon (B).
    - You may need to run the code it injects to authorize it (C).
    - Think of this as attaching your Drive to your Google Colab instance, as if you were plugging in a USB flash drive.
-1. [Read the file in Python.](#reading-files-in-python)
+1. Read the file in Python (below).
+
+### Reading files in Python
+
+1. Navigate to the file (D).
+   - You may need to click into `content`, then `drive`.
+1. Next to the filename, click the three dots.
+1. Click `Copy path` (E).
+   - The value should be something like `/content/drive/My Drive/...`.
+1. Use this path with [`read_csv()`](https://pandas.pydata.org/docs/user_guide/io.html#csv-text-files) (F).
+
+Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
 ### [InteractiveSheet](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=BC_eQdDHyCji)
 
@@ -102,17 +113,6 @@ df = sheet.as_df()
 ```
 
 <iframe src="https://www.youtube-nocookie.com/embed/D5MUsMim_is?start=242" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 16 / 9;"></iframe>
-
-### Reading files in Python
-
-1. Navigate to the file (D).
-   - You may need to click into `content`, then `drive`.
-1. Next to the filename, click the three dots.
-1. Click `Copy path` (E).
-   - The value should be something like `/content/drive/My Drive/...`.
-1. Use this path with [`read_csv()`](https://pandas.pydata.org/docs/user_guide/io.html#csv-text-files) (F).
-
-Google Colab cannot access the file on your local machine; in other words, the path shouldn't start with `C:\\` or anything like that. [More info about file paths.](https://www.codecademy.com/resources/docs/general/file-paths)
 
 ## Reducing data size
 
