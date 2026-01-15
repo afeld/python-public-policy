@@ -27,7 +27,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 - **Class Meeting Times:** Tuesdays 1/20-3/3
   - Section 1: 10-11:50am ET
   - Section 2: 1:10-3pm ET
-- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room TBD
+- **Class Location:** [International Affairs Building (IAB)](https://goo.gl/maps/uS21RUzpGxxNA4zS6), room 403
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
