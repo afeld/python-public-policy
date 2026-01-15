@@ -26,7 +26,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
 
 ## Why this class?
 
-There are countless resources out there to learn Python and pandas — books, videos, etc. — and many are free. Relative to other Python/pandas courses, this class:
+There are countless [resources](resources.md) out there to learn Python and pandas — books, videos, etc. — and many are free. Relative to other Python/pandas courses, this class:
 
 - Doesn't expect any prior technical experience
 - Puts the data/code in a public policy context
