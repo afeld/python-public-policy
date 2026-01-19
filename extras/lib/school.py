@@ -54,7 +54,7 @@ SCHOOLS = [
         lms_url="https://courseworks2.columbia.edu/courses/233960",
         submission_tool_url="https://courseworks2.columbia.edu/courses/233960",
         discussions_url="https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless",
-        survey_url="https://docs.google.com/forms/d/e/1FAIpQLSeexomJkVX-9WTMXTYfRYWg3UC3n0_gDVe-qGDDt78aTbBodw/viewform?usp=header",
+        survey_url="https://docs.google.com/forms/d/e/1FAIpQLSdmdpOVWx_jL9vMMmAIeuOgaCkm9Yp5x0qiQiMsSGN8MsnkDA/viewform?usp=dialog",
         name_tool_url="https://courseworks2.columbia.edu/courses/183594/pages/you-at-columbia-a-step-by-step-tutorial",
         lms_profile_pic_url="https://courseworks2.columbia.edu/profile",
         lms_notification_settings_url="https://courseworks2.columbia.edu/profile/communication",
