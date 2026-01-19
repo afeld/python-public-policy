@@ -298,6 +298,8 @@ For this course, it's recommended that you try doing the work yourself, asking t
    1. Close the AI chat.
    1. Re-write the solution yourself.
 
+[Tools](https://python-public-policy.afeld.me/en/{{school_slug}}/resources.html#generative-ai)
+
 {% if id == "columbia" -%}
 
 #### SIPA Academic Integrity Statement
