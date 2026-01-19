@@ -12,12 +12,11 @@ jupyter-resource-usage
 html5lib
 lxml
 pandas==2.2.2
-# Using v6 (newer than Colab) to avoid the need for the plugin in the base environment. Using (unreleased) v6.0.1 to avoid a bug in the HTML export.
+# Using v6 (newer than Colab) to avoid the need for the plugin in the base environment, and 6.0.1+ to avoid a bug in the HTML export.
 # https://github.com/plotly/plotly.js/blob/master/CHANGELOG.md#301----2025-02-18
 plotly>=6.0.1
 requests==2.32.4
-# https://github.com/statsmodels/statsmodels/releases/tag/v0.14.5
-statsmodels>=0.14.5
+statsmodels==0.14.6
 scipy
 
 ## supporting packages for notebooks ##
