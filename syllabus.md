@@ -40,7 +40,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
   - Section 1: Pranav Mehta, pm3313@columbia.edu
   - Section 2: Xinran (Sara) Yang, sxy2007@columbia.edu
 - **Office Hours:**
-  - TBD, no appointment necessary
+  - Mondays 5-6pm over [Zoom](https://courseworks2.columbia.edu/courses/233960/external_tools/72338), no appointment necessary
   - Other times by appointment; email the instructor
 
 ## Description
@@ -245,6 +245,8 @@ For this course, it's recommended that you try doing the work yourself, asking t
    1. Delete the code + comments from above.
    1. Close the AI chat.
    1. Re-write the solution yourself.
+
+[Tools](https://python-public-policy.afeld.me/en/columbia/resources.html#generative-ai)
 
 #### SIPA Academic Integrity Statement
 

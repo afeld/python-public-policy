@@ -73,6 +73,16 @@ Want to keep going with Python after this class? See [Developer Roadmaps](https:
 
 Many "learn Python" resources will be web development-oriented — they will probably mention [Django](https://www.djangoproject.com/)/[Flask](https://flask.palletsprojects.com/). If you want to stay focused on data, you might want to look for ones that focus on [data science](#data-analysisscience) or [Python 3 generally](#python-fundamentals). See [Courses](#courses).
 
+## Generative AI
+
+Special access for students:
+
+- [Columbia AI services](https://www.cuit.columbia.edu/content/ai-services)
+
+- [Copilot Pro through GitHub Education](https://github.com/education/students)
+- [Cursor](https://cursor.com/students)
+- [Google Colab Pro for Education](https://colab.research.google.com/signup)
+
 ## Jupyter outside this course
 
 We use [a cloud-based Jupyter environment (Google Colab)](lecture_0.ipynb#jupyter) for this course to avoid installation issues across student computers. This is the only environment that's supported for course work.
