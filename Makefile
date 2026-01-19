@@ -39,7 +39,7 @@ update_packages:
 
 	./extras/scripts/update_lectures.sh
 
-	echo "Please update homework notebooks separately, in python-public-policy-assignments"
+	@echo "Please update homework notebooks separately, in python-public-policy-assignments"
 
 # based on https://gradescope-autograders.readthedocs.io/en/latest/manual_docker/
 autograde:
@@ -56,7 +56,7 @@ build_autograder:
 	# https://stackoverflow.com/a/17351814/358804
 	git archive -o ./extras/autograder.zip HEAD:./extras/autograder/source
 
-	echo "Now upload extras/autograder.zip to Gradescope."
+	@echo "Now upload extras/autograder.zip to Gradescope."
 
 build_dir := _build
 

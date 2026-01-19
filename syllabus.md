@@ -235,6 +235,8 @@ For this course, it's recommended that you try doing the work yourself, asking t
    1. Close the AI chat.
    1. Re-write the solution yourself.
 
+[Tools](https://python-public-policy.afeld.me/en/nyu/resources.html#generative-ai)
+
 #### Wagner Academic Integrity Statement
 
 Academic integrity is a vital component of Wagner and NYU. All students enrolled in this class are required to read and abide by [Wagner's Academic Code](https://wagner.nyu.edu/portal/students/policies/code). All Wagner students have already read and signed the [Wagner Academic Oath](https://wagner.nyu.edu/portal/students/policies/academic-oath). Plagiarism of any form will not be tolerated and students in this class are expected to report violations to me. If any student in this class is unsure about what is expected of you and how to abide by the academic code, you should consult with me.
