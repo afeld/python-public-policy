@@ -10,12 +10,11 @@ from .autograder.source.tests.helpers import check_plots
 from .lib.nb_helper import get_tags, is_h1, is_markdown, is_python, read_notebook
 
 
-def check_metadata(notebook, file, expected_kernel):
+def check_metadata(notebook, file):
     metadata = notebook.metadata
-    runtime = metadata.kernelspec.display_name
+    runtime = metadata.kernelspec.name
 
-    # seems the asterisk is added for the "preferred kernel"
-    assert runtime == expected_kernel or runtime == f"{expected_kernel} *"
+    assert runtime == "python3"
     assert metadata.language_info.version.startswith("3.")
 
     if "colab" in metadata:
@@ -25,9 +24,9 @@ def check_metadata(notebook, file, expected_kernel):
         )
 
 
-def check_file(file, expected_kernel="Python 3 (ipykernel)"):
+def check_file(file):
     notebook = read_notebook(file)
-    check_metadata(notebook, file, expected_kernel)
+    check_metadata(notebook, file)
 
 
 notebooks = glob("*.ipynb")
@@ -43,7 +42,7 @@ def test_class_notebooks(notebook):
 
 def test_colab():
     # run in Google Colab
-    check_file(crash_course, "Python 3")
+    check_file(crash_course)
 
 
 @pytest.mark.parametrize("file", all_notebooks)
