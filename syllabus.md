@@ -49,7 +49,7 @@ This is the syllabus for the Spring editions of the course. [Find information ab
   - Section 1: Pranav Mehta, pm3313@columbia.edu
   - Section 2: Xinran (Sara) Yang, sxy2007@columbia.edu
 - **Office Hours:**
-  - TBD, no appointment necessary
+  - Mondays 5-6pm over [Zoom](https://courseworks2.columbia.edu/courses/233960/external_tools/72338), no appointment necessary
   - Other times by appointment; email the instructor
 
 {% else -%}
