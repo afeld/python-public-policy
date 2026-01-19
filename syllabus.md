@@ -256,6 +256,10 @@ If you do miss class, we trust that it's for a good reason. If you're sick, plea
 
 You are responsible for getting caught up on what was covered in class. You may want to ask a classmate for notes.
 
+### Devices
+
+To encourage focus and participation, students are asked to keep laptops closed and phones away in lecture by default. (Accommodations for students with disabilities are an exception.) You'll be asked to open the laptops for in-class exercises.
+
 ### Academic Integrity
 
 If you are copying and pasting from a source (see below), it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where possible) is fine.
