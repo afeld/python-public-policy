@@ -18,7 +18,7 @@ If you're not officially [registered](registration.md) for the course but want t
 
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including [past lectures](syllabus.md#schedule).
-   - [Recording](https://columbiauniversity.zoom.us/rec/play/dBBFt7QTwZTfETvu0_VQzqT_pt6K0-4PvrRJF0fDUVH8yKoIHP9WOCl8hGRSyIu3HEiKxPQ2woCwDQ-I.OGynUNH57slJqZki) of [Lecture 0](lecture_0.ipynb)
+   - [Recording](https://columbiauniversity.zoom.us/rec/play/vhdvk4ltY1Zc63HODGkDLhApUy_AoSim2ypJOq9qW9iW_iV3gfOZd-X4Ed0W_nQGSDZjnkx-kqpffitR.axnvEVsUXXndKnz1) of [Lecture 0](lecture_0.ipynb)
    - You won't be able to access [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241) or the [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240).
 - [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
