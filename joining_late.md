@@ -33,7 +33,7 @@ This is a short class that moves quickly, so depending on how much you missed, y
 If you're coming off the wait list or registering for the course after the first lecture:
 
 {% if id == "columbia" %}
-- Within 24 hours after you're registered via SSOL, you should be automatically added to CourseWorks.
+- Once you're officially registered in Vergil, you should be automatically added to CourseWorks etc. within 24 hours.
    - If you don't have access after that, [email the instructor](syllabus.md#instructor-information).
 {% endif %}
 - Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussion]({{discussions_url}}), in case there's anything you missed.
