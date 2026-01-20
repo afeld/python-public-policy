@@ -63,7 +63,7 @@ SCHOOLS = [
         grading_docs="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-use-SpeedGrader/ta-p/757",
         assistant_name="Reader",
         assistant_responsibilities="https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#heading=h.7f7yn4ehwnkz",
-        wait_list="https://www.registrar.columbia.edu/content/wait-lists-ssol",
+        wait_list="https://registrar.columbia.edu/content/class-registration-students",
         registration="https://www.sipa.columbia.edu/sipa-education/bulletin/registration",
         cross_registration="https://www.sipa.columbia.edu/sipa-education/bulletin/registration#how-to-cross-register",
         auditing="https://www.sipa.columbia.edu/students/student-affairs/academic-advising-faq",
