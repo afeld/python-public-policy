@@ -52,7 +52,7 @@ SCHOOLS = [
         term="Spring 2026",
         lms_name="CourseWorks",
         lms_url="https://courseworks2.columbia.edu/courses/233960",
-        submission_tool_url="https://courseworks2.columbia.edu/courses/233960",
+        submission_tool_url="https://courseworks2.columbia.edu/courses/233960/external_tools/29680?display=borderless",
         discussions_url="https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSdmdpOVWx_jL9vMMmAIeuOgaCkm9Yp5x0qiQiMsSGN8MsnkDA/viewform?usp=dialog",
         name_tool_url="https://courseworks2.columbia.edu/courses/183594/pages/you-at-columbia-a-step-by-step-tutorial",

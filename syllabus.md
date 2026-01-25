@@ -85,7 +85,7 @@ By the end of the course, students will know:
 | 3/9  | [Exam][exam]     |                                                            |                                                            |
 | 3/10 | none             | [Final Project peer grading][final-peer]                   |                                                            |
 
-In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/233960).
+In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/233960/external_tools/29680?display=borderless).
 
 ## Communications
 

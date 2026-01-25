@@ -61,7 +61,7 @@ You'll create your own notebook.
 
    ![Click the Colab File menu, Download, then Download as .ipynb and Download as .py](extras/img/download_notebook.png)
 
-1. Upload both files to [the Gradescope Assignment](https://courseworks2.columbia.edu/courses/233960).
+1. Upload both files to [the Gradescope Assignment](https://courseworks2.columbia.edu/courses/233960/external_tools/29680?display=borderless).
 
 ### Notes
 
