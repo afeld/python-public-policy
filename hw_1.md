@@ -12,19 +12,26 @@
 
 ## Coding
 
-You'll complete this assignment using pandas. Steps:
+You'll do the following in a notebook. Make it read like a blog post. Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
+
+### Steps
 
 1. [Find a dataset.](assignments/open_ended.md)
    - It must have at least one numeric column.
    - Don't spend too long on this step.
 1. If there's more than one numeric column, pick one.
 1. Create a new notebook.
-1. Read in the data.
-1. Compute:
-   - The mean
-   - The median
-   - The mode
-1. Do a `groupby()` with an [aggregation](https://pandas.pydata.org/docs/user_guide/groupby.html#aggregation).
+1. Using pandas:
+   1. Read in the data.
+   1. Compute:
+      - The mean
+      - The median
+      - The mode
+   1. Do a `groupby()` with an [aggregation](https://pandas.pydata.org/docs/user_guide/groupby.html#aggregation).
+1. Do the same thing, but with pure Python (without pandas).
+1. Write a conclusion, covering both:
+   - The takeaways of the analysis
+   - Reflecting on the process
 
 Now [turn in the assignment](assignments.md).
 
