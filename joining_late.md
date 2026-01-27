@@ -18,7 +18,8 @@ If you're not officially [registered](registration.md) for the course but want t
 
 - [Attend class.](syllabus.md#course-information)
 - Look through the [important links](index.md#important-links), including [past lectures](syllabus.md#schedule).
-   - [Recording](https://columbiauniversity.zoom.us/rec/play/vhdvk4ltY1Zc63HODGkDLhApUy_AoSim2ypJOq9qW9iW_iV3gfOZd-X4Ed0W_nQGSDZjnkx-kqpffitR.axnvEVsUXXndKnz1) of [Lecture 0](lecture_0.ipynb)
+   - [Lecture 0](lecture_0.ipynb): [Recording](https://columbiauniversity.zoom.us/rec/play/vhdvk4ltY1Zc63HODGkDLhApUy_AoSim2ypJOq9qW9iW_iV3gfOZd-X4Ed0W_nQGSDZjnkx-kqpffitR.axnvEVsUXXndKnz1)
+   - [Lecture 1](lecture_1.ipynb): [Recording](https://columbiauniversity.zoom.us/rec/share/zw8K4v_eP75tXVKQoU0ZSOrW5nIfWCZG0wl-yT7Kn6Mlev1wdEVhZLTVW9M0FqFN.XIArvg5E8J1OHUnK)
    - You won't be able to access [Gradescope](https://courseworks2.columbia.edu/courses/233960/external_tools/29680?display=borderless) or the [Ed Discussion](https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless).
 - [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
