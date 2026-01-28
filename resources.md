@@ -11,6 +11,7 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 
 ## Cheat sheets
 
+- [Python Commands List with Example](https://flexiple.com/python/python-commands)
 - [Python Flash Cards](https://nostarch.com/pythonflashcards)
 - pandas cheat sheets
    - [Official](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
