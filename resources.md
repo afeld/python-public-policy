@@ -92,6 +92,8 @@ A non-exhaustive list of alternatives:
 ### Local
 
 - [Anaconda Distribution](https://www.anaconda.com/download)
+- [Positron](https://posit.co/products/ide/positron/)
+- [PyCharm](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html)
 - [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
 ### Cloud-based
