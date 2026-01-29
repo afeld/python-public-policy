@@ -49,6 +49,27 @@ You'll create your own notebook.
   - Makes your work reproducible.
   - Use `Restart session and run all` (⏩ button in toolbar).
 
+### Generative AI
+
+Generative AI tools can be incredibly useful, but the code they provide is often incomplete or wrong. Knowing enough about code to critically interpret their results can turn them from a crutch to a superpower.
+
+For this course, it's recommended that you try doing the work yourself, asking the AI questions as needed when you're stuck/confused. If you're _really_ lost, you can try:
+
+1. Having AI generate a solution.
+1. Try it.
+   1. Copy it into a code cell.
+   1. Run it.
+   1. Confirm the output makes sense.
+1. Understand it.
+   1. Read through it closely.
+   1. Add a comment above each line explaining what it's doing.
+1. Redo it.
+   1. Delete the code + comments from above.
+   1. Close the AI chat.
+   1. Re-write the solution yourself.
+
+[Tools](resources.md#generative-ai)
+
 ## Submission
 
 1. Ensure all the outputs are visible and the notebook is cleaned up.
