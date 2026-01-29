@@ -274,7 +274,6 @@ Anything outside of the provided course materials is considered a "source". This
 - Online resources
 - Books
 - Generative AI (ChatGPT, Claude, Copilot, Gemini, etc.)
-  - [Tips](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#generative-ai)
 
 #### Other notes
 
@@ -283,6 +282,7 @@ Anything outside of the provided course materials is considered a "source". This
   - The submissions are different
 - Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 - Students may post their [open-ended assignments](assignments/open_ended.md) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are more than welcome to share any of your notebooks with specific people, such as future employers.
+- [Tips for working with generative AI](https://python-public-policy.afeld.me/en/{{school_slug}}/assignments.html#generative-ai)
 
 {% if id == "columbia" -%}
 
