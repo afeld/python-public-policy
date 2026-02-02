@@ -37,6 +37,7 @@ class SchoolText:
     final_project_proposal: str
     attendance_url: str
     course_search: str
+    linkedin_learning_url: str
     ai_offerings: str
     prefixes: List[str]
 
@@ -74,6 +75,7 @@ SCHOOLS = [
         final_project_proposal="https://edstem.org",
         attendance_url="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance",
         course_search="https://vergil.columbia.edu/",
+        linkedin_learning_url="https://www.cuit.columbia.edu/linkedin-learning",
         ai_offerings="https://www.cuit.columbia.edu/content/ai-services",
         prefixes=[
             "canvaslms",
@@ -119,6 +121,7 @@ SCHOOLS = [
         final_project_proposal="https://edstem.org/us/courses/88616/discussion/7308107",
         attendance_url="https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data",
         course_search="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/course-search.html",
+        linkedin_learning_url="https://www.nyu.edu/life/information-technology/teaching-and-learning-services/instructional-tools/linkedin-learning.html",
         ai_offerings="https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/generative-ai-services.html",
         prefixes=[
             "bonus",
