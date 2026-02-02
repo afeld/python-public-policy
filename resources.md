@@ -23,6 +23,7 @@ There are countless blog posts, videos, books, etc. out there. There is no "best
 
 - [Crash Course Computer Science](https://thecrashcourse.com/topic/computerscience/)
 - [FreeCodeCamp](https://www.freecodecamp.org/learn/data-analysis-with-python/)
+- [LinkedIn Learning](https://www.nyu.edu/life/information-technology/teaching-and-learning-services/instructional-tools/linkedin-learning.html)
 - [NYU's Quantitative Analysis Guide: Python](https://guides.nyu.edu/quant/python)
 - [RealPython](https://realpython.com/tutorials/all/)
 
