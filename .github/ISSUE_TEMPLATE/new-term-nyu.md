@@ -33,6 +33,7 @@ assignees: afeld
     - [ ] Send welcome Announcement
     - [ ] Set up Megathread for Final Project proposals
       - [ ] Replace link
+    - [ ] Make grader an [Admin](https://edstem.org/us/help/getting-started#appendix-roles)
   - [ ] Import
   - [ ] Simplify name
   - [ ] Create recurring Zoom
