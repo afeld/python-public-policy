@@ -31,6 +31,8 @@ Here is [a thorough example](final_project/universities.ipynb) - yours does _not
 - This can overlap the [Final Project](final_project.md), but should be different.
   - Per [the requirements](assignments/open_ended.md), it should use at least one dataset you haven't used for your Final Project or anything else.
 - State the takeaway(s)
+- Did you use an [external source](syllabus.md#academic-integrity), including generative AI? Please explain, or say that you didn't.
+
 
 ## Tutorials
 
