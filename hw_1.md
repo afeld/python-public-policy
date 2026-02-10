@@ -32,6 +32,7 @@ You'll do the following in a notebook. Make it read like a blog post. Pretend yo
 1. Write a conclusion, covering both:
    - The takeaways of the analysis
    - Reflecting on the process
+1. Did you use an [external source](syllabus.md#academic-integrity), including generative AI? Please explain, or say that you didn't.
 
 Now [turn in the assignment](assignments.md).
 
