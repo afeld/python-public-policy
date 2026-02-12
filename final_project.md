@@ -22,13 +22,8 @@ In addition to the applicable [general assignment requirements](syllabus.md#assi
 
 <!-- make sure edits here are reflected in extras/scripts/final_project_check.py -->
 
-- **Read like a blog post** - 35 points
-  - Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
+- [**Read like a blog post**](assignments/open_ended.md#read-like-a-blog-post), and do the following - 35 points
   - Re-state the [question, hypothesis, and data source(s) with link(s)](final_project/proposal.md#format)
-  - Walk the reader through what you're doing in every step and what they should be taking away from it.
-    - You are more than welcome to inject personality in there; doesn't need to be dry.
-  - Use text cells with [Markdown](https://www.markdownguide.org/basic-syntax/) for formatting.
-    - You'll need to [change the cell type to Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells).
   - If you hit any dead ends in your analysis, leave them in.
     - For example, include charts that you generate that may not show anything interesting and explain what you are choosing to look at instead.
     - You should still be cleaning up unused/broken code to make your notebook readable.

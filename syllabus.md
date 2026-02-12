@@ -121,8 +121,9 @@ It is entirely possible for everyone in the class to get over 100%.
 - **Incomplete Steps / Steps with logic errors:** -2 to -5 points
 - [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/nyu/lecture_3.html#chart-hygiene) -3 points
 - **Unattempted Steps:** -10 points
+- **Homework [1](hw_1.md)/[4](hw_4.md) doesn't [read like a blog post](assignments/open_ended.md#read-like-a-blog-post):** -10 to -20 points
 
-If the submission showed effort, written feedback will be provided.
+If the submission showed effort, written feedback will be provided through Gradescope.
 
 #### [Final Project](final_project.md)
 
