@@ -115,9 +115,7 @@ When grading, points should only be deducted based on [these criteria](../syllab
 
 ### Plagiarism
 
-
-
-See [the class policies](../syllabus.md#academic-integrity) for more details for what constitues plagiarism vs. fair reuse.
+See [the class policies](../syllabus.md#academic-integrity) for more details for what constitues plagiarism vs. fair use.
 
 It isn't your responsibility to look for potential instances of cheating/plagiarism. That said, if you have suspicions of those occuring, you must report them to the instructor. Things you might notice:
 
