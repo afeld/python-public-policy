@@ -12,7 +12,7 @@
 
 ## Coding
 
-You'll do the following in a notebook. Make it read like a blog post. Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
+You'll do the following in a notebook. Make it [read like a blog post](assignments/open_ended.md#read-like-a-blog-post). Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
 
 ### Steps
 
