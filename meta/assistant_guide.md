@@ -121,11 +121,7 @@ When grading, points should only be deducted based on [these criteria](../syllab
 
 ### Plagiarism
 
-Per the [Code of Academic and Professional Conduct](https://bulletin.columbia.edu/sipa/academic-policies/academic-and-professional-conduct/):
-
-> It is the responsibility of all members of the SIPA community to encourage academic integrity and to deter, confront, and report all acts of academic dishonesty.
-
-See [the class policies](../syllabus.md#academic-integrity) for more details for what constitues plagiarism vs. fair reuse.
+See [the class policies](../syllabus.md#academic-integrity) for more details for what constitues plagiarism vs. fair use.
 
 It isn't your responsibility to look for potential instances of cheating/plagiarism. That said, if you have suspicions of those occuring, you must report them to the instructor. Things you might notice:
 
