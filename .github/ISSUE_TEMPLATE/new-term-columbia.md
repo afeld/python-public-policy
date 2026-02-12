@@ -64,7 +64,7 @@ assignees: afeld
   - [ ] Get bio(s)
   - [ ] Update lecture 6
   - [ ] [Fill out access form](https://academic.cuit.columbia.edu/guestaccess/)
-- [ ] [Time Out](https://bulletin.columbia.edu/sipa/teaching-guide/#supportservicestext)
+- [ ] [Time Out](https://www.sipa.columbia.edu/office-academic-affairs/instructional-support/time-out-funding)
   - [ ] Schedule
   - [ ] [Submit request](https://sipa.campusgroups.com/cgtest/survey?survey_uid=67287ffc-8888-11e9-b822-0a85c368333a)
   - [ ] [Reserve a room](https://www.sipa.columbia.edu/students/room-reservations)
