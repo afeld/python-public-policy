@@ -10,6 +10,16 @@ In [Homework 1](../hw_1.md), [Homework 4](../hw_4.md), and the [Final Project](.
 - It's ok if you pick the same dataset as another student, as long as you're following [the Academic Integrity rules](../syllabus.md#academic-integrity).
 - If you'd be interested in working with [SIPA alumni employment data](https://www.sipa.columbia.edu/pathways-careers/employment-statistics), [reach out to the instructor](../syllabus.md#instructor-information).
 
+## Read like a blog post
+
+For these assignments:
+
+- Pretend you're explaining to a peer who hasn't taken this class. You don't need to teach them to code, but they should be able to follow what's going on.
+- Walk the reader through what you're doing in every step and what they should be taking away from it.
+  - You are more than welcome to inject personality in there; doesn't need to be dry.
+- Use text cells with [Markdown](https://www.markdownguide.org/basic-syntax/) for formatting.
+  - You'll need to [change the cell type to Markdown](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells).
+
 ## Open data portals
 
 There are countless places to get data, notably:
