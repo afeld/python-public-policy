@@ -90,3 +90,9 @@ Computing in Context has two lectures and a lab and goes a full semester, which 
 From [Tess Edwards](https://www.linkedin.com/in/tess-edwards/):
 
 > Though I've only been in Python class for less than a month, I've already learned so much that has empowered me beyond the classroom. Since I was an intern in 2017, the office of Congresswoman Kathleen Rice (formerly D4-NY) has contacted me annually to judge submissions for the "Congressional App Challenge". This challenge invites high school students to create apps and showcase their coding skills. Historically, I've graded these as an outsider with very little understanding for coding languages like Python (they knew that by the way!). However, this year is different. I am grading the submissions from a brand new perspective that is empowering and definitely making me a better judge. I'm so excited to be learning a skill that has already shown to be fruitful in such an unexpected way!
+
+---
+
+From [Grace Brennan](https://www.linkedin.com/in/grace-brennan-4856a81a6), mid course:
+
+> The first couple of homeworks took me hours upon hours to complete, as Python felt so foreign. I'm amazed how now I'm starting to remember commands, understand error messages, and use the graphing libraries effectively. The homeworks are taking me far less time, and when I do have a problem, I'm typically able to troubleshoot using the libraries. … I get totally hooked on solving a given problem, and it's very rewarding when it all works! I'm excited for the final project.
