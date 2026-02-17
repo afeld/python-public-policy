@@ -53,7 +53,6 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.
 - Ensure Discussion questions have answers within [the specified timeline](../syllabus.md#communications).
-  
   - Wait 24 hours to respond to questions that could be answered by another student, giving them a chance to do so.
     - Make sure homework questions have an answer within 48 hours, since they are time-sensitive.
     - Within 24 hours of when homework is due, answer questions as soon as possible to get students unstuck.
