@@ -102,6 +102,7 @@ For this course, it's recommended that you try doing the work yourself, asking t
 - **`input()` stuck:** Jupyter can be a bit buggy when dealing with interactive input. If it seems to get stuck or you aren't seeing a prompt when you'd expect one, try clicking the `Runtime` menu then `Restart Kernel`.
 - **In a visualization, the values are out of order along the axis, or you're seeing vertical/zig-zag-y lines:** Make sure that:
   - The values are integers/floats/[timestamps](https://plotly.com/python/line-charts/#line-plots-on-date-axes), not strings, where applicable.
+    - See the [`thousands` argument for `read_csv()`](https://pandas.pydata.org/docs/user_guide/io.html#thousand-separators).
   - [Line charts: The column used for the X axis is sorted.](https://plotly.com/python/line-charts/#data-order-in-line-charts)
 - [**`AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS'`:**](https://github.com/plotly/plotly.py/issues/3567) Add the following cell before your other Plotly code, then `Restart session and run all`.
 
