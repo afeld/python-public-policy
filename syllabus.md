@@ -66,24 +66,26 @@ By the end of the course, students will know:
   - Reading technical documentation
   - Troubleshooting
 - How to use [pandas](https://pandas.pydata.org/) and other packages for data exploration, manipulation, visualization, and analysis
-- How to use [Jupyter](https://jupyter.org/) as a coding environment
+- How to use a (Jupyter) notebook coding environment
 - How to work with open data
 - How these tools and skills can be leveraged in a policy context
 
 ## Schedule
 
-| Date | Lecture          | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
-| ---- | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 1/20 | {doc}`lecture_0` | none                                                       |                                                            |
-| 1/27 | {doc}`lecture_1` | [Homework 0][hw0]                                          |                                                            |
-| 2/3  | {doc}`lecture_2` | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 2/10 | {doc}`lecture_3` | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 2/17 | {doc}`lecture_4` | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 2/24 | {doc}`lecture_5` | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 3/3  | {doc}`lecture_6` | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 3/6  | none             | none                                                       | [Final Project][final]                                     |
-| 3/9  | [Exam][exam]     |                                                            |                                                            |
-| 3/10 | none             | [Final Project peer grading][final-peer]                   |                                                            |
+| Date  | Lecture          | Homework due                                               | [Late](#assignment-scoring) submission deadline            |
+| ----- | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 1/20  | {doc}`lecture_0` | none                                                       |                                                            |
+| 1/27  | {doc}`lecture_1` | [Homework 0][hw0]                                          |                                                            |
+| 2/3   | {doc}`lecture_2` | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 2/10  | {doc}`lecture_3` | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 2/17  | {doc}`lecture_4` | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 2/24  | {doc}`lecture_5` | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 3/3   | {doc}`lecture_6` | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 3/6   | none             | none                                                       | [Final Project][final]                                     |
+| 3/9\* | [Exam][exam]     |                                                            |                                                            |
+| 3/10  | none             | [Final Project peer grading][final-peer]                   |                                                            |
+
+\*This is a Monday, same [time slots](#course-information).
 
 In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://courseworks2.columbia.edu/courses/233960/external_tools/29680?display=borderless).
 
