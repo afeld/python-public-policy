@@ -56,7 +56,7 @@ By the end of the course, students will know:
   - Reading technical documentation
   - Troubleshooting
 - How to use [pandas](https://pandas.pydata.org/) and other packages for data exploration, manipulation, visualization, and analysis
-- How to use [Jupyter](https://jupyter.org/) as a coding environment
+- How to use a (Jupyter) notebook coding environment
 - How to work with open data
 - How these tools and skills can be leveraged in a policy context
 
