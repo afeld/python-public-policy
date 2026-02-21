@@ -5,7 +5,10 @@ The point of the exam is to ensure you were doing the following throughout the c
 - Paying attention
 - Completing the assignments yourself (versus [copying-and-pasting from generative AI](syllabus.md#academic-integrity), etc.)
 
-If both of those are the case, you will likely do well on the exam without a _huge_ amount of studying.
+If both of those are the case, you will likely:
+
+- Do well on the exam without a _huge_ amount of studying
+- Finish before the time limit
 
 ## Format
 
