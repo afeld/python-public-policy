@@ -213,9 +213,10 @@ To encourage focus and participation, students are asked to keep laptops closed 
 
 ### Academic Integrity
 
-If you are copying and pasting from a source (see below), it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where possible) is fine.
+For coursework in this class:
 
-**If you did most of the work yourself, it's ok. If most of the work was copied from elsewhere, it's plagiarism,** and will be reported.
+- If you are copying and pasting from a source (see below), it must be cited. This doesn't need to be in a formal style like APA - a comment (and link, where possible) is fine.
+- **If you did most of the work yourself, it's ok. If most of the work was copied from elsewhere, we are considering that plagiarism,** and it will be reported.
 
 #### Sources
 
