@@ -258,7 +258,7 @@ $$\text{your_score} = \min(\text{maximum_score}, \text{number_of_classes_you_att
 
 If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
 
-Requests for viewing lectures remotely will be considered on a case-by-case basis. This will still count as an absence/freebie.
+The course is designed for the in-person experience. Requests for viewing lectures remotely will be considered on a case-by-case basis. These will still count as an absence/freebie.
 
 You are responsible for getting caught up on what was covered in class. You may want to ask a classmate for notes.
 
