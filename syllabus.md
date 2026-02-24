@@ -222,6 +222,7 @@ A student's overall Between-Class Participation score is calculated based on som
 - In-class participation, due to:
   - The difficuly of tracking participation live
   - Some students being more shy
+- The [Final Project proposal][final_prop]
 - Homework revisions
 - Communications about grades or other administrivia
 
@@ -256,6 +257,8 @@ $$\text{maximum_score} = \text{total_classes} - \text{freebies} = 7 - 1 = 6$$
 $$\text{your_score} = \min(\text{maximum_score}, \text{number_of_classes_you_attended})$$
 
 If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
+
+Requests for viewing lectures remotely will be considered on a case-by-case basis. This will still count as an absence/freebie.
 
 You are responsible for getting caught up on what was covered in class. You may want to ask a classmate for notes.
 
