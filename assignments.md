@@ -123,5 +123,5 @@ The runtime is [the place where Python is installed and the code is actually exe
   1. In the bottom-right corner, click `Python 3`.
   1. Click `Change runtime type`.
   1. Turn `High-RAM` ([Random Access Memory](https://simple.wikipedia.org/wiki/Random-access_memory)) on.
-- Make sure you aren't loading data you don't need.
-- If loading a new dataset, [make it smaller](assignments/open_ended.md#reducing-data-size)
+- [Tweak pandas to use memory more efficiently.](https://pandas.pydata.org/docs/user_guide/scale.html)
+- [Make the dataset smaller.](assignments/open_ended.md#reducing-data-size)
