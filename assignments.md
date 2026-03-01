@@ -84,6 +84,8 @@ For this course, it's recommended that you try doing the work yourself, asking t
 
 1. Upload both files to [the Gradescope Assignment](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846241).
 
+Note [the Final Project submission](final_project.md#submission) is slightly different.
+
 ### Notes
 
 - You can ignore Gradescope saying "Large file hidden". The file can be downloaded when grading.

@@ -52,6 +52,8 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 
 ## Submission
 
+Note this is different than [submission for other assignments](assignments.md#submission).
+
 1. Remove the following from the notebook, filename, file paths, etc:
    - Name
    - NetID
