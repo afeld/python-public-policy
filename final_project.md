@@ -61,7 +61,7 @@ Note this is different than [submission for other assignments](assignments.md#su
       - API keys
       - Personally-identifiable information (PII)
 1. [Share the notebook.](https://research.google.com/colaboratory/faq.html#notebook-storage) Under `General Access`, select:
-   1. `Anyone with the link`, then
+   1. `LionMail`, then
    1. `Viewer`
 1. Submit.
    1. Go to [the `Final Project` Assignment in CourseWorks.](https://courseworks2.columbia.edu/courses/233960/assignments)
