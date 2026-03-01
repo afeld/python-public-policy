@@ -52,9 +52,8 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 
 ## Submission
 
-{% if id == "columbia" -%}
-[Instructions](assignments.md#submission)
-{% else -%}
+Note this is different than [submission for other assignments](assignments.md#submission).
+
 1. Remove the following from the notebook, filename, file paths, etc:
    - Name
    - NetID
@@ -65,9 +64,12 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
    1. `Anyone with the link`, then
    1. `Viewer`
 1. Submit.
+   {% if id == "columbia" -%}
+   1. Go to [the `Final Project` Assignment in {{lms_name}}.]({{lms_url}}/assignments)
+   {% else -%}
    1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/12556022).
+   {%- endif %}
    1. Submit the URL to your notebook (`https://colab.research.google.com/drive/...`).
-{%- endif %}
 
 ### Notes
 
