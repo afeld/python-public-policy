@@ -52,8 +52,21 @@ If you insist: Make sure you use at least 40 lines of code to come to a conclusi
 
 ## Submission
 
-[Instructions](assignments.md#submission)
+Note this is different than [submission for other assignments](assignments.md#submission).
 
+1. Remove the following from the notebook, filename, file paths, etc:
+   - Name
+   - NetID
+   - Sensitive information
+      - API keys
+      - Personally-identifiable information (PII)
+1. [Share the notebook.](https://research.google.com/colaboratory/faq.html#notebook-storage) Under `General Access`, select:
+   1. `Anyone with the link`, then
+   1. `Viewer`
+1. Submit.
+   1. Go to [the `Final Project` Assignment in CourseWorks.](https://courseworks2.columbia.edu/courses/233960/assignments)
+   
+   1. Submit the URL to your notebook (`https://colab.research.google.com/drive/...`).
 
 ### Notes
 
