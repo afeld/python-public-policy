@@ -61,7 +61,7 @@ Note this is different than [submission for other assignments](assignments.md#su
       - API keys
       - Personally-identifiable information (PII)
 1. [Share the notebook.](https://research.google.com/colaboratory/faq.html#notebook-storage) Under `General Access`, select:
-   1. `Anyone with the link`, then
+   1. {% if id == "columbia" %}`LionMail`{% else %}`Anyone with the link`{% endif %}, then
    1. `Viewer`
 1. Submit.
    {% if id == "columbia" -%}
