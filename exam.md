@@ -19,14 +19,17 @@ If both of those are the case, you will likely:
     - Coding
       - The syntax isn't expected to be perfect.
     - High-level
-- It will be done online (in-person, synchronously) through [{{exam_tool_name}}]({{exam_tool_docs}}).
-  - To save time, installing this in advance is recommended.
 - It will be "closed book", meaning no:
   - Web browsing
   - Apps
   - Cheat sheets
   - Phones
   - etc.
+- It will be done online (in-person, synchronously) through [{{exam_tool_name}}]({{exam_tool_docs}}).
+  - To save time, installing this in advance is recommended.
+  - This is being used to prevent access to other tabs/apps.
+  - While it _can_ be used to collect location, video, etc., this is disabled.
+  - You only need this for the exam itself; it can be uninstalled afterwards.
 
 ## Topics
 
