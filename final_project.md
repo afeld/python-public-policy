@@ -64,7 +64,7 @@ Note this is different than [submission for other assignments](assignments.md#su
    1. `Anyone with the link`, then
    1. `Viewer`
 1. Submit.
-   1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/12556022).
+   1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575212).
    1. Submit the URL to your notebook (`https://colab.research.google.com/drive/...`).
 
 ### Notes

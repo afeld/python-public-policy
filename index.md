@@ -16,10 +16,10 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
   - [Resources](resources.md)
   - Lecture slides
   - Homework templates
-- [Brightspace site](https://brightspace.nyu.edu/d2l/home/477758), which students will use for:
+- [Brightspace site](https://brightspace.nyu.edu/d2l/home/530902), which students will use for:
   - Submitting assignments
   - Viewing grades
-- [Ed](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/11846240), which is used for:
+- [Ed](https://brightspace.nyu.edu/d2l/le/lessons/530902), which is used for:
   - Accouncements
   - Discussions
 - [Google Colab](https://colab.research.google.com), where work will be completed

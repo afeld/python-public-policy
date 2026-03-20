@@ -6,7 +6,7 @@ If you disagree with the grade, you can appeal by [emailing the instructor](../s
 
 ## How to review
 
-1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/477758).
+1. Open [Brightspace](https://brightspace.nyu.edu/d2l/home/530902).
 1. Go to Assignments, then `Final Project`.
    - Each submission should appear as a link to `https://colab.research.google.com/drive/...`.
    - If you're unable to access the notebooks, try:
