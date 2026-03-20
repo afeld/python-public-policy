@@ -67,7 +67,7 @@ Note this is different than [submission for other assignments](assignments.md#su
    {% if id == "columbia" -%}
    1. Go to [the `Final Project` Assignment in {{lms_name}}.]({{lms_url}}/assignments)
    {% else -%}
-   1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/477758/topics/12556022).
+   1. Go to [`Content` -> `Final Project`](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575212).
    {%- endif %}
    1. Submit the URL to your notebook (`https://colab.research.google.com/drive/...`).
 
