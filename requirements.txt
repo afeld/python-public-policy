@@ -7,7 +7,7 @@ ruff
 jupyter-resource-usage
 
 ## packages imported directly in notebooks ##
-# .python-version should match version in Colab returned by `!python --version`. # Below, match versions in Colab returned by `!pip list` for packages where the interface may change.
+# .python-version should match version in Colab returned by `!python --version`. Below, match versions in Colab returned by `!pip list` for packages where the interface may change.
 # required for pandas' read_html()
 html5lib
 lxml

@@ -42,7 +42,6 @@ assignees: afeld
     - [ ] Adjust dates
     - [ ] Link from Brightspace
     - [ ] Link Assignments
-  - [ ] Change Assignment dates and publish them
   - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus.html#schedule)
   - [ ] [Set up the Final Project](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011896)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
