@@ -19,7 +19,7 @@ Produced and taught by [Aidan Feldman](https://api.afeld.me/). Largely based on 
 - [Brightspace site](https://brightspace.nyu.edu/d2l/home/530902), which students will use for:
   - Submitting assignments
   - Viewing grades
-- [Ed](https://brightspace.nyu.edu/d2l/le/lessons/530902), which is used for:
+- [Ed](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204), which is used for:
   - Accouncements
   - Discussions
 - [Google Colab](https://colab.research.google.com), where work will be completed

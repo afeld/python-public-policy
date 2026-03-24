@@ -48,7 +48,7 @@ Weeks end the day of class, the next one starts the day after. "Weeks" is theref
   - Mark those who didn't as `A` (absent).
 
 
-### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/530902)
+### [Discussions](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204)
 
 - [Help page](https://edstem.org/us/help/using-ed-discussion)
 - We are trying to strike a balance between students getting accurate answers quickly and encouraging students to help one another to cement their learning.

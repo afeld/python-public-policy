@@ -83,7 +83,7 @@ In general, assignments are due at the time class starts. These will all be refl
 
 - Assignments, due dates, and other aspects of the course may be modified mid-course.
   - As much advance notice will be given as possible.
-- Troubleshooting and other communications between class sessions will be through [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902), so that other students can respond and/or benefit from the answers.
+- Troubleshooting and other communications between class sessions will be through [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
 - The instructor/grader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
@@ -150,7 +150,7 @@ To encourage consistent, deeper thought about the Assignments, relevance to the 
 in either:
 
 - Office hours
-- [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902)
+- [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204)
   - When starting a new Conversation, please use a descriptive Title to make them easier to navigate.
 - Email
 

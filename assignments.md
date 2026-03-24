@@ -27,7 +27,7 @@ You'll create your own notebook.
 - **Ask for help.**
   - The assignments are meant to be challenging, not impossible.
   - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
-    - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/530902)
+    - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204)
     - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
 
 ### Coding in general

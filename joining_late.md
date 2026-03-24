@@ -20,7 +20,7 @@ If you're not officially [registered](registration.md) for the course but want t
 - Look through the [important links](index.md#important-links), including [past lectures](syllabus.md#schedule).
    - [Lecture 0](lecture_0.ipynb): [Recording](https://columbiauniversity.zoom.us/rec/play/vhdvk4ltY1Zc63HODGkDLhApUy_AoSim2ypJOq9qW9iW_iV3gfOZd-X4Ed0W_nQGSDZjnkx-kqpffitR.axnvEVsUXXndKnz1)
    - [Lecture 1](lecture_1.ipynb): [Recording](https://columbiauniversity.zoom.us/rec/share/zw8K4v_eP75tXVKQoU0ZSOrW5nIfWCZG0wl-yT7Kn6Mlev1wdEVhZLTVW9M0FqFN.XIArvg5E8J1OHUnK)
-   - You won't be able to access [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575205) or the [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902).
+   - You won't be able to access [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575205) or the [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204).
 - [Complete the Assignment(s) in Google Colab as normal](assignments.md), waiting until you are registered to [submit](assignments.md#submission) them.
 
 ## Once you join
@@ -30,7 +30,7 @@ This is a short class that moves quickly, so depending on how much you missed, y
 If you're coming off the wait list or registering for the course after the first lecture:
 
 
-- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902), in case there's anything you missed.
+- Make sure to read through the pinned threads that appear at the top of the list of [Ed Discussion](https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204), in case there's anything you missed.
 - [Submit](assignments.md#submission) all [past assignments](syllabus.md#schedule).
 - We will mark [Participation](syllabus.md#participation) for weeks prior to when a student is registered as Excused.
    - [Email the instructor](syllabus.md#instructor-information) if there's a mistake.
