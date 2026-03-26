@@ -66,6 +66,11 @@ There are countless places to get data. Below are some examples.
 - [DataPortals](https://dataportals.org/)
 - [Open Data Network](https://www.opendatanetwork.com/)
 
+### Housing data
+
+- [Redfin](https://www.redfin.com/news/data-center/)
+- [Zillow](https://www.zillow.com/research/data/)
+
 ## Inspiration
 
 For starters, see the [Final Project examples from past semesters](../final_project/examples.md).
