@@ -15,7 +15,7 @@ pandas==2.2.2
 # Using v6 (newer than Colab) to avoid the need for the plugin in the base environment, and 6.0.1+ to avoid a bug in the HTML export.
 # https://github.com/plotly/plotly.js/blob/master/CHANGELOG.md#301----2025-02-18
 plotly>=6.0.1
-requests==2.32.4
+requests==2.33.0
 statsmodels==0.14.6
 scipy
 
