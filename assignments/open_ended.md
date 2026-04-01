@@ -143,7 +143,9 @@ You can make data smaller _before_ uploading by filtering it through:
 
 - The data portal, if it supports it
   - This makes the download faster, including only the data you need.
-  - [Instructions for Socrata-based portals](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
+  - Instructions for Socrata-based portals:
+    - [NYC's guide](https://opendata.cityofnewyork.us/how-to/)
+    - [Official](https://support.socrata.com/hc/en-us/articles/202950808-Creating-a-Filtered-View)
 - The `$limit` parameter (or equivalent), if using an API
   - [Socrata documentation](https://dev.socrata.com/docs/queries/limit)
 - In a spreadsheet program
