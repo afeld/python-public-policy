@@ -35,7 +35,7 @@ narwhals
 ## CI ##
 jinja2
 # https://github.com/jupyter/nbconvert/pull/2196
-nbconvert>=7.16.6
+nbconvert[webpdf]>=7.16.6
 nbdime
 pytest
 
