@@ -22,6 +22,8 @@ chapters:
     title: Ed Discussion
   - url: https://colab.research.google.com
     title: Google Colab
+  - url: {{submission_tool_url}}
+    title: Gradescope
   - file: lectures
     sections:
       - file: lecture_0
