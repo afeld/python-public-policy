@@ -20,6 +20,8 @@ chapters:
     title: Ed Discussion
   - url: https://colab.research.google.com
     title: Google Colab
+  - url: https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575205
+    title: Gradescope
   - file: lectures
     sections:
       - file: lecture_0
