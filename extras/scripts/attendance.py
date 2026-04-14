@@ -7,10 +7,10 @@ FREEBIES = 1
 TOP_SCORE = NUM_CLASSES - FREEBIES
 
 ROLL_CALL_CSV = (
-    "~/Downloads/attendance_reports_attendance-264e4d14-1765-4396-b311-4d927b59566d.csv"
+    "~/Downloads/attendance_reports_attendance-b7a09717-16e3-40a0-97f5-9ac821ad2099.csv"
 )
 # get by clicking into the Assignment and getting from the URL
-ASSIGNMENT_ID = 1405957
+ASSIGNMENT_ID = 1562668
 GRADEBOOK_FILE = "attendance.csv"
 STUDENT_UNIQUE_COLS = ["Student ID", "Student Name", "Section Name", "Section"]
 
@@ -41,9 +41,8 @@ def get_entries(filename: str):
 
     entries = normalize_sections(entries)
     # pull the section number out
-    # TODO update course ID
     entries["Section"] = (
-        entries["Section Name"].str.extract(r"INAFU6504_(\d{3})_").astype(int)
+        entries["Section Name"].str.extract(r"SIPAIA6650_(\d{3})_").astype(int)
     )
 
     return entries
