@@ -53,6 +53,7 @@ There are countless places to get data. Below are some examples.
 - [Data Commons](https://datacommons.org/data)
 - [DataHub](https://datahub.io/collections)
 - [Gapminder](https://www.gapminder.org/data/)
+- [GivingTuesday Data Commons](https://data.givingtuesday.org/datasets/)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Kaggle](https://www.kaggle.com/datasets)
 
