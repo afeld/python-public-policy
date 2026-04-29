@@ -61,6 +61,7 @@ There are countless places to get data. Below are some examples.
 - [GivingTuesday Data Commons](https://data.givingtuesday.org/datasets/)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Kaggle](https://www.kaggle.com/datasets)
+- [Opportunity Insights](https://opportunityinsights.org/data/)
 
 ### Directories of open data portals
 
