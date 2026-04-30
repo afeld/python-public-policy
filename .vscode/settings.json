@@ -15,6 +15,5 @@
   },
   "workbench.externalBrowser": "chrome",
   "python-envs.defaultEnvManager": "ms-python.python:venv",
-  "python-envs.defaultPackageManager": "ms-python.python:pip",
-  "python-envs.pythonProjects": []
+  "python-envs.defaultPackageManager": "ms-python.python:pip"
 }
