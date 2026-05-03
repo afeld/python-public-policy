@@ -44,6 +44,7 @@ There are countless places to get data. Below are some examples.
 - [Economic Policy Institute](https://www.epi.org/data/)
 - [Organisation for Economic Co-operation and Development (OECD)](https://www.oecd.org/en/data.html)
 - [Gallup Global Datasets](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)
+- [International Telecommunication Union (ITU)](https://datahub.itu.int/)
 
 ### Secondary sources
 
