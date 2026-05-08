@@ -63,6 +63,7 @@ There are countless places to get data. Below are some examples.
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Opportunity Insights](https://opportunityinsights.org/data/)
+- [Political Science: APIs for Scholarly Resources](https://ucsd.libguides.com/politicalscience/apis)
 
 ### Directories of open data portals
 
