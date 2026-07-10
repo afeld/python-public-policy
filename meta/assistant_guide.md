@@ -195,6 +195,10 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 [Scoring details.](../syllabus.md#final-project)
 
+## [Exam](../exam.md)
+
+The auto-grader is unreliable; any question with free response needs to be checked.
+
 {% if id == "columbia" -%}
 ## Final grades
 
