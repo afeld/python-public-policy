@@ -1,9 +1,10 @@
-import re
 import dataclasses
+import re
+
 from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
 from nbformat import NotebookNode
-from traitlets import Unicode
+from traitlets.traitlets import Unicode
 
 from .school import EXEMPT, SCHOOL_TEXT, SCHOOLS, SchoolText
 

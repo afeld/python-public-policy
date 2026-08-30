@@ -159,6 +159,10 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 [Scoring details.](../syllabus.md#final-project)
 
+## [Exam](../exam.md)
+
+The autograder is unreliable; any question with free response needs to be checked.
+
 ## Final grades
 
 To compute the [attendance](../syllabus.md#attendance) score:
