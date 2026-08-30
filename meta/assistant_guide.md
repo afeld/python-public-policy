@@ -160,5 +160,5 @@ It isn't your responsibility to look for potential instances of cheating/plagiar
 
 ## [Exam](../exam.md)
 
-The auto-grader is unreliable; any question with free response needs to be checked.
+The autograder is unreliable; any question with free response needs to be checked.
 
