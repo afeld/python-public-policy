@@ -40,8 +40,10 @@ For each school, [the workflow](../.github/actions/setup/action.yml):
    - It uses `{% if id == "columbia" %}` and `{% if id == "nyu" %}` conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
    - For notebooks, `school.sh` first removes cells tagged for the other school (`columbia-only` or `nyu-only`) and cells tagged `remove`. It then renders each remaining cell source with the same Jinja variables, while resetting notebook kernel metadata to the default Python kernel for Colab.
 1. Runs `make site`, which builds the Jupyter Book HTML into `_build/html`.
+1. When the push is to `main`, the workflow pushes the amended commit to the relevant school branch. Pushes to other branches still render both versions and upload their HTML, but do not update either published branch.
+1. ReadTheDocs is notified of updates to the school-specific branches, which are then built as separate [versions](https://docs.readthedocs.com/platform/stable/versions.html).
 
-When the push is to `main`, the workflow pushes the amended commit to the relevant school branch. Pushes to other branches still render both versions and upload their HTML, but do not update either published branch. The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/storing-and-sharing-data-from-a-workflow) from [the latest `Publish` Action](https://github.com/afeld/python-public-policy/actions/workflows/publish.yml).
+The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/storing-and-sharing-data-from-a-workflow) from [the latest `Publish` Action](https://github.com/afeld/python-public-policy/actions/workflows/publish.yml).
 
 ### Building locally
 
