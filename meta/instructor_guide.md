@@ -35,7 +35,10 @@ For each school, [the workflow](../.github/actions/setup/action.yml):
 1. Switches to the corresponding school branch and merges the pushed branch using Git's `ours` strategy. It then restores the pushed branch's working tree. This records that the school branch includes the source revision without using the school branch's generated files as merge inputs.
 1. Commits that preliminary source tree.
 1. Runs [`school_ci.sh`](../extras/scripts/school_ci.sh) with the school ID. The script removes files that do not belong in a published school version, including development tools and tests.
-1. Calls [`school.sh`](../extras/scripts/school.sh), which applies school-specific templates to Markdown and notebooks. It removes cells tagged for the other school or tagged `remove`.
+1. Calls [`school.sh`](../extras/scripts/school.sh) to render school-specific templates.
+   - It renders every eligible file (Markdown, notebooks, etc.) with Jinja, replacing variables such as `{{school_name}}`, `{{lms_url}}`, and `{{assistant_name}}` from the [configuration](../extras/lib/school.py) for the selected school.
+   - It uses `{% if id == "columbia" %}` and `{% if id == "nyu" %}` conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
+   - For notebooks, `school.sh` first removes cells tagged for the other school (`columbia-only` or `nyu-only`) and cells tagged `remove`. It then renders each remaining cell source with the same Jinja variables, while resetting notebook kernel metadata to the default Python kernel for Colab.
 1. Runs `make site`, which builds the Jupyter Book HTML into `_build/html`.
 
 When the push is to `main`, the workflow pushes the amended commit to the relevant school branch. Pushes to other branches still render both versions and upload their HTML, but do not update either published branch. The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/storing-and-sharing-data-from-a-workflow) from [the latest `Publish` Action](https://github.com/afeld/python-public-policy/actions/workflows/publish.yml).
