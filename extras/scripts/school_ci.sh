@@ -7,7 +7,6 @@ set -x
 SCHOOL=$1
 
 # remove irrelevant files
-
 git rm -r \
     .vscode/ \
     nbdime_config.json \

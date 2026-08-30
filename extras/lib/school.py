@@ -144,6 +144,9 @@ SCHOOL_TEXT = {school.id: school for school in SCHOOLS}
 
 # text that contains / is adjacent to prefixes above, which are allowed for both schools
 EXEMPT = [
+    '{% if id == "columbia" %}` and `{% if id == "nyu" %}',
+    "`columbia-only` or `nyu-only`",
+    "`columbia` and `nyu` branches",
     ".zoom.us/rec",
     "autograder",  # matches "grader"
     "baseurl: ",  # _config.yml
