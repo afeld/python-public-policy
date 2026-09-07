@@ -58,10 +58,8 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 
 - **Course Number:** [PADM-GP 4506](https://wagner.nyu.edu/education/courses/python-coding-for-public-policy)
 - **Course site:** [python-public-policy.afeld.me/en/{{school_slug}}/](https://python-public-policy.afeld.me/en/{{school_slug}}/)
-- **Class Meeting Times:** Tuesdays, 3/24-5/5
-  - Section 1: 4:55pm-6:35pm
-  - Section 2: 6:45-8:25pm
-- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 123
+- **Class Meeting Times:** Wednesdays, 10/28-12/9, 6:45-8:25pm
+- **Class Location:** Wagner, [105 E 17 St](https://maps.app.goo.gl/s96mgESm9W5eEPyUA), room 115
 - **Prerequisites:** None
 - **Textbooks:** None
 - Students should bring a laptop to class
@@ -71,7 +69,6 @@ This is the syllabus for the Spring editions of the course. [Find information ab
 ## Instructor Information
 
 - **Professor:** [Aidan Feldman](https://wagner.nyu.edu/community/faculty/aidan-feldman), {{email}}
-- **{{assistant_name|title}}:** Zhiyi Zhao, zz10023@nyu.edu
 - **Office Hours:** By appointment; email the instructor
 
 {% endif -%}
@@ -126,15 +123,15 @@ By the end of the course, students will know:
 
 | Date  | Lecture             | Homework due                                               | [Late deadline](#assignment-scoring)                       |
 | ----- | ------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 3/24  | {doc}`lecture_0`    | none                                                       |                                                            |
-| 3/31  | {doc}`lecture_1`    | [Homework 0][hw0]                                          |                                                            |
-| 4/7   | {doc}`lecture_2`    | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 4/14  | {doc}`lecture_3`    | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 4/21  | {doc}`lecture_4`    | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 4/28  | {doc}`lecture_5`    | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 5/5   | {doc}`lecture_6`    | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 5/8   | none                | none                                                       | [Final Project][final]                                     |
-| 5/12  | [Exam][exam]        | [Final Project peer grading][final-peer]                   |                                                            |
+| 10/28 | {doc}`lecture_0`    | none                                                       |                                                            |
+| 11/4  | {doc}`lecture_1`    | [Homework 0][hw0]                                          |                                                            |
+| 11/11 | {doc}`lecture_2`    | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 11/18 | {doc}`lecture_3`    | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |˚
+| 11/25 | {doc}`lecture_4`    | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 12/2  | {doc}`lecture_5`    | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 12/9  | {doc}`lecture_6`    | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 12/12 | none                | none                                                       | [Final Project][final]                                     |
+| 12/16 | [Exam][exam]        | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% endif -%}
 
@@ -146,7 +143,7 @@ In general, assignments are due at the time class starts. These will all be refl
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussion]({{discussions_url}}), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
-- The instructor/{{assistant_name}} will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
+- The instructor will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
 ## Assignments and Evaluation
 

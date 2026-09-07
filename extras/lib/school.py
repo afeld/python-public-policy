@@ -1,5 +1,4 @@
 import dataclasses
-from typing import List
 
 
 @dataclasses.dataclass
@@ -39,7 +38,7 @@ class SchoolText:
     course_search: str
     linkedin_learning_url: str
     ai_offerings: str
-    prefixes: List[str]
+    prefixes: list[str]
 
 
 SCHOOLS = [
@@ -96,11 +95,11 @@ SCHOOLS = [
         email="alf9@nyu.edu",
         color="#57058b",
         course_name="Python Coding for Public Policy",
-        term="Spring 2026",
+        term="Fall 2026",
         lms_name="Brightspace",
-        lms_url="https://brightspace.nyu.edu/d2l/home/530902",
-        submission_tool_url="https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575205",
-        discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/530902/topics/12575204",
+        lms_url="https://brightspace.nyu.edu/d2l/home/613479",
+        submission_tool_url="https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575205",
+        discussions_url="https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575204",
         survey_url="https://docs.google.com/forms/d/e/1FAIpQLSfDnP9AaCGWLLM7ODGh1t9lJWsHTCH37BUSrFTYrCU0ELjj5g/viewform",
         name_tool_url="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/forms-policies-procedures/pronouns-and-name-pronunciation.html#S1",
         lms_profile_pic_url="https://community.d2l.com/brightspace/kb/articles/18108-change-personal-settings-in-brightspace",
