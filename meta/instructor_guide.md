@@ -37,7 +37,7 @@ For each school, [the workflow](../.github/actions/setup/action.yml):
 1. Runs [`school_ci.sh`](../extras/scripts/school_ci.sh) with the school ID. The script removes files that do not belong in a published school version, including development tools and tests.
 1. Calls [`school.sh`](../extras/scripts/school.sh) to render school-specific templates.
    - Jinja templating is used throughout the source files (Markdown, notebooks, etc.), rendered using [nbconvert](https://nbconvert.readthedocs.io/) with [a custom preprocessor](../extras/lib/school_template.py).
-   - Variables (such as `NYU Wagner`, `https://brightspace.nyu.edu/d2l/home/530902`, and `grader`) are replaced with the values from the [configuration file](../extras/lib/school.py) for the selected school.
+   - Variables (such as `NYU Wagner`, `https://brightspace.nyu.edu/d2l/home/613479`, and `grader`) are replaced with the values from the [configuration file](../extras/lib/school.py) for the selected school.
    - It uses `{% if id == "columbia" %}` and `{% if id == "nyu" %}` conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
    - For notebooks, `school.sh` first removes cells tagged for the other school (`columbia-only` or `nyu-only`) and cells tagged `remove`. It then renders each remaining cell source with the same Jinja variables, while resetting notebook kernel metadata to the default Python kernel for Colab.
 1. Runs `make site`, which builds the Jupyter Book HTML into `_build/html`.
