@@ -1,0 +1,110 @@
+version: 1
+project:
+  id: f6e67d86-5ff0-4f42-ab5a-a421c82f8f9e
+  title: "{{course_name}} @ {{school_name}}"
+  authors:
+    - name: Aidan Feldman
+  exclude:
+    - .github/*
+    - .pytest_cache/*
+    - tmp/*
+  github: afeld/python-public-policy
+  toc:
+    - file: home.md
+    - file: index
+      title: Homepage
+    - file: syllabus
+      children:
+        - file: registration
+        - file: joining_late
+        - file: exam
+        {% if id == "columbia" -%}
+        - file: curve
+        {%- endif %}
+    - file: resources
+      children:
+        - file: brackets
+          title: Brackets
+    - url: "{{lms_url}}"
+      title: "{{lms_name}}"
+    - url: "{{discussions_url}}"
+      title: Ed Discussion
+    - url: https://colab.research.google.com
+      title: Google Colab
+    - url: "{{submission_tool_url}}"
+      title: Gradescope
+    - file: lectures
+      children:
+        - file: lecture_0
+        - file: lecture_1
+          children:
+            - file: lecture_1_exercise
+              title: In-class exercise
+            - file: lecture_1_exercise_solution
+              title: In-class exercise solution
+            - file: lecture_1_demo_solution
+              title: Demo solution
+        - file: lecture_2
+          children:
+            - file: lecture_2_exercise
+              title: In-class exercise
+            {% if id == "columbia" -%}
+            - file: lecture_2_exercise_2_solution
+              title: Exercise 2 solution
+            {%- endif %}
+        - file: lecture_3
+          children:
+            - file: lecture_3_exercise_solution
+              title: In-class exercise solution
+            - file: lecture_3_demo_solution
+              title: Demo solution
+        - file: lecture_4
+          children:
+            - file: lecture_4_demo_solution
+              title: Demo solution
+        - file: lecture_5
+          children:
+            - file: lecture_5_exercise_solution
+              title: In-class exercise solution
+        - file: lecture_6
+    - file: assignments
+      title: Assignments
+      children:
+        - file: assignments/open_ended
+        - file: hw_0
+        - file: hw_1
+        - file: hw_2
+        - file: hw_3
+        - file: hw_4
+        - file: final_project
+          children:
+            - file: final_project/proposal
+              title: Proposal
+            - file: final_project/resources
+              title: Resources
+            - file: final_project/peer_grading
+              title: Peer grading
+            - file: final_project/examples
+              title: Examples
+              children:
+                - file: final_project/creepy_crawly.ipynb
+                - file: final_project/lead.ipynb
+                - file: final_project/universities.ipynb
+    - file: meta
+      children:
+        - file: meta/assistant_guide
+          children:
+            - file: meta/ed_helper
+        - file: meta/instructor_guide
+        {% if id == "nyu" -%}
+        - file: meta/adrs
+          children:
+            - file: meta/adrs/plotting
+              title: Plotting
+            - file: meta/adrs/submission
+              title: Submission
+        {%- endif %}
+site:
+  template: book-theme
+  options:
+    folders: true
