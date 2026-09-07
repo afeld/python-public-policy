@@ -95,7 +95,7 @@ In general, assignments are due at the time class starts. These will all be refl
   - As much advance notice will be given as possible.
 - Troubleshooting and other communications between class sessions will be through [Ed Discussion](https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless), so that other students can respond and/or benefit from the answers.
   - Email is also an option, though please only use for questions that aren't appropriate for others to see.
-- The instructor/Reader will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
+- The instructor will try to respond within 24 hours, 48 hours max, if someone else hasn't already.
 
 ## Assignments and Evaluation
 
