@@ -1,6 +1,7 @@
 # https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
 
 name: Set up build environment
+description: Installs dependencies
 runs:
   using: composite
   steps:
@@ -8,10 +9,7 @@ runs:
       uses: actions/setup-python@v6
     - name: Set up uv
       uses: astral-sh/setup-uv@v6
-      with:
-        enable-cache: true
-        cache-dependency-glob: requirements.txt
     - name: Install packages
-      run: uv pip install --system -r requirements.txt
+      run: uv sync --locked --system
       # https://stackoverflow.com/a/71042698/358804
       shell: bash

@@ -4,7 +4,7 @@ _While this is meant as internal documentation for the instructor, others are we
 
 ## Adding/updating packages
 
-1. Modify [`requirements.txt`](https://github.com/afeld/python-public-policy/blob/main/requirements.txt)
+1. Modify the dependencies in [`pyproject.toml`](https://github.com/afeld/python-public-policy/blob/main/pyproject.toml)
 1. Run
 
    ```sh
