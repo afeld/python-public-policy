@@ -38,6 +38,7 @@ jinja2
 nbconvert[webpdf]>=7.16.6
 nbdime
 pytest
+markdown-it-py
 
 jupyter-book==2.*
 # https://github.com/sphinx-doc/sphinx/issues/10440#issuecomment-1556180835
