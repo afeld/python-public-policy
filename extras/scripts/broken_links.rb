@@ -20,7 +20,9 @@ options = {
     # https://github.com/gjtorikian/html-proofer/issues/663#issuecomment-989274727
     /(?<=\.pdf)#.*$/ => "",
     # make absolute links relative
-    %r{^https://python-public-policy\.afeld\.me/en/\w+} => ""
+    %r{^https://python-public-policy\.afeld\.me/en/\w+} => "",
+    # Jupyter Book 2 builds pages as /<path>/index.html by default
+    %r{^/(.+)\.html(#.*)?$} => '/\1/\2'
   }
 }
 HTMLProofer.check_directory("_build/html", options).run
