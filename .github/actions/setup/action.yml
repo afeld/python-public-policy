@@ -11,7 +11,11 @@ runs:
       uses: astral-sh/setup-uv@v6
       with:
         activate-environment: true
+      env:
+        UV_PROJECT_ENVIRONMENT: /tmp/uv-project-env
     - name: Install packages
       run: uv sync --locked
+      env:
+        UV_PROJECT_ENVIRONMENT: /tmp/uv-project-env
       # https://stackoverflow.com/a/71042698/358804
       shell: bash
