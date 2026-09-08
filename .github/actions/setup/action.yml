@@ -6,9 +6,12 @@ runs:
   steps:
     - name: Set up Python
       uses: actions/setup-python@v6
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v6
       with:
-        cache: pip
+        enable-cache: true
+        cache-dependency-glob: requirements.txt
     - name: Install packages
-      run: pip install -r requirements.txt
+      run: uv pip install --system -r requirements.txt
       # https://stackoverflow.com/a/71042698/358804
       shell: bash
