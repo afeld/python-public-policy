@@ -26,13 +26,12 @@ site:
 	jupyter-book build --html --all --ci
 
 setup:
-	uv venv .venv
+	uv sync
 	uv pip install --python .venv/bin/python \
-		-r requirements.txt \
 		-r extras/autograder/source/requirements.txt
 
 update_packages:
-	uv pip install --python .venv/bin/python --upgrade -r requirements.txt
+	uv sync --upgrade
 
 	./extras/scripts/update_lectures.sh
 
