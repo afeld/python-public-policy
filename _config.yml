@@ -6,6 +6,7 @@ only_build_toc_files: true
 exclude_patterns:
   - .github/*
   - .pytest_cache/*
+  - .venv/*
   - tmp/*
 
 execute:

@@ -2,8 +2,6 @@
 
 set -ex
 
-apt-get install -y python3 curl
-curl -LsSf https://astral.sh/uv/install.sh | sh
-export PATH="$HOME/.local/bin:$PATH"
+apt-get install -y python3 python3-pip
 
-uv pip install --system -r /autograder/source/requirements.txt
+pip3 install -r /autograder/source/requirements.txt
