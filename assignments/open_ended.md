@@ -52,10 +52,15 @@ There are countless places to get data. Below are some examples.
 - [Organisation for Economic Co-operation and Development (OECD)](https://www.oecd.org/en/data.html)
 - [Gallup Global Datasets](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)
 - [International Telecommunication Union (ITU)](https://datahub.itu.int/)
+- [Dryad](https://datadryad.org/)
+- [ICPSR](https://www.icpsr.umich.edu/sites/icpsr/home)
+- [SciOp](https://sciop.net/)
+- [Source Cooperative](https://source.coop/products)
 
 ### Secondary sources
 
 - [Black Wealth Data](https://blackwealthdata.org/)
+- [Catalyst Cooperative](https://catalyst.coop/)
 - [Data Commons](https://datacommons.org/data)
 - [DataHub](https://datahub.io/collections)
 - [Gapminder](https://www.gapminder.org/data/)
