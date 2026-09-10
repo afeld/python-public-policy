@@ -14,7 +14,7 @@ git rm -r \
     extras/terraform/ \
     extras/**/test_*.py
 
-# match the conditionals in _toc.yml
+# match the conditionals in myst.yml
 if [ "$SCHOOL" = "columbia" ]; then
     git rm -r meta/adrs*
 else
