@@ -41,6 +41,7 @@ For each school, [the workflow](../.github/actions/setup/action.yml):
    - It uses {% raw %}`{% if id == "columbia" %}` and `{% if id == "nyu" %}`{% endraw %} conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
    - For notebooks, `school.sh` first removes cells tagged for the other school (`columbia-only` or `nyu-only`) and cells tagged `remove`. It then renders each remaining cell source with the same Jinja variables, while resetting notebook kernel metadata to the default Python kernel for Colab.
 1. Runs `make site`, which builds the Jupyter Book HTML into `_build/html`.
+1. Generates redirects from old Jupyter Book 1 `.html` paths to Jupyter Book 2 URLs using [jb1-redirect-generator](https://github.com/jupyter-book/jb1-redirect-generator).
 1. When the push is to `main`, the workflow pushes the amended commit to the relevant school branch. Pushes to other branches still render both versions and upload their HTML, but do not update either published branch.
 1. ReadTheDocs is notified of updates to the school-specific branches, which are then built as separate [versions](https://docs.readthedocs.com/platform/stable/versions.html).
 
