@@ -29,7 +29,7 @@ The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed
 
 This repository produces separate versions of the course site for Columbia and NYU. The source of truth is the `main` branch; the `columbia` and `nyu` branches contain generated, school-specific source files and their rendered sites.
 
-For each school, [the workflow](../.github/actions/setup/action.yml):
+For each school, [the workflow](../.github/workflows/publish.yml):
 
 1. Checks out the repository and installs the Python dependencies.
 1. Switches to the corresponding school branch and merges the pushed branch using Git's `ours` strategy. It then restores the pushed branch's working tree. This records that the school branch includes the source revision without using the school branch's generated files as merge inputs.
