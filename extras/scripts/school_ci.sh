@@ -28,7 +28,7 @@ make site
 
 # Generate redirects from old Jupyter Book 1 URLs to Jupyter Book 2 URLs.
 uv run --with click --with pyyaml \
-    https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py \
+    https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/d70ce6d7df9f2dfc83bb1d409336c0cc3e20697f/generate_redirects.py \
     --base-url "https://python-public-policy.afeld.me/en/$SCHOOL/" \
     --output-dir _build/html \
     --myst-config myst.yml
