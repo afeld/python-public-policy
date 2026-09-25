@@ -23,7 +23,7 @@ format:
 
 # https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 site:
-	jupyter-book build . --html --all --ci
+	jupyter-book build . --html --all --ci -W -n --keep-going
 
 setup:
 	uv sync

@@ -12,7 +12,13 @@ build:
     python: "3.12"
     nodejs: "22"
   commands:
-    - jupyter-book build . --html
+    - make site
+    - >-
+      uv run --with click --with pyyaml
+      https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/d70ce6d7df9f2dfc83bb1d409336c0cc3e20697f/generate_redirects.py
+      --base-url "${READTHEDOCS_CANONICAL_URL%/}/"
+      --output-dir _build/html
+      --myst-config myst.yml
     - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
     - make fix_double_escaping build_dir="$READTHEDOCS_OUTPUT"
