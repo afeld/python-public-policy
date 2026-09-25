@@ -25,7 +25,7 @@ options = {
     # Folder-style pages coexist with redirect files, and html-proofer doesn't
     # resolve their anchors correctly. Strip hashes so it validates page
     # existence without false anchor failures.
-    %r{\A((?:/[^/.#?]+)+)#.*$} => "\\1",
+    %r{\A((?:/[^/.#?]+)+(?:/)?)#.*$} => "\\1",
     # make absolute links relative
     %r{^https://python-public-policy\.afeld\.me/en/\w+} => ""
   }
