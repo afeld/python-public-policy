@@ -12,7 +12,7 @@ build:
     python: "3.12"
     nodejs: "22"
   commands:
-    - jupyter-book build --html
+    - jupyter-book build . --html
     - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
     - make fix_double_escaping build_dir="$READTHEDOCS_OUTPUT"
