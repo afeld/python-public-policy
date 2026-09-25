@@ -35,10 +35,11 @@ dependencies = [
     # https://plotly.com/python/getting-started/#jupyterlab-support
     "anywidget",
     "isoduration",
-    "jupyter-book==1.*",
+    "jupyter-book==2.*",
 
     # CI
     "jinja2",
+    "markdown-it-py",
     "nbconvert[webpdf]>=7.16.6",
     "nbdime",
     "pytest",

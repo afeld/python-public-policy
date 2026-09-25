@@ -1,3 +1,7 @@
+---
+slug: homepage
+---
+
 # {{course_name}}
 
 **Alternate course title:** _How to Use a Bit of Code to Do Things That Would Be Really Hard in Spreadsheets_

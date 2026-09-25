@@ -7,16 +7,18 @@ python:
       command: sync
 
 build:
-  os: ubuntu-lts-latest
+  os: ubuntu-22.04
   tools:
-    python: "3"
-  jobs:
-    # https://jupyterbook.org/en/stable/publish/readthedocs.html
-    pre_build:
-      - jupyter-book config sphinx .
-    post_build:
-      - make fix_double_escaping build_dir="$READTHEDOCS_OUTPUT"
-
-sphinx:
-  # https://about.readthedocs.com/blog/2024/12/deprecate-config-files-without-sphinx-or-mkdocs-config/
-  configuration: conf.py
+    python: "3.12"
+    nodejs: "22"
+  commands:
+    - make site
+    - >-
+      uv run --with click --with pyyaml
+      https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/d70ce6d7df9f2dfc83bb1d409336c0cc3e20697f/generate_redirects.py
+      --base-url "${READTHEDOCS_CANONICAL_URL%/}/"
+      --output-dir _build/html
+      --myst-config myst.yml
+    - mkdir -p $READTHEDOCS_OUTPUT/html/
+    - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
+    - make fix_double_escaping build_dir="$READTHEDOCS_OUTPUT"
