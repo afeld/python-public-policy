@@ -102,10 +102,8 @@ site:
   nav:
     - title: "{{lms_name}}"
       url: "{{lms_url}}"
-    - title: Ed Discussion
+    - title: Ed
       url: "{{discussions_url}}"
-    - title: Google Colab
-      url: https://colab.research.google.com
     - title: Gradescope
       url: "{{submission_tool_url}}"
   parts:
