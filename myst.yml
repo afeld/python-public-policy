@@ -95,10 +95,8 @@ site:
   nav:
     - title: "Brightspace"
       url: "https://brightspace.nyu.edu/d2l/home/613479"
-    - title: Ed Discussion
+    - title: Ed
       url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575204"
-    - title: Google Colab
-      url: https://colab.research.google.com
     - title: Gradescope
       url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575205"
   parts:
