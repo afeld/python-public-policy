@@ -1,3 +1,5 @@
+/* included via site.options.style in myst.yml */
+
 iframe {
   width: 100%;
 }
@@ -16,33 +18,62 @@ article ol ol ol li {
 }
 
 /* keep outputs from being too long */
-.cell_output .output {
-  max-height: 20rem;
+[data-name="outputs-container"] {
+  max-height: 40rem;
   overflow-y: auto;
+}
 
-  /* for HTML outputs, go a bit longer, since this includes things like visualizations */
-  &.text_html {
-    max-height: 40rem;
+.course-term p {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* show the "Open in Colab" link as a button in the page header, by overlapping it with the frontmatter block in the article grid. See extras/myst/colab.mjs. */
+article:has(> .colab-link) > .myst-fm-block {
+  grid-row: 1;
+}
+article > .colab-link {
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+  z-index: 1;
+  /* line up with the header, below the frontmatter block's top padding (the theme resets margins) */
+  padding-top: 2.25rem;
+
+  p {
+    margin: 0;
+  }
+  a {
+    display: block;
+    padding: 0 0.6rem;
+    border: 1px solid currentColor;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    /* match the header's height, including the border */
+    line-height: calc(1.5rem - 2px);
+    text-decoration: none;
   }
 }
 
-/* indicate the version by color, overriding the colors from sphinx-book-theme */
-/* top nav bar */
-.bd-header-article {
-  --pst-color-background: {{color}};
-
-  .btn {
-    --pst-color-text-base: white;
-    --pst-color-text-muted: white;
+.print-only {
+  display: none;
+}
+@media print {
+  .print-only {
+    display: block;
   }
+}
 
-  /* undo for dropdown menus */
-  .dropdown-menu {
-    --pst-color-background: white;
+/* indicate the version by color */
+.myst-top-nav {
+  background-color: {{color}};
+  color: white;
 
-    .btn {
-      --pst-color-text-base: #323232;
-      --pst-color-text-muted: #646464;
-    }
+  /* site title, menu button, and external links */
+  .myst-top-nav-bar > div:first-child a,
+  .myst-top-nav-bar > div:first-child button,
+  .myst-top-nav-bar > div:first-child + div a {
+    color: white;
   }
 }

@@ -1,3 +1,5 @@
+# Syllabus
+
 {% if id == "columbia" -%}
 [![Columbia SIPA banner](extras/img/sipa.svg)](https://www.sipa.columbia.edu/)
 
@@ -5,15 +7,17 @@
 
 {% else -%}
 
-[![NYU Wagner banner](https://wagner.nyu.edu/files/contact/img/Plain-Header.jpg)](https://wagner.nyu.edu)
+[![NYU Wagner banner](extras/img/wagner.jpg)](https://wagner.nyu.edu)
 
 {% endif -%}
 
-# Syllabus
+:::{div}
+:class: course-term
 
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">{{course_name}} - {{term}}</p>
+{{course_name}} - {{term}}
+:::
 
-<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus.html">python-public-policy.afeld.me</a>.</div>
+<div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus/">python-public-policy.afeld.me</a>.</div>
 <style>
   .print-only {
     display: none;
@@ -251,9 +255,9 @@ Attending class is mandatory, but most importantly, important. Learning programm
 
 Missing class counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. Missing more than 20 minutes of a class session will be treated as an absence. The first absence is treated as a "freebie". Your final Attendance score will be calculated as:
 
-$$\text{maximum_score} = \text{total_classes} - \text{freebies} = 7 - 1 = 6$$
+$$\text{maximum\_score} = \text{total\_classes} - \text{freebies} = 7 - 1 = 6$$
 
-$$\text{your_score} = \min(\text{maximum_score}, \text{number_of_classes_you_attended})$$
+$$\text{your\_score} = \min(\text{maximum\_score}, \text{number\_of\_classes\_you\_attended})$$
 
 If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
 

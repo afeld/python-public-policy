@@ -63,7 +63,8 @@ build() {
         # match the snapshot exactly, discarding the previous render
         git checkout --detach --force --quiet "$SNAPSHOT"
         git clean -fdq
-        ./extras/scripts/school_ci.sh "$school" >build.log 2>&1 ||
+        # serve from the root rather than Read the Docs' /en/<school>/
+        BASE_URL="" ./extras/scripts/school_ci.sh "$school" >build.log 2>&1 ||
             {
                 echo "$school build failed; see $dir/build.log" >&2
                 exit 1

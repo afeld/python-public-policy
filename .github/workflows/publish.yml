@@ -42,8 +42,6 @@ jobs:
       #     path: ./
       - name: Render for school
         run: ./extras/scripts/school_ci.sh ${{ matrix.school }}
-      - name: Fix double-escaping
-        run: make fix_double_escaping
       - name: Update commit
         run: |
           git add -A
