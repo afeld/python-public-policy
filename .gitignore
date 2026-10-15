@@ -6,7 +6,6 @@ _build/
 *.csv
 *.slides.html
 * threads.json
-conf.py
 data
 shared
 solutions
