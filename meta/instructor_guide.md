@@ -62,6 +62,16 @@ The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/w
    ./extras/scripts/school_ci.sh <school>
    ```
 
+### Previewing locally
+
+To preview one or both schools without touching your working tree (e.g. from a Git worktree), run:
+
+```sh
+make preview [school=<school>]
+```
+
+This [snapshots the working tree](../extras/scripts/preview.sh), including uncommitted changes, into a separate worktree per school under `tmp/preview/`, then runs `school_ci.sh` in each, in parallel. It then serves each school on its own port, printing the URLs. To change the ports, such as when previewing from multiple worktrees at once, see the script. Re-run it to pick up changes.
+
 ### Checking broken links
 
 Once the site is built, you can check broken links with:

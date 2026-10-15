@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "columbia",
+      "runtimeExecutable": "./extras/scripts/preview.sh",
+      "runtimeArgs": ["columbia"],
+      "port": 8101
+    },
+    {
+      "name": "nyu",
+      "runtimeExecutable": "./extras/scripts/preview.sh",
+      "runtimeArgs": ["nyu"],
+      "port": 8102
+    }
+  ]
+}
