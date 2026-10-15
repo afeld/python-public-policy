@@ -4,6 +4,8 @@ project:
   title: "{{course_name}} @ {{school_name}}"
   authors:
     - name: Aidan Feldman
+  plugins:
+    - extras/myst/colab.mjs
   exclude:
     - .github/*
     - .pytest_cache/*

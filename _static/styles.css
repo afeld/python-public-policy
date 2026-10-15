@@ -29,6 +29,33 @@ article ol ol ol li {
   text-align: center;
 }
 
+/* show the "Open in Colab" link as a button in the page header, by overlapping it with the frontmatter block in the article grid. See extras/myst/colab.mjs. */
+article:has(> .colab-link) > .myst-fm-block {
+  grid-row: 1;
+}
+article > .colab-link {
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+  z-index: 1;
+  /* line up with the header, below the frontmatter block's top padding (the theme resets margins) */
+  padding-top: 2.25rem;
+
+  p {
+    margin: 0;
+  }
+  a {
+    display: block;
+    padding: 0 0.6rem;
+    border: 1px solid currentColor;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    /* match the header's height, including the border */
+    line-height: calc(1.5rem - 2px);
+    text-decoration: none;
+  }
+}
+
 .print-only {
   display: none;
 }
