@@ -1,5 +1,6 @@
 __pycache__/
 _build/
+.claude/
 .ipynb_checkpoints/
 .nbgrader.log
 .venv/
