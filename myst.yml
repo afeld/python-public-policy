@@ -11,6 +11,7 @@ project:
     - .pytest_cache/*
     - tmp/*
   github: afeld/python-public-policy
+  # conditionals should match the files extras/scripts/school.sh removes
   toc:
     - file: index.md
     - file: syllabus.md
