@@ -11,16 +11,6 @@ Python for Public Policy - Spring 2026
 :::
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/columbia/syllabus/">python-public-policy.afeld.me</a>.</div>
-<style>
-  .print-only {
-    display: none;
-  }
-  @media print {
-    .print-only {
-      display: block;
-    }
-  }
-</style>
 
 This is the syllabus for the Spring editions of the course. [Find information about the Fall editions (SIPA6650IA) in Vergil.](https://vergil.columbia.edu/vergil/course/20261/105959)
 
