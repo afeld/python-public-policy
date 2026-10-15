@@ -5,8 +5,7 @@ description: Installs dependencies
 runs:
   using: composite
   steps:
-    - name: Set up Python
-      uses: actions/setup-python@v6
+    # uv installs the Python version from .python-version
     - name: Set up uv
       uses: astral-sh/setup-uv@v6
       with:
