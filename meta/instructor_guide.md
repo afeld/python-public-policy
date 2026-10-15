@@ -23,7 +23,7 @@ make slides lec=N
 
 ## Site
 
-The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Markdown (`.md`) files and the files and folders that start with an underscore (`_`) are related to JupyterBook.
+The site is generated using [JupyterBook](https://jupyterbook.org/) and deployed to [ReadTheDocs](https://readthedocs.org/). Markdown (`.md`) files, [`myst.yml`](../myst.yml), and files and folders that start with an underscore (`_`) are related to JupyterBook.
 
 ### Publishing
 

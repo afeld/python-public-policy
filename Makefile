@@ -23,7 +23,7 @@ format:
 
 # https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 site:
-	jupyter-book build --all -W -n --keep-going .
+	jupyter-book build --html --all --ci
 
 # school can be columbia, nyu, or omitted for both
 preview:
