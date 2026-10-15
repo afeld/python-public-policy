@@ -9,16 +9,6 @@ Python Coding for Public Policy - Fall 2026
 :::
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/nyu/syllabus/">python-public-policy.afeld.me</a>.</div>
-<style>
-  .print-only {
-    display: none;
-  }
-  @media print {
-    .print-only {
-      display: block;
-    }
-  }
-</style>
 
 ## Course Information
 
