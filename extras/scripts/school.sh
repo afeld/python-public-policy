@@ -23,22 +23,18 @@ case $SCHOOL in
         ;;
 esac
 
-if [ $# -eq 1 ]; then
-    # render files, with a bunch of exceptions
-    FILES=$(git ls-files -- \
-        ':!:*.js' ':!:*.py' ':!:*.tf' \
-        ':!:**/environment*.yml' \
-        ':!:.github/workflows/*' \
-        ':!:.github/ISSUE_TEMPLATE/new-term-*.md' \
-        ':!:.readthedocs.yaml' \
-        ':!:Makefile' \
-        ':!:extras/img/*' \
-        ':!:extras/pandas_crash_course.ipynb' \
-        ':!:extras/scripts/*')
-else
-    shift 1
-    FILES=$*
-fi
+shift 1
+# render the given files (or all of them), with a bunch of exceptions
+FILES=$(git ls-files -- "$@" \
+    ':!:*.js' ':!:*.py' ':!:*.tf' \
+    ':!:**/environment*.yml' \
+    ':!:.github/workflows/*' \
+    ':!:.github/ISSUE_TEMPLATE/new-term-*.md' \
+    ':!:.readthedocs.yaml' \
+    ':!:Makefile' \
+    ':!:extras/img/*' \
+    ':!:extras/pandas_crash_course.ipynb' \
+    ':!:extras/scripts/*')
 
 # allow this script to be run from other directories
 PYTHONPATH=$(dirname "$0")/../..
