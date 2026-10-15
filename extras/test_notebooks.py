@@ -82,8 +82,8 @@ def test_heading_levels(file):
 def check_link(token: Token, parent: Token | None = None):
     if token.type == "link_open":
         href = str(token.attrGet("href"))
-        # escaped Jinja2 tags
-        if not re.match(r"http|#|%7B%7B", href):
+        # escaped Jinja2 tags, or local media (e.g. to view a video full screen), which like embedded images only resolves on the site/slides
+        if not re.match(r"http|#|%7B%7B|extras/img/", href):
             source = parent.content if parent else token.content
             assert False, f"Link should be absolute. Text:\n\n{source}\n"
 

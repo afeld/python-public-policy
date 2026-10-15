@@ -21,9 +21,10 @@ file := .
 format:
 	ruff format $(file)
 
-# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 site:
-	jupyter-book build --all -W -n --keep-going .
+	jupyter-book build --html --ci --strict
+	# these point to the temporary server used for the build (http://localhost:3000), so let Read the Docs generate them instead
+	rm -f _build/html/robots.txt _build/html/sitemap.xml _build/html/sitemap_style.xsl
 
 # school can be columbia, nyu, or omitted for both
 preview:
@@ -62,8 +63,3 @@ build_dir := _build
 
 clean:
 	rm -rf $(build_dir)
-
-# https://github.com/jupyter-book/jupyter-book/issues/2271
-# https://stackoverflow.com/a/1583282/358804
-fix_double_escaping:
-	find $(build_dir)/html -name '*.html' -print0 | xargs -0 sed -i 's/&amp;amp;/\&amp;/g'

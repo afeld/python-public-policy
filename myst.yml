@@ -1,0 +1,112 @@
+version: 1
+project:
+  id: f6e67d86-5ff0-4f42-ab5a-a421c82f8f9e
+  title: "Python Coding for Public Policy @ NYU Wagner"
+  authors:
+    - name: Aidan Feldman
+  plugins:
+    - extras/myst/colab.mjs
+  exclude:
+    - .github/*
+    - .pytest_cache/*
+    - tmp/*
+  github: afeld/python-public-policy
+  toc:
+    - file: index.md
+    - file: syllabus.md
+      children:
+        - file: registration.md
+        - file: joining_late.md
+        - file: exam.md
+        
+    - file: resources.md
+      children:
+        - file: brackets.ipynb
+          title: Brackets
+    - file: lectures.md
+      children:
+        - file: lecture_0.ipynb
+        - file: lecture_1.ipynb
+          children:
+            - file: lecture_1_exercise.ipynb
+              title: In-class exercise
+            - file: lecture_1_exercise_solution.ipynb
+              title: In-class exercise solution
+            - file: lecture_1_demo_solution.ipynb
+              title: Demo solution
+        - file: lecture_2.ipynb
+          children:
+            - file: lecture_2_exercise.ipynb
+              title: In-class exercise
+            
+        - file: lecture_3.ipynb
+          children:
+            - file: lecture_3_exercise_solution.ipynb
+              title: In-class exercise solution
+            - file: lecture_3_demo_solution.ipynb
+              title: Demo solution
+        - file: lecture_4.ipynb
+          children:
+            - file: lecture_4_demo_solution.ipynb
+              title: Demo solution
+        - file: lecture_5.ipynb
+          children:
+            - file: lecture_5_exercise_solution.ipynb
+              title: In-class exercise solution
+        - file: lecture_6.ipynb
+    - file: assignments.md
+      title: Assignments
+      children:
+        - file: assignments/open_ended.md
+        - file: hw_0.ipynb
+        - file: hw_1.md
+        - file: hw_2.ipynb
+        - file: hw_3.ipynb
+        - file: hw_4.md
+        - file: final_project.md
+          children:
+            - file: final_project/proposal.md
+              title: Proposal
+            - file: final_project/resources.md
+              title: Resources
+            - file: final_project/peer_grading.md
+              title: Peer grading
+            - file: final_project/examples.md
+              title: Examples
+              children:
+                - file: final_project/creepy_crawly.ipynb
+                - file: final_project/lead.ipynb
+                - file: final_project/universities.ipynb
+    - file: meta.md
+      children:
+        - file: meta/assistant_guide.md
+          children:
+            - file: meta/ed_helper.ipynb
+        - file: meta/instructor_guide.md
+        - file: meta/adrs.md
+          children:
+            - file: meta/adrs/plotting.md
+              title: Plotting
+            - file: meta/adrs/submission.md
+              title: Submission
+site:
+  template: book-theme
+  # external links, kept out of project.toc so they don't become section labels in the previous/next footer
+  nav:
+    - title: "Brightspace"
+      url: "https://brightspace.nyu.edu/d2l/home/613479"
+    - title: Ed Discussion
+      url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575204"
+    - title: Google Colab
+      url: https://colab.research.google.com
+    - title: Gradescope
+      url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575205"
+  parts:
+    # license badge, which links to the right URL, unlike the one from project.license
+    footer: _footer.md
+  options:
+    folders: true
+    # JB1 didn't show the author on each page
+    hide_authors: true
+    logo_text: "Python Coding for Public Policy"
+    style: _static/styles.css
