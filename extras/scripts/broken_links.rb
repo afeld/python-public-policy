@@ -10,8 +10,6 @@ options = {
     %r{^_build/html/final_project/}
   ],
   swap_urls: {
-    # the site is built with a BASE_URL of /en/<school>, but the files are at the root of _build/html
-    %r{^/en/\w+/?} => "/",
     # ignore PDF page hash
     # https://github.com/gjtorikian/html-proofer/issues/663#issuecomment-989274727
     /(?<=\.pdf)#.*$/ => "",

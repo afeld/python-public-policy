@@ -21,10 +21,20 @@ file := .
 format:
 	ruff format $(file)
 
+# the URL the site will be served from, e.g. https://python-public-policy.afeld.me/en/columbia/
+site_url :=
+
 site:
+	$(if $(site_url),,$(error site_url is required))
 	jupyter-book build --html --ci --strict
 	# these point to the temporary server used for the build (http://localhost:3000), so let Read the Docs generate them instead
 	rm -f _build/html/robots.txt _build/html/sitemap.xml _build/html/sitemap_style.xsl
+	# generate redirects from old Jupyter Book 1 URLs
+	uv run --with click --with pyyaml \
+		https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/d70ce6d7df9f2dfc83bb1d409336c0cc3e20697f/generate_redirects.py \
+		--base-url "$(site_url)" \
+		--output-dir _build/html \
+		--myst-config myst.yml
 
 # school can be columbia, nyu, or omitted for both
 preview:
