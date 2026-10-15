@@ -99,9 +99,14 @@ update() {
 
     (
         cd "$dir"
-        local changed=() deleted=()
-        mapfile -t changed < <(git diff --name-only --no-renames --diff-filter=d "$old" "$new")
-        mapfile -t deleted < <(git diff --name-only --no-renames --diff-filter=D "$old" "$new")
+        # read line by line rather than with mapfile, which macOS's bash 3.2 lacks
+        local changed=() deleted=() file
+        while IFS= read -r file; do
+            changed+=("$file")
+        done < <(git diff --name-only --no-renames --diff-filter=d "$old" "$new")
+        while IFS= read -r file; do
+            deleted+=("$file")
+        done < <(git diff --name-only --no-renames --diff-filter=D "$old" "$new")
 
         if [ ${#deleted[@]} -gt 0 ]; then
             git rm -q -f --ignore-unmatch -- "${deleted[@]}"
