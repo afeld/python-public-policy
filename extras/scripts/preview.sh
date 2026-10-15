@@ -40,7 +40,7 @@ SNAPSHOT=$(git commit-tree "$TREE" -p HEAD -m "preview snapshot")
 
 port_for() {
     # PORT (e.g. set by Claude's preview pane) applies when previewing a single school
-    if [ -n "$PORT" ] && [ "$(echo $SCHOOLS | wc -w)" -eq 1 ]; then
+    if [ -n "$PORT" ] && [ "$(echo "$SCHOOLS" | wc -w)" -eq 1 ]; then
         echo "$PORT"
         return
     fi
