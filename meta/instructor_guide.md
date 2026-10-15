@@ -34,9 +34,10 @@ For each school, [the workflow](../.github/workflows/publish.yml):
 1. Checks out the repository and installs the Python dependencies.
 1. Switches to the corresponding school branch and merges the pushed branch using Git's `ours` strategy. It then restores the pushed branch's working tree. This records that the school branch includes the source revision without using the school branch's generated files as merge inputs.
 1. Commits that preliminary source tree.
-1. Runs [`school_ci.sh`](../extras/scripts/school_ci.sh) with the school ID. The script removes files that do not belong in a published school version, including development tools and tests.
+1. Runs [`school_ci.sh`](../extras/scripts/school_ci.sh) with the school ID, which calls [`school.sh`](../extras/scripts/school.sh) to:
+   1. Remove files that do not belong in a published school version, including development tools, tests, and the other school's pages.
+   1. Render school-specific templates.
    - The configuration for each school lives in [`school.py`](../extras/lib/school.py). They are rendered into the different files with Jinja2.
-1. Calls [`school.sh`](../extras/scripts/school.sh) to render school-specific templates.
    - Jinja templating is used throughout the source files (Markdown, notebooks, etc.), rendered using [nbconvert](https://nbconvert.readthedocs.io/) with [a custom preprocessor](../extras/lib/school_template.py).
    - Variables (such as `{{school_name}}`, `{{lms_url}}`, and `{{assistant_name}}`) are replaced with the values from the [configuration file](../extras/lib/school.py) for the selected school.
    - It uses {% raw %}`{% if id == "columbia" %}` and `{% if id == "nyu" %}`{% endraw %} conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
@@ -48,36 +49,23 @@ For each school, [the workflow](../.github/workflows/publish.yml):
 
 The HTML can be downloaded as an [artifact](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/storing-and-sharing-data-from-a-workflow) from [the latest `Publish` Action](https://github.com/afeld/python-public-policy/actions/workflows/publish.yml).
 
-### Building locally
-
-1. Stage changes in Git, as they will be overwritten.
-1. If on the `{{school_slug}}` branch, run:
-
-   ```sh
-   make site
-   ```
-
-1. If on `main` or other branches, run:
-
-   ```sh
-   ./extras/scripts/school_ci.sh <school>
-   ```
-
 ### Previewing locally
 
-To preview one or both schools without touching your working tree (e.g. from a Git worktree), run:
+To preview one or both schools, run:
 
 ```sh
 make preview [school=<school>]
 ```
 
-This [snapshots the working tree](../extras/scripts/preview.sh), including uncommitted changes, into a separate worktree per school under `tmp/preview/`, then runs `school_ci.sh` in each, in parallel. It then serves each school on its own port, printing the URLs. To change the ports, such as when previewing from multiple worktrees at once, see the script. Re-run it to pick up changes.
+This [snapshots the working tree](../extras/scripts/preview.sh), including uncommitted changes, into a separate Git worktree per school under `tmp/preview/`, so your working tree is left alone. It renders each school's version the same way CI does, then serves it with Jupyter Book's development server, printing the URLs. As you edit files, the changed ones are re-rendered and open pages reload automatically. To change the ports, such as when previewing from multiple worktrees at once, see the script.
 
 ### Checking broken links
 
-Once the site is built, you can check broken links with:
+Do a one-off static build (exactly like CI) of a school, then check its links:
 
 ```sh
+PREVIEW_NO_SERVE=1 make preview school=<school>
+cd tmp/preview/<school>
 make linkcheck
 ```
 
