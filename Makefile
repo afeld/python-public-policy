@@ -25,6 +25,10 @@ format:
 site:
 	jupyter-book build --all -W -n --keep-going .
 
+# school can be columbia, nyu, or omitted for both
+preview:
+	./extras/scripts/preview.sh $(school)
+
 setup:
 	uv sync
 	uv pip install --python .venv/bin/python \

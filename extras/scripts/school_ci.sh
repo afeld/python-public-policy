@@ -8,7 +8,9 @@ SCHOOL=$1
 
 # remove irrelevant files
 git rm -r \
+    .claude/ \
     .vscode/ \
+    AGENTS.md \
     nbdime_config.json \
     extras/pandas_crash_course.ipynb \
     extras/terraform/ \
