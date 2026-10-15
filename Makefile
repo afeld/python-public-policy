@@ -36,7 +36,7 @@ site:
 		--output-dir _build/html \
 		--myst-config myst.yml
 
-# school can be columbia, nyu, or omitted for both
+# school can be columbia, nyu, or omitted for both. Live-reloads; set PREVIEW_NO_SERVE=1 for a one-off static build.
 preview:
 	./extras/scripts/preview.sh $(school)
 
