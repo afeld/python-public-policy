@@ -21,3 +21,5 @@ uv run --no-project --with click --with pyyaml \
 
 mkdir -p "$READTHEDOCS_OUTPUT/html/"
 cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
+# Read the Docs fails the build if it finds files in this old output path
+rm -rf _build/html
