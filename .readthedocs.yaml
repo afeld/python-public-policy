@@ -15,7 +15,4 @@ build:
     # https://docs.readthedocs.com/platform/stable/build-customization.html#override-the-build-process
     build:
       html:
-        # serve assets/links from the version's path, e.g. /en/columbia
-        - BASE_URL="$(echo "$READTHEDOCS_CANONICAL_URL" | sed -E 's|^https?://[^/]+||; s|/$||')" make site site_url="$READTHEDOCS_CANONICAL_URL"
-        - mkdir -p "$READTHEDOCS_OUTPUT/html/"
-        - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
+        - ./extras/scripts/rtd_build.sh

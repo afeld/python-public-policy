@@ -29,8 +29,8 @@ site:
 	jupyter-book build --html --ci --strict
 	# these point to the temporary server used for the build (http://localhost:3000), so let Read the Docs generate them instead
 	rm -f _build/html/robots.txt _build/html/sitemap.xml _build/html/sitemap_style.xsl
-	# generate redirects from old Jupyter Book 1 URLs
-	uv run --with click --with pyyaml \
+	# generate redirects from old Jupyter Book 1 URLs. The script only needs its own dependencies, so skip installing the project's.
+	uv run --no-project --with click --with pyyaml \
 		https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/d70ce6d7df9f2dfc83bb1d409336c0cc3e20697f/generate_redirects.py \
 		--base-url "$(site_url)" \
 		--output-dir _build/html \
