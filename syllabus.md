@@ -11,7 +11,11 @@
 
 {% endif -%}
 
-<p style="font-size: 2rem; font-weight:bold; text-align: center;">{{course_name}} - {{term}}</p>
+:::{div}
+:class: course-term
+
+{{course_name}} - {{term}}
+:::
 
 <div class="print-only">See up-to-date version of this syllabus at <a href="https://python-public-policy.afeld.me/en/{{school_slug}}/syllabus/">python-public-policy.afeld.me</a>.</div>
 <style>

@@ -23,6 +23,8 @@ format:
 
 site:
 	jupyter-book build --html --ci --strict
+	# these point to the temporary server used for the build (http://localhost:3000), so let Read the Docs generate them instead
+	rm -f _build/html/robots.txt _build/html/sitemap.xml _build/html/sitemap_style.xsl
 
 # school can be columbia, nyu, or omitted for both
 preview:

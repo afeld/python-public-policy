@@ -23,6 +23,12 @@ article ol ol ol li {
   overflow-y: auto;
 }
 
+.course-term p {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 .print-only {
   display: none;
 }
@@ -37,8 +43,10 @@ article ol ol ol li {
   background-color: {{color}};
   color: white;
 
+  /* site title, menu button, and external links */
   .myst-top-nav-bar > div:first-child a,
-  .myst-top-nav-bar > div:first-child button {
+  .myst-top-nav-bar > div:first-child button,
+  .myst-top-nav-bar > div:first-child + div a {
     color: white;
   }
 }

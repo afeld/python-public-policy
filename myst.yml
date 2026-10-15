@@ -4,7 +4,6 @@ project:
   title: "{{course_name}} @ {{school_name}}"
   authors:
     - name: Aidan Feldman
-  license: CC0-1.0
   exclude:
     - .github/*
     - .pytest_cache/*
@@ -24,14 +23,6 @@ project:
       children:
         - file: brackets.ipynb
           title: Brackets
-    - url: "{{lms_url}}"
-      title: "{{lms_name}}"
-    - url: "{{discussions_url}}"
-      title: Ed Discussion
-    - url: https://colab.research.google.com
-      title: Google Colab
-    - url: "{{submission_tool_url}}"
-      title: Gradescope
     - file: lectures.md
       children:
         - file: lecture_0.ipynb
@@ -105,7 +96,22 @@ project:
         {%- endif %}
 site:
   template: book-theme
+  # external links, kept out of project.toc so they don't become section labels in the previous/next footer
+  nav:
+    - title: "{{lms_name}}"
+      url: "{{lms_url}}"
+    - title: Ed Discussion
+      url: "{{discussions_url}}"
+    - title: Google Colab
+      url: https://colab.research.google.com
+    - title: Gradescope
+      url: "{{submission_tool_url}}"
+  parts:
+    # license badge, which links to the right URL, unlike the one from project.license
+    footer: _footer.md
   options:
     folders: true
-    logo_text: "{{course_name}} @ {{school_name}}"
+    # JB1 didn't show the author on each page
+    hide_authors: true
+    logo_text: "{{course_name}}"
     style: _static/styles.css

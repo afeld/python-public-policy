@@ -9,10 +9,6 @@ options = {
     # don't want to bother fixing links in example projects
     %r{^_build/html/final_project/}
   ],
-  ignore_urls: [
-    # mystmd links the CC0 license badge to a URL that 404s
-    "https://creativecommons.org/licenses/zero/1.0/",
-  ],
   swap_urls: {
     # the site is built with a BASE_URL of /en/<school>, but the files are at the root of _build/html
     %r{^/en/\w+/?} => "/",
