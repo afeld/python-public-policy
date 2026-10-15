@@ -69,7 +69,7 @@ build_autograder:
 
 	@echo "Now upload extras/autograder.zip to Gradescope."
 
-build_dir := _build
-
+# removes the local preview (see preview.sh), including its Git worktrees, plus any stray build output
 clean:
-	rm -rf $(build_dir)
+	rm -rf tmp/preview _build
+	git worktree prune
