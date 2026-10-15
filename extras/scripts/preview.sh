@@ -79,7 +79,7 @@ prepare() {
         if [ -n "$PREVIEW_NO_SERVE" ]; then
             ./extras/scripts/school_ci.sh "$school"
         else
-            ./extras/scripts/school_prep.sh "$school"
+            ./extras/scripts/school.sh "$school"
             publish "$school"
         fi
     ) >"$(log "$school")" 2>&1 ||
@@ -113,7 +113,7 @@ update() {
         fi
         if [ ${#changed[@]} -gt 0 ]; then
             git checkout "$new" -- "${changed[@]}"
-            ./extras/scripts/school_prep.sh "$school" "${changed[@]}"
+            ./extras/scripts/school.sh "$school" "${changed[@]}"
         fi
         publish "$school"
     ) >>"$(log "$school")" 2>&1 ||

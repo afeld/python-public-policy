@@ -34,9 +34,10 @@ For each school, [the workflow](../.github/workflows/publish.yml):
 1. Checks out the repository and installs the Python dependencies.
 1. Switches to the corresponding school branch and merges the pushed branch using Git's `ours` strategy. It then restores the pushed branch's working tree. This records that the school branch includes the source revision without using the school branch's generated files as merge inputs.
 1. Commits that preliminary source tree.
-1. Runs [`school_ci.sh`](../extras/scripts/school_ci.sh) with the school ID. The script calls [`school_prep.sh`](../extras/scripts/school_prep.sh), which removes files that do not belong in a published school version, including development tools and tests.
+1. Runs [`school_ci.sh`](../extras/scripts/school_ci.sh) with the school ID, which calls [`school.sh`](../extras/scripts/school.sh) to:
+   1. Remove files that do not belong in a published school version, including development tools, tests, and the other school's pages.
+   1. Render school-specific templates.
    - The configuration for each school lives in [`school.py`](../extras/lib/school.py). They are rendered into the different files with Jinja2.
-1. Calls [`school.sh`](../extras/scripts/school.sh) to render school-specific templates.
    - Jinja templating is used throughout the source files (Markdown, notebooks, etc.), rendered using [nbconvert](https://nbconvert.readthedocs.io/) with [a custom preprocessor](../extras/lib/school_template.py).
    - Variables (such as `{{school_name}}`, `{{lms_url}}`, and `{{assistant_name}}`) are replaced with the values from the [configuration file](../extras/lib/school.py) for the selected school.
    - It uses {% raw %}`{% if id == "columbia" %}` and `{% if id == "nyu" %}`{% endraw %} conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
