@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# Renders the notebook templates. Using this custom logic rather than Jupyter Book substitutions since the latter can't be used in code blocks or for links.
-#
-# https://jupyterbook.org/en/stable/content/content-blocks.html#substitutions-and-variables-in-markdown
-# https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2
+# Renders the notebook templates (Jinja variables and conditionals, plus school-specific cell tags). Using this custom logic since Jupyter Book 2 (MyST) doesn't have substitutions that work in code blocks, links, or conditionals.
 #
 # Usage:
 #
