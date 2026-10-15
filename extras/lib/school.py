@@ -148,7 +148,6 @@ EXEMPT = [
     "`columbia` and `nyu` branches",
     ".zoom.us/rec",
     "autograder",  # matches "grader"
-    "baseurl: ",  # _config.yml
     "built around it",  # referring to Colab
     "columbia's graduate school of architecture",  # bio
     "create the environment",

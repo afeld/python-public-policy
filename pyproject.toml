@@ -43,7 +43,6 @@ dependencies = [
     "nbconvert[webpdf]>=7.16.6",
     "nbdime",
     "pytest",
-    "sphinx>=6.2.0",
 ]
 
 [tool.uv]

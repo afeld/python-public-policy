@@ -6,16 +6,16 @@ options = {
   only_4xx: true,
   ignore_status_codes: [400, 401, 403, 405, 429],
   ignore_files: [
-    "_build/html/_static/webpack-macros.html",
-    "_build/html/_static/sbt-webpack-macros.html",
     # don't want to bother fixing links in example projects
     %r{^_build/html/final_project/}
   ],
   ignore_urls: [
-    # https://github.com/executablebooks/sphinx-book-theme/pull/831
-    %r{_static/images/logo_},
+    # mystmd links the CC0 license badge to a URL that 404s
+    "https://creativecommons.org/licenses/zero/1.0/",
   ],
   swap_urls: {
+    # the site is built with a BASE_URL of /en/<school>, but the files are at the root of _build/html
+    %r{^/en/\w+/?} => "/",
     # ignore PDF page hash
     # https://github.com/gjtorikian/html-proofer/issues/663#issuecomment-989274727
     /(?<=\.pdf)#.*$/ => "",
@@ -25,7 +25,7 @@ options = {
     # Folder-style pages coexist with redirect files, and html-proofer doesn't
     # resolve their anchors correctly. Strip hashes so it validates page
     # existence without false anchor failures.
-    %r{\A((?:/[^/.#?]+)+)#.*$} => "\\1",
+    %r{\A((?:/[^/.#?]+)+(?:/)?)#.*$} => "\\1",
     # make absolute links relative
     %r{^https://python-public-policy\.afeld\.me/en/\w+} => ""
   }

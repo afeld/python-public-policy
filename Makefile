@@ -21,9 +21,8 @@ file := .
 format:
 	ruff format $(file)
 
-# https://jupyterbook.org/en/stable/content/references.html#check-for-missing-references
 site:
-	jupyter-book build --html --all --ci
+	jupyter-book build --html --ci --strict
 
 # school can be columbia, nyu, or omitted for both
 preview:
@@ -62,8 +61,3 @@ build_dir := _build
 
 clean:
 	rm -rf $(build_dir)
-
-# https://github.com/jupyter-book/jupyter-book/issues/2271
-# https://stackoverflow.com/a/1583282/358804
-fix_double_escaping:
-	find $(build_dir)/html -name '*.html' -print0 | xargs -0 sed -i 's/&amp;amp;/\&amp;/g'

@@ -4,15 +4,14 @@ project:
   title: "{{course_name}} @ {{school_name}}"
   authors:
     - name: Aidan Feldman
+  license: CC0-1.0
   exclude:
     - .github/*
     - .pytest_cache/*
     - tmp/*
   github: afeld/python-public-policy
   toc:
-    - file: home.md
     - file: index.md
-      title: Homepage
     - file: syllabus.md
       children:
         - file: registration.md
@@ -108,3 +107,5 @@ site:
   template: book-theme
   options:
     folders: true
+    logo_text: "{{course_name}} @ {{school_name}}"
+    style: _static/styles.css

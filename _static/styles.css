@@ -1,3 +1,5 @@
+/* included via site.options.style in myst.yml */
+
 iframe {
   width: 100%;
 }
@@ -16,33 +18,27 @@ article ol ol ol li {
 }
 
 /* keep outputs from being too long */
-.cell_output .output {
-  max-height: 20rem;
+[data-name="outputs-container"] {
+  max-height: 40rem;
   overflow-y: auto;
+}
 
-  /* for HTML outputs, go a bit longer, since this includes things like visualizations */
-  &.text_html {
-    max-height: 40rem;
+.print-only {
+  display: none;
+}
+@media print {
+  .print-only {
+    display: block;
   }
 }
 
-/* indicate the version by color, overriding the colors from sphinx-book-theme */
-/* top nav bar */
-.bd-header-article {
-  --pst-color-background: {{color}};
+/* indicate the version by color */
+.myst-top-nav {
+  background-color: {{color}};
+  color: white;
 
-  .btn {
-    --pst-color-text-base: white;
-    --pst-color-text-muted: white;
-  }
-
-  /* undo for dropdown menus */
-  .dropdown-menu {
-    --pst-color-background: white;
-
-    .btn {
-      --pst-color-text-base: #323232;
-      --pst-color-text-muted: #646464;
-    }
+  .myst-top-nav-bar > div:first-child a,
+  .myst-top-nav-bar > div:first-child button {
+    color: white;
   }
 }
