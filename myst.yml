@@ -91,10 +91,8 @@ site:
   nav:
     - title: "CourseWorks"
       url: "https://courseworks2.columbia.edu/courses/233960"
-    - title: Ed Discussion
+    - title: Ed
       url: "https://courseworks2.columbia.edu/courses/233960/external_tools/37606?display=borderless"
-    - title: Google Colab
-      url: https://colab.research.google.com
     - title: Gradescope
       url: "https://courseworks2.columbia.edu/courses/233960/external_tools/29680?display=borderless"
   parts:
