@@ -79,19 +79,13 @@ async def get_courses(client: httpx.AsyncClient) -> list[dict]:
             "course_code",
             "sis_course_id",
             "workflow_state",
+            # end_at isn't set in CourseWorks
             "start_at",
-            "end_at",
             "total_students",
         ],
     )
-    return [
-        {
-            **row,
-            "term": c["term"].get("name"),
-            "term_start_at": c["term"].get("start_at"),
-        }
-        for row, c in zip(rows, teaching)
-    ]
+    # the term's start_at isn't set in CourseWorks either, so only the name is kept
+    return [{**row, "term": c["term"].get("name")} for row, c in zip(rows, teaching)]
 
 
 async def get_course_data(
@@ -241,7 +235,6 @@ def load(con: duckdb.DuckDBPyConnection):
         CREATE OR REPLACE VIEW student_grades AS
         SELECT
             c.term,
-            c.term_start_at,
             c.name AS course,
             sec.name AS section,
             s.name AS student,
@@ -274,7 +267,6 @@ def load(con: duckdb.DuckDBPyConnection):
         )
         SELECT
             c.term,
-            c.term_start_at,
             c.name AS course,
             cs.section,
             s.name AS student,
