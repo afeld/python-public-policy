@@ -6,36 +6,45 @@ To avoid storing private student information, the data is only kept temporarily:
 See usage in meta/instructor_guide.md.
 """
 
+import asyncio
 import os
 import subprocess
 import sys
 import tempfile
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import duckdb
+import httpx
 import pandas as pd
-import requests
 from dotenv import load_dotenv
 
 BASE_URL = "https://courseworks2.columbia.edu/api/v1"
 TEACHING_ROLES = {"teacher", "ta"}
-# number of concurrent API requests; matches the default connection pool size of requests
-MAX_WORKERS = 10
+# number of concurrent API requests, to stay well within Canvas' rate limit
+MAX_CONNECTIONS = 10
 
 load_dotenv()
-session = requests.Session()
-session.headers["Authorization"] = f"Bearer {os.environ['COURSEWORKS_TOKEN']}"
 
 
-def get_all(path: str, params: dict | None = None) -> list[dict]:
+def client() -> httpx.AsyncClient:
+    return httpx.AsyncClient(
+        headers={"Authorization": f"Bearer {os.environ['COURSEWORKS_TOKEN']}"},
+        limits=httpx.Limits(max_connections=MAX_CONNECTIONS),
+        # requests wait for a free connection as long as needed
+        timeout=httpx.Timeout(30, pool=None),
+    )
+
+
+async def get_all(
+    client: httpx.AsyncClient, path: str, params: dict | None = None
+) -> list[dict]:
     """Fetch every page of a Canvas list endpoint."""
 
     url = f"{BASE_URL}{path}"
     params = {"per_page": 100, **(params or {})}
     results = []
     while url:
-        response = session.get(url, params=params)
+        response = await client.get(url, params=params)
         response.raise_for_status()
         results.extend(response.json())
         # the next URL already includes the query parameters
@@ -51,8 +60,9 @@ def pick(records: list[dict], cols: list[str], **extra) -> pd.DataFrame:
     )
 
 
-def get_courses() -> pd.DataFrame:
-    courses = get_all(
+async def get_courses(client: httpx.AsyncClient) -> pd.DataFrame:
+    courses = await get_all(
+        client,
         "/courses",
         {
             "state[]": ["available", "completed", "unpublished"],
@@ -82,17 +92,22 @@ def get_courses() -> pd.DataFrame:
     return df
 
 
-def get_course_data(course_id: int) -> dict[str, pd.DataFrame]:
-    sections = get_all(f"/courses/{course_id}/sections")
-    enrollments = get_all(
-        f"/courses/{course_id}/enrollments",
-        {
-            "type[]": ["StudentEnrollment"],
-            "state[]": ["active", "invited", "inactive", "completed"],
-        },
+async def get_course_data(
+    client: httpx.AsyncClient, course_id: int
+) -> dict[str, pd.DataFrame]:
+    sections, enrollments, groups, assignments = await asyncio.gather(
+        get_all(client, f"/courses/{course_id}/sections"),
+        get_all(
+            client,
+            f"/courses/{course_id}/enrollments",
+            {
+                "type[]": ["StudentEnrollment"],
+                "state[]": ["active", "invited", "inactive", "completed"],
+            },
+        ),
+        get_all(client, f"/courses/{course_id}/assignment_groups"),
+        get_all(client, f"/courses/{course_id}/assignments"),
     )
-    groups = get_all(f"/courses/{course_id}/assignment_groups")
-    assignments = get_all(f"/courses/{course_id}/assignments")
 
     enrollments_df = pick(
         enrollments,
@@ -148,10 +163,12 @@ def get_course_data(course_id: int) -> dict[str, pd.DataFrame]:
     }
 
 
-def get_submissions(course_id: int, assignment_id: int) -> pd.DataFrame:
+async def get_submissions(
+    client: httpx.AsyncClient, course_id: int, assignment_id: int
+) -> pd.DataFrame:
     # fetched per assignment rather than per course so that they can be done in parallel
-    submissions = get_all(
-        f"/courses/{course_id}/assignments/{assignment_id}/submissions"
+    submissions = await get_all(
+        client, f"/courses/{course_id}/assignments/{assignment_id}/submissions"
     )
     return pick(
         submissions,
@@ -178,29 +195,39 @@ def get_submissions(course_id: int, assignment_id: int) -> pd.DataFrame:
     )
 
 
-def load(con: duckdb.DuckDBPyConnection):
-    courses = get_courses()
-    tables: dict[str, list[pd.DataFrame]] = {}
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+async def fetch() -> dict[str, list[pd.DataFrame]]:
+    async with client() as c:
+        courses = await get_courses(c)
+        tables = {"courses": [courses]}
+
         print(f"Fetching {len(courses)} courses…", file=sys.stderr)
-        for course_data in pool.map(get_course_data, courses["id"].tolist()):
-            for name, df in course_data.items():
+        course_data = await asyncio.gather(
+            *(get_course_data(c, course_id) for course_id in courses["id"].tolist())
+        )
+        for data in course_data:
+            for name, df in data.items():
                 tables.setdefault(name, []).append(df)
 
+        # unpublished assignments only have placeholder submissions
         assignments = pd.concat(tables["assignments"])
+        published = assignments[assignments["published"]]
         print(
-            f"Fetching submissions for {len(assignments)} assignments…", file=sys.stderr
+            f"Fetching submissions for {len(published)} assignments…", file=sys.stderr
         )
-        tables["submissions"] = list(
-            pool.map(
-                get_submissions,
-                assignments["course_id"].tolist(),
-                assignments["id"].tolist(),
+        tables["submissions"] = await asyncio.gather(
+            *(
+                get_submissions(c, course_id, assignment_id)
+                for course_id, assignment_id in zip(
+                    published["course_id"].tolist(), published["id"].tolist()
+                )
             )
         )
 
-    con.register("df", courses)
-    con.execute("CREATE OR REPLACE TABLE courses AS SELECT * FROM df")
+    return tables
+
+
+def load(con: duckdb.DuckDBPyConnection):
+    tables = asyncio.run(fetch())
     for name, dfs in tables.items():
         df = pd.concat(dfs, ignore_index=True)
         if name == "students":

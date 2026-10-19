@@ -39,6 +39,7 @@ dependencies = [
 
     # instructor scripts
     "duckdb",
+    "httpx",
     "python-dotenv",
 
     # CI
