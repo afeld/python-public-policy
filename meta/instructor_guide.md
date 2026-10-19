@@ -103,6 +103,50 @@ This only shows students coming off the wait list.
 1. Paste [the script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/ssol.js)
 1. Do the same for the other section(s)
 
+## Querying students and grades
+
+[A script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/courseworks_to_duckdb.py) pulls students, grades, assignments, and submissions across all courses you teach in CourseWorks from the [Canvas API](https://developerdocs.instructure.com/services/canvas) into [DuckDB](https://duckdb.org/). To avoid storing student information locally, the database is put in a temporary directory and deleted when you exit.
+
+1. Install the [DuckDB CLI](https://duckdb.org/docs/installation/)
+
+   ```sh
+   brew install duckdb
+   ```
+
+1. In CourseWorks, go to [Account -> Settings](https://courseworks2.columbia.edu/profile/settings) and create a New Access Token
+1. Put it in a `.env` file in the root of this repository:
+
+   ```sh
+   COURSEWORKS_TOKEN=...
+   ```
+
+1. Run
+
+   ```sh
+   uv run extras/scripts/courseworks_to_duckdb.py
+   ```
+
+1. Once it opens the DuckDB CLI, query it, for example:
+
+   ```sql
+   SELECT * FROM student_grades WHERE uni = 'abc1234';
+   ```
+
+The tables are `courses`, `sections`, `students`, `enrollments`, `assignment_groups`, `assignments`, and `submissions`, plus views:
+
+- `student_grades`: one row per student per course, with their overall grade
+- `gradebook`: one row per student per published assignment, with their score — like the CourseWorks Gradebook, but long rather than wide, so that it works across courses
+
+To get the wide version for a single course:
+
+```sql
+PIVOT (
+    SELECT student, uni, section, assignment, score
+    FROM gradebook
+    WHERE course_id = <id>
+) ON assignment USING first(score);
+```
+
 ## End of course
 
 1. Open [CourseWorks](https://courseworks2.columbia.edu/courses/233960)
