@@ -107,6 +107,37 @@ This only shows students coming off the wait list.
 1. Paste [the script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/ssol.js)
 1. Do the same for the other section(s)
 
+## Querying students and grades
+
+[A script](https://github.com/afeld/python-public-policy/blob/main/extras/scripts/courseworks_to_duckdb.py) pulls students, grades, assignments, and submissions across all courses you teach in {{lms_name}} from the [Canvas API](https://developerdocs.instructure.com/services/canvas) into [DuckDB](https://duckdb.org/). To avoid storing student information locally, the database is put in a temporary directory and deleted when you exit.
+
+1. Install the [DuckDB CLI](https://duckdb.org/docs/installation/)
+
+   ```sh
+   brew install duckdb
+   ```
+
+1. In {{lms_name}}, go to [Account -> Settings](https://courseworks2.columbia.edu/profile/settings) and create a New Access Token
+1. Put it in a `.env` file in the root of this repository:
+
+   ```sh
+   COURSEWORKS_TOKEN=...
+   ```
+
+1. Run
+
+   ```sh
+   uv run extras/scripts/courseworks_to_duckdb.py
+   ```
+
+1. Once it opens the DuckDB CLI, query it, for example:
+
+   ```sql
+   SELECT * FROM student_grades WHERE uni = 'abc1234';
+   ```
+
+The tables are `courses`, `sections`, `students`, `enrollments`, `assignment_groups`, `assignments`, and `submissions`, plus a `student_grades` view with one row per student per course.
+
 ## End of course
 
 1. Open [{{lms_name}}]({{lms_url}})

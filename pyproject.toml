@@ -37,6 +37,10 @@ dependencies = [
     "isoduration",
     "jupyter-book==2.*",
 
+    # instructor scripts
+    "duckdb",
+    "python-dotenv",
+
     # CI
     "jinja2",
     "markdown-it-py",

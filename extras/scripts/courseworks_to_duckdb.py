@@ -1,24 +1,16 @@
-# /// script
-# requires-python = ">=3.12"
-# dependencies = ["duckdb", "pandas", "python-dotenv", "requests"]
-# ///
 """
 Pull students and grades from all the courses you teach in CourseWorks (Canvas) into DuckDB, for querying across courses and semesters.
 
-To avoid storing private student information, the data is only kept temporarily: the script loads it into a database in a private temporary directory, opens the DuckDB CLI on it, and deletes it when you exit. Requires COURSEWORKS_TOKEN in .env and the DuckDB CLI. Run with:
+To avoid storing private student information, the data is only kept temporarily: the script loads it into a database in a private temporary directory, opens the DuckDB CLI on it, and deletes it when you exit.
 
-    uv run extras/scripts/courseworks_to_duckdb.py
-
-To use it from Python instead (kept in memory only):
-
-    con = duckdb.connect()
-    load(con)
+See usage in meta/instructor_guide.md.
 """
 
 import os
 import subprocess
 import sys
 import tempfile
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import duckdb
@@ -28,6 +20,8 @@ from dotenv import load_dotenv
 
 BASE_URL = "https://courseworks2.columbia.edu/api/v1"
 TEACHING_ROLES = {"teacher", "ta"}
+# number of concurrent API requests; matches the default connection pool size of requests
+MAX_WORKERS = 10
 
 load_dotenv()
 session = requests.Session()
@@ -99,9 +93,6 @@ def get_course_data(course_id: int) -> dict[str, pd.DataFrame]:
     )
     groups = get_all(f"/courses/{course_id}/assignment_groups")
     assignments = get_all(f"/courses/{course_id}/assignments")
-    submissions = get_all(
-        f"/courses/{course_id}/students/submissions", {"student_ids[]": "all"}
-    )
 
     enrollments_df = pick(
         enrollments,
@@ -154,39 +145,59 @@ def get_course_data(course_id: int) -> dict[str, pd.DataFrame]:
             ],
             course_id=course_id,
         ),
-        "submissions": pick(
-            submissions,
-            [
-                "id",
-                "assignment_id",
-                "user_id",
-                "score",
-                "grade",
-                "entered_score",
-                "points_deducted",
-                "excused",
-                "late",
-                "missing",
-                "late_policy_status",
-                "seconds_late",
-                "attempt",
-                "submission_type",
-                "workflow_state",
-                "submitted_at",
-                "graded_at",
-            ],
-            course_id=course_id,
-        ),
     }
+
+
+def get_submissions(course_id: int, assignment_id: int) -> pd.DataFrame:
+    # fetched per assignment rather than per course so that they can be done in parallel
+    submissions = get_all(
+        f"/courses/{course_id}/assignments/{assignment_id}/submissions"
+    )
+    return pick(
+        submissions,
+        [
+            "id",
+            "assignment_id",
+            "user_id",
+            "score",
+            "grade",
+            "entered_score",
+            "points_deducted",
+            "excused",
+            "late",
+            "missing",
+            "late_policy_status",
+            "seconds_late",
+            "attempt",
+            "submission_type",
+            "workflow_state",
+            "submitted_at",
+            "graded_at",
+        ],
+        course_id=course_id,
+    )
 
 
 def load(con: duckdb.DuckDBPyConnection):
     courses = get_courses()
     tables: dict[str, list[pd.DataFrame]] = {}
-    for course in courses.itertuples():
-        print(f"Fetching {course.term}: {course.name}…", file=sys.stderr)
-        for name, df in get_course_data(course.id).items():
-            tables.setdefault(name, []).append(df)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        print(f"Fetching {len(courses)} courses…", file=sys.stderr)
+        for course_data in pool.map(get_course_data, courses["id"].tolist()):
+            for name, df in course_data.items():
+                tables.setdefault(name, []).append(df)
+
+        assignments = pd.concat(tables["assignments"])
+        print(
+            f"Fetching submissions for {len(assignments)} assignments…", file=sys.stderr
+        )
+        tables["submissions"] = list(
+            pool.map(
+                get_submissions,
+                assignments["course_id"].tolist(),
+                assignments["id"].tolist(),
+            )
+        )
 
     con.register("df", courses)
     con.execute("CREATE OR REPLACE TABLE courses AS SELECT * FROM df")
@@ -196,6 +207,7 @@ def load(con: duckdb.DuckDBPyConnection):
             df = df.drop_duplicates(subset="id")
         con.register("df", df)
         con.execute(f"CREATE OR REPLACE TABLE {name} AS SELECT * FROM df")
+    con.unregister("df")
 
     # convenience view: one row per student per course, with final grades
     con.execute("""
@@ -221,9 +233,8 @@ def load(con: duckdb.DuckDBPyConnection):
     """)
 
     for (name,) in con.execute("SHOW TABLES").fetchall():
-        (count,) = con.execute(f"SELECT COUNT(*) FROM {name}").fetchone()
+        [(count,)] = con.execute(f"SELECT COUNT(*) FROM {name}").fetchall()
         print(f"{name}: {count} rows", file=sys.stderr)
-    con.unregister("df")
 
 
 def main():
