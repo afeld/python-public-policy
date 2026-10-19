@@ -259,6 +259,50 @@ def load(con: duckdb.DuckDBPyConnection):
         LEFT JOIN sections sec ON sec.id = e.course_section_id
     """)
 
+    # like the Canvas Gradebook, but long rather than wide so that it works across courses: one row per student per assignment
+    con.execute("""
+        CREATE OR REPLACE VIEW gradebook AS
+        WITH course_students AS (
+            -- students can be enrolled in multiple sections of a course
+            SELECT
+                e.course_id,
+                e.user_id,
+                string_agg(DISTINCT sec.name, ', ' ORDER BY sec.name) AS section
+            FROM enrollments e
+            LEFT JOIN sections sec ON sec.id = e.course_section_id
+            GROUP BY ALL
+        )
+        SELECT
+            c.term,
+            c.term_start_at,
+            c.name AS course,
+            cs.section,
+            s.name AS student,
+            s.sis_user_id AS uni,
+            g.name AS assignment_group,
+            a.name AS assignment,
+            a.due_at,
+            a.points_possible,
+            sub.score,
+            sub.grade,
+            sub.score / nullif(a.points_possible, 0) AS percent,
+            sub.excused,
+            sub.late,
+            sub.missing,
+            sub.workflow_state,
+            sub.submitted_at,
+            c.id AS course_id,
+            s.id AS user_id,
+            a.id AS assignment_id
+        FROM submissions sub
+        -- leaves out users who aren't students, such as the test student
+        JOIN course_students cs ON cs.course_id = sub.course_id AND cs.user_id = sub.user_id
+        JOIN courses c ON c.id = sub.course_id
+        JOIN students s ON s.id = sub.user_id
+        JOIN assignments a ON a.id = sub.assignment_id
+        LEFT JOIN assignment_groups g ON g.id = a.assignment_group_id
+    """)
+
     for (name,) in con.execute("SHOW TABLES").fetchall():
         [(count,)] = con.execute(f"SELECT COUNT(*) FROM {name}").fetchall()
         print(f"{name}: {count} rows", file=sys.stderr)

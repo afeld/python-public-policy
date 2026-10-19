@@ -136,7 +136,20 @@ This only shows students coming off the wait list.
    SELECT * FROM student_grades WHERE uni = 'abc1234';
    ```
 
-The tables are `courses`, `sections`, `students`, `enrollments`, `assignment_groups`, `assignments`, and `submissions`, plus a `student_grades` view with one row per student per course.
+The tables are `courses`, `sections`, `students`, `enrollments`, `assignment_groups`, `assignments`, and `submissions`, plus views:
+
+- `student_grades`: one row per student per course, with their overall grade
+- `gradebook`: one row per student per published assignment, with their score — like the {{lms_name}} Gradebook, but long rather than wide, so that it works across courses
+
+To get the wide version for a single course:
+
+```sql
+PIVOT (
+    SELECT student, uni, section, assignment, score
+    FROM gradebook
+    WHERE course_id = <id>
+) ON assignment USING first(score);
+```
 
 ## End of course
 
