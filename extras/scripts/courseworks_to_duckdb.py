@@ -53,14 +53,11 @@ async def get_all(
     return results
 
 
-def pick(records: list[dict], cols: list[str], **extra) -> pd.DataFrame:
-    return pd.DataFrame(
-        [{**{c: r.get(c) for c in cols}, **extra} for r in records],
-        columns=[*cols, *extra],
-    )
+def pick(records: list[dict], cols: list[str], **extra) -> list[dict]:
+    return [{**{c: r.get(c) for c in cols}, **extra} for r in records]
 
 
-async def get_courses(client: httpx.AsyncClient) -> pd.DataFrame:
+async def get_courses(client: httpx.AsyncClient) -> list[dict]:
     courses = await get_all(
         client,
         "/courses",
@@ -74,7 +71,7 @@ async def get_courses(client: httpx.AsyncClient) -> pd.DataFrame:
         for c in courses
         if any(e["type"] in TEACHING_ROLES for e in c.get("enrollments", []))
     ]
-    df = pick(
+    rows = pick(
         teaching,
         [
             "id",
@@ -87,14 +84,19 @@ async def get_courses(client: httpx.AsyncClient) -> pd.DataFrame:
             "total_students",
         ],
     )
-    df["term"] = [c.get("term", {}).get("name") for c in teaching]
-    df["term_start_at"] = [c.get("term", {}).get("start_at") for c in teaching]
-    return df
+    return [
+        {
+            **row,
+            "term": c["term"].get("name"),
+            "term_start_at": c["term"].get("start_at"),
+        }
+        for row, c in zip(rows, teaching)
+    ]
 
 
 async def get_course_data(
     client: httpx.AsyncClient, course_id: int
-) -> dict[str, pd.DataFrame]:
+) -> dict[str, list[dict]]:
     sections, enrollments, groups, assignments = await asyncio.gather(
         get_all(client, f"/courses/{course_id}/sections"),
         get_all(
@@ -109,7 +111,7 @@ async def get_course_data(
         get_all(client, f"/courses/{course_id}/assignments"),
     )
 
-    enrollments_df = pick(
+    enrollment_rows = pick(
         enrollments,
         [
             "id",
@@ -130,8 +132,6 @@ async def get_course_data(
         "unposted_current_score",
         "unposted_final_score",
     ]
-    for col in grade_cols:
-        enrollments_df[col] = [e.get("grades", {}).get(col) for e in enrollments]
 
     return {
         "sections": pick(
@@ -141,7 +141,10 @@ async def get_course_data(
             [e["user"] for e in enrollments],
             ["id", "name", "sortable_name", "sis_user_id", "login_id"],
         ),
-        "enrollments": enrollments_df,
+        "enrollments": [
+            {**row, **pick([e["grades"]], grade_cols)[0]}
+            for row, e in zip(enrollment_rows, enrollments)
+        ],
         "assignment_groups": pick(
             groups, ["id", "name", "position", "group_weight"], course_id=course_id
         ),
@@ -165,7 +168,7 @@ async def get_course_data(
 
 async def get_submissions(
     client: httpx.AsyncClient, course_id: int, assignment_id: int
-) -> pd.DataFrame:
+) -> list[dict]:
     # fetched per assignment rather than per course so that they can be done in parallel
     submissions = await get_all(
         client, f"/courses/{course_id}/assignments/{assignment_id}/submissions"
@@ -195,41 +198,38 @@ async def get_submissions(
     )
 
 
-async def fetch() -> dict[str, list[pd.DataFrame]]:
+async def fetch() -> dict[str, list[dict]]:
+    """Fetch the rows for each table. These are combined from all courses before turning them into DataFrames, since concatenating DataFrames with empty or all-null columns is deprecated in pandas."""
+
     async with client() as c:
         courses = await get_courses(c)
-        tables = {"courses": [courses]}
+        tables = {"courses": courses}
 
         print(f"Fetching {len(courses)} courses…", file=sys.stderr)
         course_data = await asyncio.gather(
-            *(get_course_data(c, course_id) for course_id in courses["id"].tolist())
+            *(get_course_data(c, course["id"]) for course in courses)
         )
         for data in course_data:
-            for name, df in data.items():
-                tables.setdefault(name, []).append(df)
+            for name, rows in data.items():
+                tables.setdefault(name, []).extend(rows)
 
         # unpublished assignments only have placeholder submissions
-        assignments = pd.concat(tables["assignments"])
-        published = assignments[assignments["published"]]
+        published = [a for a in tables["assignments"] if a["published"]]
         print(
             f"Fetching submissions for {len(published)} assignments…", file=sys.stderr
         )
-        tables["submissions"] = await asyncio.gather(
-            *(
-                get_submissions(c, course_id, assignment_id)
-                for course_id, assignment_id in zip(
-                    published["course_id"].tolist(), published["id"].tolist()
-                )
-            )
+        submissions = await asyncio.gather(
+            *(get_submissions(c, a["course_id"], a["id"]) for a in published)
         )
+        tables["submissions"] = [row for rows in submissions for row in rows]
 
     return tables
 
 
 def load(con: duckdb.DuckDBPyConnection):
     tables = asyncio.run(fetch())
-    for name, dfs in tables.items():
-        df = pd.concat(dfs, ignore_index=True)
+    for name, rows in tables.items():
+        df = pd.DataFrame(rows)
         if name == "students":
             df = df.drop_duplicates(subset="id")
         con.register("df", df)
