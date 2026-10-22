@@ -1,7 +1,7 @@
 # Registration
 
 - [General info](https://wagner.nyu.edu/portal/students/academics/registration)
-- [Registering from other schools.](https://wagner.nyu.edu/portal/students/academics/courses/across-nyu/instructions/form) Alternatives:
+- [Registering from other schools.](https://wagner.nyu.edu/portal/students/academics/courses/non-wagner-students) Alternatives:
   - There are lots of related courses around the University - [search](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/course-search.html) for "python".
     
   - See also: [Resources](resources.md)
