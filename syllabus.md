@@ -253,7 +253,7 @@ If you do miss class, we trust that it's for a good reason. If you're sick, plea
 
 Requests for viewing lectures remotely will be considered on a case-by-case basis. These will still count as an absence/freebie.
 
-You are responsible for getting caught up on what was covered in class. You may want to ask a classmate for notes.
+You are responsible for getting caught up on [what was covered in class](#schedule). You may want to ask a classmate for notes.
 
 ### Devices
 

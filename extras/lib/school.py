@@ -111,7 +111,7 @@ SCHOOLS = [
         assistant_responsibilities="https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit#heading=h.7f7yn4ehwnkz",
         wait_list="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/waitlists.html",
         registration="https://wagner.nyu.edu/portal/students/academics/registration",
-        cross_registration="https://wagner.nyu.edu/portal/students/academics/courses/across-nyu/instructions/form",
+        cross_registration="https://wagner.nyu.edu/portal/students/academics/courses/non-wagner-students",
         auditing="https://wagner.nyu.edu/portal/students/academics/registration/auditing",
         r_credit="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/transcripts-certifications-grades/grades.html",
         assignment_cutoff_name="`Late Due Date`",
