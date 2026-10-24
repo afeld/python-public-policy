@@ -11,7 +11,7 @@ assignees: afeld
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] Links to Brightspace site
-  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor-guide/#adding-updating-packages) to match Colab
+  - [ ] [Update packages](https://python-public-policy.afeld.me/en/nyu/meta/instructor-guide/#adding-updating-packages) to match Colab
 - [ ] Submit syllabus to Wagner
   - [ ] [Download as PDF](https://python-public-policy.afeld.me/en/nyu/syllabus/)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
