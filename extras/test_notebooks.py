@@ -181,7 +181,7 @@ def test_plotly_renderer_configured(file):
                 imports_plotly = True
 
             if (
-                'pio.renderers.default = "colab+notebook_connected+plotly_mimetype"'
+                'pio.renderers.default = "plotly_mimetype+colab"'
                 in source
             ):
                 has_renderer_config = True
@@ -193,5 +193,5 @@ def test_plotly_renderer_configured(file):
 
     if imports_plotly:
         assert has_renderer_config, (
-            "Notebook imports plotly but doesn't set `pio.renderers.default = 'colab+notebook_connected+plotly_mimetype'`"
+            "Notebook imports plotly but doesn't set `pio.renderers.default = 'plotly_mimetype+colab'`"
         )
