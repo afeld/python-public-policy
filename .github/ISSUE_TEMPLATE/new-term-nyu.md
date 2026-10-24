@@ -24,9 +24,9 @@ assignees: afeld
   - [ ] Set up check-in
   - [ ] Share solutions folder from Drive
 - [ ] Confirm Colab works
-  - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture-0/#try-it)
+  - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture-0/#jupyter)
   - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture-3/)
-- [ ] New Brightspace site
+- [ ] Set up Brightspace
   - [ ] Update bookmark
   - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
     - [ ] Copy settings
@@ -36,7 +36,6 @@ assignees: afeld
     - [ ] Make grader an [Admin](https://edstem.org/us/help/getting-started#appendix-roles)
   - [ ] Import
   - [ ] Simplify name
-  - [ ] Create recurring Zoom
   - [ ] Set up Gradescope — [NYU](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0012077) and [official](https://guides.gradescope.com/hc/en-us/articles/23587619649805-Using-Gradescope-LTI-1-3-with-Brightspace-D2L-as-an-Instructor) docs
     - [ ] Duplicate from last semester
     - [ ] Adjust dates
