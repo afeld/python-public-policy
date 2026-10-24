@@ -24,7 +24,7 @@ assignees: afeld
   - [ ] Share solutions folder from Drive
 - [ ] Confirm Colab works
   - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/columbia/lecture-0/#jupyter)
-  - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/columbia/lecture-3/)
+  - [ ] Run [Lecture 3 demo solution](https://python-public-policy.afeld.me/en/columbia/lecture-3-demo-solution/)
 - [ ] Set up Courseworks
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
   - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/columbia/syllabus/#schedule)
