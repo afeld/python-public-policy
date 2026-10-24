@@ -11,21 +11,21 @@ assignees: afeld
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] Links to Brightspace site
-  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#adding-updating-packages) to match Colab
+  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor-guide/#adding-updating-packages) to match Colab
 - [ ] Submit syllabus to Wagner
-  - [ ] [Download as PDF](https://python-public-policy.afeld.me/en/nyu/syllabus.html)
+  - [ ] [Download as PDF](https://python-public-policy.afeld.me/en/nyu/syllabus/)
   - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
-  - [ ] Share the [guide](https://python-public-policy.afeld.me/en/nyu/assistant_guide.html)
-  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
+  - [ ] Share the [guide](https://python-public-policy.afeld.me/en/nyu/meta/assistant-guide/)
+  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus/#instructor-information)
   - [ ] [Add to Brightspace as a Teaching Assistant](https://nyu.service-now.com/sp?id=kb_article&sysparm_article=KB0018960&sys_kb_id=e78f37561b3e6050191ca8233a4bcb2a&spa=1)
   - [ ] Set up check-in
   - [ ] Share solutions folder from Drive
 - [ ] Confirm Colab works
-  - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture_0.html#id2)
-  - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture_3.html)
+  - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture-0/#try-it)
+  - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture-3/)
 - [ ] New Brightspace site
   - [ ] Update bookmark
   - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
@@ -42,7 +42,7 @@ assignees: afeld
     - [ ] Adjust dates
     - [ ] Link from Brightspace
     - [ ] Link Assignments
-  - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus.html#schedule)
+  - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus/#schedule)
   - [ ] [Set up the Final Project](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011896)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Set up Exam
