@@ -25,7 +25,7 @@ assignees: afeld
   - [ ] Share solutions folder from Drive
 - [ ] Confirm Colab works
   - [ ] Run [initial demo](https://python-public-policy.afeld.me/en/nyu/lecture-0/#jupyter)
-  - [ ] Run [Lecture 3](https://python-public-policy.afeld.me/en/nyu/lecture-3/)
+  - [ ] Run [Lecture 3 demo solution](https://python-public-policy.afeld.me/en/nyu/lecture-3-demo-solution/)
 - [ ] Set up Brightspace
   - [ ] Update bookmark
   - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
