@@ -13,18 +13,18 @@ assignees: afeld
   - [ ] Link to Vergil
   - [ ] Link to survey
   - [ ] CourseWorks link
-  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#adding-updating-packages) to match Colab
+  - [ ] [Update packages](https://python-public-policy.afeld.me/en/columbia/meta/instructor-guide/#adding-updating-packages) to match Colab
 - [ ] Find Readers
   - [ ] Update [job post](https://docs.google.com/document/d/1NiS1uPM_0OB7dXHP1D90P-XikXj6gwWRUsf0V_dEoUI/edit#)
-  - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/assistant_guide.html)
-  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus.html#instructor-information)
+  - [ ] Share the [guide](https://python-public-policy.afeld.me/en/columbia/meta/assistant-guide/)
+  - [ ] Update in [syllabus](https://python-public-policy.afeld.me/en/columbia/syllabus/#instructor-information)
   - [ ] Make Readers [Admins](https://edstem.org/us/help/getting-started#appendix-roles) in Ed
   - [ ] Set up check-in
   - [ ] Set up Discussion monitoring schedule
   - [ ] Share solutions folder from Drive
 - [ ] Set up Courseworks
   - [ ] [Import content from previous term](https://support.ctl.columbia.edu/892419)
-  - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/columbia/syllabus.html#schedule)
+  - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/columbia/syllabus/#schedule)
   - [ ] [Automatically post grades](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-select-a-grade-posting-policy-for-a-course-in-the/ta-p/588)
   - [ ] [Set up Ed](https://courseworks2.columbia.edu/courses/56883/pages/using-ed-discussions)
     - [ ] Create categories
@@ -39,7 +39,7 @@ assignees: afeld
     - [ ] Link from CourseWorks
     - [ ] Link Assignments
     - [ ] Set up Exam (more detail needed)
-  - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/columbia/meta/instructor_guide.html#student-enrollment-activity)
+  - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/columbia/meta/instructor-guide/#student-enrollment-activity)
 - [ ] Print [attendance sheets](https://docs.google.com/spreadsheets/d/12QzoGhaGdlgui0CWPjSFLCR2ew45sx6dEEb7j04mt5Q/edit?gid=0#gid=0)
   - [ ] In print menu, include date as custom header
 - [ ] Set reminder to bring attendance sheets
