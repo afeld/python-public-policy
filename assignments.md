@@ -113,7 +113,7 @@ Note [the Final Project submission](final_project.md#submission) is slightly dif
   ```python
   import plotly.io
 
-  plotly.io.json.config.default_engine = 'json'
+  plotly.io.json.config.default_engine = "json"
   ```
 
 ### Runtime and memory issues
