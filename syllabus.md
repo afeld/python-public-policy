@@ -95,15 +95,15 @@ The Course Grade is based on the following:
 - [Attendance](#attendance): 6%
 - [Between-Class Participation](#participation): 5%
 
-[hw0]: https://python-public-policy.afeld.me/en/nyu/hw_0.html
-[hw1]: https://python-public-policy.afeld.me/en/nyu/hw_1.html
-[hw2]: https://python-public-policy.afeld.me/en/nyu/hw_2.html
-[hw3]: https://python-public-policy.afeld.me/en/nyu/hw_3.html
-[hw4]: https://python-public-policy.afeld.me/en/nyu/hw_4.html
-[exam]: https://python-public-policy.afeld.me/en/nyu/exam.html
-[final_prop]: https://python-public-policy.afeld.me/en/nyu/final_project/proposal.html
-[final]: https://python-public-policy.afeld.me/en/nyu/final_project.html
-[final-peer]: https://python-public-policy.afeld.me/en/nyu/final_project/peer_grading.html
+[hw0]: hw_0.ipynb
+[hw1]: hw_1.md
+[hw2]: hw_2.ipynb
+[hw3]: hw_3.ipynb
+[hw4]: hw_4.md
+[exam]: exam.md
+[final_prop]: final_project/proposal.md
+[final]: final_project.md
+[final-peer]: final_project/peer_grading.md
 
 It is entirely possible for everyone in the class to get over 100%.
 
@@ -112,7 +112,7 @@ It is entirely possible for everyone in the class to get over 100%.
 - **Late work:** -10 points per day
 - **Syntax errors:** -10 points
 - **Incomplete Steps / Steps with logic errors:** -2 to -5 points
-- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](https://python-public-policy.afeld.me/en/nyu/lecture_3.html#chart-hygiene) -3 points
+- [**Visualizations incomplete, e.g. missing meaningful title/labels:**](lecture_3.ipynb#chart-hygiene) -3 points
 - **Unattempted Steps:** -10 points
 - **Homework [1](hw_1.md)/[4](hw_4.md) doesn't [read like a blog post](assignments/open_ended.md#read-like-a-blog-post):** -10 to -20 points
 
@@ -172,7 +172,7 @@ Letter grades for the entire course will be assigned as follows:
 
 ## Class Policies
 
-- All submissions must be made from a Jupyter notebook file, following [these instructions](https://python-public-policy.afeld.me/en/nyu/assignments.html).
+- All submissions must be made from a Jupyter notebook file, following [these instructions](assignments.md).
 
 ### Attendance
 
@@ -219,7 +219,7 @@ Anything outside of the provided course materials is considered a "source". This
   - The submissions are different
 - Students are more than welcome to share approaches and code snippets in the Discussions, so long as they aren't giving the full solution away.
 - Students may post their [open-ended assignments](assignments/open_ended.md) publicly (on GitHub, LinkedIn, etc). Other assignments (with "correct answers") cannot be posted publicly, to avoid cheating in future semesters. You are more than welcome to share any of your notebooks with specific people, such as future employers.
-- [Tips for working with generative AI](https://python-public-policy.afeld.me/en/nyu/assignments.html#generative-ai)
+- [Tips for working with generative AI](assignments.md#generative-ai)
 
 #### Wagner Academic Integrity Statement
 

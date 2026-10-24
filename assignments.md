@@ -28,7 +28,7 @@ You'll create your own notebook.
   - The assignments are meant to be challenging, not impossible.
   - Try and work through problems on your own to start. If you are stuck for more than a half hour, [step away](https://dankim.org/posts/cant-crack-that-programming-problem/). If you _still_ can't figure it out, ask for help.
     - [Ed](https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575204)
-    - [Office hours](https://python-public-policy.afeld.me/en/nyu/syllabus.html#instructor-information)
+    - [Office hours](syllabus.md#instructor-information)
 
 ### Coding in general
 
@@ -113,7 +113,7 @@ Note [the Final Project submission](final_project.md#submission) is slightly dif
   ```python
   import plotly.io
 
-  plotly.io.json.config.default_engine = 'json'
+  plotly.io.json.config.default_engine = "json"
   ```
 
 ### Runtime and memory issues
