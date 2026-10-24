@@ -58,6 +58,17 @@ article > .colab-link {
   .print-only {
     display: block;
   }
+
+  /* hide unnecessary clutter */
+  .myst-top-nav,
+  /* buttons */
+  .myst-fm-block-header,
+  .myst-primary-sidebar,
+  .myst-outline-section,
+  .myst-footer-links,
+  .footer {
+    display: none;
+  }
 }
 
 /* indicate the version by color */
