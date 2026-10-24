@@ -41,6 +41,7 @@ For each school, [the workflow](../.github/workflows/publish.yml):
    - Jinja templating is used throughout the source files (Markdown, notebooks, etc.), rendered using [nbconvert](https://nbconvert.readthedocs.io/) with [a custom preprocessor](../extras/lib/school_template.py).
    - Variables (such as `Columbia University`, `https://courseworks2.columbia.edu/courses/233960`, and `Reader`) are replaced with the values from the [configuration file](../extras/lib/school.py) for the selected school.
    - It uses `{% if id == "columbia" %}` and `{% if id == "nyu" %}` conditionals for school-only content; the generated files must contain neither Jinja tags nor identifiers for the other school.
+   - Notebooks link to other pages by their source files, relative to the notebook (e.g. `[schedule](syllabus.md#schedule)`). These get rewritten to absolute URLs on the school's site so that they work when the notebook is opened in Colab, and the build fails if the file doesn't exist.
    - For notebooks, `school.sh` first removes cells tagged for the other school (`columbia-only` or `nyu-only`) and cells tagged `remove`. It then renders each remaining cell source with the same Jinja variables, while resetting notebook kernel metadata to the default Python kernel for Colab.
 1. Runs `make site`, which builds the Jupyter Book HTML into `_build/html`.
 1. Generates redirects from old Jupyter Book 1 `.html` paths to Jupyter Book 2 URLs using [jb1-redirect-generator](https://github.com/jupyter-book/jb1-redirect-generator).

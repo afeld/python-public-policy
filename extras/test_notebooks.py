@@ -8,6 +8,7 @@ from markdown_it.token import Token
 
 from .autograder.source.tests.helpers import check_plots
 from .lib.nb_helper import get_tags, is_h1, is_markdown, is_python, read_notebook
+from .lib.school_template import COURSE_HOSTNAME
 
 
 def check_metadata(notebook, file):
@@ -82,15 +83,19 @@ def test_heading_levels(file):
 def check_link(token: Token, parent: Token | None = None):
     if token.type == "link_open":
         href = str(token.attrGet("href"))
+        source = parent.content if parent else token.content
+        # pages are linked by source file, which school_template.py makes absolute
+        assert COURSE_HOSTNAME not in href, (
+            f"Link to the page's source file instead. Text:\n\n{source}\n"
+        )
         # escaped Jinja2 tags, or local media (e.g. to view a video full screen), which like embedded images only resolves on the site/slides
-        if not re.match(r"http|#|%7B%7B|extras/img/", href):
-            source = parent.content if parent else token.content
+        if not re.match(r"http|#|%7B%7B|extras/img/|[^:]+\.(md|ipynb)(#|$)", href):
             assert False, f"Link should be absolute. Text:\n\n{source}\n"
 
 
 @pytest.mark.parametrize("file", notebooks)
 def test_links(file):
-    """To ensure that links work from the coding environment, ensure all links are absolute."""
+    """To ensure that links work from the coding environment, ensure all links are absolute or to pages that get made absolute."""
 
     md = MarkdownIt()
 

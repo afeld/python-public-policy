@@ -1,5 +1,6 @@
 import dataclasses
 import re
+from pathlib import Path
 
 from jinja2 import Environment, StrictUndefined
 from nbconvert.preprocessors import Preprocessor
@@ -9,6 +10,11 @@ from traitlets.traitlets import Unicode
 from .school import EXEMPT, SCHOOL_TEXT, SCHOOLS, SchoolText
 
 COURSE_HOSTNAME = "python-public-policy.afeld.me"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+# Markdown links to other pages, e.g. [Syllabus](syllabus.md#schedule), but not ones with a scheme or that are only an anchor
+RELATIVE_LINK = re.compile(
+    r"(?<!!)\]\((?![a-z]+:|#)([^)#\s]+\.(?:md|ipynb))(#[^)\s]*)?\)"
+)
 
 env = Environment(
     undefined=StrictUndefined,
@@ -25,6 +31,28 @@ def render_template(source: str, school_id: str):
     template = env.from_string(source)
     local_vars = get_vars(school_id)
     return template.render(**local_vars)
+
+
+def page_url(target: str, nb_dir: Path, school_slug: str):
+    """The absolute site URL for a page's source file, linked from a notebook in nb_dir."""
+
+    path = (nb_dir / target).resolve()
+    assert path.is_file(), f"Link target not found: {target}"
+
+    # Jupyter Book 2 builds pages at slugs like assignments/open_ended.md -> assignments/open-ended/
+    page = path.relative_to(REPO_ROOT).with_suffix("").as_posix()
+    slug = "" if page == "index" else re.sub(r"[^a-z0-9/]+", "-", page.lower()) + "/"
+    return f"https://{COURSE_HOSTNAME}/en/{school_slug}/{slug}"
+
+
+def absolutize_links(source: str, nb_dir: Path, school_slug: str):
+    """Rewrites relative links to pages so they work when the notebook is opened elsewhere, like Colab."""
+
+    def replace(match: re.Match):
+        url = page_url(match[1], nb_dir, school_slug)
+        return f"]({url}{match[2] or ''})"
+
+    return RELATIVE_LINK.sub(replace, source)
 
 
 def check_line(line: str, line_num: int, this_school: SchoolText):
@@ -63,8 +91,11 @@ def confirm_other_schools_not_included(source: str, school_id: str):
         check_line(line, line_num, school_text)
 
 
-def render_cell(cell: NotebookNode, school_id: str):
+def render_cell(cell: NotebookNode, school_id: str, nb_dir: Path = REPO_ROOT):
     cell.source = render_template(cell.source, school_id)
+    if cell.cell_type == "markdown":
+        school_slug = SCHOOL_TEXT[school_id].school_slug
+        cell.source = absolutize_links(cell.source, nb_dir, school_slug)
 
     confirm_no_jinja_tags(cell.source)
     confirm_other_schools_not_included(cell.source, school_id)
@@ -90,5 +121,7 @@ class SchoolTemplate(Preprocessor):
         if not self.school_id:
             raise RuntimeError(f"{type(self).__name__}.school_id must be set")
 
-        cell = render_cell(cell, self.school_id)
+        # nbconvert sets the path to the notebook's directory, relative to the working directory
+        nb_dir = Path(resources.get("metadata", {}).get("path", "")).resolve()
+        cell = render_cell(cell, self.school_id, nb_dir)
         return cell, resources
