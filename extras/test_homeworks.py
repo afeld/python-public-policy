@@ -16,7 +16,7 @@ hw_markdown.sort()
 def test_notebook_reminders(file):
     notebook = read_notebook(file)
 
-    assert any("assignments.html" in cell.source for cell in notebook.cells), (
+    assert any("assignments.md" in cell.source for cell in notebook.cells), (
         "Missing assignment submission instructions"
     )
 
