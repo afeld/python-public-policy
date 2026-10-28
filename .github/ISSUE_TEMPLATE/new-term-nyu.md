@@ -45,7 +45,7 @@ assignees: afeld
   - [ ] Update participation dates, from [Lecture 0-5](https://python-public-policy.afeld.me/en/nyu/syllabus/#schedule)
   - [ ] [Set up the Final Project](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011896)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
-  - [ ] Set up Exam
+  - [ ] Set up quizzes
     - [ ] Set IP address range
     - [ ] Enable Respondus
 - [ ] Print attendance sheets

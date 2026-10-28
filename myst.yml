@@ -18,7 +18,7 @@ project:
       children:
         - file: registration.md
         - file: joining_late.md
-        - file: exam.md
+        - file: quizzes.md
         {% if id == "columbia" -%}
         - file: curve.ipynb
         {%- endif %}
