@@ -115,17 +115,17 @@ By the end of the course, students will know:
 
 {% else -%}
 
-| Date  | Lecture             | Homework due                                               | [Late deadline](#assignment-scoring)                       |
-| ----- | ------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 10/28 | {doc}`lecture_0`    | none                                                       |                                                            |
-| 11/4  | {doc}`lecture_1`    | [Homework 0][hw0]                                          |                                                            |
-| 11/11 | {doc}`lecture_2`    | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 11/18 | {doc}`lecture_3`    | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |˚
-| 11/25 | {doc}`lecture_4`    | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 12/2  | {doc}`lecture_5`    | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 12/9  | {doc}`lecture_6`    | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 12/12 | none                | none                                                       | [Final Project][final]                                     |
-| 12/16 | [Exam][exam]        | [Final Project peer grading][final-peer]                   |                                                            |
+| Date  | Lecture          | Homework due                                               | [Late deadline](#assignment-scoring)                       |
+| ----- | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 10/28 | {doc}`lecture_0` | none                                                       |                                                            |
+| 11/4  | {doc}`lecture_1` | [Homework 0][hw0]                                          |                                                            |
+| 11/11 | {doc}`lecture_2` | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 11/18 | {doc}`lecture_3` | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 11/25 | {doc}`lecture_4` | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 12/2  | {doc}`lecture_5` | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 12/9  | {doc}`lecture_6` | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 12/12 | none             | none                                                       | [Final Project][final]                                     |
+| 12/16 | [Exam][exam]     | [Final Project peer grading][final-peer]                   |                                                            |
 
 {% endif -%}
 
