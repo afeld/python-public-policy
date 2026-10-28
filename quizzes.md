@@ -1,18 +1,17 @@
-# Exam
+# Quizzes
 
-The point of the exam is to ensure you were doing the following throughout the course:
+_This course used to have an exam. They have been replaced by multiple quizzes. **The page still needs updating.**_
+
+The point of the quizzes are to ensure you are doing the following throughout the course:
 
 - Paying attention
 - Completing the assignments yourself (versus [copying-and-pasting from generative AI](syllabus.md#academic-integrity), etc.)
 
-If both of those are the case, you will likely:
-
-- Do well on the exam without a _huge_ amount of studying
-- Finish before the time limit
+If both of those are the case, you will likely do well on the quizzes without additional studying.
 
 ## Format
 
-- The exam will contain:
+- The quizzes will contain:
   - Fill-in-the-blank
   - Matching
   - Free response questions

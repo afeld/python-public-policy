@@ -80,7 +80,6 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 ## Start of class checklist
 
-- Put out attendance sheet
 - Connect to screen
 - Start [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - Set phone and laptop to Do Not Disturb
@@ -158,7 +157,6 @@ PIVOT (
    1. Re-run the notebook
    1. Spot-check the [new cutoffs](../curve.ipynb#new-cutoffs)
    1. Update the [course grading scheme](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-enable-a-grading-scheme-for-a-course/ta-p/1042)
-1. [Calculate the attendance scores](../extras/scripts/attendance.py)
 1. Confirm all Gradebook cells are filled in
 
 

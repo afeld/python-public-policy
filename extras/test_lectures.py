@@ -72,14 +72,6 @@ def test_num_slides(file):
 
 
 @pytest.mark.parametrize("file", lecture_notebooks)
-def test_attendance_reminder(file):
-    notebook = read_notebook(file)
-
-    start_cells = notebook.cells[:3]
-    assert any("attendance" in cell.source for cell in start_cells)
-
-
-@pytest.mark.parametrize("file", lecture_notebooks)
 def test_hidden_imports(file):
     if file == "lecture_3.ipynb":
         pytest.skip("Introducing plotly")
