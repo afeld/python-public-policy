@@ -97,9 +97,9 @@ site:
     - title: "Brightspace"
       url: "https://brightspace.nyu.edu/d2l/home/613479"
     - title: Ed
-      url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575204"
+      url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/14095189"
     - title: Gradescope
-      url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/12575205"
+      url: "https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/14095190"
   parts:
     # license badge, which links to the right URL, unlike the one from project.license
     footer: _footer.md
