@@ -11,10 +11,11 @@ assignees: afeld
   - [ ] Office hours
   - [ ] Link to survey
   - [ ] Links to Brightspace site
+    - [ ] `/topics/` URLs
   - [ ] [Update packages](https://python-public-policy.afeld.me/en/nyu/meta/instructor-guide/#adding-updating-packages) to match Colab
 - [ ] Submit syllabus to Wagner
   - [ ] [Download as PDF](https://python-public-policy.afeld.me/en/nyu/syllabus/)
-  - [ ] Ensure [Accessibility Check](https://www.adobe.com/accessibility/products/acrobat/using-acrobat-pro-accessibility-checker.html) passes
+  - [ ] Ensure [Accessibility Check](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html) passes
   - [ ] [Upload through Faculty Portal](https://wagner.nyu.edu/node/add/syllabus)
 - [ ] Find grader
   - [ ] Update [job post](https://docs.google.com/document/d/1dX2MDc5Fhby8GyeKLF4rrI0RZrJAmF1LHGV2SdFIkAE/edit)
@@ -28,7 +29,7 @@ assignees: afeld
   - [ ] Run [Lecture 3 demo solution](https://python-public-policy.afeld.me/en/nyu/lecture-3-demo-solution/)
 - [ ] Set up Brightspace
   - [ ] Update bookmark
-  - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sys_kb_id=47a58844c39e2e50a1d9404599013196)
+  - [ ] [Request Ed Discussion](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011625)
     - [ ] Copy settings
     - [ ] Send welcome Announcement
     - [ ] Set up Megathread for Final Project proposals
