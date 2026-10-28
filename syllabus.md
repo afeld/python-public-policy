@@ -140,14 +140,17 @@ In general, assignments are due at the time class starts. These will all be refl
 
 The Course Grade is based on the following:
 
-- [Assignments](#assignment-scoring): 50%
-  - [Homework 0][hw0]: 10%
-  - [Homework 1][hw1]: 10%
-  - [Homework 2][hw2]: 10%
-  - [Homework 3][hw3]: 5%
-  - [Final Project proposal][final_prop]: 5%
-  - [Homework 4][hw4]: 10%
-- [Quizzes][quizzes]: 14%
+- [Assignments](#assignment-scoring): 40%
+  - [Homework 0][hw0]: 8%
+  - [Homework 1][hw1]: 8%
+  - [Homework 2][hw2]: 8%
+  - [Homework 3][hw3]: 4%
+  - [Final Project proposal][final_prop]: 4%
+  - [Homework 4][hw4]: 8%
+- [Quizzes][quizzes]: 24%
+  - Quiz 1: 4%
+  - Quiz 2: 10%
+  - Quiz 3: 10%
 - [Final Project][final]: 20%
 - [Final Project peer grading][final-peer]: 5%
 - [Attendance](#attendance): 6%
