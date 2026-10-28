@@ -34,7 +34,6 @@ class SchoolText:
     python_for_mbas: str
     statista_url: str
     final_project_proposal: str
-    attendance_url: str
     course_search: str
     linkedin_learning_url: str
     ai_offerings: str
@@ -72,7 +71,6 @@ SCHOOLS = [
         python_for_mbas="https://clio.columbia.edu/catalog/15536430",
         statista_url="https://clio.columbia.edu/catalog/11329105",
         final_project_proposal="https://edstem.org/us/courses/89677/discussion/7659126",
-        attendance_url="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Roll-Call-Attendance-Tool/ta-p/59#take_attendance",
         course_search="https://vergil.columbia.edu/",
         linkedin_learning_url="https://www.cuit.columbia.edu/linkedin-learning",
         ai_offerings="https://www.cuit.columbia.edu/content/ai-services",
@@ -118,7 +116,6 @@ SCHOOLS = [
         python_for_mbas="https://bobcat.library.nyu.edu/permalink/f/ci13eu/nyu_aleph008975996",
         statista_url="https://search.library.nyu.edu/permalink/01NYU_INST/1697t4d/alma990062490650107871",
         final_project_proposal="https://edstem.org/us/courses/96867/discussion/7944255",
-        attendance_url="https://community.d2l.com/brightspace/kb/articles/3554-create-and-manage-attendance-registers#enter-attendance-data",
         course_search="https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/albert-help/training/students/registration/course-search.html",
         linkedin_learning_url="https://www.nyu.edu/life/information-technology/teaching-and-learning-services/instructional-tools/linkedin-learning.html",
         ai_offerings="https://www.nyu.edu/life/information-technology/artificial-intelligence-at-nyu/generative-ai-services.html",
