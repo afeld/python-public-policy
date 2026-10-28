@@ -56,17 +56,17 @@ By the end of the course, students will know:
 
 ## Schedule
 
-| Date  | Lecture          | Homework due                                               | [Late deadline](#assignment-scoring)                       |
-| ----- | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| 10/28 | {doc}`lecture_0` | none                                                       |                                                            |
-| 11/4  | {doc}`lecture_1` | [Homework 0][hw0]                                          |                                                            |
-| 11/11 | {doc}`lecture_2` | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
-| 11/18 | {doc}`lecture_3` | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
-| 11/25 | {doc}`lecture_4` | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
-| 12/2  | {doc}`lecture_5` | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
-| 12/9  | {doc}`lecture_6` | [Final Project][final]                                     | [Homework 4][hw4]                                          |
-| 12/12 | none             | none                                                       | [Final Project][final]                                     |
-| 12/16 | [Exam][exam]     | [Final Project peer grading][final-peer]                   |                                                            |
+| Date  | Lecture                                | Homework due                                               | [Late deadline](#assignment-scoring)                       |
+| ----- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| 10/28 | {doc}`lecture_0`                       | none                                                       |                                                            |
+| 11/4  | [Quiz][quizzes] 1 and {doc}`lecture_1` | [Homework 0][hw0]                                          |                                                            |
+| 11/11 | {doc}`lecture_2`                       | [Homework 1][hw1]                                          | [Homework 0][hw0]                                          |
+| 11/18 | [Quiz][quizzes] 2 and {doc}`lecture_3` | [Homework 2][hw2]                                          | [Homework 1][hw1]                                          |
+| 11/25 | {doc}`lecture_4`                       | [Homework 3][hw3] and [Final Project proposal][final_prop] | [Homework 2][hw2]                                          |
+| 12/2  | [Quiz][quizzes] 3 and {doc}`lecture_5` | [Homework 4][hw4]                                          | [Homework 3][hw3] and [Final Project proposal][final_prop] |
+| 12/9  | {doc}`lecture_6`                       | [Final Project][final]                                     | [Homework 4][hw4]                                          |
+| 12/12 | none                                   | none                                                       | [Final Project][final]                                     |
+| 12/16 | none                                   | [Final Project peer grading][final-peer]                   |                                                            |
 
 In general, assignments are due at the time class starts. These will all be reflected in the Assignments in [Gradescope](https://brightspace.nyu.edu/d2l/le/lessons/613479/topics/14095190).
 
@@ -82,17 +82,19 @@ In general, assignments are due at the time class starts. These will all be refl
 
 The Course Grade is based on the following:
 
-- [Assignments](#assignment-scoring): 50%
-  - [Homework 0][hw0]: 10%
-  - [Homework 1][hw1]: 10%
-  - [Homework 2][hw2]: 10%
-  - [Homework 3][hw3]: 5%
-  - [Final Project proposal][final_prop]: 5%
-  - [Homework 4][hw4]: 10%
-- [Exam][exam]: 14%
+- [Assignments](#assignment-scoring): 40%
+  - [Homework 0][hw0]: 8%
+  - [Homework 1][hw1]: 8%
+  - [Homework 2][hw2]: 8%
+  - [Homework 3][hw3]: 4%
+  - [Final Project proposal][final_prop]: 4%
+  - [Homework 4][hw4]: 8%
+- [Quizzes][quizzes]: 30%
+  - Quiz 1: 6%
+  - Quiz 2: 12%
+  - Quiz 3: 12%
 - [Final Project][final]: 20%
 - [Final Project peer grading][final-peer]: 5%
-- [Attendance](#attendance): 6%
 - [Between-Class Participation](#participation): 5%
 
 [hw0]: hw_0.ipynb
@@ -100,7 +102,7 @@ The Course Grade is based on the following:
 [hw2]: hw_2.ipynb
 [hw3]: hw_3.ipynb
 [hw4]: hw_4.md
-[exam]: exam.md
+[quizzes]: quizzes.md
 [final_prop]: final_project/proposal.md
 [final]: final_project.md
 [final-peer]: final_project/peer_grading.md
@@ -176,19 +178,13 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Attendance
 
-Attending class is mandatory, but most importantly, important. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss attending class in person, you miss an important learning moment and the class misses your contribution.
+Attending class is expected. Learning programming requires commitment from the part of the student and the skills are built out of practice. If you miss attending class in person, you miss an important learning moment and the class misses your contribution.
 
-Missing class counts as an absence, regardless of the reason or notifying the instructor(s) beforehand. Missing more than 20 minutes of a class session will be treated as an absence. The first absence is treated as a "freebie". Your final Attendance score will be calculated as:
-
-$$\text{maximum\_score} = \text{total\_classes} - \text{freebies} = 7 - 1 = 6$$
-
-$$\text{your\_score} = \min(\text{maximum\_score}, \text{number\_of\_classes\_you\_attended})$$
-
-If you do miss class, we trust that it's for a good reason. If you're sick, please use that freebie and stay home and rest.
-
-Requests for viewing lectures remotely will be considered on a case-by-case basis. These will still count as an absence/freebie.
+If you do miss class, we trust that it's for a good reason. If you're sick, please stay home and rest.
 
 You are responsible for getting caught up on [what was covered in class](#schedule). You may want to ask a classmate for notes.
+
+Attendance won't be taken, though [quizzes][quizzes] are taken at a specific time in person. Alternate arrangements can be made ahead of time only.
 
 ### Devices
 

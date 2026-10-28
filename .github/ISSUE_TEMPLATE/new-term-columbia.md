@@ -41,17 +41,14 @@ assignees: afeld
     - [ ] Adjust dates
     - [ ] Link from CourseWorks
     - [ ] Link Assignments
-    - [ ] Set up Exam (more detail needed)
+    - [ ] Set up quizzes (more detail needed)
   - [ ] If there's a wait list: After the registration deadline, [send student enrollment activity](https://python-public-policy.afeld.me/en/columbia/meta/instructor-guide/#student-enrollment-activity)
-- [ ] Print [attendance sheets](https://docs.google.com/spreadsheets/d/12QzoGhaGdlgui0CWPjSFLCR2ew45sx6dEEb7j04mt5Q/edit?gid=0#gid=0)
   - [ ] In print menu, include date as custom header
-- [ ] Set reminder to bring attendance sheets
 - [ ] Bring the first day
   - [ ] A/V keys
   - [ ] Laptop stand
   - [ ] Power strips
   - [ ] Extension cord
-  - [ ] Attendance sheets
   - [ ] PB&J supplies
     - [ ] Sunflower butter
     - [ ] Jelly

@@ -80,7 +80,6 @@ To ensure that notebooks have the correct execution order and output, run them n
 
 ## Start of class checklist
 
-- Put out attendance sheet
 - Connect to screen
 - Start [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - Set phone and laptop to Do Not Disturb
