@@ -104,10 +104,9 @@ site:
     # license badge, which links to the right URL, unlike the one from project.license
     footer: _footer.md
   options:
-    favicon: extras/img/python-logo.svg
+    favicon: extras/img/python-logo.png
     logo: extras/img/python-logo.svg
     folders: true
-    # JB1 didn't show the author on each page
     hide_authors: true
     logo_text: "Python Coding for Public Policy"
     style: _static/styles.css
