@@ -9,6 +9,8 @@
 - [Group by: split-apply-combine](https://pandas.pydata.org/docs/user_guide/groupby.html)
    - Beginning up to "GroupBy object attributes"
    - "Aggregation" up to "The `aggregate()` method"
+- [Markdown Guide Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+   - Optional: [Getting Started](https://www.markdownguide.org/getting-started/)
 
 ## Coding
 
