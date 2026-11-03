@@ -36,6 +36,10 @@ def render_template(source: str, school_id: str):
 def page_url(target: str, nb_dir: Path, school_slug: str):
     """The absolute site URL for a page's source file, linked from a notebook in nb_dir."""
 
+    # notebooks from outside the repository, like python-public-policy-assignments, get copied to its root
+    if not nb_dir.resolve().is_relative_to(REPO_ROOT):
+        nb_dir = REPO_ROOT
+
     path = (nb_dir / target).resolve()
     assert path.is_file(), f"Link target not found: {target}"
 
