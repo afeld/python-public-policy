@@ -1,9 +1,10 @@
 from argparse import ArgumentParser
+
 from ..lib.school_template import confirm_other_schools_not_included, render_template
 
 parser = ArgumentParser(
     # https://stackoverflow.com/a/8789689/358804
-    prog=f"python -m {__loader__.name}",
+    prog=f"uv run python -m {__loader__.name}",
     description="Render template with school data. This works on any type of file; see use of nbconvert for a Jupyter-specific implementation.",
 )
 parser.add_argument("filename")
