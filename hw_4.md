@@ -49,6 +49,10 @@ In the videos below, don't get hung up on mentions of JavaScript, Node.js, or Tw
    1. [API documentation](https://drive.google.com/file/d/10fOxW42-ODIgHlLgLCP_wklrxB8G4K3A/view?usp=sharing)
 1. Read [Python’s Requests Library (Guide)](https://realpython.com/python-requests/) through `The Message Body`
 
+## Quiz prep
+
+See [topics](quizzes.md#quiz-2).
+
 ## Participation
 
 Reminder about the [between-class participation requirement](syllabus.md#participation).

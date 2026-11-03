@@ -1,64 +1,49 @@
 # Quizzes
 
-_This course used to have an exam. They have been replaced by multiple quizzes. **The page still needs updating.**_
+_This course used to have an exam. They have been replaced by multiple quizzes._
 
-The point of the quizzes are to ensure you are doing the following throughout the course:
+[There are several quizzes througout the course.](syllabus.md#schedule) They are in place to ensure you are doing the following throughout the course:
 
 - Paying attention
-- Completing the assignments yourself (versus [copying-and-pasting from generative AI](syllabus.md#academic-integrity), etc.)
+- Completing the assignments yourself (versus [copying-and-pasting from generative AI, etc.](syllabus.md#academic-integrity))
 
 If both of those are the case, you will likely do well on the quizzes without additional studying.
 
 ## Format
 
-- The quizzes will contain:
+- Each quiz will contain some combination of:
   - Fill-in-the-blank
   - Matching
   - Free response questions
     - Coding
       - The syntax isn't expected to be perfect.
     - High-level
-- It will be "closed book", meaning no:
+- They will be "closed book", meaning no:
   - Web browsing
   - Apps
   - Cheat sheets
   - Phones
   - etc.
-- It will be done online (in-person, synchronously) through [Proctorio](https://www.cuit.columbia.edu/proctorio).
+- They will be done online (in-person, synchronously) through [Proctorio](https://www.cuit.columbia.edu/proctorio).
   - To save time, installing this in advance is recommended.
   - This is being used to prevent access to other tabs/apps.
-  - While it _can_ be used to collect location, video, etc., this is disabled.
-  - You only need this for the exam itself; it can be uninstalled afterwards.
+  - While the tool _can_ be used to collect location, video, etc., this is disabled.
+  - You only need this during the quizzes; it can be uninstalled outside of that time.
 
 ## Topics
 
-The following is in scope for the exam:
+The quizzes cover everything from the lectures and assignments due prior to that quiz. In other words, they have the following scopes.
+
+### Quiz 0
 
 - Python fundamentals
   - Types
   - Variables
   - Conditionals
-  - Functions
-- pandas data structures
+  - Loops
 - Jupyter concepts
-- Markdown basics
-- Data manipulation
-  - Boolean indexing
-  - Aggregation (count/sum/mean)
-  - Grouping
-  - Cleaning
-  - Merging
-- Troubleshooting
-- Data visualization
-  - Choosing chart types
-  - Chart hygiene
-- Time series
-  - Resampling
-- APIs, conceptually
 
-## Example questions
-
-Recommendation: Try completing them without using a search engine, generative AI, the course materials, etc.
+#### Example questions
 
 - What is the value of `y` after the following code is executed?
 
@@ -79,12 +64,27 @@ Recommendation: Try completing them without using a search engine, generative AI
   print(x)
   ```
 
+### Quiz 1
+
+Everything above, plus:
+
+- Functions
+- pandas data structures
+- Data manipulation
+  - Boolean indexing
+  - Aggregation (count/sum/mean)
+  - Grouping
+  - Cleaning
+  - Merging
+- Troubleshooting
+- Markdown basics
+
+#### Example questions
+
 - What types can a pandas column be? Come up with at least three.
 - What are some scenarios where you'd need to deal with types in pandas? Come up with at least three.
 - How do you make a link in Markdown?
 - How does `groupby()` work?
-- What is resampling used for? Include an example.
-- What's a choropleth map? Try explaining to someone who's never seen one before.
 - What are the different kinds of merges? Can describe through text and/or visuals.
 - How would you merge the following Dataframes? Write the code as best you can.
 
@@ -104,11 +104,27 @@ Recommendation: Try completing them without using a search engine, generative AI
   | Mickey | Mouse   | multiple      |
   | Big    | Bird    | Sesame Street |
 
-- Why would you use an API?
+### Quiz 2
+
+Everything above, plus:
+
+- Reshaping
+- Data visualization
+  - Choosing chart types
+  - Chart hygiene
+- Time series
+  - Resampling
+  <!-- - APIs, conceptually -->
+
+#### Example questions
+
+- What is resampling used for? Include an example.
+- What's a choropleth map? Try explaining to someone who's never seen one before.
+<!-- - Why would you use an API?
 - Suppose you have this JSON stored in a `candidates` variable. Write code to retrieve the name.
 
   ```json
   {
     "results": [{ "name": "Jimmy McMillan", "first_file_date": "2010-01-01" }]
   }
-  ```
+  ``` -->
