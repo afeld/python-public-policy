@@ -7,7 +7,7 @@ _This course used to have an exam. They have been replaced by multiple quizzes._
 - Paying attention
 - Completing the assignments yourself (versus [copying-and-pasting from generative AI, etc.](syllabus.md#academic-integrity))
 
-If both of those are the case, you will likely do well on the quizzes without additional studying.
+If both of those are the case, you will likely do well on the quizzes without additional studying. The quizzes are intended to be completed in under 15 minutes.
 
 ## Format
 
