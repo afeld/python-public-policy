@@ -25,7 +25,6 @@ If both of those are the case, you will likely do well on the quizzes without ad
   - Phones
   - etc.
 - They will be done online (in-person, synchronously) through [{{quiz_tool_name}}]({{quiz_tool_docs}}).
-  - To save time, installing this in advance is recommended.
   - This is being used to prevent access to other tabs/apps.
   - While the tool _can_ be used to collect location, video, etc., this is disabled.
   - You only need this during the quizzes; it can be uninstalled outside of that time.
