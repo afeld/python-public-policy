@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pytest
 from nbformat.v4 import new_code_cell, new_markdown_cell
 
@@ -55,6 +57,19 @@ def test_relative_link_from_subdirectory():
     cell = new_markdown_cell("[Syllabus](../syllabus.md)")
 
     updated_cell = render_cell(cell, "nyu", REPO_ROOT / "final_project")
+
+    assert (
+        updated_cell.source
+        == "[Syllabus](https://python-public-policy.afeld.me/en/nyu/syllabus/)"
+    )
+
+
+def test_relative_link_from_outside_repo(tmp_path: Path):
+    """Notebooks from python-public-policy-assignments get copied to the repository root."""
+
+    cell = new_markdown_cell("[Syllabus](syllabus.md)")
+
+    updated_cell = render_cell(cell, "nyu", tmp_path)
 
     assert (
         updated_cell.source
