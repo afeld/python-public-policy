@@ -5,7 +5,7 @@ set -e
 NOTEBOOK="$1"
 
 echo "Executing notebook..."
-jupyter nbconvert \
+uv run jupyter nbconvert \
   --to notebook --inplace --execute --no-prompt \
   --ExecutePreprocessor.kernel_name=python3 \
   --ExecutePreprocessor.timeout=120 \

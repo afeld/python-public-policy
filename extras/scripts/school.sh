@@ -60,7 +60,7 @@ for f in $FILES; do
     # https://stackoverflow.com/a/965072/358804
     extension="${f##*.}"
     if [ "$extension" = "ipynb" ]; then
-        jupyter nbconvert \
+        uv run jupyter nbconvert \
             --to notebook --inplace \
             --TagRemovePreprocessor.enabled=True \
             --TagRemovePreprocessor.remove_cell_tags $REMOVE_TAG \
@@ -69,6 +69,6 @@ for f in $FILES; do
             --SchoolTemplate.school_id="$SCHOOL" \
             "$f"
     else
-        python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
+        uv run python -m extras.scripts.school_template --inplace "$f" "$SCHOOL"
     fi
 done
