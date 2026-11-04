@@ -24,11 +24,12 @@ article ol ol ol li {
   text-align: center;
 }
 
-/* show the "Open in Colab" link as a button in the page header, by overlapping it with the frontmatter block in the article grid. See extras/myst/colab.mjs. */
+/* show the "Open in Colab" and "View as slides" links as buttons in the page header, by overlapping them with the frontmatter block in the article grid. See extras/myst/colab.mjs and extras/myst/slides.mjs. */
 article:has(> .colab-link) > .myst-fm-block {
   grid-row: 1;
 }
-article > .colab-link {
+article > .colab-link,
+article > .slides-link {
   grid-row: 1;
   align-self: start;
   justify-self: start;
@@ -48,6 +49,16 @@ article > .colab-link {
     /* match the header's height, including the border */
     line-height: calc(1.5rem - 2px);
     text-decoration: none;
+  }
+}
+
+/* sit next to the "Open in Colab" button, which it shares a grid cell with */
+article > .slides-link {
+  margin-left: 9rem;
+
+  /* the theme marks links to files as downloads, but this one opens in the browser. Its selector for this is very specific. */
+  .link-icon {
+    display: none !important;
   }
 }
 

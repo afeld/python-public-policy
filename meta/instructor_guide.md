@@ -15,11 +15,13 @@ _While this is meant as internal documentation for the instructor, others are we
 
 ## Slides
 
-While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow).
+While the lecture notes can be viewed as a plain notebook, they are also [visible as slides](https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow). To present them locally:
 
 ```sh
 make slides lec=N
 ```
+
+[A MyST plugin](../extras/myst/slides.mjs) also builds each lecture's slides with the site, linked from the top of its page. Slides only show saved outputs, so [run the notebook](#notebook-cleanup) to have them included.
 
 ## Site
 
