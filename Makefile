@@ -14,6 +14,7 @@ slides:
 
 test:
 	pytest
+	node --test extras/myst/strikethrough.test.mjs
 
 # overridden in update.sh
 file := .
