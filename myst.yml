@@ -6,6 +6,7 @@ project:
     - name: Aidan Feldman
   plugins:
     - extras/myst/colab.mjs
+    - extras/myst/slides.mjs
     - extras/myst/strikethrough.mjs
   exclude:
     - .github/*
