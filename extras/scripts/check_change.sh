@@ -49,6 +49,6 @@ case "$SOURCE" in
 esac
 
 echo "Comparing output..."
-DIFF=$(nbdiff "$PRE" "$FINAL")
+DIFF=$(uv run nbdiff "$PRE" "$FINAL")
 echo "$DIFF"
 [ -z "$DIFF" ] || exit 1
