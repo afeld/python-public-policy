@@ -1,14 +1,14 @@
 lab:
-	jupyter lab
+	uv run jupyter lab
 
 notebook:
-	jupyter notebook
+	uv run jupyter notebook
 
 linkcheck:
 	ruby ./extras/scripts/broken_links.rb
 
 slides:
-	jupyter nbconvert --to slides \
+	uv run jupyter nbconvert --to slides \
 		--SlidesExporter.reveal_scroll=True \
 		--post serve lecture_$(lec).ipynb
 
@@ -19,14 +19,14 @@ test:
 file := .
 
 format:
-	ruff format $(file)
+	uv run ruff format $(file)
 
 # the URL the site will be served from, e.g. https://python-public-policy.afeld.me/en/columbia/
 site_url :=
 
 site:
 	$(if $(site_url),,$(error site_url is required))
-	jupyter-book build --html --ci --strict
+	uv run jupyter-book build --html --ci --strict
 	# these point to the temporary server used for the build (http://localhost:3000), so let Read the Docs generate them instead
 	rm -f _build/html/robots.txt _build/html/sitemap.xml _build/html/sitemap_style.xsl
 	# generate redirects from old Jupyter Book 1 URLs. The script only needs its own dependencies, so skip installing the project's.
