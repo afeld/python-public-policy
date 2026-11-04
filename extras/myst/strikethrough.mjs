@@ -1,6 +1,7 @@
 // MyST plugin that renders ~~tilde~~ strikethroughs, so that notebooks can use the syntax that also works in Colab. The MyST parser supports them through its strikethrough extension, but that's off by default and can't be turned on from myst.yml, so this converts the text that's left over after parsing.
 //
 // https://mystmd.org/guide/plugins
+// https://github.com/jupyter-book/jupyter-book/issues/726#issuecomment-6623989489
 
 const MARKER = "~~";
 
