@@ -9,12 +9,12 @@ linkcheck:
 
 slides:
 	uv run jupyter nbconvert --to slides \
-		--SlidesExporter.reveal_scroll=True \
+		--config=jupyter_nbconvert_config.py \
 		--post serve lecture_$(lec).ipynb
 
 test:
 	pytest
-	node --test extras/myst/*.test.mjs
+	node --test extras/myst/strikethrough.test.mjs
 
 # overridden in update.sh
 file := .
