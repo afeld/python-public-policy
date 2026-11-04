@@ -24,7 +24,7 @@ article ol ol ol li {
   text-align: center;
 }
 
-/* show the "Open in Colab" and "View as slides" links as buttons in the page header, by overlapping them with the frontmatter block in the article grid. See extras/myst/colab.mjs and extras/myst/slides.mjs. */
+/* show the "Open in Colab" and "View as slides" links as buttons in the page header, by overlapping them with the frontmatter block in the article grid. See extras/myst/colab.mjs and https://github.com/afeld/myst-slides. */
 article:has(> .colab-link) > .myst-fm-block {
   grid-row: 1;
 }

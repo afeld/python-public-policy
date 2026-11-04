@@ -21,7 +21,7 @@ While the lecture notes can be viewed as a plain notebook, they are also [visibl
 make slides lec=N
 ```
 
-[A MyST plugin](../extras/myst/slides.mjs) also builds each lecture's slides with the site, linked from the top of its page. Slides only show saved outputs, so [run the notebook](#notebook-cleanup) to have them included.
+[A MyST plugin](https://github.com/afeld/myst-slides) also builds each lecture's slides with the site, linked from the top of its page. Slides only show saved outputs, so [run the notebook](#notebook-cleanup) to have them included.
 
 ## Site
 
