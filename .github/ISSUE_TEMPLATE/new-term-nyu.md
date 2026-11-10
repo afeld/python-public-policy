@@ -46,6 +46,7 @@ assignees: afeld
   - [ ] [Set up the Final Project](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011896)
   - [ ] [Make active](https://www.nyu.edu/servicelink/KB0018486)
   - [ ] Set up quizzes
+    - [ ] [Request Respondus](https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011994)
     - [ ] Set IP address range
     - [ ] Enable Respondus
 - [ ] Send calendar invite
